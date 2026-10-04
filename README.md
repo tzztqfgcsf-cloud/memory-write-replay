@@ -1,14 +1,14 @@
 # Specification-Based Replay of Memory-Write Decisions
 
-Reproducibility materials for **Diagnosing Memory-Write Decisions in Conversational Assistants Through Specification-Based Replay** (manuscript v20).
+Research artifacts for **Diagnosing Memory-Write Decisions in Conversational Assistants Through Specification-Based Replay**, including the v26 online appendix. Historical experiment directories retain their original v20 identifiers.
 
-This repository contains the experimental materials behind the paper: authored Korean cases and evaluation references, saved model outputs, memory-write policies, evaluator, offline replay, and supporting analyses. It is not a product demo or a report-only repository.
+This repository contains authored Korean cases and evaluation references, saved model outputs, memory-write policies, the evaluator, offline replay, and supporting analyses.
 
 ## Latest appendix and reuse terms
 
 [Read the v26 online appendix (PDF)](docs/TIST_v26_appendix.pdf). The user-supplied PDF is distributed unchanged; its document version is distinct from the historical experiment directory names.
 
-Original code is available for noncommercial research, teaching and reproduction under the [code license](LICENSES/SORIEUM-NONCOMMERCIAL-CODE-1.0.txt). Original data and documentation use [CC BY-NC 4.0](LICENSES/CC-BY-NC-4.0.txt). Commercial use requires separate permission. Third-party terms are preserved; see [RIGHTS.md](RIGHTS.md).
+Original code is available for noncommercial research, teaching and reproduction under the [code license](LICENSES/NONCOMMERCIAL-RESEARCH-CODE-1.0.txt). Original data and documentation use [CC BY-NC 4.0](LICENSES/CC-BY-NC-4.0.txt). Commercial use requires separate permission. Third-party terms are preserved; see [RIGHTS.md](RIGHTS.md).
 
 The ACM supplementary-material description is [readme.txt](readme.txt).
 
@@ -19,10 +19,14 @@ Requires Python 3.10 or newer. No API keys, model downloads, or Python packages 
 ```sh
 git clone https://github.com/tzztqfgcsf-cloud/memory-write-replay.git
 cd memory-write-replay
-python3 core/replay.py --output-dir /tmp/sorieum-replay
+python3 core/replay.py --output-dir /tmp/memory-write-replay
 ```
 
 Use a new output directory for each verification. Replay reconstructs memory-write decisions from the saved model responses; it does not call models again.
+
+## Reproduce the v26 audit and statistical comparisons
+
+The [v26 Table I9 audit](diagnostics/variant_audit_v26/) supplies a row-level trace and a portable reconstruction of the published classification rule. The [statistics guide](statistics/) provides executable comparisons against the archived confidence intervals and counts. Statistical checks use the dependencies in `statistics/requirements.txt`; the core replay above remains standard-library only.
 
 ## Contents
 
@@ -31,6 +35,7 @@ Use a new output directory for each verification. Replay reconstructs memory-wri
 | [core](core/) | Main panel: 48 authored cases × 21 model configurations × 3 repeats = 3,024 episodes; saved responses, proposals, references, policies and evaluator; 7 original and 7 additional policy conditions; archived candidate-path ALLOW diagnostics are supplied separately. |
 | [diagnostics](diagnostics/) | Supporting v20 experiments, source notices, frozen results and verification instructions. |
 | [supplements](supplements/) | Post-v20 corrected-extractor and learned-verifier experiments, external DSTC2 diagnostic, and CareCall-mem availability record. |
+| [statistics](statistics/) | Portable checks of saved hybrid, Review+Agree/Allow, and main-panel statistics, with missing historical intervals retained as missing. |
 | [schemas](schemas/) | Frozen six-stage structural-output schema and stage selector. |
 | [docs](docs/) | The v26 online appendix and the Korean supplementary report. |
 | [verification](verification/) | Release-level verification results and file-integrity manifest. |
@@ -43,7 +48,7 @@ The unit of the main statistical analysis is the **case**, with repeats clustere
 
 The repository distinguishes reconstruction of decisions, checking the evaluator against saved scores, and reproducing analysis summaries. Successful offline verification establishes consistency with the archived experiments; it is not a new efficacy experiment.
 
-See [REPRODUCING.md](REPRODUCING.md), [RIGHTS.md](RIGHTS.md), and [CITATION.bib](CITATION.bib).
+See the [paper-to-artifact coverage table](REPRODUCING.md#paper-to-artifact-map), [REPRODUCING.md](REPRODUCING.md), [RIGHTS.md](RIGHTS.md), and [CITATION.bib](CITATION.bib).
 
 ## 한국어 안내
 

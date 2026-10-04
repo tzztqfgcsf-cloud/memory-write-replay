@@ -1,0 +1,23 @@
+{
+  "schema": "v26-variant-audit-verification-1",
+  "status": "PASS",
+  "verified_on": "2026-10-05",
+  "normal_reproduction_exit": 0,
+  "standalone_clean_copy_exit": 0,
+  "standalone_only_inputs": "SOURCE_HASHES.json-listed core inputs and appendix, plus this diagnostic; no original project files read",
+  "archived_generated_results_byte_identical": true,
+  "unique_observation_rows": 82,
+  "result_sha256": {
+    "summary.json": "acb4ef4addeee85278c75acba6da69d67d5ef159ccc2e0b05c6b383628b7ebc6",
+    "required_fact_trace.json": "f6b5969b743128eff5248fa9ebc918fe4fc7591273c70b79dad7ed6dd3beb5d8",
+    "rows.csv": "44fd74e51425b0d778d0bb470a8b622425a8dc88c3f4e9ed2040d05ad5902ade",
+    "input_hashes.json": "05d1208fa338f9fab6f854d03738a5dbd1a4b89399bfbf2d7acb2b49e7b9dcfa"
+  },
+  "source_hashes_verified_before_and_after": true,
+  "new_model_calls": 0,
+  "new_score_evaluations": 0,
+  "frozen_file_changes": 0,
+  "python_files_lint": "PASS (.venv-dev ruff with project config)",
+  "verification_outputs_saved_in_external_temporary_directory": true,
+  "interpretation": "Exact Table I9 totals and explicitly numbered case counts reproduced mechanically; additional individual unlisted/correction case counts are derived, not individually published; original audit code not recovered; no semantic/human adjudication."
+}

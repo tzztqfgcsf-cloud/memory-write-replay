@@ -4,7 +4,7 @@ The repository owner authorized these terms for the contributors' original mater
 
 | Material | Terms |
 |---|---|
-| Original software source, including replay, evaluator, adapters and analysis scripts (`.py`, `.sh`, `.js`, `.mjs`, and other executable source) | [Sorieum Noncommercial Research Code License 1.0](LICENSES/SORIEUM-NONCOMMERCIAL-CODE-1.0.txt): noncommercial research, teaching, evaluation and reproduction; commercial use requires separate prior written permission. |
+| Original software source, including replay, evaluator, adapters and analysis scripts (`.py`, `.sh`, `.js`, `.mjs`, and other executable source) | [Noncommercial Research Code License 1.0](LICENSES/NONCOMMERCIAL-RESEARCH-CODE-1.0.txt): noncommercial research, teaching, evaluation and reproduction; commercial use requires separate prior written permission. |
 | Original authored cases, references, prompts, schemas, study metadata, tables, documentation, and the author-contributed text/figures in `docs/TIST_v26_appendix.pdf` | [CC BY-NC 4.0](LICENSES/CC-BY-NC-4.0.txt): attribution and noncommercial use. |
 | Saved model outputs and mixed records | CC BY-NC 4.0 applies only to the contributors' rights in these materials and their selection/arrangement. It does not override third-party rights or applicable provider terms. |
 | Third-party material, including dataset-derived content | Original upstream terms and notices prevail for those components. |
@@ -13,7 +13,7 @@ These assignments include compressed copies of the same material. Code embedded 
 
 ## Attribution
 
-Credit “Sorieum artifact contributors,” the paper title, this repository and the release used. Preserve supplied creator and copyright notices and identify modifications. `CITATION.bib` provides a bibliographic entry; no unverified author identity is supplied.
+Credit “Artifact contributors,” the paper title, this repository and the release used. Preserve supplied creator and copyright notices and identify modifications. `CITATION.bib` provides a bibliographic entry; no unverified author identity is supplied.
 
 ## Third-party exceptions
 
@@ -26,3 +26,5 @@ DSTC2 original corpus files and transcript-bearing outputs are not redistributed
 Commercial use of the covered original material is not authorized by these terms. Contact the repository owner through GitHub to discuss separate permission from the relevant rights holders. CC BY-NC does not prevent the rights holders from separately licensing their own work commercially.
 
 Release `v20-artifact-v1` is preserved unchanged and did not assign a blanket reuse license. This release adds explicit noncommercial permissions without rewriting the earlier release. This repository is publicly inspectable and source-available; the code license is not an OSI-approved open-source license.
+
+Release `paper-artifact-v3` removes project branding from public-facing names. The code license name and attribution label are updated to neutral names; the permissions, restrictions and underlying rights holders are unchanged. Historical experimental identifiers and previous immutable releases retain their original names for traceability.

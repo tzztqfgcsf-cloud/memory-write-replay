@@ -1,6 +1,6 @@
-Sorieum Noncommercial Research Code License 1.0
+Noncommercial Research Code License 1.0
 
-Copyright (c) 2026 the Sorieum artifact contributors, for their respective
+Copyright (c) 2026 the Artifact contributors, for their respective
 original contributions.
 
 1. Scope
@@ -28,7 +28,7 @@ of a fee for a particular copy does not by itself make a use noncommercial.
 Retain this license, applicable copyright and attribution notices, and
 third-party notices in redistributed copies. Identify modifications and
 include a link to the source repository:
-https://github.com/tzztqfgcsf-cloud/sorieum-paper-supplements
+https://github.com/tzztqfgcsf-cloud/memory-write-replay
 Do not grant recipients commercial rights to the covered original code
 or represent modified versions as endorsed by the original contributors.
 Recipients may exercise the permissions in this license directly from
