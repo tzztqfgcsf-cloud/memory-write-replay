@@ -1,0 +1,56 @@
+{
+  "call_id": "1ac863039a7b75032399a950-g_final",
+  "cost_note": "provider_did_not_report_money",
+  "cost_usd_reported": null,
+  "finish_reason": "STOP",
+  "http_status": 200,
+  "latency_seconds": 1.6857,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.0014477924979412495,
+        "content": {
+          "parts": [
+            {
+              "text": "{\"reply\": \"I've updated the booking to start on Tuesday. Is there anything else I can help you with?\", \"action\": {\"kind\": \"CONTINUE\", \"question_slot\": null, \"required_slots\": [], \"speaker_id\": \"system\"}, \"memory_decisions\": [{\"alternatives\": [], \"fact\": {\"relation\": \"hotel.book.day\", \"source_turns\": [\"PMUL4646.json#turn16\"], \"subject\": \"PMUL4646.json#hotel.book\", \"time\": \"unknown\", \"value\": \"tuesday\"}, \"operation\": \"CORRECT\", \"slot\": \"hotel.book.day\", \"source_turns\": [\"PMUL4646.json#turn16\"], \"target_fact_id\": \"PMUL4646.json#state15#hotel.book.day\"}]}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T23:07:38.973395Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "uqG5atO0O7OKktwPsejJ4QY",
+    "usageMetadata": {
+      "candidatesTokenCount": 193,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 193
+        }
+      ],
+      "promptTokenCount": 2867,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 2867
+        }
+      ],
+      "totalTokenCount": 3060,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "d599d3688429075e7f09264f51bae3af07b5517ff11d5309d976496cd8f29e36",
+  "status": "OK",
+  "text": "{\"reply\": \"I've updated the booking to start on Tuesday. Is there anything else I can help you with?\", \"action\": {\"kind\": \"CONTINUE\", \"question_slot\": null, \"required_slots\": [], \"speaker_id\": \"system\"}, \"memory_decisions\": [{\"alternatives\": [], \"fact\": {\"relation\": \"hotel.book.day\", \"source_turns\": [\"PMUL4646.json#turn16\"], \"subject\": \"PMUL4646.json#hotel.book\", \"time\": \"unknown\", \"value\": \"tuesday\"}, \"operation\": \"CORRECT\", \"slot\": \"hotel.book.day\", \"source_turns\": [\"PMUL4646.json#turn16\"], \"target_fact_id\": \"PMUL4646.json#state15#hotel.book.day\"}]}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 2867,
+    "output_tokens": 193,
+    "reasoning_tokens": 0,
+    "total_tokens": 3060
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "call_id": "7480618ab8b58b8a6f0e-g_draft",
+  "finish_reason": "STOP",
+  "finished_unix": 1790492139.826584,
+  "http_status": 200,
+  "latency_seconds": 1.3576,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.0653989002966756,
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"reply\": \"남강문구로 상호를 변경하신 건가요, 아니면 남광문구로 변경하신 건가요? 정확한 상호를 알려주시면 명함 재발급에 반영하겠습니다.\",\n  \"action\": {\n    \"kind\": \"CLARIFY\",\n    \"question_slot\": \"shop_name\",\n    \"required_slots\": [],\n    \"speaker_id\": \"p1\"\n  },\n  \"memory_decisions\": [\n    {\n      \"alternatives\": [\n        \"남강문구\",\n        \"남광문구\"\n      ],\n      \"fact\": null,\n      \"operation\": \"HOLD\",\n      \"slot\": \"shop_name\",\n      \"source_turns\": [\"t2\"],\n      \"target_fact_id\": null\n    }\n  ]\n}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T06:55:38.575680Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "6r24asCRI_ObncoPmvuomAI",
+    "usageMetadata": {
+      "candidatesTokenCount": 191,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 191
+        }
+      ],
+      "promptTokenCount": 1684,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1684
+        }
+      ],
+      "totalTokenCount": 1875,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "22db61d6a7261e383882d2e6d8890f4945a0f271145280650a0b088dfbc582e6",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790492138.468277,
+  "status": "OK",
+  "text": "{\n  \"reply\": \"남강문구로 상호를 변경하신 건가요, 아니면 남광문구로 변경하신 건가요? 정확한 상호를 알려주시면 명함 재발급에 반영하겠습니다.\",\n  \"action\": {\n    \"kind\": \"CLARIFY\",\n    \"question_slot\": \"shop_name\",\n    \"required_slots\": [],\n    \"speaker_id\": \"p1\"\n  },\n  \"memory_decisions\": [\n    {\n      \"alternatives\": [\n        \"남강문구\",\n        \"남광문구\"\n      ],\n      \"fact\": null,\n      \"operation\": \"HOLD\",\n      \"slot\": \"shop_name\",\n      \"source_turns\": [\"t2\"],\n      \"target_fact_id\": null\n    }\n  ]\n}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1684,
+    "output_tokens": 191,
+    "reasoning_tokens": 0,
+    "total_tokens": 1875
+  }
+}

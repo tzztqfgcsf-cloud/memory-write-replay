@@ -1,0 +1,29 @@
+{
+  "scope": "Saved-audit mechanism exposure, not a new outcome scorer",
+  "packets": 24,
+  "valid_candidate_paths": 24,
+  "correct_proposal_cases": 18,
+  "fallback_eligible_cases": 6,
+  "witness_rescued_cases": 5,
+  "simple_exception_cases": 6,
+  "witness_rejection_cases": 1,
+  "fallback_reasons": {
+    "CORRECTION_WITNESS_VALID": 5,
+    "WITNESS_NOT_AFFIRMED": 1
+  },
+  "eligible_case_ids": [
+    "N002",
+    "N011",
+    "N007",
+    "N017",
+    "N015",
+    "N013"
+  ],
+  "rescued_case_ids": [
+    "N002",
+    "N011",
+    "N007",
+    "N017",
+    "N013"
+  ]
+}

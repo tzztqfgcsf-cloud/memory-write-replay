@@ -1,0 +1,20 @@
+{
+  "status": "OK",
+  "http_status": 200,
+  "text": "{\"decisions\": [{\"index\": 0, \"approve\": true, \"reason\": \"사용자가 개업 연도를 1993년으로 명시적으로 정정함\"}]}",
+  "usage": {
+    "input_tokens": 710,
+    "output_tokens": 40,
+    "reasoning_tokens": 180,
+    "total_tokens": 930,
+    "cached_tokens": null
+  },
+  "finish_reason": "STOP",
+  "model_version": "gemini-3.1-pro-preview",
+  "id": "gemini38_flash_CT45_judge",
+  "key": "gemini38_flash_CT45",
+  "stage": "judge",
+  "arm": "judge",
+  "requested_model": "gemini-3.1-pro-preview",
+  "latency_seconds": 3.486641417024657
+}

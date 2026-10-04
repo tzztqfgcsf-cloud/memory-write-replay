@@ -1,0 +1,57 @@
+{
+  "call_id": "ae1637a01f7531351100-candidate_final",
+  "finish_reason": "STOP",
+  "finished_unix": 1790494414.359033,
+  "http_status": 200,
+  "latency_seconds": 8.2752,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.04922447906681365,
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"reply\": \"네, 알겠습니다. 오산에 사시는군요. 이 정보를 저장해도 될까요?\",\n  \"action\": {\n    \"kind\": \"CLARIFY\",\n    \"question_slot\": \"topic_permission\",\n    \"required_slots\": [],\n    \"speaker_id\": \"p1\"\n  },\n  \"memory_decisions\": [\n    {\n      \"alternatives\": [\n        \"오산\"\n      ],\n      \"fact\": null,\n      \"operation\": \"HOLD\",\n      \"slot\": \"residence\",\n      \"source_turns\": [\n        \"t2\"\n      ],\n      \"target_fact_id\": null\n    }\n  ]\n}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T07:33:26.178775Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "xsa4atf0CtCNx9gP07myoAQ",
+    "usageMetadata": {
+      "candidatesTokenCount": 163,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 163
+        }
+      ],
+      "promptTokenCount": 2022,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 2022
+        }
+      ],
+      "totalTokenCount": 2185,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "690ecd66ce958da8eace2d1097443ca3f3cab586c06826c3ddf973056c9be0dd",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790494406.083329,
+  "status": "OK",
+  "text": "{\n  \"reply\": \"네, 알겠습니다. 오산에 사시는군요. 이 정보를 저장해도 될까요?\",\n  \"action\": {\n    \"kind\": \"CLARIFY\",\n    \"question_slot\": \"topic_permission\",\n    \"required_slots\": [],\n    \"speaker_id\": \"p1\"\n  },\n  \"memory_decisions\": [\n    {\n      \"alternatives\": [\n        \"오산\"\n      ],\n      \"fact\": null,\n      \"operation\": \"HOLD\",\n      \"slot\": \"residence\",\n      \"source_turns\": [\n        \"t2\"\n      ],\n      \"target_fact_id\": null\n    }\n  ]\n}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 2022,
+    "output_tokens": 163,
+    "reasoning_tokens": 0,
+    "total_tokens": 2185
+  }
+}

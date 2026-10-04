@@ -1,0 +1,56 @@
+{
+  "call_id": "40c33d8f0e77463409fa8a42-candidate_extract",
+  "cost_note": "provider_did_not_report_money",
+  "cost_usd_reported": null,
+  "finish_reason": "STOP",
+  "http_status": 200,
+  "latency_seconds": 2.2877,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.004673763005821793,
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"beliefs\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"facts\": [\n        {\n          \"relation\": \"train.semi.destination\",\n          \"source_turns\": [\n            \"MUL0329.json#turn8\"\n          ],\n          \"subject\": \"MUL0329.json#train.semi\",\n          \"time\": \"unknown\",\n          \"value\": \"stevenage\"\n        },\n        {\n          \"relation\": \"train.semi.leaveAt\",\n          \"source_turns\": [\n            \"MUL0329.json#turn8\"\n          ],\n          \"subject\": \"MUL0329.json#train.semi\",\n          \"time\": \"unknown\",\n          \"value\": \"14:00\"\n        },\n        {\n          \"relation\": \"train.semi.day\",\n          \"source_turns\": [\n            \"MUL0329.json#turn8\"\n          ],\n          \"subject\": \"MUL0329.json#train.semi\",\n          \"time\": \"unknown\",\n          \"value\": \"friday\"\n        }\n      ]\n    }\n  ],\n  \"correction_witnesses\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"target_fact_id\": \"MUL0329.json#state7#train.semi.destination\",\n      \"subject\": \"MUL0329.json#train.semi\",\n      \"relation\": \"train.semi.destination\",\n      \"time\": \"unknown\",\n      \"new_value\": \"stevenage\",\n      \"source_turn\": \"MUL0329.json#turn8\",\n      \"evidence_quote\": \"Sorry, I'm looking for a train TO stevenage\",\n      \"polarity\": \"affirmed\"\n    }\n  ]\n}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T23:20:57.787466Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "2aS5aoqIMPGancoP76ybiQ0",
+    "usageMetadata": {
+      "candidatesTokenCount": 432,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 432
+        }
+      ],
+      "promptTokenCount": 1761,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1761
+        }
+      ],
+      "totalTokenCount": 2193,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "698f2a9b3f4b1b99accfdfcb09323fb2f2657815a50638799f0bfe3df8ca4537",
+  "status": "OK",
+  "text": "{\n  \"beliefs\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"facts\": [\n        {\n          \"relation\": \"train.semi.destination\",\n          \"source_turns\": [\n            \"MUL0329.json#turn8\"\n          ],\n          \"subject\": \"MUL0329.json#train.semi\",\n          \"time\": \"unknown\",\n          \"value\": \"stevenage\"\n        },\n        {\n          \"relation\": \"train.semi.leaveAt\",\n          \"source_turns\": [\n            \"MUL0329.json#turn8\"\n          ],\n          \"subject\": \"MUL0329.json#train.semi\",\n          \"time\": \"unknown\",\n          \"value\": \"14:00\"\n        },\n        {\n          \"relation\": \"train.semi.day\",\n          \"source_turns\": [\n            \"MUL0329.json#turn8\"\n          ],\n          \"subject\": \"MUL0329.json#train.semi\",\n          \"time\": \"unknown\",\n          \"value\": \"friday\"\n        }\n      ]\n    }\n  ],\n  \"correction_witnesses\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"target_fact_id\": \"MUL0329.json#state7#train.semi.destination\",\n      \"subject\": \"MUL0329.json#train.semi\",\n      \"relation\": \"train.semi.destination\",\n      \"time\": \"unknown\",\n      \"new_value\": \"stevenage\",\n      \"source_turn\": \"MUL0329.json#turn8\",\n      \"evidence_quote\": \"Sorry, I'm looking for a train TO stevenage\",\n      \"polarity\": \"affirmed\"\n    }\n  ]\n}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1761,
+    "output_tokens": 432,
+    "reasoning_tokens": 0,
+    "total_tokens": 2193
+  }
+}

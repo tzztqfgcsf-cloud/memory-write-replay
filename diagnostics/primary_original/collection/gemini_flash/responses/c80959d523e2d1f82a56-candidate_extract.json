@@ -1,0 +1,57 @@
+{
+  "call_id": "c80959d523e2d1f82a56-candidate_extract",
+  "finish_reason": "STOP",
+  "finished_unix": 1790491222.033928,
+  "http_status": 200,
+  "latency_seconds": 2.1687,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.0009248366161268585,
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"beliefs\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"facts\": [\n        {\n          \"relation\": \"learned_from\",\n          \"source_turns\": [\n            \"t2\"\n          ],\n          \"subject\": \"영숙\",\n          \"time\": \"past\",\n          \"value\": \"이 사범님\"\n        }\n      ]\n    },\n    {\n      \"candidate_id\": \"c2\",\n      \"facts\": [\n        {\n          \"relation\": \"learned_from\",\n          \"source_turns\": [\n            \"t2\"\n          ],\n          \"subject\": \"영숙\",\n          \"time\": \"past\",\n          \"value\": \"이 사범님\"\n        }\n      ]\n    }\n  ],\n  \"correction_witnesses\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"evidence_quote\": \"\",\n      \"new_value\": \"박 사범님\",\n      \"polarity\": \"absent\",\n      \"relation\": \"learned_from\",\n      \"source_turn\": \"t2\",\n      \"subject\": \"participant\",\n      \"target_fact_id\": \"f1\",\n      \"time\": \"past\"\n    },\n    {\n      \"candidate_id\": \"c2\",\n      \"evidence_quote\": \"\",\n      \"new_value\": \"박 사범님\",\n      \"polarity\": \"absent\",\n      \"relation\": \"learned_from\",\n      \"source_turn\": \"t2\",\n      \"subject\": \"participant\",\n      \"target_fact_id\": \"f1\",\n      \"time\": \"past\"\n    }\n  ]\n}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T06:40:20.043682Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "VLq4aqLVArOLx9gPv4OY6A4",
+    "usageMetadata": {
+      "candidatesTokenCount": 392,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 392
+        }
+      ],
+      "promptTokenCount": 1710,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1710
+        }
+      ],
+      "totalTokenCount": 2102,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "391140c71f8c2e77b11e902c6510183c6635b25d41f5ae96c2671d989b22fbcc",
+  "stage_schema_sha256": "bda7326ac6a6cbeedf1ecdbf4a2b08277c078351d6689f667dc0d558c4972dd3",
+  "started_unix": 1790491219.864853,
+  "status": "OK",
+  "text": "{\n  \"beliefs\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"facts\": [\n        {\n          \"relation\": \"learned_from\",\n          \"source_turns\": [\n            \"t2\"\n          ],\n          \"subject\": \"영숙\",\n          \"time\": \"past\",\n          \"value\": \"이 사범님\"\n        }\n      ]\n    },\n    {\n      \"candidate_id\": \"c2\",\n      \"facts\": [\n        {\n          \"relation\": \"learned_from\",\n          \"source_turns\": [\n            \"t2\"\n          ],\n          \"subject\": \"영숙\",\n          \"time\": \"past\",\n          \"value\": \"이 사범님\"\n        }\n      ]\n    }\n  ],\n  \"correction_witnesses\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"evidence_quote\": \"\",\n      \"new_value\": \"박 사범님\",\n      \"polarity\": \"absent\",\n      \"relation\": \"learned_from\",\n      \"source_turn\": \"t2\",\n      \"subject\": \"participant\",\n      \"target_fact_id\": \"f1\",\n      \"time\": \"past\"\n    },\n    {\n      \"candidate_id\": \"c2\",\n      \"evidence_quote\": \"\",\n      \"new_value\": \"박 사범님\",\n      \"polarity\": \"absent\",\n      \"relation\": \"learned_from\",\n      \"source_turn\": \"t2\",\n      \"subject\": \"participant\",\n      \"target_fact_id\": \"f1\",\n      \"time\": \"past\"\n    }\n  ]\n}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1710,
+    "output_tokens": 392,
+    "reasoning_tokens": 0,
+    "total_tokens": 2102
+  }
+}

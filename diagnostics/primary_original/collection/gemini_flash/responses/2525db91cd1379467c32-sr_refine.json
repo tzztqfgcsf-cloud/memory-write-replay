@@ -1,0 +1,57 @@
+{
+  "call_id": "2525db91cd1379467c32-sr_refine",
+  "finish_reason": "STOP",
+  "finished_unix": 1790495126.4775639,
+  "http_status": 200,
+  "latency_seconds": 1.2765,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.0019231042236957736,
+        "content": {
+          "parts": [
+            {
+              "text": "{\"reply\": \"네, 알겠습니다. 학교 이야기는 건너뛰고 다른 주제로 대화해 볼까요?\", \"action\": {\"kind\": \"SKIP\", \"question_slot\": null, \"required_slots\": [], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [], \"fact\": null, \"operation\": \"NO_WRITE\", \"slot\": null, \"source_turns\": [\"t2\"], \"target_fact_id\": null}]}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T07:45:25.413566Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "lcm4av6eGbOKktwPsejJ4QY",
+    "usageMetadata": {
+      "candidatesTokenCount": 103,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 103
+        }
+      ],
+      "promptTokenCount": 1909,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1909
+        }
+      ],
+      "totalTokenCount": 2012,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "7373957c34d2fdc76f9571100fb8c919a70e1c93af59e3e796f9d471dc460221",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790495125.200585,
+  "status": "OK",
+  "text": "{\"reply\": \"네, 알겠습니다. 학교 이야기는 건너뛰고 다른 주제로 대화해 볼까요?\", \"action\": {\"kind\": \"SKIP\", \"question_slot\": null, \"required_slots\": [], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [], \"fact\": null, \"operation\": \"NO_WRITE\", \"slot\": null, \"source_turns\": [\"t2\"], \"target_fact_id\": null}]}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1909,
+    "output_tokens": 103,
+    "reasoning_tokens": 0,
+    "total_tokens": 2012
+  }
+}

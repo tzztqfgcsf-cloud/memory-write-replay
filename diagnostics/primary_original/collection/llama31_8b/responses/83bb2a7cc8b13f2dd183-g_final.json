@@ -1,0 +1,36 @@
+{
+  "call_id": "83bb2a7cc8b13f2dd183-g_final",
+  "error_type": null,
+  "finish_reason": "stop",
+  "finished_unix": 1790491297.904432,
+  "latency_seconds": 14.9826,
+  "model_version": "mlx-community/Llama-3.1-8B-Instruct-4bit",
+  "raw_response": {
+    "base_seed": 20260927,
+    "finish_reason": "stop",
+    "generation_calls": 254,
+    "id": "local-959a47dd541991b51eed6666",
+    "seed": 3185486882,
+    "snapshot": "<LOCAL_PATH>",
+    "text": "{\"action\": {\"kind\": \"CONTINUE\", \"question_slot\": \"workplace\", \"required_slots\": [\"workplace\"], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"대한우편\", \"새봄도서관\"], \"fact\": {\"relation\": \"workplace\", \"source_turns\": [\"t1\", \"t2\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"새봄도서관\"}, \"operation\": \"APPEND\", \"slot\": \"workplace\", \"source_turns\": [\"t1\", \"t2\"], \"target_fact_id\": null}, {\"alternatives\": [\"새봄도서관\"], \"fact\": {\"relation\": \"workplace\", \"source_turns\": [\"t1\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"새봄도서관\"}, \"operation\": \"CORRECT\", \"slot\": \"workplace\", \"source_turns\": [\"t1\"], \"target_fact_id\": \"f1\"}], \"reply\": \"아들 도윤은 대한우편에서 일해요. 대한우편은 도윤 직장으로 저장해 주세요, 제 직장 아니고요.\"}",
+    "usage": {
+      "cached_tokens": null,
+      "input_tokens": 2032,
+      "output_tokens": 258,
+      "reasoning_tokens": null,
+      "total_tokens": 2290
+    }
+  },
+  "request_sha256": "259a97cc21be3a801f67997cdc25fd77acb659bea4c81c2924a462f4c0c87fd3",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790491282.921321,
+  "status": "OK",
+  "text": "{\"action\": {\"kind\": \"CONTINUE\", \"question_slot\": \"workplace\", \"required_slots\": [\"workplace\"], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"대한우편\", \"새봄도서관\"], \"fact\": {\"relation\": \"workplace\", \"source_turns\": [\"t1\", \"t2\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"새봄도서관\"}, \"operation\": \"APPEND\", \"slot\": \"workplace\", \"source_turns\": [\"t1\", \"t2\"], \"target_fact_id\": null}, {\"alternatives\": [\"새봄도서관\"], \"fact\": {\"relation\": \"workplace\", \"source_turns\": [\"t1\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"새봄도서관\"}, \"operation\": \"CORRECT\", \"slot\": \"workplace\", \"source_turns\": [\"t1\"], \"target_fact_id\": \"f1\"}], \"reply\": \"아들 도윤은 대한우편에서 일해요. 대한우편은 도윤 직장으로 저장해 주세요, 제 직장 아니고요.\"}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 2032,
+    "output_tokens": 258,
+    "reasoning_tokens": null,
+    "total_tokens": 2290
+  }
+}

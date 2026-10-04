@@ -1,0 +1,57 @@
+{
+  "call_id": "7beb3b12e05c02fc94cc-sr_refine",
+  "finish_reason": "STOP",
+  "finished_unix": 1790492071.415124,
+  "http_status": 200,
+  "latency_seconds": 1.3679,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.0032185584504083294,
+        "content": {
+          "parts": [
+            {
+              "text": "{\"reply\": \"네, 어릴 때 취미로 우표 수집을 추가할게요. 현재 취미인 탁구는 그대로 유지됩니다.\", \"action\": {\"kind\": \"CONTINUE\", \"question_slot\": null, \"required_slots\": [], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [], \"fact\": {\"relation\": \"hobby\", \"source_turns\": [\"t1\", \"t2\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"우표수집\"}, \"operation\": \"APPEND\", \"slot\": null, \"source_turns\": [\"t1\", \"t2\"], \"target_fact_id\": null}]}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T06:54:30.151292Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "pr24avydCfObncoPmvuomAI",
+    "usageMetadata": {
+      "candidatesTokenCount": 151,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 151
+        }
+      ],
+      "promptTokenCount": 2247,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 2247
+        }
+      ],
+      "totalTokenCount": 2398,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "8ff07e76c3355769c98f068ac6e5de11bd953beaf37c9029105b6c51530c326a",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790492070.046271,
+  "status": "OK",
+  "text": "{\"reply\": \"네, 어릴 때 취미로 우표 수집을 추가할게요. 현재 취미인 탁구는 그대로 유지됩니다.\", \"action\": {\"kind\": \"CONTINUE\", \"question_slot\": null, \"required_slots\": [], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [], \"fact\": {\"relation\": \"hobby\", \"source_turns\": [\"t1\", \"t2\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"우표수집\"}, \"operation\": \"APPEND\", \"slot\": null, \"source_turns\": [\"t1\", \"t2\"], \"target_fact_id\": null}]}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 2247,
+    "output_tokens": 151,
+    "reasoning_tokens": 0,
+    "total_tokens": 2398
+  }
+}

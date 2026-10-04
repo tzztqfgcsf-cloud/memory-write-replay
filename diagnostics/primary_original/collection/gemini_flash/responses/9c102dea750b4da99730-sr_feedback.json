@@ -1,0 +1,57 @@
+{
+  "call_id": "9c102dea750b4da99730-sr_feedback",
+  "finish_reason": "STOP",
+  "finished_unix": 1790493158.865997,
+  "http_status": 200,
+  "latency_seconds": 0.902,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.09997464077813285,
+        "content": {
+          "parts": [
+            {
+              "text": "{\"no_change_needed\": true, \"issues\": []}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T07:12:38.051643Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "5sG4aruTA5-cx9gPtNDSwA0",
+    "usageMetadata": {
+      "candidatesTokenCount": 14,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 14
+        }
+      ],
+      "promptTokenCount": 1379,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1379
+        }
+      ],
+      "totalTokenCount": 1393,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "84d885c39a22439a4aa9b905d6d292a570f15e76ca8f378d290a36973125ab1d",
+  "stage_schema_sha256": "377e252cf02129ba34bbc867118dd2b9c6b65042b3fcd7b44099d2fc6e0513ed",
+  "started_unix": 1790493157.963687,
+  "status": "OK",
+  "text": "{\"no_change_needed\": true, \"issues\": []}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1379,
+    "output_tokens": 14,
+    "reasoning_tokens": 0,
+    "total_tokens": 1393
+  }
+}

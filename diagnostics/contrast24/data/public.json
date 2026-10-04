@@ -1,0 +1,869 @@
+{
+  "schema": "correction-challenge-public-1",
+  "cases": [
+    {
+      "case_id": "N001",
+      "pair_id": "P11",
+      "family": "transcript_disagreement",
+      "packet": {
+        "turn_id": "t2",
+        "speaker_id": "p1",
+        "memory_permission": "allowed",
+        "history": [
+          {
+            "turn_id": "t1",
+            "role": "assistant",
+            "text": "현재 기록 항목 하나만 확인하거나 고쳐 주세요. 다른 사람이나 다른 시점의 정보는 새 기록으로 추가하지 마세요. 뜻이 불분명하면 현재 기록을 유지하세요. 기존 현재 거주지 기록은 울산입니다."
+          }
+        ],
+        "alternatives": [
+          "저는 지금 창원에 살아요. 울산으로 된 제 거주지를 고쳐 주세요.",
+          "어, 지금 창원에 살아요. 울산 기록을 수정해 주세요."
+        ],
+        "db_snapshot": {
+          "facts": [
+            {
+              "fact_id": "f1",
+              "subject": "participant",
+              "relation": "residence",
+              "value": "울산",
+              "time": "present",
+              "source_turns": [
+                "t1"
+              ]
+            }
+          ],
+          "pending": []
+        }
+      }
+    },
+    {
+      "case_id": "N002",
+      "pair_id": "P04",
+      "family": "other_person",
+      "packet": {
+        "turn_id": "t2",
+        "speaker_id": "p1",
+        "memory_permission": "allowed",
+        "history": [
+          {
+            "turn_id": "t1",
+            "role": "assistant",
+            "text": "현재 기록 항목 하나만 확인하거나 고쳐 주세요. 다른 사람이나 다른 시점의 정보는 새 기록으로 추가하지 마세요. 뜻이 불분명하면 현재 기록을 유지하세요. 기존 현재 연락 방식 기록은 전화입니다."
+          }
+        ],
+        "alternatives": [
+          "저에게 연락할 때는 앞으로 문자로 해 주세요. 연락 방식 기록을 고쳐 주세요.",
+          "제 연락 방법은 문자로 바뀌었어요. 전화 대신 문자로 적어 주세요."
+        ],
+        "db_snapshot": {
+          "facts": [
+            {
+              "fact_id": "f1",
+              "subject": "participant",
+              "relation": "preferred_contact",
+              "value": "전화",
+              "time": "present",
+              "source_turns": [
+                "t1"
+              ]
+            }
+          ],
+          "pending": []
+        }
+      }
+    },
+    {
+      "case_id": "N003",
+      "pair_id": "P05",
+      "family": "time_scope",
+      "packet": {
+        "turn_id": "t2",
+        "speaker_id": "p1",
+        "memory_permission": "allowed",
+        "history": [
+          {
+            "turn_id": "t1",
+            "role": "assistant",
+            "text": "현재 기록 항목 하나만 확인하거나 고쳐 주세요. 다른 사람이나 다른 시점의 정보는 새 기록으로 추가하지 마세요. 뜻이 불분명하면 현재 기록을 유지하세요. 기존 현재 거주지 기록은 부산입니다."
+          }
+        ],
+        "alternatives": [
+          "인천에는 예전에 살았어요.",
+          "전에는 인천에 있었고요."
+        ],
+        "db_snapshot": {
+          "facts": [
+            {
+              "fact_id": "f1",
+              "subject": "participant",
+              "relation": "residence",
+              "value": "부산",
+              "time": "present",
+              "source_turns": [
+                "t1"
+              ]
+            }
+          ],
+          "pending": []
+        }
+      }
+    },
+    {
+      "case_id": "N004",
+      "pair_id": "P03",
+      "family": "other_person",
+      "packet": {
+        "turn_id": "t2",
+        "speaker_id": "p1",
+        "memory_permission": "allowed",
+        "history": [
+          {
+            "turn_id": "t1",
+            "role": "assistant",
+            "text": "현재 기록 항목 하나만 확인하거나 고쳐 주세요. 다른 사람이나 다른 시점의 정보는 새 기록으로 추가하지 마세요. 뜻이 불분명하면 현재 기록을 유지하세요. 기존 현재 취미 기록은 등산입니다."
+          }
+        ],
+        "alternatives": [
+          "수영은 제 딸 취미예요.",
+          "아, 수영하는 건 딸이고요."
+        ],
+        "db_snapshot": {
+          "facts": [
+            {
+              "fact_id": "f1",
+              "subject": "participant",
+              "relation": "hobby",
+              "value": "등산",
+              "time": "present",
+              "source_turns": [
+                "t1"
+              ]
+            }
+          ],
+          "pending": []
+        }
+      }
+    },
+    {
+      "case_id": "N005",
+      "pair_id": "P08",
+      "family": "hypothetical",
+      "packet": {
+        "turn_id": "t2",
+        "speaker_id": "p1",
+        "memory_permission": "allowed",
+        "history": [
+          {
+            "turn_id": "t1",
+            "role": "assistant",
+            "text": "현재 기록 항목 하나만 확인하거나 고쳐 주세요. 다른 사람이나 다른 시점의 정보는 새 기록으로 추가하지 마세요. 뜻이 불분명하면 현재 기록을 유지하세요. 기존 현재 연락 방식 기록은 전화입니다."
+          }
+        ],
+        "alternatives": [
+          "앞으로 저에게는 이메일로 연락해 주세요. 연락 방식을 바꿔 주세요.",
+          "제 연락 방법을 이제 이메일로 정했습니다. 기록을 고쳐 주세요."
+        ],
+        "db_snapshot": {
+          "facts": [
+            {
+              "fact_id": "f1",
+              "subject": "participant",
+              "relation": "preferred_contact",
+              "value": "전화",
+              "time": "present",
+              "source_turns": [
+                "t1"
+              ]
+            }
+          ],
+          "pending": []
+        }
+      }
+    },
+    {
+      "case_id": "N006",
+      "pair_id": "P09",
+      "family": "quoted_other",
+      "packet": {
+        "turn_id": "t2",
+        "speaker_id": "p1",
+        "memory_permission": "allowed",
+        "history": [
+          {
+            "turn_id": "t1",
+            "role": "assistant",
+            "text": "현재 기록 항목 하나만 확인하거나 고쳐 주세요. 다른 사람이나 다른 시점의 정보는 새 기록으로 추가하지 마세요. 뜻이 불분명하면 현재 기록을 유지하세요. 기존 출생지 기록은 제주입니다."
+          }
+        ],
+        "alternatives": [
+          "친구가 “나는 춘천에서 태어났다”라고 했어요.",
+          "춘천에서 태어났다는 건 친구 이야기예요."
+        ],
+        "db_snapshot": {
+          "facts": [
+            {
+              "fact_id": "f1",
+              "subject": "participant",
+              "relation": "birthplace",
+              "value": "제주",
+              "time": "past",
+              "source_turns": [
+                "t1"
+              ]
+            }
+          ],
+          "pending": []
+        }
+      }
+    },
+    {
+      "case_id": "N007",
+      "pair_id": "P01",
+      "family": "negation",
+      "packet": {
+        "turn_id": "t2",
+        "speaker_id": "p1",
+        "memory_permission": "allowed",
+        "history": [
+          {
+            "turn_id": "t1",
+            "role": "assistant",
+            "text": "현재 기록 항목 하나만 확인하거나 고쳐 주세요. 다른 사람이나 다른 시점의 정보는 새 기록으로 추가하지 마세요. 뜻이 불분명하면 현재 기록을 유지하세요. 기존 현재 거주지 기록은 대전입니다."
+          }
+        ],
+        "alternatives": [
+          "제가 사는 곳은 대전이 아니라 광주예요. 현재 거주지를 광주로 고쳐 주세요.",
+          "어, 대전 아니고 광주에 살아요. 제 거주지 기록을 고쳐 주세요."
+        ],
+        "db_snapshot": {
+          "facts": [
+            {
+              "fact_id": "f1",
+              "subject": "participant",
+              "relation": "residence",
+              "value": "대전",
+              "time": "present",
+              "source_turns": [
+                "t1"
+              ]
+            }
+          ],
+          "pending": []
+        }
+      }
+    },
+    {
+      "case_id": "N008",
+      "pair_id": "P05",
+      "family": "time_scope",
+      "packet": {
+        "turn_id": "t2",
+        "speaker_id": "p1",
+        "memory_permission": "allowed",
+        "history": [
+          {
+            "turn_id": "t1",
+            "role": "assistant",
+            "text": "현재 기록 항목 하나만 확인하거나 고쳐 주세요. 다른 사람이나 다른 시점의 정보는 새 기록으로 추가하지 마세요. 뜻이 불분명하면 현재 기록을 유지하세요. 기존 현재 거주지 기록은 부산입니다."
+          }
+        ],
+        "alternatives": [
+          "예전에는 부산에 살았지만 지금은 인천에 살아요. 현재 거주지를 고쳐 주세요.",
+          "부산은 이전 주소예요. 지금 제 거주지는 인천입니다."
+        ],
+        "db_snapshot": {
+          "facts": [
+            {
+              "fact_id": "f1",
+              "subject": "participant",
+              "relation": "residence",
+              "value": "부산",
+              "time": "present",
+              "source_turns": [
+                "t1"
+              ]
+            }
+          ],
+          "pending": []
+        }
+      }
+    },
+    {
+      "case_id": "N009",
+      "pair_id": "P09",
+      "family": "quoted_other",
+      "packet": {
+        "turn_id": "t2",
+        "speaker_id": "p1",
+        "memory_permission": "allowed",
+        "history": [
+          {
+            "turn_id": "t1",
+            "role": "assistant",
+            "text": "현재 기록 항목 하나만 확인하거나 고쳐 주세요. 다른 사람이나 다른 시점의 정보는 새 기록으로 추가하지 마세요. 뜻이 불분명하면 현재 기록을 유지하세요. 기존 출생지 기록은 제주입니다."
+          }
+        ],
+        "alternatives": [
+          "제가 태어난 곳은 제주가 아니라 춘천이에요. 출생지 기록을 고쳐 주세요.",
+          "제 출생지는 춘천입니다. 제주로 된 기록을 바로잡아 주세요."
+        ],
+        "db_snapshot": {
+          "facts": [
+            {
+              "fact_id": "f1",
+              "subject": "participant",
+              "relation": "birthplace",
+              "value": "제주",
+              "time": "past",
+              "source_turns": [
+                "t1"
+              ]
+            }
+          ],
+          "pending": []
+        }
+      }
+    },
+    {
+      "case_id": "N010",
+      "pair_id": "P12",
+      "family": "transcript_disagreement",
+      "packet": {
+        "turn_id": "t2",
+        "speaker_id": "p1",
+        "memory_permission": "allowed",
+        "history": [
+          {
+            "turn_id": "t1",
+            "role": "assistant",
+            "text": "현재 기록 항목 하나만 확인하거나 고쳐 주세요. 다른 사람이나 다른 시점의 정보는 새 기록으로 추가하지 마세요. 뜻이 불분명하면 현재 기록을 유지하세요. 기존 이번 만남 장소 기록은 은행 앞입니다."
+          }
+        ],
+        "alternatives": [
+          "이번 만나는 곳은 학교 앞이에요. 장소를 고쳐 주세요.",
+          "이번 만나는 곳은 은행 앞이에요. 장소를 고쳐 주세요."
+        ],
+        "db_snapshot": {
+          "facts": [
+            {
+              "fact_id": "f1",
+              "subject": "participant",
+              "relation": "meeting_place",
+              "value": "은행 앞",
+              "time": "present",
+              "source_turns": [
+                "t1"
+              ]
+            }
+          ],
+          "pending": []
+        }
+      }
+    },
+    {
+      "case_id": "N011",
+      "pair_id": "P10",
+      "family": "quoted_other",
+      "packet": {
+        "turn_id": "t2",
+        "speaker_id": "p1",
+        "memory_permission": "allowed",
+        "history": [
+          {
+            "turn_id": "t1",
+            "role": "assistant",
+            "text": "현재 기록 항목 하나만 확인하거나 고쳐 주세요. 다른 사람이나 다른 시점의 정보는 새 기록으로 추가하지 마세요. 뜻이 불분명하면 현재 기록을 유지하세요. 기존 현재 취미 기록은 독서입니다."
+          }
+        ],
+        "alternatives": [
+          "제 취미는 이제 사진 찍기예요. 독서로 적힌 걸 고쳐 주세요.",
+          "제가 즐기는 취미는 사진 찍기입니다. 제 기록을 바꿔 주세요."
+        ],
+        "db_snapshot": {
+          "facts": [
+            {
+              "fact_id": "f1",
+              "subject": "participant",
+              "relation": "hobby",
+              "value": "독서",
+              "time": "present",
+              "source_turns": [
+                "t1"
+              ]
+            }
+          ],
+          "pending": []
+        }
+      }
+    },
+    {
+      "case_id": "N012",
+      "pair_id": "P07",
+      "family": "hypothetical",
+      "packet": {
+        "turn_id": "t2",
+        "speaker_id": "p1",
+        "memory_permission": "allowed",
+        "history": [
+          {
+            "turn_id": "t1",
+            "role": "assistant",
+            "text": "현재 기록 항목 하나만 확인하거나 고쳐 주세요. 다른 사람이나 다른 시점의 정보는 새 기록으로 추가하지 마세요. 뜻이 불분명하면 현재 기록을 유지하세요. 기존 이번 만남 장소 기록은 시청역입니다."
+          }
+        ],
+        "alternatives": [
+          "만약 장소를 바꾼다면 시민공원이 좋겠어요.",
+          "시민공원에서 만나면 어떨까 생각만 해 봤어요."
+        ],
+        "db_snapshot": {
+          "facts": [
+            {
+              "fact_id": "f1",
+              "subject": "participant",
+              "relation": "meeting_place",
+              "value": "시청역",
+              "time": "present",
+              "source_turns": [
+                "t1"
+              ]
+            }
+          ],
+          "pending": []
+        }
+      }
+    },
+    {
+      "case_id": "N013",
+      "pair_id": "P03",
+      "family": "other_person",
+      "packet": {
+        "turn_id": "t2",
+        "speaker_id": "p1",
+        "memory_permission": "allowed",
+        "history": [
+          {
+            "turn_id": "t1",
+            "role": "assistant",
+            "text": "현재 기록 항목 하나만 확인하거나 고쳐 주세요. 다른 사람이나 다른 시점의 정보는 새 기록으로 추가하지 마세요. 뜻이 불분명하면 현재 기록을 유지하세요. 기존 현재 취미 기록은 등산입니다."
+          }
+        ],
+        "alternatives": [
+          "제 취미는 이제 수영이에요. 등산으로 된 제 취미 기록을 고쳐 주세요.",
+          "저는 요즘 수영이 취미예요. 제 기록은 수영으로 바꿔 주세요."
+        ],
+        "db_snapshot": {
+          "facts": [
+            {
+              "fact_id": "f1",
+              "subject": "participant",
+              "relation": "hobby",
+              "value": "등산",
+              "time": "present",
+              "source_turns": [
+                "t1"
+              ]
+            }
+          ],
+          "pending": []
+        }
+      }
+    },
+    {
+      "case_id": "N014",
+      "pair_id": "P01",
+      "family": "negation",
+      "packet": {
+        "turn_id": "t2",
+        "speaker_id": "p1",
+        "memory_permission": "allowed",
+        "history": [
+          {
+            "turn_id": "t1",
+            "role": "assistant",
+            "text": "현재 기록 항목 하나만 확인하거나 고쳐 주세요. 다른 사람이나 다른 시점의 정보는 새 기록으로 추가하지 마세요. 뜻이 불분명하면 현재 기록을 유지하세요. 기존 현재 거주지 기록은 대전입니다."
+          }
+        ],
+        "alternatives": [
+          "광주로 이사한 건 아니에요.",
+          "저, 광주로 옮긴 게 아닙니다."
+        ],
+        "db_snapshot": {
+          "facts": [
+            {
+              "fact_id": "f1",
+              "subject": "participant",
+              "relation": "residence",
+              "value": "대전",
+              "time": "present",
+              "source_turns": [
+                "t1"
+              ]
+            }
+          ],
+          "pending": []
+        }
+      }
+    },
+    {
+      "case_id": "N015",
+      "pair_id": "P11",
+      "family": "transcript_disagreement",
+      "packet": {
+        "turn_id": "t2",
+        "speaker_id": "p1",
+        "memory_permission": "allowed",
+        "history": [
+          {
+            "turn_id": "t1",
+            "role": "assistant",
+            "text": "현재 기록 항목 하나만 확인하거나 고쳐 주세요. 다른 사람이나 다른 시점의 정보는 새 기록으로 추가하지 마세요. 뜻이 불분명하면 현재 기록을 유지하세요. 기존 현재 거주지 기록은 울산입니다."
+          }
+        ],
+        "alternatives": [
+          "저는 지금 창원에 살아요.",
+          "저는 지금 창원에 안 살아요."
+        ],
+        "db_snapshot": {
+          "facts": [
+            {
+              "fact_id": "f1",
+              "subject": "participant",
+              "relation": "residence",
+              "value": "울산",
+              "time": "present",
+              "source_turns": [
+                "t1"
+              ]
+            }
+          ],
+          "pending": []
+        }
+      }
+    },
+    {
+      "case_id": "N016",
+      "pair_id": "P06",
+      "family": "time_scope",
+      "packet": {
+        "turn_id": "t2",
+        "speaker_id": "p1",
+        "memory_permission": "allowed",
+        "history": [
+          {
+            "turn_id": "t1",
+            "role": "assistant",
+            "text": "현재 기록 항목 하나만 확인하거나 고쳐 주세요. 다른 사람이나 다른 시점의 정보는 새 기록으로 추가하지 마세요. 뜻이 불분명하면 현재 기록을 유지하세요. 기존 현재 직장 기록은 약국입니다."
+          }
+        ],
+        "alternatives": [
+          "제과점은 예전에 일하던 곳이에요. 지금은 약국에서 일합니다.",
+          "전 직장이 제과점이고, 현재 제 직장은 약국입니다."
+        ],
+        "db_snapshot": {
+          "facts": [
+            {
+              "fact_id": "f1",
+              "subject": "participant",
+              "relation": "workplace",
+              "value": "약국",
+              "time": "present",
+              "source_turns": [
+                "t1"
+              ]
+            }
+          ],
+          "pending": []
+        }
+      }
+    },
+    {
+      "case_id": "N017",
+      "pair_id": "P07",
+      "family": "hypothetical",
+      "packet": {
+        "turn_id": "t2",
+        "speaker_id": "p1",
+        "memory_permission": "allowed",
+        "history": [
+          {
+            "turn_id": "t1",
+            "role": "assistant",
+            "text": "현재 기록 항목 하나만 확인하거나 고쳐 주세요. 다른 사람이나 다른 시점의 정보는 새 기록으로 추가하지 마세요. 뜻이 불분명하면 현재 기록을 유지하세요. 기존 이번 만남 장소 기록은 시청역입니다."
+          }
+        ],
+        "alternatives": [
+          "우리 만날 장소를 시민공원으로 바꿔 주세요. 시청역 약속을 고쳐 주세요.",
+          "만나는 곳을 이제 시민공원으로 정했어요. 현재 장소를 바꿔 주세요."
+        ],
+        "db_snapshot": {
+          "facts": [
+            {
+              "fact_id": "f1",
+              "subject": "participant",
+              "relation": "meeting_place",
+              "value": "시청역",
+              "time": "present",
+              "source_turns": [
+                "t1"
+              ]
+            }
+          ],
+          "pending": []
+        }
+      }
+    },
+    {
+      "case_id": "N018",
+      "pair_id": "P12",
+      "family": "transcript_disagreement",
+      "packet": {
+        "turn_id": "t2",
+        "speaker_id": "p1",
+        "memory_permission": "allowed",
+        "history": [
+          {
+            "turn_id": "t1",
+            "role": "assistant",
+            "text": "현재 기록 항목 하나만 확인하거나 고쳐 주세요. 다른 사람이나 다른 시점의 정보는 새 기록으로 추가하지 마세요. 뜻이 불분명하면 현재 기록을 유지하세요. 기존 이번 만남 장소 기록은 은행 앞입니다."
+          }
+        ],
+        "alternatives": [
+          "이번 만나는 곳은 학교 앞이에요. 은행 앞 기록을 바꿔 주세요.",
+          "이번에, 학교 앞에서 만나요. 은행 앞 약속을 고쳐 주세요."
+        ],
+        "db_snapshot": {
+          "facts": [
+            {
+              "fact_id": "f1",
+              "subject": "participant",
+              "relation": "meeting_place",
+              "value": "은행 앞",
+              "time": "present",
+              "source_turns": [
+                "t1"
+              ]
+            }
+          ],
+          "pending": []
+        }
+      }
+    },
+    {
+      "case_id": "N019",
+      "pair_id": "P10",
+      "family": "quoted_other",
+      "packet": {
+        "turn_id": "t2",
+        "speaker_id": "p1",
+        "memory_permission": "allowed",
+        "history": [
+          {
+            "turn_id": "t1",
+            "role": "assistant",
+            "text": "현재 기록 항목 하나만 확인하거나 고쳐 주세요. 다른 사람이나 다른 시점의 정보는 새 기록으로 추가하지 마세요. 뜻이 불분명하면 현재 기록을 유지하세요. 기존 현재 취미 기록은 독서입니다."
+          }
+        ],
+        "alternatives": [
+          "동생이 “요즘 취미는 사진 찍기야”라고 말했어요. 제 취미는 독서예요.",
+          "사진 찍기가 취미라는 건 동생 말이고, 저는 여전히 독서예요."
+        ],
+        "db_snapshot": {
+          "facts": [
+            {
+              "fact_id": "f1",
+              "subject": "participant",
+              "relation": "hobby",
+              "value": "독서",
+              "time": "present",
+              "source_turns": [
+                "t1"
+              ]
+            }
+          ],
+          "pending": []
+        }
+      }
+    },
+    {
+      "case_id": "N020",
+      "pair_id": "P02",
+      "family": "negation",
+      "packet": {
+        "turn_id": "t2",
+        "speaker_id": "p1",
+        "memory_permission": "allowed",
+        "history": [
+          {
+            "turn_id": "t1",
+            "role": "assistant",
+            "text": "현재 기록 항목 하나만 확인하거나 고쳐 주세요. 다른 사람이나 다른 시점의 정보는 새 기록으로 추가하지 마세요. 뜻이 불분명하면 현재 기록을 유지하세요. 기존 현재 직장 기록은 도서관입니다."
+          }
+        ],
+        "alternatives": [
+          "제 직장은 도서관이 아니고 우체국이에요. 직장 기록을 바꿔 주세요.",
+          "도서관 아니에요. 제가 지금 일하는 곳은 우체국입니다."
+        ],
+        "db_snapshot": {
+          "facts": [
+            {
+              "fact_id": "f1",
+              "subject": "participant",
+              "relation": "workplace",
+              "value": "도서관",
+              "time": "present",
+              "source_turns": [
+                "t1"
+              ]
+            }
+          ],
+          "pending": []
+        }
+      }
+    },
+    {
+      "case_id": "N021",
+      "pair_id": "P02",
+      "family": "negation",
+      "packet": {
+        "turn_id": "t2",
+        "speaker_id": "p1",
+        "memory_permission": "allowed",
+        "history": [
+          {
+            "turn_id": "t1",
+            "role": "assistant",
+            "text": "현재 기록 항목 하나만 확인하거나 고쳐 주세요. 다른 사람이나 다른 시점의 정보는 새 기록으로 추가하지 마세요. 뜻이 불분명하면 현재 기록을 유지하세요. 기존 현재 직장 기록은 도서관입니다."
+          }
+        ],
+        "alternatives": [
+          "우체국이 제 직장은 아니에요. 여전히 도서관에서 일합니다.",
+          "저는 우체국에서 일하지 않아요. 직장은 도서관이에요."
+        ],
+        "db_snapshot": {
+          "facts": [
+            {
+              "fact_id": "f1",
+              "subject": "participant",
+              "relation": "workplace",
+              "value": "도서관",
+              "time": "present",
+              "source_turns": [
+                "t1"
+              ]
+            }
+          ],
+          "pending": []
+        }
+      }
+    },
+    {
+      "case_id": "N022",
+      "pair_id": "P06",
+      "family": "time_scope",
+      "packet": {
+        "turn_id": "t2",
+        "speaker_id": "p1",
+        "memory_permission": "allowed",
+        "history": [
+          {
+            "turn_id": "t1",
+            "role": "assistant",
+            "text": "현재 기록 항목 하나만 확인하거나 고쳐 주세요. 다른 사람이나 다른 시점의 정보는 새 기록으로 추가하지 마세요. 뜻이 불분명하면 현재 기록을 유지하세요. 기존 현재 직장 기록은 약국입니다."
+          }
+        ],
+        "alternatives": [
+          "약국에서 일하던 건 전이고, 지금 직장은 제과점이에요. 고쳐 주세요.",
+          "현재는 제과점에서 일해요. 약국은 지난 직장이에요."
+        ],
+        "db_snapshot": {
+          "facts": [
+            {
+              "fact_id": "f1",
+              "subject": "participant",
+              "relation": "workplace",
+              "value": "약국",
+              "time": "present",
+              "source_turns": [
+                "t1"
+              ]
+            }
+          ],
+          "pending": []
+        }
+      }
+    },
+    {
+      "case_id": "N023",
+      "pair_id": "P08",
+      "family": "hypothetical",
+      "packet": {
+        "turn_id": "t2",
+        "speaker_id": "p1",
+        "memory_permission": "allowed",
+        "history": [
+          {
+            "turn_id": "t1",
+            "role": "assistant",
+            "text": "현재 기록 항목 하나만 확인하거나 고쳐 주세요. 다른 사람이나 다른 시점의 정보는 새 기록으로 추가하지 마세요. 뜻이 불분명하면 현재 기록을 유지하세요. 기존 현재 연락 방식 기록은 전화입니다."
+          }
+        ],
+        "alternatives": [
+          "이메일로 연락하면 어떨까 생각 중이에요. 아직은 전화로 연락해 주세요.",
+          "나중에 이메일을 쓸 수도 있지만, 지금은 계속 전화가 좋아요."
+        ],
+        "db_snapshot": {
+          "facts": [
+            {
+              "fact_id": "f1",
+              "subject": "participant",
+              "relation": "preferred_contact",
+              "value": "전화",
+              "time": "present",
+              "source_turns": [
+                "t1"
+              ]
+            }
+          ],
+          "pending": []
+        }
+      }
+    },
+    {
+      "case_id": "N024",
+      "pair_id": "P04",
+      "family": "other_person",
+      "packet": {
+        "turn_id": "t2",
+        "speaker_id": "p1",
+        "memory_permission": "allowed",
+        "history": [
+          {
+            "turn_id": "t1",
+            "role": "assistant",
+            "text": "현재 기록 항목 하나만 확인하거나 고쳐 주세요. 다른 사람이나 다른 시점의 정보는 새 기록으로 추가하지 마세요. 뜻이 불분명하면 현재 기록을 유지하세요. 기존 현재 연락 방식 기록은 전화입니다."
+          }
+        ],
+        "alternatives": [
+          "아들에게는 문자로 연락하세요. 저에게는 계속 전화로 연락해 주세요.",
+          "문자는 아들한테 쓰고, 저한테는 전화하시면 돼요."
+        ],
+        "db_snapshot": {
+          "facts": [
+            {
+              "fact_id": "f1",
+              "subject": "participant",
+              "relation": "preferred_contact",
+              "value": "전화",
+              "time": "present",
+              "source_turns": [
+                "t1"
+              ]
+            }
+          ],
+          "pending": []
+        }
+      }
+    }
+  ]
+}

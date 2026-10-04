@@ -1,0 +1,57 @@
+{
+  "call_id": "dfaba84b6e8a46e79a53-g_draft",
+  "finish_reason": "STOP",
+  "finished_unix": 1790491379.2161438,
+  "http_status": 200,
+  "latency_seconds": 1.4207,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.03290557861328125,
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"reply\": \"네, 중앙인쇄소에서 일하셨던 것을 기억해둘게요.\",\n  \"action\": {\n    \"kind\": \"CONTINUE\",\n    \"question_slot\": null,\n    \"required_slots\": [],\n    \"speaker_id\": \"p1\"\n  },\n  \"memory_decisions\": [\n    {\n      \"alternatives\": [],\n      \"fact\": {\n        \"relation\": \"workplace\",\n        \"source_turns\": [\n          \"t2\"\n        ],\n        \"subject\": \"participant\",\n        \"time\": \"past\",\n        \"value\": \"중앙인쇄소\"\n      },\n      \"operation\": \"APPEND\",\n      \"slot\": null,\n      \"source_turns\": [\n        \"t2\"\n      ],\n      \"target_fact_id\": null\n    }\n  ]\n}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T06:42:57.890597Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "8bq4auWtNvGcx9gPiJ6amAM",
+    "usageMetadata": {
+      "candidatesTokenCount": 202,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 202
+        }
+      ],
+      "promptTokenCount": 1689,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1689
+        }
+      ],
+      "totalTokenCount": 1891,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "f391008639871e799584652d07066ff45ef2b9f567a5ca5915042fe8f5865a35",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790491377.795081,
+  "status": "OK",
+  "text": "{\n  \"reply\": \"네, 중앙인쇄소에서 일하셨던 것을 기억해둘게요.\",\n  \"action\": {\n    \"kind\": \"CONTINUE\",\n    \"question_slot\": null,\n    \"required_slots\": [],\n    \"speaker_id\": \"p1\"\n  },\n  \"memory_decisions\": [\n    {\n      \"alternatives\": [],\n      \"fact\": {\n        \"relation\": \"workplace\",\n        \"source_turns\": [\n          \"t2\"\n        ],\n        \"subject\": \"participant\",\n        \"time\": \"past\",\n        \"value\": \"중앙인쇄소\"\n      },\n      \"operation\": \"APPEND\",\n      \"slot\": null,\n      \"source_turns\": [\n        \"t2\"\n      ],\n      \"target_fact_id\": null\n    }\n  ]\n}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1689,
+    "output_tokens": 202,
+    "reasoning_tokens": 0,
+    "total_tokens": 1891
+  }
+}

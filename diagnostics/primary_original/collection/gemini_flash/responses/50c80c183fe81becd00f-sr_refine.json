@@ -1,0 +1,57 @@
+{
+  "call_id": "50c80c183fe81becd00f-sr_refine",
+  "finish_reason": "STOP",
+  "finished_unix": 1790493857.2746298,
+  "http_status": 200,
+  "latency_seconds": 1.5191,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.004805167516072591,
+        "content": {
+          "parts": [
+            {
+              "text": "{\"reply\": \"네, 지난 휴가에 여수를 다녀오셨군요. 여행지로 여수를 기억해 둘게요.\", \"action\": {\"kind\": \"CONTINUE\", \"question_slot\": null, \"required_slots\": [], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [], \"fact\": {\"relation\": \"travel_destination\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"여수\"}, \"operation\": \"APPEND\", \"slot\": null, \"source_turns\": [\"t2\"], \"target_fact_id\": null}]}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T07:24:15.864191Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "n8S4ar_fNJyi0ckPm9nakA0",
+    "usageMetadata": {
+      "candidatesTokenCount": 138,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 138
+        }
+      ],
+      "promptTokenCount": 2053,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 2053
+        }
+      ],
+      "totalTokenCount": 2191,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "a62a0fd2d61e5d114d8c270018f81490c7d224113083e5a283930cd5fd1f88ed",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790493855.755156,
+  "status": "OK",
+  "text": "{\"reply\": \"네, 지난 휴가에 여수를 다녀오셨군요. 여행지로 여수를 기억해 둘게요.\", \"action\": {\"kind\": \"CONTINUE\", \"question_slot\": null, \"required_slots\": [], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [], \"fact\": {\"relation\": \"travel_destination\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"여수\"}, \"operation\": \"APPEND\", \"slot\": null, \"source_turns\": [\"t2\"], \"target_fact_id\": null}]}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 2053,
+    "output_tokens": 138,
+    "reasoning_tokens": 0,
+    "total_tokens": 2191
+  }
+}

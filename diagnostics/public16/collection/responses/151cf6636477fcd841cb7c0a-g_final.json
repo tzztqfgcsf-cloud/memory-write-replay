@@ -1,0 +1,56 @@
+{
+  "call_id": "151cf6636477fcd841cb7c0a-g_final",
+  "cost_note": "provider_did_not_report_money",
+  "cost_usd_reported": null,
+  "finish_reason": "STOP",
+  "http_status": 200,
+  "latency_seconds": 1.6539,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.0015726634616105158,
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"reply\": \"You would like to leave after 20:45, correct?\",\n  \"action\": {\n    \"kind\": \"CLARIFY\",\n    \"question_slot\": \"train.semi.leaveAt\",\n    \"required_slots\": [],\n    \"speaker_id\": \"system\"\n  },\n  \"memory_decisions\": [\n    {\n      \"alternatives\": [\n        \"20:45\"\n      ],\n      \"fact\": {\n        \"relation\": \"train.semi.leaveAt\",\n        \"source_turns\": [\n          \"SNG01176.json#turn6\"\n        ],\n        \"subject\": \"SNG01176.json#train.semi\",\n        \"time\": \"unknown\",\n        \"value\": \"20:45\"\n      },\n      \"operation\": \"CORRECT\",\n      \"slot\": \"train.semi.leaveAt\",\n      \"source_turns\": [\n        \"SNG01176.json#turn6\"\n      ],\n      \"target_fact_id\": \"SNG01176.json#state5#train.semi.leaveAt\"\n    }\n  ]\n}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T22:51:34.449548Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "9p25aoy4G9CNx9gP07myoAQ",
+    "usageMetadata": {
+      "candidatesTokenCount": 281,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 281
+        }
+      ],
+      "promptTokenCount": 2089,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 2089
+        }
+      ],
+      "totalTokenCount": 2370,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "be4f1cfbd08d1f9aed29327365747f9be49543fcfe301dcdc8f36e225a4c712d",
+  "status": "OK",
+  "text": "{\n  \"reply\": \"You would like to leave after 20:45, correct?\",\n  \"action\": {\n    \"kind\": \"CLARIFY\",\n    \"question_slot\": \"train.semi.leaveAt\",\n    \"required_slots\": [],\n    \"speaker_id\": \"system\"\n  },\n  \"memory_decisions\": [\n    {\n      \"alternatives\": [\n        \"20:45\"\n      ],\n      \"fact\": {\n        \"relation\": \"train.semi.leaveAt\",\n        \"source_turns\": [\n          \"SNG01176.json#turn6\"\n        ],\n        \"subject\": \"SNG01176.json#train.semi\",\n        \"time\": \"unknown\",\n        \"value\": \"20:45\"\n      },\n      \"operation\": \"CORRECT\",\n      \"slot\": \"train.semi.leaveAt\",\n      \"source_turns\": [\n        \"SNG01176.json#turn6\"\n      ],\n      \"target_fact_id\": \"SNG01176.json#state5#train.semi.leaveAt\"\n    }\n  ]\n}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 2089,
+    "output_tokens": 281,
+    "reasoning_tokens": 0,
+    "total_tokens": 2370
+  }
+}

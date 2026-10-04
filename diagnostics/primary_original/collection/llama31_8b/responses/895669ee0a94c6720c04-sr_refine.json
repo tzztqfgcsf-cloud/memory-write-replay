@@ -1,0 +1,36 @@
+{
+  "call_id": "895669ee0a94c6720c04-sr_refine",
+  "error_type": null,
+  "finish_reason": "stop",
+  "finished_unix": 1790488716.0083761,
+  "latency_seconds": 12.9068,
+  "model_version": "mlx-community/Llama-3.1-8B-Instruct-4bit",
+  "raw_response": {
+    "base_seed": 20260927,
+    "finish_reason": "stop",
+    "generation_calls": 12,
+    "id": "local-8122128564fddbed0b26911e",
+    "seed": 100966947,
+    "snapshot": "<LOCAL_PATH>",
+    "text": "{\"action\": {\"kind\": \"CLARIFY\", \"question_slot\": \"birthplace\", \"required_slots\": [\"birthplace\"], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"광주\", \"대구\"], \"fact\": {\"relation\": \"birthplace\", \"source_turns\": [\"t1\", \"t2\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"광주\"}, \"operation\": \"CORRECT\", \"slot\": \"birthplace\", \"source_turns\": [\"t1\", \"t2\"], \"target_fact_id\": \"f1\"}, {\"alternatives\": [], \"fact\": {\"relation\": \"birthplace\", \"source_turns\": [\"t1\", \"t2\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"대구\"}, \"operation\": \"APPEND\", \"slot\": \"birthplace\", \"source_turns\": [\"t1\", \"t2\"], \"target_fact_id\": null}], \"reply\": \"태어난 곳을 확인하고 싶은 곳이 있으세요?\"}",
+    "usage": {
+      "cached_tokens": null,
+      "input_tokens": 2034,
+      "output_tokens": 232,
+      "reasoning_tokens": null,
+      "total_tokens": 2266
+    }
+  },
+  "request_sha256": "78826a7320619214330eca2f7c2e8063927f674e08e05d99a18f3126a8bf86b1",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790488703.101284,
+  "status": "OK",
+  "text": "{\"action\": {\"kind\": \"CLARIFY\", \"question_slot\": \"birthplace\", \"required_slots\": [\"birthplace\"], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"광주\", \"대구\"], \"fact\": {\"relation\": \"birthplace\", \"source_turns\": [\"t1\", \"t2\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"광주\"}, \"operation\": \"CORRECT\", \"slot\": \"birthplace\", \"source_turns\": [\"t1\", \"t2\"], \"target_fact_id\": \"f1\"}, {\"alternatives\": [], \"fact\": {\"relation\": \"birthplace\", \"source_turns\": [\"t1\", \"t2\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"대구\"}, \"operation\": \"APPEND\", \"slot\": \"birthplace\", \"source_turns\": [\"t1\", \"t2\"], \"target_fact_id\": null}], \"reply\": \"태어난 곳을 확인하고 싶은 곳이 있으세요?\"}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 2034,
+    "output_tokens": 232,
+    "reasoning_tokens": null,
+    "total_tokens": 2266
+  }
+}

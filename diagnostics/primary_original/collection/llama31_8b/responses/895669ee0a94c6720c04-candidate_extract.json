@@ -1,0 +1,36 @@
+{
+  "call_id": "895669ee0a94c6720c04-candidate_extract",
+  "error_type": null,
+  "finish_reason": "stop",
+  "finished_unix": 1790488687.2611,
+  "latency_seconds": 9.5623,
+  "model_version": "mlx-community/Llama-3.1-8B-Instruct-4bit",
+  "raw_response": {
+    "base_seed": 20260927,
+    "finish_reason": "stop",
+    "generation_calls": 9,
+    "id": "local-398d2535bf5f75e0253d6297",
+    "seed": 3345071156,
+    "snapshot": "<LOCAL_PATH>",
+    "text": "{\"beliefs\": [{\"candidate_id\": \"c1\", \"facts\": [{\"relation\": \"birthplace\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"대구\"}]}], \"correction_witnesses\": [{\"candidate_id\": \"c1\", \"evidence_quote\": \"전라도 광주가 아니라 대구에서 태어났어요. 출생지는 대구로 바꿔요.\", \"new_value\": \"대구\", \"polarity\": \"affirmed\", \"relation\": \"birthplace\", \"source_turn\": \"t2\", \"subject\": \"participant\", \"target_fact_id\": \"f1\", \"time\": \"past\"}]}",
+    "usage": {
+      "cached_tokens": null,
+      "input_tokens": 1748,
+      "output_tokens": 150,
+      "reasoning_tokens": null,
+      "total_tokens": 1898
+    }
+  },
+  "request_sha256": "13a0b1be89e9b48bf0333d6dc348e2a7c43c7235ec04d9ed229f3df1d052c0c8",
+  "stage_schema_sha256": "bda7326ac6a6cbeedf1ecdbf4a2b08277c078351d6689f667dc0d558c4972dd3",
+  "started_unix": 1790488677.698745,
+  "status": "OK",
+  "text": "{\"beliefs\": [{\"candidate_id\": \"c1\", \"facts\": [{\"relation\": \"birthplace\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"대구\"}]}], \"correction_witnesses\": [{\"candidate_id\": \"c1\", \"evidence_quote\": \"전라도 광주가 아니라 대구에서 태어났어요. 출생지는 대구로 바꿔요.\", \"new_value\": \"대구\", \"polarity\": \"affirmed\", \"relation\": \"birthplace\", \"source_turn\": \"t2\", \"subject\": \"participant\", \"target_fact_id\": \"f1\", \"time\": \"past\"}]}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1748,
+    "output_tokens": 150,
+    "reasoning_tokens": null,
+    "total_tokens": 1898
+  }
+}

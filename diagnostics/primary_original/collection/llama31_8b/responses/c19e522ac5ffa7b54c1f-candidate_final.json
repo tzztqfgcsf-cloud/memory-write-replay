@@ -1,0 +1,36 @@
+{
+  "call_id": "c19e522ac5ffa7b54c1f-candidate_final",
+  "error_type": null,
+  "finish_reason": "stop",
+  "finished_unix": 1790490441.7652428,
+  "latency_seconds": 10.2864,
+  "model_version": "mlx-community/Llama-3.1-8B-Instruct-4bit",
+  "raw_response": {
+    "base_seed": 20260927,
+    "finish_reason": "stop",
+    "generation_calls": 178,
+    "id": "local-bd4473580f59a8e40f4ee61f",
+    "seed": 1304335172,
+    "snapshot": "<LOCAL_PATH>",
+    "text": "{\"action\": {\"kind\": \"CLARIFY\", \"question_slot\": \"learned_from\", \"required_slots\": [\"learned_from\"], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"강 선생\", \"장 선생님\"], \"fact\": {\"relation\": \"learned_from\", \"source_turns\": [\"t1\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"장 선생님\"}, \"operation\": \"HOLD\", \"slot\": \"learned_from\", \"source_turns\": [\"t1\"], \"target_fact_id\": null}], \"reply\": \"동창은 강 선생님이라고 기억한대요. 누구 기억이 맞는지 모르니 선생님 이름은 보류해요.\"}",
+    "usage": {
+      "cached_tokens": null,
+      "input_tokens": 2096,
+      "output_tokens": 161,
+      "reasoning_tokens": null,
+      "total_tokens": 2257
+    }
+  },
+  "request_sha256": "687c824ccdc19d6749fe3c79d0e29608f57b3e976d3971ec0b6c8fec80fd6209",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790490431.478286,
+  "status": "OK",
+  "text": "{\"action\": {\"kind\": \"CLARIFY\", \"question_slot\": \"learned_from\", \"required_slots\": [\"learned_from\"], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"강 선생\", \"장 선생님\"], \"fact\": {\"relation\": \"learned_from\", \"source_turns\": [\"t1\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"장 선생님\"}, \"operation\": \"HOLD\", \"slot\": \"learned_from\", \"source_turns\": [\"t1\"], \"target_fact_id\": null}], \"reply\": \"동창은 강 선생님이라고 기억한대요. 누구 기억이 맞는지 모르니 선생님 이름은 보류해요.\"}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 2096,
+    "output_tokens": 161,
+    "reasoning_tokens": null,
+    "total_tokens": 2257
+  }
+}

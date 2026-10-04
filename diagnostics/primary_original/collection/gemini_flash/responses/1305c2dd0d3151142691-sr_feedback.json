@@ -1,0 +1,57 @@
+{
+  "call_id": "1305c2dd0d3151142691-sr_feedback",
+  "finish_reason": "STOP",
+  "finished_unix": 1790496281.035775,
+  "http_status": 200,
+  "latency_seconds": 1.5375,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.05116996449001586,
+        "content": {
+          "parts": [
+            {
+              "text": "{\"no_change_needed\": false, \"issues\": [{\"draft_location\": \"memory_decisions[0].operation\", \"evidence_location\": \"db_snapshot.facts[0]\", \"problem\": \"The operation for 'workplace' should be CORRECT, not APPEND, as it's confirming an existing fact.\", \"specific_revision\": \"Change 'APPEND' to 'CORRECT' and ensure target_fact_id is 'f1'.\"}, {\"draft_location\": \"memory_decisions[1].operation\", \"evidence_location\": \"db_snapshot.facts[1]\", \"problem\": \"The operation for 'preferred_contact' should be CORRECT, not APPEND, as it's confirming an existing fact.\", \"specific_revision\": \"Change 'APPEND' to 'CORRECT' and ensure target_fact_id is 'f2'.\"}]}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T08:04:39.645688Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "F864ari0J_ObncoPmvuomAI",
+    "usageMetadata": {
+      "candidatesTokenCount": 181,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 181
+        }
+      ],
+      "promptTokenCount": 1595,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1595
+        }
+      ],
+      "totalTokenCount": 1776,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "883bd92633268bc9f2d36a319b9759a80ed53f3ad995e5dffc482afdb41970d1",
+  "stage_schema_sha256": "377e252cf02129ba34bbc867118dd2b9c6b65042b3fcd7b44099d2fc6e0513ed",
+  "started_unix": 1790496279.497706,
+  "status": "OK",
+  "text": "{\"no_change_needed\": false, \"issues\": [{\"draft_location\": \"memory_decisions[0].operation\", \"evidence_location\": \"db_snapshot.facts[0]\", \"problem\": \"The operation for 'workplace' should be CORRECT, not APPEND, as it's confirming an existing fact.\", \"specific_revision\": \"Change 'APPEND' to 'CORRECT' and ensure target_fact_id is 'f1'.\"}, {\"draft_location\": \"memory_decisions[1].operation\", \"evidence_location\": \"db_snapshot.facts[1]\", \"problem\": \"The operation for 'preferred_contact' should be CORRECT, not APPEND, as it's confirming an existing fact.\", \"specific_revision\": \"Change 'APPEND' to 'CORRECT' and ensure target_fact_id is 'f2'.\"}]}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1595,
+    "output_tokens": 181,
+    "reasoning_tokens": 0,
+    "total_tokens": 1776
+  }
+}

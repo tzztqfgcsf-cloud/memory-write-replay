@@ -1,0 +1,64 @@
+{
+  "call_id": "4dce5e852f6eb41e565d-candidate_final",
+  "finish_reason": "STOP",
+  "finished_unix": 1790493381.127947,
+  "http_status": 200,
+  "latency_seconds": 1.3109,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.014772517884031255,
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"reply\": \"네, 정기 모임 장소를 문화마루로 저장할게요.\",\n  \"action\": {\n    \"kind\": \"CONTINUE\",\n    \"question_slot\": null,\n    \"required_slots\": [],\n    \"speaker_id\": \"p1\"\n  },\n  \"memory_decisions\": [\n    {\n      \"alternatives\": [],\n      \"fact\": {\n        \"relation\": \"meeting_place\",\n        \"source_turns\": [\"t2\"],\n        \"subject\": \"participant\",\n        \"time\": \"present\",\n        \"value\": \"문화마루\"\n      },\n      \"operation\": \"APPEND\",\n      \"slot\": null,\n      \"source_turns\": [\"t2\"],\n      \"target_fact_id\": null\n    }\n  ]\n}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T07:16:19.905187Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "w8K4auOfN_CVktwP37SV-Ag",
+    "usageMetadata": {
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 646
+        }
+      ],
+      "cachedContentTokenCount": 646,
+      "candidatesTokenCount": 188,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 188
+        }
+      ],
+      "promptTokenCount": 2009,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 2009
+        }
+      ],
+      "totalTokenCount": 2197,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "48f7ae59d0d3132f64329fe99a531642600bc3ecf899bdd61e30c9c1c69e52a4",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790493379.8168151,
+  "status": "OK",
+  "text": "{\n  \"reply\": \"네, 정기 모임 장소를 문화마루로 저장할게요.\",\n  \"action\": {\n    \"kind\": \"CONTINUE\",\n    \"question_slot\": null,\n    \"required_slots\": [],\n    \"speaker_id\": \"p1\"\n  },\n  \"memory_decisions\": [\n    {\n      \"alternatives\": [],\n      \"fact\": {\n        \"relation\": \"meeting_place\",\n        \"source_turns\": [\"t2\"],\n        \"subject\": \"participant\",\n        \"time\": \"present\",\n        \"value\": \"문화마루\"\n      },\n      \"operation\": \"APPEND\",\n      \"slot\": null,\n      \"source_turns\": [\"t2\"],\n      \"target_fact_id\": null\n    }\n  ]\n}",
+  "usage": {
+    "cached_tokens": 646,
+    "input_tokens": 2009,
+    "output_tokens": 188,
+    "reasoning_tokens": 0,
+    "total_tokens": 2197
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "call_id": "3af0d1d92bfdefc7cb6a-g_draft",
+  "error_type": null,
+  "finish_reason": "stop",
+  "finished_unix": 1790493799.954932,
+  "latency_seconds": 11.6373,
+  "model_version": "mlx-community/Llama-3.1-8B-Instruct-4bit",
+  "raw_response": {
+    "base_seed": 20260927,
+    "finish_reason": "stop",
+    "generation_calls": 475,
+    "id": "local-5c40cef428a36eba8d241157",
+    "seed": 3768269860,
+    "snapshot": "<LOCAL_PATH>",
+    "text": "{\"action\": {\"kind\": \"CONTINUE\", \"question_slot\": \"shop_name\", \"required_slots\": [\"shop_name\"], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"장미미용실\"], \"fact\": {\"relation\": \"shop_name\", \"source_turns\": [\"t1\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"장미미용실\"}, \"operation\": \"APPEND\", \"slot\": \"shop_name\", \"source_turns\": [\"t1\"], \"target_fact_id\": null}, {\"alternatives\": [\"장미미용실\"], \"fact\": {\"relation\": \"shop_name\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"장미미용실\"}, \"operation\": \"APPEND\", \"slot\": \"shop_name\", \"source_turns\": [\"t2\"], \"target_fact_id\": null}], \"reply\": \"장미미용실이 옛 가게 이름입니다.\"}",
+    "usage": {
+      "cached_tokens": null,
+      "input_tokens": 1661,
+      "output_tokens": 222,
+      "reasoning_tokens": null,
+      "total_tokens": 1883
+    }
+  },
+  "request_sha256": "c1e3a1223b6d801a66f920cb284d2d68b7a34e1ecc8e49f055ea261be8b815c1",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790493788.317256,
+  "status": "OK",
+  "text": "{\"action\": {\"kind\": \"CONTINUE\", \"question_slot\": \"shop_name\", \"required_slots\": [\"shop_name\"], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"장미미용실\"], \"fact\": {\"relation\": \"shop_name\", \"source_turns\": [\"t1\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"장미미용실\"}, \"operation\": \"APPEND\", \"slot\": \"shop_name\", \"source_turns\": [\"t1\"], \"target_fact_id\": null}, {\"alternatives\": [\"장미미용실\"], \"fact\": {\"relation\": \"shop_name\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"장미미용실\"}, \"operation\": \"APPEND\", \"slot\": \"shop_name\", \"source_turns\": [\"t2\"], \"target_fact_id\": null}], \"reply\": \"장미미용실이 옛 가게 이름입니다.\"}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1661,
+    "output_tokens": 222,
+    "reasoning_tokens": null,
+    "total_tokens": 1883
+  }
+}

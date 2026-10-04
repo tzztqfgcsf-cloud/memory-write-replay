@@ -1,0 +1,42 @@
+{
+  "schema": "bounded-boundary-probe-1",
+  "journal": "UNDECIDED",
+  "source_user_request": "보완해 (after comparison with published TIST and DST papers)",
+  "new_source": true,
+  "study_role": "EXPLORATORY_AUTHORED_CHALLENGE",
+  "model": {
+    "alias": "gemini_flash",
+    "provider": "vertex",
+    "model_id": "gemini-2.5-flash",
+    "temperature": 0.2,
+    "minimum_interval_seconds": 8
+  },
+  "maximum_attempts": 24,
+  "expected_cases": 12,
+  "pairs": 6,
+  "repeats": 1,
+  "conditions": [
+    "B",
+    "C",
+    "E"
+  ],
+  "minimum_interval_seconds": 8,
+  "retry": 0,
+  "training": 0,
+  "executable": "/opt/homebrew/opt/python@3.14/bin/python3.14",
+  "order_seed": 2026092724,
+  "output_cap": 2048,
+  "thinking_budget": 0,
+  "stop": "24 attempts; three consecutive provider errors; HTTP401/403; user STOP; freeze drift. No retry, no method/source alteration.",
+  "primary_question": "Does witness fallback C add specificity beyond simply unblocking CORRECT under E?",
+  "primary_metrics": [
+    "supported correction completion",
+    "unsupported alteration",
+    "valid unsupported preservation"
+  ],
+  "statistical_unit": "case, clustered conceptually into six supported/unsupported semantic pairs; one repeat",
+  "analysis": "Prespecified full-state paired descriptive analysis with Wilson intervals and exact McNemar values. A small follow-on authored stress probe, not independent confirmation or pooled with prior outcomes.",
+  "provenance": "AI authored source/reference, source writer not shown code or prior model outputs. No new human labels.",
+  "old_results": "Immutable; no rerequest or rescoring",
+  "old_running_collection": "Leave controller16931 and all old lane files unchanged."
+}

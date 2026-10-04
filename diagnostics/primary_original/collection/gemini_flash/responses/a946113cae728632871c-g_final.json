@@ -1,0 +1,57 @@
+{
+  "call_id": "a946113cae728632871c-g_final",
+  "finish_reason": "STOP",
+  "finished_unix": 1790492673.408628,
+  "http_status": 200,
+  "latency_seconds": 1.38,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.00976598492035499,
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"reply\": \"예린님을 만나서 반가우셨군요. 어떤 점이 가장 좋으셨나요?\",\n  \"action\": {\n    \"kind\": \"CONTINUE\",\n    \"question_slot\": null,\n    \"required_slots\": [],\n    \"speaker_id\": \"p1\"\n  },\n  \"memory_decisions\": [\n    {\n      \"alternatives\": [\"예린이\", \"혜린이\"],\n      \"fact\": null,\n      \"operation\": \"HOLD\",\n      \"slot\": \"learned_from\",\n      \"source_turns\": [\"t2\"],\n      \"target_fact_id\": null\n    }\n  ]\n}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T07:04:32.264295Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "AMC4aueQEPuj0ckPyLyQmAM",
+    "usageMetadata": {
+      "candidatesTokenCount": 156,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 156
+        }
+      ],
+      "promptTokenCount": 1865,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1865
+        }
+      ],
+      "totalTokenCount": 2021,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "80be0efce500ee8ec6efd95b0326fa23326381722f9448bdb04e835d735ce8fd",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790492672.0284438,
+  "status": "OK",
+  "text": "{\n  \"reply\": \"예린님을 만나서 반가우셨군요. 어떤 점이 가장 좋으셨나요?\",\n  \"action\": {\n    \"kind\": \"CONTINUE\",\n    \"question_slot\": null,\n    \"required_slots\": [],\n    \"speaker_id\": \"p1\"\n  },\n  \"memory_decisions\": [\n    {\n      \"alternatives\": [\"예린이\", \"혜린이\"],\n      \"fact\": null,\n      \"operation\": \"HOLD\",\n      \"slot\": \"learned_from\",\n      \"source_turns\": [\"t2\"],\n      \"target_fact_id\": null\n    }\n  ]\n}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1865,
+    "output_tokens": 156,
+    "reasoning_tokens": 0,
+    "total_tokens": 2021
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "call_id": "99db8d21a024ad4bf429-sr_feedback",
+  "finish_reason": "STOP",
+  "finished_unix": 1790496751.048807,
+  "http_status": 200,
+  "latency_seconds": 1.1652,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.11158184210459392,
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"no_change_needed\": false,\n  \"issues\": [\n    {\n      \"draft_location\": \"memory_decisions[0].source_turns\",\n      \"evidence_location\": \"t2\",\n      \"problem\": \"The source_turns for a CORRECT operation should include all turns that establish the fact, not just the correcting turn. The original fact was established in t1.\",\n      \"specific_revision\": \"Change source_turns to [\\\"t1\\\", \\\"t2\\\"]\"\n    }\n  ]\n}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T08:12:30.048421Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "7s-4aqX6AsOAncoPsbLi2Qc",
+    "usageMetadata": {
+      "candidatesTokenCount": 120,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 120
+        }
+      ],
+      "promptTokenCount": 1404,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1404
+        }
+      ],
+      "totalTokenCount": 1524,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "f14acbe14c4004e637a2708ec9863d7aa5d4a21a0948086855dc34a599706531",
+  "stage_schema_sha256": "377e252cf02129ba34bbc867118dd2b9c6b65042b3fcd7b44099d2fc6e0513ed",
+  "started_unix": 1790496749.8833642,
+  "status": "OK",
+  "text": "{\n  \"no_change_needed\": false,\n  \"issues\": [\n    {\n      \"draft_location\": \"memory_decisions[0].source_turns\",\n      \"evidence_location\": \"t2\",\n      \"problem\": \"The source_turns for a CORRECT operation should include all turns that establish the fact, not just the correcting turn. The original fact was established in t1.\",\n      \"specific_revision\": \"Change source_turns to [\\\"t1\\\", \\\"t2\\\"]\"\n    }\n  ]\n}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1404,
+    "output_tokens": 120,
+    "reasoning_tokens": 0,
+    "total_tokens": 1524
+  }
+}

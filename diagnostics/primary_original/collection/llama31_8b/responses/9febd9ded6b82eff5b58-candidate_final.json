@@ -1,0 +1,36 @@
+{
+  "call_id": "9febd9ded6b82eff5b58-candidate_final",
+  "error_type": null,
+  "finish_reason": "stop",
+  "finished_unix": 1790493044.389238,
+  "latency_seconds": 12.1246,
+  "model_version": "mlx-community/Llama-3.1-8B-Instruct-4bit",
+  "raw_response": {
+    "base_seed": 20260927,
+    "finish_reason": "stop",
+    "generation_calls": 406,
+    "id": "local-253185c245cd54df6196f3db",
+    "seed": 1972041492,
+    "snapshot": "<LOCAL_PATH>",
+    "text": "{\"action\": {\"kind\": \"CONTINUE\", \"question_slot\": \"travel_destination\", \"required_slots\": [\"travel_destination\"], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"동해\", \"통영\"], \"fact\": {\"relation\": \"travel_destination\", \"source_turns\": [\"t1\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"동해\"}, \"operation\": \"APPEND\", \"slot\": \"travel_destination\", \"source_turns\": [\"t1\"], \"target_fact_id\": null}, {\"alternatives\": [\"동해\", \"통영\"], \"fact\": {\"relation\": \"travel_destination\", \"source_turns\": [\"t1\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"동해\"}, \"operation\": \"CORRECT\", \"slot\": \"travel_destination\", \"source_turns\": [\"t1\"], \"target_fact_id\": \"f1\"}], \"reply\": \"동해로 갔다는 거예요.\"}",
+    "usage": {
+      "cached_tokens": null,
+      "input_tokens": 2121,
+      "output_tokens": 218,
+      "reasoning_tokens": null,
+      "total_tokens": 2339
+    }
+  },
+  "request_sha256": "47b29327be7b18a52b432ff3dbe0dfdfae3f6ed5bb0c322eb8875a8549e419d4",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790493032.26421,
+  "status": "OK",
+  "text": "{\"action\": {\"kind\": \"CONTINUE\", \"question_slot\": \"travel_destination\", \"required_slots\": [\"travel_destination\"], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"동해\", \"통영\"], \"fact\": {\"relation\": \"travel_destination\", \"source_turns\": [\"t1\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"동해\"}, \"operation\": \"APPEND\", \"slot\": \"travel_destination\", \"source_turns\": [\"t1\"], \"target_fact_id\": null}, {\"alternatives\": [\"동해\", \"통영\"], \"fact\": {\"relation\": \"travel_destination\", \"source_turns\": [\"t1\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"동해\"}, \"operation\": \"CORRECT\", \"slot\": \"travel_destination\", \"source_turns\": [\"t1\"], \"target_fact_id\": \"f1\"}], \"reply\": \"동해로 갔다는 거예요.\"}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 2121,
+    "output_tokens": 218,
+    "reasoning_tokens": null,
+    "total_tokens": 2339
+  }
+}

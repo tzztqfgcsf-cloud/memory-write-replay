@@ -1,0 +1,17 @@
+case_id,dialogue_id,category_source_reader_provisional_not_gold,admissibility,allowed_action_source_reader_provisional,source_omissions_ko
+MW24-MUL1790-t2,MUL1790.json,same_task_self_repair,source_reader_provisional_development_only,correct_focal_sandbox_state_if_supported,대화에 실제 여행이나 승차 결과 없음.
+MW24-PMUL1919-t4,PMUL1919.json,same_task_self_repair,source_reader_provisional_development_only,correct_focal_sandbox_state_if_supported,새 출발시각은 추가 정보이며 기존 목적지 정정과 별도 처리.
+MW24-PMUL1033-t6,PMUL1033.json,same_task_self_repair,source_reader_provisional_development_only,correct_focal_sandbox_state_if_supported,달력 원본과 실제 예약 여부는 제공되지 않음.
+MW24-PMUL0945-t4,PMUL0945.json,same_task_self_repair,source_reader_provisional_development_only,correct_focal_sandbox_state_if_supported,"t0은 Cambridge행, t2는 반대 방향으로 이미 충돌; 마지막 t4의 해석에 이 문맥 필요."
+MW24-SNG01176-t6,SNG01176.json,same_task_self_repair,source_reader_provisional_development_only,correct_focal_sandbox_state_if_supported,주석 이전값은 845로 표기돼 원문 8:45와 형식이 다름.
+MW24-MUL1930-t8,MUL1930.json,same_task_self_repair,source_reader_provisional_development_only,correct_focal_sandbox_state_if_supported,leicester 원문 철자 차이; 실제 승차 여부 없음.
+MW24-PMUL3804-t4,PMUL3804.json,same_task_self_repair,source_reader_provisional_development_only,correct_focal_sandbox_state_if_supported,부정/농담 범위는 인터넷 선호에 한정; 북쪽 숙소 선호는 유지.
+MW24-MUL1523-t4,MUL1523.json,same_task_self_repair,source_reader_provisional_development_only,correct_focal_sandbox_state_if_supported,수요일은 새로 제시됨; 실제 식당 예약 완료 여부는 이 턴만으로 미확정.
+MW24-MUL1664-t10,MUL1664.json,same_task_self_repair,source_reader_provisional_development_only,correct_focal_sandbox_state_if_supported,앞선 식당 7인 예약과 열차 7인 요청은 서로 다른 과업.
+MW24-PMUL4646-t16,PMUL4646.json,same_task_self_repair,source_reader_provisional_development_only,correct_focal_sandbox_state_if_supported,원 예약의 외부 취소/변경 실제 완료 여부는 사용자 발화만으로 알 수 없음.
+MW24-PMUL1635-t14,PMUL1635.json,changed_plan,source_reader_provisional_development_only,do_not_treat_prior_state_as_initially_false,예약 변경 시 원 예약의 역사적 유효성은 유지; 외부 시스템 변경 성공은 응답 이외의 증거 없음.
+MW24-SNG1006-t6,SNG1006.json,fallback_after_booking_failure,source_reader_provisional_development_only,do_not_treat_prior_state_as_initially_false,처음 4박 요구가 잘못된 발화였다는 증거 없음; 실패 통보가 원인.
+MW24-PMUL4852-t4,PMUL4852.json,changed_preference,source_reader_provisional_development_only,do_not_treat_prior_state_as_initially_false,선호 변경 시점은 턴 순서뿐이며 과거 남쪽 선호가 거짓이었던 것은 아님.
+MW24-MUL0329-t8,MUL0329.json,assistant_misunderstanding,source_reader_provisional_development_only,avoid_unsupported_correction_or_hold_for_review,이전 사용자 사실을 정정한 사례로 세면 안 됨.
+MW24-SNG0984-t6,SNG0984.json,verification_question,source_reader_provisional_development_only,avoid_unsupported_correction_or_hold_for_review,질문 자체만으로 사용자의 인터넷 선호나 호텔 Wi-Fi 사실을 확정할 수 없음.
+MW24-PMUL1690-t4,PMUL1690.json,source_annotation_conflict,unscored_annotation_conflict,avoid_unsupported_correction_or_hold_for_review,다음 대화상태 주석이 Ely로 남음; 라벨을 허용상태 gold로 쓰면 안 됨.

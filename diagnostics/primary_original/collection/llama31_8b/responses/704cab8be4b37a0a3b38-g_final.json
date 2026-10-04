@@ -1,0 +1,36 @@
+{
+  "call_id": "704cab8be4b37a0a3b38-g_final",
+  "error_type": null,
+  "finish_reason": "stop",
+  "finished_unix": 1790488734.544916,
+  "latency_seconds": 9.4308,
+  "model_version": "mlx-community/Llama-3.1-8B-Instruct-4bit",
+  "raw_response": {
+    "base_seed": 20260927,
+    "finish_reason": "stop",
+    "generation_calls": 14,
+    "id": "local-94e2fdb4f7e44511dae8e19f",
+    "seed": 2835326052,
+    "snapshot": "<LOCAL_PATH>",
+    "text": "{\"action\": {\"kind\": \"CONTINUE\", \"question_slot\": null, \"required_slots\": [], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"광주\", \"대구\"], \"fact\": {\"relation\": \"birthplace\", \"source_turns\": [\"t1\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"광주\"}, \"operation\": \"HOLD\", \"slot\": null, \"source_turns\": [\"t1\"], \"target_fact_id\": null}], \"reply\": \"그렇군요. 태어난 곳을 정확히 알려주세요.\"}",
+    "usage": {
+      "cached_tokens": null,
+      "input_tokens": 1899,
+      "output_tokens": 132,
+      "reasoning_tokens": null,
+      "total_tokens": 2031
+    }
+  },
+  "request_sha256": "919d53d1e5bcc8d106788eda8801fb0edec2e8aef508d39556f09c2ce94cc58f",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790488725.113696,
+  "status": "OK",
+  "text": "{\"action\": {\"kind\": \"CONTINUE\", \"question_slot\": null, \"required_slots\": [], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"광주\", \"대구\"], \"fact\": {\"relation\": \"birthplace\", \"source_turns\": [\"t1\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"광주\"}, \"operation\": \"HOLD\", \"slot\": null, \"source_turns\": [\"t1\"], \"target_fact_id\": null}], \"reply\": \"그렇군요. 태어난 곳을 정확히 알려주세요.\"}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1899,
+    "output_tokens": 132,
+    "reasoning_tokens": null,
+    "total_tokens": 2031
+  }
+}

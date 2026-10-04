@@ -1,0 +1,57 @@
+{
+  "call_id": "4fbe8ba1ea1c3fa00dce-sr_feedback",
+  "finish_reason": "STOP",
+  "finished_unix": 1790494247.2188082,
+  "http_status": 200,
+  "latency_seconds": 1.4377,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.22308313030086152,
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"no_change_needed\": false,\n  \"issues\": [\n    {\n      \"draft_location\": \"memory_decisions[0].slot\",\n      \"evidence_location\": \"candidates[0].text\",\n      \"problem\": \"The slot 'travel_destination' is not supported by the provided schema. The user explicitly states '여행지 저장하지 말고' and '어디 갔는지는 기록하지 말고'.\",\n      \"specific_revision\": \"Remove the 'slot' field from the memory decision as it's not applicable for a NO_WRITE operation when the user explicitly denies storage of a specific fact type.\"\n    }\n  ]\n}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T07:30:45.899252Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "Jca4arTxNpiXktwPo4SY4AQ",
+    "usageMetadata": {
+      "candidatesTokenCount": 146,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 146
+        }
+      ],
+      "promptTokenCount": 1423,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1423
+        }
+      ],
+      "totalTokenCount": 1569,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "571a96af06ba003f3e3a75d52adc2a3b1c4c479901d186193abadea3ec315003",
+  "stage_schema_sha256": "377e252cf02129ba34bbc867118dd2b9c6b65042b3fcd7b44099d2fc6e0513ed",
+  "started_unix": 1790494245.780813,
+  "status": "OK",
+  "text": "{\n  \"no_change_needed\": false,\n  \"issues\": [\n    {\n      \"draft_location\": \"memory_decisions[0].slot\",\n      \"evidence_location\": \"candidates[0].text\",\n      \"problem\": \"The slot 'travel_destination' is not supported by the provided schema. The user explicitly states '여행지 저장하지 말고' and '어디 갔는지는 기록하지 말고'.\",\n      \"specific_revision\": \"Remove the 'slot' field from the memory decision as it's not applicable for a NO_WRITE operation when the user explicitly denies storage of a specific fact type.\"\n    }\n  ]\n}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1423,
+    "output_tokens": 146,
+    "reasoning_tokens": 0,
+    "total_tokens": 1569
+  }
+}

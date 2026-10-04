@@ -1,0 +1,57 @@
+{
+  "call_id": "eb7f960272a8a3a32859-sr_refine",
+  "finish_reason": "STOP",
+  "finished_unix": 1790493053.431082,
+  "http_status": 200,
+  "latency_seconds": 1.4165,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.0009695938788354397,
+        "content": {
+          "parts": [
+            {
+              "text": "{\"reply\": \"기타를 오 선생님께 배우셨군요. 알겠습니다.\", \"action\": {\"kind\": \"CONTINUE\", \"question_slot\": null, \"required_slots\": [], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [], \"fact\": {\"relation\": \"learned_from\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"오 선생님\"}, \"operation\": \"APPEND\", \"slot\": null, \"source_turns\": [\"t2\"], \"target_fact_id\": null}]}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T07:10:52.116942Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "fMG4as6RB_Gcx9gPiJ6amAM",
+    "usageMetadata": {
+      "candidatesTokenCount": 128,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 128
+        }
+      ],
+      "promptTokenCount": 1933,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1933
+        }
+      ],
+      "totalTokenCount": 2061,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "035322819c457ccafaad199a6c449d338554694466f930bef4028d3a36adcdfe",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790493052.014133,
+  "status": "OK",
+  "text": "{\"reply\": \"기타를 오 선생님께 배우셨군요. 알겠습니다.\", \"action\": {\"kind\": \"CONTINUE\", \"question_slot\": null, \"required_slots\": [], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [], \"fact\": {\"relation\": \"learned_from\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"오 선생님\"}, \"operation\": \"APPEND\", \"slot\": null, \"source_turns\": [\"t2\"], \"target_fact_id\": null}]}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1933,
+    "output_tokens": 128,
+    "reasoning_tokens": 0,
+    "total_tokens": 2061
+  }
+}

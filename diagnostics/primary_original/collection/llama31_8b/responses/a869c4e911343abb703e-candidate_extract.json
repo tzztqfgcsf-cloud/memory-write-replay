@@ -1,0 +1,36 @@
+{
+  "call_id": "a869c4e911343abb703e-candidate_extract",
+  "error_type": null,
+  "finish_reason": "stop",
+  "finished_unix": 1790491801.361714,
+  "latency_seconds": 14.2874,
+  "model_version": "mlx-community/Llama-3.1-8B-Instruct-4bit",
+  "raw_response": {
+    "base_seed": 20260927,
+    "finish_reason": "stop",
+    "generation_calls": 297,
+    "id": "local-0ed4d4a543761de3330401b8",
+    "seed": 3922670430,
+    "snapshot": "<LOCAL_PATH>",
+    "text": "{\"beliefs\": [{\"candidate_id\": \"c1\", \"facts\": [{\"relation\": \"workplace\", \"source_turns\": [\"t1\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"중앙인쇄소\"}]}, {\"candidate_id\": \"c2\", \"facts\": [{\"relation\": \"workplace\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"중앙인쇄소\"}]}], \"correction_witnesses\": [{\"candidate_id\": \"c1\", \"evidence_quote\": \"지금 말고 예전에는 중앙인쇄소에서 일했어요. 과거 직장에 중앙인쇄소를 넣어 줘요.\", \"new_value\": \"중앙인쇄소\", \"polarity\": \"affirmed\", \"relation\": \"workplace\", \"source_turn\": \"t1\", \"subject\": \"participant\", \"target_fact_id\": \"f1\", \"time\": \"past\"}, {\"candidate_id\": \"c2\", \"evidence_quote\": \"호수식당 전에 중앙인쇄소를 다녔어요. 옛 직장으로 추가해 주세요.\", \"new_value\": \"중앙인쇄소\", \"polarity\": \"affirmed\", \"relation\": \"workplace\", \"source_turn\": \"t2\", \"subject\": \"participant\", \"target_fact_id\": \"f1\", \"time\": \"past\"}]}",
+    "usage": {
+      "cached_tokens": null,
+      "input_tokens": 1760,
+      "output_tokens": 314,
+      "reasoning_tokens": null,
+      "total_tokens": 2074
+    }
+  },
+  "request_sha256": "e435d352c7328f839f907bd8db4702f657e95fa2c789f63f1e9043ab06883cab",
+  "stage_schema_sha256": "bda7326ac6a6cbeedf1ecdbf4a2b08277c078351d6689f667dc0d558c4972dd3",
+  "started_unix": 1790491787.0738502,
+  "status": "OK",
+  "text": "{\"beliefs\": [{\"candidate_id\": \"c1\", \"facts\": [{\"relation\": \"workplace\", \"source_turns\": [\"t1\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"중앙인쇄소\"}]}, {\"candidate_id\": \"c2\", \"facts\": [{\"relation\": \"workplace\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"중앙인쇄소\"}]}], \"correction_witnesses\": [{\"candidate_id\": \"c1\", \"evidence_quote\": \"지금 말고 예전에는 중앙인쇄소에서 일했어요. 과거 직장에 중앙인쇄소를 넣어 줘요.\", \"new_value\": \"중앙인쇄소\", \"polarity\": \"affirmed\", \"relation\": \"workplace\", \"source_turn\": \"t1\", \"subject\": \"participant\", \"target_fact_id\": \"f1\", \"time\": \"past\"}, {\"candidate_id\": \"c2\", \"evidence_quote\": \"호수식당 전에 중앙인쇄소를 다녔어요. 옛 직장으로 추가해 주세요.\", \"new_value\": \"중앙인쇄소\", \"polarity\": \"affirmed\", \"relation\": \"workplace\", \"source_turn\": \"t2\", \"subject\": \"participant\", \"target_fact_id\": \"f1\", \"time\": \"past\"}]}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1760,
+    "output_tokens": 314,
+    "reasoning_tokens": null,
+    "total_tokens": 2074
+  }
+}

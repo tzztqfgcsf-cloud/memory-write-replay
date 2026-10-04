@@ -1,0 +1,57 @@
+{
+  "call_id": "0eab8981ecb56fc17754-sr_feedback",
+  "finish_reason": "MAX_TOKENS",
+  "finished_unix": 1790495407.4835799,
+  "http_status": 200,
+  "latency_seconds": 2.8757,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.12463655322790146,
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"no_change_needed\": false,\n  \"issues\": [\n    {\n      \"draft_location\": \"memory_decisions[0].fact.value\",\n      \"evidence_location\": \"t2.candidates[0].text\",\n      \"problem\": \"The value '즐거웠던 이야기' is too vague and does not represent a specific fact to be stored. The user is asking to *talk about* a pleasant experience, not stating that 'pleasant story' is a fact.\",\n      \"specific_revision\": \"Remove this APPEND memory decision. The user is expressing a preference for the conversation topic, not providing a fact to store.\"\n    },\n    {\n      \"draft_location\": \"memory_decisions[0].fact.relation\",\n      \"evidence_location\": \"t2.candidates[0].text\",\n      \"problem\": \"The relation 'learned_from' is not explicitly stated or implied by the user's turn. The user is redirecting the conversation topic.\",\n      \"specific_revision\": \"Remove this APPEND memory decision.\"\n    },\n    {\n      \"draft_location\": \"memory_decisions[0].fact.time\",\n      \"evidence_location\": \"t2.candidates[0].text\",\n      \"problem\": \"The time 'unknown' is used, but the user is not providing a fact about a specific event with an unknown time. They are stating a conversational preference.\",\n      \"specific_revision\": \"Remove this APPEND memory decision.\"\n    },\n    {\n      \"draft_location\": \"memory_decisions[0].operation\",\n      \"evidence_location\": \"t2.candidates[0].text\",\n      \"problem\": \"The user is expressing a preference for the conversation topic, not providing a fact to be appended to memory. Storing '즐거웠던 이야기' as a fact is inappropriate.\",\n      \"specific_revision\": \"Remove this APPEND memory decision. No memory write operation is needed for this turn.\"\n    },\n    {\n      \"draft_location\": \"action.speaker_id\",\n      \"evidence_location\": \"t2.speaker_id\",\n      \"problem\": \"The speaker_id for the action should be the assistant (the one performing the action), not the user (p1).\",\n      \"specific_revision\": \"Change 'p1"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "MAX_TOKENS"
+      }
+    ],
+    "createTime": "2026-09-27T07:50:04.749253Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "rMq4asXdLfGancoP76ybiQ0",
+    "usageMetadata": {
+      "candidatesTokenCount": 512,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 512
+        }
+      ],
+      "promptTokenCount": 1408,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1408
+        }
+      ],
+      "totalTokenCount": 1920,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "ddfaab04033d9cc54e08417564db795714eca6b0f819bb4aa6661c6642793f18",
+  "stage_schema_sha256": "377e252cf02129ba34bbc867118dd2b9c6b65042b3fcd7b44099d2fc6e0513ed",
+  "started_unix": 1790495404.607698,
+  "status": "OK",
+  "text": "{\n  \"no_change_needed\": false,\n  \"issues\": [\n    {\n      \"draft_location\": \"memory_decisions[0].fact.value\",\n      \"evidence_location\": \"t2.candidates[0].text\",\n      \"problem\": \"The value '즐거웠던 이야기' is too vague and does not represent a specific fact to be stored. The user is asking to *talk about* a pleasant experience, not stating that 'pleasant story' is a fact.\",\n      \"specific_revision\": \"Remove this APPEND memory decision. The user is expressing a preference for the conversation topic, not providing a fact to store.\"\n    },\n    {\n      \"draft_location\": \"memory_decisions[0].fact.relation\",\n      \"evidence_location\": \"t2.candidates[0].text\",\n      \"problem\": \"The relation 'learned_from' is not explicitly stated or implied by the user's turn. The user is redirecting the conversation topic.\",\n      \"specific_revision\": \"Remove this APPEND memory decision.\"\n    },\n    {\n      \"draft_location\": \"memory_decisions[0].fact.time\",\n      \"evidence_location\": \"t2.candidates[0].text\",\n      \"problem\": \"The time 'unknown' is used, but the user is not providing a fact about a specific event with an unknown time. They are stating a conversational preference.\",\n      \"specific_revision\": \"Remove this APPEND memory decision.\"\n    },\n    {\n      \"draft_location\": \"memory_decisions[0].operation\",\n      \"evidence_location\": \"t2.candidates[0].text\",\n      \"problem\": \"The user is expressing a preference for the conversation topic, not providing a fact to be appended to memory. Storing '즐거웠던 이야기' as a fact is inappropriate.\",\n      \"specific_revision\": \"Remove this APPEND memory decision. No memory write operation is needed for this turn.\"\n    },\n    {\n      \"draft_location\": \"action.speaker_id\",\n      \"evidence_location\": \"t2.speaker_id\",\n      \"problem\": \"The speaker_id for the action should be the assistant (the one performing the action), not the user (p1).\",\n      \"specific_revision\": \"Change 'p1",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1408,
+    "output_tokens": 512,
+    "reasoning_tokens": 0,
+    "total_tokens": 1920
+  }
+}

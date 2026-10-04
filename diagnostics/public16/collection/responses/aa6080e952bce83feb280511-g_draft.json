@@ -1,0 +1,56 @@
+{
+  "call_id": "aa6080e952bce83feb280511-g_draft",
+  "cost_note": "provider_did_not_report_money",
+  "cost_usd_reported": null,
+  "finish_reason": "STOP",
+  "http_status": 200,
+  "latency_seconds": 2.5618,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.031246761858689923,
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"reply\": \"Okay, so you do need a place with free wifi. I will update that for you.\",\n  \"action\": {\n    \"kind\": \"CONTINUE\",\n    \"question_slot\": null,\n    \"required_slots\": [],\n    \"speaker_id\": \"assistant\"\n  },\n  \"memory_decisions\": [\n    {\n      \"alternatives\": [\n        \"yes\"\n      ],\n      \"fact\": {\n        \"relation\": \"hotel.semi.internet\",\n        \"source_turns\": [\n          \"PMUL3804.json#turn4\"\n        ],\n        \"subject\": \"PMUL3804.json#hotel.semi\",\n        \"time\": \"unknown\",\n        \"value\": \"yes\"\n      },\n      \"operation\": \"CORRECT\",\n      \"slot\": \"hotel.semi.internet\",\n      \"source_turns\": [\n        \"PMUL3804.json#turn4\"\n      ],\n      \"target_fact_id\": \"PMUL3804.json#state3#hotel.semi.internet\"\n    }\n  ]\n}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T22:57:33.275713Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "XZ-5aoHqENCNx9gP07myoAQ",
+    "usageMetadata": {
+      "candidatesTokenCount": 263,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 263
+        }
+      ],
+      "promptTokenCount": 1722,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1722
+        }
+      ],
+      "totalTokenCount": 1985,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "0bba0d03bd69cbe5101b022d572f93b3f9cda2008dbb5868f9670a2a1cddc778",
+  "status": "OK",
+  "text": "{\n  \"reply\": \"Okay, so you do need a place with free wifi. I will update that for you.\",\n  \"action\": {\n    \"kind\": \"CONTINUE\",\n    \"question_slot\": null,\n    \"required_slots\": [],\n    \"speaker_id\": \"assistant\"\n  },\n  \"memory_decisions\": [\n    {\n      \"alternatives\": [\n        \"yes\"\n      ],\n      \"fact\": {\n        \"relation\": \"hotel.semi.internet\",\n        \"source_turns\": [\n          \"PMUL3804.json#turn4\"\n        ],\n        \"subject\": \"PMUL3804.json#hotel.semi\",\n        \"time\": \"unknown\",\n        \"value\": \"yes\"\n      },\n      \"operation\": \"CORRECT\",\n      \"slot\": \"hotel.semi.internet\",\n      \"source_turns\": [\n        \"PMUL3804.json#turn4\"\n      ],\n      \"target_fact_id\": \"PMUL3804.json#state3#hotel.semi.internet\"\n    }\n  ]\n}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1722,
+    "output_tokens": 263,
+    "reasoning_tokens": 0,
+    "total_tokens": 1985
+  }
+}

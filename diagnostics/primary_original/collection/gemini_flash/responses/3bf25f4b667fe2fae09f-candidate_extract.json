@@ -1,0 +1,57 @@
+{
+  "call_id": "3bf25f4b667fe2fae09f-candidate_extract",
+  "finish_reason": "STOP",
+  "finished_unix": 1790493312.164652,
+  "http_status": 200,
+  "latency_seconds": 1.6365,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.0008623408201413276,
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"beliefs\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"facts\": [\n        {\n          \"relation\": \"shop_name\",\n          \"source_turns\": [\n            \"t2\"\n          ],\n          \"subject\": \"participant\",\n          \"time\": \"past\",\n          \"value\": \"장미미용실\"\n        }\n      ]\n    },\n    {\n      \"candidate_id\": \"c2\",\n      \"facts\": [\n        {\n          \"relation\": \"shop_name\",\n          \"source_turns\": [\n            \"t2\"\n          ],\n          \"subject\": \"participant\",\n          \"time\": \"past\",\n          \"value\": \"장미미용실\"\n        }\n      ]\n    }\n  ],\n  \"correction_witnesses\": []\n}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T07:15:10.626086Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "fsK4aqabJvGancoP76ybiQ0",
+    "usageMetadata": {
+      "candidatesTokenCount": 195,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 195
+        }
+      ],
+      "promptTokenCount": 1651,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1651
+        }
+      ],
+      "totalTokenCount": 1846,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "0d3eb0cb8079d20b0808b72f09f46b1c06df837dd862bc2fa08ec1e1bf2db7f9",
+  "stage_schema_sha256": "bda7326ac6a6cbeedf1ecdbf4a2b08277c078351d6689f667dc0d558c4972dd3",
+  "started_unix": 1790493310.5273721,
+  "status": "OK",
+  "text": "{\n  \"beliefs\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"facts\": [\n        {\n          \"relation\": \"shop_name\",\n          \"source_turns\": [\n            \"t2\"\n          ],\n          \"subject\": \"participant\",\n          \"time\": \"past\",\n          \"value\": \"장미미용실\"\n        }\n      ]\n    },\n    {\n      \"candidate_id\": \"c2\",\n      \"facts\": [\n        {\n          \"relation\": \"shop_name\",\n          \"source_turns\": [\n            \"t2\"\n          ],\n          \"subject\": \"participant\",\n          \"time\": \"past\",\n          \"value\": \"장미미용실\"\n        }\n      ]\n    }\n  ],\n  \"correction_witnesses\": []\n}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1651,
+    "output_tokens": 195,
+    "reasoning_tokens": 0,
+    "total_tokens": 1846
+  }
+}

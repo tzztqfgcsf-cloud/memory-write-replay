@@ -1,0 +1,57 @@
+{
+  "call_id": "00584923edcd55744665-candidate_extract",
+  "finish_reason": "STOP",
+  "finished_unix": 1790491570.855634,
+  "http_status": 200,
+  "latency_seconds": 1.6918,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.0023717427913379292,
+        "content": {
+          "parts": [
+            {
+              "text": "{\"beliefs\": [{\"candidate_id\": \"c1\", \"facts\": [{\"relation\": \"preferred_contact\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"편지\"}]}, {\"candidate_id\": \"c2\", \"facts\": [{\"relation\": \"preferred_contact\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"편지\"}]}], \"correction_witnesses\": [{\"candidate_id\": \"c1\", \"evidence_quote\": \"\", \"new_value\": \"영상통화\", \"polarity\": \"absent\", \"relation\": \"preferred_contact\", \"source_turn\": \"t2\", \"subject\": \"participant\", \"target_fact_id\": \"f1\", \"time\": \"present\"}, {\"candidate_id\": \"c2\", \"evidence_quote\": \"\", \"new_value\": \"영상통화\", \"polarity\": \"absent\", \"relation\": \"preferred_contact\", \"source_turn\": \"t2\", \"subject\": \"participant\", \"target_fact_id\": \"f1\", \"time\": \"present\"}]}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T06:46:09.254085Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "sbu4aoXBD8up0ckPy9-P8Ak",
+    "usageMetadata": {
+      "candidatesTokenCount": 253,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 253
+        }
+      ],
+      "promptTokenCount": 1705,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1705
+        }
+      ],
+      "totalTokenCount": 1958,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "b4968d114b9b1bc4399abea052e04bfacb80c56e73f84daf43a639a7f95d2878",
+  "stage_schema_sha256": "bda7326ac6a6cbeedf1ecdbf4a2b08277c078351d6689f667dc0d558c4972dd3",
+  "started_unix": 1790491569.163316,
+  "status": "OK",
+  "text": "{\"beliefs\": [{\"candidate_id\": \"c1\", \"facts\": [{\"relation\": \"preferred_contact\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"편지\"}]}, {\"candidate_id\": \"c2\", \"facts\": [{\"relation\": \"preferred_contact\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"편지\"}]}], \"correction_witnesses\": [{\"candidate_id\": \"c1\", \"evidence_quote\": \"\", \"new_value\": \"영상통화\", \"polarity\": \"absent\", \"relation\": \"preferred_contact\", \"source_turn\": \"t2\", \"subject\": \"participant\", \"target_fact_id\": \"f1\", \"time\": \"present\"}, {\"candidate_id\": \"c2\", \"evidence_quote\": \"\", \"new_value\": \"영상통화\", \"polarity\": \"absent\", \"relation\": \"preferred_contact\", \"source_turn\": \"t2\", \"subject\": \"participant\", \"target_fact_id\": \"f1\", \"time\": \"present\"}]}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1705,
+    "output_tokens": 253,
+    "reasoning_tokens": 0,
+    "total_tokens": 1958
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "call_id": "841e9c1b965a5430444e-sr_refine",
+  "error_type": null,
+  "finish_reason": "stop",
+  "finished_unix": 1790494111.365131,
+  "latency_seconds": 17.487,
+  "model_version": "mlx-community/Llama-3.1-8B-Instruct-4bit",
+  "raw_response": {
+    "base_seed": 20260927,
+    "finish_reason": "stop",
+    "generation_calls": 504,
+    "id": "local-794d0dd657847daa957ba7e5",
+    "seed": 324063742,
+    "snapshot": "<LOCAL_PATH>",
+    "text": "{\"action\": {\"kind\": \"CONTINUE\", \"question_slot\": \"meeting_place\", \"required_slots\": [\"meeting_place\"], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"정기 모임은 문화마루에서 해요.\", \"정기 모임이요, 문화마루에서 해요. 장소를 문화마루로 저장해 둬요.\"], \"fact\": {\"relation\": \"meeting_place\", \"source_turns\": [\"t1\", \"t2\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"culture hall\"}, \"operation\": \"APPEND\", \"slot\": \"meeting_place\", \"source_turns\": [\"t1\", \"t2\"], \"target_fact_id\": null}, {\"alternatives\": [\"정기 모임은 문화마루에서 해요.\", \"정기 모임이요, 문화마루에서 해요. 장소를 문화마루로 저장해 둬요.\"], \"fact\": {\"relation\": \"meeting_place\", \"source_turns\": [\"t1\", \"t2\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"culture hall\"}, \"operation\": \"CORRECT\", \"slot\": \"meeting_place\", \"source_turns\": [\"t1\", \"t2\"], \"target_fact_id\": \"f1\"}, {\"alternatives\": [], \"fact\": {\"relation\": \"meeting_place\", \"source_turns\": [\"t1\", \"t2\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"culture hall\"}, \"operation\": \"HOLD\", \"slot\": \"meeting_place\", \"source_turns\": [\"t1\", \"t2\"], \"target_fact_id\": null}], \"reply\": \"정기 모임은 문화마루에서 해요. 모임 장소는 문화마루로 저장해요.\"}",
+    "usage": {
+      "cached_tokens": null,
+      "input_tokens": 2194,
+      "output_tokens": 394,
+      "reasoning_tokens": null,
+      "total_tokens": 2588
+    }
+  },
+  "request_sha256": "32747f2cc4ab3c826d0ac73ef26bbfe8cde593b7340c70505e3c69424b77e524",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790494093.877766,
+  "status": "OK",
+  "text": "{\"action\": {\"kind\": \"CONTINUE\", \"question_slot\": \"meeting_place\", \"required_slots\": [\"meeting_place\"], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"정기 모임은 문화마루에서 해요.\", \"정기 모임이요, 문화마루에서 해요. 장소를 문화마루로 저장해 둬요.\"], \"fact\": {\"relation\": \"meeting_place\", \"source_turns\": [\"t1\", \"t2\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"culture hall\"}, \"operation\": \"APPEND\", \"slot\": \"meeting_place\", \"source_turns\": [\"t1\", \"t2\"], \"target_fact_id\": null}, {\"alternatives\": [\"정기 모임은 문화마루에서 해요.\", \"정기 모임이요, 문화마루에서 해요. 장소를 문화마루로 저장해 둬요.\"], \"fact\": {\"relation\": \"meeting_place\", \"source_turns\": [\"t1\", \"t2\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"culture hall\"}, \"operation\": \"CORRECT\", \"slot\": \"meeting_place\", \"source_turns\": [\"t1\", \"t2\"], \"target_fact_id\": \"f1\"}, {\"alternatives\": [], \"fact\": {\"relation\": \"meeting_place\", \"source_turns\": [\"t1\", \"t2\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"culture hall\"}, \"operation\": \"HOLD\", \"slot\": \"meeting_place\", \"source_turns\": [\"t1\", \"t2\"], \"target_fact_id\": null}], \"reply\": \"정기 모임은 문화마루에서 해요. 모임 장소는 문화마루로 저장해요.\"}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 2194,
+    "output_tokens": 394,
+    "reasoning_tokens": null,
+    "total_tokens": 2588
+  }
+}

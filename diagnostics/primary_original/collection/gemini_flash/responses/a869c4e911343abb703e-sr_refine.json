@@ -1,0 +1,57 @@
+{
+  "call_id": "a869c4e911343abb703e-sr_refine",
+  "finish_reason": "STOP",
+  "finished_unix": 1790491483.936065,
+  "http_status": 200,
+  "latency_seconds": 1.3032,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.0033848071470856667,
+        "content": {
+          "parts": [
+            {
+              "text": "{\"reply\": \"중앙인쇄소에서 일하셨군요.\", \"action\": {\"kind\": \"CONTINUE\", \"question_slot\": null, \"required_slots\": [], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [], \"fact\": {\"relation\": \"workplace\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"중앙인쇄소\"}, \"operation\": \"APPEND\", \"slot\": null, \"source_turns\": [\"t2\"], \"target_fact_id\": null}]}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T06:44:42.754179Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "Wru4aoOELpyi0ckPm9nakA0",
+    "usageMetadata": {
+      "candidatesTokenCount": 128,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 128
+        }
+      ],
+      "promptTokenCount": 2332,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 2332
+        }
+      ],
+      "totalTokenCount": 2460,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "9b3c7e77d7bae41350662a4b79681eebfa7208b6b1f01648a36246706134d434",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790491482.631864,
+  "status": "OK",
+  "text": "{\"reply\": \"중앙인쇄소에서 일하셨군요.\", \"action\": {\"kind\": \"CONTINUE\", \"question_slot\": null, \"required_slots\": [], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [], \"fact\": {\"relation\": \"workplace\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"중앙인쇄소\"}, \"operation\": \"APPEND\", \"slot\": null, \"source_turns\": [\"t2\"], \"target_fact_id\": null}]}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 2332,
+    "output_tokens": 128,
+    "reasoning_tokens": 0,
+    "total_tokens": 2460
+  }
+}

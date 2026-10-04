@@ -1,0 +1,57 @@
+{
+  "call_id": "2f8f5f45fe3b567cd061-sr_feedback",
+  "finish_reason": "STOP",
+  "finished_unix": 1790491766.463426,
+  "http_status": 200,
+  "latency_seconds": 2.0673,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.14522212951496524,
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"no_change_needed\": false,\n  \"issues\": [\n    {\n      \"draft_location\": \"memory_decisions[0].source_turns\",\n      \"evidence_location\": \"t2\",\n      \"problem\": \"The source_turns for a memory decision should reflect all turns that provide evidence for that fact. In this case, 't2' is the turn where the user states the past meeting place, but the fact is about the user's past meeting place, which is a personal fact. The initial establishment of the 'participant' subject and the 'meeting_place' relation for the 'present' time in 't1' also contributes to the context of this new 'past' meeting place fact.\",\n      \"specific_revision\": \"Change memory_decisions[0].source_turns to [\\\"t1\\\", \\\"t2\\\"]\"\n    },\n    {\n      \"draft_location\": \"memory_decisions[0].fact.source_turns\",\n      \"evidence_location\": \"t2\",\n      \"problem\": \"The source_turns within the fact object should reflect all turns that provide evidence for that fact. In this case, 't2' is the turn where the user states the past meeting place, but the fact is about the user's past meeting place, which is a personal fact. The initial establishment of the 'participant' subject and the 'meeting_place' relation for the 'present' time in 't1' also contributes to the context of this new 'past' meeting place fact.\",\n      \"specific_revision\": \"Change memory_decisions[0].fact.source_turns to [\\\"t1\\\", \\\"t2\\\"]\"\n    }\n  ]\n}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T06:49:24.479021Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "dLy4aq2eHfCVktwP37SV-Ag",
+    "usageMetadata": {
+      "candidatesTokenCount": 373,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 373
+        }
+      ],
+      "promptTokenCount": 1429,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1429
+        }
+      ],
+      "totalTokenCount": 1802,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "60b4c2222a0315b4e03379b89b40fd05b500d22695c7d8855b0cb615cb9f14ab",
+  "stage_schema_sha256": "377e252cf02129ba34bbc867118dd2b9c6b65042b3fcd7b44099d2fc6e0513ed",
+  "started_unix": 1790491764.3957481,
+  "status": "OK",
+  "text": "{\n  \"no_change_needed\": false,\n  \"issues\": [\n    {\n      \"draft_location\": \"memory_decisions[0].source_turns\",\n      \"evidence_location\": \"t2\",\n      \"problem\": \"The source_turns for a memory decision should reflect all turns that provide evidence for that fact. In this case, 't2' is the turn where the user states the past meeting place, but the fact is about the user's past meeting place, which is a personal fact. The initial establishment of the 'participant' subject and the 'meeting_place' relation for the 'present' time in 't1' also contributes to the context of this new 'past' meeting place fact.\",\n      \"specific_revision\": \"Change memory_decisions[0].source_turns to [\\\"t1\\\", \\\"t2\\\"]\"\n    },\n    {\n      \"draft_location\": \"memory_decisions[0].fact.source_turns\",\n      \"evidence_location\": \"t2\",\n      \"problem\": \"The source_turns within the fact object should reflect all turns that provide evidence for that fact. In this case, 't2' is the turn where the user states the past meeting place, but the fact is about the user's past meeting place, which is a personal fact. The initial establishment of the 'participant' subject and the 'meeting_place' relation for the 'present' time in 't1' also contributes to the context of this new 'past' meeting place fact.\",\n      \"specific_revision\": \"Change memory_decisions[0].fact.source_turns to [\\\"t1\\\", \\\"t2\\\"]\"\n    }\n  ]\n}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1429,
+    "output_tokens": 373,
+    "reasoning_tokens": 0,
+    "total_tokens": 1802
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "call_id": "eb6e460f86686ebe3c9d-g_final",
+  "error_type": null,
+  "finish_reason": "stop",
+  "finished_unix": 1790495475.243135,
+  "latency_seconds": 12.0702,
+  "model_version": "mlx-community/Llama-3.1-8B-Instruct-4bit",
+  "raw_response": {
+    "base_seed": 20260927,
+    "finish_reason": "stop",
+    "generation_calls": 638,
+    "id": "local-400c726864b28672630f96c4",
+    "seed": 2571059908,
+    "snapshot": "<LOCAL_PATH>",
+    "text": "{\"action\": {\"kind\": \"CONTINUE\", \"question_slot\": \"residence\", \"required_slots\": [\"residence\", \"birthplace\"], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"김제\"], \"fact\": {\"relation\": \"birthplace\", \"source_turns\": [\"t1\"], \"subject\": \"p1\", \"time\": \"past\", \"value\": \"김제\"}, \"operation\": \"APPEND\", \"slot\": \"birthplace\", \"source_turns\": [\"t1\"], \"target_fact_id\": null}, {\"alternatives\": [\"김제\"], \"fact\": {\"relation\": \"residence\", \"source_turns\": [\"t1\"], \"subject\": \"p1\", \"time\": \"past\", \"value\": \"김제\"}, \"operation\": \"APPEND\", \"slot\": \"residence\", \"source_turns\": [\"t1\"], \"target_fact_id\": null}], \"reply\": \"그렇다면, 어린 시절 이야기부터 시작해 볼까요?\"}",
+    "usage": {
+      "cached_tokens": null,
+      "input_tokens": 1942,
+      "output_tokens": 218,
+      "reasoning_tokens": null,
+      "total_tokens": 2160
+    }
+  },
+  "request_sha256": "0eddd4f91bf3c032efa890868676ca1e8437626d2b499baf180b609b4fbfe844",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790495463.17245,
+  "status": "OK",
+  "text": "{\"action\": {\"kind\": \"CONTINUE\", \"question_slot\": \"residence\", \"required_slots\": [\"residence\", \"birthplace\"], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"김제\"], \"fact\": {\"relation\": \"birthplace\", \"source_turns\": [\"t1\"], \"subject\": \"p1\", \"time\": \"past\", \"value\": \"김제\"}, \"operation\": \"APPEND\", \"slot\": \"birthplace\", \"source_turns\": [\"t1\"], \"target_fact_id\": null}, {\"alternatives\": [\"김제\"], \"fact\": {\"relation\": \"residence\", \"source_turns\": [\"t1\"], \"subject\": \"p1\", \"time\": \"past\", \"value\": \"김제\"}, \"operation\": \"APPEND\", \"slot\": \"residence\", \"source_turns\": [\"t1\"], \"target_fact_id\": null}], \"reply\": \"그렇다면, 어린 시절 이야기부터 시작해 볼까요?\"}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1942,
+    "output_tokens": 218,
+    "reasoning_tokens": null,
+    "total_tokens": 2160
+  }
+}

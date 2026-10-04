@@ -1,0 +1,36 @@
+{
+  "call_id": "6f14780e79245ac9854a-g_draft",
+  "error_type": null,
+  "finish_reason": "stop",
+  "finished_unix": 1790495945.549566,
+  "latency_seconds": 11.5346,
+  "model_version": "mlx-community/Llama-3.1-8B-Instruct-4bit",
+  "raw_response": {
+    "base_seed": 20260927,
+    "finish_reason": "stop",
+    "generation_calls": 685,
+    "id": "local-284afec27a5daebccc5c153f",
+    "seed": 2514060778,
+    "snapshot": "<LOCAL_PATH>",
+    "text": "{\"action\": {\"kind\": \"CONTINUE\", \"question_slot\": \"topic_permission\", \"required_slots\": [\"topic_permission\"], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"다툰 이야기는 빼요\", \"그 다툼은 이야기하지 않을래요\"], \"fact\": {\"relation\": \"learned_from\", \"source_turns\": [\"t1\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"송 선생님\"}, \"operation\": \"APPEND\", \"slot\": \"learned_from\", \"source_turns\": [\"t1\"], \"target_fact_id\": null}, {\"alternatives\": [\"배운 얘기\", \"배운 얘기\"], \"fact\": null, \"operation\": \"HOLD\", \"slot\": null, \"source_turns\": [\"t2\"], \"target_fact_id\": null}], \"reply\": \"그 얘기는 싫고 배워서 즐거웠던 얘기로 넘어가요.\"}",
+    "usage": {
+      "cached_tokens": null,
+      "input_tokens": 1713,
+      "output_tokens": 212,
+      "reasoning_tokens": null,
+      "total_tokens": 1925
+    }
+  },
+  "request_sha256": "ad08259d90632085b16795b94b5133197b50b2389660f102b145bc0c66f88f34",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790495934.0146828,
+  "status": "OK",
+  "text": "{\"action\": {\"kind\": \"CONTINUE\", \"question_slot\": \"topic_permission\", \"required_slots\": [\"topic_permission\"], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"다툰 이야기는 빼요\", \"그 다툼은 이야기하지 않을래요\"], \"fact\": {\"relation\": \"learned_from\", \"source_turns\": [\"t1\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"송 선생님\"}, \"operation\": \"APPEND\", \"slot\": \"learned_from\", \"source_turns\": [\"t1\"], \"target_fact_id\": null}, {\"alternatives\": [\"배운 얘기\", \"배운 얘기\"], \"fact\": null, \"operation\": \"HOLD\", \"slot\": null, \"source_turns\": [\"t2\"], \"target_fact_id\": null}], \"reply\": \"그 얘기는 싫고 배워서 즐거웠던 얘기로 넘어가요.\"}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1713,
+    "output_tokens": 212,
+    "reasoning_tokens": null,
+    "total_tokens": 1925
+  }
+}

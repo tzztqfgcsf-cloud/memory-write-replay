@@ -1,0 +1,36 @@
+{
+  "call_id": "079db6da1cbbcc1429ec-candidate_extract",
+  "error_type": null,
+  "finish_reason": "stop",
+  "finished_unix": 1790492706.531061,
+  "latency_seconds": 14.5266,
+  "model_version": "mlx-community/Llama-3.1-8B-Instruct-4bit",
+  "raw_response": {
+    "base_seed": 20260927,
+    "finish_reason": "stop",
+    "generation_calls": 375,
+    "id": "local-28e9bf4eb2fefe8131cd2031",
+    "seed": 3924564201,
+    "snapshot": "<LOCAL_PATH>",
+    "text": "{\"beliefs\": [{\"candidate_id\": \"c1\", \"facts\": [{\"relation\": \"shop_name\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"남강문구\"}]}, {\"candidate_id\": \"c2\", \"facts\": [{\"relation\": \"shop_name\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"남광문구\"}]}], \"correction_witnesses\": [{\"candidate_id\": \"c1\", \"evidence_quote\": \"상호를 바꿨어요. 이제 남강문구로 고쳐 적어요.\", \"new_value\": \"남강문구\", \"polarity\": \"affirmed\", \"relation\": \"shop_name\", \"source_turn\": \"t2\", \"subject\": \"participant\", \"target_fact_id\": \"f1\", \"time\": \"present\"}, {\"candidate_id\": \"c2\", \"evidence_quote\": \"상호를 바꿨어요. 이제 남광문구로 고쳐 적어요.\", \"new_value\": \"남광문구\", \"polarity\": \"affirmed\", \"relation\": \"shop_name\", \"source_turn\": \"t2\", \"subject\": \"participant\", \"target_fact_id\": \"f1\", \"time\": \"present\"}]}",
+    "usage": {
+      "cached_tokens": null,
+      "input_tokens": 1748,
+      "output_tokens": 286,
+      "reasoning_tokens": null,
+      "total_tokens": 2034
+    }
+  },
+  "request_sha256": "caf3ea63bd52274affacb5e8e508437cbfdca373753d9f276e2db15f2f1dd656",
+  "stage_schema_sha256": "bda7326ac6a6cbeedf1ecdbf4a2b08277c078351d6689f667dc0d558c4972dd3",
+  "started_unix": 1790492692.005731,
+  "status": "OK",
+  "text": "{\"beliefs\": [{\"candidate_id\": \"c1\", \"facts\": [{\"relation\": \"shop_name\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"남강문구\"}]}, {\"candidate_id\": \"c2\", \"facts\": [{\"relation\": \"shop_name\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"남광문구\"}]}], \"correction_witnesses\": [{\"candidate_id\": \"c1\", \"evidence_quote\": \"상호를 바꿨어요. 이제 남강문구로 고쳐 적어요.\", \"new_value\": \"남강문구\", \"polarity\": \"affirmed\", \"relation\": \"shop_name\", \"source_turn\": \"t2\", \"subject\": \"participant\", \"target_fact_id\": \"f1\", \"time\": \"present\"}, {\"candidate_id\": \"c2\", \"evidence_quote\": \"상호를 바꿨어요. 이제 남광문구로 고쳐 적어요.\", \"new_value\": \"남광문구\", \"polarity\": \"affirmed\", \"relation\": \"shop_name\", \"source_turn\": \"t2\", \"subject\": \"participant\", \"target_fact_id\": \"f1\", \"time\": \"present\"}]}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1748,
+    "output_tokens": 286,
+    "reasoning_tokens": null,
+    "total_tokens": 2034
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "call_id": "89fbba4bae5b14692f4e-sr_refine",
+  "error_type": null,
+  "finish_reason": "stop",
+  "finished_unix": 1790494298.2962198,
+  "latency_seconds": 13.3478,
+  "model_version": "mlx-community/Llama-3.1-8B-Instruct-4bit",
+  "raw_response": {
+    "base_seed": 20260927,
+    "finish_reason": "stop",
+    "generation_calls": 522,
+    "id": "local-e9022e21669c2f07e1078ea1",
+    "seed": 2793653249,
+    "snapshot": "<LOCAL_PATH>",
+    "text": "{\"action\": {\"kind\": \"CONTINUE\", \"question_slot\": \"preferred_contact\", \"required_slots\": [\"preferred_contact\"], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"이메일\", \"전화\"], \"fact\": {\"relation\": \"preferred_contact\", \"source_turns\": [\"t1\", \"t2\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"이메일\"}, \"operation\": \"APPEND\", \"slot\": \"preferred_contact\", \"source_turns\": [\"t1\", \"t2\"], \"target_fact_id\": null}, {\"alternatives\": [], \"fact\": {\"relation\": \"preferred_contact\", \"source_turns\": [\"t1\", \"t2\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"전화\"}, \"operation\": \"HOLD\", \"slot\": \"preferred_contact\", \"source_turns\": [\"t1\", \"t2\"], \"target_fact_id\": null}], \"reply\": \"이메일이 좋아요. 이메일로 연락을 기억해 주세요.\"}",
+    "usage": {
+      "cached_tokens": null,
+      "input_tokens": 2027,
+      "output_tokens": 234,
+      "reasoning_tokens": null,
+      "total_tokens": 2261
+    }
+  },
+  "request_sha256": "0682bb85a5155f58fcfa1b3e7cf2aa1e3b9204fb76f05e5b156579d607f038e2",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790494284.947856,
+  "status": "OK",
+  "text": "{\"action\": {\"kind\": \"CONTINUE\", \"question_slot\": \"preferred_contact\", \"required_slots\": [\"preferred_contact\"], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"이메일\", \"전화\"], \"fact\": {\"relation\": \"preferred_contact\", \"source_turns\": [\"t1\", \"t2\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"이메일\"}, \"operation\": \"APPEND\", \"slot\": \"preferred_contact\", \"source_turns\": [\"t1\", \"t2\"], \"target_fact_id\": null}, {\"alternatives\": [], \"fact\": {\"relation\": \"preferred_contact\", \"source_turns\": [\"t1\", \"t2\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"전화\"}, \"operation\": \"HOLD\", \"slot\": \"preferred_contact\", \"source_turns\": [\"t1\", \"t2\"], \"target_fact_id\": null}], \"reply\": \"이메일이 좋아요. 이메일로 연락을 기억해 주세요.\"}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 2027,
+    "output_tokens": 234,
+    "reasoning_tokens": null,
+    "total_tokens": 2261
+  }
+}

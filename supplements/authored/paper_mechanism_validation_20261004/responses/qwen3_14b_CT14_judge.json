@@ -1,0 +1,20 @@
+{
+  "status": "OK",
+  "http_status": 200,
+  "text": "{\"decisions\": [{\"index\": 0, \"approve\": false, \"reason\": \"후보 c2에는 화자의 출생지가 전주라는 명시적인 언급이 없습니다.\"}, {\"index\": 1, \"approve\": true, \"reason\": \"모든 전사 후보에서 어머니 순자의 출생지가 임실임이 명확히 확인됩니다.\"}]}",
+  "usage": {
+    "input_tokens": 788,
+    "output_tokens": 77,
+    "reasoning_tokens": 374,
+    "total_tokens": 1239,
+    "cached_tokens": null
+  },
+  "finish_reason": "STOP",
+  "model_version": "gemini-3.1-pro-preview",
+  "id": "qwen3_14b_CT14_judge",
+  "key": "qwen3_14b_CT14",
+  "stage": "judge",
+  "arm": "judge",
+  "requested_model": "gemini-3.1-pro-preview",
+  "latency_seconds": 5.076621500076726
+}

@@ -1,0 +1,57 @@
+{
+  "call_id": "06a7913265a88cadf7e0-sr_refine",
+  "finish_reason": "STOP",
+  "finished_unix": 1790490263.151357,
+  "http_status": 200,
+  "latency_seconds": 0.9546,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.014707930766753037,
+        "content": {
+          "parts": [
+            {
+              "text": "{\"reply\": \"네, 알겠습니다. 서예를 가르쳐주신 분의 이름이 강 선생님일 수도 있다는 점을 고려하겠습니다. 다른 동창 소식은 없으신가요?\", \"action\": {\"kind\": \"CONTINUE\", \"question_slot\": null, \"required_slots\": [], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"강 선생님\", \"강 선생님이었다고 동창은 그러네요\"], \"fact\": null, \"operation\": \"HOLD\", \"slot\": \"learned_from\", \"source_turns\": [\"t2\"], \"target_fact_id\": null}]}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T06:24:22.315240Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "lra4auieE8up0ckPy9-P8Ak",
+    "usageMetadata": {
+      "candidatesTokenCount": 137,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 137
+        }
+      ],
+      "promptTokenCount": 1982,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1982
+        }
+      ],
+      "totalTokenCount": 2119,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "151c595fb1a036a883f74b77a25b27c939412168e6df6d7debe0bfe4d6ed0086",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790490262.196331,
+  "status": "OK",
+  "text": "{\"reply\": \"네, 알겠습니다. 서예를 가르쳐주신 분의 이름이 강 선생님일 수도 있다는 점을 고려하겠습니다. 다른 동창 소식은 없으신가요?\", \"action\": {\"kind\": \"CONTINUE\", \"question_slot\": null, \"required_slots\": [], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"강 선생님\", \"강 선생님이었다고 동창은 그러네요\"], \"fact\": null, \"operation\": \"HOLD\", \"slot\": \"learned_from\", \"source_turns\": [\"t2\"], \"target_fact_id\": null}]}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1982,
+    "output_tokens": 137,
+    "reasoning_tokens": 0,
+    "total_tokens": 2119
+  }
+}

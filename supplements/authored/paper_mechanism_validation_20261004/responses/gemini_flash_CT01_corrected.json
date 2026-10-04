@@ -1,0 +1,20 @@
+{
+  "status": "OK",
+  "http_status": 200,
+  "text": "{\n  \"beliefs\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"facts\": [\n        {\n          \"relation\": \"birthplace\",\n          \"source_turns\": [\"t2\"],\n          \"subject\": \"participant\",\n          \"time\": \"past\",\n          \"value\": \"대구\"\n        }\n      ]\n    },\n    {\n      \"candidate_id\": \"c2\",\n      \"facts\": [\n        {\n          \"relation\": \"birthplace\",\n          \"source_turns\": [\"t2\"],\n          \"subject\": \"participant\",\n          \"time\": \"past\",\n          \"value\": \"대구\"\n        }\n      ]\n    }\n  ],\n  \"correction_witnesses\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"evidence_quote\": \"대구에서 태어났어요. 출생지는 대구로 바꿔요.\",\n      \"new_value\": \"대구\",\n      \"polarity\": \"affirmed\",\n      \"relation\": \"birthplace\",\n      \"source_turn\": \"t2\",\n      \"subject\": \"participant\",\n      \"target_fact_id\": \"f1\",\n      \"time\": \"past\"\n    },\n    {\n      \"candidate_id\": \"c2\",\n      \"evidence_quote\": \"대구에서 태어난 게 맞으니 대구로 바꿔 주세요.\",\n      \"new_value\": \"대구\",\n      \"polarity\": \"affirmed\",\n      \"relation\": \"birthplace\",\n      \"source_turn\": \"t2\",\n      \"subject\": \"participant\",\n      \"target_fact_id\": \"f1\",\n      \"time\": \"past\"\n    }\n  ]\n}",
+  "usage": {
+    "input_tokens": 1838,
+    "output_tokens": 398,
+    "reasoning_tokens": 0,
+    "total_tokens": 2236,
+    "cached_tokens": 1955
+  },
+  "finish_reason": "STOP",
+  "model_version": "gemini-2.5-flash",
+  "id": "gemini_flash_CT01_corrected",
+  "key": "gemini_flash_CT01",
+  "stage": "extract",
+  "arm": "corrected",
+  "requested_model": "gemini-2.5-flash",
+  "latency_seconds": 1.6896942500025034
+}

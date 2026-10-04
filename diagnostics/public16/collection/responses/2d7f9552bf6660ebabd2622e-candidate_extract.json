@@ -1,0 +1,56 @@
+{
+  "call_id": "2d7f9552bf6660ebabd2622e-candidate_extract",
+  "cost_note": "provider_did_not_report_money",
+  "cost_usd_reported": null,
+  "finish_reason": "STOP",
+  "http_status": 200,
+  "latency_seconds": 1.9129,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.0029217898845672607,
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"beliefs\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"facts\": [\n        {\n          \"relation\": \"hotel.semi.area\",\n          \"source_turns\": [\n            \"PMUL4852.json#turn4\"\n          ],\n          \"subject\": \"PMUL4852.json#hotel.semi\",\n          \"time\": \"unknown\",\n          \"value\": \"centre\"\n        },\n        {\n          \"relation\": \"hotel.semi.internet\",\n          \"source_turns\": [\n            \"PMUL4852.json#turn4\"\n          ],\n          \"subject\": \"PMUL4852.json#hotel.semi\",\n          \"time\": \"unknown\",\n          \"value\": \"yes\"\n        }\n      ]\n    }\n  ],\n  \"correction_witnesses\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"target_fact_id\": \"PMUL4852.json#state3#hotel.semi.area\",\n      \"subject\": \"PMUL4852.json#hotel.semi\",\n      \"relation\": \"hotel.semi.area\",\n      \"time\": \"unknown\",\n      \"new_value\": \"centre\",\n      \"source_turn\": \"PMUL4852.json#turn4\",\n      \"evidence_quote\": \"I've changed my mind and would prefer to stay in the center of town.\",\n      \"polarity\": \"affirmed\"\n    }\n  ]\n}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T23:17:43.993235Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "F6S5atPPPPObncoPmvuomAI",
+    "usageMetadata": {
+      "candidatesTokenCount": 356,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 356
+        }
+      ],
+      "promptTokenCount": 1548,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1548
+        }
+      ],
+      "totalTokenCount": 1904,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "7474e890ac71dfd24c53a6edbddfde19b9417bb29bc861c29315ca8d514ee4bd",
+  "status": "OK",
+  "text": "{\n  \"beliefs\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"facts\": [\n        {\n          \"relation\": \"hotel.semi.area\",\n          \"source_turns\": [\n            \"PMUL4852.json#turn4\"\n          ],\n          \"subject\": \"PMUL4852.json#hotel.semi\",\n          \"time\": \"unknown\",\n          \"value\": \"centre\"\n        },\n        {\n          \"relation\": \"hotel.semi.internet\",\n          \"source_turns\": [\n            \"PMUL4852.json#turn4\"\n          ],\n          \"subject\": \"PMUL4852.json#hotel.semi\",\n          \"time\": \"unknown\",\n          \"value\": \"yes\"\n        }\n      ]\n    }\n  ],\n  \"correction_witnesses\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"target_fact_id\": \"PMUL4852.json#state3#hotel.semi.area\",\n      \"subject\": \"PMUL4852.json#hotel.semi\",\n      \"relation\": \"hotel.semi.area\",\n      \"time\": \"unknown\",\n      \"new_value\": \"centre\",\n      \"source_turn\": \"PMUL4852.json#turn4\",\n      \"evidence_quote\": \"I've changed my mind and would prefer to stay in the center of town.\",\n      \"polarity\": \"affirmed\"\n    }\n  ]\n}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1548,
+    "output_tokens": 356,
+    "reasoning_tokens": 0,
+    "total_tokens": 1904
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "call_id": "1bef19a4e7b621b72133-sr_refine",
+  "finish_reason": "STOP",
+  "finished_unix": 1790492769.571174,
+  "http_status": 200,
+  "latency_seconds": 1.3759,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.0035442241600581576,
+        "content": {
+          "parts": [
+            {
+              "text": "{\"reply\": \"누군가를 만나셨군요! 반가우셨다니 다행입니다. 혹시 그 만남에 대해 더 이야기해주실 수 있으실까요?\", \"action\": {\"kind\": \"CONTINUE\", \"question_slot\": null, \"required_slots\": [], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"예린이를 만나니 참 반갑더라고요. 이름을 적을 건 아니고 반가웠던 이야기만 할게요.\", \"혜린이를 만나니 참 반갑더라고요. 이름을 적을 건 아니고 반가웠던 이야기만 할게요.\"], \"fact\": null, \"operation\": \"HOLD\", \"slot\": \"learned_from\", \"source_turns\": [\"t2\"], \"target_fact_id\": null}]}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T07:06:08.336205Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "YMC4as3CFOmMx9gP69GymAQ",
+    "usageMetadata": {
+      "candidatesTokenCount": 168,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 168
+        }
+      ],
+      "promptTokenCount": 2213,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 2213
+        }
+      ],
+      "totalTokenCount": 2381,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "262af505d7ab4648449db2a0f9d39e54ece01503c93061d6e503721d18abeb07",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790492768.194838,
+  "status": "OK",
+  "text": "{\"reply\": \"누군가를 만나셨군요! 반가우셨다니 다행입니다. 혹시 그 만남에 대해 더 이야기해주실 수 있으실까요?\", \"action\": {\"kind\": \"CONTINUE\", \"question_slot\": null, \"required_slots\": [], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"예린이를 만나니 참 반갑더라고요. 이름을 적을 건 아니고 반가웠던 이야기만 할게요.\", \"혜린이를 만나니 참 반갑더라고요. 이름을 적을 건 아니고 반가웠던 이야기만 할게요.\"], \"fact\": null, \"operation\": \"HOLD\", \"slot\": \"learned_from\", \"source_turns\": [\"t2\"], \"target_fact_id\": null}]}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 2213,
+    "output_tokens": 168,
+    "reasoning_tokens": 0,
+    "total_tokens": 2381
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "call_id": "d0db88bccbc145f119b4-sr_refine",
+  "finish_reason": "STOP",
+  "finished_unix": 1790491833.559356,
+  "http_status": 200,
+  "latency_seconds": 1.3538,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.000714355123204154,
+        "content": {
+          "parts": [
+            {
+              "text": "{\"reply\": \"네, 예전 모임 장소는 기차역광장이었군요. 기억해 둘게요.\", \"action\": {\"kind\": \"CONTINUE\", \"question_slot\": null, \"required_slots\": [], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [], \"fact\": {\"relation\": \"meeting_place\", \"source_turns\": [\"t1\", \"t2\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"기차역광장\"}, \"operation\": \"APPEND\", \"slot\": null, \"source_turns\": [\"t1\", \"t2\"], \"target_fact_id\": null}]}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T06:50:32.333190Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "uLy4aoarFJiXktwPo4SY4AQ",
+    "usageMetadata": {
+      "candidatesTokenCount": 148,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 148
+        }
+      ],
+      "promptTokenCount": 2190,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 2190
+        }
+      ],
+      "totalTokenCount": 2338,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "652c6912cc020287c8fea823072b9ec4b81e43ca492843a05326555d184c5cfe",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790491832.205256,
+  "status": "OK",
+  "text": "{\"reply\": \"네, 예전 모임 장소는 기차역광장이었군요. 기억해 둘게요.\", \"action\": {\"kind\": \"CONTINUE\", \"question_slot\": null, \"required_slots\": [], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [], \"fact\": {\"relation\": \"meeting_place\", \"source_turns\": [\"t1\", \"t2\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"기차역광장\"}, \"operation\": \"APPEND\", \"slot\": null, \"source_turns\": [\"t1\", \"t2\"], \"target_fact_id\": null}]}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 2190,
+    "output_tokens": 148,
+    "reasoning_tokens": 0,
+    "total_tokens": 2338
+  }
+}

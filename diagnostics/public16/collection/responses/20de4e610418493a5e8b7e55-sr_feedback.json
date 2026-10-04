@@ -1,0 +1,56 @@
+{
+  "call_id": "20de4e610418493a5e8b7e55-sr_feedback",
+  "cost_note": "provider_did_not_report_money",
+  "cost_usd_reported": null,
+  "finish_reason": "STOP",
+  "http_status": 200,
+  "latency_seconds": 1.3624,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.22910363570503567,
+        "content": {
+          "parts": [
+            {
+              "text": "{\"no_change_needed\": false, \"issues\": [{\"draft_location\": \"memory_decisions[0].operation\", \"evidence_location\": \"history[2].text\", \"problem\": \"The operation for train.semi.destination should be APPEND, not CORRECT. The previous turn established 'Ely' as the destination, but the current turn explicitly corrects this to 'London Liverpool Street'. This is a change in preference, not a correction of a mistaken utterance.\", \"specific_revision\": \"Change operation from 'CORRECT' to 'APPEND'.\"}]}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T22:43:31.845933Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "E5y5au3QM-mMx9gP69GymAQ",
+    "usageMetadata": {
+      "candidatesTokenCount": 115,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 115
+        }
+      ],
+      "promptTokenCount": 1208,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1208
+        }
+      ],
+      "totalTokenCount": 1323,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "feb561809781de22de0ae20554629d5bb7116860c411ed6beb6f0d95e70520a7",
+  "status": "OK",
+  "text": "{\"no_change_needed\": false, \"issues\": [{\"draft_location\": \"memory_decisions[0].operation\", \"evidence_location\": \"history[2].text\", \"problem\": \"The operation for train.semi.destination should be APPEND, not CORRECT. The previous turn established 'Ely' as the destination, but the current turn explicitly corrects this to 'London Liverpool Street'. This is a change in preference, not a correction of a mistaken utterance.\", \"specific_revision\": \"Change operation from 'CORRECT' to 'APPEND'.\"}]}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1208,
+    "output_tokens": 115,
+    "reasoning_tokens": 0,
+    "total_tokens": 1323
+  }
+}

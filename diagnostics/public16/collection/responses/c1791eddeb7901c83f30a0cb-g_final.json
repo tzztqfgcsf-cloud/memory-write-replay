@@ -1,0 +1,56 @@
+{
+  "call_id": "c1791eddeb7901c83f30a0cb-g_final",
+  "cost_note": "provider_did_not_report_money",
+  "cost_usd_reported": null,
+  "finish_reason": "STOP",
+  "http_status": 200,
+  "latency_seconds": 2.4613,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.0008907194394584095,
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"reply\": \"Okay, so you want to go from Peterborough to Cambridge. Is that correct?\",\n  \"action\": {\n    \"kind\": \"CLARIFY\",\n    \"question_slot\": \"other\",\n    \"required_slots\": [],\n    \"speaker_id\": \"system\"\n  },\n  \"memory_decisions\": [\n    {\n      \"alternatives\": [\n        \"peterborough\"\n      ],\n      \"fact\": {\n        \"relation\": \"train.semi.departure\",\n        \"source_turns\": [\n          \"MUL1790.json#turn2\"\n        ],\n        \"subject\": \"MUL1790.json#train.semi\",\n        \"time\": \"unknown\",\n        \"value\": \"peterborough\"\n      },\n      \"operation\": \"CORRECT\",\n      \"slot\": \"train.semi.departure\",\n      \"source_turns\": [\n        \"MUL1790.json#turn2\"\n      ],\n      \"target_fact_id\": \"MUL1790.json#state1#train.semi.departure\"\n    },\n    {\n      \"alternatives\": [\n        \"cambridge\"\n      ],\n      \"fact\": {\n        \"relation\": \"train.semi.destination\",\n        \"source_turns\": [\n          \"MUL1790.json#turn2\"\n        ],\n        \"subject\": \"MUL1790.json#train.semi\",\n        \"time\": \"unknown\",\n        \"value\": \"cambridge\"\n      },\n      \"operation\": \"CORRECT\",\n      \"slot\": \"train.semi.destination\",\n      \"source_turns\": [\n        \"MUL1790.json#turn2\"\n      ],\n      \"target_fact_id\": \"MUL1790.json#state1#train.semi.destination\"\n    }\n  ]\n}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T17:21:09.579158Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "hVC5atasI_ObncoPmvuomAI",
+    "usageMetadata": {
+      "candidatesTokenCount": 436,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 436
+        }
+      ],
+      "promptTokenCount": 1984,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1984
+        }
+      ],
+      "totalTokenCount": 2420,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "1cf1a499620f32d70e313901f132053bbf2eaf921217272f9890ba5440dfe259",
+  "status": "OK",
+  "text": "{\n  \"reply\": \"Okay, so you want to go from Peterborough to Cambridge. Is that correct?\",\n  \"action\": {\n    \"kind\": \"CLARIFY\",\n    \"question_slot\": \"other\",\n    \"required_slots\": [],\n    \"speaker_id\": \"system\"\n  },\n  \"memory_decisions\": [\n    {\n      \"alternatives\": [\n        \"peterborough\"\n      ],\n      \"fact\": {\n        \"relation\": \"train.semi.departure\",\n        \"source_turns\": [\n          \"MUL1790.json#turn2\"\n        ],\n        \"subject\": \"MUL1790.json#train.semi\",\n        \"time\": \"unknown\",\n        \"value\": \"peterborough\"\n      },\n      \"operation\": \"CORRECT\",\n      \"slot\": \"train.semi.departure\",\n      \"source_turns\": [\n        \"MUL1790.json#turn2\"\n      ],\n      \"target_fact_id\": \"MUL1790.json#state1#train.semi.departure\"\n    },\n    {\n      \"alternatives\": [\n        \"cambridge\"\n      ],\n      \"fact\": {\n        \"relation\": \"train.semi.destination\",\n        \"source_turns\": [\n          \"MUL1790.json#turn2\"\n        ],\n        \"subject\": \"MUL1790.json#train.semi\",\n        \"time\": \"unknown\",\n        \"value\": \"cambridge\"\n      },\n      \"operation\": \"CORRECT\",\n      \"slot\": \"train.semi.destination\",\n      \"source_turns\": [\n        \"MUL1790.json#turn2\"\n      ],\n      \"target_fact_id\": \"MUL1790.json#state1#train.semi.destination\"\n    }\n  ]\n}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1984,
+    "output_tokens": 436,
+    "reasoning_tokens": 0,
+    "total_tokens": 2420
+  }
+}

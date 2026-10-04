@@ -1,0 +1,36 @@
+{
+  "call_id": "a946113cae728632871c-sr_feedback",
+  "error_type": null,
+  "finish_reason": "length",
+  "finished_unix": 1790493200.435269,
+  "latency_seconds": 18.8053,
+  "model_version": "mlx-community/Llama-3.1-8B-Instruct-4bit",
+  "raw_response": {
+    "base_seed": 20260927,
+    "finish_reason": "length",
+    "generation_calls": 419,
+    "id": "local-a5824786340049d56dda422b",
+    "seed": 3710955860,
+    "snapshot": "<LOCAL_PATH>",
+    "text": "{\"issues\": [{\"draft_location\": \"memory_decisions\", \"evidence_location\": \"candidates\", \"problem\": \"미확정 사실 HOLD를 사용했지만, 현재 명시 정정이 없고, pending에 있는 사실도 없으며, memory_permission이 allowed로 허용된 개인사실을 영속적으로 기록해야 합니다.\", \"specific_revision\": \"HOLD 대신 NO_WRITE를 사용하거나, pending에 있는 사실을 APPEND로 기록하거나, memory_permission이 denied/unknown일 때만 사용해야 합니다.\"}, {\"draft_location\": \"memory_decisions\", \"evidence_location\": \"memory_permission\", \"problem\": \"memory_permission이 allowed로 허용된 개인사실을 영속적으로 기록했지만, fact_id를 제공하지 않았습니다.\", \"specific_revision\": \"fact_id를 제공해야 합니다.\"}, {\"draft_location\": \"memory_decisions\", \"evidence_location\": \"memory_permission\", \"problem\": \"memory_permission이 allowed로 허용된 개인사실을 영속적으로 기록했지만, fact_id를 제공하지 않았습니다.\", \"specific_revision\": \"fact_id를 제공해야 합니다.\"}, {\"draft_location\": \"memory_decisions\", \"evidence_location\": \"memory_permission\", \"problem\": \"memory_permission이 allowed로 허용된 개인사실을 영속적으로 기록했지만, fact_id를 제공하지 않았습니다.\", \"specific_revision\": \"fact_id를 제공해야 합니다.\"}, {\"draft_location\": \"memory_decisions\", \"evidence_location\": \"memory_permission\", \"problem\": \"memory_permission이 allowed로 허용된 개인사실을 영속적으로 기록했지만, fact_id를 제공하지 않았습니다.\", \"specific_revision\": \"fact_id를 제공해야 합니다.\"}, {\"draft_location\": \"memory_decisions\", \"evidence_location\": \"memory_permission\", \"problem\": \"memory_permission이 allowed로 허용된 개인사실을 영속적으로 기록했지만, fact_id를 제공하지 않았습니다.\", \"specific_revision\": \"fact_id를 제공해야 합니다.\"}, {\"draft_location\": \"memory_decisions\", \"evidence_location\": \"memory_permission\", \"problem\": \"memory_permission이 allowed로 허용된 개인사실을 영속적으로 기록했지만, fact_id를 제공하지 않았습니다.\", \"specific_revision\": \"fact_id를 제공해야 합니다.\"}, {\"draft_location\": \"memory_decisions\", \"evidence_location\": \"memory_permission\", \"problem\": \"memory_permission이 allowed로 허용",
+    "usage": {
+      "cached_tokens": null,
+      "input_tokens": 1415,
+      "output_tokens": 512,
+      "reasoning_tokens": null,
+      "total_tokens": 1927
+    }
+  },
+  "request_sha256": "9b8f904b57c1d85f2af32728bed82f840fc9ab033e484f4023c1956dff8cb474",
+  "stage_schema_sha256": "377e252cf02129ba34bbc867118dd2b9c6b65042b3fcd7b44099d2fc6e0513ed",
+  "started_unix": 1790493181.6296508,
+  "status": "OK",
+  "text": "{\"issues\": [{\"draft_location\": \"memory_decisions\", \"evidence_location\": \"candidates\", \"problem\": \"미확정 사실 HOLD를 사용했지만, 현재 명시 정정이 없고, pending에 있는 사실도 없으며, memory_permission이 allowed로 허용된 개인사실을 영속적으로 기록해야 합니다.\", \"specific_revision\": \"HOLD 대신 NO_WRITE를 사용하거나, pending에 있는 사실을 APPEND로 기록하거나, memory_permission이 denied/unknown일 때만 사용해야 합니다.\"}, {\"draft_location\": \"memory_decisions\", \"evidence_location\": \"memory_permission\", \"problem\": \"memory_permission이 allowed로 허용된 개인사실을 영속적으로 기록했지만, fact_id를 제공하지 않았습니다.\", \"specific_revision\": \"fact_id를 제공해야 합니다.\"}, {\"draft_location\": \"memory_decisions\", \"evidence_location\": \"memory_permission\", \"problem\": \"memory_permission이 allowed로 허용된 개인사실을 영속적으로 기록했지만, fact_id를 제공하지 않았습니다.\", \"specific_revision\": \"fact_id를 제공해야 합니다.\"}, {\"draft_location\": \"memory_decisions\", \"evidence_location\": \"memory_permission\", \"problem\": \"memory_permission이 allowed로 허용된 개인사실을 영속적으로 기록했지만, fact_id를 제공하지 않았습니다.\", \"specific_revision\": \"fact_id를 제공해야 합니다.\"}, {\"draft_location\": \"memory_decisions\", \"evidence_location\": \"memory_permission\", \"problem\": \"memory_permission이 allowed로 허용된 개인사실을 영속적으로 기록했지만, fact_id를 제공하지 않았습니다.\", \"specific_revision\": \"fact_id를 제공해야 합니다.\"}, {\"draft_location\": \"memory_decisions\", \"evidence_location\": \"memory_permission\", \"problem\": \"memory_permission이 allowed로 허용된 개인사실을 영속적으로 기록했지만, fact_id를 제공하지 않았습니다.\", \"specific_revision\": \"fact_id를 제공해야 합니다.\"}, {\"draft_location\": \"memory_decisions\", \"evidence_location\": \"memory_permission\", \"problem\": \"memory_permission이 allowed로 허용된 개인사실을 영속적으로 기록했지만, fact_id를 제공하지 않았습니다.\", \"specific_revision\": \"fact_id를 제공해야 합니다.\"}, {\"draft_location\": \"memory_decisions\", \"evidence_location\": \"memory_permission\", \"problem\": \"memory_permission이 allowed로 허용",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1415,
+    "output_tokens": 512,
+    "reasoning_tokens": null,
+    "total_tokens": 1927
+  }
+}

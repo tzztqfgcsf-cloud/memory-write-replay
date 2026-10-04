@@ -1,0 +1,353 @@
+{
+  "not_dataset_correction_gold": true,
+  "not_human_gold": true,
+  "references": [
+    {
+      "admissibility": "source_reader_provisional_development_only",
+      "after_dataset_state_hidden_from_model": [
+        {
+          "after_dataset_annotation": "peterborough",
+          "relation": "train.semi.departure"
+        },
+        {
+          "after_dataset_annotation": "cambridge",
+          "relation": "train.semi.destination"
+        }
+      ],
+      "allowed_action_source_reader_provisional": "correct_focal_sandbox_state_if_supported",
+      "case_id": "MW24-MUL1790-t2",
+      "category_source_reader_provisional_not_gold": "same_task_self_repair",
+      "dialogue_id": "MUL1790.json",
+      "following_system_text_hidden_from_model": "Sorry about that,what time would you like to depart?",
+      "prior_evidence_source_turn_ids": [
+        "MUL1790.json#turn0"
+      ],
+      "reason_source_reader_ko": "같은 토요일 기차 경로. 처음 진술의 노선 방향을 바로잡음.",
+      "source_omissions_ko": "대화에 실제 여행이나 승차 결과 없음.",
+      "target_source_turn_id": "MUL1790.json#turn2"
+    },
+    {
+      "admissibility": "source_reader_provisional_development_only",
+      "after_dataset_state_hidden_from_model": [
+        {
+          "after_dataset_annotation": "london liverpool street",
+          "relation": "train.semi.destination"
+        }
+      ],
+      "allowed_action_source_reader_provisional": "correct_focal_sandbox_state_if_supported",
+      "case_id": "MW24-PMUL1919-t4",
+      "category_source_reader_provisional_not_gold": "same_task_self_repair",
+      "dialogue_id": "PMUL1919.json",
+      "following_system_text_hidden_from_model": "The earlest I have leaving is train TR7713 at 19:27,will this be okay for you?",
+      "prior_evidence_source_turn_ids": [
+        "PMUL1919.json#turn2"
+      ],
+      "reason_source_reader_ko": "Ely가 아니라고 명시하고 새 목적지 제시.",
+      "source_omissions_ko": "새 출발시각은 추가 정보이며 기존 목적지 정정과 별도 처리.",
+      "target_source_turn_id": "PMUL1919.json#turn4"
+    },
+    {
+      "admissibility": "source_reader_provisional_development_only",
+      "after_dataset_state_hidden_from_model": [
+        {
+          "after_dataset_annotation": "thursday",
+          "relation": "train.semi.day"
+        }
+      ],
+      "allowed_action_source_reader_provisional": "correct_focal_sandbox_state_if_supported",
+      "case_id": "MW24-PMUL1033-t6",
+      "category_source_reader_provisional_not_gold": "same_task_self_repair",
+      "dialogue_id": "PMUL1033.json",
+      "following_system_text_hidden_from_model": "Okay, no problem.  The TR1163 train leaves at 05:54.  Will that work for you?",
+      "prior_evidence_source_turn_ids": [
+        "PMUL1033.json#turn0"
+      ],
+      "reason_source_reader_ko": "달력을 보고 월요일을 목요일로 바로잡음.",
+      "source_omissions_ko": "달력 원본과 실제 예약 여부는 제공되지 않음.",
+      "target_source_turn_id": "PMUL1033.json#turn6"
+    },
+    {
+      "admissibility": "source_reader_provisional_development_only",
+      "after_dataset_state_hidden_from_model": [
+        {
+          "after_dataset_annotation": "kings lynn",
+          "relation": "train.semi.departure"
+        },
+        {
+          "after_dataset_annotation": "cambridge",
+          "relation": "train.semi.destination"
+        }
+      ],
+      "allowed_action_source_reader_provisional": "correct_focal_sandbox_state_if_supported",
+      "case_id": "MW24-PMUL0945-t4",
+      "category_source_reader_provisional_not_gold": "same_task_self_repair",
+      "dialogue_id": "PMUL0945.json",
+      "following_system_text_hidden_from_model": "The earliest train will leave at 08:11. Is that okay?",
+      "prior_evidence_source_turn_ids": [
+        "PMUL0945.json#turn0",
+        "PMUL0945.json#turn2"
+      ],
+      "reason_source_reader_ko": "거꾸로 말했다고 명시하며 출발/도착을 교체.",
+      "source_omissions_ko": "t0은 Cambridge행, t2는 반대 방향으로 이미 충돌; 마지막 t4의 해석에 이 문맥 필요.",
+      "target_source_turn_id": "PMUL0945.json#turn4"
+    },
+    {
+      "admissibility": "source_reader_provisional_development_only",
+      "after_dataset_state_hidden_from_model": [
+        {
+          "after_dataset_annotation": "20:45",
+          "relation": "train.semi.leaveAt"
+        }
+      ],
+      "allowed_action_source_reader_provisional": "correct_focal_sandbox_state_if_supported",
+      "case_id": "MW24-SNG01176-t6",
+      "category_source_reader_provisional_not_gold": "same_task_self_repair",
+      "dialogue_id": "SNG01176.json",
+      "following_system_text_hidden_from_model": "Great, I have TR9209 that meets your criteria  and is 30.24 pounds. Would you like me to book it?",
+      "prior_evidence_source_turn_ids": [
+        "SNG01176.json#turn4"
+      ],
+      "reason_source_reader_ko": "8:45를 20:45로 바로잡음.",
+      "source_omissions_ko": "주석 이전값은 845로 표기돼 원문 8:45와 형식이 다름.",
+      "target_source_turn_id": "SNG01176.json#turn6"
+    },
+    {
+      "admissibility": "source_reader_provisional_development_only",
+      "after_dataset_state_hidden_from_model": [
+        {
+          "after_dataset_annotation": "leicester",
+          "relation": "train.semi.departure"
+        },
+        {
+          "after_dataset_annotation": "cambridge",
+          "relation": "train.semi.destination"
+        }
+      ],
+      "allowed_action_source_reader_provisional": "correct_focal_sandbox_state_if_supported",
+      "case_id": "MW24-MUL1930-t8",
+      "category_source_reader_provisional_not_gold": "same_task_self_repair",
+      "dialogue_id": "MUL1930.json",
+      "following_system_text_hidden_from_model": "There is a train departing at 17:09 that arrives at 18:54. Would that work for you?",
+      "prior_evidence_source_turn_ids": [
+        "MUL1930.json#turn6"
+      ],
+      "reason_source_reader_ko": "내가 잘못 말했다고 하며 노선 역전.",
+      "source_omissions_ko": "leicester 원문 철자 차이; 실제 승차 여부 없음.",
+      "target_source_turn_id": "MUL1930.json#turn8"
+    },
+    {
+      "admissibility": "source_reader_provisional_development_only",
+      "after_dataset_state_hidden_from_model": [
+        {
+          "after_dataset_annotation": "yes",
+          "relation": "hotel.semi.internet"
+        }
+      ],
+      "allowed_action_source_reader_provisional": "correct_focal_sandbox_state_if_supported",
+      "case_id": "MW24-PMUL3804-t4",
+      "category_source_reader_provisional_not_gold": "same_task_self_repair",
+      "dialogue_id": "PMUL3804.json",
+      "following_system_text_hidden_from_model": "I have 8 guesthouses in the north with free wifi, one is cheap the others are in the moderate price range.",
+      "prior_evidence_source_turn_ids": [
+        "PMUL3804.json#turn0"
+      ],
+      "reason_source_reader_ko": "인터넷이 싫다는 말을 농담으로 철회하고 무료 Wi-Fi를 원함.",
+      "source_omissions_ko": "부정/농담 범위는 인터넷 선호에 한정; 북쪽 숙소 선호는 유지.",
+      "target_source_turn_id": "PMUL3804.json#turn4"
+    },
+    {
+      "admissibility": "source_reader_provisional_development_only",
+      "after_dataset_state_hidden_from_model": [
+        {
+          "after_dataset_annotation": "7",
+          "relation": "restaurant.book.people"
+        },
+        {
+          "after_dataset_annotation": "18:00",
+          "relation": "restaurant.book.time"
+        }
+      ],
+      "allowed_action_source_reader_provisional": "correct_focal_sandbox_state_if_supported",
+      "case_id": "MW24-MUL1523-t4",
+      "category_source_reader_provisional_not_gold": "same_task_self_repair",
+      "dialogue_id": "MUL1523.json",
+      "following_system_text_hidden_from_model": "Okay. 7 people at 18:00 on Wednesday at the grafton hotel restaurant. I will book a table for you. ",
+      "prior_evidence_source_turn_ids": [
+        "MUL1523.json#turn2"
+      ],
+      "reason_source_reader_ko": "예약 인원 2→7, 시각 19:00→18:00을 바로잡음.",
+      "source_omissions_ko": "수요일은 새로 제시됨; 실제 식당 예약 완료 여부는 이 턴만으로 미확정.",
+      "target_source_turn_id": "MUL1523.json#turn4"
+    },
+    {
+      "admissibility": "source_reader_provisional_development_only",
+      "after_dataset_state_hidden_from_model": [
+        {
+          "after_dataset_annotation": "7",
+          "relation": "train.book.people"
+        }
+      ],
+      "allowed_action_source_reader_provisional": "correct_focal_sandbox_state_if_supported",
+      "case_id": "MW24-MUL1664-t10",
+      "category_source_reader_provisional_not_gold": "same_task_self_repair",
+      "dialogue_id": "MUL1664.json",
+      "following_system_text_hidden_from_model": "ok, i got that fixed for you.",
+      "prior_evidence_source_turn_ids": [
+        "MUL1664.json#turn8"
+      ],
+      "reason_source_reader_ko": "본인 한 자리 진술을 총 일곱 자리로 바로잡음.",
+      "source_omissions_ko": "앞선 식당 7인 예약과 열차 7인 요청은 서로 다른 과업.",
+      "target_source_turn_id": "MUL1664.json#turn10"
+    },
+    {
+      "admissibility": "source_reader_provisional_development_only",
+      "after_dataset_state_hidden_from_model": [
+        {
+          "after_dataset_annotation": "tuesday",
+          "relation": "hotel.book.day"
+        }
+      ],
+      "allowed_action_source_reader_provisional": "correct_focal_sandbox_state_if_supported",
+      "case_id": "MW24-PMUL4646-t16",
+      "category_source_reader_provisional_not_gold": "same_task_self_repair",
+      "dialogue_id": "PMUL4646.json",
+      "following_system_text_hidden_from_model": "No problem! I switched that reservation to Tuesday instead of Thursday for you and your new reference number is M7VCVOT6. Can I help with anything else?",
+      "prior_evidence_source_turn_ids": [
+        "PMUL4646.json#turn10"
+      ],
+      "reason_source_reader_ko": "목요일 예약 시작이 실수였다고 명시하고 화요일 요청.",
+      "source_omissions_ko": "원 예약의 외부 취소/변경 실제 완료 여부는 사용자 발화만으로 알 수 없음.",
+      "target_source_turn_id": "PMUL4646.json#turn16"
+    },
+    {
+      "admissibility": "source_reader_provisional_development_only",
+      "after_dataset_state_hidden_from_model": [
+        {
+          "after_dataset_annotation": "monday",
+          "relation": "hotel.book.day"
+        },
+        {
+          "after_dataset_annotation": "3",
+          "relation": "hotel.book.people"
+        },
+        {
+          "after_dataset_annotation": "4",
+          "relation": "hotel.book.stay"
+        }
+      ],
+      "allowed_action_source_reader_provisional": "do_not_treat_prior_state_as_initially_false",
+      "case_id": "MW24-PMUL1635-t14",
+      "category_source_reader_provisional_not_gold": "changed_plan",
+      "dialogue_id": "PMUL1635.json",
+      "following_system_text_hidden_from_model": "I have made that change and your reference number is YF86GE4J",
+      "prior_evidence_source_turn_ids": [
+        "PMUL1635.json#turn4",
+        "PMUL1635.json#turn6"
+      ],
+      "reason_source_reader_ko": "기존 금요일 1인 1박 예약 뒤 계획 변경을 명시.",
+      "source_omissions_ko": "예약 변경 시 원 예약의 역사적 유효성은 유지; 외부 시스템 변경 성공은 응답 이외의 증거 없음.",
+      "target_source_turn_id": "PMUL1635.json#turn14"
+    },
+    {
+      "admissibility": "source_reader_provisional_development_only",
+      "after_dataset_state_hidden_from_model": [
+        {
+          "after_dataset_annotation": "2",
+          "relation": "hotel.book.stay"
+        }
+      ],
+      "allowed_action_source_reader_provisional": "do_not_treat_prior_state_as_initially_false",
+      "case_id": "MW24-SNG1006-t6",
+      "category_source_reader_provisional_not_gold": "fallback_after_booking_failure",
+      "dialogue_id": "SNG1006.json",
+      "following_system_text_hidden_from_model": "Sure, that worked.  You have booked 2 nights and your reference number is RU89U6V8.  Can I be of further help today?",
+      "prior_evidence_source_turn_ids": [
+        "SNG1006.json#turn4"
+      ],
+      "reason_source_reader_ko": "4박 불가 통보 뒤 2박 대안 제안.",
+      "source_omissions_ko": "처음 4박 요구가 잘못된 발화였다는 증거 없음; 실패 통보가 원인.",
+      "target_source_turn_id": "SNG1006.json#turn6"
+    },
+    {
+      "admissibility": "source_reader_provisional_development_only",
+      "after_dataset_state_hidden_from_model": [
+        {
+          "after_dataset_annotation": "centre",
+          "relation": "hotel.semi.area"
+        }
+      ],
+      "allowed_action_source_reader_provisional": "do_not_treat_prior_state_as_initially_false",
+      "case_id": "MW24-PMUL4852-t4",
+      "category_source_reader_provisional_not_gold": "changed_preference",
+      "dialogue_id": "PMUL4852.json",
+      "following_system_text_hidden_from_model": "There's one guesthouse, el shaddai, that fits your criteria. Do you need more information?",
+      "prior_evidence_source_turn_ids": [
+        "PMUL4852.json#turn2"
+      ],
+      "reason_source_reader_ko": "남쪽 선호 뒤 마음을 바꿔 중심가를 선호.",
+      "source_omissions_ko": "선호 변경 시점은 턴 순서뿐이며 과거 남쪽 선호가 거짓이었던 것은 아님.",
+      "target_source_turn_id": "PMUL4852.json#turn4"
+    },
+    {
+      "admissibility": "source_reader_provisional_development_only",
+      "after_dataset_state_hidden_from_model": [
+        {
+          "after_dataset_annotation": "stevenage",
+          "relation": "train.semi.destination"
+        }
+      ],
+      "allowed_action_source_reader_provisional": "avoid_unsupported_correction_or_hold_for_review",
+      "case_id": "MW24-MUL0329-t8",
+      "category_source_reader_provisional_not_gold": "assistant_misunderstanding",
+      "dialogue_id": "MUL0329.json",
+      "following_system_text_hidden_from_model": "I have four trains from Cambridge to Stevenage on Friday. They arrive at 06:10, 08:10, 10:10, and 12:10. Would you like to book one of these?",
+      "prior_evidence_source_turn_ids": [
+        "MUL0329.json#turn6"
+      ],
+      "reason_source_reader_ko": "사용자는 처음부터 Stevenage행을 요청했고 조수의 Cambridge행 되물음에 재강조.",
+      "source_omissions_ko": "이전 사용자 사실을 정정한 사례로 세면 안 됨.",
+      "target_source_turn_id": "MUL0329.json#turn8"
+    },
+    {
+      "admissibility": "source_reader_provisional_development_only",
+      "after_dataset_state_hidden_from_model": [
+        {
+          "after_dataset_annotation": "yes",
+          "relation": "hotel.semi.internet"
+        }
+      ],
+      "allowed_action_source_reader_provisional": "avoid_unsupported_correction_or_hold_for_review",
+      "case_id": "MW24-SNG0984-t6",
+      "category_source_reader_provisional_not_gold": "verification_question",
+      "dialogue_id": "SNG0984.json",
+      "following_system_text_hidden_from_model": "Yes, it does. Would you like me to make a reservation for you?",
+      "prior_evidence_source_turn_ids": [
+        "SNG0984.json#turn2"
+      ],
+      "reason_source_reader_ko": "Wi-Fi 여부를 재확인해 달라는 질문.",
+      "source_omissions_ko": "질문 자체만으로 사용자의 인터넷 선호나 호텔 Wi-Fi 사실을 확정할 수 없음.",
+      "target_source_turn_id": "SNG0984.json#turn6"
+    },
+    {
+      "admissibility": "unscored_annotation_conflict",
+      "after_dataset_state_hidden_from_model": [
+        {
+          "after_dataset_annotation": "ely",
+          "relation": "train.semi.destination"
+        }
+      ],
+      "allowed_action_source_reader_provisional": "avoid_unsupported_correction_or_hold_for_review",
+      "case_id": "MW24-PMUL1690-t4",
+      "category_source_reader_provisional_not_gold": "source_annotation_conflict",
+      "dialogue_id": "PMUL1690.json",
+      "following_system_text_hidden_from_model": "Ok I will book that for you and get you a confirmation number",
+      "prior_evidence_source_turn_ids": [
+        "PMUL1690.json#turn2"
+      ],
+      "reason_source_reader_ko": "Ely를 Cambridge로 고친 원문.",
+      "source_omissions_ko": "다음 대화상태 주석이 Ely로 남음; 라벨을 허용상태 gold로 쓰면 안 됨.",
+      "target_source_turn_id": "PMUL1690.json#turn4"
+    }
+  ],
+  "schema": "multiwoz-transfer-development-provisional-reference-v1"
+}

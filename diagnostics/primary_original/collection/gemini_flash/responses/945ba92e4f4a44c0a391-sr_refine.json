@@ -1,0 +1,57 @@
+{
+  "call_id": "945ba92e4f4a44c0a391-sr_refine",
+  "finish_reason": "STOP",
+  "finished_unix": 1790495941.5453,
+  "http_status": 200,
+  "latency_seconds": 1.2478,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.0017237543202132629,
+        "content": {
+          "parts": [
+            {
+              "text": "{\"reply\": \"네, 출생지를 문경으로 수정하고 푸른세탁소는 그대로 유지할게요.\", \"action\": {\"kind\": \"CONTINUE\", \"question_slot\": null, \"required_slots\": [], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [], \"fact\": {\"relation\": \"birthplace\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"문경\"}, \"operation\": \"CORRECT\", \"slot\": null, \"source_turns\": [\"t2\"], \"target_fact_id\": \"f1\"}]}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T07:59:00.469295Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "xMy4aq_SHMOAncoPsbLi2Qc",
+    "usageMetadata": {
+      "candidatesTokenCount": 139,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 139
+        }
+      ],
+      "promptTokenCount": 2190,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 2190
+        }
+      ],
+      "totalTokenCount": 2329,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "6cb19dccbb6f8522ff0fbe368edd362020a1e673c6538aa085246e19d5558d5c",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790495940.297068,
+  "status": "OK",
+  "text": "{\"reply\": \"네, 출생지를 문경으로 수정하고 푸른세탁소는 그대로 유지할게요.\", \"action\": {\"kind\": \"CONTINUE\", \"question_slot\": null, \"required_slots\": [], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [], \"fact\": {\"relation\": \"birthplace\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"문경\"}, \"operation\": \"CORRECT\", \"slot\": null, \"source_turns\": [\"t2\"], \"target_fact_id\": \"f1\"}]}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 2190,
+    "output_tokens": 139,
+    "reasoning_tokens": 0,
+    "total_tokens": 2329
+  }
+}

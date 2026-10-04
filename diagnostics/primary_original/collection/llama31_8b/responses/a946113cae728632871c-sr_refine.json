@@ -1,0 +1,36 @@
+{
+  "call_id": "a946113cae728632871c-sr_refine",
+  "error_type": null,
+  "finish_reason": "stop",
+  "finished_unix": 1790493209.1390731,
+  "latency_seconds": 8.7004,
+  "model_version": "mlx-community/Llama-3.1-8B-Instruct-4bit",
+  "raw_response": {
+    "base_seed": 20260927,
+    "finish_reason": "stop",
+    "generation_calls": 420,
+    "id": "local-376a05df513dc40545a30677",
+    "seed": 1746475197,
+    "snapshot": "<LOCAL_PATH>",
+    "text": "{\"action\": {\"kind\": \"CONTINUE\", \"question_slot\": \"stop_intent\", \"required_slots\": [\"stop_intent\"], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"stop\"], \"fact\": null, \"operation\": \"NO_WRITE\", \"slot\": null, \"source_turns\": [\"t2\"], \"target_fact_id\": null}], \"reply\": \"그렇죠? 그럼, 그만 가보겠습니다.\"}",
+    "usage": {
+      "cached_tokens": null,
+      "input_tokens": 1955,
+      "output_tokens": 98,
+      "reasoning_tokens": null,
+      "total_tokens": 2053
+    }
+  },
+  "request_sha256": "a912c807d57c2d168825f093ea2a98f20c7b71f43138281de261226910b50146",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790493200.4383192,
+  "status": "OK",
+  "text": "{\"action\": {\"kind\": \"CONTINUE\", \"question_slot\": \"stop_intent\", \"required_slots\": [\"stop_intent\"], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"stop\"], \"fact\": null, \"operation\": \"NO_WRITE\", \"slot\": null, \"source_turns\": [\"t2\"], \"target_fact_id\": null}], \"reply\": \"그렇죠? 그럼, 그만 가보겠습니다.\"}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1955,
+    "output_tokens": 98,
+    "reasoning_tokens": null,
+    "total_tokens": 2053
+  }
+}

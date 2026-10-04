@@ -1,0 +1,56 @@
+{
+  "call_id": "a8df82edd6fbbb067a4984b7-sr_refine",
+  "cost_note": "provider_did_not_report_money",
+  "cost_usd_reported": null,
+  "finish_reason": "STOP",
+  "http_status": 200,
+  "latency_seconds": 2.2752,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.0012315099055950458,
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"reply\": \"Okay, so you want to go to Cambridge on Monday, arriving after 21:15. Is that correct?\",\n  \"action\": {\n    \"kind\": \"CLARIFY\",\n    \"question_slot\": \"other\",\n    \"required_slots\": [],\n    \"speaker_id\": \"system\"\n  },\n  \"memory_decisions\": [\n    {\n      \"alternatives\": [\"cambridge\"],\n      \"fact\": {\n        \"relation\": \"train.semi.destination\",\n        \"source_turns\": [\"PMUL1690.json#turn4\"],\n        \"subject\": \"PMUL1690.json#train.semi\",\n        \"time\": \"unknown\",\n        \"value\": \"cambridge\"\n      },\n      \"operation\": \"APPEND\",\n      \"slot\": \"train.semi.destination\",\n      \"source_turns\": [\"PMUL1690.json#turn4\"],\n      \"target_fact_id\": null\n    },\n    {\n      \"alternatives\": [],\n      \"fact\": {\n        \"relation\": \"train.semi.day\",\n        \"source_turns\": [\"PMUL1690.json#turn4\"],\n        \"subject\": \"PMUL1690.json#train.semi\",\n        \"time\": \"unknown\",\n        \"value\": \"monday\"\n      },\n      \"operation\": \"APPEND\",\n      \"slot\": \"train.semi.day\",\n      \"source_turns\": [\"PMUL1690.json#turn4\"],\n      \"target_fact_id\": null\n    },\n    {\n      \"alternatives\": [],\n      \"fact\": {\n        \"relation\": \"train.semi.leaveAt\",\n        \"source_turns\": [\"PMUL1690.json#turn4\"],\n        \"subject\": \"PMUL1690.json#train.semi\",\n        \"time\": \"unknown\",\n        \"value\": \"21:15\"\n      },\n      \"operation\": \"APPEND\",\n      \"slot\": \"train.semi.leaveAt\",\n      \"source_turns\": [\"PMUL1690.json#turn4\"],\n      \"target_fact_id\": null\n    }\n  ]\n}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T23:28:57.345559Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "uaa5ateLFdCNx9gP07myoAQ",
+    "usageMetadata": {
+      "candidatesTokenCount": 520,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 520
+        }
+      ],
+      "promptTokenCount": 2351,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 2351
+        }
+      ],
+      "totalTokenCount": 2871,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "ace4951dc53b030484200221629a3c618555389bfdfccee15af0955d3c90f686",
+  "status": "OK",
+  "text": "{\n  \"reply\": \"Okay, so you want to go to Cambridge on Monday, arriving after 21:15. Is that correct?\",\n  \"action\": {\n    \"kind\": \"CLARIFY\",\n    \"question_slot\": \"other\",\n    \"required_slots\": [],\n    \"speaker_id\": \"system\"\n  },\n  \"memory_decisions\": [\n    {\n      \"alternatives\": [\"cambridge\"],\n      \"fact\": {\n        \"relation\": \"train.semi.destination\",\n        \"source_turns\": [\"PMUL1690.json#turn4\"],\n        \"subject\": \"PMUL1690.json#train.semi\",\n        \"time\": \"unknown\",\n        \"value\": \"cambridge\"\n      },\n      \"operation\": \"APPEND\",\n      \"slot\": \"train.semi.destination\",\n      \"source_turns\": [\"PMUL1690.json#turn4\"],\n      \"target_fact_id\": null\n    },\n    {\n      \"alternatives\": [],\n      \"fact\": {\n        \"relation\": \"train.semi.day\",\n        \"source_turns\": [\"PMUL1690.json#turn4\"],\n        \"subject\": \"PMUL1690.json#train.semi\",\n        \"time\": \"unknown\",\n        \"value\": \"monday\"\n      },\n      \"operation\": \"APPEND\",\n      \"slot\": \"train.semi.day\",\n      \"source_turns\": [\"PMUL1690.json#turn4\"],\n      \"target_fact_id\": null\n    },\n    {\n      \"alternatives\": [],\n      \"fact\": {\n        \"relation\": \"train.semi.leaveAt\",\n        \"source_turns\": [\"PMUL1690.json#turn4\"],\n        \"subject\": \"PMUL1690.json#train.semi\",\n        \"time\": \"unknown\",\n        \"value\": \"21:15\"\n      },\n      \"operation\": \"APPEND\",\n      \"slot\": \"train.semi.leaveAt\",\n      \"source_turns\": [\"PMUL1690.json#turn4\"],\n      \"target_fact_id\": null\n    }\n  ]\n}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 2351,
+    "output_tokens": 520,
+    "reasoning_tokens": 0,
+    "total_tokens": 2871
+  }
+}

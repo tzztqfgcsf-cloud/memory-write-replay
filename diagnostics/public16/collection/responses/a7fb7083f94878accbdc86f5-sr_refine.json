@@ -1,0 +1,56 @@
+{
+  "call_id": "a7fb7083f94878accbdc86f5-sr_refine",
+  "cost_note": "provider_did_not_report_money",
+  "cost_usd_reported": null,
+  "finish_reason": "STOP",
+  "http_status": 200,
+  "latency_seconds": 2.1572,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.0010162065132332282,
+        "content": {
+          "parts": [
+            {
+              "text": "{\"reply\": \"Okay, I will update the booking to be for 7 people at 18:00 on Wednesday. Is there anything else I can help you with?\", \"action\": {\"kind\": \"CONTINUE\", \"question_slot\": null, \"required_slots\": [], \"speaker_id\": \"system\"}, \"memory_decisions\": [{\"alternatives\": [\"7\"], \"fact\": {\"relation\": \"restaurant.book.people\", \"source_turns\": [\"MUL1523.json#turn4\"], \"subject\": \"MUL1523.json#restaurant.book\", \"time\": \"unknown\", \"value\": \"7\"}, \"operation\": \"CORRECT\", \"slot\": \"restaurant.book.people\", \"source_turns\": [\"MUL1523.json#turn4\"], \"target_fact_id\": \"MUL1523.json#state3#restaurant.book.people\"}, {\"alternatives\": [\"18:00\"], \"fact\": {\"relation\": \"restaurant.book.time\", \"source_turns\": [\"MUL1523.json#turn4\"], \"subject\": \"MUL1523.json#restaurant.book\", \"time\": \"unknown\", \"value\": \"18:00\"}, \"operation\": \"CORRECT\", \"slot\": \"restaurant.book.time\", \"source_turns\": [\"MUL1523.json#turn4\"], \"target_fact_id\": \"MUL1523.json#state3#restaurant.book.time\"}, {\"alternatives\": [\"wednesday\"], \"fact\": {\"relation\": \"restaurant.book.time\", \"source_turns\": [\"MUL1523.json#turn4\"], \"subject\": \"MUL1523.json#restaurant.book\", \"time\": \"unknown\", \"value\": \"wednesday\"}, \"operation\": \"APPEND\", \"slot\": \"restaurant.book.time\", \"source_turns\": [\"MUL1523.json#turn4\"], \"target_fact_id\": null}]}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T23:03:25.055303Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "vaC5aoewA_ObncoPmvuomAI",
+    "usageMetadata": {
+      "candidatesTokenCount": 439,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 439
+        }
+      ],
+      "promptTokenCount": 2359,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 2359
+        }
+      ],
+      "totalTokenCount": 2798,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "308c704c4275b6ec6e346efcb76ba111f3274422810bc378e0e231d564e86708",
+  "status": "OK",
+  "text": "{\"reply\": \"Okay, I will update the booking to be for 7 people at 18:00 on Wednesday. Is there anything else I can help you with?\", \"action\": {\"kind\": \"CONTINUE\", \"question_slot\": null, \"required_slots\": [], \"speaker_id\": \"system\"}, \"memory_decisions\": [{\"alternatives\": [\"7\"], \"fact\": {\"relation\": \"restaurant.book.people\", \"source_turns\": [\"MUL1523.json#turn4\"], \"subject\": \"MUL1523.json#restaurant.book\", \"time\": \"unknown\", \"value\": \"7\"}, \"operation\": \"CORRECT\", \"slot\": \"restaurant.book.people\", \"source_turns\": [\"MUL1523.json#turn4\"], \"target_fact_id\": \"MUL1523.json#state3#restaurant.book.people\"}, {\"alternatives\": [\"18:00\"], \"fact\": {\"relation\": \"restaurant.book.time\", \"source_turns\": [\"MUL1523.json#turn4\"], \"subject\": \"MUL1523.json#restaurant.book\", \"time\": \"unknown\", \"value\": \"18:00\"}, \"operation\": \"CORRECT\", \"slot\": \"restaurant.book.time\", \"source_turns\": [\"MUL1523.json#turn4\"], \"target_fact_id\": \"MUL1523.json#state3#restaurant.book.time\"}, {\"alternatives\": [\"wednesday\"], \"fact\": {\"relation\": \"restaurant.book.time\", \"source_turns\": [\"MUL1523.json#turn4\"], \"subject\": \"MUL1523.json#restaurant.book\", \"time\": \"unknown\", \"value\": \"wednesday\"}, \"operation\": \"APPEND\", \"slot\": \"restaurant.book.time\", \"source_turns\": [\"MUL1523.json#turn4\"], \"target_fact_id\": null}]}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 2359,
+    "output_tokens": 439,
+    "reasoning_tokens": 0,
+    "total_tokens": 2798
+  }
+}

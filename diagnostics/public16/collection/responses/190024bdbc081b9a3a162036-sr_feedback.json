@@ -1,0 +1,56 @@
+{
+  "call_id": "190024bdbc081b9a3a162036-sr_feedback",
+  "cost_note": "provider_did_not_report_money",
+  "cost_usd_reported": null,
+  "finish_reason": "STOP",
+  "http_status": 200,
+  "latency_seconds": 2.2654,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.060123437370350155,
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"no_change_needed\": false,\n  \"issues\": [\n    {\n      \"draft_location\": \"memory_decisions[0].fact.value\",\n      \"evidence_location\": \"input.candidate.text\",\n      \"problem\": \"The value for 'hotel.semi.area' in the draft is 'centre', but the user utterance specifies 'center'. The spelling should match the user's input.\",\n      \"specific_revision\": \"Change 'centre' to 'center'.\"\n    },\n    {\n      \"draft_location\": \"memory_decisions[1]\",\n      \"evidence_location\": \"input.candidate.text\",\n      \"problem\": \"The draft is missing a memory decision for 'hotel.semi.parking'. The user explicitly states 'I need parking'.\",\n      \"specific_revision\": \"Add an APPEND operation for 'hotel.semi.parking' with value 'yes'.\"\n    },\n    {\n      \"draft_location\": \"memory_decisions[1]\",\n      \"evidence_location\": \"input.candidate.text\",\n      \"problem\": \"The draft is missing a memory decision for 'hotel.semi.stars'. The user explicitly states 'it should have a 0 star rating'.\",\n      \"specific_revision\": \"Add an APPEND operation for 'hotel.semi.stars' with value '0'.\"\n    }\n  ]\n}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T23:18:47.768412Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "V6S5apzzLpiXktwPo4SY4AQ",
+    "usageMetadata": {
+      "candidatesTokenCount": 306,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 306
+        }
+      ],
+      "promptTokenCount": 1226,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1226
+        }
+      ],
+      "totalTokenCount": 1532,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "3c8086c7f64c3a96d2da25da7cce0c1c893f6a603f90c122ecdcec7452c01e4a",
+  "status": "OK",
+  "text": "{\n  \"no_change_needed\": false,\n  \"issues\": [\n    {\n      \"draft_location\": \"memory_decisions[0].fact.value\",\n      \"evidence_location\": \"input.candidate.text\",\n      \"problem\": \"The value for 'hotel.semi.area' in the draft is 'centre', but the user utterance specifies 'center'. The spelling should match the user's input.\",\n      \"specific_revision\": \"Change 'centre' to 'center'.\"\n    },\n    {\n      \"draft_location\": \"memory_decisions[1]\",\n      \"evidence_location\": \"input.candidate.text\",\n      \"problem\": \"The draft is missing a memory decision for 'hotel.semi.parking'. The user explicitly states 'I need parking'.\",\n      \"specific_revision\": \"Add an APPEND operation for 'hotel.semi.parking' with value 'yes'.\"\n    },\n    {\n      \"draft_location\": \"memory_decisions[1]\",\n      \"evidence_location\": \"input.candidate.text\",\n      \"problem\": \"The draft is missing a memory decision for 'hotel.semi.stars'. The user explicitly states 'it should have a 0 star rating'.\",\n      \"specific_revision\": \"Add an APPEND operation for 'hotel.semi.stars' with value '0'.\"\n    }\n  ]\n}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1226,
+    "output_tokens": 306,
+    "reasoning_tokens": 0,
+    "total_tokens": 1532
+  }
+}

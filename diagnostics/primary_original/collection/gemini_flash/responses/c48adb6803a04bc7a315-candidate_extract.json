@@ -1,0 +1,57 @@
+{
+  "call_id": "c48adb6803a04bc7a315-candidate_extract",
+  "finish_reason": "STOP",
+  "finished_unix": 1790489201.054328,
+  "http_status": 200,
+  "latency_seconds": 1.7532,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.00258281637220347,
+        "content": {
+          "parts": [
+            {
+              "text": "{\"beliefs\": [{\"candidate_id\": \"c1\", \"facts\": [{\"relation\": \"learned_from\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"한 선생님\"}]}, {\"candidate_id\": \"c2\", \"facts\": [{\"relation\": \"learned_from\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"한 선생님\"}]}], \"correction_witnesses\": [{\"candidate_id\": \"c1\", \"evidence_quote\": \"한 선생님으로 바로잡아 줘\", \"new_value\": \"한 선생님\", \"polarity\": \"affirmed\", \"relation\": \"learned_from\", \"source_turn\": \"t2\", \"subject\": \"participant\", \"target_fact_id\": \"f1\", \"time\": \"past\"}, {\"candidate_id\": \"c2\", \"evidence_quote\": \"한 선생님이니 그렇게 고쳐\", \"new_value\": \"한 선생님\", \"polarity\": \"affirmed\", \"relation\": \"learned_from\", \"source_turn\": \"t2\", \"subject\": \"participant\", \"target_fact_id\": \"f1\", \"time\": \"past\"}]}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T06:06:39.444646Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "b7K4auaRG-mMx9gP69GymAQ",
+    "usageMetadata": {
+      "candidatesTokenCount": 267,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 267
+        }
+      ],
+      "promptTokenCount": 1703,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1703
+        }
+      ],
+      "totalTokenCount": 1970,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "4494a1f3d96d682b54033fe3b61cfc4de0dc09349606a07f914ef561073bec2e",
+  "stage_schema_sha256": "bda7326ac6a6cbeedf1ecdbf4a2b08277c078351d6689f667dc0d558c4972dd3",
+  "started_unix": 1790489199.300792,
+  "status": "OK",
+  "text": "{\"beliefs\": [{\"candidate_id\": \"c1\", \"facts\": [{\"relation\": \"learned_from\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"한 선생님\"}]}, {\"candidate_id\": \"c2\", \"facts\": [{\"relation\": \"learned_from\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"한 선생님\"}]}], \"correction_witnesses\": [{\"candidate_id\": \"c1\", \"evidence_quote\": \"한 선생님으로 바로잡아 줘\", \"new_value\": \"한 선생님\", \"polarity\": \"affirmed\", \"relation\": \"learned_from\", \"source_turn\": \"t2\", \"subject\": \"participant\", \"target_fact_id\": \"f1\", \"time\": \"past\"}, {\"candidate_id\": \"c2\", \"evidence_quote\": \"한 선생님이니 그렇게 고쳐\", \"new_value\": \"한 선생님\", \"polarity\": \"affirmed\", \"relation\": \"learned_from\", \"source_turn\": \"t2\", \"subject\": \"participant\", \"target_fact_id\": \"f1\", \"time\": \"past\"}]}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1703,
+    "output_tokens": 267,
+    "reasoning_tokens": 0,
+    "total_tokens": 1970
+  }
+}

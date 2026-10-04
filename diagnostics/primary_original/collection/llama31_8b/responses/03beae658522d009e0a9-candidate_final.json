@@ -1,0 +1,36 @@
+{
+  "call_id": "03beae658522d009e0a9-candidate_final",
+  "error_type": null,
+  "finish_reason": "stop",
+  "finished_unix": 1790495368.695524,
+  "latency_seconds": 12.5775,
+  "model_version": "mlx-community/Llama-3.1-8B-Instruct-4bit",
+  "raw_response": {
+    "base_seed": 20260927,
+    "finish_reason": "stop",
+    "generation_calls": 628,
+    "id": "local-c7c229ac266260d0a6257bde",
+    "seed": 1395961348,
+    "snapshot": "<LOCAL_PATH>",
+    "text": "{\"action\": {\"kind\": \"CLARIFY\", \"question_slot\": \"workplace\", \"required_slots\": [\"workplace\"], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"새결공방\"], \"fact\": {\"relation\": \"workplace\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"새결공방\"}, \"operation\": \"APPEND\", \"slot\": \"workplace\", \"source_turns\": [\"t2\"], \"target_fact_id\": null}, {\"alternatives\": [\"새결공방\"], \"fact\": {\"relation\": \"workplace\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"새결공방\"}, \"operation\": \"CORRECT\", \"slot\": \"workplace\", \"source_turns\": [\"t2\"], \"target_fact_id\": \"f1\"}], \"reply\": \"요즘 일하는 곳은 새결공방이에요. 이건 대화로만 하고 저장은 하지 않겠습니다.\"}",
+    "usage": {
+      "cached_tokens": null,
+      "input_tokens": 2099,
+      "output_tokens": 235,
+      "reasoning_tokens": null,
+      "total_tokens": 2334
+    }
+  },
+  "request_sha256": "d7adebc871fcc9acd9bf95e5d398edba15a2efbc23eb29eb0381035abce085cc",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790495356.1177971,
+  "status": "OK",
+  "text": "{\"action\": {\"kind\": \"CLARIFY\", \"question_slot\": \"workplace\", \"required_slots\": [\"workplace\"], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"새결공방\"], \"fact\": {\"relation\": \"workplace\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"새결공방\"}, \"operation\": \"APPEND\", \"slot\": \"workplace\", \"source_turns\": [\"t2\"], \"target_fact_id\": null}, {\"alternatives\": [\"새결공방\"], \"fact\": {\"relation\": \"workplace\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"새결공방\"}, \"operation\": \"CORRECT\", \"slot\": \"workplace\", \"source_turns\": [\"t2\"], \"target_fact_id\": \"f1\"}], \"reply\": \"요즘 일하는 곳은 새결공방이에요. 이건 대화로만 하고 저장은 하지 않겠습니다.\"}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 2099,
+    "output_tokens": 235,
+    "reasoning_tokens": null,
+    "total_tokens": 2334
+  }
+}

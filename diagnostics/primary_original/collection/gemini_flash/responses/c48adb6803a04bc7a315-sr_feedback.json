@@ -1,0 +1,57 @@
+{
+  "call_id": "c48adb6803a04bc7a315-sr_feedback",
+  "finish_reason": "STOP",
+  "finished_unix": 1790489220.3493152,
+  "http_status": 200,
+  "latency_seconds": 1.9599,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.19077364274257205,
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"no_change_needed\": false,\n  \"issues\": [\n    {\n      \"draft_location\": \"memory_decisions[0].source_turns\",\n      \"evidence_location\": \"t2\",\n      \"problem\": \"The source_turns for a memory decision should reflect all turns that provide evidence for that specific fact. In this case, the correction is based on the current turn (t2), but the original fact (f1) was established in t1. While the correction itself comes from t2, the fact being corrected has a history that should be acknowledged if the intent is to track the full lineage of the fact.\",\n      \"specific_revision\": \"Change memory_decisions[0].source_turns to [\\\"t1\\\", \\\"t2\\\"] to reflect both the original fact's source and the correction's source.\"\n    }\n  ]\n}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T06:06:58.511234Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "grK4aoKaH9CNx9gP07myoAQ",
+    "usageMetadata": {
+      "candidatesTokenCount": 193,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 193
+        }
+      ],
+      "promptTokenCount": 1418,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1418
+        }
+      ],
+      "totalTokenCount": 1611,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "66be56318a2951aed9ccf94196bccb08231c241f67f90d19ca15a865be5c5d8c",
+  "stage_schema_sha256": "377e252cf02129ba34bbc867118dd2b9c6b65042b3fcd7b44099d2fc6e0513ed",
+  "started_unix": 1790489218.38907,
+  "status": "OK",
+  "text": "{\n  \"no_change_needed\": false,\n  \"issues\": [\n    {\n      \"draft_location\": \"memory_decisions[0].source_turns\",\n      \"evidence_location\": \"t2\",\n      \"problem\": \"The source_turns for a memory decision should reflect all turns that provide evidence for that specific fact. In this case, the correction is based on the current turn (t2), but the original fact (f1) was established in t1. While the correction itself comes from t2, the fact being corrected has a history that should be acknowledged if the intent is to track the full lineage of the fact.\",\n      \"specific_revision\": \"Change memory_decisions[0].source_turns to [\\\"t1\\\", \\\"t2\\\"] to reflect both the original fact's source and the correction's source.\"\n    }\n  ]\n}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1418,
+    "output_tokens": 193,
+    "reasoning_tokens": 0,
+    "total_tokens": 1611
+  }
+}

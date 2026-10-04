@@ -1,0 +1,36 @@
+{
+  "call_id": "5931bc60a4676fd10a98-sr_refine",
+  "error_type": null,
+  "finish_reason": "stop",
+  "finished_unix": 1790494618.3714712,
+  "latency_seconds": 11.8692,
+  "model_version": "mlx-community/Llama-3.1-8B-Instruct-4bit",
+  "raw_response": {
+    "base_seed": 20260927,
+    "finish_reason": "stop",
+    "generation_calls": 558,
+    "id": "local-44d231724cc419e9127fdf39",
+    "seed": 2930376393,
+    "snapshot": "<LOCAL_PATH>",
+    "text": "{\"action\": {\"kind\": \"CONTINUE\", \"question_slot\": \"event_year\", \"required_slots\": [\"event_year\"], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"2003\", \"2003\"], \"fact\": {\"relation\": \"event_year\", \"source_turns\": [\"t1\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"2003\"}, \"operation\": \"APPEND\", \"slot\": \"event_year\", \"source_turns\": [\"t1\"], \"target_fact_id\": null}, {\"alternatives\": [\"2003\"], \"fact\": {\"relation\": \"event_year\", \"source_turns\": [\"t1\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"2003\"}, \"operation\": \"CORRECT\", \"slot\": \"event_year\", \"source_turns\": [\"t1\"], \"target_fact_id\": \"f1\"}], \"reply\": \"2003\"}",
+    "usage": {
+      "cached_tokens": null,
+      "input_tokens": 1999,
+      "output_tokens": 206,
+      "reasoning_tokens": null,
+      "total_tokens": 2205
+    }
+  },
+  "request_sha256": "0ef6a15b5e7a716d7eabdc009118fae06939fe834c2888e23626726fe6af334f",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790494606.501812,
+  "status": "OK",
+  "text": "{\"action\": {\"kind\": \"CONTINUE\", \"question_slot\": \"event_year\", \"required_slots\": [\"event_year\"], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"2003\", \"2003\"], \"fact\": {\"relation\": \"event_year\", \"source_turns\": [\"t1\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"2003\"}, \"operation\": \"APPEND\", \"slot\": \"event_year\", \"source_turns\": [\"t1\"], \"target_fact_id\": null}, {\"alternatives\": [\"2003\"], \"fact\": {\"relation\": \"event_year\", \"source_turns\": [\"t1\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"2003\"}, \"operation\": \"CORRECT\", \"slot\": \"event_year\", \"source_turns\": [\"t1\"], \"target_fact_id\": \"f1\"}], \"reply\": \"2003\"}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1999,
+    "output_tokens": 206,
+    "reasoning_tokens": null,
+    "total_tokens": 2205
+  }
+}

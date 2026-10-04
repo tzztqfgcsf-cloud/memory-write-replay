@@ -1,0 +1,57 @@
+{
+  "call_id": "4c040436fc3c9492ad3e-g_final",
+  "finish_reason": "STOP",
+  "finished_unix": 1790491271.430094,
+  "http_status": 200,
+  "latency_seconds": 1.6689,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.006753706440483172,
+        "content": {
+          "parts": [
+            {
+              "text": "{\"reply\": \"네, 동생 영숙님이 이 사범님께 태권도를 배웠다는 사실을 기록해 드릴게요. 본인 기록은 그대로 유지됩니다.\", \"action\": {\"kind\": \"CONTINUE\", \"question_slot\": null, \"required_slots\": [], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [], \"fact\": {\"relation\": \"learned_from\", \"source_turns\": [\"t2\"], \"subject\": \"영숙\", \"time\": \"past\", \"value\": \"이 사범님\"}, \"operation\": \"APPEND\", \"slot\": null, \"source_turns\": [\"t2\"], \"target_fact_id\": null}, {\"alternatives\": [], \"fact\": null, \"operation\": \"NO_WRITE\", \"slot\": null, \"source_turns\": [\"t2\"], \"target_fact_id\": \"f1\"}]}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T06:41:09.848041Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "hbq4aqnhM_Gcx9gPiJ6amAM",
+    "usageMetadata": {
+      "candidatesTokenCount": 194,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 194
+        }
+      ],
+      "promptTokenCount": 1950,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1950
+        }
+      ],
+      "totalTokenCount": 2144,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "ece97b9a7a427400b5373c98d58058424cbe8929ef2678115b7049895b5a7781",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790491269.7592561,
+  "status": "OK",
+  "text": "{\"reply\": \"네, 동생 영숙님이 이 사범님께 태권도를 배웠다는 사실을 기록해 드릴게요. 본인 기록은 그대로 유지됩니다.\", \"action\": {\"kind\": \"CONTINUE\", \"question_slot\": null, \"required_slots\": [], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [], \"fact\": {\"relation\": \"learned_from\", \"source_turns\": [\"t2\"], \"subject\": \"영숙\", \"time\": \"past\", \"value\": \"이 사범님\"}, \"operation\": \"APPEND\", \"slot\": null, \"source_turns\": [\"t2\"], \"target_fact_id\": null}, {\"alternatives\": [], \"fact\": null, \"operation\": \"NO_WRITE\", \"slot\": null, \"source_turns\": [\"t2\"], \"target_fact_id\": \"f1\"}]}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1950,
+    "output_tokens": 194,
+    "reasoning_tokens": 0,
+    "total_tokens": 2144
+  }
+}

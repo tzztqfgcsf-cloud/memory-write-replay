@@ -1,0 +1,55 @@
+{
+  "status": "OK",
+  "http_status": 200,
+  "text": "{\"reply\": \"네, 친구의 출생지는 춘천이군요. 하지만 저는 사용자님의 출생지만 기억할 수 있습니다. 사용자님의 출생지는 제주로 기록되어 있습니다. 이 정보를 유지할까요?\", \"action\": {\"kind\": \"CONTINUE\", \"question_slot\": null, \"required_slots\": [], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [], \"fact\": null, \"operation\": \"NO_WRITE\", \"slot\": null, \"source_turns\": [\"t2\"], \"target_fact_id\": null}]}",
+  "usage": {
+    "input_tokens": 1864,
+    "output_tokens": 125,
+    "reasoning_tokens": 0,
+    "total_tokens": 1989,
+    "cached_tokens": null
+  },
+  "finish_reason": "STOP",
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "content": {
+          "role": "model",
+          "parts": [
+            {
+              "text": "{\"reply\": \"네, 친구의 출생지는 춘천이군요. 하지만 저는 사용자님의 출생지만 기억할 수 있습니다. 사용자님의 출생지는 제주로 기록되어 있습니다. 이 정보를 유지할까요?\", \"action\": {\"kind\": \"CONTINUE\", \"question_slot\": null, \"required_slots\": [], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [], \"fact\": null, \"operation\": \"NO_WRITE\", \"slot\": null, \"source_turns\": [\"t2\"], \"target_fact_id\": null}]}"
+            }
+          ]
+        },
+        "finishReason": "STOP",
+        "avgLogprobs": -0.020975603103637695
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 1864,
+      "candidatesTokenCount": 125,
+      "totalTokenCount": 1989,
+      "trafficType": "ON_DEMAND",
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1864
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 125
+        }
+      ]
+    },
+    "modelVersion": "gemini-2.5-flash",
+    "createTime": "2026-09-27T11:26:45.720520Z",
+    "responseId": "df24aoj9K_GancoP76ybiQ0"
+  },
+  "latency_seconds": 1.4715,
+  "call_id": "N006-g_final",
+  "physical_attempt": true,
+  "completed_unix": 1790508406.946742
+}

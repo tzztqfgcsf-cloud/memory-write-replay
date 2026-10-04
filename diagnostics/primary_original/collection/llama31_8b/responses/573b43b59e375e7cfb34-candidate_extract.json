@@ -1,0 +1,36 @@
+{
+  "call_id": "573b43b59e375e7cfb34-candidate_extract",
+  "error_type": null,
+  "finish_reason": "stop",
+  "finished_unix": 1790495421.580054,
+  "latency_seconds": 12.5872,
+  "model_version": "mlx-community/Llama-3.1-8B-Instruct-4bit",
+  "raw_response": {
+    "base_seed": 20260927,
+    "finish_reason": "stop",
+    "generation_calls": 633,
+    "id": "local-e83ed2f545ebd90d101caaf8",
+    "seed": 1700530594,
+    "snapshot": "<LOCAL_PATH>",
+    "text": "{\"beliefs\": [{\"candidate_id\": \"c1\", \"facts\": [{\"relation\": \"residence\", \"source_turns\": [\"t1\"], \"subject\": \"김제\", \"time\": \"past\", \"value\": \"태어나기\"}]}, {\"candidate_id\": \"c2\", \"facts\": [{\"relation\": \"birthplace\", \"source_turns\": [\"t2\"], \"subject\": \"김제\", \"time\": \"past\", \"value\": \"태어난 데\"}]}], \"correction_witnesses\": [{\"candidate_id\": \"c1\", \"evidence_quote\": \"김제에서 태어나기는 했어요.\", \"new_value\": \"태어나기\", \"polarity\": \"affirmed\", \"relation\": \"residence\", \"source_turn\": \"t1\", \"subject\": \"김제\", \"target_fact_id\": \"\", \"time\": \"past\"}, {\"candidate_id\": \"c2\", \"evidence_quote\": \"태어난 데는 김제예요.\", \"new_value\": \"태어난 데\", \"polarity\": \"affirmed\", \"relation\": \"birthplace\", \"source_turn\": \"t2\", \"subject\": \"김제\", \"target_fact_id\": \"\", \"time\": \"past\"}]}",
+    "usage": {
+      "cached_tokens": null,
+      "input_tokens": 1712,
+      "output_tokens": 263,
+      "reasoning_tokens": null,
+      "total_tokens": 1975
+    }
+  },
+  "request_sha256": "dcb17ef7ece21835269cb5a0bc28ff861c66192e94d9cab14ca3d9bd93543d20",
+  "stage_schema_sha256": "bda7326ac6a6cbeedf1ecdbf4a2b08277c078351d6689f667dc0d558c4972dd3",
+  "started_unix": 1790495408.992617,
+  "status": "OK",
+  "text": "{\"beliefs\": [{\"candidate_id\": \"c1\", \"facts\": [{\"relation\": \"residence\", \"source_turns\": [\"t1\"], \"subject\": \"김제\", \"time\": \"past\", \"value\": \"태어나기\"}]}, {\"candidate_id\": \"c2\", \"facts\": [{\"relation\": \"birthplace\", \"source_turns\": [\"t2\"], \"subject\": \"김제\", \"time\": \"past\", \"value\": \"태어난 데\"}]}], \"correction_witnesses\": [{\"candidate_id\": \"c1\", \"evidence_quote\": \"김제에서 태어나기는 했어요.\", \"new_value\": \"태어나기\", \"polarity\": \"affirmed\", \"relation\": \"residence\", \"source_turn\": \"t1\", \"subject\": \"김제\", \"target_fact_id\": \"\", \"time\": \"past\"}, {\"candidate_id\": \"c2\", \"evidence_quote\": \"태어난 데는 김제예요.\", \"new_value\": \"태어난 데\", \"polarity\": \"affirmed\", \"relation\": \"birthplace\", \"source_turn\": \"t2\", \"subject\": \"김제\", \"target_fact_id\": \"\", \"time\": \"past\"}]}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1712,
+    "output_tokens": 263,
+    "reasoning_tokens": null,
+    "total_tokens": 1975
+  }
+}

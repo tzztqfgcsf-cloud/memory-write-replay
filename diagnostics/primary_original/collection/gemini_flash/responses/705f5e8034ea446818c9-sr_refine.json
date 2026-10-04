@@ -1,0 +1,57 @@
+{
+  "call_id": "705f5e8034ea446818c9-sr_refine",
+  "finish_reason": "STOP",
+  "finished_unix": 1790490841.980083,
+  "http_status": 200,
+  "latency_seconds": 1.3666,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.0006869677040312025,
+        "content": {
+          "parts": [
+            {
+              "text": "{\"reply\": \"네, 남편 준호님의 취미는 낚시로 기억해 둘게요.\", \"action\": {\"kind\": \"CONTINUE\", \"question_slot\": null, \"required_slots\": [], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [], \"fact\": {\"relation\": \"hobby\", \"source_turns\": [\"t2\"], \"subject\": \"남편 준호\", \"time\": \"present\", \"value\": \"낚시\"}, \"operation\": \"APPEND\", \"slot\": null, \"source_turns\": [\"t2\"], \"target_fact_id\": null}]}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T06:34:00.776937Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "2Li4aum1L5iXktwPo4SY4AQ",
+    "usageMetadata": {
+      "candidatesTokenCount": 135,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 135
+        }
+      ],
+      "promptTokenCount": 2073,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 2073
+        }
+      ],
+      "totalTokenCount": 2208,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "059ca3c9d6bf4909537ff8ead2a56459cc22e211b078a7cc880d8e9e788c98dd",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790490840.613266,
+  "status": "OK",
+  "text": "{\"reply\": \"네, 남편 준호님의 취미는 낚시로 기억해 둘게요.\", \"action\": {\"kind\": \"CONTINUE\", \"question_slot\": null, \"required_slots\": [], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [], \"fact\": {\"relation\": \"hobby\", \"source_turns\": [\"t2\"], \"subject\": \"남편 준호\", \"time\": \"present\", \"value\": \"낚시\"}, \"operation\": \"APPEND\", \"slot\": null, \"source_turns\": [\"t2\"], \"target_fact_id\": null}]}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 2073,
+    "output_tokens": 135,
+    "reasoning_tokens": 0,
+    "total_tokens": 2208
+  }
+}

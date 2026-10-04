@@ -1,0 +1,2 @@
+# Python >= 3.10, built with standard-library sqlite3 support.
+# No third-party Python packages are required for core/replay.py.

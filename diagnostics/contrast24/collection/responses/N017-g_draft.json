@@ -1,0 +1,12 @@
+{
+  "status": "HTTP_ERROR",
+  "http_status": 429,
+  "retry_after": null,
+  "error_response": "{\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.\",\n    \"status\": \"RESOURCE_EXHAUSTED\"\n  }\n}\n",
+  "text": "",
+  "usage": {},
+  "latency_seconds": 1.3935,
+  "call_id": "N017-g_draft",
+  "physical_attempt": true,
+  "completed_unix": 1790508671.3620648
+}

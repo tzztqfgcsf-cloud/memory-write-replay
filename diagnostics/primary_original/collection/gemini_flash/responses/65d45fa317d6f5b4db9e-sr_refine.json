@@ -1,0 +1,57 @@
+{
+  "call_id": "65d45fa317d6f5b4db9e-sr_refine",
+  "finish_reason": "STOP",
+  "finished_unix": 1790490665.3168662,
+  "http_status": 200,
+  "latency_seconds": 0.9805,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.0010392746822101863,
+        "content": {
+          "parts": [
+            {
+              "text": "{\"reply\": \"네, 알겠습니다. 다솜꽃집이라는 정보는 그대로 유지하겠습니다. 간판 사진을 보시거나 확실한 증거가 있을 때 알려주시면 그때 반영할게요.\", \"action\": {\"kind\": \"CONTINUE\", \"question_slot\": null, \"required_slots\": [], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"다온꽃집\"], \"fact\": null, \"operation\": \"HOLD\", \"slot\": \"shop_name\", \"source_turns\": [\"t2\"], \"target_fact_id\": null}]}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T06:31:04.431596Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "KLi4auyrGvCVktwP37SV-Ag",
+    "usageMetadata": {
+      "candidatesTokenCount": 127,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 127
+        }
+      ],
+      "promptTokenCount": 2387,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 2387
+        }
+      ],
+      "totalTokenCount": 2514,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "174db38628f4dde5cd266264981059f82ce17cb6032e48391a390bd1190d8748",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790490664.3358579,
+  "status": "OK",
+  "text": "{\"reply\": \"네, 알겠습니다. 다솜꽃집이라는 정보는 그대로 유지하겠습니다. 간판 사진을 보시거나 확실한 증거가 있을 때 알려주시면 그때 반영할게요.\", \"action\": {\"kind\": \"CONTINUE\", \"question_slot\": null, \"required_slots\": [], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"다온꽃집\"], \"fact\": null, \"operation\": \"HOLD\", \"slot\": \"shop_name\", \"source_turns\": [\"t2\"], \"target_fact_id\": null}]}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 2387,
+    "output_tokens": 127,
+    "reasoning_tokens": 0,
+    "total_tokens": 2514
+  }
+}

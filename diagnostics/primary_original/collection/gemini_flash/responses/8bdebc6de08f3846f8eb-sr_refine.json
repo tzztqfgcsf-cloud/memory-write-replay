@@ -1,0 +1,57 @@
+{
+  "call_id": "8bdebc6de08f3846f8eb-sr_refine",
+  "finish_reason": "STOP",
+  "finished_unix": 1790492537.6137128,
+  "http_status": 200,
+  "latency_seconds": 1.2932,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.0014741354114641018,
+        "content": {
+          "parts": [
+            {
+              "text": "{\"reply\": \"네, 바다를 보고 속이 시원하셨군요! 여행지 기록은 나중에 해도 괜찮습니다. 또 다른 기분이나 경험에 대해 이야기해 주실 수 있을까요?\", \"action\": {\"kind\": \"CONTINUE\", \"question_slot\": null, \"required_slots\": [], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [], \"fact\": null, \"operation\": \"NO_WRITE\", \"slot\": null, \"source_turns\": [\"t2\"], \"target_fact_id\": null}]}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T07:02:16.494763Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "eL-4aquZHvuj0ckPyLyQmAM",
+    "usageMetadata": {
+      "candidatesTokenCount": 123,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 123
+        }
+      ],
+      "promptTokenCount": 2267,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 2267
+        }
+      ],
+      "totalTokenCount": 2390,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "e286dcb987628a875803d34abb0d45cff369a6204adc59b9644c2506b7d5ddd1",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790492536.320105,
+  "status": "OK",
+  "text": "{\"reply\": \"네, 바다를 보고 속이 시원하셨군요! 여행지 기록은 나중에 해도 괜찮습니다. 또 다른 기분이나 경험에 대해 이야기해 주실 수 있을까요?\", \"action\": {\"kind\": \"CONTINUE\", \"question_slot\": null, \"required_slots\": [], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [], \"fact\": null, \"operation\": \"NO_WRITE\", \"slot\": null, \"source_turns\": [\"t2\"], \"target_fact_id\": null}]}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 2267,
+    "output_tokens": 123,
+    "reasoning_tokens": 0,
+    "total_tokens": 2390
+  }
+}

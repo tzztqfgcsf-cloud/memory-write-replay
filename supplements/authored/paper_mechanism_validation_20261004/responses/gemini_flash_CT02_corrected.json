@@ -1,0 +1,20 @@
+{
+  "status": "OK",
+  "http_status": 200,
+  "text": "{\n  \"beliefs\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"facts\": [\n        {\n          \"relation\": \"shop_name\",\n          \"source_turns\": [\"t2\"],\n          \"subject\": \"participant\",\n          \"time\": \"present\",\n          \"value\": \"은하정육점\"\n        }\n      ]\n    },\n    {\n      \"candidate_id\": \"c2\",\n      \"facts\": [\n        {\n          \"relation\": \"shop_name\",\n          \"source_turns\": [\"t2\"],\n          \"subject\": \"participant\",\n          \"time\": \"present\",\n          \"value\": \"은하정육점\"\n        }\n      ]\n    }\n  ],\n  \"correction_witnesses\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"evidence_quote\": \"은하정육점이에요\",\n      \"new_value\": \"은하정육점\",\n      \"polarity\": \"affirmed\",\n      \"relation\": \"shop_name\",\n      \"source_turn\": \"t2\",\n      \"subject\": \"participant\",\n      \"target_fact_id\": \"f1\",\n      \"time\": \"present\"\n    },\n    {\n      \"candidate_id\": \"c2\",\n      \"evidence_quote\": \"은하정육점으로\",\n      \"new_value\": \"은하정육점\",\n      \"polarity\": \"affirmed\",\n      \"relation\": \"shop_name\",\n      \"source_turn\": \"t2\",\n      \"subject\": \"participant\",\n      \"target_fact_id\": \"f1\",\n      \"time\": \"present\"\n    }\n  ]\n}",
+  "usage": {
+    "input_tokens": 1849,
+    "output_tokens": 395,
+    "reasoning_tokens": 0,
+    "total_tokens": 2244,
+    "cached_tokens": 1955
+  },
+  "finish_reason": "STOP",
+  "model_version": "gemini-2.5-flash",
+  "id": "gemini_flash_CT02_corrected",
+  "key": "gemini_flash_CT02",
+  "stage": "extract",
+  "arm": "corrected",
+  "requested_model": "gemini-2.5-flash",
+  "latency_seconds": 1.8851523329503834
+}

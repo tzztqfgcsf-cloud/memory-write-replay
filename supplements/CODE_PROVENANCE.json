@@ -1,0 +1,23 @@
+[
+  {
+    "exported_path": "authored/methods.py",
+    "source_relative_path": "outputs/paper_mechanism_validation_20261004/common.py",
+    "source_sha256": "bdb66645ae2b120cee1d88cb81a077acf9b8c90921ccf4e2986dd61d5541ba46",
+    "exported_sha256": "58ec1d8ac2dd607c6e119d29473512a0c1034d955251a848b26b356da39c1212",
+    "transformation": "Retain exact FIX/JUDGE/JSCHEMA and judge functions; replace provider imports with portable offline protocol import."
+  },
+  {
+    "exported_path": "dstc2/adapter.py",
+    "source_relative_path": "outputs/paper_external_C1_20261004/run/adapter.py",
+    "source_sha256": "5afeb7fb4c4aefbc5f6af73f10f42db881e8cb11161c4cbba259ec25b3b1a404",
+    "exported_sha256": "dbdbff9dd28804f635503f5ef9617aa964dae3138163308b021603789482f1d7",
+    "transformation": "Only portability imports/root binding changed; prompt/schema/gate/executor/evaluation functions unchanged."
+  },
+  {
+    "exported_path": "schemas.json",
+    "source_relative_path": "outputs/paper_finish_control_20260921/conditional_method_extension_20260927/amendments/structured_output_v2/schemas.json",
+    "source_sha256": "dffe56d9fcbb866f426e3807445fc98c0d27636bd5aa362dcd459e2770942803",
+    "exported_sha256": "dffe56d9fcbb866f426e3807445fc98c0d27636bd5aa362dcd459e2770942803",
+    "transformation": "Exact frozen schema snapshot; byte-for-byte copy."
+  }
+]

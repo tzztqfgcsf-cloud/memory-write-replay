@@ -1,0 +1,57 @@
+{
+  "call_id": "cfd995a9962043ddb9cc-g_final",
+  "finish_reason": "STOP",
+  "finished_unix": 1790495436.2339358,
+  "http_status": 200,
+  "latency_seconds": 1.6718,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.007771005388349295,
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"reply\": \"네, 알겠습니다. 송 선생님께 배우면서 즐거웠던 이야기에 대해 더 자세히 말씀해주시겠어요?\",\n  \"action\": {\n    \"kind\": \"CONTINUE\",\n    \"question_slot\": null,\n    \"required_slots\": [],\n    \"speaker_id\": \"p1\"\n  },\n  \"memory_decisions\": [\n    {\n      \"alternatives\": [],\n      \"fact\": {\n        \"relation\": \"learned_from\",\n        \"source_turns\": [\"t2\"],\n        \"subject\": \"participant\",\n        \"time\": \"past\",\n        \"value\": \"즐거운 이야기\"\n      },\n      \"operation\": \"APPEND\",\n      \"slot\": null,\n      \"source_turns\": [\"t2\"],\n      \"target_fact_id\": null\n    },\n    {\n      \"alternatives\": [],\n      \"fact\": null,\n      \"operation\": \"NO_WRITE\",\n      \"slot\": null,\n      \"source_turns\": [\"t2\"],\n      \"target_fact_id\": null\n    }\n  ]\n}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T07:50:34.803434Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "ysq4auqEMZiXktwPo4SY4AQ",
+    "usageMetadata": {
+      "candidatesTokenCount": 256,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 256
+        }
+      ],
+      "promptTokenCount": 1925,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1925
+        }
+      ],
+      "totalTokenCount": 2181,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "de868fb6000a602424f86c86e713653130110715b25651d1da7f950694e69a9e",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790495434.561883,
+  "status": "OK",
+  "text": "{\n  \"reply\": \"네, 알겠습니다. 송 선생님께 배우면서 즐거웠던 이야기에 대해 더 자세히 말씀해주시겠어요?\",\n  \"action\": {\n    \"kind\": \"CONTINUE\",\n    \"question_slot\": null,\n    \"required_slots\": [],\n    \"speaker_id\": \"p1\"\n  },\n  \"memory_decisions\": [\n    {\n      \"alternatives\": [],\n      \"fact\": {\n        \"relation\": \"learned_from\",\n        \"source_turns\": [\"t2\"],\n        \"subject\": \"participant\",\n        \"time\": \"past\",\n        \"value\": \"즐거운 이야기\"\n      },\n      \"operation\": \"APPEND\",\n      \"slot\": null,\n      \"source_turns\": [\"t2\"],\n      \"target_fact_id\": null\n    },\n    {\n      \"alternatives\": [],\n      \"fact\": null,\n      \"operation\": \"NO_WRITE\",\n      \"slot\": null,\n      \"source_turns\": [\"t2\"],\n      \"target_fact_id\": null\n    }\n  ]\n}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1925,
+    "output_tokens": 256,
+    "reasoning_tokens": 0,
+    "total_tokens": 2181
+  }
+}

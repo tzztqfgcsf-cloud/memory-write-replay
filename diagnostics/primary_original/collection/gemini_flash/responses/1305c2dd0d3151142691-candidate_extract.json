@@ -1,0 +1,57 @@
+{
+  "call_id": "1305c2dd0d3151142691-candidate_extract",
+  "finish_reason": "STOP",
+  "finished_unix": 1790496261.578736,
+  "http_status": 200,
+  "latency_seconds": 2.7429,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.002422786250556867,
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"beliefs\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"facts\": [\n        {\n          \"relation\": \"hobby\",\n          \"source_turns\": [\"t2\"],\n          \"subject\": \"participant\",\n          \"time\": \"present\",\n          \"value\": \"자전거\"\n        }\n      ]\n    },\n    {\n      \"candidate_id\": \"c2\",\n      \"facts\": [\n        {\n          \"relation\": \"hobby\",\n          \"source_turns\": [\"t2\"],\n          \"subject\": \"participant\",\n          \"time\": \"present\",\n          \"value\": \"자전거\"\n        }\n      ]\n    }\n  ],\n  \"correction_witnesses\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"evidence_quote\": \"직장은 맞고\",\n      \"new_value\": \"봄날약국\",\n      \"polarity\": \"affirmed\",\n      \"relation\": \"workplace\",\n      \"source_turn\": \"t2\",\n      \"subject\": \"participant\",\n      \"target_fact_id\": \"f1\",\n      \"time\": \"present\"\n    },\n    {\n      \"candidate_id\": \"c1\",\n      \"evidence_quote\": \"연락도 문자 그대로예요\",\n      \"new_value\": \"문자\",\n      \"polarity\": \"affirmed\",\n      \"relation\": \"preferred_contact\",\n      \"source_turn\": \"t2\",\n      \"subject\": \"participant\",\n      \"target_fact_id\": \"f2\",\n      \"time\": \"present\"\n    },\n    {\n      \"candidate_id\": \"c2\",\n      \"evidence_quote\": \"봄날약국도\",\n      \"new_value\": \"봄날약국\",\n      \"polarity\": \"affirmed\",\n      \"relation\": \"workplace\",\n      \"source_turn\": \"t2\",\n      \"subject\": \"participant\",\n      \"target_fact_id\": \"f1\",\n      \"time\": \"present\"\n    },\n    {\n      \"candidate_id\": \"c2\",\n      \"evidence_quote\": \"문자도 맞아요\",\n      \"new_value\": \"문자\",\n      \"polarity\": \"affirmed\",\n      \"relation\": \"preferred_contact\",\n      \"source_turn\": \"t2\",\n      \"subject\": \"participant\",\n      \"target_fact_id\": \"f2\",\n      \"time\": \"present\"\n    }\n  ]\n}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T08:04:18.994736Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "As64arDbPMOAncoPsbLi2Qc",
+    "usageMetadata": {
+      "candidatesTokenCount": 582,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 582
+        }
+      ],
+      "promptTokenCount": 1738,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1738
+        }
+      ],
+      "totalTokenCount": 2320,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "574623286cb7dce1df30720ff092cea3ef8cd10e85896c25810bd15e196d5add",
+  "stage_schema_sha256": "bda7326ac6a6cbeedf1ecdbf4a2b08277c078351d6689f667dc0d558c4972dd3",
+  "started_unix": 1790496258.835393,
+  "status": "OK",
+  "text": "{\n  \"beliefs\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"facts\": [\n        {\n          \"relation\": \"hobby\",\n          \"source_turns\": [\"t2\"],\n          \"subject\": \"participant\",\n          \"time\": \"present\",\n          \"value\": \"자전거\"\n        }\n      ]\n    },\n    {\n      \"candidate_id\": \"c2\",\n      \"facts\": [\n        {\n          \"relation\": \"hobby\",\n          \"source_turns\": [\"t2\"],\n          \"subject\": \"participant\",\n          \"time\": \"present\",\n          \"value\": \"자전거\"\n        }\n      ]\n    }\n  ],\n  \"correction_witnesses\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"evidence_quote\": \"직장은 맞고\",\n      \"new_value\": \"봄날약국\",\n      \"polarity\": \"affirmed\",\n      \"relation\": \"workplace\",\n      \"source_turn\": \"t2\",\n      \"subject\": \"participant\",\n      \"target_fact_id\": \"f1\",\n      \"time\": \"present\"\n    },\n    {\n      \"candidate_id\": \"c1\",\n      \"evidence_quote\": \"연락도 문자 그대로예요\",\n      \"new_value\": \"문자\",\n      \"polarity\": \"affirmed\",\n      \"relation\": \"preferred_contact\",\n      \"source_turn\": \"t2\",\n      \"subject\": \"participant\",\n      \"target_fact_id\": \"f2\",\n      \"time\": \"present\"\n    },\n    {\n      \"candidate_id\": \"c2\",\n      \"evidence_quote\": \"봄날약국도\",\n      \"new_value\": \"봄날약국\",\n      \"polarity\": \"affirmed\",\n      \"relation\": \"workplace\",\n      \"source_turn\": \"t2\",\n      \"subject\": \"participant\",\n      \"target_fact_id\": \"f1\",\n      \"time\": \"present\"\n    },\n    {\n      \"candidate_id\": \"c2\",\n      \"evidence_quote\": \"문자도 맞아요\",\n      \"new_value\": \"문자\",\n      \"polarity\": \"affirmed\",\n      \"relation\": \"preferred_contact\",\n      \"source_turn\": \"t2\",\n      \"subject\": \"participant\",\n      \"target_fact_id\": \"f2\",\n      \"time\": \"present\"\n    }\n  ]\n}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1738,
+    "output_tokens": 582,
+    "reasoning_tokens": 0,
+    "total_tokens": 2320
+  }
+}

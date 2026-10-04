@@ -1,0 +1,56 @@
+{
+  "call_id": "d7f204c9b8dd67eae6c9283e-candidate_extract",
+  "cost_note": "provider_did_not_report_money",
+  "cost_usd_reported": null,
+  "finish_reason": "STOP",
+  "http_status": 200,
+  "latency_seconds": 1.622,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.002053922169829068,
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"beliefs\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"facts\": [\n        {\n          \"relation\": \"train.semi.leaveAt\",\n          \"source_turns\": [\n            \"SNG01176.json#turn6\"\n          ],\n          \"subject\": \"SNG01176.json#train.semi\",\n          \"time\": \"unknown\",\n          \"value\": \"20:45\"\n        }\n      ]\n    }\n  ],\n  \"correction_witnesses\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"target_fact_id\": \"SNG01176.json#state5#train.semi.leaveAt\",\n      \"subject\": \"SNG01176.json#train.semi\",\n      \"relation\": \"train.semi.leaveAt\",\n      \"time\": \"unknown\",\n      \"new_value\": \"20:45\",\n      \"source_turn\": \"SNG01176.json#turn6\",\n      \"evidence_quote\": \"I meant to say I want to leave after 20:45.\",\n      \"polarity\": \"affirmed\"\n    }\n  ]\n}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T22:52:06.039316Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "Fp65apSzArOLx9gPv4OY6A4",
+    "usageMetadata": {
+      "candidatesTokenCount": 292,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 292
+        }
+      ],
+      "promptTokenCount": 1672,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1672
+        }
+      ],
+      "totalTokenCount": 1964,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "d0131f8b5c31623d20dc56cc522a857fa3711ddc22c1b2663bcd076d6633be8e",
+  "status": "OK",
+  "text": "{\n  \"beliefs\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"facts\": [\n        {\n          \"relation\": \"train.semi.leaveAt\",\n          \"source_turns\": [\n            \"SNG01176.json#turn6\"\n          ],\n          \"subject\": \"SNG01176.json#train.semi\",\n          \"time\": \"unknown\",\n          \"value\": \"20:45\"\n        }\n      ]\n    }\n  ],\n  \"correction_witnesses\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"target_fact_id\": \"SNG01176.json#state5#train.semi.leaveAt\",\n      \"subject\": \"SNG01176.json#train.semi\",\n      \"relation\": \"train.semi.leaveAt\",\n      \"time\": \"unknown\",\n      \"new_value\": \"20:45\",\n      \"source_turn\": \"SNG01176.json#turn6\",\n      \"evidence_quote\": \"I meant to say I want to leave after 20:45.\",\n      \"polarity\": \"affirmed\"\n    }\n  ]\n}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1672,
+    "output_tokens": 292,
+    "reasoning_tokens": 0,
+    "total_tokens": 1964
+  }
+}

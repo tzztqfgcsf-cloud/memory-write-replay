@@ -1,0 +1,57 @@
+{
+  "call_id": "99db8d21a024ad4bf429-g_draft",
+  "finish_reason": "STOP",
+  "finished_unix": 1790496713.45212,
+  "http_status": 200,
+  "latency_seconds": 1.6024,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.02407984550182636,
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"reply\": \"네, 바느질을 처음 가르쳐 주신 분을 신 선생님으로 수정할게요.\",\n  \"action\": {\n    \"kind\": \"CONTINUE\",\n    \"question_slot\": null,\n    \"required_slots\": [],\n    \"speaker_id\": \"p1\"\n  },\n  \"memory_decisions\": [\n    {\n      \"alternatives\": [],\n      \"fact\": {\n        \"relation\": \"learned_from\",\n        \"source_turns\": [\n          \"t2\"\n        ],\n        \"subject\": \"participant\",\n        \"time\": \"past\",\n        \"value\": \"신 선생님\"\n      },\n      \"operation\": \"CORRECT\",\n      \"slot\": null,\n      \"source_turns\": [\n        \"t2\"\n      ],\n      \"target_fact_id\": \"f1\"\n    }\n  ]\n}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T08:11:51.995192Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "x8-4avjePJiXktwPo4SY4AQ",
+    "usageMetadata": {
+      "candidatesTokenCount": 208,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 208
+        }
+      ],
+      "promptTokenCount": 1686,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1686
+        }
+      ],
+      "totalTokenCount": 1894,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "e26f034afd808b5f7e9e1e9f4d26801a42b7884f044fc1ffe6ec8fad94861b75",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790496711.8494852,
+  "status": "OK",
+  "text": "{\n  \"reply\": \"네, 바느질을 처음 가르쳐 주신 분을 신 선생님으로 수정할게요.\",\n  \"action\": {\n    \"kind\": \"CONTINUE\",\n    \"question_slot\": null,\n    \"required_slots\": [],\n    \"speaker_id\": \"p1\"\n  },\n  \"memory_decisions\": [\n    {\n      \"alternatives\": [],\n      \"fact\": {\n        \"relation\": \"learned_from\",\n        \"source_turns\": [\n          \"t2\"\n        ],\n        \"subject\": \"participant\",\n        \"time\": \"past\",\n        \"value\": \"신 선생님\"\n      },\n      \"operation\": \"CORRECT\",\n      \"slot\": null,\n      \"source_turns\": [\n        \"t2\"\n      ],\n      \"target_fact_id\": \"f1\"\n    }\n  ]\n}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1686,
+    "output_tokens": 208,
+    "reasoning_tokens": 0,
+    "total_tokens": 1894
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "call_id": "99db8d21a024ad4bf429-g_draft",
+  "error_type": null,
+  "finish_reason": "stop",
+  "finished_unix": 1790497414.2725,
+  "latency_seconds": 9.4706,
+  "model_version": "mlx-community/Llama-3.1-8B-Instruct-4bit",
+  "raw_response": {
+    "base_seed": 20260927,
+    "finish_reason": "stop",
+    "generation_calls": 817,
+    "id": "local-4d7ac9f41feedf692b31cfb8",
+    "seed": 1078963470,
+    "snapshot": "<LOCAL_PATH>",
+    "text": "{\"action\": {\"kind\": \"CLARIFY\", \"question_slot\": \"learned_from\", \"required_slots\": [\"learned_from\"], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"윤 선생님\", \"신 선생님\"], \"fact\": {\"relation\": \"learned_from\", \"source_turns\": [\"t1\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"윤 선생님\"}, \"operation\": \"CORRECT\", \"slot\": \"learned_from\", \"source_turns\": [\"t1\"], \"target_fact_id\": \"f1\"}], \"reply\": \"그렇죠? 바느질을 처음 배운 분은 신 선생님 맞아요.\"}",
+    "usage": {
+      "cached_tokens": null,
+      "input_tokens": 1709,
+      "output_tokens": 155,
+      "reasoning_tokens": null,
+      "total_tokens": 1864
+    }
+  },
+  "request_sha256": "3695fbcf70a2e98677280eab853c717c2762c2e4a95aedb1a99969593f783828",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790497404.8016908,
+  "status": "OK",
+  "text": "{\"action\": {\"kind\": \"CLARIFY\", \"question_slot\": \"learned_from\", \"required_slots\": [\"learned_from\"], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"윤 선생님\", \"신 선생님\"], \"fact\": {\"relation\": \"learned_from\", \"source_turns\": [\"t1\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"윤 선생님\"}, \"operation\": \"CORRECT\", \"slot\": \"learned_from\", \"source_turns\": [\"t1\"], \"target_fact_id\": \"f1\"}], \"reply\": \"그렇죠? 바느질을 처음 배운 분은 신 선생님 맞아요.\"}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1709,
+    "output_tokens": 155,
+    "reasoning_tokens": null,
+    "total_tokens": 1864
+  }
+}

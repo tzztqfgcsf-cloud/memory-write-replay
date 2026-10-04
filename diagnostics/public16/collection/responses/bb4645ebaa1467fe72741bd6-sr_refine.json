@@ -1,0 +1,56 @@
+{
+  "call_id": "bb4645ebaa1467fe72741bd6-sr_refine",
+  "cost_note": "provider_did_not_report_money",
+  "cost_usd_reported": null,
+  "finish_reason": "STOP",
+  "http_status": 200,
+  "latency_seconds": 1.276,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.002933633654084924,
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"reply\": \"The Acorn Guest House does have free wifi.\",\n  \"action\": {\n    \"kind\": \"CONTINUE\",\n    \"question_slot\": null,\n    \"required_slots\": [],\n    \"speaker_id\": \"system\"\n  },\n  \"memory_decisions\": [\n    {\n      \"alternatives\": [],\n      \"fact\": {\n        \"relation\": \"hotel.semi.internet\",\n        \"source_turns\": [\n          \"SNG0984.json#turn6\"\n        ],\n        \"subject\": \"Acorn Guest House\",\n        \"time\": \"unknown\",\n        \"value\": \"yes\"\n      },\n      \"operation\": \"HOLD\",\n      \"slot\": \"hotel.semi.internet\",\n      \"source_turns\": [\n        \"SNG0984.json#turn6\"\n      ],\n      \"target_fact_id\": null\n    }\n  ]\n}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T23:25:43.946868Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "96W5arTlOdOH0ckPuLmDuA8",
+    "usageMetadata": {
+      "candidatesTokenCount": 219,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 219
+        }
+      ],
+      "promptTokenCount": 2138,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 2138
+        }
+      ],
+      "totalTokenCount": 2357,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "4a042a1ddec5aa20b1467ad4712c5a61612e5c77b8215c1b05ad84e204893ed1",
+  "status": "OK",
+  "text": "{\n  \"reply\": \"The Acorn Guest House does have free wifi.\",\n  \"action\": {\n    \"kind\": \"CONTINUE\",\n    \"question_slot\": null,\n    \"required_slots\": [],\n    \"speaker_id\": \"system\"\n  },\n  \"memory_decisions\": [\n    {\n      \"alternatives\": [],\n      \"fact\": {\n        \"relation\": \"hotel.semi.internet\",\n        \"source_turns\": [\n          \"SNG0984.json#turn6\"\n        ],\n        \"subject\": \"Acorn Guest House\",\n        \"time\": \"unknown\",\n        \"value\": \"yes\"\n      },\n      \"operation\": \"HOLD\",\n      \"slot\": \"hotel.semi.internet\",\n      \"source_turns\": [\n        \"SNG0984.json#turn6\"\n      ],\n      \"target_fact_id\": null\n    }\n  ]\n}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 2138,
+    "output_tokens": 219,
+    "reasoning_tokens": 0,
+    "total_tokens": 2357
+  }
+}

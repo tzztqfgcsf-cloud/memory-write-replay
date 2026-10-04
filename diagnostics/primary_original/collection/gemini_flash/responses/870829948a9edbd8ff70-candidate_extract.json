@@ -1,0 +1,57 @@
+{
+  "call_id": "870829948a9edbd8ff70-candidate_extract",
+  "finish_reason": "STOP",
+  "finished_unix": 1790491104.770036,
+  "http_status": 200,
+  "latency_seconds": 2.2729,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.00336065690699022,
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"beliefs\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"facts\": [\n        {\n          \"relation\": \"workplace\",\n          \"source_turns\": [\n            \"t2\"\n          ],\n          \"subject\": \"도윤\",\n          \"time\": \"present\",\n          \"value\": \"대한우편\"\n        }\n      ]\n    },\n    {\n      \"candidate_id\": \"c2\",\n      \"facts\": [\n        {\n          \"relation\": \"workplace\",\n          \"source_turns\": [\n            \"t2\"\n          ],\n          \"subject\": \"도윤\",\n          \"time\": \"present\",\n          \"value\": \"대한우편\"\n        }\n      ]\n    }\n  ],\n  \"correction_witnesses\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"evidence_quote\": \"제 직장 아니고요\",\n      \"new_value\": \"새봄도서관\",\n      \"polarity\": \"negated\",\n      \"relation\": \"workplace\",\n      \"source_turn\": \"t2\",\n      \"subject\": \"participant\",\n      \"target_fact_id\": \"f1\",\n      \"time\": \"present\"\n    },\n    {\n      \"candidate_id\": \"c2\",\n      \"evidence_quote\": \"저 말고 도윤이 대한우편에 다닙니다.\",\n      \"new_value\": \"새봄도서관\",\n      \"polarity\": \"negated\",\n      \"relation\": \"workplace\",\n      \"source_turn\": \"t2\",\n      \"subject\": \"participant\",\n      \"target_fact_id\": \"f1\",\n      \"time\": \"present\"\n    }\n  ]\n}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T06:38:22.584796Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "3rm4atzYI7OLx9gPv4OY6A4",
+    "usageMetadata": {
+      "candidatesTokenCount": 407,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 407
+        }
+      ],
+      "promptTokenCount": 1710,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1710
+        }
+      ],
+      "totalTokenCount": 2117,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "e95d8f52a407132229042cb50a999f19100797f7fd1e1c3080cbc4aa60d29bd1",
+  "stage_schema_sha256": "bda7326ac6a6cbeedf1ecdbf4a2b08277c078351d6689f667dc0d558c4972dd3",
+  "started_unix": 1790491102.4966478,
+  "status": "OK",
+  "text": "{\n  \"beliefs\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"facts\": [\n        {\n          \"relation\": \"workplace\",\n          \"source_turns\": [\n            \"t2\"\n          ],\n          \"subject\": \"도윤\",\n          \"time\": \"present\",\n          \"value\": \"대한우편\"\n        }\n      ]\n    },\n    {\n      \"candidate_id\": \"c2\",\n      \"facts\": [\n        {\n          \"relation\": \"workplace\",\n          \"source_turns\": [\n            \"t2\"\n          ],\n          \"subject\": \"도윤\",\n          \"time\": \"present\",\n          \"value\": \"대한우편\"\n        }\n      ]\n    }\n  ],\n  \"correction_witnesses\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"evidence_quote\": \"제 직장 아니고요\",\n      \"new_value\": \"새봄도서관\",\n      \"polarity\": \"negated\",\n      \"relation\": \"workplace\",\n      \"source_turn\": \"t2\",\n      \"subject\": \"participant\",\n      \"target_fact_id\": \"f1\",\n      \"time\": \"present\"\n    },\n    {\n      \"candidate_id\": \"c2\",\n      \"evidence_quote\": \"저 말고 도윤이 대한우편에 다닙니다.\",\n      \"new_value\": \"새봄도서관\",\n      \"polarity\": \"negated\",\n      \"relation\": \"workplace\",\n      \"source_turn\": \"t2\",\n      \"subject\": \"participant\",\n      \"target_fact_id\": \"f1\",\n      \"time\": \"present\"\n    }\n  ]\n}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1710,
+    "output_tokens": 407,
+    "reasoning_tokens": 0,
+    "total_tokens": 2117
+  }
+}

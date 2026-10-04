@@ -1,0 +1,57 @@
+{
+  "call_id": "06a7913265a88cadf7e0-candidate_final",
+  "finish_reason": "STOP",
+  "finished_unix": 1790490243.0327702,
+  "http_status": 200,
+  "latency_seconds": 1.5189,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.07686432476701408,
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"reply\": \"서예를 가르쳐주신 분의 이름이 강 선생님인지 장 선생님인지 아직 확실하지 않군요. 이 정보는 보류해 둘게요.\",\n  \"action\": {\n    \"kind\": \"CONTINUE\",\n    \"question_slot\": null,\n    \"required_slots\": [],\n    \"speaker_id\": \"p1\"\n  },\n  \"memory_decisions\": [\n    {\n      \"alternatives\": [\n        \"강 선생님\"\n      ],\n      \"fact\": null,\n      \"operation\": \"HOLD\",\n      \"slot\": \"learned_from\",\n      \"source_turns\": [\n        \"t2\"\n      ],\n      \"target_fact_id\": null\n    }\n  ]\n}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T06:24:01.695574Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "gba4apa6KvObncoPmvuomAI",
+    "usageMetadata": {
+      "candidatesTokenCount": 174,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 174
+        }
+      ],
+      "promptTokenCount": 1958,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1958
+        }
+      ],
+      "totalTokenCount": 2132,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "5eac10dcecdde40e8b58ab9e0d6e9f133b5e3295f446b2ea8363e185e1580bb2",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790490241.5128582,
+  "status": "OK",
+  "text": "{\n  \"reply\": \"서예를 가르쳐주신 분의 이름이 강 선생님인지 장 선생님인지 아직 확실하지 않군요. 이 정보는 보류해 둘게요.\",\n  \"action\": {\n    \"kind\": \"CONTINUE\",\n    \"question_slot\": null,\n    \"required_slots\": [],\n    \"speaker_id\": \"p1\"\n  },\n  \"memory_decisions\": [\n    {\n      \"alternatives\": [\n        \"강 선생님\"\n      ],\n      \"fact\": null,\n      \"operation\": \"HOLD\",\n      \"slot\": \"learned_from\",\n      \"source_turns\": [\n        \"t2\"\n      ],\n      \"target_fact_id\": null\n    }\n  ]\n}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1958,
+    "output_tokens": 174,
+    "reasoning_tokens": 0,
+    "total_tokens": 2132
+  }
+}

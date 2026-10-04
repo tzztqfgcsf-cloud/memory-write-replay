@@ -1,0 +1,20 @@
+{
+  "status": "OK",
+  "http_status": 200,
+  "text": "{\n  \"decisions\": [\n    {\n      \"index\": 0,\n      \"approve\": false,\n      \"reason\": \"사용자가 아직 확실하지 않다며 기존 가게 이름을 바꾸지 말라고 명시적으로 요청했으므로 정정은 부적절합니다.\"\n    }\n  ]\n}",
+  "usage": {
+    "input_tokens": 716,
+    "output_tokens": 70,
+    "reasoning_tokens": 238,
+    "total_tokens": 1024,
+    "cached_tokens": null
+  },
+  "finish_reason": "STOP",
+  "model_version": "gemini-3.1-pro-preview",
+  "id": "qwen3_14b_CT12_judge",
+  "key": "qwen3_14b_CT12",
+  "stage": "judge",
+  "arm": "judge",
+  "requested_model": "gemini-3.1-pro-preview",
+  "latency_seconds": 4.036415750160813
+}

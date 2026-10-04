@@ -1,0 +1,57 @@
+{
+  "call_id": "f585db2c2e45dd341ea8-candidate_extract",
+  "finish_reason": "STOP",
+  "finished_unix": 1790490001.06805,
+  "http_status": 200,
+  "latency_seconds": 1.4178,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.013269290035846187,
+        "content": {
+          "parts": [
+            {
+              "text": "{\"beliefs\": [{\"candidate_id\": \"c1\", \"facts\": []}, {\"candidate_id\": \"c2\", \"facts\": []}], \"correction_witnesses\": [{\"candidate_id\": \"c1\", \"evidence_quote\": \"1978년 같기도 하네요\", \"new_value\": \"1978년\", \"polarity\": \"uncertain\", \"relation\": \"event_year\", \"source_turn\": \"t2\", \"subject\": \"participant\", \"target_fact_id\": \"f1\", \"time\": \"past\"}, {\"candidate_id\": \"c2\", \"evidence_quote\": \"1978년이라고 보이기도 하는데\", \"new_value\": \"1978년\", \"polarity\": \"uncertain\", \"relation\": \"event_year\", \"source_turn\": \"t2\", \"subject\": \"participant\", \"target_fact_id\": \"f1\", \"time\": \"past\"}]}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T06:19:59.767087Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "j7W4au_oLvGancoP76ybiQ0",
+    "usageMetadata": {
+      "candidatesTokenCount": 204,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 204
+        }
+      ],
+      "promptTokenCount": 1713,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1713
+        }
+      ],
+      "totalTokenCount": 1917,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "87a309b81300f52600c3d1192c37b4e38b7f151f5ea21e61eaf13c7eb0d8f51d",
+  "stage_schema_sha256": "bda7326ac6a6cbeedf1ecdbf4a2b08277c078351d6689f667dc0d558c4972dd3",
+  "started_unix": 1790489999.6493099,
+  "status": "OK",
+  "text": "{\"beliefs\": [{\"candidate_id\": \"c1\", \"facts\": []}, {\"candidate_id\": \"c2\", \"facts\": []}], \"correction_witnesses\": [{\"candidate_id\": \"c1\", \"evidence_quote\": \"1978년 같기도 하네요\", \"new_value\": \"1978년\", \"polarity\": \"uncertain\", \"relation\": \"event_year\", \"source_turn\": \"t2\", \"subject\": \"participant\", \"target_fact_id\": \"f1\", \"time\": \"past\"}, {\"candidate_id\": \"c2\", \"evidence_quote\": \"1978년이라고 보이기도 하는데\", \"new_value\": \"1978년\", \"polarity\": \"uncertain\", \"relation\": \"event_year\", \"source_turn\": \"t2\", \"subject\": \"participant\", \"target_fact_id\": \"f1\", \"time\": \"past\"}]}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1713,
+    "output_tokens": 204,
+    "reasoning_tokens": 0,
+    "total_tokens": 1917
+  }
+}

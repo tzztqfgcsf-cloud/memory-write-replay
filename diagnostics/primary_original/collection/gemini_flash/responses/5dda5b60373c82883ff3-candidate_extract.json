@@ -1,0 +1,57 @@
+{
+  "call_id": "5dda5b60373c82883ff3-candidate_extract",
+  "finish_reason": "STOP",
+  "finished_unix": 1790491688.301176,
+  "http_status": 200,
+  "latency_seconds": 2.0216,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.005673441180476436,
+        "content": {
+          "parts": [
+            {
+              "text": "{\"beliefs\": [{\"candidate_id\": \"c1\", \"facts\": [{\"relation\": \"preferred_contact\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"편지\"}]}, {\"candidate_id\": \"c2\", \"facts\": [{\"relation\": \"preferred_contact\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"편지\"}]}], \"correction_witnesses\": [{\"candidate_id\": \"c1\", \"evidence_quote\": \"지금 영상통화는 바꾸지 말고요\", \"new_value\": \"영상통화\", \"polarity\": \"negated\", \"relation\": \"preferred_contact\", \"source_turn\": \"t2\", \"subject\": \"participant\", \"target_fact_id\": \"f1\", \"time\": \"present\"}, {\"candidate_id\": \"c2\", \"evidence_quote\": \"지금 연락 방식은 그대로요\", \"new_value\": \"영상통화\", \"polarity\": \"negated\", \"relation\": \"preferred_contact\", \"source_turn\": \"t2\", \"subject\": \"participant\", \"target_fact_id\": \"f1\", \"time\": \"present\"}]}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T06:48:06.382006Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "Jry4araoF7OLx9gPv4OY6A4",
+    "usageMetadata": {
+      "candidatesTokenCount": 270,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 270
+        }
+      ],
+      "promptTokenCount": 1705,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1705
+        }
+      ],
+      "totalTokenCount": 1975,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "332888aba1f2a3e2c24e9d88f92448202ba9bd3c55fe5f0b5edc120ac8b19863",
+  "stage_schema_sha256": "bda7326ac6a6cbeedf1ecdbf4a2b08277c078351d6689f667dc0d558c4972dd3",
+  "started_unix": 1790491686.27912,
+  "status": "OK",
+  "text": "{\"beliefs\": [{\"candidate_id\": \"c1\", \"facts\": [{\"relation\": \"preferred_contact\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"편지\"}]}, {\"candidate_id\": \"c2\", \"facts\": [{\"relation\": \"preferred_contact\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"편지\"}]}], \"correction_witnesses\": [{\"candidate_id\": \"c1\", \"evidence_quote\": \"지금 영상통화는 바꾸지 말고요\", \"new_value\": \"영상통화\", \"polarity\": \"negated\", \"relation\": \"preferred_contact\", \"source_turn\": \"t2\", \"subject\": \"participant\", \"target_fact_id\": \"f1\", \"time\": \"present\"}, {\"candidate_id\": \"c2\", \"evidence_quote\": \"지금 연락 방식은 그대로요\", \"new_value\": \"영상통화\", \"polarity\": \"negated\", \"relation\": \"preferred_contact\", \"source_turn\": \"t2\", \"subject\": \"participant\", \"target_fact_id\": \"f1\", \"time\": \"present\"}]}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1705,
+    "output_tokens": 270,
+    "reasoning_tokens": 0,
+    "total_tokens": 1975
+  }
+}

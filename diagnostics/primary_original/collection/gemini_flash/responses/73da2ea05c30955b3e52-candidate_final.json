@@ -1,0 +1,57 @@
+{
+  "call_id": "73da2ea05c30955b3e52-candidate_final",
+  "finish_reason": "STOP",
+  "finished_unix": 1790494351.534267,
+  "http_status": 200,
+  "latency_seconds": 1.3762,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.035835012257527964,
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"reply\": \"네, 제주도 다녀오신 이야기 편하게 해주세요.\",\n  \"action\": {\n    \"kind\": \"CONTINUE\",\n    \"question_slot\": null,\n    \"required_slots\": [],\n    \"speaker_id\": \"p1\"\n  },\n  \"memory_decisions\": [\n    {\n      \"alternatives\": [],\n      \"fact\": null,\n      \"operation\": \"NO_WRITE\",\n      \"slot\": null,\n      \"source_turns\": [\"t2\"],\n      \"target_fact_id\": null\n    }\n  ]\n}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T07:32:30.258588Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "jsa4apzkD9CNx9gP07myoAQ",
+    "usageMetadata": {
+      "candidatesTokenCount": 139,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 139
+        }
+      ],
+      "promptTokenCount": 1938,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1938
+        }
+      ],
+      "totalTokenCount": 2077,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "21eecd7a086c8c17b9aca4ea6d16d56532ecbe03fd1d41e6c4cc6011fd74607a",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790494350.1571252,
+  "status": "OK",
+  "text": "{\n  \"reply\": \"네, 제주도 다녀오신 이야기 편하게 해주세요.\",\n  \"action\": {\n    \"kind\": \"CONTINUE\",\n    \"question_slot\": null,\n    \"required_slots\": [],\n    \"speaker_id\": \"p1\"\n  },\n  \"memory_decisions\": [\n    {\n      \"alternatives\": [],\n      \"fact\": null,\n      \"operation\": \"NO_WRITE\",\n      \"slot\": null,\n      \"source_turns\": [\"t2\"],\n      \"target_fact_id\": null\n    }\n  ]\n}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1938,
+    "output_tokens": 139,
+    "reasoning_tokens": 0,
+    "total_tokens": 2077
+  }
+}

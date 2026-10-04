@@ -1,0 +1,56 @@
+{
+  "call_id": "45a9c54b6913fb99cdeb93dd-candidate_extract",
+  "cost_note": "provider_did_not_report_money",
+  "cost_usd_reported": null,
+  "finish_reason": "STOP",
+  "http_status": 200,
+  "latency_seconds": 1.2166,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.003352060519828998,
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"beliefs\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"facts\": []\n    }\n  ],\n  \"correction_witnesses\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"target_fact_id\": \"PMUL1033.json#state5#train.semi.day\",\n      \"subject\": \"PMUL1033.json#train.semi\",\n      \"relation\": \"train.semi.day\",\n      \"time\": \"unknown\",\n      \"new_value\": \"thursday\",\n      \"source_turn\": \"PMUL1033.json#turn6\",\n      \"evidence_quote\": \"I need a Thursday train, not a Monday.\",\n      \"polarity\": \"affirmed\"\n    }\n  ]\n}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T22:45:38.823271Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "kpy5auefMvuj0ckPyLyQmAM",
+    "usageMetadata": {
+      "candidatesTokenCount": 189,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 189
+        }
+      ],
+      "promptTokenCount": 1662,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1662
+        }
+      ],
+      "totalTokenCount": 1851,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "ef339fd721eb70757f7f1a3da9e67d1f30557fb6cf2b46e9d2ae1194e6a4e097",
+  "status": "OK",
+  "text": "{\n  \"beliefs\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"facts\": []\n    }\n  ],\n  \"correction_witnesses\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"target_fact_id\": \"PMUL1033.json#state5#train.semi.day\",\n      \"subject\": \"PMUL1033.json#train.semi\",\n      \"relation\": \"train.semi.day\",\n      \"time\": \"unknown\",\n      \"new_value\": \"thursday\",\n      \"source_turn\": \"PMUL1033.json#turn6\",\n      \"evidence_quote\": \"I need a Thursday train, not a Monday.\",\n      \"polarity\": \"affirmed\"\n    }\n  ]\n}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1662,
+    "output_tokens": 189,
+    "reasoning_tokens": 0,
+    "total_tokens": 1851
+  }
+}

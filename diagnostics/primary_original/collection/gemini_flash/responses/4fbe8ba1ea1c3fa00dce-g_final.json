@@ -1,0 +1,57 @@
+{
+  "call_id": "4fbe8ba1ea1c3fa00dce-g_final",
+  "finish_reason": "STOP",
+  "finished_unix": 1790494218.444183,
+  "http_status": 200,
+  "latency_seconds": 1.5064,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.0027917990317711462,
+        "content": {
+          "parts": [
+            {
+              "text": "{\"reply\": \"네, 제주도에 다녀오셨군요. 기록하지 않고 이야기 들어드릴게요. 제주도에서 어떤 일이 있으셨나요?\", \"action\": {\"kind\": \"CONTINUE\", \"question_slot\": null, \"required_slots\": [], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"이번에 제주도에 다녀왔어요. 여행지 저장하지 말고 그냥 들어 줘요.\", \"제주도 다녀온 얘기예요. 어디 갔는지는 기록하지 말고 들어만 주세요.\"], \"fact\": null, \"operation\": \"NO_WRITE\", \"slot\": \"travel_destination\", \"source_turns\": [\"t2\"], \"target_fact_id\": null}]}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T07:30:17.029340Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "Cca4apzlAfObncoPmvuomAI",
+    "usageMetadata": {
+      "candidatesTokenCount": 156,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 156
+        }
+      ],
+      "promptTokenCount": 1899,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1899
+        }
+      ],
+      "totalTokenCount": 2055,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "55117ae87f47bd1ee0c995144cc8e25195eadf99e1700da874f77f462da3ca91",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790494216.937244,
+  "status": "OK",
+  "text": "{\"reply\": \"네, 제주도에 다녀오셨군요. 기록하지 않고 이야기 들어드릴게요. 제주도에서 어떤 일이 있으셨나요?\", \"action\": {\"kind\": \"CONTINUE\", \"question_slot\": null, \"required_slots\": [], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"이번에 제주도에 다녀왔어요. 여행지 저장하지 말고 그냥 들어 줘요.\", \"제주도 다녀온 얘기예요. 어디 갔는지는 기록하지 말고 들어만 주세요.\"], \"fact\": null, \"operation\": \"NO_WRITE\", \"slot\": \"travel_destination\", \"source_turns\": [\"t2\"], \"target_fact_id\": null}]}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1899,
+    "output_tokens": 156,
+    "reasoning_tokens": 0,
+    "total_tokens": 2055
+  }
+}

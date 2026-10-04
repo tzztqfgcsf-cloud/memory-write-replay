@@ -1,0 +1,12 @@
+{
+  "schema.py": {
+    "source": "outputs/paper_finish_control_20260921/conditional_method_extension_20260927/amendments/structured_output_v2/schema.py",
+    "sha256": "7e90dd613ca5b9a2f5ad0cb2109095dac589a555d860c64a6b7c02b5ceeb6ea5",
+    "transformation": "none"
+  },
+  "schemas.json": {
+    "source": "outputs/paper_finish_control_20260921/conditional_method_extension_20260927/amendments/structured_output_v2/schemas.json",
+    "sha256": "dffe56d9fcbb866f426e3807445fc98c0d27636bd5aa362dcd459e2770942803",
+    "transformation": "none"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "call_id": "6e10f233f69c61f773aff4a0-candidate_final",
+  "cost_note": "provider_did_not_report_money",
+  "cost_usd_reported": null,
+  "finish_reason": "STOP",
+  "http_status": 200,
+  "latency_seconds": 1.8432,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.039772629737854004,
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"reply\": \"Okay, I will look for a hotel with internet. Is there anything else I can help with?\",\n  \"action\": {\n    \"kind\": \"CONTINUE\",\n    \"question_slot\": null,\n    \"required_slots\": [],\n    \"speaker_id\": \"system\"\n  },\n  \"memory_decisions\": [\n    {\n      \"alternatives\": [],\n      \"fact\": {\n        \"relation\": \"hotel.semi.internet\",\n        \"source_turns\": [\n          \"PMUL3804.json#turn4\"\n        ],\n        \"subject\": \"PMUL3804.json#hotel.semi\",\n        \"time\": \"unknown\",\n        \"value\": \"yes\"\n      },\n      \"operation\": \"CORRECT\",\n      \"slot\": \"hotel.semi.internet\",\n      \"source_turns\": [\n        \"PMUL3804.json#turn4\"\n      ],\n      \"target_fact_id\": \"PMUL3804.json#state3#hotel.semi.internet\"\n    }\n  ]\n}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T22:59:08.829300Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "vJ-5avTOMtCNx9gP07myoAQ",
+    "usageMetadata": {
+      "candidatesTokenCount": 256,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 256
+        }
+      ],
+      "promptTokenCount": 1883,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1883
+        }
+      ],
+      "totalTokenCount": 2139,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "fbe02810606e222d652bf0e53c516c404d9f6c996b0e53f2458f85c099d0667f",
+  "status": "OK",
+  "text": "{\n  \"reply\": \"Okay, I will look for a hotel with internet. Is there anything else I can help with?\",\n  \"action\": {\n    \"kind\": \"CONTINUE\",\n    \"question_slot\": null,\n    \"required_slots\": [],\n    \"speaker_id\": \"system\"\n  },\n  \"memory_decisions\": [\n    {\n      \"alternatives\": [],\n      \"fact\": {\n        \"relation\": \"hotel.semi.internet\",\n        \"source_turns\": [\n          \"PMUL3804.json#turn4\"\n        ],\n        \"subject\": \"PMUL3804.json#hotel.semi\",\n        \"time\": \"unknown\",\n        \"value\": \"yes\"\n      },\n      \"operation\": \"CORRECT\",\n      \"slot\": \"hotel.semi.internet\",\n      \"source_turns\": [\n        \"PMUL3804.json#turn4\"\n      ],\n      \"target_fact_id\": \"PMUL3804.json#state3#hotel.semi.internet\"\n    }\n  ]\n}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1883,
+    "output_tokens": 256,
+    "reasoning_tokens": 0,
+    "total_tokens": 2139
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "scope": "Public supplement export; offline aggregate verification and saved-response deterministic replay. No original score overwrite or new model calls.",
+  "model_calls": 0,
+  "training_calls": 0,
+  "original_scores_recomputed": 0,
+  "authored_saved_output_replays": 296,
+  "authored_snapshot_and_gate_matches": 296,
+  "authored_aggregate_totals_CIs_usage_match": true,
+  "dstc2_aggregate_tables_caller_cluster_CIs_match": true,
+  "dstc2_reconstructed_packets_exact_match": 48,
+  "dstc2_source_hashes_verified": 96,
+  "dstc2_prompt_construction_count": 48,
+  "dstc2_private_verification_outputs_removed": true,
+  "external_dialogue_material_redistributed": false,
+  "carecall_data_or_results_included": false,
+  "claim": "Structural/replay/aggregation verification; not model efficacy or human benefit.",
+  "authored_raw_response_texts_usage_unchanged": 298,
+  "original_source_hashes_checked": 642,
+  "dstc2_extraction_request_prompts_schemas_exact_match": 71,
+  "dstc2_proposal_request_prompts_schemas_exact_match": 70,
+  "portable_original_function_bodies_exact_match": true
+}

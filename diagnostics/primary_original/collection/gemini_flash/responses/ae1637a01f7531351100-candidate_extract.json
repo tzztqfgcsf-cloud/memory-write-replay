@@ -1,0 +1,57 @@
+{
+  "call_id": "ae1637a01f7531351100-candidate_extract",
+  "finish_reason": "STOP",
+  "finished_unix": 1790494398.073215,
+  "http_status": 200,
+  "latency_seconds": 1.5656,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.0005821834793203905,
+        "content": {
+          "parts": [
+            {
+              "text": "{\"beliefs\": [{\"candidate_id\": \"c1\", \"facts\": [{\"relation\": \"residence\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"오산\"}]}, {\"candidate_id\": \"c2\", \"facts\": [{\"relation\": \"residence\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"오산\"}]}], \"correction_witnesses\": [{\"candidate_id\": \"c1\", \"evidence_quote\": \"\", \"new_value\": \"한빛우체국\", \"polarity\": \"absent\", \"relation\": \"workplace\", \"source_turn\": \"t2\", \"subject\": \"participant\", \"target_fact_id\": \"f1\", \"time\": \"present\"}, {\"candidate_id\": \"c2\", \"evidence_quote\": \"\", \"new_value\": \"한빛우체국\", \"polarity\": \"absent\", \"relation\": \"workplace\", \"source_turn\": \"t2\", \"subject\": \"participant\", \"target_fact_id\": \"f1\", \"time\": \"present\"}]}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T07:33:16.657793Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "vMa4aoGTKOmMx9gP69GymAQ",
+    "usageMetadata": {
+      "candidatesTokenCount": 253,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 253
+        }
+      ],
+      "promptTokenCount": 1703,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1703
+        }
+      ],
+      "totalTokenCount": 1956,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "9ef43cb83611a9cf3e9b0db54e9a1a7dfd30ec85ce1becea1f21d84aa6b0c9f7",
+  "stage_schema_sha256": "bda7326ac6a6cbeedf1ecdbf4a2b08277c078351d6689f667dc0d558c4972dd3",
+  "started_unix": 1790494396.507139,
+  "status": "OK",
+  "text": "{\"beliefs\": [{\"candidate_id\": \"c1\", \"facts\": [{\"relation\": \"residence\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"오산\"}]}, {\"candidate_id\": \"c2\", \"facts\": [{\"relation\": \"residence\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"오산\"}]}], \"correction_witnesses\": [{\"candidate_id\": \"c1\", \"evidence_quote\": \"\", \"new_value\": \"한빛우체국\", \"polarity\": \"absent\", \"relation\": \"workplace\", \"source_turn\": \"t2\", \"subject\": \"participant\", \"target_fact_id\": \"f1\", \"time\": \"present\"}, {\"candidate_id\": \"c2\", \"evidence_quote\": \"\", \"new_value\": \"한빛우체국\", \"polarity\": \"absent\", \"relation\": \"workplace\", \"source_turn\": \"t2\", \"subject\": \"participant\", \"target_fact_id\": \"f1\", \"time\": \"present\"}]}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1703,
+    "output_tokens": 253,
+    "reasoning_tokens": 0,
+    "total_tokens": 1956
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "call_id": "895669ee0a94c6720c04-g_final",
+  "error_type": null,
+  "finish_reason": "stop",
+  "finished_unix": 1790488677.697147,
+  "latency_seconds": 10.1485,
+  "model_version": "mlx-community/Llama-3.1-8B-Instruct-4bit",
+  "raw_response": {
+    "base_seed": 20260927,
+    "finish_reason": "stop",
+    "generation_calls": 8,
+    "id": "local-1fb7e86502f40a5449a058cc",
+    "seed": 3041130726,
+    "snapshot": "<LOCAL_PATH>",
+    "text": "{\"action\": {\"kind\": \"CONTINUE\", \"question_slot\": \"birthplace\", \"required_slots\": [\"birthplace\"], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"광주\", \"대구\"], \"fact\": {\"relation\": \"birthplace\", \"source_turns\": [\"t1\", \"t2\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"광주\"}, \"operation\": \"CORRECT\", \"slot\": \"birthplace\", \"source_turns\": [\"t1\", \"t2\"], \"target_fact_id\": \"f1\"}], \"reply\": \"그렇다면 대구로 바꿔서 다시 적어보세요.\"}",
+    "usage": {
+      "cached_tokens": null,
+      "input_tokens": 1912,
+      "output_tokens": 151,
+      "reasoning_tokens": null,
+      "total_tokens": 2063
+    }
+  },
+  "request_sha256": "f005d9ab9f9e18bf4ecd18765fdc0ba409208a880896e3fc9174f8cece88dd1b",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790488667.548521,
+  "status": "OK",
+  "text": "{\"action\": {\"kind\": \"CONTINUE\", \"question_slot\": \"birthplace\", \"required_slots\": [\"birthplace\"], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"광주\", \"대구\"], \"fact\": {\"relation\": \"birthplace\", \"source_turns\": [\"t1\", \"t2\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"광주\"}, \"operation\": \"CORRECT\", \"slot\": \"birthplace\", \"source_turns\": [\"t1\", \"t2\"], \"target_fact_id\": \"f1\"}], \"reply\": \"그렇다면 대구로 바꿔서 다시 적어보세요.\"}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1912,
+    "output_tokens": 151,
+    "reasoning_tokens": null,
+    "total_tokens": 2063
+  }
+}

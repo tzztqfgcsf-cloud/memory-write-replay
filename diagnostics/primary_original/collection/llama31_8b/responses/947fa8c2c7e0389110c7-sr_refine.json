@@ -1,0 +1,36 @@
+{
+  "call_id": "947fa8c2c7e0389110c7-sr_refine",
+  "error_type": null,
+  "finish_reason": "stop",
+  "finished_unix": 1790492468.824474,
+  "latency_seconds": 12.3515,
+  "model_version": "mlx-community/Llama-3.1-8B-Instruct-4bit",
+  "raw_response": {
+    "base_seed": 20260927,
+    "finish_reason": "stop",
+    "generation_calls": 354,
+    "id": "local-e955dc5cf14c54d504e076f2",
+    "seed": 2710141816,
+    "snapshot": "<LOCAL_PATH>",
+    "text": "{\"action\": {\"kind\": \"CONTINUE\", \"question_slot\": \"hobby\", \"required_slots\": [\"hobby\"], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"우표수집\"], \"fact\": {\"relation\": \"hobby\", \"source_turns\": [\"t1\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"우표수집\"}, \"operation\": \"APPEND\", \"slot\": \"hobby\", \"source_turns\": [\"t1\"], \"target_fact_id\": null}, {\"alternatives\": [], \"fact\": {\"relation\": \"hobby\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"탁구\"}, \"operation\": \"HOLD\", \"slot\": \"hobby\", \"source_turns\": [\"t2\"], \"target_fact_id\": null}], \"reply\": \"어릴 땐 우표수집을 했지요. 지금 탁구는 그대로고 어릴 때 취미로 우표수집을 추가해요.\"}",
+    "usage": {
+      "cached_tokens": null,
+      "input_tokens": 2053,
+      "output_tokens": 232,
+      "reasoning_tokens": null,
+      "total_tokens": 2285
+    }
+  },
+  "request_sha256": "29879aa1a5bcaf203bbadf3303af547aa4c9d082d723e0cbaacb7eea6bd5b60a",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790492456.4725828,
+  "status": "OK",
+  "text": "{\"action\": {\"kind\": \"CONTINUE\", \"question_slot\": \"hobby\", \"required_slots\": [\"hobby\"], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"우표수집\"], \"fact\": {\"relation\": \"hobby\", \"source_turns\": [\"t1\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"우표수집\"}, \"operation\": \"APPEND\", \"slot\": \"hobby\", \"source_turns\": [\"t1\"], \"target_fact_id\": null}, {\"alternatives\": [], \"fact\": {\"relation\": \"hobby\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"탁구\"}, \"operation\": \"HOLD\", \"slot\": \"hobby\", \"source_turns\": [\"t2\"], \"target_fact_id\": null}], \"reply\": \"어릴 땐 우표수집을 했지요. 지금 탁구는 그대로고 어릴 때 취미로 우표수집을 추가해요.\"}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 2053,
+    "output_tokens": 232,
+    "reasoning_tokens": null,
+    "total_tokens": 2285
+  }
+}

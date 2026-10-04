@@ -1,0 +1,57 @@
+{
+  "call_id": "2e5434ed3400279f9eb2-sr_refine",
+  "finish_reason": "STOP",
+  "finished_unix": 1790494721.996903,
+  "http_status": 200,
+  "latency_seconds": 1.403,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.0012192617010588597,
+        "content": {
+          "parts": [
+            {
+              "text": "{\"reply\": \"네, 새결공방에서 일하고 계시는군요. 알겠습니다.\", \"action\": {\"kind\": \"CONTINUE\", \"question_slot\": null, \"required_slots\": [], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [], \"fact\": null, \"operation\": \"NO_WRITE\", \"slot\": null, \"source_turns\": [\"t2\"], \"target_fact_id\": null}]}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T07:38:40.699052Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "AMi4aqzVKvGancoP76ybiQ0",
+    "usageMetadata": {
+      "candidatesTokenCount": 99,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 99
+        }
+      ],
+      "promptTokenCount": 2097,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 2097
+        }
+      ],
+      "totalTokenCount": 2196,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "ae85fc2bdaf5c36f8fefea380af02e04bc8bb0dbc1f4e643c3dc507e6bbe5e56",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790494720.593602,
+  "status": "OK",
+  "text": "{\"reply\": \"네, 새결공방에서 일하고 계시는군요. 알겠습니다.\", \"action\": {\"kind\": \"CONTINUE\", \"question_slot\": null, \"required_slots\": [], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [], \"fact\": null, \"operation\": \"NO_WRITE\", \"slot\": null, \"source_turns\": [\"t2\"], \"target_fact_id\": null}]}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 2097,
+    "output_tokens": 99,
+    "reasoning_tokens": 0,
+    "total_tokens": 2196
+  }
+}

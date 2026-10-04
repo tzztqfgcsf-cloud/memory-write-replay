@@ -1,0 +1,57 @@
+{
+  "call_id": "2663ae43008caf30a4c7-candidate_final",
+  "finish_reason": "STOP",
+  "finished_unix": 1790489095.58013,
+  "http_status": 200,
+  "latency_seconds": 1.5654,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.019747910241188087,
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"reply\": \"네, 처음 판소리를 배운 분이 한 선생님으로 수정되었습니다.\",\n  \"action\": {\n    \"kind\": \"CONTINUE\",\n    \"question_slot\": null,\n    \"required_slots\": [],\n    \"speaker_id\": \"p1\"\n  },\n  \"memory_decisions\": [\n    {\n      \"alternatives\": [],\n      \"fact\": {\n        \"relation\": \"learned_from\",\n        \"source_turns\": [\n          \"t2\"\n        ],\n        \"subject\": \"participant\",\n        \"time\": \"past\",\n        \"value\": \"한 선생님\"\n      },\n      \"operation\": \"CORRECT\",\n      \"slot\": null,\n      \"source_turns\": [\n        \"t2\"\n      ],\n      \"target_fact_id\": \"f1\"\n    }\n  ]\n}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T06:04:54.243554Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "BrK4auLuDpiXktwPo4SY4AQ",
+    "usageMetadata": {
+      "candidatesTokenCount": 203,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 203
+        }
+      ],
+      "promptTokenCount": 2036,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 2036
+        }
+      ],
+      "totalTokenCount": 2239,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "6214ab70ead7b71b2ba973248fa56ca4c284d978e443912d474f7023c1af58d7",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790489094.014467,
+  "status": "OK",
+  "text": "{\n  \"reply\": \"네, 처음 판소리를 배운 분이 한 선생님으로 수정되었습니다.\",\n  \"action\": {\n    \"kind\": \"CONTINUE\",\n    \"question_slot\": null,\n    \"required_slots\": [],\n    \"speaker_id\": \"p1\"\n  },\n  \"memory_decisions\": [\n    {\n      \"alternatives\": [],\n      \"fact\": {\n        \"relation\": \"learned_from\",\n        \"source_turns\": [\n          \"t2\"\n        ],\n        \"subject\": \"participant\",\n        \"time\": \"past\",\n        \"value\": \"한 선생님\"\n      },\n      \"operation\": \"CORRECT\",\n      \"slot\": null,\n      \"source_turns\": [\n        \"t2\"\n      ],\n      \"target_fact_id\": \"f1\"\n    }\n  ]\n}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 2036,
+    "output_tokens": 203,
+    "reasoning_tokens": 0,
+    "total_tokens": 2239
+  }
+}

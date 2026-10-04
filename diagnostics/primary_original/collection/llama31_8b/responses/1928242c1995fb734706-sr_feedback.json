@@ -1,0 +1,36 @@
+{
+  "call_id": "1928242c1995fb734706-sr_feedback",
+  "error_type": null,
+  "finish_reason": "stop",
+  "finished_unix": 1790495655.502292,
+  "latency_seconds": 18.5147,
+  "model_version": "mlx-community/Llama-3.1-8B-Instruct-4bit",
+  "raw_response": {
+    "base_seed": 20260927,
+    "finish_reason": "stop",
+    "generation_calls": 659,
+    "id": "local-8268fcfe3ea704b92f5e409d",
+    "seed": 1621882443,
+    "snapshot": "<LOCAL_PATH>",
+    "text": "{\"issues\": [{\"draft_location\": \"memory_decisions.alternatives\", \"evidence_location\": \"candidates[0].text\", \"problem\": \"unresolved alternatives\", \"specific_revision\": \"['학교 이야기']\"}, {\"draft_location\": \"memory_decisions.operation\", \"evidence_location\": \"memory_permission\", \"problem\": \"permission assumption\", \"specific_revision\": \"NO_WRITE\"}, {\"draft_location\": \"memory_decisions.fact\", \"evidence_location\": \"db_snapshot.facts[0]\", \"problem\": \"omitted correction\", \"specific_revision\": \"{'subject': 'participant', 'relation': 'birthplace', 'value': '해남', 'time': 'past'}\"}, {\"draft_location\": \"memory_decisions.slot\", \"evidence_location\": \"candidates[0].text\", \"problem\": \"unresolved relationship\", \"specific_revision\": \"None available\"}, {\"draft_location\": \"memory_decisions.target_fact_id\", \"evidence_location\": \"db_snapshot.facts[0]\", \"problem\": \"omitted correction\", \"specific_revision\": \"f1\"}, {\"draft_location\": \"memory_decisions.alternatives\", \"evidence_location\": \"candidates[1].text\", \"problem\": \"unresolved alternatives\", \"specific_revision\": \"['학교 얘기를 넘기고']\"}, {\"draft_location\": \"memory_decisions.operation\", \"evidence_location\": \"memory_permission\", \"problem\": \"permission assumption\", \"specific_revision\": \"NO_WRITE\"}, {\"draft_location\": \"memory_decisions.fact\", \"evidence_location\": \"db_snapshot.facts[0]\", \"problem\": \"omitted correction\", \"specific_revision\": \"{'subject': 'participant', 'relation': 'birthplace', 'value': '해남', 'time': 'past'}\"}, {\"draft_location\": \"memory_decisions.slot\", \"evidence_location\": \"candidates[1].text\", \"problem\": \"unresolved relationship\", \"specific_revision\": \"None available\"}, {\"draft_location\": \"memory_decisions.target_fact_id\", \"evidence_location\": \"db_snapshot.facts[0]\", \"problem\": \"omitted correction\", \"specific_revision\": \"f1\"}], \"no_change_needed\": false}",
+    "usage": {
+      "cached_tokens": null,
+      "input_tokens": 1386,
+      "output_tokens": 454,
+      "reasoning_tokens": null,
+      "total_tokens": 1840
+    }
+  },
+  "request_sha256": "9305dab3969778e61d2458a12e5322b44ff229db0e2a815036f867567712ee85",
+  "stage_schema_sha256": "377e252cf02129ba34bbc867118dd2b9c6b65042b3fcd7b44099d2fc6e0513ed",
+  "started_unix": 1790495636.987486,
+  "status": "OK",
+  "text": "{\"issues\": [{\"draft_location\": \"memory_decisions.alternatives\", \"evidence_location\": \"candidates[0].text\", \"problem\": \"unresolved alternatives\", \"specific_revision\": \"['학교 이야기']\"}, {\"draft_location\": \"memory_decisions.operation\", \"evidence_location\": \"memory_permission\", \"problem\": \"permission assumption\", \"specific_revision\": \"NO_WRITE\"}, {\"draft_location\": \"memory_decisions.fact\", \"evidence_location\": \"db_snapshot.facts[0]\", \"problem\": \"omitted correction\", \"specific_revision\": \"{'subject': 'participant', 'relation': 'birthplace', 'value': '해남', 'time': 'past'}\"}, {\"draft_location\": \"memory_decisions.slot\", \"evidence_location\": \"candidates[0].text\", \"problem\": \"unresolved relationship\", \"specific_revision\": \"None available\"}, {\"draft_location\": \"memory_decisions.target_fact_id\", \"evidence_location\": \"db_snapshot.facts[0]\", \"problem\": \"omitted correction\", \"specific_revision\": \"f1\"}, {\"draft_location\": \"memory_decisions.alternatives\", \"evidence_location\": \"candidates[1].text\", \"problem\": \"unresolved alternatives\", \"specific_revision\": \"['학교 얘기를 넘기고']\"}, {\"draft_location\": \"memory_decisions.operation\", \"evidence_location\": \"memory_permission\", \"problem\": \"permission assumption\", \"specific_revision\": \"NO_WRITE\"}, {\"draft_location\": \"memory_decisions.fact\", \"evidence_location\": \"db_snapshot.facts[0]\", \"problem\": \"omitted correction\", \"specific_revision\": \"{'subject': 'participant', 'relation': 'birthplace', 'value': '해남', 'time': 'past'}\"}, {\"draft_location\": \"memory_decisions.slot\", \"evidence_location\": \"candidates[1].text\", \"problem\": \"unresolved relationship\", \"specific_revision\": \"None available\"}, {\"draft_location\": \"memory_decisions.target_fact_id\", \"evidence_location\": \"db_snapshot.facts[0]\", \"problem\": \"omitted correction\", \"specific_revision\": \"f1\"}], \"no_change_needed\": false}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1386,
+    "output_tokens": 454,
+    "reasoning_tokens": null,
+    "total_tokens": 1840
+  }
+}

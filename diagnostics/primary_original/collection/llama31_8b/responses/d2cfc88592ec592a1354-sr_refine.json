@@ -1,0 +1,36 @@
+{
+  "call_id": "d2cfc88592ec592a1354-sr_refine",
+  "error_type": null,
+  "finish_reason": "stop",
+  "finished_unix": 1790492867.703542,
+  "latency_seconds": 11.5549,
+  "model_version": "mlx-community/Llama-3.1-8B-Instruct-4bit",
+  "raw_response": {
+    "base_seed": 20260927,
+    "finish_reason": "stop",
+    "generation_calls": 390,
+    "id": "local-8ffa2f4724335b6fd302d99d",
+    "seed": 3964429926,
+    "snapshot": "<LOCAL_PATH>",
+    "text": "{\"action\": {\"kind\": \"CLARIFY\", \"question_slot\": \"event_year\", \"required_slots\": [\"event_year\"], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"1985년\"], \"fact\": {\"relation\": \"event_year\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"1985년\"}, \"operation\": \"CORRECT\", \"slot\": \"event_year\", \"source_turns\": [\"t2\"], \"target_fact_id\": \"f1\"}, {\"alternatives\": [], \"fact\": null, \"operation\": \"HOLD\", \"slot\": \"meeting_place\", \"source_turns\": [\"t2\"], \"target_fact_id\": null}], \"reply\": \"그때 말한 연도 틀렸어요. 결혼은 1985년이니까 고쳐요.\"}",
+    "usage": {
+      "cached_tokens": null,
+      "input_tokens": 2033,
+      "output_tokens": 189,
+      "reasoning_tokens": null,
+      "total_tokens": 2222
+    }
+  },
+  "request_sha256": "e527db2ce7f79b0f40132d1f994aa2b89832c3e722bd7e6122d629d64529f93e",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790492856.1481678,
+  "status": "OK",
+  "text": "{\"action\": {\"kind\": \"CLARIFY\", \"question_slot\": \"event_year\", \"required_slots\": [\"event_year\"], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"1985년\"], \"fact\": {\"relation\": \"event_year\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"1985년\"}, \"operation\": \"CORRECT\", \"slot\": \"event_year\", \"source_turns\": [\"t2\"], \"target_fact_id\": \"f1\"}, {\"alternatives\": [], \"fact\": null, \"operation\": \"HOLD\", \"slot\": \"meeting_place\", \"source_turns\": [\"t2\"], \"target_fact_id\": null}], \"reply\": \"그때 말한 연도 틀렸어요. 결혼은 1985년이니까 고쳐요.\"}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 2033,
+    "output_tokens": 189,
+    "reasoning_tokens": null,
+    "total_tokens": 2222
+  }
+}

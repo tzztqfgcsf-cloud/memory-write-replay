@@ -1,0 +1,36 @@
+{
+  "call_id": "4b7f82863e7965a94592-candidate_extract",
+  "error_type": null,
+  "finish_reason": "stop",
+  "finished_unix": 1790490553.351959,
+  "latency_seconds": 10.4166,
+  "model_version": "mlx-community/Llama-3.1-8B-Instruct-4bit",
+  "raw_response": {
+    "base_seed": 20260927,
+    "finish_reason": "stop",
+    "generation_calls": 189,
+    "id": "local-87b378b22805103ca28acee1",
+    "seed": 3888520535,
+    "snapshot": "<LOCAL_PATH>",
+    "text": "{\"beliefs\": [{\"candidate_id\": \"c1\", \"facts\": [{\"relation\": \"travel_destination\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"삼척\"}]}], \"correction_witnesses\": [{\"candidate_id\": \"c1\", \"evidence_quote\": \"딸은 그때 간 데가 삼척일 거라는데 저는 가물가물해요. 여행지 고치지는 말고 사진부터 볼게요.\", \"new_value\": \"삼척\", \"polarity\": \"uncertain\", \"relation\": \"travel_destination\", \"source_turn\": \"t2\", \"subject\": \"participant\", \"target_fact_id\": \"f1\", \"time\": \"past\"}]}",
+    "usage": {
+      "cached_tokens": null,
+      "input_tokens": 1761,
+      "output_tokens": 162,
+      "reasoning_tokens": null,
+      "total_tokens": 1923
+    }
+  },
+  "request_sha256": "81ccec8ddc76520bf1c1599073391d205d7ac2d1373f499afaaa61fadf6a1ac2",
+  "stage_schema_sha256": "bda7326ac6a6cbeedf1ecdbf4a2b08277c078351d6689f667dc0d558c4972dd3",
+  "started_unix": 1790490542.934999,
+  "status": "OK",
+  "text": "{\"beliefs\": [{\"candidate_id\": \"c1\", \"facts\": [{\"relation\": \"travel_destination\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"삼척\"}]}], \"correction_witnesses\": [{\"candidate_id\": \"c1\", \"evidence_quote\": \"딸은 그때 간 데가 삼척일 거라는데 저는 가물가물해요. 여행지 고치지는 말고 사진부터 볼게요.\", \"new_value\": \"삼척\", \"polarity\": \"uncertain\", \"relation\": \"travel_destination\", \"source_turn\": \"t2\", \"subject\": \"participant\", \"target_fact_id\": \"f1\", \"time\": \"past\"}]}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1761,
+    "output_tokens": 162,
+    "reasoning_tokens": null,
+    "total_tokens": 1923
+  }
+}

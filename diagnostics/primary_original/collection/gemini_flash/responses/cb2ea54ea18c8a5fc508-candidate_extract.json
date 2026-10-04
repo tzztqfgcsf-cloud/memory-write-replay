@@ -1,0 +1,57 @@
+{
+  "call_id": "cb2ea54ea18c8a5fc508-candidate_extract",
+  "finish_reason": "STOP",
+  "finished_unix": 1790488568.5094411,
+  "http_status": 200,
+  "latency_seconds": 1.6849,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.007901796654089173,
+        "content": {
+          "parts": [
+            {
+              "text": "{\"beliefs\": [{\"candidate_id\": \"c1\", \"facts\": []}, {\"candidate_id\": \"c2\", \"facts\": []}], \"correction_witnesses\": [{\"candidate_id\": \"c1\", \"evidence_quote\": \"대구에서 태어났어요\", \"new_value\": \"대구\", \"polarity\": \"affirmed\", \"relation\": \"birthplace\", \"source_turn\": \"t2\", \"subject\": \"participant\", \"target_fact_id\": \"f1\", \"time\": \"past\"}, {\"candidate_id\": \"c2\", \"evidence_quote\": \"대구에서 태어난 게 맞으니 대구로 바꿔 주세요\", \"new_value\": \"대구\", \"polarity\": \"affirmed\", \"relation\": \"birthplace\", \"source_turn\": \"t2\", \"subject\": \"participant\", \"target_fact_id\": \"f1\", \"time\": \"past\"}]}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T05:56:07.132390Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "96-4aqaKCPCVktwP37SV-Ag",
+    "usageMetadata": {
+      "candidatesTokenCount": 201,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 201
+        }
+      ],
+      "promptTokenCount": 1697,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1697
+        }
+      ],
+      "totalTokenCount": 1898,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "598939065097dda76d1f57d32ce9e3166a4b4f956aa6ce72014a43049091b2d6",
+  "stage_schema_sha256": "bda7326ac6a6cbeedf1ecdbf4a2b08277c078351d6689f667dc0d558c4972dd3",
+  "started_unix": 1790488566.824148,
+  "status": "OK",
+  "text": "{\"beliefs\": [{\"candidate_id\": \"c1\", \"facts\": []}, {\"candidate_id\": \"c2\", \"facts\": []}], \"correction_witnesses\": [{\"candidate_id\": \"c1\", \"evidence_quote\": \"대구에서 태어났어요\", \"new_value\": \"대구\", \"polarity\": \"affirmed\", \"relation\": \"birthplace\", \"source_turn\": \"t2\", \"subject\": \"participant\", \"target_fact_id\": \"f1\", \"time\": \"past\"}, {\"candidate_id\": \"c2\", \"evidence_quote\": \"대구에서 태어난 게 맞으니 대구로 바꿔 주세요\", \"new_value\": \"대구\", \"polarity\": \"affirmed\", \"relation\": \"birthplace\", \"source_turn\": \"t2\", \"subject\": \"participant\", \"target_fact_id\": \"f1\", \"time\": \"past\"}]}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1697,
+    "output_tokens": 201,
+    "reasoning_tokens": 0,
+    "total_tokens": 1898
+  }
+}

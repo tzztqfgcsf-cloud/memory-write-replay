@@ -1,0 +1,57 @@
+{
+  "call_id": "d0db88bccbc145f119b4-candidate_extract",
+  "finish_reason": "STOP",
+  "finished_unix": 1790491804.546744,
+  "http_status": 200,
+  "latency_seconds": 1.9062,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.002001505725237788,
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"beliefs\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"facts\": [\n        {\n          \"relation\": \"meeting_place\",\n          \"source_turns\": [\n            \"t2\"\n          ],\n          \"subject\": \"participant\",\n          \"time\": \"past\",\n          \"value\": \"기차역광장\"\n        }\n      ]\n    },\n    {\n      \"candidate_id\": \"c2\",\n      \"facts\": [\n        {\n          \"relation\": \"meeting_place\",\n          \"source_turns\": [\n            \"t2\"\n          ],\n          \"subject\": \"participant\",\n          \"time\": \"past\",\n          \"value\": \"기차역광장\"\n        }\n      ]\n    }\n  ],\n  \"correction_witnesses\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"evidence_quote\": \"\",\n      \"new_value\": \"은행나무공원\",\n      \"polarity\": \"absent\",\n      \"relation\": \"meeting_place\",\n      \"source_turn\": \"t2\",\n      \"subject\": \"participant\",\n      \"target_fact_id\": \"f1\",\n      \"time\": \"present\"\n    },\n    {\n      \"candidate_id\": \"c2\",\n      \"evidence_quote\": \"\",\n      \"new_value\": \"은행나무공원\",\n      \"polarity\": \"absent\",\n      \"relation\": \"meeting_place\",\n      \"source_turn\": \"t2\",\n      \"subject\": \"participant\",\n      \"target_fact_id\": \"f1\",\n      \"time\": \"present\"\n    }\n  ]\n}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T06:50:02.734039Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "mry4atfmLLOKktwPsejJ4QY",
+    "usageMetadata": {
+      "candidatesTokenCount": 392,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 392
+        }
+      ],
+      "promptTokenCount": 1720,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1720
+        }
+      ],
+      "totalTokenCount": 2112,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "d4364b21bbf03974032d06ebe70710c17580388363d4281009736266c89b31a6",
+  "stage_schema_sha256": "bda7326ac6a6cbeedf1ecdbf4a2b08277c078351d6689f667dc0d558c4972dd3",
+  "started_unix": 1790491802.639837,
+  "status": "OK",
+  "text": "{\n  \"beliefs\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"facts\": [\n        {\n          \"relation\": \"meeting_place\",\n          \"source_turns\": [\n            \"t2\"\n          ],\n          \"subject\": \"participant\",\n          \"time\": \"past\",\n          \"value\": \"기차역광장\"\n        }\n      ]\n    },\n    {\n      \"candidate_id\": \"c2\",\n      \"facts\": [\n        {\n          \"relation\": \"meeting_place\",\n          \"source_turns\": [\n            \"t2\"\n          ],\n          \"subject\": \"participant\",\n          \"time\": \"past\",\n          \"value\": \"기차역광장\"\n        }\n      ]\n    }\n  ],\n  \"correction_witnesses\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"evidence_quote\": \"\",\n      \"new_value\": \"은행나무공원\",\n      \"polarity\": \"absent\",\n      \"relation\": \"meeting_place\",\n      \"source_turn\": \"t2\",\n      \"subject\": \"participant\",\n      \"target_fact_id\": \"f1\",\n      \"time\": \"present\"\n    },\n    {\n      \"candidate_id\": \"c2\",\n      \"evidence_quote\": \"\",\n      \"new_value\": \"은행나무공원\",\n      \"polarity\": \"absent\",\n      \"relation\": \"meeting_place\",\n      \"source_turn\": \"t2\",\n      \"subject\": \"participant\",\n      \"target_fact_id\": \"f1\",\n      \"time\": \"present\"\n    }\n  ]\n}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1720,
+    "output_tokens": 392,
+    "reasoning_tokens": 0,
+    "total_tokens": 2112
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "status": "COMPLETE",
+  "model_calls": 0,
+  "new_scored_rows": 6048,
+  "old_scores_recomputed": 0,
+  "case_bootstrap_draws": 5000,
+  "seed": 20261002,
+  "append_identity_checks": 9072,
+  "operation_count_note": "Decisions, not case endpoints; multiple decisions per observation, non-additive harms",
+  "reference": "Unchanged authored reference, not independent human gold",
+  "analysis_source_sha256": "7626b1a7f2146b875dac33a0701bd64bcd4056b7f92d68d10e50a4da6255e80a"
+}

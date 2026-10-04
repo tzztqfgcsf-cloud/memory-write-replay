@@ -1,0 +1,56 @@
+{
+  "call_id": "dead08a8c51b31c1b98f16af-g_draft",
+  "cost_note": "provider_did_not_report_money",
+  "cost_usd_reported": null,
+  "finish_reason": "STOP",
+  "http_status": 200,
+  "latency_seconds": 3.0958,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.011964154906826986,
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"reply\": \"I can change the booking for the Wartworth to Monday for 3 people and 4 nights. Is that correct?\",\n  \"action\": {\n    \"kind\": \"CLARIFY\",\n    \"question_slot\": \"other\",\n    \"required_slots\": [],\n    \"speaker_id\": \"system\"\n  },\n  \"memory_decisions\": [\n    {\n      \"alternatives\": [],\n      \"fact\": {\n        \"relation\": \"hotel.book.day\",\n        \"source_turns\": [\n          \"PMUL1635.json#turn14\"\n        ],\n        \"subject\": \"PMUL1635.json#hotel.book\",\n        \"time\": \"unknown\",\n        \"value\": \"monday\"\n      },\n      \"operation\": \"CORRECT\",\n      \"slot\": \"hotel.book.day\",\n      \"source_turns\": [\n        \"PMUL1635.json#turn14\"\n      ],\n      \"target_fact_id\": \"PMUL1635.json#state13#hotel.book.day\"\n    },\n    {\n      \"alternatives\": [],\n      \"fact\": {\n        \"relation\": \"hotel.book.people\",\n        \"source_turns\": [\n          \"PMUL1635.json#turn14\"\n        ],\n        \"subject\": \"PMUL1635.json#hotel.book\",\n        \"time\": \"unknown\",\n        \"value\": \"3\"\n      },\n      \"operation\": \"CORRECT\",\n      \"slot\": \"hotel.book.people\",\n      \"source_turns\": [\n        \"PMUL1635.json#turn14\"\n      ],\n      \"target_fact_id\": \"PMUL1635.json#state13#hotel.book.people\"\n    },\n    {\n      \"alternatives\": [],\n      \"fact\": {\n        \"relation\": \"hotel.book.stay\",\n        \"source_turns\": [\n          \"PMUL1635.json#turn14\"\n        ],\n        \"subject\": \"PMUL1635.json#hotel.book\",\n        \"time\": \"unknown\",\n        \"value\": \"4\"\n      },\n      \"operation\": \"CORRECT\",\n      \"slot\": \"hotel.book.stay\",\n      \"source_turns\": [\n        \"PMUL1635.json#turn14\"\n      ],\n      \"target_fact_id\": \"PMUL1635.json#state13#hotel.book.stay\"\n    }\n  ]\n}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T23:10:16.576150Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "WKK5apaVI7SWvdAPsqqm0Ak",
+    "usageMetadata": {
+      "candidatesTokenCount": 611,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 611
+        }
+      ],
+      "promptTokenCount": 2723,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 2723
+        }
+      ],
+      "totalTokenCount": 3334,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "81b62c6c041625e5c1452fcb2e07ed1e6f01fea062a3bf4876e5547dd5b70055",
+  "status": "OK",
+  "text": "{\n  \"reply\": \"I can change the booking for the Wartworth to Monday for 3 people and 4 nights. Is that correct?\",\n  \"action\": {\n    \"kind\": \"CLARIFY\",\n    \"question_slot\": \"other\",\n    \"required_slots\": [],\n    \"speaker_id\": \"system\"\n  },\n  \"memory_decisions\": [\n    {\n      \"alternatives\": [],\n      \"fact\": {\n        \"relation\": \"hotel.book.day\",\n        \"source_turns\": [\n          \"PMUL1635.json#turn14\"\n        ],\n        \"subject\": \"PMUL1635.json#hotel.book\",\n        \"time\": \"unknown\",\n        \"value\": \"monday\"\n      },\n      \"operation\": \"CORRECT\",\n      \"slot\": \"hotel.book.day\",\n      \"source_turns\": [\n        \"PMUL1635.json#turn14\"\n      ],\n      \"target_fact_id\": \"PMUL1635.json#state13#hotel.book.day\"\n    },\n    {\n      \"alternatives\": [],\n      \"fact\": {\n        \"relation\": \"hotel.book.people\",\n        \"source_turns\": [\n          \"PMUL1635.json#turn14\"\n        ],\n        \"subject\": \"PMUL1635.json#hotel.book\",\n        \"time\": \"unknown\",\n        \"value\": \"3\"\n      },\n      \"operation\": \"CORRECT\",\n      \"slot\": \"hotel.book.people\",\n      \"source_turns\": [\n        \"PMUL1635.json#turn14\"\n      ],\n      \"target_fact_id\": \"PMUL1635.json#state13#hotel.book.people\"\n    },\n    {\n      \"alternatives\": [],\n      \"fact\": {\n        \"relation\": \"hotel.book.stay\",\n        \"source_turns\": [\n          \"PMUL1635.json#turn14\"\n        ],\n        \"subject\": \"PMUL1635.json#hotel.book\",\n        \"time\": \"unknown\",\n        \"value\": \"4\"\n      },\n      \"operation\": \"CORRECT\",\n      \"slot\": \"hotel.book.stay\",\n      \"source_turns\": [\n        \"PMUL1635.json#turn14\"\n      ],\n      \"target_fact_id\": \"PMUL1635.json#state13#hotel.book.stay\"\n    }\n  ]\n}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 2723,
+    "output_tokens": 611,
+    "reasoning_tokens": 0,
+    "total_tokens": 3334
+  }
+}

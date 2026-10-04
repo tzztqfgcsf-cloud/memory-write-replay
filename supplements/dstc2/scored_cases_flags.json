@@ -1,0 +1,4342 @@
+[
+  {
+    "model": "gemini-3.8-flash",
+    "case": "DSTC2_01",
+    "stratum": "reference_enriched_nbest",
+    "correct_proposals": 0,
+    "append_proposals": 0,
+    "correct_holds": 0,
+    "append_holds": 0,
+    "caller_cluster": "C002",
+    "policies": {
+      "RAW": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 0,
+        "valid_prior_count": 0
+      },
+      "AGREE": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 0,
+        "valid_prior_count": 0
+      },
+      "ALLOW": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 0,
+        "valid_prior_count": 0
+      },
+      "LITERAL": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 0,
+        "valid_prior_count": 0
+      },
+      "WITNESS": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 0,
+        "valid_prior_count": 0
+      }
+    }
+  },
+  {
+    "model": "gemini-3.8-flash",
+    "case": "DSTC2_02",
+    "stratum": "reference_enriched_nbest",
+    "correct_proposals": 0,
+    "append_proposals": 0,
+    "correct_holds": 0,
+    "append_holds": 0,
+    "caller_cluster": "C005",
+    "policies": {
+      "RAW": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 2,
+        "valid_prior_count": 2
+      },
+      "AGREE": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 2,
+        "valid_prior_count": 2
+      },
+      "ALLOW": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 2,
+        "valid_prior_count": 2
+      },
+      "LITERAL": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 2,
+        "valid_prior_count": 2
+      },
+      "WITNESS": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 2,
+        "valid_prior_count": 2
+      }
+    }
+  },
+  {
+    "model": "gemini-3.8-flash",
+    "case": "DSTC2_03",
+    "stratum": "reference_enriched_nbest",
+    "correct_proposals": 0,
+    "append_proposals": 0,
+    "correct_holds": 0,
+    "append_holds": 0,
+    "caller_cluster": "C006",
+    "policies": {
+      "RAW": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "AGREE": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "ALLOW": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "LITERAL": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "WITNESS": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      }
+    }
+  },
+  {
+    "model": "gemini-3.8-flash",
+    "case": "DSTC2_04",
+    "stratum": "reference_enriched_nbest",
+    "correct_proposals": 0,
+    "append_proposals": 0,
+    "correct_holds": 0,
+    "append_holds": 0,
+    "caller_cluster": "C010",
+    "policies": {
+      "RAW": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 0,
+        "valid_prior_count": 0
+      },
+      "AGREE": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 0,
+        "valid_prior_count": 0
+      },
+      "ALLOW": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 0,
+        "valid_prior_count": 0
+      },
+      "LITERAL": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 0,
+        "valid_prior_count": 0
+      },
+      "WITNESS": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 0,
+        "valid_prior_count": 0
+      }
+    }
+  },
+  {
+    "model": "gemini-3.8-flash",
+    "case": "DSTC2_05",
+    "stratum": "reference_enriched_nbest",
+    "correct_proposals": 0,
+    "append_proposals": 0,
+    "correct_holds": 0,
+    "append_holds": 0,
+    "caller_cluster": "C015",
+    "policies": {
+      "RAW": {
+        "joint_goal_correct": true,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 0,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "AGREE": {
+        "joint_goal_correct": true,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 0,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "ALLOW": {
+        "joint_goal_correct": true,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 0,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "LITERAL": {
+        "joint_goal_correct": true,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 0,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "WITNESS": {
+        "joint_goal_correct": true,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 0,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      }
+    }
+  },
+  {
+    "model": "gemini-3.8-flash",
+    "case": "DSTC2_06",
+    "stratum": "reference_enriched_nbest",
+    "correct_proposals": 0,
+    "append_proposals": 0,
+    "correct_holds": 0,
+    "append_holds": 0,
+    "caller_cluster": "C028",
+    "policies": {
+      "RAW": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "AGREE": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "ALLOW": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "LITERAL": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "WITNESS": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      }
+    }
+  },
+  {
+    "model": "gemini-3.8-flash",
+    "case": "DSTC2_07",
+    "stratum": "reference_enriched_nbest",
+    "correct_proposals": 0,
+    "append_proposals": 0,
+    "correct_holds": 0,
+    "append_holds": 0,
+    "caller_cluster": "C035",
+    "policies": {
+      "RAW": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "AGREE": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "ALLOW": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "LITERAL": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "WITNESS": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      }
+    }
+  },
+  {
+    "model": "gemini-3.8-flash",
+    "case": "DSTC2_08",
+    "stratum": "reference_enriched_nbest",
+    "correct_proposals": 0,
+    "append_proposals": 0,
+    "correct_holds": 0,
+    "append_holds": 0,
+    "caller_cluster": "C008",
+    "policies": {
+      "RAW": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 2,
+        "valid_prior_count": 2
+      },
+      "AGREE": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 2,
+        "valid_prior_count": 2
+      },
+      "ALLOW": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 2,
+        "valid_prior_count": 2
+      },
+      "LITERAL": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 2,
+        "valid_prior_count": 2
+      },
+      "WITNESS": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 2,
+        "valid_prior_count": 2
+      }
+    }
+  },
+  {
+    "model": "gemini-3.8-flash",
+    "case": "DSTC2_09",
+    "stratum": "reference_enriched_nbest",
+    "correct_proposals": 0,
+    "append_proposals": 0,
+    "correct_holds": 0,
+    "append_holds": 0,
+    "caller_cluster": "C015",
+    "policies": {
+      "RAW": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "AGREE": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "ALLOW": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "LITERAL": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "WITNESS": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      }
+    }
+  },
+  {
+    "model": "gemini-3.1-pro-preview",
+    "case": "DSTC2_01",
+    "stratum": "reference_enriched_nbest",
+    "correct_proposals": 0,
+    "append_proposals": 0,
+    "correct_holds": 0,
+    "append_holds": 0,
+    "caller_cluster": "C002",
+    "policies": {
+      "RAW": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 0,
+        "valid_prior_count": 0
+      },
+      "AGREE": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 0,
+        "valid_prior_count": 0
+      },
+      "ALLOW": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 0,
+        "valid_prior_count": 0
+      },
+      "LITERAL": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 0,
+        "valid_prior_count": 0
+      },
+      "WITNESS": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 0,
+        "valid_prior_count": 0
+      }
+    }
+  },
+  {
+    "model": "gemini-3.1-pro-preview",
+    "case": "DSTC2_02",
+    "stratum": "reference_enriched_nbest",
+    "correct_proposals": 0,
+    "append_proposals": 0,
+    "correct_holds": 0,
+    "append_holds": 0,
+    "caller_cluster": "C005",
+    "policies": {
+      "RAW": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 2,
+        "valid_prior_count": 2
+      },
+      "AGREE": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 2,
+        "valid_prior_count": 2
+      },
+      "ALLOW": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 2,
+        "valid_prior_count": 2
+      },
+      "LITERAL": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 2,
+        "valid_prior_count": 2
+      },
+      "WITNESS": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 2,
+        "valid_prior_count": 2
+      }
+    }
+  },
+  {
+    "model": "gemini-3.1-pro-preview",
+    "case": "DSTC2_03",
+    "stratum": "reference_enriched_nbest",
+    "correct_proposals": 0,
+    "append_proposals": 0,
+    "correct_holds": 0,
+    "append_holds": 0,
+    "caller_cluster": "C006",
+    "policies": {
+      "RAW": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "AGREE": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "ALLOW": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "LITERAL": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "WITNESS": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      }
+    }
+  },
+  {
+    "model": "gemini-3.1-pro-preview",
+    "case": "DSTC2_04",
+    "stratum": "reference_enriched_nbest",
+    "correct_proposals": 0,
+    "append_proposals": 0,
+    "correct_holds": 0,
+    "append_holds": 0,
+    "caller_cluster": "C010",
+    "policies": {
+      "RAW": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 0,
+        "valid_prior_count": 0
+      },
+      "AGREE": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 0,
+        "valid_prior_count": 0
+      },
+      "ALLOW": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 0,
+        "valid_prior_count": 0
+      },
+      "LITERAL": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 0,
+        "valid_prior_count": 0
+      },
+      "WITNESS": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 0,
+        "valid_prior_count": 0
+      }
+    }
+  },
+  {
+    "model": "gemini-3.1-pro-preview",
+    "case": "DSTC2_05",
+    "stratum": "reference_enriched_nbest",
+    "correct_proposals": 0,
+    "append_proposals": 0,
+    "correct_holds": 0,
+    "append_holds": 0,
+    "caller_cluster": "C015",
+    "policies": {
+      "RAW": {
+        "joint_goal_correct": true,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 0,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "AGREE": {
+        "joint_goal_correct": true,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 0,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "ALLOW": {
+        "joint_goal_correct": true,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 0,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "LITERAL": {
+        "joint_goal_correct": true,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 0,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "WITNESS": {
+        "joint_goal_correct": true,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 0,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      }
+    }
+  },
+  {
+    "model": "gemini-3.1-pro-preview",
+    "case": "DSTC2_06",
+    "stratum": "reference_enriched_nbest",
+    "correct_proposals": 0,
+    "append_proposals": 0,
+    "correct_holds": 0,
+    "append_holds": 0,
+    "caller_cluster": "C028",
+    "policies": {
+      "RAW": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "AGREE": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "ALLOW": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "LITERAL": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "WITNESS": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      }
+    }
+  },
+  {
+    "model": "gemini-3.1-pro-preview",
+    "case": "DSTC2_07",
+    "stratum": "reference_enriched_nbest",
+    "correct_proposals": 1,
+    "append_proposals": 0,
+    "correct_holds": 1,
+    "append_holds": 0,
+    "caller_cluster": "C035",
+    "policies": {
+      "RAW": {
+        "joint_goal_correct": true,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 1,
+        "all_required_changes_completed": true,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "AGREE": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "ALLOW": {
+        "joint_goal_correct": true,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 1,
+        "all_required_changes_completed": true,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "LITERAL": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "WITNESS": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      }
+    }
+  },
+  {
+    "model": "gemini-3.1-pro-preview",
+    "case": "DSTC2_08",
+    "stratum": "reference_enriched_nbest",
+    "correct_proposals": 1,
+    "append_proposals": 0,
+    "correct_holds": 1,
+    "append_holds": 0,
+    "caller_cluster": "C008",
+    "policies": {
+      "RAW": {
+        "joint_goal_correct": true,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 1,
+        "all_required_changes_completed": true,
+        "preserved_valid_prior_count": 2,
+        "valid_prior_count": 2
+      },
+      "AGREE": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 2,
+        "valid_prior_count": 2
+      },
+      "ALLOW": {
+        "joint_goal_correct": true,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 1,
+        "all_required_changes_completed": true,
+        "preserved_valid_prior_count": 2,
+        "valid_prior_count": 2
+      },
+      "LITERAL": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 2,
+        "valid_prior_count": 2
+      },
+      "WITNESS": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 2,
+        "valid_prior_count": 2
+      }
+    }
+  },
+  {
+    "model": "gemini-3.1-pro-preview",
+    "case": "DSTC2_09",
+    "stratum": "reference_enriched_nbest",
+    "correct_proposals": 0,
+    "append_proposals": 0,
+    "correct_holds": 0,
+    "append_holds": 0,
+    "caller_cluster": "C015",
+    "policies": {
+      "RAW": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "AGREE": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "ALLOW": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "LITERAL": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "WITNESS": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      }
+    }
+  },
+  {
+    "model": "gemini-3.1-pro-preview",
+    "case": "DSTC2_10",
+    "stratum": "reference_enriched_nbest",
+    "correct_proposals": 0,
+    "append_proposals": 0,
+    "correct_holds": 0,
+    "append_holds": 0,
+    "caller_cluster": "C016",
+    "policies": {
+      "RAW": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "AGREE": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "ALLOW": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "LITERAL": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "WITNESS": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      }
+    }
+  },
+  {
+    "model": "gemini-3.1-pro-preview",
+    "case": "DSTC2_11",
+    "stratum": "reference_enriched_nbest",
+    "correct_proposals": 0,
+    "append_proposals": 0,
+    "correct_holds": 0,
+    "append_holds": 0,
+    "caller_cluster": "C021",
+    "policies": {
+      "RAW": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "AGREE": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "ALLOW": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "LITERAL": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "WITNESS": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      }
+    }
+  },
+  {
+    "model": "gemini-3.1-pro-preview",
+    "case": "DSTC2_12",
+    "stratum": "reference_enriched_nbest",
+    "correct_proposals": 0,
+    "append_proposals": 0,
+    "correct_holds": 0,
+    "append_holds": 0,
+    "caller_cluster": "C026",
+    "policies": {
+      "RAW": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 0,
+        "valid_prior_count": 0
+      },
+      "AGREE": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 0,
+        "valid_prior_count": 0
+      },
+      "ALLOW": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 0,
+        "valid_prior_count": 0
+      },
+      "LITERAL": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 0,
+        "valid_prior_count": 0
+      },
+      "WITNESS": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 0,
+        "valid_prior_count": 0
+      }
+    }
+  },
+  {
+    "model": "gemini-3.1-pro-preview",
+    "case": "DSTC2_13",
+    "stratum": "goal_revision",
+    "correct_proposals": 2,
+    "append_proposals": 0,
+    "correct_holds": 1,
+    "append_holds": 0,
+    "caller_cluster": "C011",
+    "policies": {
+      "RAW": {
+        "joint_goal_correct": true,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 1,
+        "all_required_changes_completed": true,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "AGREE": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "ALLOW": {
+        "joint_goal_correct": true,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 1,
+        "all_required_changes_completed": true,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "LITERAL": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "WITNESS": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      }
+    }
+  },
+  {
+    "model": "gemini-3.1-pro-preview",
+    "case": "DSTC2_14",
+    "stratum": "goal_revision",
+    "correct_proposals": 1,
+    "append_proposals": 0,
+    "correct_holds": 1,
+    "append_holds": 0,
+    "caller_cluster": "C030",
+    "policies": {
+      "RAW": {
+        "joint_goal_correct": true,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 1,
+        "all_required_changes_completed": true,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "AGREE": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "ALLOW": {
+        "joint_goal_correct": true,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 1,
+        "all_required_changes_completed": true,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "LITERAL": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "WITNESS": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      }
+    }
+  },
+  {
+    "model": "gemini-3.1-pro-preview",
+    "case": "DSTC2_15",
+    "stratum": "goal_revision",
+    "correct_proposals": 0,
+    "append_proposals": 0,
+    "correct_holds": 0,
+    "append_holds": 0,
+    "caller_cluster": "C027",
+    "policies": {
+      "RAW": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "AGREE": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "ALLOW": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "LITERAL": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "WITNESS": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      }
+    }
+  },
+  {
+    "model": "gemini-3.1-pro-preview",
+    "case": "DSTC2_16",
+    "stratum": "goal_revision",
+    "correct_proposals": 1,
+    "append_proposals": 0,
+    "correct_holds": 1,
+    "append_holds": 0,
+    "caller_cluster": "C032",
+    "policies": {
+      "RAW": {
+        "joint_goal_correct": true,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 1,
+        "all_required_changes_completed": true,
+        "preserved_valid_prior_count": 2,
+        "valid_prior_count": 2
+      },
+      "AGREE": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 2,
+        "valid_prior_count": 2
+      },
+      "ALLOW": {
+        "joint_goal_correct": true,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 1,
+        "all_required_changes_completed": true,
+        "preserved_valid_prior_count": 2,
+        "valid_prior_count": 2
+      },
+      "LITERAL": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 2,
+        "valid_prior_count": 2
+      },
+      "WITNESS": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 2,
+        "valid_prior_count": 2
+      }
+    }
+  },
+  {
+    "model": "gemini-3.1-pro-preview",
+    "case": "DSTC2_17",
+    "stratum": "goal_revision",
+    "correct_proposals": 1,
+    "append_proposals": 0,
+    "correct_holds": 1,
+    "append_holds": 0,
+    "caller_cluster": "C041",
+    "policies": {
+      "RAW": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 1,
+        "has_new_wrong_write": true,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "AGREE": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "ALLOW": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 1,
+        "has_new_wrong_write": true,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "LITERAL": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "WITNESS": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      }
+    }
+  },
+  {
+    "model": "gemini-3.1-pro-preview",
+    "case": "DSTC2_18",
+    "stratum": "goal_revision",
+    "correct_proposals": 1,
+    "append_proposals": 0,
+    "correct_holds": 1,
+    "append_holds": 0,
+    "caller_cluster": "C009",
+    "policies": {
+      "RAW": {
+        "joint_goal_correct": true,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 1,
+        "all_required_changes_completed": true,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "AGREE": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "ALLOW": {
+        "joint_goal_correct": true,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 1,
+        "all_required_changes_completed": true,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "LITERAL": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "WITNESS": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      }
+    }
+  },
+  {
+    "model": "gemini-3.1-pro-preview",
+    "case": "DSTC2_19",
+    "stratum": "goal_revision",
+    "correct_proposals": 1,
+    "append_proposals": 0,
+    "correct_holds": 1,
+    "append_holds": 0,
+    "caller_cluster": "C022",
+    "policies": {
+      "RAW": {
+        "joint_goal_correct": true,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 1,
+        "all_required_changes_completed": true,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "AGREE": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "ALLOW": {
+        "joint_goal_correct": true,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 1,
+        "all_required_changes_completed": true,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "LITERAL": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "WITNESS": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      }
+    }
+  },
+  {
+    "model": "gemini-3.1-pro-preview",
+    "case": "DSTC2_20",
+    "stratum": "goal_revision",
+    "correct_proposals": 1,
+    "append_proposals": 0,
+    "correct_holds": 0,
+    "append_holds": 0,
+    "caller_cluster": "C023",
+    "policies": {
+      "RAW": {
+        "joint_goal_correct": true,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 1,
+        "all_required_changes_completed": true,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "AGREE": {
+        "joint_goal_correct": true,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 1,
+        "all_required_changes_completed": true,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "ALLOW": {
+        "joint_goal_correct": true,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 1,
+        "all_required_changes_completed": true,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "LITERAL": {
+        "joint_goal_correct": true,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 1,
+        "all_required_changes_completed": true,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "WITNESS": {
+        "joint_goal_correct": true,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 1,
+        "all_required_changes_completed": true,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      }
+    }
+  },
+  {
+    "model": "gemini-3.1-pro-preview",
+    "case": "DSTC2_21",
+    "stratum": "goal_revision",
+    "correct_proposals": 1,
+    "append_proposals": 0,
+    "correct_holds": 1,
+    "append_holds": 0,
+    "caller_cluster": "C037",
+    "policies": {
+      "RAW": {
+        "joint_goal_correct": true,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 1,
+        "all_required_changes_completed": true,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "AGREE": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "ALLOW": {
+        "joint_goal_correct": true,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 1,
+        "all_required_changes_completed": true,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "LITERAL": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "WITNESS": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      }
+    }
+  },
+  {
+    "model": "gemini-3.1-pro-preview",
+    "case": "DSTC2_22",
+    "stratum": "goal_revision",
+    "correct_proposals": 1,
+    "append_proposals": 0,
+    "correct_holds": 1,
+    "append_holds": 0,
+    "caller_cluster": "C012",
+    "policies": {
+      "RAW": {
+        "joint_goal_correct": true,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 1,
+        "all_required_changes_completed": true,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "AGREE": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "ALLOW": {
+        "joint_goal_correct": true,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 1,
+        "all_required_changes_completed": true,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "LITERAL": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "WITNESS": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      }
+    }
+  },
+  {
+    "model": "gemini-3.1-pro-preview",
+    "case": "DSTC2_23",
+    "stratum": "goal_revision",
+    "correct_proposals": 1,
+    "append_proposals": 0,
+    "correct_holds": 0,
+    "append_holds": 0,
+    "caller_cluster": "C039",
+    "policies": {
+      "RAW": {
+        "joint_goal_correct": true,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 1,
+        "all_required_changes_completed": true,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "AGREE": {
+        "joint_goal_correct": true,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 1,
+        "all_required_changes_completed": true,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "ALLOW": {
+        "joint_goal_correct": true,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 1,
+        "all_required_changes_completed": true,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "LITERAL": {
+        "joint_goal_correct": true,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 1,
+        "all_required_changes_completed": true,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "WITNESS": {
+        "joint_goal_correct": true,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 1,
+        "all_required_changes_completed": true,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      }
+    }
+  },
+  {
+    "model": "gemini-3.1-pro-preview",
+    "case": "DSTC2_24",
+    "stratum": "goal_revision",
+    "correct_proposals": 1,
+    "append_proposals": 0,
+    "correct_holds": 1,
+    "append_holds": 0,
+    "caller_cluster": "C032",
+    "policies": {
+      "RAW": {
+        "joint_goal_correct": true,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 1,
+        "all_required_changes_completed": true,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "AGREE": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "ALLOW": {
+        "joint_goal_correct": true,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 1,
+        "all_required_changes_completed": true,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "LITERAL": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "WITNESS": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      }
+    }
+  },
+  {
+    "model": "gemini-3.1-pro-preview",
+    "case": "DSTC2_25",
+    "stratum": "goal_revision",
+    "correct_proposals": 0,
+    "append_proposals": 0,
+    "correct_holds": 0,
+    "append_holds": 0,
+    "caller_cluster": "C033",
+    "policies": {
+      "RAW": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "AGREE": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "ALLOW": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "LITERAL": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "WITNESS": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      }
+    }
+  },
+  {
+    "model": "gemini-3.1-pro-preview",
+    "case": "DSTC2_26",
+    "stratum": "goal_revision",
+    "correct_proposals": 1,
+    "append_proposals": 0,
+    "correct_holds": 1,
+    "append_holds": 0,
+    "caller_cluster": "C014",
+    "policies": {
+      "RAW": {
+        "joint_goal_correct": true,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 1,
+        "all_required_changes_completed": true,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "AGREE": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "ALLOW": {
+        "joint_goal_correct": true,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 1,
+        "all_required_changes_completed": true,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "LITERAL": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "WITNESS": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      }
+    }
+  },
+  {
+    "model": "gemini-3.1-pro-preview",
+    "case": "DSTC2_27",
+    "stratum": "goal_revision",
+    "correct_proposals": 1,
+    "append_proposals": 0,
+    "correct_holds": 0,
+    "append_holds": 0,
+    "caller_cluster": "C007",
+    "policies": {
+      "RAW": {
+        "joint_goal_correct": true,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 1,
+        "all_required_changes_completed": true,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "AGREE": {
+        "joint_goal_correct": true,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 1,
+        "all_required_changes_completed": true,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "ALLOW": {
+        "joint_goal_correct": true,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 1,
+        "all_required_changes_completed": true,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "LITERAL": {
+        "joint_goal_correct": true,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 1,
+        "all_required_changes_completed": true,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "WITNESS": {
+        "joint_goal_correct": true,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 1,
+        "all_required_changes_completed": true,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      }
+    }
+  },
+  {
+    "model": "gemini-3.1-pro-preview",
+    "case": "DSTC2_28",
+    "stratum": "goal_revision",
+    "correct_proposals": 0,
+    "append_proposals": 0,
+    "correct_holds": 0,
+    "append_holds": 0,
+    "caller_cluster": "C022",
+    "policies": {
+      "RAW": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "AGREE": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "ALLOW": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "LITERAL": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "WITNESS": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      }
+    }
+  },
+  {
+    "model": "gemini-3.1-pro-preview",
+    "case": "DSTC2_29",
+    "stratum": "goal_revision",
+    "correct_proposals": 1,
+    "append_proposals": 0,
+    "correct_holds": 1,
+    "append_holds": 0,
+    "caller_cluster": "C031",
+    "policies": {
+      "RAW": {
+        "joint_goal_correct": true,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 1,
+        "all_required_changes_completed": true,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "AGREE": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "ALLOW": {
+        "joint_goal_correct": true,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 1,
+        "all_required_changes_completed": true,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "LITERAL": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "WITNESS": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      }
+    }
+  },
+  {
+    "model": "gemini-3.1-pro-preview",
+    "case": "DSTC2_30",
+    "stratum": "goal_revision",
+    "correct_proposals": 1,
+    "append_proposals": 0,
+    "correct_holds": 1,
+    "append_holds": 0,
+    "caller_cluster": "C003",
+    "policies": {
+      "RAW": {
+        "joint_goal_correct": true,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 1,
+        "all_required_changes_completed": true,
+        "preserved_valid_prior_count": 0,
+        "valid_prior_count": 0
+      },
+      "AGREE": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 0,
+        "valid_prior_count": 0
+      },
+      "ALLOW": {
+        "joint_goal_correct": true,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 1,
+        "all_required_changes_completed": true,
+        "preserved_valid_prior_count": 0,
+        "valid_prior_count": 0
+      },
+      "LITERAL": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 0,
+        "valid_prior_count": 0
+      },
+      "WITNESS": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 0,
+        "valid_prior_count": 0
+      }
+    }
+  },
+  {
+    "model": "gemini-3.1-pro-preview",
+    "case": "DSTC2_31",
+    "stratum": "goal_revision",
+    "correct_proposals": 1,
+    "append_proposals": 0,
+    "correct_holds": 0,
+    "append_holds": 0,
+    "caller_cluster": "C032",
+    "policies": {
+      "RAW": {
+        "joint_goal_correct": true,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 1,
+        "all_required_changes_completed": true,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "AGREE": {
+        "joint_goal_correct": true,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 1,
+        "all_required_changes_completed": true,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "ALLOW": {
+        "joint_goal_correct": true,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 1,
+        "all_required_changes_completed": true,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "LITERAL": {
+        "joint_goal_correct": true,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 1,
+        "all_required_changes_completed": true,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "WITNESS": {
+        "joint_goal_correct": true,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 1,
+        "all_required_changes_completed": true,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      }
+    }
+  },
+  {
+    "model": "gemini-3.1-pro-preview",
+    "case": "DSTC2_32",
+    "stratum": "goal_revision",
+    "correct_proposals": 1,
+    "append_proposals": 0,
+    "correct_holds": 1,
+    "append_holds": 0,
+    "caller_cluster": "C001",
+    "policies": {
+      "RAW": {
+        "joint_goal_correct": true,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 1,
+        "all_required_changes_completed": true,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "AGREE": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "ALLOW": {
+        "joint_goal_correct": true,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 1,
+        "all_required_changes_completed": true,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "LITERAL": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "WITNESS": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      }
+    }
+  },
+  {
+    "model": "gemini-3.1-pro-preview",
+    "case": "DSTC2_33",
+    "stratum": "goal_revision",
+    "correct_proposals": 1,
+    "append_proposals": 0,
+    "correct_holds": 1,
+    "append_holds": 0,
+    "caller_cluster": "C005",
+    "policies": {
+      "RAW": {
+        "joint_goal_correct": true,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 1,
+        "all_required_changes_completed": true,
+        "preserved_valid_prior_count": 2,
+        "valid_prior_count": 2
+      },
+      "AGREE": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 2,
+        "valid_prior_count": 2
+      },
+      "ALLOW": {
+        "joint_goal_correct": true,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 1,
+        "all_required_changes_completed": true,
+        "preserved_valid_prior_count": 2,
+        "valid_prior_count": 2
+      },
+      "LITERAL": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 2,
+        "valid_prior_count": 2
+      },
+      "WITNESS": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 2,
+        "valid_prior_count": 2
+      }
+    }
+  },
+  {
+    "model": "gemini-3.1-pro-preview",
+    "case": "DSTC2_34",
+    "stratum": "goal_revision",
+    "correct_proposals": 1,
+    "append_proposals": 0,
+    "correct_holds": 0,
+    "append_holds": 0,
+    "caller_cluster": "C017",
+    "policies": {
+      "RAW": {
+        "joint_goal_correct": true,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 1,
+        "all_required_changes_completed": true,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "AGREE": {
+        "joint_goal_correct": true,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 1,
+        "all_required_changes_completed": true,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "ALLOW": {
+        "joint_goal_correct": true,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 1,
+        "all_required_changes_completed": true,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "LITERAL": {
+        "joint_goal_correct": true,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 1,
+        "all_required_changes_completed": true,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "WITNESS": {
+        "joint_goal_correct": true,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 1,
+        "all_required_changes_completed": true,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      }
+    }
+  },
+  {
+    "model": "gemini-3.1-pro-preview",
+    "case": "DSTC2_35",
+    "stratum": "goal_revision",
+    "correct_proposals": 1,
+    "append_proposals": 0,
+    "correct_holds": 1,
+    "append_holds": 0,
+    "caller_cluster": "C024",
+    "policies": {
+      "RAW": {
+        "joint_goal_correct": true,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 1,
+        "all_required_changes_completed": true,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "AGREE": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "ALLOW": {
+        "joint_goal_correct": true,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 1,
+        "all_required_changes_completed": true,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "LITERAL": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "WITNESS": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      }
+    }
+  },
+  {
+    "model": "gemini-3.1-pro-preview",
+    "case": "DSTC2_36",
+    "stratum": "goal_revision",
+    "correct_proposals": 1,
+    "append_proposals": 0,
+    "correct_holds": 1,
+    "append_holds": 0,
+    "caller_cluster": "C038",
+    "policies": {
+      "RAW": {
+        "joint_goal_correct": true,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 1,
+        "all_required_changes_completed": true,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "AGREE": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "ALLOW": {
+        "joint_goal_correct": true,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 1,
+        "all_required_changes_completed": true,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "LITERAL": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "WITNESS": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      }
+    }
+  },
+  {
+    "model": "gemini-3.1-pro-preview",
+    "case": "DSTC2_37",
+    "stratum": "denial_without_explicit_replacement",
+    "correct_proposals": 1,
+    "append_proposals": 0,
+    "correct_holds": 0,
+    "append_holds": 0,
+    "caller_cluster": "C036",
+    "policies": {
+      "RAW": {
+        "joint_goal_correct": true,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 0,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 2,
+        "valid_prior_count": 2
+      },
+      "AGREE": {
+        "joint_goal_correct": true,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 0,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 2,
+        "valid_prior_count": 2
+      },
+      "ALLOW": {
+        "joint_goal_correct": true,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 0,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 2,
+        "valid_prior_count": 2
+      },
+      "LITERAL": {
+        "joint_goal_correct": true,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 0,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 2,
+        "valid_prior_count": 2
+      },
+      "WITNESS": {
+        "joint_goal_correct": true,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 0,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 2,
+        "valid_prior_count": 2
+      }
+    }
+  },
+  {
+    "model": "gemini-3.1-pro-preview",
+    "case": "DSTC2_38",
+    "stratum": "denial_without_explicit_replacement",
+    "correct_proposals": 0,
+    "append_proposals": 0,
+    "correct_holds": 0,
+    "append_holds": 0,
+    "caller_cluster": "C019",
+    "policies": {
+      "RAW": {
+        "joint_goal_correct": true,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 0,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 0,
+        "valid_prior_count": 0
+      },
+      "AGREE": {
+        "joint_goal_correct": true,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 0,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 0,
+        "valid_prior_count": 0
+      },
+      "ALLOW": {
+        "joint_goal_correct": true,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 0,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 0,
+        "valid_prior_count": 0
+      },
+      "LITERAL": {
+        "joint_goal_correct": true,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 0,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 0,
+        "valid_prior_count": 0
+      },
+      "WITNESS": {
+        "joint_goal_correct": true,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 0,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 0,
+        "valid_prior_count": 0
+      }
+    }
+  },
+  {
+    "model": "gemini-3.1-pro-preview",
+    "case": "DSTC2_39",
+    "stratum": "denial_without_explicit_replacement",
+    "correct_proposals": 0,
+    "append_proposals": 1,
+    "correct_holds": 0,
+    "append_holds": 0,
+    "caller_cluster": "C041",
+    "policies": {
+      "RAW": {
+        "joint_goal_correct": true,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 1,
+        "all_required_changes_completed": true,
+        "preserved_valid_prior_count": 0,
+        "valid_prior_count": 0
+      },
+      "AGREE": {
+        "joint_goal_correct": true,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 1,
+        "all_required_changes_completed": true,
+        "preserved_valid_prior_count": 0,
+        "valid_prior_count": 0
+      },
+      "ALLOW": {
+        "joint_goal_correct": true,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 1,
+        "all_required_changes_completed": true,
+        "preserved_valid_prior_count": 0,
+        "valid_prior_count": 0
+      },
+      "LITERAL": {
+        "joint_goal_correct": true,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 1,
+        "all_required_changes_completed": true,
+        "preserved_valid_prior_count": 0,
+        "valid_prior_count": 0
+      },
+      "WITNESS": {
+        "joint_goal_correct": true,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 1,
+        "all_required_changes_completed": true,
+        "preserved_valid_prior_count": 0,
+        "valid_prior_count": 0
+      }
+    }
+  },
+  {
+    "model": "gemini-3.1-pro-preview",
+    "case": "DSTC2_40",
+    "stratum": "denial_without_explicit_replacement",
+    "correct_proposals": 1,
+    "append_proposals": 0,
+    "correct_holds": 1,
+    "append_holds": 0,
+    "caller_cluster": "C034",
+    "policies": {
+      "RAW": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 1,
+        "has_new_wrong_write": true,
+        "required_change_count": 0,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 2
+      },
+      "AGREE": {
+        "joint_goal_correct": true,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 0,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 2,
+        "valid_prior_count": 2
+      },
+      "ALLOW": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 1,
+        "has_new_wrong_write": true,
+        "required_change_count": 0,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 2
+      },
+      "LITERAL": {
+        "joint_goal_correct": true,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 0,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 2,
+        "valid_prior_count": 2
+      },
+      "WITNESS": {
+        "joint_goal_correct": true,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 0,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 2,
+        "valid_prior_count": 2
+      }
+    }
+  },
+  {
+    "model": "gemini-3.1-pro-preview",
+    "case": "DSTC2_41",
+    "stratum": "denial_without_explicit_replacement",
+    "correct_proposals": 0,
+    "append_proposals": 0,
+    "correct_holds": 0,
+    "append_holds": 0,
+    "caller_cluster": "C020",
+    "policies": {
+      "RAW": {
+        "joint_goal_correct": true,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 0,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 2,
+        "valid_prior_count": 2
+      },
+      "AGREE": {
+        "joint_goal_correct": true,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 0,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 2,
+        "valid_prior_count": 2
+      },
+      "ALLOW": {
+        "joint_goal_correct": true,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 0,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 2,
+        "valid_prior_count": 2
+      },
+      "LITERAL": {
+        "joint_goal_correct": true,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 0,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 2,
+        "valid_prior_count": 2
+      },
+      "WITNESS": {
+        "joint_goal_correct": true,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 0,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 2,
+        "valid_prior_count": 2
+      }
+    }
+  },
+  {
+    "model": "gemini-3.1-pro-preview",
+    "case": "DSTC2_42",
+    "stratum": "denial_without_explicit_replacement",
+    "correct_proposals": 1,
+    "append_proposals": 0,
+    "correct_holds": 0,
+    "append_holds": 0,
+    "caller_cluster": "C018",
+    "policies": {
+      "RAW": {
+        "joint_goal_correct": true,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 0,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 2,
+        "valid_prior_count": 2
+      },
+      "AGREE": {
+        "joint_goal_correct": true,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 0,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 2,
+        "valid_prior_count": 2
+      },
+      "ALLOW": {
+        "joint_goal_correct": true,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 0,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 2,
+        "valid_prior_count": 2
+      },
+      "LITERAL": {
+        "joint_goal_correct": true,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 0,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 2,
+        "valid_prior_count": 2
+      },
+      "WITNESS": {
+        "joint_goal_correct": true,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 0,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 2,
+        "valid_prior_count": 2
+      }
+    }
+  },
+  {
+    "model": "gemini-3.1-pro-preview",
+    "case": "DSTC2_43",
+    "stratum": "denial_without_explicit_replacement",
+    "correct_proposals": 0,
+    "append_proposals": 0,
+    "correct_holds": 0,
+    "append_holds": 0,
+    "caller_cluster": "C029",
+    "policies": {
+      "RAW": {
+        "joint_goal_correct": true,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 0,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 2,
+        "valid_prior_count": 2
+      },
+      "AGREE": {
+        "joint_goal_correct": true,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 0,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 2,
+        "valid_prior_count": 2
+      },
+      "ALLOW": {
+        "joint_goal_correct": true,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 0,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 2,
+        "valid_prior_count": 2
+      },
+      "LITERAL": {
+        "joint_goal_correct": true,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 0,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 2,
+        "valid_prior_count": 2
+      },
+      "WITNESS": {
+        "joint_goal_correct": true,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 0,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 2,
+        "valid_prior_count": 2
+      }
+    }
+  },
+  {
+    "model": "gemini-3.1-pro-preview",
+    "case": "DSTC2_44",
+    "stratum": "denial_without_explicit_replacement",
+    "correct_proposals": 0,
+    "append_proposals": 0,
+    "correct_holds": 0,
+    "append_holds": 0,
+    "caller_cluster": "C035",
+    "policies": {
+      "RAW": {
+        "joint_goal_correct": true,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 0,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 2,
+        "valid_prior_count": 2
+      },
+      "AGREE": {
+        "joint_goal_correct": true,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 0,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 2,
+        "valid_prior_count": 2
+      },
+      "ALLOW": {
+        "joint_goal_correct": true,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 0,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 2,
+        "valid_prior_count": 2
+      },
+      "LITERAL": {
+        "joint_goal_correct": true,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 0,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 2,
+        "valid_prior_count": 2
+      },
+      "WITNESS": {
+        "joint_goal_correct": true,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 0,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 2,
+        "valid_prior_count": 2
+      }
+    }
+  },
+  {
+    "model": "gemini-3.1-pro-preview",
+    "case": "DSTC2_45",
+    "stratum": "denial_without_explicit_replacement",
+    "correct_proposals": 1,
+    "append_proposals": 0,
+    "correct_holds": 1,
+    "append_holds": 0,
+    "caller_cluster": "C040",
+    "policies": {
+      "RAW": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 1,
+        "has_new_wrong_write": true,
+        "required_change_count": 0,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 2,
+        "valid_prior_count": 3
+      },
+      "AGREE": {
+        "joint_goal_correct": true,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 0,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 3,
+        "valid_prior_count": 3
+      },
+      "ALLOW": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 1,
+        "has_new_wrong_write": true,
+        "required_change_count": 0,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 2,
+        "valid_prior_count": 3
+      },
+      "LITERAL": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 1,
+        "has_new_wrong_write": true,
+        "required_change_count": 0,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 2,
+        "valid_prior_count": 3
+      },
+      "WITNESS": {
+        "joint_goal_correct": true,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 0,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 3,
+        "valid_prior_count": 3
+      }
+    }
+  },
+  {
+    "model": "gemini-3.1-pro-preview",
+    "case": "DSTC2_46",
+    "stratum": "denial_without_explicit_replacement",
+    "correct_proposals": 0,
+    "append_proposals": 0,
+    "correct_holds": 0,
+    "append_holds": 0,
+    "caller_cluster": "C004",
+    "policies": {
+      "RAW": {
+        "joint_goal_correct": true,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 0,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "AGREE": {
+        "joint_goal_correct": true,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 0,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "ALLOW": {
+        "joint_goal_correct": true,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 0,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "LITERAL": {
+        "joint_goal_correct": true,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 0,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "WITNESS": {
+        "joint_goal_correct": true,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 0,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      }
+    }
+  },
+  {
+    "model": "gemini-3.1-pro-preview",
+    "case": "DSTC2_47",
+    "stratum": "denial_without_explicit_replacement",
+    "correct_proposals": 0,
+    "append_proposals": 0,
+    "correct_holds": 0,
+    "append_holds": 0,
+    "caller_cluster": "C025",
+    "policies": {
+      "RAW": {
+        "joint_goal_correct": true,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 0,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 2,
+        "valid_prior_count": 2
+      },
+      "AGREE": {
+        "joint_goal_correct": true,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 0,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 2,
+        "valid_prior_count": 2
+      },
+      "ALLOW": {
+        "joint_goal_correct": true,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 0,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 2,
+        "valid_prior_count": 2
+      },
+      "LITERAL": {
+        "joint_goal_correct": true,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 0,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 2,
+        "valid_prior_count": 2
+      },
+      "WITNESS": {
+        "joint_goal_correct": true,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 0,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 2,
+        "valid_prior_count": 2
+      }
+    }
+  },
+  {
+    "model": "gemini-3.1-pro-preview",
+    "case": "DSTC2_48",
+    "stratum": "denial_without_explicit_replacement",
+    "correct_proposals": 0,
+    "append_proposals": 0,
+    "correct_holds": 0,
+    "append_holds": 0,
+    "caller_cluster": "C013",
+    "policies": {
+      "RAW": {
+        "joint_goal_correct": true,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 0,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "AGREE": {
+        "joint_goal_correct": true,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 0,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "ALLOW": {
+        "joint_goal_correct": true,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 0,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "LITERAL": {
+        "joint_goal_correct": true,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 0,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "WITNESS": {
+        "joint_goal_correct": true,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 0,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      }
+    }
+  },
+  {
+    "model": "gemini-3.8-flash",
+    "case": "DSTC2_10",
+    "stratum": "reference_enriched_nbest",
+    "correct_proposals": 0,
+    "append_proposals": 0,
+    "correct_holds": 0,
+    "append_holds": 0,
+    "caller_cluster": "C016",
+    "policies": {
+      "RAW": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "AGREE": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "ALLOW": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "LITERAL": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "WITNESS": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      }
+    }
+  },
+  {
+    "model": "gemini-3.8-flash",
+    "case": "DSTC2_11",
+    "stratum": "reference_enriched_nbest",
+    "correct_proposals": 0,
+    "append_proposals": 0,
+    "correct_holds": 0,
+    "append_holds": 0,
+    "caller_cluster": "C021",
+    "policies": {
+      "RAW": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "AGREE": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "ALLOW": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "LITERAL": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "WITNESS": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      }
+    }
+  },
+  {
+    "model": "gemini-3.8-flash",
+    "case": "DSTC2_12",
+    "stratum": "reference_enriched_nbest",
+    "correct_proposals": 0,
+    "append_proposals": 0,
+    "correct_holds": 0,
+    "append_holds": 0,
+    "caller_cluster": "C026",
+    "policies": {
+      "RAW": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 0,
+        "valid_prior_count": 0
+      },
+      "AGREE": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 0,
+        "valid_prior_count": 0
+      },
+      "ALLOW": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 0,
+        "valid_prior_count": 0
+      },
+      "LITERAL": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 0,
+        "valid_prior_count": 0
+      },
+      "WITNESS": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 0,
+        "valid_prior_count": 0
+      }
+    }
+  },
+  {
+    "model": "gemini-3.8-flash",
+    "case": "DSTC2_13",
+    "stratum": "goal_revision",
+    "correct_proposals": 1,
+    "append_proposals": 0,
+    "correct_holds": 1,
+    "append_holds": 0,
+    "caller_cluster": "C011",
+    "policies": {
+      "RAW": {
+        "joint_goal_correct": true,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 1,
+        "all_required_changes_completed": true,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "AGREE": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "ALLOW": {
+        "joint_goal_correct": true,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 1,
+        "all_required_changes_completed": true,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "LITERAL": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "WITNESS": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      }
+    }
+  },
+  {
+    "model": "gemini-3.8-flash",
+    "case": "DSTC2_14",
+    "stratum": "goal_revision",
+    "correct_proposals": 1,
+    "append_proposals": 0,
+    "correct_holds": 1,
+    "append_holds": 0,
+    "caller_cluster": "C030",
+    "policies": {
+      "RAW": {
+        "joint_goal_correct": true,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 1,
+        "all_required_changes_completed": true,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "AGREE": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "ALLOW": {
+        "joint_goal_correct": true,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 1,
+        "all_required_changes_completed": true,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "LITERAL": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "WITNESS": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      }
+    }
+  },
+  {
+    "model": "gemini-3.8-flash",
+    "case": "DSTC2_15",
+    "stratum": "goal_revision",
+    "correct_proposals": 1,
+    "append_proposals": 0,
+    "correct_holds": 0,
+    "append_holds": 0,
+    "caller_cluster": "C027",
+    "policies": {
+      "RAW": {
+        "joint_goal_correct": true,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 1,
+        "all_required_changes_completed": true,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "AGREE": {
+        "joint_goal_correct": true,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 1,
+        "all_required_changes_completed": true,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "ALLOW": {
+        "joint_goal_correct": true,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 1,
+        "all_required_changes_completed": true,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "LITERAL": {
+        "joint_goal_correct": true,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 1,
+        "all_required_changes_completed": true,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "WITNESS": {
+        "joint_goal_correct": true,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 1,
+        "all_required_changes_completed": true,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      }
+    }
+  },
+  {
+    "model": "gemini-3.8-flash",
+    "case": "DSTC2_16",
+    "stratum": "goal_revision",
+    "correct_proposals": 0,
+    "append_proposals": 0,
+    "correct_holds": 0,
+    "append_holds": 0,
+    "caller_cluster": "C032",
+    "policies": {
+      "RAW": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 2,
+        "valid_prior_count": 2
+      },
+      "AGREE": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 2,
+        "valid_prior_count": 2
+      },
+      "ALLOW": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 2,
+        "valid_prior_count": 2
+      },
+      "LITERAL": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 2,
+        "valid_prior_count": 2
+      },
+      "WITNESS": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 2,
+        "valid_prior_count": 2
+      }
+    }
+  },
+  {
+    "model": "gemini-3.8-flash",
+    "case": "DSTC2_17",
+    "stratum": "goal_revision",
+    "correct_proposals": 1,
+    "append_proposals": 0,
+    "correct_holds": 1,
+    "append_holds": 0,
+    "caller_cluster": "C041",
+    "policies": {
+      "RAW": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 1,
+        "has_new_wrong_write": true,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "AGREE": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "ALLOW": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 1,
+        "has_new_wrong_write": true,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "LITERAL": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "WITNESS": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      }
+    }
+  },
+  {
+    "model": "gemini-3.8-flash",
+    "case": "DSTC2_18",
+    "stratum": "goal_revision",
+    "correct_proposals": 1,
+    "append_proposals": 0,
+    "correct_holds": 1,
+    "append_holds": 0,
+    "caller_cluster": "C009",
+    "policies": {
+      "RAW": {
+        "joint_goal_correct": true,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 1,
+        "all_required_changes_completed": true,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "AGREE": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "ALLOW": {
+        "joint_goal_correct": true,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 1,
+        "all_required_changes_completed": true,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "LITERAL": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "WITNESS": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      }
+    }
+  },
+  {
+    "model": "gemini-3.8-flash",
+    "case": "DSTC2_19",
+    "stratum": "goal_revision",
+    "correct_proposals": 1,
+    "append_proposals": 0,
+    "correct_holds": 1,
+    "append_holds": 0,
+    "caller_cluster": "C022",
+    "policies": {
+      "RAW": {
+        "joint_goal_correct": true,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 1,
+        "all_required_changes_completed": true,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "AGREE": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "ALLOW": {
+        "joint_goal_correct": true,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 1,
+        "all_required_changes_completed": true,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "LITERAL": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "WITNESS": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      }
+    }
+  },
+  {
+    "model": "gemini-3.8-flash",
+    "case": "DSTC2_20",
+    "stratum": "goal_revision",
+    "correct_proposals": 1,
+    "append_proposals": 0,
+    "correct_holds": 0,
+    "append_holds": 0,
+    "caller_cluster": "C023",
+    "policies": {
+      "RAW": {
+        "joint_goal_correct": true,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 1,
+        "all_required_changes_completed": true,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "AGREE": {
+        "joint_goal_correct": true,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 1,
+        "all_required_changes_completed": true,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "ALLOW": {
+        "joint_goal_correct": true,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 1,
+        "all_required_changes_completed": true,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "LITERAL": {
+        "joint_goal_correct": true,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 1,
+        "all_required_changes_completed": true,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "WITNESS": {
+        "joint_goal_correct": true,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 1,
+        "all_required_changes_completed": true,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      }
+    }
+  },
+  {
+    "model": "gemini-3.8-flash",
+    "case": "DSTC2_21",
+    "stratum": "goal_revision",
+    "correct_proposals": 1,
+    "append_proposals": 0,
+    "correct_holds": 1,
+    "append_holds": 0,
+    "caller_cluster": "C037",
+    "policies": {
+      "RAW": {
+        "joint_goal_correct": true,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 1,
+        "all_required_changes_completed": true,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "AGREE": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "ALLOW": {
+        "joint_goal_correct": true,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 1,
+        "all_required_changes_completed": true,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "LITERAL": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "WITNESS": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      }
+    }
+  },
+  {
+    "model": "gemini-3.8-flash",
+    "case": "DSTC2_22",
+    "stratum": "goal_revision",
+    "correct_proposals": 1,
+    "append_proposals": 0,
+    "correct_holds": 1,
+    "append_holds": 0,
+    "caller_cluster": "C012",
+    "policies": {
+      "RAW": {
+        "joint_goal_correct": true,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 1,
+        "all_required_changes_completed": true,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "AGREE": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "ALLOW": {
+        "joint_goal_correct": true,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 1,
+        "all_required_changes_completed": true,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "LITERAL": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      },
+      "WITNESS": {
+        "joint_goal_correct": false,
+        "new_wrong_write_count": 0,
+        "has_new_wrong_write": false,
+        "required_change_count": 1,
+        "correct_change_count": 0,
+        "all_required_changes_completed": false,
+        "preserved_valid_prior_count": 1,
+        "valid_prior_count": 1
+      }
+    }
+  }
+]

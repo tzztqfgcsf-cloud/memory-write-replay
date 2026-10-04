@@ -1,0 +1,56 @@
+{
+  "call_id": "fcefed2bd2bc52e3839f0c2d-candidate_extract",
+  "cost_note": "provider_did_not_report_money",
+  "cost_usd_reported": null,
+  "finish_reason": "STOP",
+  "http_status": 200,
+  "latency_seconds": 1.4777,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.004794500325177167,
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"beliefs\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"facts\": []\n    }\n  ],\n  \"correction_witnesses\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"target_fact_id\": \"SNG1006.json#state5#hotel.book.stay\",\n      \"subject\": \"SNG1006.json#hotel.book\",\n      \"relation\": \"hotel.book.stay\",\n      \"time\": \"unknown\",\n      \"new_value\": \"2\",\n      \"source_turn\": \"SNG1006.json#turn6\",\n      \"evidence_quote\": \"2 nights instead of 4\",\n      \"polarity\": \"affirmed\"\n    }\n  ]\n}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T23:14:34.393750Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "WqO5apaEGJiXktwPo4SY4AQ",
+    "usageMetadata": {
+      "candidatesTokenCount": 185,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 185
+        }
+      ],
+      "promptTokenCount": 1720,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1720
+        }
+      ],
+      "totalTokenCount": 1905,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "69c9185454a8ee4fc33e4a5a82561d252c47e24e19b716eeb83d4169125f4582",
+  "status": "OK",
+  "text": "{\n  \"beliefs\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"facts\": []\n    }\n  ],\n  \"correction_witnesses\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"target_fact_id\": \"SNG1006.json#state5#hotel.book.stay\",\n      \"subject\": \"SNG1006.json#hotel.book\",\n      \"relation\": \"hotel.book.stay\",\n      \"time\": \"unknown\",\n      \"new_value\": \"2\",\n      \"source_turn\": \"SNG1006.json#turn6\",\n      \"evidence_quote\": \"2 nights instead of 4\",\n      \"polarity\": \"affirmed\"\n    }\n  ]\n}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1720,
+    "output_tokens": 185,
+    "reasoning_tokens": 0,
+    "total_tokens": 1905
+  }
+}

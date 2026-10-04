@@ -1,0 +1,57 @@
+{
+  "call_id": "30deea3dcd9a78c42ec3-sr_refine",
+  "finish_reason": "STOP",
+  "finished_unix": 1790492422.34493,
+  "http_status": 200,
+  "latency_seconds": 1.5257,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.005622468662984444,
+        "content": {
+          "parts": [
+            {
+              "text": "{\"reply\": \"결혼 연도를 1984년으로 수정할까요, 아니면 1985년으로 수정할까요?\", \"action\": {\"kind\": \"CLARIFY\", \"question_slot\": \"event_year\", \"required_slots\": [], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"1984년\", \"1985년\"], \"fact\": null, \"operation\": \"HOLD\", \"slot\": \"event_year\", \"source_turns\": [\"t2\"], \"target_fact_id\": \"f1\"}]}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T07:00:20.910200Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "BL-4avjGN_ObncoPmvuomAI",
+    "usageMetadata": {
+      "candidatesTokenCount": 132,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 132
+        }
+      ],
+      "promptTokenCount": 2427,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 2427
+        }
+      ],
+      "totalTokenCount": 2559,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "e37d1fdaa8a6d7fead61ddbc71ab6028e0eb1cb3064069cb4fbd05c03e3e3a5d",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790492420.8188958,
+  "status": "OK",
+  "text": "{\"reply\": \"결혼 연도를 1984년으로 수정할까요, 아니면 1985년으로 수정할까요?\", \"action\": {\"kind\": \"CLARIFY\", \"question_slot\": \"event_year\", \"required_slots\": [], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"1984년\", \"1985년\"], \"fact\": null, \"operation\": \"HOLD\", \"slot\": \"event_year\", \"source_turns\": [\"t2\"], \"target_fact_id\": \"f1\"}]}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 2427,
+    "output_tokens": 132,
+    "reasoning_tokens": 0,
+    "total_tokens": 2559
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "status": "OK",
+  "http_status": 200,
+  "text": "{\"decisions\": [{\"index\": 0, \"approve\": true, \"reason\": \"사용자가 출생지를 충주에서 문경으로 명시적으로 정정하고 있으므로 승인합니다.\"}, {\"index\": 1, \"approve\": false, \"reason\": \"직장이 푸른세탁소라는 정보는 이미 기존 기억에 존재하므로 새로 추가할 필요가 없습니다.\"}]}",
+  "usage": {
+    "input_tokens": 842,
+    "output_tokens": 82,
+    "reasoning_tokens": 236,
+    "total_tokens": 1160,
+    "cached_tokens": null
+  },
+  "finish_reason": "STOP",
+  "model_version": "gemini-3.1-pro-preview",
+  "id": "qwen3_14b_CT42_judge",
+  "key": "qwen3_14b_CT42",
+  "stage": "judge",
+  "arm": "judge",
+  "requested_model": "gemini-3.1-pro-preview",
+  "latency_seconds": 4.280370625201613
+}

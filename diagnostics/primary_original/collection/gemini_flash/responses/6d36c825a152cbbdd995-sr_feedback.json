@@ -1,0 +1,57 @@
+{
+  "call_id": "6d36c825a152cbbdd995-sr_feedback",
+  "finish_reason": "STOP",
+  "finished_unix": 1790496220.0438972,
+  "http_status": 200,
+  "latency_seconds": 1.3531,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.3054185090241609,
+        "content": {
+          "parts": [
+            {
+              "text": "{\"no_change_needed\": false, \"issues\": [{\"draft_location\": \"none available\", \"evidence_location\": \"t2\", \"problem\": \"The draft is missing the required JSON output. The error message indicates a parsing failure.\", \"specific_revision\": \"Generate a complete and valid JSON output according to the schema, including the 'actions' and 'reply' fields.\"}]}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T08:03:38.863405Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "2s24aq3ZNLOKktwPsejJ4QY",
+    "usageMetadata": {
+      "candidatesTokenCount": 81,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 81
+        }
+      ],
+      "promptTokenCount": 1355,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1355
+        }
+      ],
+      "totalTokenCount": 1436,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "dbd6dd5645d588a99d468973161e7a65985c23cc6fb1485ba4ad9cca50280307",
+  "stage_schema_sha256": "377e252cf02129ba34bbc867118dd2b9c6b65042b3fcd7b44099d2fc6e0513ed",
+  "started_unix": 1790496218.6900349,
+  "status": "OK",
+  "text": "{\"no_change_needed\": false, \"issues\": [{\"draft_location\": \"none available\", \"evidence_location\": \"t2\", \"problem\": \"The draft is missing the required JSON output. The error message indicates a parsing failure.\", \"specific_revision\": \"Generate a complete and valid JSON output according to the schema, including the 'actions' and 'reply' fields.\"}]}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1355,
+    "output_tokens": 81,
+    "reasoning_tokens": 0,
+    "total_tokens": 1436
+  }
+}

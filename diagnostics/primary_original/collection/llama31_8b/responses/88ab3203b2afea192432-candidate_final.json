@@ -1,0 +1,36 @@
+{
+  "call_id": "88ab3203b2afea192432-candidate_final",
+  "error_type": null,
+  "finish_reason": "stop",
+  "finished_unix": 1790491890.798978,
+  "latency_seconds": 12.6034,
+  "model_version": "mlx-community/Llama-3.1-8B-Instruct-4bit",
+  "raw_response": {
+    "base_seed": 20260927,
+    "finish_reason": "stop",
+    "generation_calls": 304,
+    "id": "local-369a26c31130c56fe6131417",
+    "seed": 4168465501,
+    "snapshot": "<LOCAL_PATH>",
+    "text": "{\"action\": {\"kind\": \"CONTINUE\", \"question_slot\": \"workplace\", \"required_slots\": [\"workplace\"], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"중앙인쇄소\"], \"fact\": {\"relation\": \"workplace\", \"source_turns\": [\"t1\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"중앙인쇄소\"}, \"operation\": \"APPEND\", \"slot\": \"workplace\", \"source_turns\": [\"t1\"], \"target_fact_id\": null}, {\"alternatives\": [\"중앙인쇄소\"], \"fact\": {\"relation\": \"workplace\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"중앙인쇄소\"}, \"operation\": \"APPEND\", \"slot\": \"workplace\", \"source_turns\": [\"t2\"], \"target_fact_id\": null}], \"reply\": \"그렇다면 현재 직장은 호수식당이에요. 첫 직장도 경력에 별도로 적을까요?\"}",
+    "usage": {
+      "cached_tokens": null,
+      "input_tokens": 2082,
+      "output_tokens": 239,
+      "reasoning_tokens": null,
+      "total_tokens": 2321
+    }
+  },
+  "request_sha256": "1a4c2c080fa8e1088eec0cda6133181c4e7dc5d79bc6d4a00c36aaddbe06c81f",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790491878.194992,
+  "status": "OK",
+  "text": "{\"action\": {\"kind\": \"CONTINUE\", \"question_slot\": \"workplace\", \"required_slots\": [\"workplace\"], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"중앙인쇄소\"], \"fact\": {\"relation\": \"workplace\", \"source_turns\": [\"t1\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"중앙인쇄소\"}, \"operation\": \"APPEND\", \"slot\": \"workplace\", \"source_turns\": [\"t1\"], \"target_fact_id\": null}, {\"alternatives\": [\"중앙인쇄소\"], \"fact\": {\"relation\": \"workplace\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"중앙인쇄소\"}, \"operation\": \"APPEND\", \"slot\": \"workplace\", \"source_turns\": [\"t2\"], \"target_fact_id\": null}], \"reply\": \"그렇다면 현재 직장은 호수식당이에요. 첫 직장도 경력에 별도로 적을까요?\"}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 2082,
+    "output_tokens": 239,
+    "reasoning_tokens": null,
+    "total_tokens": 2321
+  }
+}

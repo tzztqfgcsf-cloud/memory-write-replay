@@ -1,0 +1,57 @@
+{
+  "call_id": "54129910d50ca168de7a-g_draft",
+  "finish_reason": "STOP",
+  "finished_unix": 1790493580.1845279,
+  "http_status": 200,
+  "latency_seconds": 1.4153,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.020268707275390624,
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"reply\": \"네, 이메일을 선호하는 연락 방법으로 기억해 둘게요.\",\n  \"action\": {\n    \"kind\": \"CONTINUE\",\n    \"question_slot\": null,\n    \"required_slots\": [],\n    \"speaker_id\": \"p1\"\n  },\n  \"memory_decisions\": [\n    {\n      \"alternatives\": [],\n      \"fact\": {\n        \"relation\": \"preferred_contact\",\n        \"source_turns\": [\n          \"t2\"\n        ],\n        \"subject\": \"participant\",\n        \"time\": \"present\",\n        \"value\": \"이메일\"\n      },\n      \"operation\": \"APPEND\",\n      \"slot\": null,\n      \"source_turns\": [\n        \"t2\"\n      ],\n      \"target_fact_id\": null\n    }\n  ]\n}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T07:19:38.851270Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "isO4asb6M_GancoP76ybiQ0",
+    "usageMetadata": {
+      "candidatesTokenCount": 200,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 200
+        }
+      ],
+      "promptTokenCount": 1683,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1683
+        }
+      ],
+      "totalTokenCount": 1883,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "5278d38ed781bbecb2556d2bf0013001f9bc2effd9eb6f4e6cf9e3ceb646f4df",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790493578.768918,
+  "status": "OK",
+  "text": "{\n  \"reply\": \"네, 이메일을 선호하는 연락 방법으로 기억해 둘게요.\",\n  \"action\": {\n    \"kind\": \"CONTINUE\",\n    \"question_slot\": null,\n    \"required_slots\": [],\n    \"speaker_id\": \"p1\"\n  },\n  \"memory_decisions\": [\n    {\n      \"alternatives\": [],\n      \"fact\": {\n        \"relation\": \"preferred_contact\",\n        \"source_turns\": [\n          \"t2\"\n        ],\n        \"subject\": \"participant\",\n        \"time\": \"present\",\n        \"value\": \"이메일\"\n      },\n      \"operation\": \"APPEND\",\n      \"slot\": null,\n      \"source_turns\": [\n        \"t2\"\n      ],\n      \"target_fact_id\": null\n    }\n  ]\n}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1683,
+    "output_tokens": 200,
+    "reasoning_tokens": 0,
+    "total_tokens": 1883
+  }
+}

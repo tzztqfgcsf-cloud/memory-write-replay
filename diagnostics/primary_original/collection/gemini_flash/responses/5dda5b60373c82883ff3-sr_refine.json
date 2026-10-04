@@ -1,0 +1,57 @@
+{
+  "call_id": "5dda5b60373c82883ff3-sr_refine",
+  "finish_reason": "STOP",
+  "finished_unix": 1790491718.352771,
+  "http_status": 200,
+  "latency_seconds": 1.3505,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.00432141445070037,
+        "content": {
+          "parts": [
+            {
+              "text": "{\"reply\": \"네, 예전에는 편지를 좋아하셨다는 것을 기억해 둘게요. 현재 영상통화를 선호하시는 것은 그대로 유지됩니다.\", \"action\": {\"kind\": \"CONTINUE\", \"question_slot\": null, \"required_slots\": [], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [], \"fact\": {\"relation\": \"preferred_contact\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"편지\"}, \"operation\": \"APPEND\", \"slot\": null, \"source_turns\": [\"t2\"], \"target_fact_id\": null}, {\"alternatives\": [], \"fact\": null, \"operation\": \"NO_WRITE\", \"slot\": \"preferred_contact\", \"source_turns\": [\"t2\"], \"target_fact_id\": \"f1\"}]}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T06:48:37.139503Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "Rby4au_BCJiXktwPo4SY4AQ",
+    "usageMetadata": {
+      "candidatesTokenCount": 191,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 191
+        }
+      ],
+      "promptTokenCount": 2392,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 2392
+        }
+      ],
+      "totalTokenCount": 2583,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "10276a0e3d886be2d4348facef7a76fbe3dc5d110d799fb14f75101f0a22b159",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790491717.001508,
+  "status": "OK",
+  "text": "{\"reply\": \"네, 예전에는 편지를 좋아하셨다는 것을 기억해 둘게요. 현재 영상통화를 선호하시는 것은 그대로 유지됩니다.\", \"action\": {\"kind\": \"CONTINUE\", \"question_slot\": null, \"required_slots\": [], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [], \"fact\": {\"relation\": \"preferred_contact\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"편지\"}, \"operation\": \"APPEND\", \"slot\": null, \"source_turns\": [\"t2\"], \"target_fact_id\": null}, {\"alternatives\": [], \"fact\": null, \"operation\": \"NO_WRITE\", \"slot\": \"preferred_contact\", \"source_turns\": [\"t2\"], \"target_fact_id\": \"f1\"}]}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 2392,
+    "output_tokens": 191,
+    "reasoning_tokens": 0,
+    "total_tokens": 2583
+  }
+}

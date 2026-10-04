@@ -1,0 +1,20 @@
+{
+  "status": "OK",
+  "http_status": 200,
+  "text": "{\n  \"decisions\": [\n    {\n      \"index\": 0,\n      \"approve\": true,\n      \"reason\": \"사용자가 지난 휴가에 여수를 다녀왔다고 명시적으로 언급함\"\n    }\n  ]\n}",
+  "usage": {
+    "input_tokens": 679,
+    "output_tokens": 58,
+    "reasoning_tokens": 153,
+    "total_tokens": 890,
+    "cached_tokens": null
+  },
+  "finish_reason": "STOP",
+  "model_version": "gemini-3.1-pro-preview",
+  "id": "qwen3_14b_CT30_judge",
+  "key": "qwen3_14b_CT30",
+  "stage": "judge",
+  "arm": "judge",
+  "requested_model": "gemini-3.1-pro-preview",
+  "latency_seconds": 3.2436949170660228
+}

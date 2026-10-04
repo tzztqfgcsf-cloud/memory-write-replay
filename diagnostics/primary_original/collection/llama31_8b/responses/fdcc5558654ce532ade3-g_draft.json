@@ -1,0 +1,36 @@
+{
+  "call_id": "fdcc5558654ce532ade3-g_draft",
+  "error_type": null,
+  "finish_reason": "stop",
+  "finished_unix": 1790496427.698752,
+  "latency_seconds": 9.6351,
+  "model_version": "mlx-community/Llama-3.1-8B-Instruct-4bit",
+  "raw_response": {
+    "base_seed": 20260927,
+    "finish_reason": "stop",
+    "generation_calls": 733,
+    "id": "local-0e029dc7b755393d1ef5483b",
+    "seed": 1866412746,
+    "snapshot": "<LOCAL_PATH>",
+    "text": "{\"action\": {\"kind\": \"CLARIFY\", \"question_slot\": \"shop_name\", \"required_slots\": [\"shop_name\"], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"달빛김밥\", \"달빛분식\"], \"fact\": {\"relation\": \"shop_name\", \"source_turns\": [\"t1\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"달빛분식\"}, \"operation\": \"APPEND\", \"slot\": \"shop_name\", \"source_turns\": [\"t1\"], \"target_fact_id\": \"f1\"}], \"reply\": \"가게 이름은 달빛분식이에요. 연락은 전화로 돼요.\"}",
+    "usage": {
+      "cached_tokens": null,
+      "input_tokens": 1758,
+      "output_tokens": 155,
+      "reasoning_tokens": null,
+      "total_tokens": 1913
+    }
+  },
+  "request_sha256": "89c67e7fa09816a0fb57f661cd92188cb8ebb060895e3e2aedc5ea0bce386217",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790496418.063306,
+  "status": "OK",
+  "text": "{\"action\": {\"kind\": \"CLARIFY\", \"question_slot\": \"shop_name\", \"required_slots\": [\"shop_name\"], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"달빛김밥\", \"달빛분식\"], \"fact\": {\"relation\": \"shop_name\", \"source_turns\": [\"t1\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"달빛분식\"}, \"operation\": \"APPEND\", \"slot\": \"shop_name\", \"source_turns\": [\"t1\"], \"target_fact_id\": \"f1\"}], \"reply\": \"가게 이름은 달빛분식이에요. 연락은 전화로 돼요.\"}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1758,
+    "output_tokens": 155,
+    "reasoning_tokens": null,
+    "total_tokens": 1913
+  }
+}

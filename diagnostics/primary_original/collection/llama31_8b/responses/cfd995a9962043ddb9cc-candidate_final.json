@@ -1,0 +1,36 @@
+{
+  "call_id": "cfd995a9962043ddb9cc-candidate_final",
+  "error_type": null,
+  "finish_reason": "stop",
+  "finished_unix": 1790496115.813526,
+  "latency_seconds": 9.3376,
+  "model_version": "mlx-community/Llama-3.1-8B-Instruct-4bit",
+  "raw_response": {
+    "base_seed": 20260927,
+    "finish_reason": "stop",
+    "generation_calls": 700,
+    "id": "local-47d47ed872c7c8ddc35a4d54",
+    "seed": 9343148,
+    "snapshot": "<LOCAL_PATH>",
+    "text": "{\"action\": {\"kind\": \"CLARIFY\", \"question_slot\": \"topic_permission\", \"required_slots\": [\"topic_permission\"], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"다툰 이야기는 빼요\", \"그 다툼은 이야기하지 않을래요\"], \"fact\": null, \"operation\": \"NO_WRITE\", \"slot\": null, \"source_turns\": [\"t1\", \"t2\"], \"target_fact_id\": null}], \"reply\": \"그 다툼은 이야기하지 않을래요. 대신 배우던 즐거운 얘기나 해요.\"}",
+    "usage": {
+      "cached_tokens": null,
+      "input_tokens": 1835,
+      "output_tokens": 136,
+      "reasoning_tokens": null,
+      "total_tokens": 1971
+    }
+  },
+  "request_sha256": "672fe6fd429e0bd5f7ddad8c20d90952ec97607665ce4b4c1ed5a4128c277d69",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790496106.475821,
+  "status": "OK",
+  "text": "{\"action\": {\"kind\": \"CLARIFY\", \"question_slot\": \"topic_permission\", \"required_slots\": [\"topic_permission\"], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"다툰 이야기는 빼요\", \"그 다툼은 이야기하지 않을래요\"], \"fact\": null, \"operation\": \"NO_WRITE\", \"slot\": null, \"source_turns\": [\"t1\", \"t2\"], \"target_fact_id\": null}], \"reply\": \"그 다툼은 이야기하지 않을래요. 대신 배우던 즐거운 얘기나 해요.\"}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1835,
+    "output_tokens": 136,
+    "reasoning_tokens": null,
+    "total_tokens": 1971
+  }
+}

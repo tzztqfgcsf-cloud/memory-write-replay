@@ -1,0 +1,56 @@
+{
+  "call_id": "dae3028bd26a8f4f73df1496-sr_refine",
+  "cost_note": "provider_did_not_report_money",
+  "cost_usd_reported": null,
+  "finish_reason": "STOP",
+  "http_status": 200,
+  "latency_seconds": 2.0249,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.0011380940490627882,
+        "content": {
+          "parts": [
+            {
+              "text": "{\"reply\": \"Okay, so you want to leave after 16:00 from Cambridge to London Liverpool Street on Sunday. Is that correct?\", \"action\": {\"kind\": \"CLARIFY\", \"question_slot\": null, \"required_slots\": [], \"speaker_id\": \"system\"}, \"memory_decisions\": [{\"alternatives\": [\"london liverpool street\"], \"fact\": {\"relation\": \"train.semi.destination\", \"source_turns\": [\"PMUL1919.json#turn4\"], \"subject\": \"PMUL1919.json#train.semi\", \"time\": \"unknown\", \"value\": \"london liverpool street\"}, \"operation\": \"APPEND\", \"slot\": \"train.semi.destination\", \"source_turns\": [\"PMUL1919.json#turn4\"], \"target_fact_id\": \"PMUL1919.json#state3#train.semi.destination\"}, {\"alternatives\": [\"16:00\"], \"fact\": {\"relation\": \"train.semi.leaveAt\", \"source_turns\": [\"PMUL1919.json#turn4\"], \"subject\": \"PMUL1919.json#train.semi\", \"time\": \"unknown\", \"value\": \"16:00\"}, \"operation\": \"APPEND\", \"slot\": \"train.semi.leaveAt\", \"source_turns\": [\"PMUL1919.json#turn4\"], \"target_fact_id\": null}]}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T22:44:03.222104Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "M5y5apjHDfGancoP76ybiQ0",
+    "usageMetadata": {
+      "candidatesTokenCount": 322,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 322
+        }
+      ],
+      "promptTokenCount": 2142,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 2142
+        }
+      ],
+      "totalTokenCount": 2464,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "15f2103eadf352f49ee55b1a59404584b753cfce846f87925891b635d9dfdb92",
+  "status": "OK",
+  "text": "{\"reply\": \"Okay, so you want to leave after 16:00 from Cambridge to London Liverpool Street on Sunday. Is that correct?\", \"action\": {\"kind\": \"CLARIFY\", \"question_slot\": null, \"required_slots\": [], \"speaker_id\": \"system\"}, \"memory_decisions\": [{\"alternatives\": [\"london liverpool street\"], \"fact\": {\"relation\": \"train.semi.destination\", \"source_turns\": [\"PMUL1919.json#turn4\"], \"subject\": \"PMUL1919.json#train.semi\", \"time\": \"unknown\", \"value\": \"london liverpool street\"}, \"operation\": \"APPEND\", \"slot\": \"train.semi.destination\", \"source_turns\": [\"PMUL1919.json#turn4\"], \"target_fact_id\": \"PMUL1919.json#state3#train.semi.destination\"}, {\"alternatives\": [\"16:00\"], \"fact\": {\"relation\": \"train.semi.leaveAt\", \"source_turns\": [\"PMUL1919.json#turn4\"], \"subject\": \"PMUL1919.json#train.semi\", \"time\": \"unknown\", \"value\": \"16:00\"}, \"operation\": \"APPEND\", \"slot\": \"train.semi.leaveAt\", \"source_turns\": [\"PMUL1919.json#turn4\"], \"target_fact_id\": null}]}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 2142,
+    "output_tokens": 322,
+    "reasoning_tokens": 0,
+    "total_tokens": 2464
+  }
+}

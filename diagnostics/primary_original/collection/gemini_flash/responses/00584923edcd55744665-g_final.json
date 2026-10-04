@@ -1,0 +1,57 @@
+{
+  "call_id": "00584923edcd55744665-g_final",
+  "finish_reason": "STOP",
+  "finished_unix": 1790491561.1535108,
+  "http_status": 200,
+  "latency_seconds": 1.3156,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.006579339095990951,
+        "content": {
+          "parts": [
+            {
+              "text": "{\"reply\": \"네, 예전에는 편지를 선호하셨다는 것을 기억해 둘게요. 현재 영상통화를 선호하시는 사실은 그대로 유지됩니다.\", \"action\": {\"kind\": \"CONTINUE\", \"question_slot\": null, \"required_slots\": [], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [], \"fact\": {\"relation\": \"preferred_contact\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"편지\"}, \"operation\": \"APPEND\", \"slot\": null, \"source_turns\": [\"t2\"], \"target_fact_id\": null}]}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T06:45:59.923058Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "p7u4arKrOPuj0ckPyLyQmAM",
+    "usageMetadata": {
+      "candidatesTokenCount": 146,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 146
+        }
+      ],
+      "promptTokenCount": 1897,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1897
+        }
+      ],
+      "totalTokenCount": 2043,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "8449e1065c6005536946de09d0419f6839134034288e38d139d49a4c427532dc",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790491559.837409,
+  "status": "OK",
+  "text": "{\"reply\": \"네, 예전에는 편지를 선호하셨다는 것을 기억해 둘게요. 현재 영상통화를 선호하시는 사실은 그대로 유지됩니다.\", \"action\": {\"kind\": \"CONTINUE\", \"question_slot\": null, \"required_slots\": [], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [], \"fact\": {\"relation\": \"preferred_contact\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"편지\"}, \"operation\": \"APPEND\", \"slot\": null, \"source_turns\": [\"t2\"], \"target_fact_id\": null}]}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1897,
+    "output_tokens": 146,
+    "reasoning_tokens": 0,
+    "total_tokens": 2043
+  }
+}

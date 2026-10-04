@@ -1,0 +1,57 @@
+{
+  "call_id": "b8d03ed1fa146267d536-candidate_extract",
+  "finish_reason": "STOP",
+  "finished_unix": 1790490577.677825,
+  "http_status": 200,
+  "latency_seconds": 1.4265,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.0113503359706024,
+        "content": {
+          "parts": [
+            {
+              "text": "{\"beliefs\": [{\"candidate_id\": \"c1\", \"facts\": []}, {\"candidate_id\": \"c2\", \"facts\": []}], \"correction_witnesses\": [{\"candidate_id\": \"c1\", \"evidence_quote\": \"\", \"new_value\": \"다솜꽃집\", \"polarity\": \"uncertain\", \"relation\": \"shop_name\", \"source_turn\": \"t2\", \"subject\": \"participant\", \"target_fact_id\": \"f1\", \"time\": \"past\"}, {\"candidate_id\": \"c2\", \"evidence_quote\": \"\", \"new_value\": \"다솜꽃집\", \"polarity\": \"negated\", \"relation\": \"shop_name\", \"source_turn\": \"t2\", \"subject\": \"participant\", \"target_fact_id\": \"f1\", \"time\": \"past\"}]}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T06:29:36.355899Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "0Le4arvcFfuj0ckPyLyQmAM",
+    "usageMetadata": {
+      "candidatesTokenCount": 183,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 183
+        }
+      ],
+      "promptTokenCount": 1708,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1708
+        }
+      ],
+      "totalTokenCount": 1891,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "e08d59f050a8c9163e10ccc041e7a9d7a8209707aab2e74b1bcb6947471f3907",
+  "stage_schema_sha256": "bda7326ac6a6cbeedf1ecdbf4a2b08277c078351d6689f667dc0d558c4972dd3",
+  "started_unix": 1790490576.250933,
+  "status": "OK",
+  "text": "{\"beliefs\": [{\"candidate_id\": \"c1\", \"facts\": []}, {\"candidate_id\": \"c2\", \"facts\": []}], \"correction_witnesses\": [{\"candidate_id\": \"c1\", \"evidence_quote\": \"\", \"new_value\": \"다솜꽃집\", \"polarity\": \"uncertain\", \"relation\": \"shop_name\", \"source_turn\": \"t2\", \"subject\": \"participant\", \"target_fact_id\": \"f1\", \"time\": \"past\"}, {\"candidate_id\": \"c2\", \"evidence_quote\": \"\", \"new_value\": \"다솜꽃집\", \"polarity\": \"negated\", \"relation\": \"shop_name\", \"source_turn\": \"t2\", \"subject\": \"participant\", \"target_fact_id\": \"f1\", \"time\": \"past\"}]}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1708,
+    "output_tokens": 183,
+    "reasoning_tokens": 0,
+    "total_tokens": 1891
+  }
+}

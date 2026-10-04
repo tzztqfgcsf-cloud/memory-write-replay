@@ -1,0 +1,56 @@
+{
+  "call_id": "3f21b805258d878acc00c672-candidate_final",
+  "cost_note": "provider_did_not_report_money",
+  "cost_usd_reported": null,
+  "finish_reason": "STOP",
+  "http_status": 200,
+  "latency_seconds": 1.4236,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.02907409301170936,
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"reply\": \"Okay, I will change the length of stay to 2 nights. Is there anything else I can help you with?\",\n  \"action\": {\n    \"kind\": \"CONTINUE\",\n    \"question_slot\": null,\n    \"required_slots\": [],\n    \"speaker_id\": \"system\"\n  },\n  \"memory_decisions\": [\n    {\n      \"alternatives\": [],\n      \"fact\": {\n        \"relation\": \"hotel.book.stay\",\n        \"source_turns\": [\n          \"SNG1006.json#turn6\"\n        ],\n        \"subject\": \"SNG1006.json#hotel.book\",\n        \"time\": \"unknown\",\n        \"value\": \"2\"\n      },\n      \"operation\": \"CORRECT\",\n      \"slot\": \"hotel.book.stay\",\n      \"source_turns\": [\n        \"SNG1006.json#turn6\"\n      ],\n      \"target_fact_id\": \"SNG1006.json#state5#hotel.book.stay\"\n    }\n  ]\n}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T23:15:05.852085Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "eaO5avWANJiXktwPo4SY4AQ",
+    "usageMetadata": {
+      "candidatesTokenCount": 260,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 260
+        }
+      ],
+      "promptTokenCount": 2065,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 2065
+        }
+      ],
+      "totalTokenCount": 2325,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "d5b5654344718e1611271e7b69a962f853653cdc877b4fa90a77a63bd157e468",
+  "status": "OK",
+  "text": "{\n  \"reply\": \"Okay, I will change the length of stay to 2 nights. Is there anything else I can help you with?\",\n  \"action\": {\n    \"kind\": \"CONTINUE\",\n    \"question_slot\": null,\n    \"required_slots\": [],\n    \"speaker_id\": \"system\"\n  },\n  \"memory_decisions\": [\n    {\n      \"alternatives\": [],\n      \"fact\": {\n        \"relation\": \"hotel.book.stay\",\n        \"source_turns\": [\n          \"SNG1006.json#turn6\"\n        ],\n        \"subject\": \"SNG1006.json#hotel.book\",\n        \"time\": \"unknown\",\n        \"value\": \"2\"\n      },\n      \"operation\": \"CORRECT\",\n      \"slot\": \"hotel.book.stay\",\n      \"source_turns\": [\n        \"SNG1006.json#turn6\"\n      ],\n      \"target_fact_id\": \"SNG1006.json#state5#hotel.book.stay\"\n    }\n  ]\n}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 2065,
+    "output_tokens": 260,
+    "reasoning_tokens": 0,
+    "total_tokens": 2325
+  }
+}

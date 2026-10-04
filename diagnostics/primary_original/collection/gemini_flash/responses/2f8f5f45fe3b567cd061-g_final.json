@@ -1,0 +1,57 @@
+{
+  "call_id": "2f8f5f45fe3b567cd061-g_final",
+  "finish_reason": "STOP",
+  "finished_unix": 1790491737.219428,
+  "http_status": 200,
+  "latency_seconds": 1.3518,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.006531043765471154,
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"reply\": \"네, 예전 모임 장소는 기차역광장으로 기억해 드릴게요.\",\n  \"action\": {\n    \"kind\": \"CONTINUE\",\n    \"question_slot\": null,\n    \"required_slots\": [],\n    \"speaker_id\": \"p1\"\n  },\n  \"memory_decisions\": [\n    {\n      \"alternatives\": [],\n      \"fact\": {\n        \"relation\": \"meeting_place\",\n        \"source_turns\": [\"t2\"],\n        \"subject\": \"participant\",\n        \"time\": \"past\",\n        \"value\": \"기차역광장\"\n      },\n      \"operation\": \"APPEND\",\n      \"slot\": null,\n      \"source_turns\": [\"t2\"],\n      \"target_fact_id\": null\n    }\n  ]\n}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T06:48:55.964823Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "V7y4atfxOvCVktwP37SV-Ag",
+    "usageMetadata": {
+      "candidatesTokenCount": 194,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 194
+        }
+      ],
+      "promptTokenCount": 1904,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1904
+        }
+      ],
+      "totalTokenCount": 2098,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "70e3a1e6219a8e46e33017f815bd63a87be1f0a83eaeea826022a030fee66e2c",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790491735.867292,
+  "status": "OK",
+  "text": "{\n  \"reply\": \"네, 예전 모임 장소는 기차역광장으로 기억해 드릴게요.\",\n  \"action\": {\n    \"kind\": \"CONTINUE\",\n    \"question_slot\": null,\n    \"required_slots\": [],\n    \"speaker_id\": \"p1\"\n  },\n  \"memory_decisions\": [\n    {\n      \"alternatives\": [],\n      \"fact\": {\n        \"relation\": \"meeting_place\",\n        \"source_turns\": [\"t2\"],\n        \"subject\": \"participant\",\n        \"time\": \"past\",\n        \"value\": \"기차역광장\"\n      },\n      \"operation\": \"APPEND\",\n      \"slot\": null,\n      \"source_turns\": [\"t2\"],\n      \"target_fact_id\": null\n    }\n  ]\n}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1904,
+    "output_tokens": 194,
+    "reasoning_tokens": 0,
+    "total_tokens": 2098
+  }
+}

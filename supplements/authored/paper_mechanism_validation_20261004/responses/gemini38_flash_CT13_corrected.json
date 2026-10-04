@@ -1,0 +1,20 @@
+{
+  "status": "OK",
+  "http_status": 200,
+  "text": "{\n  \"beliefs\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"facts\": [\n        {\n          \"relation\": \"hobby\",\n          \"source_turns\": [\"t1\", \"t2\"],\n          \"subject\": \"participant\",\n          \"time\": \"present\",\n          \"value\": \"등산\"\n        },\n        {\n          \"relation\": \"hobby\",\n          \"source_turns\": [\"t2\"],\n          \"subject\": \"준호\",\n          \"time\": \"present\",\n          \"value\": \"낚시\"\n        }\n      ]\n    },\n    {\n      \"candidate_id\": \"c2\",\n      \"facts\": [\n        {\n          \"relation\": \"hobby\",\n          \"source_turns\": [\"t1\", \"t2\"],\n          \"subject\": \"participant\",\n          \"time\": \"present\",\n          \"value\": \"등산\"\n        },\n        {\n          \"relation\": \"hobby\",\n          \"source_turns\": [\"t2\"],\n          \"subject\": \"준호\",\n          \"time\": \"present\",\n          \"value\": \"낚시\"\n        }\n      ]\n    }\n  ],\n  \"correction_witnesses\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"evidence_quote\": \"\",\n      \"new_value\": \"등산\",\n      \"polarity\": \"absent\",\n      \"relation\": \"hobby\",\n      \"source_turn\": \"t2\",\n      \"subject\": \"participant\",\n      \"target_fact_id\": \"f1\",\n      \"time\": \"present\"\n    },\n    {\n      \"candidate_id\": \"c2\",\n      \"evidence_quote\": \"\",\n      \"new_value\": \"등산\",\n      \"polarity\": \"absent\",\n      \"relation\": \"hobby\",\n      \"source_turn\": \"t2\",\n      \"subject\": \"participant\",\n      \"target_fact_id\": \"f1\",\n      \"time\": \"present\"\n    }\n  ]\n}",
+  "usage": {
+    "input_tokens": 2612,
+    "output_tokens": 473,
+    "reasoning_tokens": 0,
+    "total_tokens": 3085,
+    "cached_tokens": null
+  },
+  "finish_reason": "STOP",
+  "model_version": "gemini-3.8-flash",
+  "id": "gemini38_flash_CT13_corrected",
+  "key": "gemini38_flash_CT13",
+  "stage": "extract",
+  "arm": "corrected",
+  "requested_model": "gemini-3.8-flash",
+  "latency_seconds": 4.146501875016838
+}

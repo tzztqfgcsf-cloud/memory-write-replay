@@ -1,0 +1,56 @@
+{
+  "call_id": "b8f2e5a9db4ad06851be3759-sr_refine",
+  "cost_note": "provider_did_not_report_money",
+  "cost_usd_reported": null,
+  "finish_reason": "STOP",
+  "http_status": 200,
+  "latency_seconds": 2.4071,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -2.0336215309599505e-05,
+        "content": {
+          "parts": [
+            {
+              "text": "{\"reply\": \"Okay, so you want a train from Kings Lynn to Cambridge on Monday after 08:00. Is that correct?\", \"action\": {\"kind\": \"CLARIFY\", \"question_slot\": \"other\", \"required_slots\": [], \"speaker_id\": \"system\"}, \"memory_decisions\": [{\"alternatives\": [\"kings lynn\"], \"fact\": {\"relation\": \"train.semi.departure\", \"source_turns\": [\"PMUL0945.json#turn4\"], \"subject\": \"PMUL0945.json#train.semi\", \"time\": \"unknown\", \"value\": \"kings lynn\"}, \"operation\": \"CORRECT\", \"slot\": \"train.semi.departure\", \"source_turns\": [\"PMUL0945.json#turn4\"], \"target_fact_id\": \"PMUL0945.json#state3#train.semi.departure\"}, {\"alternatives\": [\"cambridge\"], \"fact\": {\"relation\": \"train.semi.destination\", \"source_turns\": [\"PMUL0945.json#turn4\"], \"subject\": \"PMUL0945.json#train.semi\", \"time\": \"unknown\", \"value\": \"cambridge\"}, \"operation\": \"CORRECT\", \"slot\": \"train.semi.destination\", \"source_turns\": [\"PMUL0945.json#turn4\"], \"target_fact_id\": \"PMUL0945.json#state3#train.semi.destination\"}, {\"alternatives\": [\"monday\"], \"fact\": {\"relation\": \"train.semi.day\", \"source_turns\": [\"PMUL0945.json#turn4\"], \"subject\": \"PMUL0945.json#train.semi\", \"time\": \"unknown\", \"value\": \"monday\"}, \"operation\": \"APPEND\", \"slot\": \"train.semi.day\", \"source_turns\": [\"PMUL0945.json#turn4\"], \"target_fact_id\": null}, {\"alternatives\": [\"08:00\"], \"fact\": {\"relation\": \"train.semi.leaveAt\", \"source_turns\": [\"PMUL0945.json#turn4\"], \"subject\": \"PMUL0945.json#train.semi\", \"time\": \"unknown\", \"value\": \"08:00\"}, \"operation\": \"APPEND\", \"slot\": \"train.semi.leaveAt\", \"source_turns\": [\"PMUL0945.json#turn4\"], \"target_fact_id\": null}]}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T22:50:30.178595Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "tp25aqPzCtCNx9gP07myoAQ",
+    "usageMetadata": {
+      "candidatesTokenCount": 561,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 561
+        }
+      ],
+      "promptTokenCount": 2765,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 2765
+        }
+      ],
+      "totalTokenCount": 3326,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "6604ff3b7da8da31bc0ae392476f10f3ccfd6f222c6cbfc4b11dc551779d1ad6",
+  "status": "OK",
+  "text": "{\"reply\": \"Okay, so you want a train from Kings Lynn to Cambridge on Monday after 08:00. Is that correct?\", \"action\": {\"kind\": \"CLARIFY\", \"question_slot\": \"other\", \"required_slots\": [], \"speaker_id\": \"system\"}, \"memory_decisions\": [{\"alternatives\": [\"kings lynn\"], \"fact\": {\"relation\": \"train.semi.departure\", \"source_turns\": [\"PMUL0945.json#turn4\"], \"subject\": \"PMUL0945.json#train.semi\", \"time\": \"unknown\", \"value\": \"kings lynn\"}, \"operation\": \"CORRECT\", \"slot\": \"train.semi.departure\", \"source_turns\": [\"PMUL0945.json#turn4\"], \"target_fact_id\": \"PMUL0945.json#state3#train.semi.departure\"}, {\"alternatives\": [\"cambridge\"], \"fact\": {\"relation\": \"train.semi.destination\", \"source_turns\": [\"PMUL0945.json#turn4\"], \"subject\": \"PMUL0945.json#train.semi\", \"time\": \"unknown\", \"value\": \"cambridge\"}, \"operation\": \"CORRECT\", \"slot\": \"train.semi.destination\", \"source_turns\": [\"PMUL0945.json#turn4\"], \"target_fact_id\": \"PMUL0945.json#state3#train.semi.destination\"}, {\"alternatives\": [\"monday\"], \"fact\": {\"relation\": \"train.semi.day\", \"source_turns\": [\"PMUL0945.json#turn4\"], \"subject\": \"PMUL0945.json#train.semi\", \"time\": \"unknown\", \"value\": \"monday\"}, \"operation\": \"APPEND\", \"slot\": \"train.semi.day\", \"source_turns\": [\"PMUL0945.json#turn4\"], \"target_fact_id\": null}, {\"alternatives\": [\"08:00\"], \"fact\": {\"relation\": \"train.semi.leaveAt\", \"source_turns\": [\"PMUL0945.json#turn4\"], \"subject\": \"PMUL0945.json#train.semi\", \"time\": \"unknown\", \"value\": \"08:00\"}, \"operation\": \"APPEND\", \"slot\": \"train.semi.leaveAt\", \"source_turns\": [\"PMUL0945.json#turn4\"], \"target_fact_id\": null}]}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 2765,
+    "output_tokens": 561,
+    "reasoning_tokens": 0,
+    "total_tokens": 3326
+  }
+}

@@ -1,0 +1,554 @@
+[
+  {
+    "case_id": "CT01",
+    "arm": "original",
+    "source_response": "source_archive/outputs/paper_mechanism_validation_20261004/responses/gemini_flash_CT01_original.json",
+    "fact_counts": [
+      1,
+      1
+    ],
+    "facts": [
+      [
+        {
+          "relation": "birthplace",
+          "source_turns": [
+            "t2"
+          ],
+          "subject": "participant",
+          "time": "past",
+          "value": "대구"
+        }
+      ],
+      [
+        {
+          "relation": "birthplace",
+          "source_turns": [
+            "t2"
+          ],
+          "subject": "participant",
+          "time": "past",
+          "value": "대구"
+        }
+      ]
+    ],
+    "correction_witnesses": [
+      {
+        "candidate_id": "c1",
+        "evidence_quote": "대구에서 태어났어요. 출생지는 대구로 바꿔요.",
+        "new_value": "대구",
+        "polarity": "affirmed",
+        "relation": "birthplace",
+        "source_turn": "t2",
+        "subject": "participant",
+        "target_fact_id": "f1",
+        "time": "past"
+      },
+      {
+        "candidate_id": "c2",
+        "evidence_quote": "대구에서 태어난 게 맞으니 대구로 바꿔 주세요.",
+        "new_value": "대구",
+        "polarity": "affirmed",
+        "relation": "birthplace",
+        "source_turn": "t2",
+        "subject": "participant",
+        "target_fact_id": "f1",
+        "time": "past"
+      }
+    ]
+  },
+  {
+    "case_id": "CT01",
+    "arm": "corrected",
+    "source_response": "source_archive/outputs/paper_mechanism_validation_20261004/responses/gemini_flash_CT01_corrected.json",
+    "fact_counts": [
+      1,
+      1
+    ],
+    "facts": [
+      [
+        {
+          "relation": "birthplace",
+          "source_turns": [
+            "t2"
+          ],
+          "subject": "participant",
+          "time": "past",
+          "value": "대구"
+        }
+      ],
+      [
+        {
+          "relation": "birthplace",
+          "source_turns": [
+            "t2"
+          ],
+          "subject": "participant",
+          "time": "past",
+          "value": "대구"
+        }
+      ]
+    ],
+    "correction_witnesses": [
+      {
+        "candidate_id": "c1",
+        "evidence_quote": "대구에서 태어났어요. 출생지는 대구로 바꿔요.",
+        "new_value": "대구",
+        "polarity": "affirmed",
+        "relation": "birthplace",
+        "source_turn": "t2",
+        "subject": "participant",
+        "target_fact_id": "f1",
+        "time": "past"
+      },
+      {
+        "candidate_id": "c2",
+        "evidence_quote": "대구에서 태어난 게 맞으니 대구로 바꿔 주세요.",
+        "new_value": "대구",
+        "polarity": "affirmed",
+        "relation": "birthplace",
+        "source_turn": "t2",
+        "subject": "participant",
+        "target_fact_id": "f1",
+        "time": "past"
+      }
+    ]
+  },
+  {
+    "case_id": "CT42",
+    "arm": "original",
+    "source_response": "source_archive/outputs/paper_focal5_completion_20261004/responses/gemini_flash_CT42_original.json",
+    "fact_counts": [
+      0,
+      0
+    ],
+    "facts": [
+      [],
+      []
+    ],
+    "correction_witnesses": [
+      {
+        "candidate_id": "c1",
+        "evidence_quote": "충주 말고 문경이에요.",
+        "new_value": "문경",
+        "polarity": "affirmed",
+        "relation": "birthplace",
+        "source_turn": "t2",
+        "subject": "participant",
+        "target_fact_id": "f1",
+        "time": "past"
+      },
+      {
+        "candidate_id": "c1",
+        "evidence_quote": "푸른세탁소 다니는 건 맞아요.",
+        "new_value": "푸른세탁소",
+        "polarity": "affirmed",
+        "relation": "workplace",
+        "source_turn": "t2",
+        "subject": "participant",
+        "target_fact_id": "f2",
+        "time": "present"
+      },
+      {
+        "candidate_id": "c2",
+        "evidence_quote": "태어난 데는 문경이에요.",
+        "new_value": "문경",
+        "polarity": "affirmed",
+        "relation": "birthplace",
+        "source_turn": "t2",
+        "subject": "participant",
+        "target_fact_id": "f1",
+        "time": "past"
+      },
+      {
+        "candidate_id": "c2",
+        "evidence_quote": "직장 푸른세탁소는 그대로 두세요.",
+        "new_value": "푸른세탁소",
+        "polarity": "affirmed",
+        "relation": "workplace",
+        "source_turn": "t2",
+        "subject": "participant",
+        "target_fact_id": "f2",
+        "time": "present"
+      }
+    ]
+  },
+  {
+    "case_id": "CT42",
+    "arm": "corrected",
+    "source_response": "source_archive/outputs/paper_focal5_completion_20261004/responses/gemini_flash_CT42_corrected.json",
+    "fact_counts": [
+      2,
+      2
+    ],
+    "facts": [
+      [
+        {
+          "relation": "birthplace",
+          "source_turns": [
+            "t2"
+          ],
+          "subject": "participant",
+          "time": "past",
+          "value": "문경"
+        },
+        {
+          "relation": "workplace",
+          "source_turns": [
+            "t2"
+          ],
+          "subject": "participant",
+          "time": "present",
+          "value": "푸른세탁소"
+        }
+      ],
+      [
+        {
+          "relation": "birthplace",
+          "source_turns": [
+            "t2"
+          ],
+          "subject": "participant",
+          "time": "past",
+          "value": "문경"
+        },
+        {
+          "relation": "workplace",
+          "source_turns": [
+            "t2"
+          ],
+          "subject": "participant",
+          "time": "present",
+          "value": "푸른세탁소"
+        }
+      ]
+    ],
+    "correction_witnesses": [
+      {
+        "candidate_id": "c1",
+        "evidence_quote": "충주 말고 문경이에요",
+        "new_value": "문경",
+        "polarity": "affirmed",
+        "relation": "birthplace",
+        "source_turn": "t2",
+        "subject": "participant",
+        "target_fact_id": "f1",
+        "time": "past"
+      },
+      {
+        "candidate_id": "c1",
+        "evidence_quote": "푸른세탁소 다니는 건 맞아요",
+        "new_value": "푸른세탁소",
+        "polarity": "affirmed",
+        "relation": "workplace",
+        "source_turn": "t2",
+        "subject": "participant",
+        "target_fact_id": "f2",
+        "time": "present"
+      },
+      {
+        "candidate_id": "c2",
+        "evidence_quote": "태어난 데는 문경이에요",
+        "new_value": "문경",
+        "polarity": "affirmed",
+        "relation": "birthplace",
+        "source_turn": "t2",
+        "subject": "participant",
+        "target_fact_id": "f1",
+        "time": "past"
+      },
+      {
+        "candidate_id": "c2",
+        "evidence_quote": "직장 푸른세탁소는 그대로 두세요",
+        "new_value": "푸른세탁소",
+        "polarity": "affirmed",
+        "relation": "workplace",
+        "source_turn": "t2",
+        "subject": "participant",
+        "target_fact_id": "f2",
+        "time": "present"
+      }
+    ]
+  },
+  {
+    "case_id": "CT45",
+    "arm": "original",
+    "source_response": "source_archive/outputs/paper_mechanism_validation_20261004/responses/gemini_flash_CT45_original.json",
+    "fact_counts": [
+      0,
+      0
+    ],
+    "facts": [
+      [],
+      []
+    ],
+    "correction_witnesses": [
+      {
+        "candidate_id": "c1",
+        "evidence_quote": "1993년이요. 방금 말한 건 지우고 연도는 1993년으로 고쳐요.",
+        "new_value": "1993년",
+        "polarity": "affirmed",
+        "relation": "event_year",
+        "source_turn": "t2",
+        "subject": "participant",
+        "target_fact_id": "f1",
+        "time": "past"
+      },
+      {
+        "candidate_id": "c2",
+        "evidence_quote": "1993년이에요. 개업 연도를 그걸로 바로잡아요.",
+        "new_value": "1993년",
+        "polarity": "affirmed",
+        "relation": "event_year",
+        "source_turn": "t2",
+        "subject": "participant",
+        "target_fact_id": "f1",
+        "time": "past"
+      }
+    ]
+  },
+  {
+    "case_id": "CT45",
+    "arm": "corrected",
+    "source_response": "source_archive/outputs/paper_focal5_quota_completion_20261004/responses/gemini_flash_CT45_corrected.json",
+    "fact_counts": [
+      1,
+      1
+    ],
+    "facts": [
+      [
+        {
+          "relation": "event_year",
+          "source_turns": [
+            "t2"
+          ],
+          "subject": "participant",
+          "time": "past",
+          "value": "1993년"
+        }
+      ],
+      [
+        {
+          "relation": "event_year",
+          "source_turns": [
+            "t2"
+          ],
+          "subject": "participant",
+          "time": "past",
+          "value": "1993년"
+        }
+      ]
+    ],
+    "correction_witnesses": [
+      {
+        "candidate_id": "c1",
+        "evidence_quote": "1993년이요. 방금 말한 건 지우고 연도는 1993년으로 고쳐요",
+        "new_value": "1993년",
+        "polarity": "affirmed",
+        "relation": "event_year",
+        "source_turn": "t2",
+        "subject": "participant",
+        "target_fact_id": "f1",
+        "time": "past"
+      },
+      {
+        "candidate_id": "c2",
+        "evidence_quote": "1993년이에요. 개업 연도를 그걸로 바로잡아요",
+        "new_value": "1993년",
+        "polarity": "affirmed",
+        "relation": "event_year",
+        "source_turn": "t2",
+        "subject": "participant",
+        "target_fact_id": "f1",
+        "time": "past"
+      }
+    ]
+  },
+  {
+    "case_id": "CT46",
+    "arm": "original",
+    "source_response": "source_archive/outputs/paper_mechanism_validation_20261004/responses/gemini_flash_CT46_original.json",
+    "fact_counts": [
+      0,
+      0
+    ],
+    "facts": [
+      [],
+      []
+    ],
+    "correction_witnesses": [
+      {
+        "candidate_id": "c1",
+        "evidence_quote": "신 선생님",
+        "new_value": "신 선생님",
+        "polarity": "affirmed",
+        "relation": "learned_from",
+        "source_turn": "t2",
+        "subject": "participant",
+        "target_fact_id": "f1",
+        "time": "past"
+      },
+      {
+        "candidate_id": "c2",
+        "evidence_quote": "신 선생님",
+        "new_value": "신 선생님",
+        "polarity": "affirmed",
+        "relation": "learned_from",
+        "source_turn": "t2",
+        "subject": "participant",
+        "target_fact_id": "f1",
+        "time": "past"
+      }
+    ]
+  },
+  {
+    "case_id": "CT46",
+    "arm": "corrected",
+    "source_response": "source_archive/outputs/paper_focal5_quota_completion_20261004/responses/gemini_flash_CT46_corrected.json",
+    "fact_counts": [
+      1,
+      1
+    ],
+    "facts": [
+      [
+        {
+          "relation": "learned_from",
+          "source_turns": [
+            "t2"
+          ],
+          "subject": "participant",
+          "time": "past",
+          "value": "신 선생님"
+        }
+      ],
+      [
+        {
+          "relation": "learned_from",
+          "source_turns": [
+            "t2"
+          ],
+          "subject": "participant",
+          "time": "past",
+          "value": "신 선생님"
+        }
+      ]
+    ],
+    "correction_witnesses": [
+      {
+        "candidate_id": "c1",
+        "evidence_quote": "신 선생님",
+        "new_value": "신 선생님",
+        "polarity": "affirmed",
+        "relation": "learned_from",
+        "source_turn": "t2",
+        "subject": "participant",
+        "target_fact_id": "f1",
+        "time": "past"
+      },
+      {
+        "candidate_id": "c2",
+        "evidence_quote": "신 선생님",
+        "new_value": "신 선생님",
+        "polarity": "affirmed",
+        "relation": "learned_from",
+        "source_turn": "t2",
+        "subject": "participant",
+        "target_fact_id": "f1",
+        "time": "past"
+      }
+    ]
+  },
+  {
+    "case_id": "CT48",
+    "arm": "original",
+    "source_response": "source_archive/outputs/paper_focal5_completion_20261004/responses/gemini_flash_CT48_original.json",
+    "fact_counts": [
+      0,
+      0
+    ],
+    "facts": [
+      [],
+      []
+    ],
+    "correction_witnesses": [
+      {
+        "candidate_id": "c1",
+        "evidence_quote": "시민운동장",
+        "new_value": "시민운동장",
+        "polarity": "affirmed",
+        "relation": "meeting_place",
+        "source_turn": "t2",
+        "subject": "participant",
+        "target_fact_id": "f1",
+        "time": "present"
+      },
+      {
+        "candidate_id": "c2",
+        "evidence_quote": "시민운동장",
+        "new_value": "시민운동장",
+        "polarity": "affirmed",
+        "relation": "meeting_place",
+        "source_turn": "t2",
+        "subject": "participant",
+        "target_fact_id": "f1",
+        "time": "present"
+      }
+    ]
+  },
+  {
+    "case_id": "CT48",
+    "arm": "corrected",
+    "source_response": "source_archive/outputs/paper_focal5_quota_completion_20261004/responses/gemini_flash_CT48_corrected.json",
+    "fact_counts": [
+      1,
+      1
+    ],
+    "facts": [
+      [
+        {
+          "relation": "meeting_place",
+          "source_turns": [
+            "t2"
+          ],
+          "subject": "participant",
+          "time": "present",
+          "value": "시민운동장"
+        }
+      ],
+      [
+        {
+          "relation": "meeting_place",
+          "source_turns": [
+            "t2"
+          ],
+          "subject": "participant",
+          "time": "present",
+          "value": "시민운동장"
+        }
+      ]
+    ],
+    "correction_witnesses": [
+      {
+        "candidate_id": "c1",
+        "evidence_quote": "시민운동장이요. 아까 잘못 말했네요. 장소는 시민운동장으로 고쳐요",
+        "new_value": "시민운동장",
+        "polarity": "affirmed",
+        "relation": "meeting_place",
+        "source_turn": "t2",
+        "subject": "participant",
+        "target_fact_id": "f1",
+        "time": "present"
+      },
+      {
+        "candidate_id": "c2",
+        "evidence_quote": "시민운동장이에요. 체육관이라 한 건 잘못이고 모임 장소는 시민운동장으로 해요",
+        "new_value": "시민운동장",
+        "polarity": "affirmed",
+        "relation": "meeting_place",
+        "source_turn": "t2",
+        "subject": "participant",
+        "target_fact_id": "f1",
+        "time": "present"
+      }
+    ]
+  }
+]

@@ -1,0 +1,20 @@
+{
+  "status": "OK",
+  "http_status": 200,
+  "text": "{\"decisions\": [{\"index\": 0, \"approve\": false, \"reason\": \"기존 정보와 동일하여 수정할 필요가 없습니다.\"}]}",
+  "usage": {
+    "input_tokens": 684,
+    "output_tokens": 32,
+    "reasoning_tokens": 262,
+    "total_tokens": 978,
+    "cached_tokens": null
+  },
+  "finish_reason": "STOP",
+  "model_version": "gemini-3.1-pro-preview",
+  "id": "gemini_flash_CT07_judge",
+  "key": "gemini_flash_CT07",
+  "stage": "judge",
+  "arm": "judge",
+  "requested_model": "gemini-3.1-pro-preview",
+  "latency_seconds": 6.778245624853298
+}

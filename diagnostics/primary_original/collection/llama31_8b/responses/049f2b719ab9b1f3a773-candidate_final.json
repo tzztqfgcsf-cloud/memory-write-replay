@@ -1,0 +1,36 @@
+{
+  "call_id": "049f2b719ab9b1f3a773-candidate_final",
+  "error_type": null,
+  "finish_reason": "stop",
+  "finished_unix": 1790493631.965805,
+  "latency_seconds": 12.7798,
+  "model_version": "mlx-community/Llama-3.1-8B-Instruct-4bit",
+  "raw_response": {
+    "base_seed": 20260927,
+    "finish_reason": "stop",
+    "generation_calls": 460,
+    "id": "local-bed7ee307de12b17c1c0e1a4",
+    "seed": 2620084933,
+    "snapshot": "<LOCAL_PATH>",
+    "text": "{\"action\": {\"kind\": \"CONTINUE\", \"question_slot\": \"learned_from\", \"required_slots\": [\"learned_from\"], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"기타 선생님\", \"기타 선생님\"], \"fact\": {\"relation\": \"learned_from\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"o 선생님\"}, \"operation\": \"APPEND\", \"slot\": \"learned_from\", \"source_turns\": [\"t2\"], \"target_fact_id\": null}, {\"alternatives\": [\"기타 선생님\", \"기타 선생님\"], \"fact\": {\"relation\": \"learned_from\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"o 선생님\"}, \"operation\": \"APPEND\", \"slot\": \"learned_from\", \"source_turns\": [\"t2\"], \"target_fact_id\": null}], \"reply\": \"기타 선생님을 기억해 주세요.\"}",
+    "usage": {
+      "cached_tokens": null,
+      "input_tokens": 2066,
+      "output_tokens": 226,
+      "reasoning_tokens": null,
+      "total_tokens": 2292
+    }
+  },
+  "request_sha256": "1ebd9f04888d223df85e4e7cfded249b98820fa314a3af48e905203774ea4461",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790493619.185659,
+  "status": "OK",
+  "text": "{\"action\": {\"kind\": \"CONTINUE\", \"question_slot\": \"learned_from\", \"required_slots\": [\"learned_from\"], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"기타 선생님\", \"기타 선생님\"], \"fact\": {\"relation\": \"learned_from\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"o 선생님\"}, \"operation\": \"APPEND\", \"slot\": \"learned_from\", \"source_turns\": [\"t2\"], \"target_fact_id\": null}, {\"alternatives\": [\"기타 선생님\", \"기타 선생님\"], \"fact\": {\"relation\": \"learned_from\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"o 선생님\"}, \"operation\": \"APPEND\", \"slot\": \"learned_from\", \"source_turns\": [\"t2\"], \"target_fact_id\": null}], \"reply\": \"기타 선생님을 기억해 주세요.\"}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 2066,
+    "output_tokens": 226,
+    "reasoning_tokens": null,
+    "total_tokens": 2292
+  }
+}

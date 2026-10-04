@@ -1,0 +1,57 @@
+{
+  "call_id": "06a7913265a88cadf7e0-candidate_extract",
+  "finish_reason": "STOP",
+  "finished_unix": 1790490233.5079439,
+  "http_status": 200,
+  "latency_seconds": 2.2282,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.00437986276767872,
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"beliefs\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"facts\": []\n    },\n    {\n      \"candidate_id\": \"c2\",\n      \"facts\": []\n    }\n  ],\n  \"correction_witnesses\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"evidence_quote\": \"\",\n      \"new_value\": \"장 선생님\",\n      \"polarity\": \"uncertain\",\n      \"relation\": \"learned_from\",\n      \"source_turn\": \"t2\",\n      \"subject\": \"participant\",\n      \"target_fact_id\": \"f1\",\n      \"time\": \"past\"\n    },\n    {\n      \"candidate_id\": \"c2\",\n      \"evidence_quote\": \"배운 분 기록은 건드리지 마요\",\n      \"new_value\": \"장 선생님\",\n      \"polarity\": \"negated\",\n      \"relation\": \"learned_from\",\n      \"source_turn\": \"t2\",\n      \"subject\": \"participant\",\n      \"target_fact_id\": \"f1\",\n      \"time\": \"past\"\n    }\n  ]\n}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T06:23:51.383375Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "d7a4ao-zF7OKktwPsejJ4QY",
+    "usageMetadata": {
+      "candidatesTokenCount": 270,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 270
+        }
+      ],
+      "promptTokenCount": 1702,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1702
+        }
+      ],
+      "totalTokenCount": 1972,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "f60c623a234a395c4b160585974a7f8165f90aecafbc80a899b24485f3316004",
+  "stage_schema_sha256": "bda7326ac6a6cbeedf1ecdbf4a2b08277c078351d6689f667dc0d558c4972dd3",
+  "started_unix": 1790490231.27915,
+  "status": "OK",
+  "text": "{\n  \"beliefs\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"facts\": []\n    },\n    {\n      \"candidate_id\": \"c2\",\n      \"facts\": []\n    }\n  ],\n  \"correction_witnesses\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"evidence_quote\": \"\",\n      \"new_value\": \"장 선생님\",\n      \"polarity\": \"uncertain\",\n      \"relation\": \"learned_from\",\n      \"source_turn\": \"t2\",\n      \"subject\": \"participant\",\n      \"target_fact_id\": \"f1\",\n      \"time\": \"past\"\n    },\n    {\n      \"candidate_id\": \"c2\",\n      \"evidence_quote\": \"배운 분 기록은 건드리지 마요\",\n      \"new_value\": \"장 선생님\",\n      \"polarity\": \"negated\",\n      \"relation\": \"learned_from\",\n      \"source_turn\": \"t2\",\n      \"subject\": \"participant\",\n      \"target_fact_id\": \"f1\",\n      \"time\": \"past\"\n    }\n  ]\n}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1702,
+    "output_tokens": 270,
+    "reasoning_tokens": 0,
+    "total_tokens": 1972
+  }
+}

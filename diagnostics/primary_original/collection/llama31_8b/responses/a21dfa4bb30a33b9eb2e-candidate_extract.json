@@ -1,0 +1,36 @@
+{
+  "call_id": "a21dfa4bb30a33b9eb2e-candidate_extract",
+  "error_type": null,
+  "finish_reason": "stop",
+  "finished_unix": 1790489728.3183308,
+  "latency_seconds": 13.6644,
+  "model_version": "mlx-community/Llama-3.1-8B-Instruct-4bit",
+  "raw_response": {
+    "base_seed": 20260927,
+    "finish_reason": "stop",
+    "generation_calls": 111,
+    "id": "local-a404e8694d65be50ab07107b",
+    "seed": 1047699420,
+    "snapshot": "<LOCAL_PATH>",
+    "text": "{\"beliefs\": [{\"candidate_id\": \"c1\", \"facts\": [{\"relation\": \"workplace\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"미래제과\"}]}, {\"candidate_id\": \"c2\", \"facts\": [{\"relation\": \"workplace\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"미래제과\"}]}], \"correction_witnesses\": [{\"candidate_id\": \"c1\", \"evidence_quote\": \"아니요, 미래제약으로 바꾸지 않아요. 빵 만드는 미래제과가 맞아요.\", \"new_value\": \"미래제과\", \"polarity\": \"affirmed\", \"relation\": \"workplace\", \"source_turn\": \"t2\", \"subject\": \"participant\", \"target_fact_id\": \"f1\", \"time\": \"present\"}, {\"candidate_id\": \"c2\", \"evidence_quote\": \"미래제과 그대로예요. 미래제약으로 고치라는 뜻은 아니었어요.\", \"new_value\": \"미래제과\", \"polarity\": \"negated\", \"relation\": \"workplace\", \"source_turn\": \"t2\", \"subject\": \"participant\", \"target_fact_id\": \"f1\", \"time\": \"present\"}]}",
+    "usage": {
+      "cached_tokens": null,
+      "input_tokens": 1752,
+      "output_tokens": 298,
+      "reasoning_tokens": null,
+      "total_tokens": 2050
+    }
+  },
+  "request_sha256": "c2ac7d6fab54a971805286aaddd6997f6adf6d94ccbadabe2ab244c39a7fd557",
+  "stage_schema_sha256": "bda7326ac6a6cbeedf1ecdbf4a2b08277c078351d6689f667dc0d558c4972dd3",
+  "started_unix": 1790489714.653545,
+  "status": "OK",
+  "text": "{\"beliefs\": [{\"candidate_id\": \"c1\", \"facts\": [{\"relation\": \"workplace\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"미래제과\"}]}, {\"candidate_id\": \"c2\", \"facts\": [{\"relation\": \"workplace\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"미래제과\"}]}], \"correction_witnesses\": [{\"candidate_id\": \"c1\", \"evidence_quote\": \"아니요, 미래제약으로 바꾸지 않아요. 빵 만드는 미래제과가 맞아요.\", \"new_value\": \"미래제과\", \"polarity\": \"affirmed\", \"relation\": \"workplace\", \"source_turn\": \"t2\", \"subject\": \"participant\", \"target_fact_id\": \"f1\", \"time\": \"present\"}, {\"candidate_id\": \"c2\", \"evidence_quote\": \"미래제과 그대로예요. 미래제약으로 고치라는 뜻은 아니었어요.\", \"new_value\": \"미래제과\", \"polarity\": \"negated\", \"relation\": \"workplace\", \"source_turn\": \"t2\", \"subject\": \"participant\", \"target_fact_id\": \"f1\", \"time\": \"present\"}]}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1752,
+    "output_tokens": 298,
+    "reasoning_tokens": null,
+    "total_tokens": 2050
+  }
+}

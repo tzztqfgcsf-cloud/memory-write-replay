@@ -1,0 +1,36 @@
+{
+  "call_id": "947fa8c2c7e0389110c7-candidate_final",
+  "error_type": null,
+  "finish_reason": "stop",
+  "finished_unix": 1790492450.1987772,
+  "latency_seconds": 17.8263,
+  "model_version": "mlx-community/Llama-3.1-8B-Instruct-4bit",
+  "raw_response": {
+    "base_seed": 20260927,
+    "finish_reason": "stop",
+    "generation_calls": 352,
+    "id": "local-abb7b3f8f04f5fcddb621fd1",
+    "seed": 3790577866,
+    "snapshot": "<LOCAL_PATH>",
+    "text": "{\"action\": {\"kind\": \"CLARIFY\", \"question_slot\": \"hobby\", \"required_slots\": [\"hobby\"], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"우표수집\", \"탁구\"], \"fact\": {\"relation\": \"hobby\", \"source_turns\": [\"t1\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"우표수집\"}, \"operation\": \"APPEND\", \"slot\": \"hobby\", \"source_turns\": [\"t1\"], \"target_fact_id\": null}, {\"alternatives\": [\"우표수집\", \"탁구\"], \"fact\": {\"relation\": \"hobby\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"탁구\"}, \"operation\": \"APPEND\", \"slot\": \"hobby\", \"source_turns\": [\"t2\"], \"target_fact_id\": null}, {\"alternatives\": [\"우표수집\"], \"fact\": {\"relation\": \"hobby\", \"source_turns\": [\"t1\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"우표수집\"}, \"operation\": \"CORRECT\", \"slot\": \"hobby\", \"source_turns\": [\"t1\"], \"target_fact_id\": \"f1\"}, {\"alternatives\": [\"탁구\"], \"fact\": {\"relation\": \"hobby\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"탁구\"}, \"operation\": \"CORRECT\", \"slot\": \"hobby\", \"source_turns\": [\"t2\"], \"target_fact_id\": \"f1\"}], \"reply\": \"요즘 취미는 탁구로 적혀 있어요. 어릴 때 즐긴 것도 별도로 남길까요?\"}",
+    "usage": {
+      "cached_tokens": null,
+      "input_tokens": 2243,
+      "output_tokens": 399,
+      "reasoning_tokens": null,
+      "total_tokens": 2642
+    }
+  },
+  "request_sha256": "065c89b3daebe3a03f62f5ef31d0ad5b4bb3aeb0fb49301ef781e11d995d18b7",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790492432.371872,
+  "status": "OK",
+  "text": "{\"action\": {\"kind\": \"CLARIFY\", \"question_slot\": \"hobby\", \"required_slots\": [\"hobby\"], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"우표수집\", \"탁구\"], \"fact\": {\"relation\": \"hobby\", \"source_turns\": [\"t1\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"우표수집\"}, \"operation\": \"APPEND\", \"slot\": \"hobby\", \"source_turns\": [\"t1\"], \"target_fact_id\": null}, {\"alternatives\": [\"우표수집\", \"탁구\"], \"fact\": {\"relation\": \"hobby\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"탁구\"}, \"operation\": \"APPEND\", \"slot\": \"hobby\", \"source_turns\": [\"t2\"], \"target_fact_id\": null}, {\"alternatives\": [\"우표수집\"], \"fact\": {\"relation\": \"hobby\", \"source_turns\": [\"t1\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"우표수집\"}, \"operation\": \"CORRECT\", \"slot\": \"hobby\", \"source_turns\": [\"t1\"], \"target_fact_id\": \"f1\"}, {\"alternatives\": [\"탁구\"], \"fact\": {\"relation\": \"hobby\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"탁구\"}, \"operation\": \"CORRECT\", \"slot\": \"hobby\", \"source_turns\": [\"t2\"], \"target_fact_id\": \"f1\"}], \"reply\": \"요즘 취미는 탁구로 적혀 있어요. 어릴 때 즐긴 것도 별도로 남길까요?\"}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 2243,
+    "output_tokens": 399,
+    "reasoning_tokens": null,
+    "total_tokens": 2642
+  }
+}

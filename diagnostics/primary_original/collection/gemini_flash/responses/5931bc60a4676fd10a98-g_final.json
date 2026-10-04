@@ -1,0 +1,57 @@
+{
+  "call_id": "5931bc60a4676fd10a98-g_final",
+  "finish_reason": "STOP",
+  "finished_unix": 1790493988.3261719,
+  "http_status": 200,
+  "latency_seconds": 1.1827,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.03461616006616044,
+        "content": {
+          "parts": [
+            {
+              "text": "{\"reply\": \"네, 농장을 시작한 연도를 2003년으로 기록할게요. 또 다른 정보가 있으신가요?\", \"action\": {\"kind\": \"CONTINUE\", \"question_slot\": null, \"required_slots\": [], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [], \"fact\": {\"relation\": \"event_year\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"2003년\"}, \"operation\": \"APPEND\", \"slot\": null, \"source_turns\": [\"t2\"], \"target_fact_id\": null}]}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T07:26:27.221645Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "I8W4as3DDdOH0ckPuLmDuA8",
+    "usageMetadata": {
+      "candidatesTokenCount": 146,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 146
+        }
+      ],
+      "promptTokenCount": 1878,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1878
+        }
+      ],
+      "totalTokenCount": 2024,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "a52663736f84b6025dbd61b6c9ac9c8e3c7c1d6a30988ace59e9816e553700a2",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790493987.143164,
+  "status": "OK",
+  "text": "{\"reply\": \"네, 농장을 시작한 연도를 2003년으로 기록할게요. 또 다른 정보가 있으신가요?\", \"action\": {\"kind\": \"CONTINUE\", \"question_slot\": null, \"required_slots\": [], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [], \"fact\": {\"relation\": \"event_year\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"2003년\"}, \"operation\": \"APPEND\", \"slot\": null, \"source_turns\": [\"t2\"], \"target_fact_id\": null}]}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1878,
+    "output_tokens": 146,
+    "reasoning_tokens": 0,
+    "total_tokens": 2024
+  }
+}

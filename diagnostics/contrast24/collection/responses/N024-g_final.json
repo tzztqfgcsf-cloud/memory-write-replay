@@ -1,0 +1,55 @@
+{
+  "status": "OK",
+  "http_status": 200,
+  "text": "{\"reply\": \"네, 알겠습니다. 고객님께는 계속 전화로 연락드리겠습니다.\", \"action\": {\"kind\": \"CONTINUE\", \"question_slot\": null, \"required_slots\": [], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [], \"fact\": {\"relation\": \"preferred_contact\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"전화\"}, \"operation\": \"CORRECT\", \"slot\": null, \"source_turns\": [\"t2\"], \"target_fact_id\": \"f1\"}]}",
+  "usage": {
+    "input_tokens": 1878,
+    "output_tokens": 135,
+    "reasoning_tokens": 0,
+    "total_tokens": 2013,
+    "cached_tokens": null
+  },
+  "finish_reason": "STOP",
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "content": {
+          "role": "model",
+          "parts": [
+            {
+              "text": "{\"reply\": \"네, 알겠습니다. 고객님께는 계속 전화로 연락드리겠습니다.\", \"action\": {\"kind\": \"CONTINUE\", \"question_slot\": null, \"required_slots\": [], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [], \"fact\": {\"relation\": \"preferred_contact\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"전화\"}, \"operation\": \"CORRECT\", \"slot\": null, \"source_turns\": [\"t2\"], \"target_fact_id\": \"f1\"}]}"
+            }
+          ]
+        },
+        "finishReason": "STOP",
+        "avgLogprobs": -0.009560666260895906
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 1878,
+      "candidatesTokenCount": 135,
+      "totalTokenCount": 2013,
+      "trafficType": "ON_DEMAND",
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1878
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 135
+        }
+      ]
+    },
+    "modelVersion": "gemini-2.5-flash",
+    "createTime": "2026-09-27T11:27:49.697390Z",
+    "responseId": "tf24aq7IKvuj0ckPyLyQmAM"
+  },
+  "latency_seconds": 1.3117,
+  "call_id": "N024-g_final",
+  "physical_attempt": true,
+  "completed_unix": 1790508470.845609
+}

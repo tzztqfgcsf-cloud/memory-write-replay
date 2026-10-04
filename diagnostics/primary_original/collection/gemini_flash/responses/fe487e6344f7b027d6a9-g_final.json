@@ -1,0 +1,57 @@
+{
+  "call_id": "fe487e6344f7b027d6a9-g_final",
+  "finish_reason": "STOP",
+  "finished_unix": 1790490339.7640839,
+  "http_status": 200,
+  "latency_seconds": 1.2432,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.01082688167782649,
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"reply\": \"네, 알겠습니다. 속초 기록은 그대로 두고, 사진을 보시면서 다시 이야기해 주세요.\",\n  \"action\": {\n    \"kind\": \"CONTINUE\",\n    \"question_slot\": null,\n    \"required_slots\": [],\n    \"speaker_id\": \"p1\"\n  },\n  \"memory_decisions\": [\n    {\n      \"alternatives\": [\n        \"삼척\"\n      ],\n      \"fact\": null,\n      \"operation\": \"HOLD\",\n      \"slot\": \"travel_destination\",\n      \"source_turns\": [\n        \"t2\"\n      ],\n      \"target_fact_id\": null\n    }\n  ]\n}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T06:25:38.690938Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "4ra4avqVKvuj0ckPyLyQmAM",
+    "usageMetadata": {
+      "candidatesTokenCount": 163,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 163
+        }
+      ],
+      "promptTokenCount": 1859,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1859
+        }
+      ],
+      "totalTokenCount": 2022,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "b9b08c2e64e508f047d52c32693c765f9d0ff579bd88327179984e0f9b7a8c93",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790490338.520463,
+  "status": "OK",
+  "text": "{\n  \"reply\": \"네, 알겠습니다. 속초 기록은 그대로 두고, 사진을 보시면서 다시 이야기해 주세요.\",\n  \"action\": {\n    \"kind\": \"CONTINUE\",\n    \"question_slot\": null,\n    \"required_slots\": [],\n    \"speaker_id\": \"p1\"\n  },\n  \"memory_decisions\": [\n    {\n      \"alternatives\": [\n        \"삼척\"\n      ],\n      \"fact\": null,\n      \"operation\": \"HOLD\",\n      \"slot\": \"travel_destination\",\n      \"source_turns\": [\n        \"t2\"\n      ],\n      \"target_fact_id\": null\n    }\n  ]\n}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1859,
+    "output_tokens": 163,
+    "reasoning_tokens": 0,
+    "total_tokens": 2022
+  }
+}

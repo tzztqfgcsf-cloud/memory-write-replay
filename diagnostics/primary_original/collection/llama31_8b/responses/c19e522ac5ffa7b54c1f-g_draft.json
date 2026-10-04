@@ -1,0 +1,36 @@
+{
+  "call_id": "c19e522ac5ffa7b54c1f-g_draft",
+  "error_type": null,
+  "finish_reason": "stop",
+  "finished_unix": 1790490407.6809049,
+  "latency_seconds": 9.4146,
+  "model_version": "mlx-community/Llama-3.1-8B-Instruct-4bit",
+  "raw_response": {
+    "base_seed": 20260927,
+    "finish_reason": "stop",
+    "generation_calls": 175,
+    "id": "local-4b73c624ecd281f5a102286b",
+    "seed": 351699915,
+    "snapshot": "<LOCAL_PATH>",
+    "text": "{\"action\": {\"kind\": \"CLARIFY\", \"question_slot\": \"learned_from\", \"required_slots\": [\"learned_from\"], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"장 선생님\", \"강 선생님이\"], \"fact\": {\"relation\": \"learned_from\", \"source_turns\": [\"t1\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"장 선생님\"}, \"operation\": \"HOLD\", \"slot\": \"learned_from\", \"source_turns\": [\"t1\"], \"target_fact_id\": \"f1\"}], \"reply\": \"누구 기억이 맞는지 모르니 선생님 이름은 보류해요.\"}",
+    "usage": {
+      "cached_tokens": null,
+      "input_tokens": 1714,
+      "output_tokens": 153,
+      "reasoning_tokens": null,
+      "total_tokens": 1867
+    }
+  },
+  "request_sha256": "4826dcde04cfd3e60dbae32060193aaf9d11e57d53b72a04345b91d40a5fe3f5",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790490398.265802,
+  "status": "OK",
+  "text": "{\"action\": {\"kind\": \"CLARIFY\", \"question_slot\": \"learned_from\", \"required_slots\": [\"learned_from\"], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"장 선생님\", \"강 선생님이\"], \"fact\": {\"relation\": \"learned_from\", \"source_turns\": [\"t1\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"장 선생님\"}, \"operation\": \"HOLD\", \"slot\": \"learned_from\", \"source_turns\": [\"t1\"], \"target_fact_id\": \"f1\"}], \"reply\": \"누구 기억이 맞는지 모르니 선생님 이름은 보류해요.\"}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1714,
+    "output_tokens": 153,
+    "reasoning_tokens": null,
+    "total_tokens": 1867
+  }
+}

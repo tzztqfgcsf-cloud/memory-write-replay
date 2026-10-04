@@ -1,0 +1,35 @@
+model_alias,repeat_1,repeat_2,repeat_3,label,group
+claude-haiku-4.5,48,48,48,claude-haiku-4.5,Kiro
+claude-opus-4.5,48,48,48,claude-opus-4.5,Kiro
+claude-opus-4.6,48,48,48,claude-opus-4.6,Kiro
+claude-opus-4.7,48,48,48,claude-opus-4.7,Kiro
+claude-opus-4.8,48,48,48,claude-opus-4.8,Kiro
+claude-opus-5,23,0,0,claude-opus-5,Kiro
+claude-opus-5.5,48,48,48,claude-opus-5.5,Kiro
+claude-sonnet-4,48,48,48,claude-sonnet-4,Kiro
+claude-sonnet-4.5,48,48,48,claude-sonnet-4.5,Kiro
+claude-sonnet-4.6,48,48,48,claude-sonnet-4.6,Kiro
+claude-sonnet-5,48,46,0,claude-sonnet-5,Kiro
+deepseek-3.2,48,48,48,deepseek-3.2,Kiro
+exaone4-32b-bf16,48,48,48,exaone4-32b,Modal
+gemini25_flash_lite,48,48,48,Gemini 2.5 Flash-Lite,Gemini
+gemini25_pro,48,48,48,Gemini 2.5 Pro,Gemini
+gemini31_pro_preview,48,48,48,Gemini 3.1 Pro Preview,Gemini
+gemini35_flash_lite,48,48,48,Gemini 3.5 Flash-Lite,Gemini
+gemini38_flash,48,48,48,Gemini 3.8 Flash,Gemini
+gemini3_flash_preview,48,48,48,Gemini 3 Flash Preview,Gemini
+gemini_flash,48,48,48,Gemini 2.5 Flash,Gemini
+glm-5,48,48,48,glm-5,Kiro
+gpt-5.6-luna,48,48,48,gpt-5.6-luna,Kiro
+gpt-5.6-sol,48,48,48,gpt-5.6-sol,Kiro
+gpt-5.6-terra,48,48,48,gpt-5.6-terra,Kiro
+llama31_8b,48,48,48,Llama 3.1 8B,Llama original
+minimax-m2.1,48,3,0,minimax-m2.1,Kiro
+minimax-m2.5,48,40,0,minimax-m2.5,Kiro
+qwen2.5-7b-instruct-bf16-modal,48,48,48,qwen2.5-7b-instruct,Modal
+qwen25-32b-bf16,48,48,48,qwen25-32b,Modal
+qwen3-32b-bf16,48,48,48,qwen3-32b,Modal
+qwen3-4b-instruct-2507-bf16-modal,48,48,48,qwen3-4b-instruct-2507,Modal
+qwen3-8b-bf16-modal,25,0,0,qwen3-8b,Modal
+qwen3-coder-next,48,25,0,qwen3-coder-next,Kiro
+qwen3_14b,48,48,48,Qwen3 14B (native 4-bit),Qwen original

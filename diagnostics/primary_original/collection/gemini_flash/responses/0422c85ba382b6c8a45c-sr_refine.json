@@ -1,0 +1,57 @@
+{
+  "call_id": "0422c85ba382b6c8a45c-sr_refine",
+  "finish_reason": "STOP",
+  "finished_unix": 1790490146.2232802,
+  "http_status": 200,
+  "latency_seconds": 1.068,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.002327135701974233,
+        "content": {
+          "parts": [
+            {
+              "text": "{\"reply\": \"네, 알겠습니다. 취업 연도는 지금 수정하지 않고 나중에 다시 확인해볼게요. 다른 궁금한 점 있으신가요?\", \"action\": {\"kind\": \"CONTINUE\", \"question_slot\": null, \"required_slots\": [], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"1978년\"], \"fact\": null, \"operation\": \"HOLD\", \"slot\": \"event_year\", \"source_turns\": [\"t2\"], \"target_fact_id\": null}]}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T06:22:25.260790Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "Iba4arb1D_CVktwP37SV-Ag",
+    "usageMetadata": {
+      "candidatesTokenCount": 120,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 120
+        }
+      ],
+      "promptTokenCount": 1976,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1976
+        }
+      ],
+      "totalTokenCount": 2096,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "6379257775cd3466cab2ff45c281a6dcb19b4745efdda9dd7b3c9b803f081336",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790490145.15488,
+  "status": "OK",
+  "text": "{\"reply\": \"네, 알겠습니다. 취업 연도는 지금 수정하지 않고 나중에 다시 확인해볼게요. 다른 궁금한 점 있으신가요?\", \"action\": {\"kind\": \"CONTINUE\", \"question_slot\": null, \"required_slots\": [], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"1978년\"], \"fact\": null, \"operation\": \"HOLD\", \"slot\": \"event_year\", \"source_turns\": [\"t2\"], \"target_fact_id\": null}]}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1976,
+    "output_tokens": 120,
+    "reasoning_tokens": 0,
+    "total_tokens": 2096
+  }
+}

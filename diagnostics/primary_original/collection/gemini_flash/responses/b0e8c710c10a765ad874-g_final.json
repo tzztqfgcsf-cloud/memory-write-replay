@@ -1,0 +1,57 @@
+{
+  "call_id": "b0e8c710c10a765ad874-g_final",
+  "finish_reason": "STOP",
+  "finished_unix": 1790492845.040365,
+  "http_status": 200,
+  "latency_seconds": 1.5417,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.0064904320240020755,
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"reply\": \"네, 솔빛양조장을 직장으로 기록해 드릴게요.\",\n  \"action\": {\n    \"kind\": \"CONTINUE\",\n    \"question_slot\": null,\n    \"required_slots\": [],\n    \"speaker_id\": \"p1\"\n  },\n  \"memory_decisions\": [\n    {\n      \"alternatives\": [],\n      \"fact\": {\n        \"relation\": \"workplace\",\n        \"source_turns\": [\n          \"t2\"\n        ],\n        \"subject\": \"participant\",\n        \"time\": \"present\",\n        \"value\": \"솔빛양조장\"\n      },\n      \"operation\": \"APPEND\",\n      \"slot\": null,\n      \"source_turns\": [\n        \"t2\"\n      ],\n      \"target_fact_id\": null\n    }\n  ]\n}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T07:07:23.608576Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "q8C4asCSJZ-cx9gPtNDSwA0",
+    "usageMetadata": {
+      "candidatesTokenCount": 200,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 200
+        }
+      ],
+      "promptTokenCount": 1871,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1871
+        }
+      ],
+      "totalTokenCount": 2071,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "909c38d982b34da8ec643ec8511cfc0e8d7e6f099e12b24c18c1d531cb6f00ba",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790492843.497809,
+  "status": "OK",
+  "text": "{\n  \"reply\": \"네, 솔빛양조장을 직장으로 기록해 드릴게요.\",\n  \"action\": {\n    \"kind\": \"CONTINUE\",\n    \"question_slot\": null,\n    \"required_slots\": [],\n    \"speaker_id\": \"p1\"\n  },\n  \"memory_decisions\": [\n    {\n      \"alternatives\": [],\n      \"fact\": {\n        \"relation\": \"workplace\",\n        \"source_turns\": [\n          \"t2\"\n        ],\n        \"subject\": \"participant\",\n        \"time\": \"present\",\n        \"value\": \"솔빛양조장\"\n      },\n      \"operation\": \"APPEND\",\n      \"slot\": null,\n      \"source_turns\": [\n        \"t2\"\n      ],\n      \"target_fact_id\": null\n    }\n  ]\n}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1871,
+    "output_tokens": 200,
+    "reasoning_tokens": 0,
+    "total_tokens": 2071
+  }
+}

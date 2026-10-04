@@ -1,0 +1,57 @@
+{
+  "call_id": "73da2ea05c30955b3e52-g_final",
+  "finish_reason": "STOP",
+  "finished_unix": 1790494332.197973,
+  "http_status": 200,
+  "latency_seconds": 1.6022,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.004536079611755224,
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"reply\": \"네, 제주도에 다녀오셨군요. 기록하지 않고 이야기 들어드릴게요. 제주도에서 어떤 경험을 하셨나요?\",\n  \"action\": {\n    \"kind\": \"CONTINUE\",\n    \"question_slot\": null,\n    \"required_slots\": [],\n    \"speaker_id\": \"p1\"\n  },\n  \"memory_decisions\": [\n    {\n      \"alternatives\": [\n        \"이번에 제주도에 다녀왔어요. 여행지 저장하지 말고 그냥 들어 줘요.\",\n        \"제주도 다녀온 얘기예요. 어디 갔는지는 기록하지 말고 들어만 주세요.\"\n      ],\n      \"fact\": null,\n      \"operation\": \"NO_WRITE\",\n      \"slot\": \"travel_destination\",\n      \"source_turns\": [\"t2\"],\n      \"target_fact_id\": null\n    }\n  ]\n}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T07:32:10.707846Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "esa4aoaaK5-cx9gPtNDSwA0",
+    "usageMetadata": {
+      "candidatesTokenCount": 207,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 207
+        }
+      ],
+      "promptTokenCount": 1900,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1900
+        }
+      ],
+      "totalTokenCount": 2107,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "f32f5adf483aca291b874f0ffc661a6941be5d2bd864ed16c9a11ddc9043fa49",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790494330.594802,
+  "status": "OK",
+  "text": "{\n  \"reply\": \"네, 제주도에 다녀오셨군요. 기록하지 않고 이야기 들어드릴게요. 제주도에서 어떤 경험을 하셨나요?\",\n  \"action\": {\n    \"kind\": \"CONTINUE\",\n    \"question_slot\": null,\n    \"required_slots\": [],\n    \"speaker_id\": \"p1\"\n  },\n  \"memory_decisions\": [\n    {\n      \"alternatives\": [\n        \"이번에 제주도에 다녀왔어요. 여행지 저장하지 말고 그냥 들어 줘요.\",\n        \"제주도 다녀온 얘기예요. 어디 갔는지는 기록하지 말고 들어만 주세요.\"\n      ],\n      \"fact\": null,\n      \"operation\": \"NO_WRITE\",\n      \"slot\": \"travel_destination\",\n      \"source_turns\": [\"t2\"],\n      \"target_fact_id\": null\n    }\n  ]\n}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1900,
+    "output_tokens": 207,
+    "reasoning_tokens": 0,
+    "total_tokens": 2107
+  }
+}

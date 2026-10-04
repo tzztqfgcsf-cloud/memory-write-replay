@@ -1,0 +1,36 @@
+{
+  "call_id": "34d8b10e0379c67151c5-candidate_extract",
+  "error_type": null,
+  "finish_reason": "stop",
+  "finished_unix": 1790490037.018951,
+  "latency_seconds": 9.6677,
+  "model_version": "mlx-community/Llama-3.1-8B-Instruct-4bit",
+  "raw_response": {
+    "base_seed": 20260927,
+    "finish_reason": "stop",
+    "generation_calls": 141,
+    "id": "local-44aa5e8676f80c0de6ed8235",
+    "seed": 1137354475,
+    "snapshot": "<LOCAL_PATH>",
+    "text": "{\"beliefs\": [{\"candidate_id\": \"c1\", \"facts\": [{\"relation\": \"hobby\", \"source_turns\": [\"t1\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"수채화\"}]}], \"correction_witnesses\": [{\"candidate_id\": \"c1\", \"evidence_quote\": \"유화가 아니라 수채화라고 했어요. 적힌 취미는 맞으니까 바꿀 필요 없어요.\", \"new_value\": \"수채화\", \"polarity\": \"affirmed\", \"relation\": \"hobby\", \"source_turn\": \"t2\", \"subject\": \"participant\", \"target_fact_id\": \"f1\", \"time\": \"present\"}]}",
+    "usage": {
+      "cached_tokens": null,
+      "input_tokens": 1748,
+      "output_tokens": 156,
+      "reasoning_tokens": null,
+      "total_tokens": 1904
+    }
+  },
+  "request_sha256": "85c2baaabe646165805b0fd0a36fa04be9f850e0f6b25a2e36449b23d7d7d468",
+  "stage_schema_sha256": "bda7326ac6a6cbeedf1ecdbf4a2b08277c078351d6689f667dc0d558c4972dd3",
+  "started_unix": 1790490027.3507159,
+  "status": "OK",
+  "text": "{\"beliefs\": [{\"candidate_id\": \"c1\", \"facts\": [{\"relation\": \"hobby\", \"source_turns\": [\"t1\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"수채화\"}]}], \"correction_witnesses\": [{\"candidate_id\": \"c1\", \"evidence_quote\": \"유화가 아니라 수채화라고 했어요. 적힌 취미는 맞으니까 바꿀 필요 없어요.\", \"new_value\": \"수채화\", \"polarity\": \"affirmed\", \"relation\": \"hobby\", \"source_turn\": \"t2\", \"subject\": \"participant\", \"target_fact_id\": \"f1\", \"time\": \"present\"}]}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1748,
+    "output_tokens": 156,
+    "reasoning_tokens": null,
+    "total_tokens": 1904
+  }
+}

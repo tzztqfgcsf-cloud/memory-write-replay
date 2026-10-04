@@ -1,0 +1,36 @@
+{
+  "call_id": "9dfb6362d2a8a8936914-sr_refine",
+  "error_type": null,
+  "finish_reason": "stop",
+  "finished_unix": 1790493513.1053681,
+  "latency_seconds": 10.9963,
+  "model_version": "mlx-community/Llama-3.1-8B-Instruct-4bit",
+  "raw_response": {
+    "base_seed": 20260927,
+    "finish_reason": "stop",
+    "generation_calls": 450,
+    "id": "local-4b52e5c35bbe0e4b4ea5ab6b",
+    "seed": 2272660991,
+    "snapshot": "<LOCAL_PATH>",
+    "text": "{\"action\": {\"kind\": \"CONTINUE\", \"question_slot\": \"workplace\", \"required_slots\": [\"workplace\"], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"솔빛양조장\"], \"fact\": {\"relation\": \"workplace\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"솔빛양조장\"}, \"operation\": \"APPEND\", \"slot\": \"workplace\", \"source_turns\": [\"t2\"], \"target_fact_id\": null}], \"reply\": \"솔빛양조장입니다.\"}",
+    "usage": {
+      "cached_tokens": null,
+      "input_tokens": 2020,
+      "output_tokens": 134,
+      "reasoning_tokens": null,
+      "total_tokens": 2154
+    }
+  },
+  "request_sha256": "b7753e592176b69e208801bb17f6f47887d1429d1ddf60396e075c131209f7dc",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790493502.1086998,
+  "status": "OK",
+  "text": "{\"action\": {\"kind\": \"CONTINUE\", \"question_slot\": \"workplace\", \"required_slots\": [\"workplace\"], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"솔빛양조장\"], \"fact\": {\"relation\": \"workplace\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"솔빛양조장\"}, \"operation\": \"APPEND\", \"slot\": \"workplace\", \"source_turns\": [\"t2\"], \"target_fact_id\": null}], \"reply\": \"솔빛양조장입니다.\"}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 2020,
+    "output_tokens": 134,
+    "reasoning_tokens": null,
+    "total_tokens": 2154
+  }
+}

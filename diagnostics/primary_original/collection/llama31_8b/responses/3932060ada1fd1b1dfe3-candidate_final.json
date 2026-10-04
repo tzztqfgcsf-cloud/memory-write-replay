@@ -1,0 +1,36 @@
+{
+  "call_id": "3932060ada1fd1b1dfe3-candidate_final",
+  "error_type": null,
+  "finish_reason": "stop",
+  "finished_unix": 1790496813.433311,
+  "latency_seconds": 11.1418,
+  "model_version": "mlx-community/Llama-3.1-8B-Instruct-4bit",
+  "raw_response": {
+    "base_seed": 20260927,
+    "finish_reason": "stop",
+    "generation_calls": 760,
+    "id": "local-017f860f2ca77b58404ca65c",
+    "seed": 4121929201,
+    "snapshot": "<LOCAL_PATH>",
+    "text": "{\"action\": {\"kind\": \"CLARIFY\", \"question_slot\": \"meeting_place\", \"required_slots\": [\"meeting_place\"], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"해오름회관\", \"누리문화원\"], \"fact\": {\"relation\": \"meeting_place\", \"source_turns\": [\"t1\", \"t2\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"해오름회관\"}, \"operation\": \"HOLD\", \"slot\": \"meeting_place\", \"source_turns\": [\"t1\", \"t2\"], \"target_fact_id\": \"f2\"}], \"reply\": \"취미 민요와 모임 장소 해오름회관이 저장돼 있어요. 근황에 맞게 고칠 부분은요?\"}",
+    "usage": {
+      "cached_tokens": null,
+      "input_tokens": 2190,
+      "output_tokens": 177,
+      "reasoning_tokens": null,
+      "total_tokens": 2367
+    }
+  },
+  "request_sha256": "d774aef5060a4efad12a0625f41ead5e24bdbc245376d5f48df7da0f01c9177f",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790496802.2913358,
+  "status": "OK",
+  "text": "{\"action\": {\"kind\": \"CLARIFY\", \"question_slot\": \"meeting_place\", \"required_slots\": [\"meeting_place\"], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"해오름회관\", \"누리문화원\"], \"fact\": {\"relation\": \"meeting_place\", \"source_turns\": [\"t1\", \"t2\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"해오름회관\"}, \"operation\": \"HOLD\", \"slot\": \"meeting_place\", \"source_turns\": [\"t1\", \"t2\"], \"target_fact_id\": \"f2\"}], \"reply\": \"취미 민요와 모임 장소 해오름회관이 저장돼 있어요. 근황에 맞게 고칠 부분은요?\"}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 2190,
+    "output_tokens": 177,
+    "reasoning_tokens": null,
+    "total_tokens": 2367
+  }
+}

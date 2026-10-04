@@ -1,0 +1,36 @@
+{
+  "call_id": "34eaed28f9cace8f5f61-g_final",
+  "error_type": null,
+  "finish_reason": "stop",
+  "finished_unix": 1790492348.1206558,
+  "latency_seconds": 10.2738,
+  "model_version": "mlx-community/Llama-3.1-8B-Instruct-4bit",
+  "raw_response": {
+    "base_seed": 20260927,
+    "finish_reason": "stop",
+    "generation_calls": 344,
+    "id": "local-3fea56e5c8495c90caede6db",
+    "seed": 1831934695,
+    "snapshot": "<LOCAL_PATH>",
+    "text": "{\"action\": {\"kind\": \"CONTINUE\", \"question_slot\": null, \"required_slots\": [], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"우표수집\"], \"fact\": {\"relation\": \"hobby\", \"source_turns\": [\"t1\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"우표수집\"}, \"operation\": \"HOLD\", \"slot\": \"hobby\", \"source_turns\": [\"t1\"], \"target_fact_id\": null}], \"reply\": \"그렇군요. 어릴 땐 우표수집을 했지요. 지금 탁구는 그대로고 어릴 때 취미로 우표수집을 추가해요.\"}",
+    "usage": {
+      "cached_tokens": null,
+      "input_tokens": 1936,
+      "output_tokens": 158,
+      "reasoning_tokens": null,
+      "total_tokens": 2094
+    }
+  },
+  "request_sha256": "67a848a624ec5b8f206a35916fbc87424ee124f7c659c595c60130d09c263d84",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790492337.846378,
+  "status": "OK",
+  "text": "{\"action\": {\"kind\": \"CONTINUE\", \"question_slot\": null, \"required_slots\": [], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"우표수집\"], \"fact\": {\"relation\": \"hobby\", \"source_turns\": [\"t1\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"우표수집\"}, \"operation\": \"HOLD\", \"slot\": \"hobby\", \"source_turns\": [\"t1\"], \"target_fact_id\": null}], \"reply\": \"그렇군요. 어릴 땐 우표수집을 했지요. 지금 탁구는 그대로고 어릴 때 취미로 우표수집을 추가해요.\"}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1936,
+    "output_tokens": 158,
+    "reasoning_tokens": null,
+    "total_tokens": 2094
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "call_id": "0f69b302fdce0d849863-candidate_extract",
+  "finish_reason": "STOP",
+  "finished_unix": 1790489259.1803699,
+  "http_status": 200,
+  "latency_seconds": 1.7559,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.004754361572799149,
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"beliefs\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"facts\": []\n    },\n    {\n      \"candidate_id\": \"c2\",\n      \"facts\": []\n    }\n  ],\n  \"correction_witnesses\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"evidence_quote\": \"시민회관이고 기록도 그대로요\",\n      \"new_value\": \"시민회관\",\n      \"polarity\": \"affirmed\",\n      \"relation\": \"meeting_place\",\n      \"source_turn\": \"t2\",\n      \"subject\": \"participant\",\n      \"target_fact_id\": \"f1\",\n      \"time\": \"present\"\n    },\n    {\n      \"candidate_id\": \"c2\",\n      \"evidence_quote\": \"시민회관에서 계속 모이는 게 맞아요\",\n      \"new_value\": \"시민회관\",\n      \"polarity\": \"affirmed\",\n      \"relation\": \"meeting_place\",\n      \"source_turn\": \"t2\",\n      \"subject\": \"participant\",\n      \"target_fact_id\": \"f1\",\n      \"time\": \"present\"\n    }\n  ]\n}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T06:07:37.598156Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "qbK4aozBJOmMx9gP69GymAQ",
+    "usageMetadata": {
+      "candidatesTokenCount": 286,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 286
+        }
+      ],
+      "promptTokenCount": 1696,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1696
+        }
+      ],
+      "totalTokenCount": 1982,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "ec92f983607abe8c674f5f8811d7769aef275c67e2f4f875135a696875d638b5",
+  "stage_schema_sha256": "bda7326ac6a6cbeedf1ecdbf4a2b08277c078351d6689f667dc0d558c4972dd3",
+  "started_unix": 1790489257.42412,
+  "status": "OK",
+  "text": "{\n  \"beliefs\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"facts\": []\n    },\n    {\n      \"candidate_id\": \"c2\",\n      \"facts\": []\n    }\n  ],\n  \"correction_witnesses\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"evidence_quote\": \"시민회관이고 기록도 그대로요\",\n      \"new_value\": \"시민회관\",\n      \"polarity\": \"affirmed\",\n      \"relation\": \"meeting_place\",\n      \"source_turn\": \"t2\",\n      \"subject\": \"participant\",\n      \"target_fact_id\": \"f1\",\n      \"time\": \"present\"\n    },\n    {\n      \"candidate_id\": \"c2\",\n      \"evidence_quote\": \"시민회관에서 계속 모이는 게 맞아요\",\n      \"new_value\": \"시민회관\",\n      \"polarity\": \"affirmed\",\n      \"relation\": \"meeting_place\",\n      \"source_turn\": \"t2\",\n      \"subject\": \"participant\",\n      \"target_fact_id\": \"f1\",\n      \"time\": \"present\"\n    }\n  ]\n}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1696,
+    "output_tokens": 286,
+    "reasoning_tokens": 0,
+    "total_tokens": 1982
+  }
+}

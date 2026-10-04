@@ -1,0 +1,36 @@
+{
+  "call_id": "96bb744247e32b3cef3e-candidate_extract",
+  "error_type": null,
+  "finish_reason": "stop",
+  "finished_unix": 1790493300.603071,
+  "latency_seconds": 7.0585,
+  "model_version": "mlx-community/Llama-3.1-8B-Instruct-4bit",
+  "raw_response": {
+    "base_seed": 20260927,
+    "finish_reason": "stop",
+    "generation_calls": 429,
+    "id": "local-ce5eb1ccb1870895d89ca184",
+    "seed": 3371208648,
+    "snapshot": "<LOCAL_PATH>",
+    "text": "{\"beliefs\": [{\"candidate_id\": \"c1\", \"facts\": [{\"relation\": \"preferred_contact\", \"source_turns\": [\"t1\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"문자\"}]}], \"correction_witnesses\": []}",
+    "usage": {
+      "cached_tokens": null,
+      "input_tokens": 1766,
+      "output_tokens": 62,
+      "reasoning_tokens": null,
+      "total_tokens": 1828
+    }
+  },
+  "request_sha256": "fdb32428067d559d1c8604fc2710402cdb4523c536803a7a8540ee15e8a791ab",
+  "stage_schema_sha256": "bda7326ac6a6cbeedf1ecdbf4a2b08277c078351d6689f667dc0d558c4972dd3",
+  "started_unix": 1790493293.5443609,
+  "status": "OK",
+  "text": "{\"beliefs\": [{\"candidate_id\": \"c1\", \"facts\": [{\"relation\": \"preferred_contact\", \"source_turns\": [\"t1\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"문자\"}]}], \"correction_witnesses\": []}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1766,
+    "output_tokens": 62,
+    "reasoning_tokens": null,
+    "total_tokens": 1828
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "call_id": "b8d03ed1fa146267d536-g_draft",
+  "error_type": null,
+  "finish_reason": "stop",
+  "finished_unix": 1790490739.6671412,
+  "latency_seconds": 9.982,
+  "model_version": "mlx-community/Llama-3.1-8B-Instruct-4bit",
+  "raw_response": {
+    "base_seed": 20260927,
+    "finish_reason": "stop",
+    "generation_calls": 205,
+    "id": "local-d17a020e94a67d136a78cc9e",
+    "seed": 3254162755,
+    "snapshot": "<LOCAL_PATH>",
+    "text": "{\"action\": {\"kind\": \"CONTINUE\", \"question_slot\": \"shop_name\", \"required_slots\": [\"shop_name\"], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"다솜꽃집\", \"다온꽃집\"], \"fact\": {\"relation\": \"shop_name\", \"source_turns\": [\"t1\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"다솜꽃집\"}, \"operation\": \"HOLD\", \"slot\": \"shop_name\", \"source_turns\": [\"t1\"], \"target_fact_id\": null}], \"reply\": \"다솜꽃집이었던 것 같아요. 간판 사진을 보니 다온꽃집이라고 적혀있었어요. 이름을 바꾸지 말아요.\"}",
+    "usage": {
+      "cached_tokens": null,
+      "input_tokens": 1725,
+      "output_tokens": 174,
+      "reasoning_tokens": null,
+      "total_tokens": 1899
+    }
+  },
+  "request_sha256": "d460c5849d5389fef66cda6ea9efb0f369d95128d4b534773c8e56ccc20dc90a",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790490729.6846201,
+  "status": "OK",
+  "text": "{\"action\": {\"kind\": \"CONTINUE\", \"question_slot\": \"shop_name\", \"required_slots\": [\"shop_name\"], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"다솜꽃집\", \"다온꽃집\"], \"fact\": {\"relation\": \"shop_name\", \"source_turns\": [\"t1\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"다솜꽃집\"}, \"operation\": \"HOLD\", \"slot\": \"shop_name\", \"source_turns\": [\"t1\"], \"target_fact_id\": null}], \"reply\": \"다솜꽃집이었던 것 같아요. 간판 사진을 보니 다온꽃집이라고 적혀있었어요. 이름을 바꾸지 말아요.\"}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1725,
+    "output_tokens": 174,
+    "reasoning_tokens": null,
+    "total_tokens": 1899
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "status": "OK",
+  "http_status": 200,
+  "text": "{\n  \"decisions\": [\n    {\n      \"index\": 0,\n      \"approve\": true,\n      \"reason\": \"사용자가 과거에 중앙인쇄소에서 일했다고 명시적으로 밝혔으므로 과거 직장으로 추가하는 것이 타당합니다.\"\n    }\n  ]\n}",
+  "usage": {
+    "input_tokens": 694,
+    "output_tokens": 68,
+    "reasoning_tokens": 184,
+    "total_tokens": 946,
+    "cached_tokens": null
+  },
+  "finish_reason": "STOP",
+  "model_version": "gemini-3.1-pro-preview",
+  "id": "qwen3_14b_CT17_judge",
+  "key": "qwen3_14b_CT17",
+  "stage": "judge",
+  "arm": "judge",
+  "requested_model": "gemini-3.1-pro-preview",
+  "latency_seconds": 29.604454666841775
+}

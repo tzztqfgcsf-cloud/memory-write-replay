@@ -1,0 +1,36 @@
+{
+  "call_id": "5dda5b60373c82883ff3-sr_feedback",
+  "error_type": null,
+  "finish_reason": "stop",
+  "finished_unix": 1790492101.31164,
+  "latency_seconds": 6.2492,
+  "model_version": "mlx-community/Llama-3.1-8B-Instruct-4bit",
+  "raw_response": {
+    "base_seed": 20260927,
+    "finish_reason": "stop",
+    "generation_calls": 323,
+    "id": "local-eb3b06eaeaf3989e337319c7",
+    "seed": 2423479699,
+    "snapshot": "<LOCAL_PATH>",
+    "text": "{\"issues\": [{\"draft_location\": \"memory_decisions[0].fact.relation\", \"evidence_location\": \"db_snapshot.facts[0].relation\", \"problem\": \"relation value mismatch\", \"specific_revision\": \"change to 'preferred_contact' from 'preferred_contact'\"}], \"no_change_needed\": false}",
+    "usage": {
+      "cached_tokens": null,
+      "input_tokens": 1473,
+      "output_tokens": 67,
+      "reasoning_tokens": null,
+      "total_tokens": 1540
+    }
+  },
+  "request_sha256": "57a72fd1bdde1cfce91a8cc9b5b191152ee1fc791e3f8d98922880e82f7c3ff5",
+  "stage_schema_sha256": "377e252cf02129ba34bbc867118dd2b9c6b65042b3fcd7b44099d2fc6e0513ed",
+  "started_unix": 1790492095.062229,
+  "status": "OK",
+  "text": "{\"issues\": [{\"draft_location\": \"memory_decisions[0].fact.relation\", \"evidence_location\": \"db_snapshot.facts[0].relation\", \"problem\": \"relation value mismatch\", \"specific_revision\": \"change to 'preferred_contact' from 'preferred_contact'\"}], \"no_change_needed\": false}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1473,
+    "output_tokens": 67,
+    "reasoning_tokens": null,
+    "total_tokens": 1540
+  }
+}

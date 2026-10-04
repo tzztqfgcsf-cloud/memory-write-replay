@@ -1,0 +1,36 @@
+{
+  "call_id": "34d8b10e0379c67151c5-candidate_final",
+  "error_type": null,
+  "finish_reason": "stop",
+  "finished_unix": 1790490046.853632,
+  "latency_seconds": 9.831,
+  "model_version": "mlx-community/Llama-3.1-8B-Instruct-4bit",
+  "raw_response": {
+    "base_seed": 20260927,
+    "finish_reason": "stop",
+    "generation_calls": 142,
+    "id": "local-2e6e974d34615ae0b6d7be13",
+    "seed": 2498389903,
+    "snapshot": "<LOCAL_PATH>",
+    "text": "{\"action\": {\"kind\": \"CLARIFY\", \"question_slot\": \"hobby\", \"required_slots\": [\"hobby\"], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"수채화\", \"유화\"], \"fact\": {\"relation\": \"hobby\", \"source_turns\": [\"t1\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"수채화\"}, \"operation\": \"HOLD\", \"slot\": \"hobby\", \"source_turns\": [\"t1\"], \"target_fact_id\": null}], \"reply\": \"수채화가 맞고 유화는 아닙니다. 이미 맞게 적었으니 그냥 둡니다.\"}",
+    "usage": {
+      "cached_tokens": null,
+      "input_tokens": 1826,
+      "output_tokens": 152,
+      "reasoning_tokens": null,
+      "total_tokens": 1978
+    }
+  },
+  "request_sha256": "408fcbe722200f28b4cee98476aac2e3bb0549e0f7f6c178ab0bd2768dc8810c",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790490037.0222678,
+  "status": "OK",
+  "text": "{\"action\": {\"kind\": \"CLARIFY\", \"question_slot\": \"hobby\", \"required_slots\": [\"hobby\"], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"수채화\", \"유화\"], \"fact\": {\"relation\": \"hobby\", \"source_turns\": [\"t1\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"수채화\"}, \"operation\": \"HOLD\", \"slot\": \"hobby\", \"source_turns\": [\"t1\"], \"target_fact_id\": null}], \"reply\": \"수채화가 맞고 유화는 아닙니다. 이미 맞게 적었으니 그냥 둡니다.\"}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1826,
+    "output_tokens": 152,
+    "reasoning_tokens": null,
+    "total_tokens": 1978
+  }
+}

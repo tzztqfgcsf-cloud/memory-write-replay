@@ -1,0 +1,57 @@
+{
+  "call_id": "0422c85ba382b6c8a45c-g_final",
+  "finish_reason": "STOP",
+  "finished_unix": 1790490106.5312629,
+  "http_status": 200,
+  "latency_seconds": 1.3449,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.011479229077525523,
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"reply\": \"네, 알겠습니다. 취업 연도는 지금 수정하지 않고 나중에 다시 확인해볼게요. 다른 궁금한 점 있으신가요?\",\n  \"action\": {\n    \"kind\": \"CONTINUE\",\n    \"question_slot\": null,\n    \"required_slots\": [],\n    \"speaker_id\": \"p1\"\n  },\n  \"memory_decisions\": [\n    {\n      \"alternatives\": [\n        \"1978년\"\n      ],\n      \"fact\": null,\n      \"operation\": \"HOLD\",\n      \"slot\": \"event_year\",\n      \"source_turns\": [\n        \"t2\"\n      ],\n      \"target_fact_id\": null\n    }\n  ]\n}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T06:21:45.361989Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "-bW4aoWMFvCVktwP37SV-Ag",
+    "usageMetadata": {
+      "candidatesTokenCount": 174,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 174
+        }
+      ],
+      "promptTokenCount": 1880,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1880
+        }
+      ],
+      "totalTokenCount": 2054,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "f28e00e0f8b8fd2f01526dc9ae94abff890fefed7a3c2705effc43c09d145fd1",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790490105.185904,
+  "status": "OK",
+  "text": "{\n  \"reply\": \"네, 알겠습니다. 취업 연도는 지금 수정하지 않고 나중에 다시 확인해볼게요. 다른 궁금한 점 있으신가요?\",\n  \"action\": {\n    \"kind\": \"CONTINUE\",\n    \"question_slot\": null,\n    \"required_slots\": [],\n    \"speaker_id\": \"p1\"\n  },\n  \"memory_decisions\": [\n    {\n      \"alternatives\": [\n        \"1978년\"\n      ],\n      \"fact\": null,\n      \"operation\": \"HOLD\",\n      \"slot\": \"event_year\",\n      \"source_turns\": [\n        \"t2\"\n      ],\n      \"target_fact_id\": null\n    }\n  ]\n}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1880,
+    "output_tokens": 174,
+    "reasoning_tokens": 0,
+    "total_tokens": 2054
+  }
+}

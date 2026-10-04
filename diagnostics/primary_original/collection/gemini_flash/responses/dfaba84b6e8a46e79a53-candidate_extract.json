@@ -1,0 +1,57 @@
+{
+  "call_id": "dfaba84b6e8a46e79a53-candidate_extract",
+  "finish_reason": "STOP",
+  "finished_unix": 1790491398.29151,
+  "http_status": 200,
+  "latency_seconds": 1.7506,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.0038256589540711637,
+        "content": {
+          "parts": [
+            {
+              "text": "{\"beliefs\": [{\"candidate_id\": \"c1\", \"facts\": [{\"relation\": \"workplace\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"중앙인쇄소\"}]}, {\"candidate_id\": \"c2\", \"facts\": [{\"relation\": \"workplace\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"중앙인쇄소\"}]}], \"correction_witnesses\": [{\"candidate_id\": \"c1\", \"evidence_quote\": \"\", \"new_value\": \"호수식당\", \"polarity\": \"absent\", \"relation\": \"workplace\", \"source_turn\": \"t2\", \"subject\": \"participant\", \"target_fact_id\": \"f1\", \"time\": \"present\"}, {\"candidate_id\": \"c2\", \"evidence_quote\": \"\", \"new_value\": \"호수식당\", \"polarity\": \"absent\", \"relation\": \"workplace\", \"source_turn\": \"t2\", \"subject\": \"participant\", \"target_fact_id\": \"f1\", \"time\": \"present\"}]}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T06:43:16.702561Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "BLu4auHwKumMx9gP69GymAQ",
+    "usageMetadata": {
+      "candidatesTokenCount": 257,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 257
+        }
+      ],
+      "promptTokenCount": 1696,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1696
+        }
+      ],
+      "totalTokenCount": 1953,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "4e190b6404753080a8f4d9bb3c261a6c1c8168e8c6fe7e368984427b2c3f78a2",
+  "stage_schema_sha256": "bda7326ac6a6cbeedf1ecdbf4a2b08277c078351d6689f667dc0d558c4972dd3",
+  "started_unix": 1790491396.5405598,
+  "status": "OK",
+  "text": "{\"beliefs\": [{\"candidate_id\": \"c1\", \"facts\": [{\"relation\": \"workplace\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"중앙인쇄소\"}]}, {\"candidate_id\": \"c2\", \"facts\": [{\"relation\": \"workplace\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"중앙인쇄소\"}]}], \"correction_witnesses\": [{\"candidate_id\": \"c1\", \"evidence_quote\": \"\", \"new_value\": \"호수식당\", \"polarity\": \"absent\", \"relation\": \"workplace\", \"source_turn\": \"t2\", \"subject\": \"participant\", \"target_fact_id\": \"f1\", \"time\": \"present\"}, {\"candidate_id\": \"c2\", \"evidence_quote\": \"\", \"new_value\": \"호수식당\", \"polarity\": \"absent\", \"relation\": \"workplace\", \"source_turn\": \"t2\", \"subject\": \"participant\", \"target_fact_id\": \"f1\", \"time\": \"present\"}]}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1696,
+    "output_tokens": 257,
+    "reasoning_tokens": 0,
+    "total_tokens": 1953
+  }
+}

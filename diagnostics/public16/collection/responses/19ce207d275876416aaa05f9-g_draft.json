@@ -1,0 +1,56 @@
+{
+  "call_id": "19ce207d275876416aaa05f9-g_draft",
+  "cost_note": "provider_did_not_report_money",
+  "cost_usd_reported": null,
+  "finish_reason": "STOP",
+  "http_status": 200,
+  "latency_seconds": 2.0239,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.027127742767333984,
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"reply\": \"Okay, I've updated that. You're looking for a hotel in the center of town with parking, wifi, and a 0-star rating. Is there a price range you prefer?\",\n  \"action\": {\n    \"kind\": \"CONTINUE\",\n    \"question_slot\": null,\n    \"required_slots\": [],\n    \"speaker_id\": \"system\"\n  },\n  \"memory_decisions\": [\n    {\n      \"alternatives\": [\n        \"center\"\n      ],\n      \"fact\": {\n        \"relation\": \"hotel.semi.area\",\n        \"source_turns\": [\n          \"PMUL4852.json#turn4\"\n        ],\n        \"subject\": \"PMUL4852.json#hotel.semi\",\n        \"time\": \"unknown\",\n        \"value\": \"centre\"\n      },\n      \"operation\": \"CORRECT\",\n      \"slot\": \"hotel.semi.area\",\n      \"source_turns\": [\n        \"PMUL4852.json#turn4\"\n      ],\n      \"target_fact_id\": \"PMUL4852.json#state3#hotel.semi.area\"\n    },\n    {\n      \"alternatives\": [],\n      \"fact\": {\n        \"relation\": \"hotel.semi.internet\",\n        \"source_turns\": [\n          \"PMUL4852.json#turn4\"\n        ],\n        \"subject\": \"PMUL4852.json#hotel.semi\",\n        \"time\": \"unknown\",\n        \"value\": \"yes\"\n      },\n      \"operation\": \"APPEND\",\n      \"slot\": \"hotel.semi.internet\",\n      \"source_turns\": [\n        \"PMUL4852.json#turn4\"\n      ],\n      \"target_fact_id\": null\n    }\n  ]\n}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T23:16:39.654453Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "16O5avX4J8OAncoPsbLi2Qc",
+    "usageMetadata": {
+      "candidatesTokenCount": 436,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 436
+        }
+      ],
+      "promptTokenCount": 1709,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1709
+        }
+      ],
+      "totalTokenCount": 2145,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "76888cc57951229fc117c6fb49a20084ba80b02215f9ae4c485b4677524c7ddb",
+  "status": "OK",
+  "text": "{\n  \"reply\": \"Okay, I've updated that. You're looking for a hotel in the center of town with parking, wifi, and a 0-star rating. Is there a price range you prefer?\",\n  \"action\": {\n    \"kind\": \"CONTINUE\",\n    \"question_slot\": null,\n    \"required_slots\": [],\n    \"speaker_id\": \"system\"\n  },\n  \"memory_decisions\": [\n    {\n      \"alternatives\": [\n        \"center\"\n      ],\n      \"fact\": {\n        \"relation\": \"hotel.semi.area\",\n        \"source_turns\": [\n          \"PMUL4852.json#turn4\"\n        ],\n        \"subject\": \"PMUL4852.json#hotel.semi\",\n        \"time\": \"unknown\",\n        \"value\": \"centre\"\n      },\n      \"operation\": \"CORRECT\",\n      \"slot\": \"hotel.semi.area\",\n      \"source_turns\": [\n        \"PMUL4852.json#turn4\"\n      ],\n      \"target_fact_id\": \"PMUL4852.json#state3#hotel.semi.area\"\n    },\n    {\n      \"alternatives\": [],\n      \"fact\": {\n        \"relation\": \"hotel.semi.internet\",\n        \"source_turns\": [\n          \"PMUL4852.json#turn4\"\n        ],\n        \"subject\": \"PMUL4852.json#hotel.semi\",\n        \"time\": \"unknown\",\n        \"value\": \"yes\"\n      },\n      \"operation\": \"APPEND\",\n      \"slot\": \"hotel.semi.internet\",\n      \"source_turns\": [\n        \"PMUL4852.json#turn4\"\n      ],\n      \"target_fact_id\": null\n    }\n  ]\n}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1709,
+    "output_tokens": 436,
+    "reasoning_tokens": 0,
+    "total_tokens": 2145
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "call_id": "916537b588d1eced8d7c-candidate_final",
+  "finish_reason": "STOP",
+  "finished_unix": 1790494586.6789298,
+  "http_status": 200,
+  "latency_seconds": 2.0246,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.03587782103879795,
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"reply\": \"네, 지금 사시는 곳이 오산이시군요. 이 정보를 저장해도 될지 여쭤봐도 될까요?\",\n  \"action\": {\n    \"kind\": \"CLARIFY\",\n    \"question_slot\": \"topic_permission\",\n    \"required_slots\": [],\n    \"speaker_id\": \"p1\"\n  },\n  \"memory_decisions\": [\n    {\n      \"alternatives\": [],\n      \"fact\": {\n        \"relation\": \"workplace\",\n        \"source_turns\": [\n          \"t1\",\n          \"t2\"\n        ],\n        \"subject\": \"participant\",\n        \"time\": \"present\",\n        \"value\": \"한빛우체국\"\n      },\n      \"operation\": \"NO_WRITE\",\n      \"slot\": null,\n      \"source_turns\": [\n        \"t2\"\n      ],\n      \"target_fact_id\": \"f1\"\n    },\n    {\n      \"alternatives\": [\n        \"오산\"\n      ],\n      \"fact\": null,\n      \"operation\": \"HOLD\",\n      \"slot\": \"residence\",\n      \"source_turns\": [\n        \"t2\"\n      ],\n      \"target_fact_id\": null\n    }\n  ]\n}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T07:36:24.734580Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "eMe4avTqLNCNx9gP07myoAQ",
+    "usageMetadata": {
+      "candidatesTokenCount": 299,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 299
+        }
+      ],
+      "promptTokenCount": 2022,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 2022
+        }
+      ],
+      "totalTokenCount": 2321,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "9323c4695e780eed47872a2ddff8976292cf937d9e568663f1675b4d12ae3903",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790494584.6536992,
+  "status": "OK",
+  "text": "{\n  \"reply\": \"네, 지금 사시는 곳이 오산이시군요. 이 정보를 저장해도 될지 여쭤봐도 될까요?\",\n  \"action\": {\n    \"kind\": \"CLARIFY\",\n    \"question_slot\": \"topic_permission\",\n    \"required_slots\": [],\n    \"speaker_id\": \"p1\"\n  },\n  \"memory_decisions\": [\n    {\n      \"alternatives\": [],\n      \"fact\": {\n        \"relation\": \"workplace\",\n        \"source_turns\": [\n          \"t1\",\n          \"t2\"\n        ],\n        \"subject\": \"participant\",\n        \"time\": \"present\",\n        \"value\": \"한빛우체국\"\n      },\n      \"operation\": \"NO_WRITE\",\n      \"slot\": null,\n      \"source_turns\": [\n        \"t2\"\n      ],\n      \"target_fact_id\": \"f1\"\n    },\n    {\n      \"alternatives\": [\n        \"오산\"\n      ],\n      \"fact\": null,\n      \"operation\": \"HOLD\",\n      \"slot\": \"residence\",\n      \"source_turns\": [\n        \"t2\"\n      ],\n      \"target_fact_id\": null\n    }\n  ]\n}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 2022,
+    "output_tokens": 299,
+    "reasoning_tokens": 0,
+    "total_tokens": 2321
+  }
+}

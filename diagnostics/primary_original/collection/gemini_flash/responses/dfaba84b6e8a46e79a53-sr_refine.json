@@ -1,0 +1,57 @@
+{
+  "call_id": "dfaba84b6e8a46e79a53-sr_refine",
+  "finish_reason": "STOP",
+  "finished_unix": 1790491425.699313,
+  "http_status": 200,
+  "latency_seconds": 1.133,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.0042876356573247195,
+        "content": {
+          "parts": [
+            {
+              "text": "{\"reply\": \"네, 중앙인쇄소에서 일하셨던 것을 기억해둘게요.\", \"action\": {\"kind\": \"CONTINUE\", \"question_slot\": null, \"required_slots\": [], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [], \"fact\": {\"relation\": \"workplace\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"중앙인쇄소\"}, \"operation\": \"APPEND\", \"slot\": null, \"source_turns\": [\"t2\"], \"target_fact_id\": null}]}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T06:43:44.647541Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "ILu4avXCJ9CNx9gP07myoAQ",
+    "usageMetadata": {
+      "candidatesTokenCount": 134,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 134
+        }
+      ],
+      "promptTokenCount": 1955,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1955
+        }
+      ],
+      "totalTokenCount": 2089,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "6c4505500f773dad8dbc2af50a008422b679a5e41e033c2ee8df8a6e1b8933dd",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790491424.566082,
+  "status": "OK",
+  "text": "{\"reply\": \"네, 중앙인쇄소에서 일하셨던 것을 기억해둘게요.\", \"action\": {\"kind\": \"CONTINUE\", \"question_slot\": null, \"required_slots\": [], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [], \"fact\": {\"relation\": \"workplace\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"중앙인쇄소\"}, \"operation\": \"APPEND\", \"slot\": null, \"source_turns\": [\"t2\"], \"target_fact_id\": null}]}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1955,
+    "output_tokens": 134,
+    "reasoning_tokens": 0,
+    "total_tokens": 2089
+  }
+}

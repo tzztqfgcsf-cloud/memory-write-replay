@@ -1,0 +1,57 @@
+{
+  "call_id": "f585db2c2e45dd341ea8-candidate_final",
+  "finish_reason": "STOP",
+  "finished_unix": 1790490010.457597,
+  "http_status": 200,
+  "latency_seconds": 1.387,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.04683162160002427,
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"reply\": \"네, 알겠습니다. 첫 취업 연도는 1977년으로 유지하고, 다른 이야기를 해볼까요?\",\n  \"action\": {\n    \"kind\": \"CONTINUE\",\n    \"question_slot\": null,\n    \"required_slots\": [],\n    \"speaker_id\": \"p1\"\n  },\n  \"memory_decisions\": [\n    {\n      \"alternatives\": [\n        \"1978년\"\n      ],\n      \"fact\": null,\n      \"operation\": \"HOLD\",\n      \"slot\": \"event_year\",\n      \"source_turns\": [\n        \"t2\"\n      ],\n      \"target_fact_id\": \"f1\"\n    }\n  ]\n}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T06:20:09.185835Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "mbW4auurC_CVktwP37SV-Ag",
+    "usageMetadata": {
+      "candidatesTokenCount": 173,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 173
+        }
+      ],
+      "promptTokenCount": 1983,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1983
+        }
+      ],
+      "totalTokenCount": 2156,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "02e20b8017d7d5b6d4148fc768c9c6cdc127d19597719a728881922a6b593ff0",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790490009.069629,
+  "status": "OK",
+  "text": "{\n  \"reply\": \"네, 알겠습니다. 첫 취업 연도는 1977년으로 유지하고, 다른 이야기를 해볼까요?\",\n  \"action\": {\n    \"kind\": \"CONTINUE\",\n    \"question_slot\": null,\n    \"required_slots\": [],\n    \"speaker_id\": \"p1\"\n  },\n  \"memory_decisions\": [\n    {\n      \"alternatives\": [\n        \"1978년\"\n      ],\n      \"fact\": null,\n      \"operation\": \"HOLD\",\n      \"slot\": \"event_year\",\n      \"source_turns\": [\n        \"t2\"\n      ],\n      \"target_fact_id\": \"f1\"\n    }\n  ]\n}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1983,
+    "output_tokens": 173,
+    "reasoning_tokens": 0,
+    "total_tokens": 2156
+  }
+}

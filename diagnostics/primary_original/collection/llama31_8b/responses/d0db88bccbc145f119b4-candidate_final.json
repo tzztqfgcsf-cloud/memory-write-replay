@@ -1,0 +1,36 @@
+{
+  "call_id": "d0db88bccbc145f119b4-candidate_final",
+  "error_type": null,
+  "finish_reason": "stop",
+  "finished_unix": 1790492236.0967412,
+  "latency_seconds": 12.8739,
+  "model_version": "mlx-community/Llama-3.1-8B-Instruct-4bit",
+  "raw_response": {
+    "base_seed": 20260927,
+    "finish_reason": "stop",
+    "generation_calls": 334,
+    "id": "local-5b9271d0310cba3d78878abb",
+    "seed": 3033654309,
+    "snapshot": "<LOCAL_PATH>",
+    "text": "{\"action\": {\"kind\": \"CLARIFY\", \"question_slot\": \"meeting_place\", \"required_slots\": [\"meeting_place\"], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"기차역광장\"], \"fact\": {\"relation\": \"meeting_place\", \"source_turns\": [\"t1\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"기차역광장\"}, \"operation\": \"APPEND\", \"slot\": \"meeting_place\", \"source_turns\": [\"t1\"], \"target_fact_id\": null}, {\"alternatives\": [\"기차역광장\"], \"fact\": {\"relation\": \"meeting_place\", \"source_turns\": [\"t1\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"기차역광장\"}, \"operation\": \"CORRECT\", \"slot\": \"meeting_place\", \"source_turns\": [\"t1\"], \"target_fact_id\": \"f1\"}], \"reply\": \"기차역광장에서 모였어요. 지금 장소는 그대로 두고 과거 모임 장소에 기차역광장을 적어 줘요.\"}",
+    "usage": {
+      "cached_tokens": null,
+      "input_tokens": 2094,
+      "output_tokens": 249,
+      "reasoning_tokens": null,
+      "total_tokens": 2343
+    }
+  },
+  "request_sha256": "3dd3262e3816f4cb289d4d14b3092fc3f28eb230d7fc170cde2b4c5a17c74e1b",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790492223.222315,
+  "status": "OK",
+  "text": "{\"action\": {\"kind\": \"CLARIFY\", \"question_slot\": \"meeting_place\", \"required_slots\": [\"meeting_place\"], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"기차역광장\"], \"fact\": {\"relation\": \"meeting_place\", \"source_turns\": [\"t1\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"기차역광장\"}, \"operation\": \"APPEND\", \"slot\": \"meeting_place\", \"source_turns\": [\"t1\"], \"target_fact_id\": null}, {\"alternatives\": [\"기차역광장\"], \"fact\": {\"relation\": \"meeting_place\", \"source_turns\": [\"t1\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"기차역광장\"}, \"operation\": \"CORRECT\", \"slot\": \"meeting_place\", \"source_turns\": [\"t1\"], \"target_fact_id\": \"f1\"}], \"reply\": \"기차역광장에서 모였어요. 지금 장소는 그대로 두고 과거 모임 장소에 기차역광장을 적어 줘요.\"}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 2094,
+    "output_tokens": 249,
+    "reasoning_tokens": null,
+    "total_tokens": 2343
+  }
+}

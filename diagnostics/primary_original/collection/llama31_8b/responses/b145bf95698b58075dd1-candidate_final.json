@@ -1,0 +1,36 @@
+{
+  "call_id": "b145bf95698b58075dd1-candidate_final",
+  "error_type": null,
+  "finish_reason": "stop",
+  "finished_unix": 1790490917.3874,
+  "latency_seconds": 23.6256,
+  "model_version": "mlx-community/Llama-3.1-8B-Instruct-4bit",
+  "raw_response": {
+    "base_seed": 20260927,
+    "finish_reason": "stop",
+    "generation_calls": 220,
+    "id": "local-27c5a6e162a42a63cfe5c271",
+    "seed": 1019844164,
+    "snapshot": "<LOCAL_PATH>",
+    "text": "{\"action\": {\"kind\": \"CLARIFY\", \"question_slot\": \"hobby\", \"required_slots\": [\"hobby\"], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"낚시\", \"등산\"], \"fact\": {\"relation\": \"hobby\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"낚시\"}, \"operation\": \"APPEND\", \"slot\": \"hobby\", \"source_turns\": [\"t2\"], \"target_fact_id\": null}, {\"alternatives\": [\"낚시\", \"등산\"], \"fact\": {\"relation\": \"hobby\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"등산\"}, \"operation\": \"APPEND\", \"slot\": \"hobby\", \"source_turns\": [\"t2\"], \"target_fact_id\": null}, {\"alternatives\": [\"낚시\"], \"fact\": {\"relation\": \"hobby\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"낚시\"}, \"operation\": \"APPEND\", \"slot\": \"hobby\", \"source_turns\": [\"t2\"], \"target_fact_id\": null}, {\"alternatives\": [\"등산\"], \"fact\": {\"relation\": \"hobby\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"등산\"}, \"operation\": \"APPEND\", \"slot\": \"hobby\", \"source_turns\": [\"t2\"], \"target_fact_id\": null}, {\"alternatives\": [\"낚시\"], \"fact\": {\"relation\": \"hobby\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"낚시\"}, \"operation\": \"HOLD\", \"slot\": \"hobby\", \"source_turns\": [\"t2\"], \"target_fact_id\": null}, {\"alternatives\": [\"등산\"], \"fact\": {\"relation\": \"hobby\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"등산\"}, \"operation\": \"HOLD\", \"slot\": \"hobby\", \"source_turns\": [\"t2\"], \"target_fact_id\": null}, {\"alternatives\": [\"낚시\"], \"fact\": null, \"operation\": \"NO_WRITE\", \"slot\": null, \"source_turns\": [], \"target_fact_id\": null}, {\"alternatives\": [\"등산\"], \"fact\": null, \"operation\": \"NO_WRITE\", \"slot\": null, \"source_turns\": [], \"target_fact_id\": null}], \"reply\": \"준호가 좋아하는 건 낚시고 제 취미는 등산이에요. 남편 준호의 취미를 적어 주세요.\"}",
+    "usage": {
+      "cached_tokens": null,
+      "input_tokens": 2142,
+      "output_tokens": 626,
+      "reasoning_tokens": null,
+      "total_tokens": 2768
+    }
+  },
+  "request_sha256": "eb60bc043d109ebe8aa3750b5dde92736a98fe99859dd7c8bbedda757f68b27f",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790490893.7611651,
+  "status": "OK",
+  "text": "{\"action\": {\"kind\": \"CLARIFY\", \"question_slot\": \"hobby\", \"required_slots\": [\"hobby\"], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"낚시\", \"등산\"], \"fact\": {\"relation\": \"hobby\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"낚시\"}, \"operation\": \"APPEND\", \"slot\": \"hobby\", \"source_turns\": [\"t2\"], \"target_fact_id\": null}, {\"alternatives\": [\"낚시\", \"등산\"], \"fact\": {\"relation\": \"hobby\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"등산\"}, \"operation\": \"APPEND\", \"slot\": \"hobby\", \"source_turns\": [\"t2\"], \"target_fact_id\": null}, {\"alternatives\": [\"낚시\"], \"fact\": {\"relation\": \"hobby\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"낚시\"}, \"operation\": \"APPEND\", \"slot\": \"hobby\", \"source_turns\": [\"t2\"], \"target_fact_id\": null}, {\"alternatives\": [\"등산\"], \"fact\": {\"relation\": \"hobby\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"등산\"}, \"operation\": \"APPEND\", \"slot\": \"hobby\", \"source_turns\": [\"t2\"], \"target_fact_id\": null}, {\"alternatives\": [\"낚시\"], \"fact\": {\"relation\": \"hobby\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"낚시\"}, \"operation\": \"HOLD\", \"slot\": \"hobby\", \"source_turns\": [\"t2\"], \"target_fact_id\": null}, {\"alternatives\": [\"등산\"], \"fact\": {\"relation\": \"hobby\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"등산\"}, \"operation\": \"HOLD\", \"slot\": \"hobby\", \"source_turns\": [\"t2\"], \"target_fact_id\": null}, {\"alternatives\": [\"낚시\"], \"fact\": null, \"operation\": \"NO_WRITE\", \"slot\": null, \"source_turns\": [], \"target_fact_id\": null}, {\"alternatives\": [\"등산\"], \"fact\": null, \"operation\": \"NO_WRITE\", \"slot\": null, \"source_turns\": [], \"target_fact_id\": null}], \"reply\": \"준호가 좋아하는 건 낚시고 제 취미는 등산이에요. 남편 준호의 취미를 적어 주세요.\"}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 2142,
+    "output_tokens": 626,
+    "reasoning_tokens": null,
+    "total_tokens": 2768
+  }
+}

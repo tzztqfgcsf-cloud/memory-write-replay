@@ -1,0 +1,36 @@
+{
+  "call_id": "1e6c40d2cfcf0e3de50b-g_draft",
+  "error_type": null,
+  "finish_reason": "stop",
+  "finished_unix": 1790496501.420862,
+  "latency_seconds": 9.9392,
+  "model_version": "mlx-community/Llama-3.1-8B-Instruct-4bit",
+  "raw_response": {
+    "base_seed": 20260927,
+    "finish_reason": "stop",
+    "generation_calls": 739,
+    "id": "local-ba8f3e8212237bae479b8a33",
+    "seed": 2868201744,
+    "snapshot": "<LOCAL_PATH>",
+    "text": "{\"action\": {\"kind\": \"CLARIFY\", \"question_slot\": \"birthplace\", \"required_slots\": [\"birthplace\", \"workplace\"], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"충주\", \"문경\"], \"fact\": {\"relation\": \"birthplace\", \"source_turns\": [\"t1\", \"t2\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"문경\"}, \"operation\": \"CORRECT\", \"slot\": \"birthplace\", \"source_turns\": [\"t1\", \"t2\"], \"target_fact_id\": \"f1\"}], \"reply\": \"문경으로 고쳐 줘요.\"}",
+    "usage": {
+      "cached_tokens": null,
+      "input_tokens": 1773,
+      "output_tokens": 150,
+      "reasoning_tokens": null,
+      "total_tokens": 1923
+    }
+  },
+  "request_sha256": "b97c6de8e5a790f9f532665f4a300ef9d3653b4461f52e2d10c8ea6847903eb7",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790496491.481514,
+  "status": "OK",
+  "text": "{\"action\": {\"kind\": \"CLARIFY\", \"question_slot\": \"birthplace\", \"required_slots\": [\"birthplace\", \"workplace\"], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"충주\", \"문경\"], \"fact\": {\"relation\": \"birthplace\", \"source_turns\": [\"t1\", \"t2\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"문경\"}, \"operation\": \"CORRECT\", \"slot\": \"birthplace\", \"source_turns\": [\"t1\", \"t2\"], \"target_fact_id\": \"f1\"}], \"reply\": \"문경으로 고쳐 줘요.\"}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1773,
+    "output_tokens": 150,
+    "reasoning_tokens": null,
+    "total_tokens": 1923
+  }
+}

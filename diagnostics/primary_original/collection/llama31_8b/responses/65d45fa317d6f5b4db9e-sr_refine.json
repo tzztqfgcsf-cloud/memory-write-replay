@@ -1,0 +1,36 @@
+{
+  "call_id": "65d45fa317d6f5b4db9e-sr_refine",
+  "error_type": null,
+  "finish_reason": "stop",
+  "finished_unix": 1790490858.722613,
+  "latency_seconds": 10.4927,
+  "model_version": "mlx-community/Llama-3.1-8B-Instruct-4bit",
+  "raw_response": {
+    "base_seed": 20260927,
+    "finish_reason": "stop",
+    "generation_calls": 216,
+    "id": "local-49a8ff73f24e8361948eaccc",
+    "seed": 1046430194,
+    "snapshot": "<LOCAL_PATH>",
+    "text": "{\"action\": {\"kind\": \"CONTINUE\", \"question_slot\": \"shop_name\", \"required_slots\": [\"shop_name\"], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"다온꽃집\", \"다솜꽃집\"], \"fact\": {\"relation\": \"shop_name\", \"source_turns\": [\"t1\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"다솜꽃집\"}, \"operation\": \"HOLD\", \"slot\": \"shop_name\", \"source_turns\": [\"t1\"], \"target_fact_id\": null}], \"reply\": \"다솜꽃집이었을 거라는 말도 들었는데 아직 확실치 않아요. 옛 가게 이름은 그대로 둬요.\"}",
+    "usage": {
+      "cached_tokens": null,
+      "input_tokens": 2071,
+      "output_tokens": 169,
+      "reasoning_tokens": null,
+      "total_tokens": 2240
+    }
+  },
+  "request_sha256": "c29a487f4bd87432d8e7999c8b803cd372ecad96cd189f5267f7aadfa22ce550",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790490848.2292118,
+  "status": "OK",
+  "text": "{\"action\": {\"kind\": \"CONTINUE\", \"question_slot\": \"shop_name\", \"required_slots\": [\"shop_name\"], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"다온꽃집\", \"다솜꽃집\"], \"fact\": {\"relation\": \"shop_name\", \"source_turns\": [\"t1\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"다솜꽃집\"}, \"operation\": \"HOLD\", \"slot\": \"shop_name\", \"source_turns\": [\"t1\"], \"target_fact_id\": null}], \"reply\": \"다솜꽃집이었을 거라는 말도 들었는데 아직 확실치 않아요. 옛 가게 이름은 그대로 둬요.\"}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 2071,
+    "output_tokens": 169,
+    "reasoning_tokens": null,
+    "total_tokens": 2240
+  }
+}

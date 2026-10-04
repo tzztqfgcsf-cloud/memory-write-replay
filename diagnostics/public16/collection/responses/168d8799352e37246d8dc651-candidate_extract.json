@@ -1,0 +1,56 @@
+{
+  "call_id": "168d8799352e37246d8dc651-candidate_extract",
+  "cost_note": "provider_did_not_report_money",
+  "cost_usd_reported": null,
+  "finish_reason": "STOP",
+  "http_status": 200,
+  "latency_seconds": 2.0958,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.0034778212444691718,
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"beliefs\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"facts\": []\n    }\n  ],\n  \"correction_witnesses\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"target_fact_id\": \"MUL1790.json#state1#train.semi.destination\",\n      \"subject\": \"MUL1790.json#train.semi\",\n      \"relation\": \"train.semi.destination\",\n      \"time\": \"unknown\",\n      \"new_value\": \"cambridge\",\n      \"source_turn\": \"MUL1790.json#turn2\",\n      \"evidence_quote\": \"The train needs to going to Cambridge\",\n      \"polarity\": \"affirmed\"\n    },\n    {\n      \"candidate_id\": \"c1\",\n      \"target_fact_id\": \"MUL1790.json#state1#train.semi.departure\",\n      \"subject\": \"MUL1790.json#train.semi\",\n      \"relation\": \"train.semi.departure\",\n      \"time\": \"unknown\",\n      \"new_value\": \"peterborough\",\n      \"source_turn\": \"MUL1790.json#turn2\",\n      \"evidence_quote\": \"from Peterborough\",\n      \"polarity\": \"affirmed\"\n    }\n  ]\n}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T17:21:20.055244Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "kFC5asyvA5iXktwPo4SY4AQ",
+    "usageMetadata": {
+      "candidatesTokenCount": 316,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 316
+        }
+      ],
+      "promptTokenCount": 1522,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1522
+        }
+      ],
+      "totalTokenCount": 1838,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "c719907817441df1e382106ed0d9e12b27e6e9435c628a48a224c1398eae9a7f",
+  "status": "OK",
+  "text": "{\n  \"beliefs\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"facts\": []\n    }\n  ],\n  \"correction_witnesses\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"target_fact_id\": \"MUL1790.json#state1#train.semi.destination\",\n      \"subject\": \"MUL1790.json#train.semi\",\n      \"relation\": \"train.semi.destination\",\n      \"time\": \"unknown\",\n      \"new_value\": \"cambridge\",\n      \"source_turn\": \"MUL1790.json#turn2\",\n      \"evidence_quote\": \"The train needs to going to Cambridge\",\n      \"polarity\": \"affirmed\"\n    },\n    {\n      \"candidate_id\": \"c1\",\n      \"target_fact_id\": \"MUL1790.json#state1#train.semi.departure\",\n      \"subject\": \"MUL1790.json#train.semi\",\n      \"relation\": \"train.semi.departure\",\n      \"time\": \"unknown\",\n      \"new_value\": \"peterborough\",\n      \"source_turn\": \"MUL1790.json#turn2\",\n      \"evidence_quote\": \"from Peterborough\",\n      \"polarity\": \"affirmed\"\n    }\n  ]\n}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1522,
+    "output_tokens": 316,
+    "reasoning_tokens": 0,
+    "total_tokens": 1838
+  }
+}

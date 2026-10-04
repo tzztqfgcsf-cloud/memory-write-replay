@@ -1,0 +1,64 @@
+{
+  "call_id": "841e9c1b965a5430444e-sr_refine",
+  "finish_reason": "STOP",
+  "finished_unix": 1790493513.1861272,
+  "http_status": 200,
+  "latency_seconds": 1.428,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.0001576986668029226,
+        "content": {
+          "parts": [
+            {
+              "text": "{\"reply\": \"네, 정기 모임 장소를 문화마루로 저장해 드릴게요.\", \"action\": {\"kind\": \"CONTINUE\", \"question_slot\": null, \"required_slots\": [], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [], \"fact\": {\"relation\": \"meeting_place\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"문화마루\"}, \"operation\": \"APPEND\", \"slot\": null, \"source_turns\": [\"t2\"], \"target_fact_id\": null}]}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T07:18:31.887900Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "R8O4atyYNpiXktwPo4SY4AQ",
+    "usageMetadata": {
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1919
+        }
+      ],
+      "cachedContentTokenCount": 1919,
+      "candidatesTokenCount": 133,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 133
+        }
+      ],
+      "promptTokenCount": 1952,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1952
+        }
+      ],
+      "totalTokenCount": 2085,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "6c1fc3ed56e733e3d0e6f7dac83b4466b83437e4b2d0c511a4329c4799a986b0",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790493511.7577841,
+  "status": "OK",
+  "text": "{\"reply\": \"네, 정기 모임 장소를 문화마루로 저장해 드릴게요.\", \"action\": {\"kind\": \"CONTINUE\", \"question_slot\": null, \"required_slots\": [], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [], \"fact\": {\"relation\": \"meeting_place\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"문화마루\"}, \"operation\": \"APPEND\", \"slot\": null, \"source_turns\": [\"t2\"], \"target_fact_id\": null}]}",
+  "usage": {
+    "cached_tokens": 1919,
+    "input_tokens": 1952,
+    "output_tokens": 133,
+    "reasoning_tokens": 0,
+    "total_tokens": 2085
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "call_id": "30deea3dcd9a78c42ec3-g_draft",
+  "finish_reason": "STOP",
+  "finished_unix": 1790492373.0898979,
+  "http_status": 200,
+  "latency_seconds": 1.5133,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.014526898152119404,
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"reply\": \"결혼 연도를 1984년으로 수정할까요, 아니면 1985년으로 수정할까요?\",\n  \"action\": {\n    \"kind\": \"CLARIFY\",\n    \"question_slot\": \"event_year\",\n    \"required_slots\": [],\n    \"speaker_id\": \"p1\"\n  },\n  \"memory_decisions\": [\n    {\n      \"alternatives\": [\n        \"1984년\",\n        \"1985년\"\n      ],\n      \"fact\": null,\n      \"operation\": \"HOLD\",\n      \"slot\": \"event_year\",\n      \"source_turns\": [\n        \"t2\"\n      ],\n      \"target_fact_id\": null\n    }\n  ]\n}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T06:59:31.661500Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "0764avyvKLOKktwPsejJ4QY",
+    "usageMetadata": {
+      "candidatesTokenCount": 185,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 185
+        }
+      ],
+      "promptTokenCount": 1697,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1697
+        }
+      ],
+      "totalTokenCount": 1882,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "d6b008c2e4e5edec83210b2c062f7ccfbd91025362d5abd4f97bb0cfcc64c642",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790492371.57631,
+  "status": "OK",
+  "text": "{\n  \"reply\": \"결혼 연도를 1984년으로 수정할까요, 아니면 1985년으로 수정할까요?\",\n  \"action\": {\n    \"kind\": \"CLARIFY\",\n    \"question_slot\": \"event_year\",\n    \"required_slots\": [],\n    \"speaker_id\": \"p1\"\n  },\n  \"memory_decisions\": [\n    {\n      \"alternatives\": [\n        \"1984년\",\n        \"1985년\"\n      ],\n      \"fact\": null,\n      \"operation\": \"HOLD\",\n      \"slot\": \"event_year\",\n      \"source_turns\": [\n        \"t2\"\n      ],\n      \"target_fact_id\": null\n    }\n  ]\n}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1697,
+    "output_tokens": 185,
+    "reasoning_tokens": 0,
+    "total_tokens": 1882
+  }
+}

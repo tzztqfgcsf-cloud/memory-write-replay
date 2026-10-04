@@ -1,0 +1,57 @@
+{
+  "call_id": "70566bc3497132493f35-sr_refine",
+  "finish_reason": "STOP",
+  "finished_unix": 1790490959.946707,
+  "http_status": 200,
+  "latency_seconds": 1.7098,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.00011344561609653158,
+        "content": {
+          "parts": [
+            {
+              "text": "{\"reply\": \"네, 어머니 순자님의 출생지를 임실로 기록해 드릴게요. 본인 출생지는 전주로 유지됩니다.\", \"action\": {\"kind\": \"CONTINUE\", \"question_slot\": null, \"required_slots\": [], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [], \"fact\": {\"relation\": \"birthplace\", \"source_turns\": [\"t2\"], \"subject\": \"순자\", \"time\": \"past\", \"value\": \"임실\"}, \"operation\": \"APPEND\", \"slot\": null, \"source_turns\": [\"t2\"], \"target_fact_id\": null}, {\"alternatives\": [], \"fact\": {\"relation\": \"birthplace\", \"source_turns\": [\"t1\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"전주\"}, \"operation\": \"HOLD\", \"slot\": null, \"source_turns\": [\"t2\"], \"target_fact_id\": \"f1\"}]}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T06:35:58.399724Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "Trm4auyyGNOH0ckPuLmDuA8",
+    "usageMetadata": {
+      "candidatesTokenCount": 218,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 218
+        }
+      ],
+      "promptTokenCount": 2235,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 2235
+        }
+      ],
+      "totalTokenCount": 2453,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "6ad34eb0e71402f9fc4404f9bb123214ab236e78e8c762faa12a867f0344fd49",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790490958.236359,
+  "status": "OK",
+  "text": "{\"reply\": \"네, 어머니 순자님의 출생지를 임실로 기록해 드릴게요. 본인 출생지는 전주로 유지됩니다.\", \"action\": {\"kind\": \"CONTINUE\", \"question_slot\": null, \"required_slots\": [], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [], \"fact\": {\"relation\": \"birthplace\", \"source_turns\": [\"t2\"], \"subject\": \"순자\", \"time\": \"past\", \"value\": \"임실\"}, \"operation\": \"APPEND\", \"slot\": null, \"source_turns\": [\"t2\"], \"target_fact_id\": null}, {\"alternatives\": [], \"fact\": {\"relation\": \"birthplace\", \"source_turns\": [\"t1\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"전주\"}, \"operation\": \"HOLD\", \"slot\": null, \"source_turns\": [\"t2\"], \"target_fact_id\": \"f1\"}]}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 2235,
+    "output_tokens": 218,
+    "reasoning_tokens": 0,
+    "total_tokens": 2453
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "call_id": "049f2b719ab9b1f3a773-candidate_extract",
+  "finish_reason": "STOP",
+  "finished_unix": 1790493082.611233,
+  "http_status": 200,
+  "latency_seconds": 1.6224,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.003212535477067572,
+        "content": {
+          "parts": [
+            {
+              "text": "{\"beliefs\": [{\"candidate_id\": \"c1\", \"facts\": [{\"relation\": \"learned_from\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"오 선생님\"}]}, {\"candidate_id\": \"c2\", \"facts\": [{\"relation\": \"learned_from\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"오 선생님\"}]}], \"correction_witnesses\": [{\"candidate_id\": \"c1\", \"evidence_quote\": \"\", \"new_value\": \"부천\", \"polarity\": \"absent\", \"relation\": \"residence\", \"source_turn\": \"t2\", \"subject\": \"participant\", \"target_fact_id\": \"f1\", \"time\": \"present\"}, {\"candidate_id\": \"c2\", \"evidence_quote\": \"\", \"new_value\": \"부천\", \"polarity\": \"absent\", \"relation\": \"residence\", \"source_turn\": \"t2\", \"subject\": \"participant\", \"target_fact_id\": \"f1\", \"time\": \"present\"}]}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T07:11:21.078401Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "mcG4asHkBNCNx9gP07myoAQ",
+    "usageMetadata": {
+      "candidatesTokenCount": 249,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 249
+        }
+      ],
+      "promptTokenCount": 1680,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1680
+        }
+      ],
+      "totalTokenCount": 1929,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "736e7cca2c698474f4d54e626a0c0bfda35059c5568dac67feb24ed592313002",
+  "stage_schema_sha256": "bda7326ac6a6cbeedf1ecdbf4a2b08277c078351d6689f667dc0d558c4972dd3",
+  "started_unix": 1790493080.988585,
+  "status": "OK",
+  "text": "{\"beliefs\": [{\"candidate_id\": \"c1\", \"facts\": [{\"relation\": \"learned_from\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"오 선생님\"}]}, {\"candidate_id\": \"c2\", \"facts\": [{\"relation\": \"learned_from\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"오 선생님\"}]}], \"correction_witnesses\": [{\"candidate_id\": \"c1\", \"evidence_quote\": \"\", \"new_value\": \"부천\", \"polarity\": \"absent\", \"relation\": \"residence\", \"source_turn\": \"t2\", \"subject\": \"participant\", \"target_fact_id\": \"f1\", \"time\": \"present\"}, {\"candidate_id\": \"c2\", \"evidence_quote\": \"\", \"new_value\": \"부천\", \"polarity\": \"absent\", \"relation\": \"residence\", \"source_turn\": \"t2\", \"subject\": \"participant\", \"target_fact_id\": \"f1\", \"time\": \"present\"}]}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1680,
+    "output_tokens": 249,
+    "reasoning_tokens": 0,
+    "total_tokens": 1929
+  }
+}

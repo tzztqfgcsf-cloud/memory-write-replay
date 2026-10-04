@@ -1,0 +1,57 @@
+{
+  "call_id": "c80959d523e2d1f82a56-g_final",
+  "finish_reason": "STOP",
+  "finished_unix": 1790491211.858588,
+  "http_status": 200,
+  "latency_seconds": 1.9299,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.00476409810962099,
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"reply\": \"네, 동생 영숙님이 이 사범님께 배웠다는 사실을 기록해 드릴게요. 본인 기록은 그대로 유지됩니다.\",\n  \"action\": {\n    \"kind\": \"CONTINUE\",\n    \"question_slot\": null,\n    \"required_slots\": [],\n    \"speaker_id\": \"p1\"\n  },\n  \"memory_decisions\": [\n    {\n      \"alternatives\": [],\n      \"fact\": {\n        \"relation\": \"learned_from\",\n        \"source_turns\": [\"t2\"],\n        \"subject\": \"영숙\",\n        \"time\": \"past\",\n        \"value\": \"이 사범님\"\n      },\n      \"operation\": \"APPEND\",\n      \"slot\": null,\n      \"source_turns\": [\"t2\"],\n      \"target_fact_id\": null\n    },\n    {\n      \"alternatives\": [],\n      \"fact\": null,\n      \"operation\": \"NO_WRITE\",\n      \"slot\": null,\n      \"source_turns\": [\"t2\"],\n      \"target_fact_id\": \"f1\"\n    }\n  ]\n}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T06:40:10.097296Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "Srq4apD4BbOLx9gPv4OY6A4",
+    "usageMetadata": {
+      "candidatesTokenCount": 264,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 264
+        }
+      ],
+      "promptTokenCount": 1947,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1947
+        }
+      ],
+      "totalTokenCount": 2211,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "62849c2b764e7a0adc0c1ed74ed7372fd421f03a3609c8ca9840326db4c6bbfc",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790491209.928042,
+  "status": "OK",
+  "text": "{\n  \"reply\": \"네, 동생 영숙님이 이 사범님께 배웠다는 사실을 기록해 드릴게요. 본인 기록은 그대로 유지됩니다.\",\n  \"action\": {\n    \"kind\": \"CONTINUE\",\n    \"question_slot\": null,\n    \"required_slots\": [],\n    \"speaker_id\": \"p1\"\n  },\n  \"memory_decisions\": [\n    {\n      \"alternatives\": [],\n      \"fact\": {\n        \"relation\": \"learned_from\",\n        \"source_turns\": [\"t2\"],\n        \"subject\": \"영숙\",\n        \"time\": \"past\",\n        \"value\": \"이 사범님\"\n      },\n      \"operation\": \"APPEND\",\n      \"slot\": null,\n      \"source_turns\": [\"t2\"],\n      \"target_fact_id\": null\n    },\n    {\n      \"alternatives\": [],\n      \"fact\": null,\n      \"operation\": \"NO_WRITE\",\n      \"slot\": null,\n      \"source_turns\": [\"t2\"],\n      \"target_fact_id\": \"f1\"\n    }\n  ]\n}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1947,
+    "output_tokens": 264,
+    "reasoning_tokens": 0,
+    "total_tokens": 2211
+  }
+}

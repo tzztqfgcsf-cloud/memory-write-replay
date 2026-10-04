@@ -1,0 +1,36 @@
+{
+  "call_id": "3bf25f4b667fe2fae09f-sr_refine",
+  "error_type": null,
+  "finish_reason": "stop",
+  "finished_unix": 1790493905.051886,
+  "latency_seconds": 12.0091,
+  "model_version": "mlx-community/Llama-3.1-8B-Instruct-4bit",
+  "raw_response": {
+    "base_seed": 20260927,
+    "finish_reason": "stop",
+    "generation_calls": 486,
+    "id": "local-f01b064276384b066cd9e635",
+    "seed": 992738702,
+    "snapshot": "<LOCAL_PATH>",
+    "text": "{\"action\": {\"kind\": \"CONTINUE\", \"question_slot\": \"shop_name\", \"required_slots\": [\"shop_name\"], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"장미미용실\"], \"fact\": {\"relation\": \"shop_name\", \"source_turns\": [\"t1\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"장미미용실\"}, \"operation\": \"APPEND\", \"slot\": \"shop_name\", \"source_turns\": [\"t1\"], \"target_fact_id\": null}, {\"alternatives\": [], \"fact\": {\"relation\": \"shop_name\", \"source_turns\": [\"t1\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"장미미용실\"}, \"operation\": \"CORRECT\", \"slot\": \"shop_name\", \"source_turns\": [\"t1\"], \"target_fact_id\": \"fact_id1\"}], \"reply\": \"장미미용실\"}",
+    "usage": {
+      "cached_tokens": null,
+      "input_tokens": 1966,
+      "output_tokens": 212,
+      "reasoning_tokens": null,
+      "total_tokens": 2178
+    }
+  },
+  "request_sha256": "13588ab990e99ec2eeb121bf8c9c45b29fa8246592918ccbb491fb33e352936b",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790493893.042298,
+  "status": "OK",
+  "text": "{\"action\": {\"kind\": \"CONTINUE\", \"question_slot\": \"shop_name\", \"required_slots\": [\"shop_name\"], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"장미미용실\"], \"fact\": {\"relation\": \"shop_name\", \"source_turns\": [\"t1\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"장미미용실\"}, \"operation\": \"APPEND\", \"slot\": \"shop_name\", \"source_turns\": [\"t1\"], \"target_fact_id\": null}, {\"alternatives\": [], \"fact\": {\"relation\": \"shop_name\", \"source_turns\": [\"t1\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"장미미용실\"}, \"operation\": \"CORRECT\", \"slot\": \"shop_name\", \"source_turns\": [\"t1\"], \"target_fact_id\": \"fact_id1\"}], \"reply\": \"장미미용실\"}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1966,
+    "output_tokens": 212,
+    "reasoning_tokens": null,
+    "total_tokens": 2178
+  }
+}

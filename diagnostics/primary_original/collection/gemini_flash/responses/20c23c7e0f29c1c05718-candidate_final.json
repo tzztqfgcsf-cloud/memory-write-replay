@@ -1,0 +1,64 @@
+{
+  "call_id": "20c23c7e0f29c1c05718-candidate_final",
+  "finish_reason": "STOP",
+  "finished_unix": 1790492284.86394,
+  "http_status": 200,
+  "latency_seconds": 1.3763,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.02333943622628438,
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"reply\": \"결혼 연도가 1984년인지 1985년인지 다시 한번 확인해 주시겠어요?\",\n  \"action\": {\n    \"kind\": \"CLARIFY\",\n    \"question_slot\": \"event_year\",\n    \"required_slots\": [\n      \"event_year\"\n    ],\n    \"speaker_id\": \"p1\"\n  },\n  \"memory_decisions\": [\n    {\n      \"alternatives\": [\n        \"1984년\",\n        \"1985년\"\n      ],\n      \"fact\": null,\n      \"operation\": \"HOLD\",\n      \"slot\": \"event_year\",\n      \"source_turns\": [\n        \"t2\"\n      ],\n      \"target_fact_id\": null\n    }\n  ]\n}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T06:58:03.574207Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "e764av-FI_GancoP76ybiQ0",
+    "usageMetadata": {
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 642
+        }
+      ],
+      "cachedContentTokenCount": 642,
+      "candidatesTokenCount": 194,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 194
+        }
+      ],
+      "promptTokenCount": 1976,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1976
+        }
+      ],
+      "totalTokenCount": 2170,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "9c03b8af387747b8aee7df1fb211d833072e0d1cfc051c949a1d7233421604b1",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790492283.487145,
+  "status": "OK",
+  "text": "{\n  \"reply\": \"결혼 연도가 1984년인지 1985년인지 다시 한번 확인해 주시겠어요?\",\n  \"action\": {\n    \"kind\": \"CLARIFY\",\n    \"question_slot\": \"event_year\",\n    \"required_slots\": [\n      \"event_year\"\n    ],\n    \"speaker_id\": \"p1\"\n  },\n  \"memory_decisions\": [\n    {\n      \"alternatives\": [\n        \"1984년\",\n        \"1985년\"\n      ],\n      \"fact\": null,\n      \"operation\": \"HOLD\",\n      \"slot\": \"event_year\",\n      \"source_turns\": [\n        \"t2\"\n      ],\n      \"target_fact_id\": null\n    }\n  ]\n}",
+  "usage": {
+    "cached_tokens": 642,
+    "input_tokens": 1976,
+    "output_tokens": 194,
+    "reasoning_tokens": 0,
+    "total_tokens": 2170
+  }
+}

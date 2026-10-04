@@ -1,0 +1,57 @@
+{
+  "call_id": "1dc57ce944746a375e51-sr_refine",
+  "finish_reason": "STOP",
+  "finished_unix": 1790494547.970059,
+  "http_status": 200,
+  "latency_seconds": 1.4371,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.00733411693572998,
+        "content": {
+          "parts": [
+            {
+              "text": "{\"reply\": \"오산에 사시는군요. 개인 정보 저장에 대한 허락 여부를 먼저 여쭤봐야 한다고 말씀해주셨습니다. 이 정보를 저장해도 될까요?\", \"action\": {\"kind\": \"CLARIFY\", \"question_slot\": \"topic_permission\", \"required_slots\": [], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"오산\"], \"fact\": null, \"operation\": \"NO_WRITE\", \"slot\": null, \"source_turns\": [\"t2\"], \"target_fact_id\": null}]}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T07:35:46.654975Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "Use4av_8J-mMx9gP69GymAQ",
+    "usageMetadata": {
+      "candidatesTokenCount": 125,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 125
+        }
+      ],
+      "promptTokenCount": 2371,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 2371
+        }
+      ],
+      "totalTokenCount": 2496,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "85cbceb75550d0f94fdf0d372bd6d542817e0f8cef4dad4335fe825d1ea3ece8",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790494546.532032,
+  "status": "OK",
+  "text": "{\"reply\": \"오산에 사시는군요. 개인 정보 저장에 대한 허락 여부를 먼저 여쭤봐야 한다고 말씀해주셨습니다. 이 정보를 저장해도 될까요?\", \"action\": {\"kind\": \"CLARIFY\", \"question_slot\": \"topic_permission\", \"required_slots\": [], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"오산\"], \"fact\": null, \"operation\": \"NO_WRITE\", \"slot\": null, \"source_turns\": [\"t2\"], \"target_fact_id\": null}]}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 2371,
+    "output_tokens": 125,
+    "reasoning_tokens": 0,
+    "total_tokens": 2496
+  }
+}

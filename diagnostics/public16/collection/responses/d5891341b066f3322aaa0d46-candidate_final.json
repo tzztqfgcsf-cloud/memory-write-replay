@@ -1,0 +1,56 @@
+{
+  "call_id": "d5891341b066f3322aaa0d46-candidate_final",
+  "cost_note": "provider_did_not_report_money",
+  "cost_usd_reported": null,
+  "finish_reason": "STOP",
+  "http_status": 200,
+  "latency_seconds": 2.4444,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.015116766121628865,
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"reply\": \"I see, you are looking for a train to Stevenage. What day would you like to travel?\",\n  \"action\": {\n    \"kind\": \"CLARIFY\",\n    \"question_slot\": \"train.semi.day\",\n    \"required_slots\": [],\n    \"speaker_id\": \"system\"\n  },\n  \"memory_decisions\": [\n    {\n      \"alternatives\": [],\n      \"fact\": {\n        \"relation\": \"train.semi.destination\",\n        \"source_turns\": [\n          \"MUL0329.json#turn8\"\n        ],\n        \"subject\": \"MUL0329.json#train.semi\",\n        \"time\": \"unknown\",\n        \"value\": \"stevenage\"\n      },\n      \"operation\": \"CORRECT\",\n      \"slot\": \"train.semi.destination\",\n      \"source_turns\": [\n        \"MUL0329.json#turn8\"\n      ],\n      \"target_fact_id\": \"MUL0329.json#state7#train.semi.destination\"\n    },\n    {\n      \"alternatives\": [],\n      \"fact\": {\n        \"relation\": \"train.semi.leaveAt\",\n        \"source_turns\": [\n          \"MUL0329.json#turn8\"\n        ],\n        \"subject\": \"MUL0329.json#train.semi\",\n        \"time\": \"unknown\",\n        \"value\": \"14:00\"\n      },\n      \"operation\": \"APPEND\",\n      \"slot\": \"train.semi.leaveAt\",\n      \"source_turns\": [\n        \"MUL0329.json#turn8\"\n      ],\n      \"target_fact_id\": null\n    },\n    {\n      \"alternatives\": [],\n      \"fact\": {\n        \"relation\": \"train.semi.day\",\n        \"source_turns\": [\n          \"MUL0329.json#turn8\"\n        ],\n        \"subject\": \"MUL0329.json#train.semi\",\n        \"time\": \"unknown\",\n        \"value\": \"friday\"\n      },\n      \"operation\": \"APPEND\",\n      \"slot\": \"train.semi.day\",\n      \"source_turns\": [\n        \"MUL0329.json#turn8\"\n      ],\n      \"target_fact_id\": null\n    }\n  ]\n}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T23:21:30.166729Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "-qS5asmWCq2BktwPi5PxuQg",
+    "usageMetadata": {
+      "candidatesTokenCount": 563,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 563
+        }
+      ],
+      "promptTokenCount": 2302,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 2302
+        }
+      ],
+      "totalTokenCount": 2865,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "f55ffeb06cc4f3e67d8fcf2a93659ebffdbf728192d01f781811832ffade5d81",
+  "status": "OK",
+  "text": "{\n  \"reply\": \"I see, you are looking for a train to Stevenage. What day would you like to travel?\",\n  \"action\": {\n    \"kind\": \"CLARIFY\",\n    \"question_slot\": \"train.semi.day\",\n    \"required_slots\": [],\n    \"speaker_id\": \"system\"\n  },\n  \"memory_decisions\": [\n    {\n      \"alternatives\": [],\n      \"fact\": {\n        \"relation\": \"train.semi.destination\",\n        \"source_turns\": [\n          \"MUL0329.json#turn8\"\n        ],\n        \"subject\": \"MUL0329.json#train.semi\",\n        \"time\": \"unknown\",\n        \"value\": \"stevenage\"\n      },\n      \"operation\": \"CORRECT\",\n      \"slot\": \"train.semi.destination\",\n      \"source_turns\": [\n        \"MUL0329.json#turn8\"\n      ],\n      \"target_fact_id\": \"MUL0329.json#state7#train.semi.destination\"\n    },\n    {\n      \"alternatives\": [],\n      \"fact\": {\n        \"relation\": \"train.semi.leaveAt\",\n        \"source_turns\": [\n          \"MUL0329.json#turn8\"\n        ],\n        \"subject\": \"MUL0329.json#train.semi\",\n        \"time\": \"unknown\",\n        \"value\": \"14:00\"\n      },\n      \"operation\": \"APPEND\",\n      \"slot\": \"train.semi.leaveAt\",\n      \"source_turns\": [\n        \"MUL0329.json#turn8\"\n      ],\n      \"target_fact_id\": null\n    },\n    {\n      \"alternatives\": [],\n      \"fact\": {\n        \"relation\": \"train.semi.day\",\n        \"source_turns\": [\n          \"MUL0329.json#turn8\"\n        ],\n        \"subject\": \"MUL0329.json#train.semi\",\n        \"time\": \"unknown\",\n        \"value\": \"friday\"\n      },\n      \"operation\": \"APPEND\",\n      \"slot\": \"train.semi.day\",\n      \"source_turns\": [\n        \"MUL0329.json#turn8\"\n      ],\n      \"target_fact_id\": null\n    }\n  ]\n}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 2302,
+    "output_tokens": 563,
+    "reasoning_tokens": 0,
+    "total_tokens": 2865
+  }
+}

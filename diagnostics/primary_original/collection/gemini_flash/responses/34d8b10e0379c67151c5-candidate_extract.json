@@ -1,0 +1,57 @@
+{
+  "call_id": "34d8b10e0379c67151c5-candidate_extract",
+  "finish_reason": "STOP",
+  "finished_unix": 1790489943.383929,
+  "http_status": 200,
+  "latency_seconds": 1.4498,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.006266018395782799,
+        "content": {
+          "parts": [
+            {
+              "text": "{\"beliefs\": [{\"candidate_id\": \"c1\", \"facts\": []}, {\"candidate_id\": \"c2\", \"facts\": []}], \"correction_witnesses\": [{\"candidate_id\": \"c1\", \"evidence_quote\": \"수채화\", \"new_value\": \"수채화\", \"polarity\": \"affirmed\", \"relation\": \"hobby\", \"source_turn\": \"t2\", \"subject\": \"participant\", \"target_fact_id\": \"f1\", \"time\": \"present\"}, {\"candidate_id\": \"c2\", \"evidence_quote\": \"수채화\", \"new_value\": \"수채화\", \"polarity\": \"affirmed\", \"relation\": \"hobby\", \"source_turn\": \"t2\", \"subject\": \"participant\", \"target_fact_id\": \"f1\", \"time\": \"present\"}]}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T06:19:02.060461Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "VrW4aq3YA7OKktwPsejJ4QY",
+    "usageMetadata": {
+      "candidatesTokenCount": 186,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 186
+        }
+      ],
+      "promptTokenCount": 1692,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1692
+        }
+      ],
+      "totalTokenCount": 1878,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "93ce2177378e0ba732395647ddacdfed8a303667bd08eafd71e07ffa09df044a",
+  "stage_schema_sha256": "bda7326ac6a6cbeedf1ecdbf4a2b08277c078351d6689f667dc0d558c4972dd3",
+  "started_unix": 1790489941.933752,
+  "status": "OK",
+  "text": "{\"beliefs\": [{\"candidate_id\": \"c1\", \"facts\": []}, {\"candidate_id\": \"c2\", \"facts\": []}], \"correction_witnesses\": [{\"candidate_id\": \"c1\", \"evidence_quote\": \"수채화\", \"new_value\": \"수채화\", \"polarity\": \"affirmed\", \"relation\": \"hobby\", \"source_turn\": \"t2\", \"subject\": \"participant\", \"target_fact_id\": \"f1\", \"time\": \"present\"}, {\"candidate_id\": \"c2\", \"evidence_quote\": \"수채화\", \"new_value\": \"수채화\", \"polarity\": \"affirmed\", \"relation\": \"hobby\", \"source_turn\": \"t2\", \"subject\": \"participant\", \"target_fact_id\": \"f1\", \"time\": \"present\"}]}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1692,
+    "output_tokens": 186,
+    "reasoning_tokens": 0,
+    "total_tokens": 1878
+  }
+}

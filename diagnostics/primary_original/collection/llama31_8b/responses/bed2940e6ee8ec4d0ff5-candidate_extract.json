@@ -1,0 +1,36 @@
+{
+  "call_id": "bed2940e6ee8ec4d0ff5-candidate_extract",
+  "error_type": null,
+  "finish_reason": "stop",
+  "finished_unix": 1790490287.830658,
+  "latency_seconds": 13.8969,
+  "model_version": "mlx-community/Llama-3.1-8B-Instruct-4bit",
+  "raw_response": {
+    "base_seed": 20260927,
+    "finish_reason": "stop",
+    "generation_calls": 165,
+    "id": "local-c498fe4f96c4798286ae2388",
+    "seed": 412740209,
+    "snapshot": "<LOCAL_PATH>",
+    "text": "{\"beliefs\": [{\"candidate_id\": \"c1\", \"facts\": [{\"relation\": \"learned_from\", \"source_turns\": [\"t1\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"강 선생\"}]}, {\"candidate_id\": \"c2\", \"facts\": [{\"relation\": \"learned_from\", \"source_turns\": [\"t1\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"강 선생\"}]}], \"correction_witnesses\": [{\"candidate_id\": \"c1\", \"evidence_quote\": \"동창은 강 선생님이라고 기억한대요. 누구 기억이 맞는지 모르니 선생님 이름은 보류해요.\", \"new_value\": \"강 선생\", \"polarity\": \"uncertain\", \"relation\": \"learned_from\", \"source_turn\": \"t2\", \"subject\": \"participant\", \"target_fact_id\": \"f1\", \"time\": \"past\"}, {\"candidate_id\": \"c2\", \"evidence_quote\": \"강 선생님이었다고 동창은 그러네요. 아직 모르겠어요, 배운 분 기록은 건드리지 마요.\", \"new_value\": \"강 선생\", \"polarity\": \"uncertain\", \"relation\": \"learned_from\", \"source_turn\": \"t2\", \"subject\": \"participant\", \"target_fact_id\": \"f1\", \"time\": \"past\"}]}",
+    "usage": {
+      "cached_tokens": null,
+      "input_tokens": 1758,
+      "output_tokens": 304,
+      "reasoning_tokens": null,
+      "total_tokens": 2062
+    }
+  },
+  "request_sha256": "abfc9f27c9fa7b7c6d0813306fb5d73e2d36b7b32a1412f1034b90fa4f7be10a",
+  "stage_schema_sha256": "bda7326ac6a6cbeedf1ecdbf4a2b08277c078351d6689f667dc0d558c4972dd3",
+  "started_unix": 1790490273.933372,
+  "status": "OK",
+  "text": "{\"beliefs\": [{\"candidate_id\": \"c1\", \"facts\": [{\"relation\": \"learned_from\", \"source_turns\": [\"t1\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"강 선생\"}]}, {\"candidate_id\": \"c2\", \"facts\": [{\"relation\": \"learned_from\", \"source_turns\": [\"t1\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"강 선생\"}]}], \"correction_witnesses\": [{\"candidate_id\": \"c1\", \"evidence_quote\": \"동창은 강 선생님이라고 기억한대요. 누구 기억이 맞는지 모르니 선생님 이름은 보류해요.\", \"new_value\": \"강 선생\", \"polarity\": \"uncertain\", \"relation\": \"learned_from\", \"source_turn\": \"t2\", \"subject\": \"participant\", \"target_fact_id\": \"f1\", \"time\": \"past\"}, {\"candidate_id\": \"c2\", \"evidence_quote\": \"강 선생님이었다고 동창은 그러네요. 아직 모르겠어요, 배운 분 기록은 건드리지 마요.\", \"new_value\": \"강 선생\", \"polarity\": \"uncertain\", \"relation\": \"learned_from\", \"source_turn\": \"t2\", \"subject\": \"participant\", \"target_fact_id\": \"f1\", \"time\": \"past\"}]}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1758,
+    "output_tokens": 304,
+    "reasoning_tokens": null,
+    "total_tokens": 2062
+  }
+}

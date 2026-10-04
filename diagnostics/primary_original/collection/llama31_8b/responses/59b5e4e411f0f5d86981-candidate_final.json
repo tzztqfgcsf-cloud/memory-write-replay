@@ -1,0 +1,36 @@
+{
+  "call_id": "59b5e4e411f0f5d86981-candidate_final",
+  "error_type": null,
+  "finish_reason": "stop",
+  "finished_unix": 1790496396.685287,
+  "latency_seconds": 7.7357,
+  "model_version": "mlx-community/Llama-3.1-8B-Instruct-4bit",
+  "raw_response": {
+    "base_seed": 20260927,
+    "finish_reason": "stop",
+    "generation_calls": 730,
+    "id": "local-59d4f4daae653784bd477d99",
+    "seed": 1419227013,
+    "snapshot": "<LOCAL_PATH>",
+    "text": "{\"action\": {\"kind\": \"CLARIFY\", \"question_slot\": \"shop_name\", \"required_slots\": [\"shop_name\"], \"speaker_id\": \"p1\"}, \"memory_decisions\": [], \"reply\": \"가게 이름이 달빛김밥으로 바뀌었어요. 연락은 전화 그대로니까 상호만 고쳐요.\"}",
+    "usage": {
+      "cached_tokens": null,
+      "input_tokens": 1880,
+      "output_tokens": 77,
+      "reasoning_tokens": null,
+      "total_tokens": 1957
+    }
+  },
+  "request_sha256": "0fda0bf501208e2bd665aa3f6af1a44d8108223336eb399acc4470d25cfb6dd9",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790496388.949206,
+  "status": "OK",
+  "text": "{\"action\": {\"kind\": \"CLARIFY\", \"question_slot\": \"shop_name\", \"required_slots\": [\"shop_name\"], \"speaker_id\": \"p1\"}, \"memory_decisions\": [], \"reply\": \"가게 이름이 달빛김밥으로 바뀌었어요. 연락은 전화 그대로니까 상호만 고쳐요.\"}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1880,
+    "output_tokens": 77,
+    "reasoning_tokens": null,
+    "total_tokens": 1957
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "status": "OK",
+  "http_status": 200,
+  "text": "{\"beliefs\": [{\"candidate_id\": \"c1\", \"facts\": []}, {\"candidate_id\": \"c2\", \"facts\": []}], \"correction_witnesses\": [{\"candidate_id\": \"c1\", \"evidence_quote\": \"광주로 이사한 건 아니에요.\", \"new_value\": \"대전\", \"polarity\": \"negated\", \"relation\": \"residence\", \"source_turn\": \"t2\", \"subject\": \"participant\", \"target_fact_id\": \"f1\", \"time\": \"present\"}, {\"candidate_id\": \"c2\", \"evidence_quote\": \"광주로 옮긴 게 아닙니다.\", \"new_value\": \"대전\", \"polarity\": \"negated\", \"relation\": \"residence\", \"source_turn\": \"t2\", \"subject\": \"participant\", \"target_fact_id\": \"f1\", \"time\": \"present\"}]}",
+  "usage": {
+    "input_tokens": 1686,
+    "output_tokens": 195,
+    "reasoning_tokens": 0,
+    "total_tokens": 1881,
+    "cached_tokens": null
+  },
+  "finish_reason": "STOP",
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "content": {
+          "role": "model",
+          "parts": [
+            {
+              "text": "{\"beliefs\": [{\"candidate_id\": \"c1\", \"facts\": []}, {\"candidate_id\": \"c2\", \"facts\": []}], \"correction_witnesses\": [{\"candidate_id\": \"c1\", \"evidence_quote\": \"광주로 이사한 건 아니에요.\", \"new_value\": \"대전\", \"polarity\": \"negated\", \"relation\": \"residence\", \"source_turn\": \"t2\", \"subject\": \"participant\", \"target_fact_id\": \"f1\", \"time\": \"present\"}, {\"candidate_id\": \"c2\", \"evidence_quote\": \"광주로 옮긴 게 아닙니다.\", \"new_value\": \"대전\", \"polarity\": \"negated\", \"relation\": \"residence\", \"source_turn\": \"t2\", \"subject\": \"participant\", \"target_fact_id\": \"f1\", \"time\": \"present\"}]}"
+            }
+          ]
+        },
+        "finishReason": "STOP",
+        "avgLogprobs": -0.004966161495599991
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 1686,
+      "candidatesTokenCount": 195,
+      "totalTokenCount": 1881,
+      "trafficType": "ON_DEMAND",
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1686
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 195
+        }
+      ]
+    },
+    "modelVersion": "gemini-2.5-flash",
+    "createTime": "2026-09-27T11:24:12.780262Z",
+    "responseId": "3Py4aubPL_uj0ckPyLyQmAM"
+  },
+  "latency_seconds": 1.4666,
+  "call_id": "N014-candidate_extract",
+  "physical_attempt": true,
+  "completed_unix": 1790508254.130513
+}

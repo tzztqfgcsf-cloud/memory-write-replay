@@ -1,0 +1,20 @@
+{
+  "status": "OK",
+  "http_status": 200,
+  "text": "{\"decisions\": [{\"index\": 0, \"approve\": true, \"reason\": \"사용자가 어릴 때 취미로 우표수집을 했다고 명시적으로 언급하였으므로 APPEND가 정당함.\"}]}",
+  "usage": {
+    "input_tokens": 752,
+    "output_tokens": 48,
+    "reasoning_tokens": 0,
+    "total_tokens": 800,
+    "cached_tokens": null
+  },
+  "finish_reason": "STOP",
+  "model_version": "gemini-3.1-pro-preview",
+  "id": "qwen3_14b_CT20_judge",
+  "key": "qwen3_14b_CT20",
+  "stage": "judge",
+  "arm": "judge",
+  "requested_model": "gemini-3.1-pro-preview",
+  "latency_seconds": 2.3556244999635965
+}

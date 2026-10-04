@@ -1,0 +1,49 @@
+{
+  "experiment_id": "paper_mechanism_validation_20261004",
+  "status": "FROZEN",
+  "source": "48 reused authored Korean cases; retrospective intervention diagnostic, not independent confirmation",
+  "selection": "One saved repetition per case/model; five Flash focal cases choose earliest observed CORRECT hold, all other cases repeat1. Report focal separately. Selection fixed before new responses.",
+  "extractor_comparison": "Original vs single prewritten corrected prompt, same schema/model/settings; gate both against the identical archived candidate proposal, not regenerated whole pipeline.",
+  "modern_comparison": "Gemini3.8 original/corrected extraction on own archived proposals. Current extractor applicability, not new end-to-end model benchmark.",
+  "verifier_comparison": "Gemini3.1 Pro approves/holds each APPEND/CORRECT on saved Review proposals from Flash2.5,Flash3.8,Qwen3 14B,48each; evaluate all four deterministic policies from same archive as contrasts. Shared frozen executor.",
+  "maximum_attempts": 336,
+  "retry": 0,
+  "parallel": 2,
+  "output_token_cap": 8192,
+  "input_bytes_cap": 32000,
+  "budget_guard_usd": 20,
+  "budget_rates_upper_bound": {
+    "input_per_million": 2,
+    "output_including_reasoning_per_million": 12
+  },
+  "rates_note": "Conservative accounting guard, not billing rate; invoice cost unmeasured.",
+  "temperature": 0.2,
+  "thinking": {
+    "gemini-2.5-flash": {
+      "thinkingBudget": 0
+    },
+    "gemini-3.8-flash": {
+      "thinkingLevel": "LOW"
+    },
+    "gemini-3.1-pro-preview": {
+      "thinkingLevel": "LOW"
+    }
+  },
+  "stop": "First HTTP401/403 stops all; first model404/transport/provider failure stops affected model; no retry; hash drift stops; max336calls; budget20USD conservative; duration60min; invalidJSON counts system failure, no repair.",
+  "metrics": [
+    "CORRECT hold",
+    "corrected tuple in all reading fact lists",
+    "strict correction",
+    "positive change",
+    "reference violation",
+    "whole-state conformity",
+    "validity",
+    "latency",
+    "input/output/thought tokens"
+  ],
+  "analysis": "One final analysis; no prompt selection after output. 48 case paired bootstrap5000seed20261004, five focal descriptive. No original score overwrite.",
+  "training": 0,
+  "new_services": 0,
+  "reference_role": "authored specification, not human gold",
+  "paper": "TIST_v20 unchanged; produce supplement after results."
+}

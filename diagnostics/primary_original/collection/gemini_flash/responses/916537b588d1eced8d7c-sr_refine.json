@@ -1,0 +1,57 @@
+{
+  "call_id": "916537b588d1eced8d7c-sr_refine",
+  "finish_reason": "STOP",
+  "finished_unix": 1790494606.059979,
+  "http_status": 200,
+  "latency_seconds": 1.3838,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.001278860287533866,
+        "content": {
+          "parts": [
+            {
+              "text": "{\"reply\": \"오산에 사시는군요. 해당 정보를 저장해도 될지 여쭤봐도 될까요?\", \"action\": {\"kind\": \"CLARIFY\", \"question_slot\": \"topic_permission\", \"required_slots\": [\"topic_permission\"], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [], \"fact\": {\"relation\": \"residence\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"오산\"}, \"operation\": \"NO_WRITE\", \"slot\": null, \"source_turns\": [\"t2\"], \"target_fact_id\": null}]}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T07:36:44.838796Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "jMe4aoyZM5-cx9gPtNDSwA0",
+    "usageMetadata": {
+      "candidatesTokenCount": 144,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 144
+        }
+      ],
+      "promptTokenCount": 2181,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 2181
+        }
+      ],
+      "totalTokenCount": 2325,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "51e6a4d842026cb5c085097cb47789ed352183a98e7d66db71e3bca4dca43d19",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790494604.675283,
+  "status": "OK",
+  "text": "{\"reply\": \"오산에 사시는군요. 해당 정보를 저장해도 될지 여쭤봐도 될까요?\", \"action\": {\"kind\": \"CLARIFY\", \"question_slot\": \"topic_permission\", \"required_slots\": [\"topic_permission\"], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [], \"fact\": {\"relation\": \"residence\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"오산\"}, \"operation\": \"NO_WRITE\", \"slot\": null, \"source_turns\": [\"t2\"], \"target_fact_id\": null}]}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 2181,
+    "output_tokens": 144,
+    "reasoning_tokens": 0,
+    "total_tokens": 2325
+  }
+}

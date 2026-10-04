@@ -1,0 +1,57 @@
+{
+  "call_id": "5931bc60a4676fd10a98-candidate_extract",
+  "finish_reason": "STOP",
+  "finished_unix": 1790493998.342437,
+  "http_status": 200,
+  "latency_seconds": 2.0062,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.005036590075252032,
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"beliefs\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"facts\": [\n        {\n          \"relation\": \"event_year\",\n          \"source_turns\": [\n            \"t2\"\n          ],\n          \"subject\": \"participant's farm opening\",\n          \"time\": \"past\",\n          \"value\": \"2003\"\n        }\n      ]\n    },\n    {\n      \"candidate_id\": \"c2\",\n      \"facts\": [\n        {\n          \"relation\": \"event_year\",\n          \"source_turns\": [\n            \"t2\"\n          ],\n          \"subject\": \"participant's farm opening\",\n          \"time\": \"past\",\n          \"value\": \"2003\"\n        }\n      ]\n    }\n  ],\n  \"correction_witnesses\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"evidence_quote\": \"\",\n      \"new_value\": \"서안농장\",\n      \"polarity\": \"absent\",\n      \"relation\": \"workplace\",\n      \"source_turn\": \"t2\",\n      \"subject\": \"participant\",\n      \"target_fact_id\": \"f1\",\n      \"time\": \"present\"\n    },\n    {\n      \"candidate_id\": \"c2\",\n      \"evidence_quote\": \"\",\n      \"new_value\": \"서안농장\",\n      \"polarity\": \"absent\",\n      \"relation\": \"workplace\",\n      \"source_turn\": \"t2\",\n      \"subject\": \"participant\",\n      \"target_fact_id\": \"f1\",\n      \"time\": \"present\"\n    }\n  ]\n}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T07:26:36.417529Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "LMW4avm9GZyi0ckPm9nakA0",
+    "usageMetadata": {
+      "candidatesTokenCount": 396,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 396
+        }
+      ],
+      "promptTokenCount": 1695,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1695
+        }
+      ],
+      "totalTokenCount": 2091,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "0c0e5e01e1920ead823910f1201c81b9c5977024f4d974b697685f9f428b46f1",
+  "stage_schema_sha256": "bda7326ac6a6cbeedf1ecdbf4a2b08277c078351d6689f667dc0d558c4972dd3",
+  "started_unix": 1790493996.335971,
+  "status": "OK",
+  "text": "{\n  \"beliefs\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"facts\": [\n        {\n          \"relation\": \"event_year\",\n          \"source_turns\": [\n            \"t2\"\n          ],\n          \"subject\": \"participant's farm opening\",\n          \"time\": \"past\",\n          \"value\": \"2003\"\n        }\n      ]\n    },\n    {\n      \"candidate_id\": \"c2\",\n      \"facts\": [\n        {\n          \"relation\": \"event_year\",\n          \"source_turns\": [\n            \"t2\"\n          ],\n          \"subject\": \"participant's farm opening\",\n          \"time\": \"past\",\n          \"value\": \"2003\"\n        }\n      ]\n    }\n  ],\n  \"correction_witnesses\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"evidence_quote\": \"\",\n      \"new_value\": \"서안농장\",\n      \"polarity\": \"absent\",\n      \"relation\": \"workplace\",\n      \"source_turn\": \"t2\",\n      \"subject\": \"participant\",\n      \"target_fact_id\": \"f1\",\n      \"time\": \"present\"\n    },\n    {\n      \"candidate_id\": \"c2\",\n      \"evidence_quote\": \"\",\n      \"new_value\": \"서안농장\",\n      \"polarity\": \"absent\",\n      \"relation\": \"workplace\",\n      \"source_turn\": \"t2\",\n      \"subject\": \"participant\",\n      \"target_fact_id\": \"f1\",\n      \"time\": \"present\"\n    }\n  ]\n}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1695,
+    "output_tokens": 396,
+    "reasoning_tokens": 0,
+    "total_tokens": 2091
+  }
+}

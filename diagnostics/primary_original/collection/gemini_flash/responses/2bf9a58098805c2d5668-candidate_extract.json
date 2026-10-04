@@ -1,0 +1,57 @@
+{
+  "call_id": "2bf9a58098805c2d5668-candidate_extract",
+  "finish_reason": "STOP",
+  "finished_unix": 1790497133.102756,
+  "http_status": 200,
+  "latency_seconds": 1.5649,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.007884101271629333,
+        "content": {
+          "parts": [
+            {
+              "text": "{\"beliefs\": [{\"candidate_id\": \"c1\", \"facts\": []}, {\"candidate_id\": \"c2\", \"facts\": []}], \"correction_witnesses\": [{\"candidate_id\": \"c1\", \"evidence_quote\": \"시민운동장으로 고쳐요\", \"new_value\": \"시민운동장\", \"polarity\": \"affirmed\", \"relation\": \"meeting_place\", \"source_turn\": \"t2\", \"subject\": \"participant\", \"target_fact_id\": \"f1\", \"time\": \"present\"}, {\"candidate_id\": \"c2\", \"evidence_quote\": \"시민운동장으로 해요\", \"new_value\": \"시민운동장\", \"polarity\": \"affirmed\", \"relation\": \"meeting_place\", \"source_turn\": \"t2\", \"subject\": \"participant\", \"target_fact_id\": \"f1\", \"time\": \"present\"}]}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T08:18:51.700042Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "a9G4aordKtOH0ckPuLmDuA8",
+    "usageMetadata": {
+      "candidatesTokenCount": 200,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 200
+        }
+      ],
+      "promptTokenCount": 1706,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1706
+        }
+      ],
+      "totalTokenCount": 1906,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "1631759182b23153b85c24e978d5d39de7ebf244363ad0b6bf4b53ea165379a9",
+  "stage_schema_sha256": "bda7326ac6a6cbeedf1ecdbf4a2b08277c078351d6689f667dc0d558c4972dd3",
+  "started_unix": 1790497131.537514,
+  "status": "OK",
+  "text": "{\"beliefs\": [{\"candidate_id\": \"c1\", \"facts\": []}, {\"candidate_id\": \"c2\", \"facts\": []}], \"correction_witnesses\": [{\"candidate_id\": \"c1\", \"evidence_quote\": \"시민운동장으로 고쳐요\", \"new_value\": \"시민운동장\", \"polarity\": \"affirmed\", \"relation\": \"meeting_place\", \"source_turn\": \"t2\", \"subject\": \"participant\", \"target_fact_id\": \"f1\", \"time\": \"present\"}, {\"candidate_id\": \"c2\", \"evidence_quote\": \"시민운동장으로 해요\", \"new_value\": \"시민운동장\", \"polarity\": \"affirmed\", \"relation\": \"meeting_place\", \"source_turn\": \"t2\", \"subject\": \"participant\", \"target_fact_id\": \"f1\", \"time\": \"present\"}]}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1706,
+    "output_tokens": 200,
+    "reasoning_tokens": 0,
+    "total_tokens": 1906
+  }
+}

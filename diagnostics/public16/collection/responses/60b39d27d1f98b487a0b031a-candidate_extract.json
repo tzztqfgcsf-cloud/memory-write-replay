@@ -1,0 +1,56 @@
+{
+  "call_id": "60b39d27d1f98b487a0b031a-candidate_extract",
+  "cost_note": "provider_did_not_report_money",
+  "cost_usd_reported": null,
+  "finish_reason": "STOP",
+  "http_status": 200,
+  "latency_seconds": 2.4108,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.0017540289912112924,
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"beliefs\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"facts\": [\n        {\n          \"relation\": \"train.semi.destination\",\n          \"source_turns\": [\n            \"PMUL1690.json#turn4\"\n          ],\n          \"subject\": \"PMUL1690.json#train.semi\",\n          \"time\": \"unknown\",\n          \"value\": \"cambridge\"\n        },\n        {\n          \"relation\": \"train.semi.day\",\n          \"source_turns\": [\n            \"PMUL1690.json#turn4\"\n          ],\n          \"subject\": \"PMUL1690.json#train.semi\",\n          \"time\": \"unknown\",\n          \"value\": \"monday\"\n        },\n        {\n          \"relation\": \"train.semi.leaveAt\",\n          \"source_turns\": [\n            \"PMUL1690.json#turn4\"\n          ],\n          \"subject\": \"PMUL1690.json#train.semi\",\n          \"time\": \"unknown\",\n          \"value\": \"21:15\"\n        }\n      ]\n    }\n  ],\n  \"correction_witnesses\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"target_fact_id\": \"PMUL1690.json#state3#train.semi.destination\",\n      \"subject\": \"PMUL1690.json#train.semi\",\n      \"relation\": \"train.semi.destination\",\n      \"time\": \"unknown\",\n      \"new_value\": \"cambridge\",\n      \"source_turn\": \"PMUL1690.json#turn4\",\n      \"evidence_quote\": \"I meant Cambridge please.\",\n      \"polarity\": \"affirmed\"\n    }\n  ]\n}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T23:27:20.613078Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "WKa5ata1JdCNx9gP07myoAQ",
+    "usageMetadata": {
+      "candidatesTokenCount": 430,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 430
+        }
+      ],
+      "promptTokenCount": 1540,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1540
+        }
+      ],
+      "totalTokenCount": 1970,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "79ccef8441498007d06b66f76b3bcb2a33f40c253b061044943bf13dd482f623",
+  "status": "OK",
+  "text": "{\n  \"beliefs\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"facts\": [\n        {\n          \"relation\": \"train.semi.destination\",\n          \"source_turns\": [\n            \"PMUL1690.json#turn4\"\n          ],\n          \"subject\": \"PMUL1690.json#train.semi\",\n          \"time\": \"unknown\",\n          \"value\": \"cambridge\"\n        },\n        {\n          \"relation\": \"train.semi.day\",\n          \"source_turns\": [\n            \"PMUL1690.json#turn4\"\n          ],\n          \"subject\": \"PMUL1690.json#train.semi\",\n          \"time\": \"unknown\",\n          \"value\": \"monday\"\n        },\n        {\n          \"relation\": \"train.semi.leaveAt\",\n          \"source_turns\": [\n            \"PMUL1690.json#turn4\"\n          ],\n          \"subject\": \"PMUL1690.json#train.semi\",\n          \"time\": \"unknown\",\n          \"value\": \"21:15\"\n        }\n      ]\n    }\n  ],\n  \"correction_witnesses\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"target_fact_id\": \"PMUL1690.json#state3#train.semi.destination\",\n      \"subject\": \"PMUL1690.json#train.semi\",\n      \"relation\": \"train.semi.destination\",\n      \"time\": \"unknown\",\n      \"new_value\": \"cambridge\",\n      \"source_turn\": \"PMUL1690.json#turn4\",\n      \"evidence_quote\": \"I meant Cambridge please.\",\n      \"polarity\": \"affirmed\"\n    }\n  ]\n}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1540,
+    "output_tokens": 430,
+    "reasoning_tokens": 0,
+    "total_tokens": 1970
+  }
+}

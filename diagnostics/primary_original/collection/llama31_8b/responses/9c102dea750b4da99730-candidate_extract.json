@@ -1,0 +1,36 @@
+{
+  "call_id": "9c102dea750b4da99730-candidate_extract",
+  "error_type": null,
+  "finish_reason": "stop",
+  "finished_unix": 1790493695.482974,
+  "latency_seconds": 13.8482,
+  "model_version": "mlx-community/Llama-3.1-8B-Instruct-4bit",
+  "raw_response": {
+    "base_seed": 20260927,
+    "finish_reason": "stop",
+    "generation_calls": 465,
+    "id": "local-5b545dcd0663cd30949c2e90",
+    "seed": 1899072851,
+    "snapshot": "<LOCAL_PATH>",
+    "text": "{\"beliefs\": [{\"candidate_id\": \"c1\", \"facts\": [{\"relation\": \"learned_from\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"o 선생님\"}]}, {\"candidate_id\": \"c2\", \"facts\": [{\"relation\": \"learned_from\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"o 선생님\"}]}], \"correction_witnesses\": [{\"candidate_id\": \"c1\", \"evidence_quote\": \"기타는 오 선생님께 배웠어요. 오 선생님이라고 기억해 주세요.\", \"new_value\": \"o 선생님\", \"polarity\": \"affirmed\", \"relation\": \"learned_from\", \"source_turn\": \"t2\", \"subject\": \"participant\", \"target_fact_id\": \"f1\", \"time\": \"past\"}, {\"candidate_id\": \"c2\", \"evidence_quote\": \"기타를, 오 선생님한테 배웠어요. 오 선생님이라고 기억해 둬요.\", \"new_value\": \"o 선생님\", \"polarity\": \"affirmed\", \"relation\": \"learned_from\", \"source_turn\": \"t2\", \"subject\": \"participant\", \"target_fact_id\": \"f1\", \"time\": \"past\"}]}",
+    "usage": {
+      "cached_tokens": null,
+      "input_tokens": 1742,
+      "output_tokens": 290,
+      "reasoning_tokens": null,
+      "total_tokens": 2032
+    }
+  },
+  "request_sha256": "12abd0ce572171929de8152ca2be0c501a5a8b1b3a1f54b6136eea483b1d59e7",
+  "stage_schema_sha256": "bda7326ac6a6cbeedf1ecdbf4a2b08277c078351d6689f667dc0d558c4972dd3",
+  "started_unix": 1790493681.634335,
+  "status": "OK",
+  "text": "{\"beliefs\": [{\"candidate_id\": \"c1\", \"facts\": [{\"relation\": \"learned_from\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"o 선생님\"}]}, {\"candidate_id\": \"c2\", \"facts\": [{\"relation\": \"learned_from\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"o 선생님\"}]}], \"correction_witnesses\": [{\"candidate_id\": \"c1\", \"evidence_quote\": \"기타는 오 선생님께 배웠어요. 오 선생님이라고 기억해 주세요.\", \"new_value\": \"o 선생님\", \"polarity\": \"affirmed\", \"relation\": \"learned_from\", \"source_turn\": \"t2\", \"subject\": \"participant\", \"target_fact_id\": \"f1\", \"time\": \"past\"}, {\"candidate_id\": \"c2\", \"evidence_quote\": \"기타를, 오 선생님한테 배웠어요. 오 선생님이라고 기억해 둬요.\", \"new_value\": \"o 선생님\", \"polarity\": \"affirmed\", \"relation\": \"learned_from\", \"source_turn\": \"t2\", \"subject\": \"participant\", \"target_fact_id\": \"f1\", \"time\": \"past\"}]}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1742,
+    "output_tokens": 290,
+    "reasoning_tokens": null,
+    "total_tokens": 2032
+  }
+}

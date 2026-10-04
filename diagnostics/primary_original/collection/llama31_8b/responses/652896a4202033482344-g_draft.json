@@ -1,0 +1,36 @@
+{
+  "call_id": "652896a4202033482344-g_draft",
+  "error_type": null,
+  "finish_reason": "stop",
+  "finished_unix": 1790494755.24271,
+  "latency_seconds": 8.9865,
+  "model_version": "mlx-community/Llama-3.1-8B-Instruct-4bit",
+  "raw_response": {
+    "base_seed": 20260927,
+    "finish_reason": "stop",
+    "generation_calls": 571,
+    "id": "local-d98e73b403ee9cad08987c60",
+    "seed": 150399631,
+    "snapshot": "<LOCAL_PATH>",
+    "text": "{\"action\": {\"kind\": \"CONTINUE\", \"question_slot\": \"shop_name\", \"required_slots\": [\"shop_name\"], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"푸른방앗간\"], \"fact\": {\"relation\": \"shop_name\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"푸른방앗간\"}, \"operation\": \"APPEND\", \"slot\": \"shop_name\", \"source_turns\": [\"t2\"], \"target_fact_id\": null}], \"reply\": \"푸른방앗간이에요.\"}",
+    "usage": {
+      "cached_tokens": null,
+      "input_tokens": 1705,
+      "output_tokens": 138,
+      "reasoning_tokens": null,
+      "total_tokens": 1843
+    }
+  },
+  "request_sha256": "c587680e02d7b940b63280083a7bd5ce7674eee20b7e7464f0c1d9121310115e",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790494746.255724,
+  "status": "OK",
+  "text": "{\"action\": {\"kind\": \"CONTINUE\", \"question_slot\": \"shop_name\", \"required_slots\": [\"shop_name\"], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"푸른방앗간\"], \"fact\": {\"relation\": \"shop_name\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"푸른방앗간\"}, \"operation\": \"APPEND\", \"slot\": \"shop_name\", \"source_turns\": [\"t2\"], \"target_fact_id\": null}], \"reply\": \"푸른방앗간이에요.\"}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1705,
+    "output_tokens": 138,
+    "reasoning_tokens": null,
+    "total_tokens": 1843
+  }
+}

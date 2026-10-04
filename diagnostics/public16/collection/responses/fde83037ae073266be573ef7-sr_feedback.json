@@ -1,0 +1,56 @@
+{
+  "call_id": "fde83037ae073266be573ef7-sr_feedback",
+  "cost_note": "provider_did_not_report_money",
+  "cost_usd_reported": null,
+  "finish_reason": "STOP",
+  "http_status": 200,
+  "latency_seconds": 7.5016,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.13248857188763316,
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"no_change_needed\": false,\n  \"issues\": [\n    {\n      \"draft_location\": \"fallible_initial_draft.memory_decisions[0].operation\",\n      \"evidence_location\": \"input.candidate.text\",\n      \"problem\": \"The operation should be HOLD because the user is clarifying a previous statement, not correcting an existing fact. The previous value '845' was an interpretation of 'Anytime after 8:45', and the user is now explicitly stating 'after 20:45'. This is a clarification of a constraint, not a direct correction of a previously asserted fact.\",\n      \"specific_revision\": \"Change 'CORRECT' to 'HOLD'.\"\n    },\n    {\n      \"draft_location\": \"fallible_initial_draft.memory_decisions[0].fact.value\",\n      \"evidence_location\": \"input.candidate.text\",\n      \"problem\": \"The value should reflect the 'after' constraint as stated by the user, not just the time itself. The user explicitly said 'after 20:45'.\",\n      \"specific_revision\": \"Change '20:45' to 'after 20:45'.\"\n    },\n    {\n      \"draft_location\": \"fallible_initial_draft.action.kind\",\n      \"evidence_location\": \"input.candidate.text\",\n      \"problem\": \"The user's utterance 'I meant to say I want to leave after 20:45' is a direct statement of intent, not a question that requires clarification from the system. The system should acknowledge and update the state based on this new information.\",\n      \"specific_revision\": \"Change 'CLARIFY' to 'UPDATE'.\"\n    },\n    {\n      \"draft_location\": \"fallible_initial_draft.action.question_slot\",\n      \"evidence_location\": \"input.candidate.text\",\n      \"problem\": \"Since the action kind is not 'CLARIFY', there should be no 'question_slot'. The user is providing information, not asking for clarification.\",\n      \"specific_revision\": \"Remove 'question_slot'.\"\n    }\n  ]\n}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T22:53:09.607220Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "VZ65avSHJbOLx9gPv4OY6A4",
+    "usageMetadata": {
+      "candidatesTokenCount": 487,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 487
+        }
+      ],
+      "promptTokenCount": 1203,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1203
+        }
+      ],
+      "totalTokenCount": 1690,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "5c9da7509a62b17cc90b36a2b92af7b31780f1186f3ba3d9467b5dc4d0d379fd",
+  "status": "OK",
+  "text": "{\n  \"no_change_needed\": false,\n  \"issues\": [\n    {\n      \"draft_location\": \"fallible_initial_draft.memory_decisions[0].operation\",\n      \"evidence_location\": \"input.candidate.text\",\n      \"problem\": \"The operation should be HOLD because the user is clarifying a previous statement, not correcting an existing fact. The previous value '845' was an interpretation of 'Anytime after 8:45', and the user is now explicitly stating 'after 20:45'. This is a clarification of a constraint, not a direct correction of a previously asserted fact.\",\n      \"specific_revision\": \"Change 'CORRECT' to 'HOLD'.\"\n    },\n    {\n      \"draft_location\": \"fallible_initial_draft.memory_decisions[0].fact.value\",\n      \"evidence_location\": \"input.candidate.text\",\n      \"problem\": \"The value should reflect the 'after' constraint as stated by the user, not just the time itself. The user explicitly said 'after 20:45'.\",\n      \"specific_revision\": \"Change '20:45' to 'after 20:45'.\"\n    },\n    {\n      \"draft_location\": \"fallible_initial_draft.action.kind\",\n      \"evidence_location\": \"input.candidate.text\",\n      \"problem\": \"The user's utterance 'I meant to say I want to leave after 20:45' is a direct statement of intent, not a question that requires clarification from the system. The system should acknowledge and update the state based on this new information.\",\n      \"specific_revision\": \"Change 'CLARIFY' to 'UPDATE'.\"\n    },\n    {\n      \"draft_location\": \"fallible_initial_draft.action.question_slot\",\n      \"evidence_location\": \"input.candidate.text\",\n      \"problem\": \"Since the action kind is not 'CLARIFY', there should be no 'question_slot'. The user is providing information, not asking for clarification.\",\n      \"specific_revision\": \"Remove 'question_slot'.\"\n    }\n  ]\n}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1203,
+    "output_tokens": 487,
+    "reasoning_tokens": 0,
+    "total_tokens": 1690
+  }
+}

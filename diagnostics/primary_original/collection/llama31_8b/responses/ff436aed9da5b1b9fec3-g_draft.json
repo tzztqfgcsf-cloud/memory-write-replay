@@ -1,0 +1,36 @@
+{
+  "call_id": "ff436aed9da5b1b9fec3-g_draft",
+  "error_type": null,
+  "finish_reason": "stop",
+  "finished_unix": 1790489584.816845,
+  "latency_seconds": 9.5402,
+  "model_version": "mlx-community/Llama-3.1-8B-Instruct-4bit",
+  "raw_response": {
+    "base_seed": 20260927,
+    "finish_reason": "stop",
+    "generation_calls": 97,
+    "id": "local-440cfc7aae109106763eddca",
+    "seed": 2407689322,
+    "snapshot": "<LOCAL_PATH>",
+    "text": "{\"action\": {\"kind\": \"CLARIFY\", \"question_slot\": \"event_year\", \"required_slots\": [\"event_year\"], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"1988년\", \"1998년\"], \"fact\": {\"relation\": \"event_year\", \"source_turns\": [\"t1\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"1998년\"}, \"operation\": \"CORRECT\", \"slot\": \"event_year\", \"source_turns\": [\"t1\"], \"target_fact_id\": \"f1\"}], \"reply\": \"1988년으로 고치지 마세요. 귀농한 해는 1998년이 맞습니다.\"}",
+    "usage": {
+      "cached_tokens": null,
+      "input_tokens": 1698,
+      "output_tokens": 155,
+      "reasoning_tokens": null,
+      "total_tokens": 1853
+    }
+  },
+  "request_sha256": "a608a51a00fbcf72498f2bb4a3e20d332eab08d53a5b0ecd66da39dc4730258c",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790489575.276341,
+  "status": "OK",
+  "text": "{\"action\": {\"kind\": \"CLARIFY\", \"question_slot\": \"event_year\", \"required_slots\": [\"event_year\"], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"1988년\", \"1998년\"], \"fact\": {\"relation\": \"event_year\", \"source_turns\": [\"t1\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"1998년\"}, \"operation\": \"CORRECT\", \"slot\": \"event_year\", \"source_turns\": [\"t1\"], \"target_fact_id\": \"f1\"}], \"reply\": \"1988년으로 고치지 마세요. 귀농한 해는 1998년이 맞습니다.\"}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1698,
+    "output_tokens": 155,
+    "reasoning_tokens": null,
+    "total_tokens": 1853
+  }
+}

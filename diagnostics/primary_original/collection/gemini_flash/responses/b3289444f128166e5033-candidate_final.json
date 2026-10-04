@@ -1,0 +1,57 @@
+{
+  "call_id": "b3289444f128166e5033-candidate_final",
+  "finish_reason": "STOP",
+  "finished_unix": 1790497027.698072,
+  "http_status": 200,
+  "latency_seconds": 1.1554,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.012351518839745973,
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"reply\": \"모임 장소를 시민운동장으로 변경할게요.\",\n  \"action\": {\n    \"kind\": \"CONTINUE\",\n    \"question_slot\": null,\n    \"required_slots\": [],\n    \"speaker_id\": \"p1\"\n  },\n  \"memory_decisions\": [\n    {\n      \"alternatives\": [],\n      \"fact\": {\n        \"relation\": \"meeting_place\",\n        \"source_turns\": [\n          \"t2\"\n        ],\n        \"subject\": \"participant\",\n        \"time\": \"present\",\n        \"value\": \"시민운동장\"\n      },\n      \"operation\": \"CORRECT\",\n      \"slot\": null,\n      \"source_turns\": [\n        \"t2\"\n      ],\n      \"target_fact_id\": \"f1\"\n    }\n  ]\n}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T08:17:06.697887Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "AtG4ap_MKo-O0ckPoPWH2Ag",
+    "usageMetadata": {
+      "candidatesTokenCount": 201,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 201
+        }
+      ],
+      "promptTokenCount": 1976,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1976
+        }
+      ],
+      "totalTokenCount": 2177,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "dc2a51a89bc90e8701d5be1496cbe08b25c46852046dc87e9f18042b56d16ab9",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790497026.542274,
+  "status": "OK",
+  "text": "{\n  \"reply\": \"모임 장소를 시민운동장으로 변경할게요.\",\n  \"action\": {\n    \"kind\": \"CONTINUE\",\n    \"question_slot\": null,\n    \"required_slots\": [],\n    \"speaker_id\": \"p1\"\n  },\n  \"memory_decisions\": [\n    {\n      \"alternatives\": [],\n      \"fact\": {\n        \"relation\": \"meeting_place\",\n        \"source_turns\": [\n          \"t2\"\n        ],\n        \"subject\": \"participant\",\n        \"time\": \"present\",\n        \"value\": \"시민운동장\"\n      },\n      \"operation\": \"CORRECT\",\n      \"slot\": null,\n      \"source_turns\": [\n        \"t2\"\n      ],\n      \"target_fact_id\": \"f1\"\n    }\n  ]\n}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1976,
+    "output_tokens": 201,
+    "reasoning_tokens": 0,
+    "total_tokens": 2177
+  }
+}

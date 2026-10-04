@@ -1,0 +1,56 @@
+{
+  "call_id": "c973af9e18fc326e9ec88eab-sr_feedback",
+  "cost_note": "provider_did_not_report_money",
+  "cost_usd_reported": null,
+  "finish_reason": "STOP",
+  "http_status": 200,
+  "latency_seconds": 1.3709,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.09598004990729733,
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"no_change_needed\": false,\n  \"issues\": [\n    {\n      \"draft_location\": \"memory_decisions[0].operation\",\n      \"evidence_location\": \"candidate.text\",\n      \"problem\": \"The operation should be APPEND, not CORRECT. The user is correcting a previous statement, which means the previous fact was incorrect and a new, correct fact should be added.\",\n      \"specific_revision\": \"Change 'CORRECT' to 'APPEND'.\"\n    },\n    {\n      \"draft_location\": \"memory_decisions[1].operation\",\n      \"evidence_location\": \"candidate.text\",\n      \"problem\": \"The operation should be APPEND, not CORRECT. The user is correcting a previous statement, which means the previous fact was incorrect and a new, correct fact should be added.\",\n      \"specific_revision\": \"Change 'CORRECT' to 'APPEND'.\"\n    }\n  ]\n}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T22:56:29.162351Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "HZ-5aq_0CdCNx9gP07myoAQ",
+    "usageMetadata": {
+      "candidatesTokenCount": 207,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 207
+        }
+      ],
+      "promptTokenCount": 1662,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1662
+        }
+      ],
+      "totalTokenCount": 1869,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "5b1d8637ead5ac8a867fc7708a29b918f057772c2052ec11ad9c908c4fea571c",
+  "status": "OK",
+  "text": "{\n  \"no_change_needed\": false,\n  \"issues\": [\n    {\n      \"draft_location\": \"memory_decisions[0].operation\",\n      \"evidence_location\": \"candidate.text\",\n      \"problem\": \"The operation should be APPEND, not CORRECT. The user is correcting a previous statement, which means the previous fact was incorrect and a new, correct fact should be added.\",\n      \"specific_revision\": \"Change 'CORRECT' to 'APPEND'.\"\n    },\n    {\n      \"draft_location\": \"memory_decisions[1].operation\",\n      \"evidence_location\": \"candidate.text\",\n      \"problem\": \"The operation should be APPEND, not CORRECT. The user is correcting a previous statement, which means the previous fact was incorrect and a new, correct fact should be added.\",\n      \"specific_revision\": \"Change 'CORRECT' to 'APPEND'.\"\n    }\n  ]\n}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1662,
+    "output_tokens": 207,
+    "reasoning_tokens": 0,
+    "total_tokens": 1869
+  }
+}

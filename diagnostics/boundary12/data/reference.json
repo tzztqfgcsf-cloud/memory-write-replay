@@ -1,0 +1,150 @@
+{
+  "schema": "boundary-probe-reference-1",
+  "provenance": "AI_AUTHORED_NOT_HUMAN_GOLD",
+  "cases": [
+    {
+      "case_id": "W001",
+      "pair_id": "P04",
+      "family": "실제 vs 가정",
+      "label": "unsupported",
+      "target_fact_id": "f1",
+      "expected_value": "부산",
+      "expected_subject": "participant",
+      "expected_relation": "residence",
+      "expected_time": "present",
+      "rationale": "제주 거주는 바람으로만 말했고 현재 부산 거주를 유지한다고 밝혔다."
+    },
+    {
+      "case_id": "W002",
+      "pair_id": "P01",
+      "family": "자기 사실 vs 타인 사실",
+      "label": "supported",
+      "target_fact_id": "f1",
+      "expected_value": "대전",
+      "expected_subject": "participant",
+      "expected_relation": "residence",
+      "expected_time": "present",
+      "rationale": "화자가 자신의 현재 거주지를 대전으로 밝히고 광주에서 이사 왔다고 했다."
+    },
+    {
+      "case_id": "W003",
+      "pair_id": "P06",
+      "family": "확정 vs 철회된 확신",
+      "label": "unsupported",
+      "target_fact_id": "f1",
+      "expected_value": "약국",
+      "expected_subject": "participant",
+      "expected_relation": "workplace",
+      "expected_time": "present",
+      "rationale": "꽃집으로 옮겼다는 앞선 확신을 철회하고 현재 약국 근무를 확인했다."
+    },
+    {
+      "case_id": "W004",
+      "pair_id": "P03",
+      "family": "긍정 vs 부정",
+      "label": "supported",
+      "target_fact_id": "f1",
+      "expected_value": "수영",
+      "expected_subject": "participant",
+      "expected_relation": "hobby",
+      "expected_time": "present",
+      "rationale": "현재 취미를 수영이라고 긍정하고 기존 등산을 그만뒀다고 했다."
+    },
+    {
+      "case_id": "W005",
+      "pair_id": "P01",
+      "family": "자기 사실 vs 타인 사실",
+      "label": "unsupported",
+      "target_fact_id": "f1",
+      "expected_value": "광주",
+      "expected_subject": "participant",
+      "expected_relation": "residence",
+      "expected_time": "present",
+      "rationale": "대전 거주는 딸의 사실이고 화자 자신의 광주 거주는 유지된다고 했다."
+    },
+    {
+      "case_id": "W006",
+      "pair_id": "P05",
+      "family": "자기주장 vs 인용",
+      "label": "supported",
+      "target_fact_id": "f1",
+      "expected_value": "구청",
+      "expected_subject": "participant",
+      "expected_relation": "workplace",
+      "expected_time": "present",
+      "rationale": "화자가 자신의 현재 근무지를 구청으로 밝히고 복지관 근무를 끝냈다고 했다."
+    },
+    {
+      "case_id": "W007",
+      "pair_id": "P03",
+      "family": "긍정 vs 부정",
+      "label": "unsupported",
+      "target_fact_id": "f1",
+      "expected_value": "등산",
+      "expected_subject": "participant",
+      "expected_relation": "hobby",
+      "expected_time": "present",
+      "rationale": "두 전사가 수영을 취미로 긍정하는지 부정하는지 충돌하고, 모두 기존 등산을 계속한다고 한다. 수영으로의 단일 사실 교체는 지지되지 않는다."
+    },
+    {
+      "case_id": "W008",
+      "pair_id": "P06",
+      "family": "확정 vs 철회된 확신",
+      "label": "supported",
+      "target_fact_id": "f1",
+      "expected_value": "꽃집",
+      "expected_subject": "participant",
+      "expected_relation": "workplace",
+      "expected_time": "present",
+      "rationale": "화자가 꽃집으로 근무지를 옮긴 사실을 확정해 말했다."
+    },
+    {
+      "case_id": "W009",
+      "pair_id": "P04",
+      "family": "실제 vs 가정",
+      "label": "supported",
+      "target_fact_id": "f1",
+      "expected_value": "제주",
+      "expected_subject": "participant",
+      "expected_relation": "residence",
+      "expected_time": "present",
+      "rationale": "제주 이사가 실제로 끝났고 현재 제주에 산다고 했다."
+    },
+    {
+      "case_id": "W010",
+      "pair_id": "P05",
+      "family": "자기주장 vs 인용",
+      "label": "unsupported",
+      "target_fact_id": "f1",
+      "expected_value": "복지관",
+      "expected_subject": "participant",
+      "expected_relation": "workplace",
+      "expected_time": "present",
+      "rationale": "구청 근무는 민수 씨의 말을 전한 것이며 화자는 복지관 근무를 유지한다고 했다."
+    },
+    {
+      "case_id": "W011",
+      "pair_id": "P02",
+      "family": "현재 사실 vs 과거 사실",
+      "label": "supported",
+      "target_fact_id": "f1",
+      "expected_value": "학교 급식실",
+      "expected_subject": "participant",
+      "expected_relation": "workplace",
+      "expected_time": "present",
+      "rationale": "화자가 현재 근무지를 학교 급식실로 밝히고 도서관 일을 끝냈다고 했다."
+    },
+    {
+      "case_id": "W012",
+      "pair_id": "P02",
+      "family": "현재 사실 vs 과거 사실",
+      "label": "unsupported",
+      "target_fact_id": "f1",
+      "expected_value": "도서관",
+      "expected_subject": "participant",
+      "expected_relation": "workplace",
+      "expected_time": "present",
+      "rationale": "학교 급식실 근무는 과거이고 현재 근무지는 기존 도서관이라고 했다."
+    }
+  ]
+}

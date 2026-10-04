@@ -1,0 +1,36 @@
+{
+  "call_id": "b8d03ed1fa146267d536-candidate_extract",
+  "error_type": null,
+  "finish_reason": "stop",
+  "finished_unix": 1790490764.01069,
+  "latency_seconds": 13.4672,
+  "model_version": "mlx-community/Llama-3.1-8B-Instruct-4bit",
+  "raw_response": {
+    "base_seed": 20260927,
+    "finish_reason": "stop",
+    "generation_calls": 207,
+    "id": "local-3877895dc91db36c9d9addab",
+    "seed": 1251699470,
+    "snapshot": "<LOCAL_PATH>",
+    "text": "{\"beliefs\": [{\"candidate_id\": \"c1\", \"facts\": [{\"relation\": \"shop_name\", \"source_turns\": [\"t1\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"동네 사람\"}]}, {\"candidate_id\": \"c2\", \"facts\": [{\"relation\": \"shop_name\", \"source_turns\": [\"t1\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"다솜꽃집\"}]}], \"correction_witnesses\": [{\"candidate_id\": \"c1\", \"evidence_quote\": \"동네 사람은 다온꽃집이라 했던 것 같대요.\", \"new_value\": \"동네 사람\", \"polarity\": \"uncertain\", \"relation\": \"shop_name\", \"source_turn\": \"t2\", \"subject\": \"participant\", \"target_fact_id\": \"f1\", \"time\": \"past\"}, {\"candidate_id\": \"c2\", \"evidence_quote\": \"다온꽃집이었을 거라는 말도 들었는데 아직 확실치 않아요.\", \"new_value\": \"다솜꽃집\", \"polarity\": \"uncertain\", \"relation\": \"shop_name\", \"source_turn\": \"t2\", \"subject\": \"participant\", \"target_fact_id\": \"f1\", \"time\": \"past\"}]}",
+    "usage": {
+      "cached_tokens": null,
+      "input_tokens": 1769,
+      "output_tokens": 286,
+      "reasoning_tokens": null,
+      "total_tokens": 2055
+    }
+  },
+  "request_sha256": "93c38e5c3b17391fd070e5069748c3674265a3205cdbdda14ce7e386645ac58f",
+  "stage_schema_sha256": "bda7326ac6a6cbeedf1ecdbf4a2b08277c078351d6689f667dc0d558c4972dd3",
+  "started_unix": 1790490750.543039,
+  "status": "OK",
+  "text": "{\"beliefs\": [{\"candidate_id\": \"c1\", \"facts\": [{\"relation\": \"shop_name\", \"source_turns\": [\"t1\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"동네 사람\"}]}, {\"candidate_id\": \"c2\", \"facts\": [{\"relation\": \"shop_name\", \"source_turns\": [\"t1\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"다솜꽃집\"}]}], \"correction_witnesses\": [{\"candidate_id\": \"c1\", \"evidence_quote\": \"동네 사람은 다온꽃집이라 했던 것 같대요.\", \"new_value\": \"동네 사람\", \"polarity\": \"uncertain\", \"relation\": \"shop_name\", \"source_turn\": \"t2\", \"subject\": \"participant\", \"target_fact_id\": \"f1\", \"time\": \"past\"}, {\"candidate_id\": \"c2\", \"evidence_quote\": \"다온꽃집이었을 거라는 말도 들었는데 아직 확실치 않아요.\", \"new_value\": \"다솜꽃집\", \"polarity\": \"uncertain\", \"relation\": \"shop_name\", \"source_turn\": \"t2\", \"subject\": \"participant\", \"target_fact_id\": \"f1\", \"time\": \"past\"}]}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1769,
+    "output_tokens": 286,
+    "reasoning_tokens": null,
+    "total_tokens": 2055
+  }
+}

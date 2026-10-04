@@ -1,0 +1,57 @@
+{
+  "call_id": "a21dfa4bb30a33b9eb2e-candidate_final",
+  "finish_reason": "STOP",
+  "finished_unix": 1790489613.493644,
+  "http_status": 200,
+  "latency_seconds": 1.5222,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.026690934344035824,
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"reply\": \"네, 미래제과로 잘 기억하고 있습니다.\",\n  \"action\": {\n    \"kind\": \"CONTINUE\",\n    \"question_slot\": null,\n    \"required_slots\": [],\n    \"speaker_id\": \"p1\"\n  },\n  \"memory_decisions\": [\n    {\n      \"alternatives\": [],\n      \"fact\": {\n        \"relation\": \"workplace\",\n        \"source_turns\": [\n          \"t1\",\n          \"t2\"\n        ],\n        \"subject\": \"participant\",\n        \"time\": \"present\",\n        \"value\": \"미래제과\"\n      },\n      \"operation\": \"CORRECT\",\n      \"slot\": null,\n      \"source_turns\": [\n        \"t2\"\n      ],\n      \"target_fact_id\": \"f1\"\n    }\n  ]\n}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T06:13:32.091513Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "DLS4avnKBbOKktwPsejJ4QY",
+    "usageMetadata": {
+      "candidatesTokenCount": 205,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 205
+        }
+      ],
+      "promptTokenCount": 1954,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1954
+        }
+      ],
+      "totalTokenCount": 2159,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "427ae727a4e0c11858eba6ec74df133a910111475573fe42d6dffddfdb0462e1",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790489611.970984,
+  "status": "OK",
+  "text": "{\n  \"reply\": \"네, 미래제과로 잘 기억하고 있습니다.\",\n  \"action\": {\n    \"kind\": \"CONTINUE\",\n    \"question_slot\": null,\n    \"required_slots\": [],\n    \"speaker_id\": \"p1\"\n  },\n  \"memory_decisions\": [\n    {\n      \"alternatives\": [],\n      \"fact\": {\n        \"relation\": \"workplace\",\n        \"source_turns\": [\n          \"t1\",\n          \"t2\"\n        ],\n        \"subject\": \"participant\",\n        \"time\": \"present\",\n        \"value\": \"미래제과\"\n      },\n      \"operation\": \"CORRECT\",\n      \"slot\": null,\n      \"source_turns\": [\n        \"t2\"\n      ],\n      \"target_fact_id\": \"f1\"\n    }\n  ]\n}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1954,
+    "output_tokens": 205,
+    "reasoning_tokens": 0,
+    "total_tokens": 2159
+  }
+}

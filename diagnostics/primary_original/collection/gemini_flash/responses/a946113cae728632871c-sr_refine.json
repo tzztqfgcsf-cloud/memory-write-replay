@@ -1,0 +1,57 @@
+{
+  "call_id": "a946113cae728632871c-sr_refine",
+  "finish_reason": "STOP",
+  "finished_unix": 1790492711.8741739,
+  "http_status": 200,
+  "latency_seconds": 1.1648,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.003663277204057812,
+        "content": {
+          "parts": [
+            {
+              "text": "{\"reply\": \"누군가를 만나서 반가우셨군요. 어떤 점이 가장 좋으셨나요?\", \"action\": {\"kind\": \"CONTINUE\", \"question_slot\": null, \"required_slots\": [], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"예린이\", \"혜린이\"], \"fact\": null, \"operation\": \"HOLD\", \"slot\": \"learned_from\", \"source_turns\": [\"t2\"], \"target_fact_id\": null}]}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T07:05:10.827188Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "JsC4arS-MrOLx9gPv4OY6A4",
+    "usageMetadata": {
+      "candidatesTokenCount": 113,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 113
+        }
+      ],
+      "promptTokenCount": 2159,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 2159
+        }
+      ],
+      "totalTokenCount": 2272,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "b672294bbd3e6ab610964d929394188c145955601b9dc35465bbe0d6c3ad6420",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790492710.709074,
+  "status": "OK",
+  "text": "{\"reply\": \"누군가를 만나서 반가우셨군요. 어떤 점이 가장 좋으셨나요?\", \"action\": {\"kind\": \"CONTINUE\", \"question_slot\": null, \"required_slots\": [], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"예린이\", \"혜린이\"], \"fact\": null, \"operation\": \"HOLD\", \"slot\": \"learned_from\", \"source_turns\": [\"t2\"], \"target_fact_id\": null}]}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 2159,
+    "output_tokens": 113,
+    "reasoning_tokens": 0,
+    "total_tokens": 2272
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "status": "OK",
+  "http_status": 200,
+  "text": "{\n  \"decisions\": [\n    {\n      \"index\": 0,\n      \"approve\": true,\n      \"reason\": \"사용자가 모임 장소가 누리문화원으로 바뀌었다고 명시적으로 정정함.\"\n    }\n  ]\n}",
+  "usage": {
+    "input_tokens": 749,
+    "output_tokens": 60,
+    "reasoning_tokens": 208,
+    "total_tokens": 1017,
+    "cached_tokens": null
+  },
+  "finish_reason": "STOP",
+  "model_version": "gemini-3.1-pro-preview",
+  "id": "qwen3_14b_CT43_judge",
+  "key": "qwen3_14b_CT43",
+  "stage": "judge",
+  "arm": "judge",
+  "requested_model": "gemini-3.1-pro-preview",
+  "latency_seconds": 3.8124168750364333
+}

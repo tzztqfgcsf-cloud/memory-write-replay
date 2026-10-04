@@ -1,0 +1,36 @@
+{
+  "call_id": "b3289444f128166e5033-sr_feedback",
+  "error_type": null,
+  "finish_reason": "stop",
+  "finished_unix": 1790497764.2526631,
+  "latency_seconds": 5.9049,
+  "model_version": "mlx-community/Llama-3.1-8B-Instruct-4bit",
+  "raw_response": {
+    "base_seed": 20260927,
+    "finish_reason": "stop",
+    "generation_calls": 851,
+    "id": "local-90c751ff6b09b4a716d6c68c",
+    "seed": 3922184922,
+    "snapshot": "<LOCAL_PATH>",
+    "text": "{\"issues\": [{\"draft_location\": \"memory_decisions.0.alternatives\", \"evidence_location\": \"candidates.0.text\", \"problem\": \"unresolved alternatives\", \"specific_revision\": \"체육공원\"}], \"no_change_needed\": false}",
+    "usage": {
+      "cached_tokens": null,
+      "input_tokens": 1465,
+      "output_tokens": 55,
+      "reasoning_tokens": null,
+      "total_tokens": 1520
+    }
+  },
+  "request_sha256": "fe8c2f7b43ccf0b5a775218b70f6e58c6fcb0fb988a932b216e67c19d2a8d9d1",
+  "stage_schema_sha256": "377e252cf02129ba34bbc867118dd2b9c6b65042b3fcd7b44099d2fc6e0513ed",
+  "started_unix": 1790497758.3475149,
+  "status": "OK",
+  "text": "{\"issues\": [{\"draft_location\": \"memory_decisions.0.alternatives\", \"evidence_location\": \"candidates.0.text\", \"problem\": \"unresolved alternatives\", \"specific_revision\": \"체육공원\"}], \"no_change_needed\": false}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1465,
+    "output_tokens": 55,
+    "reasoning_tokens": null,
+    "total_tokens": 1520
+  }
+}

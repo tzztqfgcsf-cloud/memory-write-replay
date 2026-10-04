@@ -1,0 +1,57 @@
+{
+  "call_id": "96e76a54891969842a25-sr_feedback",
+  "finish_reason": "STOP",
+  "finished_unix": 1790490483.5753028,
+  "http_status": 200,
+  "latency_seconds": 2.441,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.08831049978929778,
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"no_change_needed\": false,\n  \"issues\": [\n    {\n      \"draft_location\": \"memory_decisions[0].operation\",\n      \"evidence_location\": \"t2.candidates[0].text\",\n      \"problem\": \"The user explicitly states '여행지 고치지는 말고' (do not correct the travel destination). Therefore, the operation should be NO_WRITE, not HOLD.\",\n      \"specific_revision\": \"Change 'HOLD' to 'NO_WRITE'.\"\n    },\n    {\n      \"draft_location\": \"memory_decisions[0].fact\",\n      \"evidence_location\": \"t2.candidates[0].text\",\n      \"problem\": \"For a NO_WRITE operation, the 'fact' field should be null, which it already is. However, the 'alternatives' field is not appropriate for NO_WRITE.\",\n      \"specific_revision\": \"Remove 'alternatives' field for NO_WRITE operation.\"\n    },\n    {\n      \"draft_location\": \"memory_decisions[0].slot\",\n      \"evidence_location\": \"t2.candidates[0].text\",\n      \"problem\": \"The 'slot' field is not applicable for a NO_WRITE operation.\",\n      \"specific_revision\": \"Remove 'slot' field for NO_WRITE operation.\"\n    }\n  ]\n}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T06:28:01.294745Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "cbe4atn-EdOH0ckPuLmDuA8",
+    "usageMetadata": {
+      "candidatesTokenCount": 303,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 303
+        }
+      ],
+      "promptTokenCount": 1376,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1376
+        }
+      ],
+      "totalTokenCount": 1679,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "ac1f885ed1087bc17116119ae0a98e4963c2284203d2f626a25099088ea3f195",
+  "stage_schema_sha256": "377e252cf02129ba34bbc867118dd2b9c6b65042b3fcd7b44099d2fc6e0513ed",
+  "started_unix": 1790490481.133793,
+  "status": "OK",
+  "text": "{\n  \"no_change_needed\": false,\n  \"issues\": [\n    {\n      \"draft_location\": \"memory_decisions[0].operation\",\n      \"evidence_location\": \"t2.candidates[0].text\",\n      \"problem\": \"The user explicitly states '여행지 고치지는 말고' (do not correct the travel destination). Therefore, the operation should be NO_WRITE, not HOLD.\",\n      \"specific_revision\": \"Change 'HOLD' to 'NO_WRITE'.\"\n    },\n    {\n      \"draft_location\": \"memory_decisions[0].fact\",\n      \"evidence_location\": \"t2.candidates[0].text\",\n      \"problem\": \"For a NO_WRITE operation, the 'fact' field should be null, which it already is. However, the 'alternatives' field is not appropriate for NO_WRITE.\",\n      \"specific_revision\": \"Remove 'alternatives' field for NO_WRITE operation.\"\n    },\n    {\n      \"draft_location\": \"memory_decisions[0].slot\",\n      \"evidence_location\": \"t2.candidates[0].text\",\n      \"problem\": \"The 'slot' field is not applicable for a NO_WRITE operation.\",\n      \"specific_revision\": \"Remove 'slot' field for NO_WRITE operation.\"\n    }\n  ]\n}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1376,
+    "output_tokens": 303,
+    "reasoning_tokens": 0,
+    "total_tokens": 1679
+  }
+}

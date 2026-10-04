@@ -1,0 +1,36 @@
+{
+  "call_id": "f4b193424f4dc33b734c-g_draft",
+  "error_type": null,
+  "finish_reason": "stop",
+  "finished_unix": 1790497535.7528288,
+  "latency_seconds": 10.1482,
+  "model_version": "mlx-community/Llama-3.1-8B-Instruct-4bit",
+  "raw_response": {
+    "base_seed": 20260927,
+    "finish_reason": "stop",
+    "generation_calls": 829,
+    "id": "local-0524d4c8611524302adb629c",
+    "seed": 715681836,
+    "snapshot": "<LOCAL_PATH>",
+    "text": "{\"action\": {\"kind\": \"CLARIFY\", \"question_slot\": \"preferred_contact\", \"required_slots\": [\"preferred_contact\"], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"이메일\", \"문자\"], \"fact\": {\"relation\": \"preferred_contact\", \"source_turns\": [\"t1\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"이메일\"}, \"operation\": \"NO_WRITE\", \"slot\": \"preferred_contact\", \"source_turns\": [\"t1\"], \"target_fact_id\": null}], \"reply\": \"이메일로, 아니 문자로요. 연락 방법만 문자로 바꿔요.\"}",
+    "usage": {
+      "cached_tokens": null,
+      "input_tokens": 1753,
+      "output_tokens": 148,
+      "reasoning_tokens": null,
+      "total_tokens": 1901
+    }
+  },
+  "request_sha256": "fbd43f9c20b1cd143691415955a1ecf0092085aa7a3c16251a9de44ae7c25d3f",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790497525.60427,
+  "status": "OK",
+  "text": "{\"action\": {\"kind\": \"CLARIFY\", \"question_slot\": \"preferred_contact\", \"required_slots\": [\"preferred_contact\"], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"이메일\", \"문자\"], \"fact\": {\"relation\": \"preferred_contact\", \"source_turns\": [\"t1\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"이메일\"}, \"operation\": \"NO_WRITE\", \"slot\": \"preferred_contact\", \"source_turns\": [\"t1\"], \"target_fact_id\": null}], \"reply\": \"이메일로, 아니 문자로요. 연락 방법만 문자로 바꿔요.\"}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1753,
+    "output_tokens": 148,
+    "reasoning_tokens": null,
+    "total_tokens": 1901
+  }
+}

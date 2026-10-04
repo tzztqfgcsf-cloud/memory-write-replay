@@ -1,0 +1,57 @@
+{
+  "call_id": "5e6a2e9d7f497b81fcc7-sr_refine",
+  "finish_reason": "STOP",
+  "finished_unix": 1790490548.9727201,
+  "http_status": 200,
+  "latency_seconds": 1.0347,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.0010175857449246345,
+        "content": {
+          "parts": [
+            {
+              "text": "{\"reply\": \"네, 아직 확실하지 않으시군요. 그럼 다솜꽃집으로 유지해 둘게요.\", \"action\": {\"kind\": \"CONTINUE\", \"question_slot\": null, \"required_slots\": [], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [], \"fact\": null, \"operation\": \"NO_WRITE\", \"slot\": \"shop_name\", \"source_turns\": [\"t2\"], \"target_fact_id\": null}]}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T06:29:08.036360Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "tLe4aoicAvuj0ckPyLyQmAM",
+    "usageMetadata": {
+      "candidatesTokenCount": 107,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 107
+        }
+      ],
+      "promptTokenCount": 2126,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 2126
+        }
+      ],
+      "totalTokenCount": 2233,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "90f2b689037fb649cfadeda9594389ea40fac287cdff04c16c30d1a5abaa6e6d",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790490547.9377768,
+  "status": "OK",
+  "text": "{\"reply\": \"네, 아직 확실하지 않으시군요. 그럼 다솜꽃집으로 유지해 둘게요.\", \"action\": {\"kind\": \"CONTINUE\", \"question_slot\": null, \"required_slots\": [], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [], \"fact\": null, \"operation\": \"NO_WRITE\", \"slot\": \"shop_name\", \"source_turns\": [\"t2\"], \"target_fact_id\": null}]}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 2126,
+    "output_tokens": 107,
+    "reasoning_tokens": 0,
+    "total_tokens": 2233
+  }
+}

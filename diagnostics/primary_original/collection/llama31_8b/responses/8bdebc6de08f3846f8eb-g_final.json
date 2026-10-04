@@ -1,0 +1,36 @@
+{
+  "call_id": "8bdebc6de08f3846f8eb-g_final",
+  "error_type": null,
+  "finish_reason": "stop",
+  "finished_unix": 1790492949.75809,
+  "latency_seconds": 12.0211,
+  "model_version": "mlx-community/Llama-3.1-8B-Instruct-4bit",
+  "raw_response": {
+    "base_seed": 20260927,
+    "finish_reason": "stop",
+    "generation_calls": 398,
+    "id": "local-13251f6f616967332e3e55a0",
+    "seed": 3733191203,
+    "snapshot": "<LOCAL_PATH>",
+    "text": "{\"action\": {\"kind\": \"CONTINUE\", \"question_slot\": \"stop_intent\", \"required_slots\": [\"stop_intent\"], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"바다\"], \"fact\": {\"relation\": \"travel_destination\", \"source_turns\": [\"t1\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"동해\"}, \"operation\": \"HOLD\", \"slot\": \"travel_destination\", \"source_turns\": [\"t1\"], \"target_fact_id\": null}, {\"alternatives\": [\"바다\"], \"fact\": {\"relation\": \"travel_destination\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"통영\"}, \"operation\": \"HOLD\", \"slot\": \"travel_destination\", \"source_turns\": [\"t2\"], \"target_fact_id\": null}], \"reply\": \"바다를 봐서 속이 시원했어요.\"}",
+    "usage": {
+      "cached_tokens": null,
+      "input_tokens": 1996,
+      "output_tokens": 209,
+      "reasoning_tokens": null,
+      "total_tokens": 2205
+    }
+  },
+  "request_sha256": "b0f3e98d99300760299aa948a3e3e9acecdbd55e83bcd896ff468e2df993835d",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790492937.736493,
+  "status": "OK",
+  "text": "{\"action\": {\"kind\": \"CONTINUE\", \"question_slot\": \"stop_intent\", \"required_slots\": [\"stop_intent\"], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"바다\"], \"fact\": {\"relation\": \"travel_destination\", \"source_turns\": [\"t1\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"동해\"}, \"operation\": \"HOLD\", \"slot\": \"travel_destination\", \"source_turns\": [\"t1\"], \"target_fact_id\": null}, {\"alternatives\": [\"바다\"], \"fact\": {\"relation\": \"travel_destination\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"통영\"}, \"operation\": \"HOLD\", \"slot\": \"travel_destination\", \"source_turns\": [\"t2\"], \"target_fact_id\": null}], \"reply\": \"바다를 봐서 속이 시원했어요.\"}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1996,
+    "output_tokens": 209,
+    "reasoning_tokens": null,
+    "total_tokens": 2205
+  }
+}

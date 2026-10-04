@@ -1,0 +1,56 @@
+{
+  "call_id": "9ac740243ba89475e7c0370c-candidate_extract",
+  "cost_note": "provider_did_not_report_money",
+  "cost_usd_reported": null,
+  "finish_reason": "STOP",
+  "http_status": 200,
+  "latency_seconds": 1.3515,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.005820173056014461,
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"beliefs\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"facts\": []\n    }\n  ],\n  \"correction_witnesses\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"target_fact_id\": \"PMUL4646.json#state15#hotel.book.day\",\n      \"subject\": \"PMUL4646.json#hotel.book\",\n      \"relation\": \"hotel.book.day\",\n      \"time\": \"unknown\",\n      \"new_value\": \"tuesday\",\n      \"source_turn\": \"PMUL4646.json#turn16\",\n      \"evidence_quote\": \"I need for it to start on Tuesday not Thursday!!!!\",\n      \"polarity\": \"affirmed\"\n    }\n  ]\n}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T23:08:10.641339Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "2qG5aruSJ_ObncoPmvuomAI",
+    "usageMetadata": {
+      "candidatesTokenCount": 193,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 193
+        }
+      ],
+      "promptTokenCount": 2334,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 2334
+        }
+      ],
+      "totalTokenCount": 2527,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "aee432bd6b548f10ff6b382b12c9d40f72214549db33a71a7b5a9a6d75d7c06b",
+  "status": "OK",
+  "text": "{\n  \"beliefs\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"facts\": []\n    }\n  ],\n  \"correction_witnesses\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"target_fact_id\": \"PMUL4646.json#state15#hotel.book.day\",\n      \"subject\": \"PMUL4646.json#hotel.book\",\n      \"relation\": \"hotel.book.day\",\n      \"time\": \"unknown\",\n      \"new_value\": \"tuesday\",\n      \"source_turn\": \"PMUL4646.json#turn16\",\n      \"evidence_quote\": \"I need for it to start on Tuesday not Thursday!!!!\",\n      \"polarity\": \"affirmed\"\n    }\n  ]\n}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 2334,
+    "output_tokens": 193,
+    "reasoning_tokens": 0,
+    "total_tokens": 2527
+  }
+}

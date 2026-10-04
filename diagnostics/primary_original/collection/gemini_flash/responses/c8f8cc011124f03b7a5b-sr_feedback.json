@@ -1,0 +1,57 @@
+{
+  "call_id": "c8f8cc011124f03b7a5b-sr_feedback",
+  "finish_reason": "MAX_TOKENS",
+  "finished_unix": 1790492121.285056,
+  "http_status": 200,
+  "latency_seconds": 2.9812,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.14496344327926636,
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"no_change_needed\": false,\n  \"issues\": [\n    {\n      \"draft_location\": \"memory_decisions[0].fact.value\",\n      \"evidence_location\": \"candidates\",\n      \"problem\": \"The memory decision only considers one candidate ('남강문구') but there is another candidate ('남광문구') that should be considered as an alternative.\",\n      \"specific_revision\": \"Add '남광문구' to the alternatives list for the HOLD operation, or if confident, ensure the chosen value is robustly supported.\"\n    },\n    {\n      \"draft_location\": \"memory_decisions[0].operation\",\n      \"evidence_location\": \"candidates\",\n      \"problem\": \"There are multiple candidate transcripts for the user's utterance, and the draft makes a definitive 'CORRECT' operation based on only one of them. This is an uncertain value and should be handled with a 'HOLD' operation to allow for clarification.\",\n      \"specific_revision\": \"Change the operation from 'CORRECT' to 'HOLD'. The 'fact' field should be null for a HOLD operation, and the 'alternatives' field should contain the possible values.\"\n    },\n    {\n      \"draft_location\": \"memory_decisions[0].fact\",\n      \"evidence_location\": \"memory_decisions[0].operation (changed to HOLD)\",\n      \"problem\": \"For a HOLD operation, the 'fact' field should be null.\",\n      \"specific_revision\": \"Set 'fact' to null for the HOLD operation.\"\n    },\n    {\n      \"draft_location\": \"memory_decisions[0].slot\",\n      \"evidence_location\": \"memory_decisions[0].operation (changed to HOLD)\",\n      \"problem\": \"For a HOLD operation, the 'slot' field should specify the relation being held.\",\n      \"specific_revision\": \"Set 'slot' to 'shop_name' for the HOLD operation.\"\n    },\n    {\n      \"draft_location\": \"reply\",\n      \"evidence_location\": \"memory_decisions[0].operation (changed to HOLD)\",\n      \"problem\": \"The reply prematurely confirms a change ('네, 상호가 남강문구로 변경된 것을 확인했습니다. 기존 남산문구 정보를 남강문구로 수정할"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "MAX_TOKENS"
+      }
+    ],
+    "createTime": "2026-09-27T06:55:18.402731Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "1r24aqvKGK2BktwPi5PxuQg",
+    "usageMetadata": {
+      "candidatesTokenCount": 512,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 512
+        }
+      ],
+      "promptTokenCount": 1414,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1414
+        }
+      ],
+      "totalTokenCount": 1926,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "f2895263d23f1c4afd9e0038891f8025924221684500e11490cf256f3d3d9d3d",
+  "stage_schema_sha256": "377e252cf02129ba34bbc867118dd2b9c6b65042b3fcd7b44099d2fc6e0513ed",
+  "started_unix": 1790492118.303494,
+  "status": "OK",
+  "text": "{\n  \"no_change_needed\": false,\n  \"issues\": [\n    {\n      \"draft_location\": \"memory_decisions[0].fact.value\",\n      \"evidence_location\": \"candidates\",\n      \"problem\": \"The memory decision only considers one candidate ('남강문구') but there is another candidate ('남광문구') that should be considered as an alternative.\",\n      \"specific_revision\": \"Add '남광문구' to the alternatives list for the HOLD operation, or if confident, ensure the chosen value is robustly supported.\"\n    },\n    {\n      \"draft_location\": \"memory_decisions[0].operation\",\n      \"evidence_location\": \"candidates\",\n      \"problem\": \"There are multiple candidate transcripts for the user's utterance, and the draft makes a definitive 'CORRECT' operation based on only one of them. This is an uncertain value and should be handled with a 'HOLD' operation to allow for clarification.\",\n      \"specific_revision\": \"Change the operation from 'CORRECT' to 'HOLD'. The 'fact' field should be null for a HOLD operation, and the 'alternatives' field should contain the possible values.\"\n    },\n    {\n      \"draft_location\": \"memory_decisions[0].fact\",\n      \"evidence_location\": \"memory_decisions[0].operation (changed to HOLD)\",\n      \"problem\": \"For a HOLD operation, the 'fact' field should be null.\",\n      \"specific_revision\": \"Set 'fact' to null for the HOLD operation.\"\n    },\n    {\n      \"draft_location\": \"memory_decisions[0].slot\",\n      \"evidence_location\": \"memory_decisions[0].operation (changed to HOLD)\",\n      \"problem\": \"For a HOLD operation, the 'slot' field should specify the relation being held.\",\n      \"specific_revision\": \"Set 'slot' to 'shop_name' for the HOLD operation.\"\n    },\n    {\n      \"draft_location\": \"reply\",\n      \"evidence_location\": \"memory_decisions[0].operation (changed to HOLD)\",\n      \"problem\": \"The reply prematurely confirms a change ('네, 상호가 남강문구로 변경된 것을 확인했습니다. 기존 남산문구 정보를 남강문구로 수정할",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1414,
+    "output_tokens": 512,
+    "reasoning_tokens": 0,
+    "total_tokens": 1926
+  }
+}

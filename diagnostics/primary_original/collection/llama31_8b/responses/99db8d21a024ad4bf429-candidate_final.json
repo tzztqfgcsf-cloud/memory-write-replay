@@ -1,0 +1,36 @@
+{
+  "call_id": "99db8d21a024ad4bf429-candidate_final",
+  "error_type": null,
+  "finish_reason": "stop",
+  "finished_unix": 1790497444.0145018,
+  "latency_seconds": 10.0926,
+  "model_version": "mlx-community/Llama-3.1-8B-Instruct-4bit",
+  "raw_response": {
+    "base_seed": 20260927,
+    "finish_reason": "stop",
+    "generation_calls": 820,
+    "id": "local-8cf96af4f65c69497d6eefd4",
+    "seed": 1884853458,
+    "snapshot": "<LOCAL_PATH>",
+    "text": "{\"action\": {\"kind\": \"CLARIFY\", \"question_slot\": \"learned_from\", \"required_slots\": [\"learned_from\"], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"윤 선생님\", \"신 선생님\"], \"fact\": {\"relation\": \"learned_from\", \"source_turns\": [\"t1\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"윤 선생님\"}, \"operation\": \"CORRECT\", \"slot\": \"learned_from\", \"source_turns\": [\"t1\"], \"target_fact_id\": \"f1\"}], \"reply\": \"바느질을 처음 배운 분이 윤 선생님으로 되어 있어요. 성함이 맞나요?\"}",
+    "usage": {
+      "cached_tokens": null,
+      "input_tokens": 1831,
+      "output_tokens": 159,
+      "reasoning_tokens": null,
+      "total_tokens": 1990
+    }
+  },
+  "request_sha256": "a8bc2083c469d4fdd764771161c5377c2c6573d96f9f3e4fe038fa087560fef5",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790497433.9215481,
+  "status": "OK",
+  "text": "{\"action\": {\"kind\": \"CLARIFY\", \"question_slot\": \"learned_from\", \"required_slots\": [\"learned_from\"], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"윤 선생님\", \"신 선생님\"], \"fact\": {\"relation\": \"learned_from\", \"source_turns\": [\"t1\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"윤 선생님\"}, \"operation\": \"CORRECT\", \"slot\": \"learned_from\", \"source_turns\": [\"t1\"], \"target_fact_id\": \"f1\"}], \"reply\": \"바느질을 처음 배운 분이 윤 선생님으로 되어 있어요. 성함이 맞나요?\"}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1831,
+    "output_tokens": 159,
+    "reasoning_tokens": null,
+    "total_tokens": 1990
+  }
+}

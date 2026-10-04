@@ -1,0 +1,57 @@
+{
+  "call_id": "9cd1cadbeabecadfd499-candidate_extract",
+  "finish_reason": "STOP",
+  "finished_unix": 1790494114.039018,
+  "http_status": 200,
+  "latency_seconds": 2.068,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.0003335144882108651,
+        "content": {
+          "parts": [
+            {
+              "text": "{\"beliefs\": [{\"candidate_id\": \"c1\", \"facts\": [{\"relation\": \"shop_name\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"푸른방앗간\"}]}, {\"candidate_id\": \"c2\", \"facts\": [{\"relation\": \"shop_name\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"푸른방앗간\"}]}], \"correction_witnesses\": [{\"candidate_id\": \"c1\", \"evidence_quote\": \"\", \"new_value\": \"거창\", \"polarity\": \"absent\", \"relation\": \"birthplace\", \"source_turn\": \"t2\", \"subject\": \"participant\", \"target_fact_id\": \"f1\", \"time\": \"past\"}, {\"candidate_id\": \"c2\", \"evidence_quote\": \"\", \"new_value\": \"거창\", \"polarity\": \"absent\", \"relation\": \"birthplace\", \"source_turn\": \"t2\", \"subject\": \"participant\", \"target_fact_id\": \"f1\", \"time\": \"past\"}]}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T07:28:32.051402Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "oMW4asqRA_ObncoPmvuomAI",
+    "usageMetadata": {
+      "candidatesTokenCount": 255,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 255
+        }
+      ],
+      "promptTokenCount": 1691,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1691
+        }
+      ],
+      "totalTokenCount": 1946,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "3bd102592517085499a0d6c7c0a9d604cfd7d49dc680e3143c4754bda7ea8fcd",
+  "stage_schema_sha256": "bda7326ac6a6cbeedf1ecdbf4a2b08277c078351d6689f667dc0d558c4972dd3",
+  "started_unix": 1790494111.970709,
+  "status": "OK",
+  "text": "{\"beliefs\": [{\"candidate_id\": \"c1\", \"facts\": [{\"relation\": \"shop_name\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"푸른방앗간\"}]}, {\"candidate_id\": \"c2\", \"facts\": [{\"relation\": \"shop_name\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"푸른방앗간\"}]}], \"correction_witnesses\": [{\"candidate_id\": \"c1\", \"evidence_quote\": \"\", \"new_value\": \"거창\", \"polarity\": \"absent\", \"relation\": \"birthplace\", \"source_turn\": \"t2\", \"subject\": \"participant\", \"target_fact_id\": \"f1\", \"time\": \"past\"}, {\"candidate_id\": \"c2\", \"evidence_quote\": \"\", \"new_value\": \"거창\", \"polarity\": \"absent\", \"relation\": \"birthplace\", \"source_turn\": \"t2\", \"subject\": \"participant\", \"target_fact_id\": \"f1\", \"time\": \"past\"}]}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1691,
+    "output_tokens": 255,
+    "reasoning_tokens": 0,
+    "total_tokens": 1946
+  }
+}

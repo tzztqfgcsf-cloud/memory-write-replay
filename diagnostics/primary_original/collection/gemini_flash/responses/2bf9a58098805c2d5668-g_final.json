@@ -1,0 +1,57 @@
+{
+  "call_id": "2bf9a58098805c2d5668-g_final",
+  "finish_reason": "STOP",
+  "finished_unix": 1790497123.534869,
+  "http_status": 200,
+  "latency_seconds": 1.2173,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.004402214113403769,
+        "content": {
+          "parts": [
+            {
+              "text": "{\"reply\": \"네, 모임 장소를 시민운동장으로 변경해 드릴게요.\", \"action\": {\"kind\": \"CONTINUE\", \"question_slot\": null, \"required_slots\": [], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [], \"fact\": {\"relation\": \"meeting_place\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"시민운동장\"}, \"operation\": \"CORRECT\", \"slot\": null, \"source_turns\": [\"t2\"], \"target_fact_id\": \"f1\"}]}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T08:18:42.482764Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "YtG4asy7Hfuj0ckPyLyQmAM",
+    "usageMetadata": {
+      "candidatesTokenCount": 136,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 136
+        }
+      ],
+      "promptTokenCount": 1888,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1888
+        }
+      ],
+      "totalTokenCount": 2024,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "d37a007ddd4355fe72e6e8e0b257012a81975d48c8985f5e9385045fbc48932d",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790497122.317046,
+  "status": "OK",
+  "text": "{\"reply\": \"네, 모임 장소를 시민운동장으로 변경해 드릴게요.\", \"action\": {\"kind\": \"CONTINUE\", \"question_slot\": null, \"required_slots\": [], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [], \"fact\": {\"relation\": \"meeting_place\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"시민운동장\"}, \"operation\": \"CORRECT\", \"slot\": null, \"source_turns\": [\"t2\"], \"target_fact_id\": \"f1\"}]}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1888,
+    "output_tokens": 136,
+    "reasoning_tokens": 0,
+    "total_tokens": 2024
+  }
+}

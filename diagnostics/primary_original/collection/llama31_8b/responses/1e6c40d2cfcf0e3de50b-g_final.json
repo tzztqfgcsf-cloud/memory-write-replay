@@ -1,0 +1,36 @@
+{
+  "call_id": "1e6c40d2cfcf0e3de50b-g_final",
+  "error_type": null,
+  "finish_reason": "stop",
+  "finished_unix": 1790496511.6867142,
+  "latency_seconds": 10.2618,
+  "model_version": "mlx-community/Llama-3.1-8B-Instruct-4bit",
+  "raw_response": {
+    "base_seed": 20260927,
+    "finish_reason": "stop",
+    "generation_calls": 740,
+    "id": "local-9347813680c4c71affaa7725",
+    "seed": 3919247807,
+    "snapshot": "<LOCAL_PATH>",
+    "text": "{\"action\": {\"kind\": \"CONTINUE\", \"question_slot\": \"birthplace\", \"required_slots\": [\"birthplace\", \"workplace\"], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"충주\", \"문경\"], \"fact\": {\"relation\": \"birthplace\", \"source_turns\": [\"t1\", \"t2\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"문경\"}, \"operation\": \"CORRECT\", \"slot\": \"birthplace\", \"source_turns\": [\"t1\", \"t2\"], \"target_fact_id\": \"f1\"}], \"reply\": \"문경으로 고쳐 줘요.\"}",
+    "usage": {
+      "cached_tokens": null,
+      "input_tokens": 1979,
+      "output_tokens": 149,
+      "reasoning_tokens": null,
+      "total_tokens": 2128
+    }
+  },
+  "request_sha256": "ff423789edcec9ec4413757336bdab79dbc9a1dab742b543c1e9e7db3c2a14b7",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790496501.424544,
+  "status": "OK",
+  "text": "{\"action\": {\"kind\": \"CONTINUE\", \"question_slot\": \"birthplace\", \"required_slots\": [\"birthplace\", \"workplace\"], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"충주\", \"문경\"], \"fact\": {\"relation\": \"birthplace\", \"source_turns\": [\"t1\", \"t2\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"문경\"}, \"operation\": \"CORRECT\", \"slot\": \"birthplace\", \"source_turns\": [\"t1\", \"t2\"], \"target_fact_id\": \"f1\"}], \"reply\": \"문경으로 고쳐 줘요.\"}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1979,
+    "output_tokens": 149,
+    "reasoning_tokens": null,
+    "total_tokens": 2128
+  }
+}

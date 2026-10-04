@@ -1,0 +1,36 @@
+{
+  "call_id": "a946113cae728632871c-candidate_final",
+  "error_type": null,
+  "finish_reason": "stop",
+  "finished_unix": 1790493181.624736,
+  "latency_seconds": 10.061,
+  "model_version": "mlx-community/Llama-3.1-8B-Instruct-4bit",
+  "raw_response": {
+    "base_seed": 20260927,
+    "finish_reason": "stop",
+    "generation_calls": 418,
+    "id": "local-93f7de24d31cf8ea0cd96e18",
+    "seed": 2352176509,
+    "snapshot": "<LOCAL_PATH>",
+    "text": "{\"action\": {\"kind\": \"CLARIFY\", \"question_slot\": \"meeting_place\", \"required_slots\": [\"meeting_place\"], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"예린이를 만나니\", \"혜린이를 만나니\"], \"fact\": {\"relation\": \"preferred_contact\", \"source_turns\": [\"t1\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"문자\"}, \"operation\": \"HOLD\", \"slot\": \"preferred_contact\", \"source_turns\": [\"t1\"], \"target_fact_id\": null}], \"reply\": \"예린이를 만나니 참 반갑더라고요. 이름을 적을 건 아니고 반가웠던 이야기만 할게요.\"}",
+    "usage": {
+      "cached_tokens": null,
+      "input_tokens": 1844,
+      "output_tokens": 161,
+      "reasoning_tokens": null,
+      "total_tokens": 2005
+    }
+  },
+  "request_sha256": "0d1cfef373236b8bfbf9216f9a794edf028bc555d4ecb8354b3830eab28b0e4c",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790493171.56333,
+  "status": "OK",
+  "text": "{\"action\": {\"kind\": \"CLARIFY\", \"question_slot\": \"meeting_place\", \"required_slots\": [\"meeting_place\"], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"예린이를 만나니\", \"혜린이를 만나니\"], \"fact\": {\"relation\": \"preferred_contact\", \"source_turns\": [\"t1\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"문자\"}, \"operation\": \"HOLD\", \"slot\": \"preferred_contact\", \"source_turns\": [\"t1\"], \"target_fact_id\": null}], \"reply\": \"예린이를 만나니 참 반갑더라고요. 이름을 적을 건 아니고 반가웠던 이야기만 할게요.\"}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1844,
+    "output_tokens": 161,
+    "reasoning_tokens": null,
+    "total_tokens": 2005
+  }
+}

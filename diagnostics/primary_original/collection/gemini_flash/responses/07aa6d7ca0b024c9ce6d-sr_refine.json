@@ -1,0 +1,57 @@
+{
+  "call_id": "07aa6d7ca0b024c9ce6d-sr_refine",
+  "finish_reason": "STOP",
+  "finished_unix": 1790488998.273037,
+  "http_status": 200,
+  "latency_seconds": 0.9695,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.013246960398079693,
+        "content": {
+          "parts": [
+            {
+              "text": "{\"reply\": \"네, 알겠습니다. 앞으로 연락 방법을 문자로 변경해 드릴게요.\", \"action\": {\"kind\": \"CONTINUE\", \"question_slot\": null, \"required_slots\": [], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [], \"fact\": {\"relation\": \"preferred_contact\", \"source_turns\": [\"t2\", \"t2\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"문자\"}, \"operation\": \"CORRECT\", \"slot\": null, \"source_turns\": [\"t2\"], \"target_fact_id\": \"f1\"}]}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T06:03:17.553014Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "pbG4arbgIZiXktwPo4SY4AQ",
+    "usageMetadata": {
+      "candidatesTokenCount": 138,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 138
+        }
+      ],
+      "promptTokenCount": 2296,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 2296
+        }
+      ],
+      "totalTokenCount": 2434,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "1a487d7da9e74722cefee7b09d5d3ce82381f71ac2e108d1cdf2173596032865",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790488997.302989,
+  "status": "OK",
+  "text": "{\"reply\": \"네, 알겠습니다. 앞으로 연락 방법을 문자로 변경해 드릴게요.\", \"action\": {\"kind\": \"CONTINUE\", \"question_slot\": null, \"required_slots\": [], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [], \"fact\": {\"relation\": \"preferred_contact\", \"source_turns\": [\"t2\", \"t2\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"문자\"}, \"operation\": \"CORRECT\", \"slot\": null, \"source_turns\": [\"t2\"], \"target_fact_id\": \"f1\"}]}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 2296,
+    "output_tokens": 138,
+    "reasoning_tokens": 0,
+    "total_tokens": 2434
+  }
+}

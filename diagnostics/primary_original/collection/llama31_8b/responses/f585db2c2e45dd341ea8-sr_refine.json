@@ -1,0 +1,36 @@
+{
+  "call_id": "f585db2c2e45dd341ea8-sr_refine",
+  "error_type": null,
+  "finish_reason": "stop",
+  "finished_unix": 1790490126.665199,
+  "latency_seconds": 10.126,
+  "model_version": "mlx-community/Llama-3.1-8B-Instruct-4bit",
+  "raw_response": {
+    "base_seed": 20260927,
+    "finish_reason": "stop",
+    "generation_calls": 150,
+    "id": "local-2410e00da58cb6184f711faa",
+    "seed": 1042166580,
+    "snapshot": "<LOCAL_PATH>",
+    "text": "{\"action\": {\"kind\": \"CLARIFY\", \"question_slot\": \"event_year\", \"required_slots\": [\"event_year\"], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [], \"fact\": {\"relation\": \"event_year\", \"source_turns\": [\"t1\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"1977년\"}, \"operation\": \"HOLD\", \"slot\": \"event_year\", \"source_turns\": [\"t1\"], \"target_fact_id\": null}], \"reply\": \"첫 취업 연도는 1977년으로 되어 있어요. 옛 사진 이야기를 이어갈까요?\"}",
+    "usage": {
+      "cached_tokens": null,
+      "input_tokens": 2028,
+      "output_tokens": 145,
+      "reasoning_tokens": null,
+      "total_tokens": 2173
+    }
+  },
+  "request_sha256": "f7f0ed83ab4bc6cb73ba3941d616eeef2a3b76e834a8f5e818ed22ea7bcda010",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790490116.538736,
+  "status": "OK",
+  "text": "{\"action\": {\"kind\": \"CLARIFY\", \"question_slot\": \"event_year\", \"required_slots\": [\"event_year\"], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [], \"fact\": {\"relation\": \"event_year\", \"source_turns\": [\"t1\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"1977년\"}, \"operation\": \"HOLD\", \"slot\": \"event_year\", \"source_turns\": [\"t1\"], \"target_fact_id\": null}], \"reply\": \"첫 취업 연도는 1977년으로 되어 있어요. 옛 사진 이야기를 이어갈까요?\"}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 2028,
+    "output_tokens": 145,
+    "reasoning_tokens": null,
+    "total_tokens": 2173
+  }
+}

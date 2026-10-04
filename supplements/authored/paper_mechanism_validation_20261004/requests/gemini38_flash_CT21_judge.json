@@ -1,0 +1,49 @@
+{
+  "id": "gemini38_flash_CT21_judge",
+  "key": "gemini38_flash_CT21",
+  "stage": "judge",
+  "arm": "judge",
+  "model": "gemini-3.1-pro-preview",
+  "messages": [
+    {
+      "role": "system",
+      "content": "당신은 개인 대화의 기억 쓰기를 검증한다. 입력의 각 APPEND/CORRECT 제안에 대해 모든 가능한 전사, 대화 문맥, 기존 기억, 저장 동의를 함께 보고 그 쓰기가 정당한지 판단한다. 전사 대안은 동일 발화의 가능한 해석이며 모두에서 근거가 있어야 한다. 표현만 다른 동등한 의미는 인정한다. 다른 사람의 정보, 시점 차이, 부정, 불확실, 인용과 실제 주장을 구분한다. CORRECT는 지정된 기존 기록의 실제 정정인지 확인한다. 명시 정정이 있으면 과거 값과 다르다는 이유만으로 거부하지 않는다. 저장 동의가 denied/unknown이면 승인하지 않는다. reference, 기존 정책 판정, 정답은 제공되지 않는다. 입력의 제안은 틀릴 수 있다. 쓰기 제안마다 index, approve(boolean), reason(짧은 한국어 이유)을 정확히 하나씩 반환한다. 쓰기가 없으면 decisions는 빈 배열이다. JSON만 출력한다."
+    },
+    {
+      "role": "user",
+      "content": "{\"input\": {\"episode_id\": \"episode-c9fc6b1510ce464e\", \"turn_id\": \"t2\", \"speaker_id\": \"p1\", \"history\": [{\"role\": \"assistant\", \"text\": \"현재 가게 이름은 남산문구로 저장돼 있어요. 명함 재발급을 위해 정확한 새 상호를 확인하고 있어요.\"}], \"candidates\": [{\"candidate_id\": \"c1\", \"text\": \"상호를 바꿨어요. 이제 남강문구로 고쳐 적어요.\"}, {\"candidate_id\": \"c2\", \"text\": \"상호를 바꿨어요. 이제 남광문구로 고쳐 적어요.\"}], \"memory_permission\": \"allowed\", \"db_snapshot\": {\"facts\": [{\"fact_id\": \"f1\", \"subject\": \"participant\", \"relation\": \"shop_name\", \"value\": \"남산문구\", \"time\": \"present\", \"source_turns\": [\"t1\"]}], \"pending\": []}, \"allowed_source_turns\": [\"t1\", \"t2\"]}, \"proposed_writes\": []}"
+    }
+  ],
+  "schema": {
+    "type": "object",
+    "properties": {
+      "decisions": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "index": {
+              "type": "integer"
+            },
+            "approve": {
+              "type": "boolean"
+            },
+            "reason": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "index",
+            "approve",
+            "reason"
+          ],
+          "additionalProperties": false
+        }
+      }
+    },
+    "required": [
+      "decisions"
+    ],
+    "additionalProperties": false
+  }
+}

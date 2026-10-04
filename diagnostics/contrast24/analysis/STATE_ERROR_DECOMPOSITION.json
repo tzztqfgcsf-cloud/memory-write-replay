@@ -1,0 +1,703 @@
+{
+  "scope": "Post-analysis descriptive decomposition; frozen primary scores unchanged",
+  "conditions": {
+    "B": {
+      "supported_target_value_correct": 7,
+      "supported_extra_record_cases": 2,
+      "unsupported_target_changed": 0,
+      "unsupported_extra_record_cases": 3
+    },
+    "C": {
+      "supported_target_value_correct": 12,
+      "supported_extra_record_cases": 2,
+      "unsupported_target_changed": 0,
+      "unsupported_extra_record_cases": 3
+    },
+    "E": {
+      "supported_target_value_correct": 12,
+      "supported_extra_record_cases": 2,
+      "unsupported_target_changed": 1,
+      "unsupported_extra_record_cases": 3
+    },
+    "G": {
+      "supported_target_value_correct": 12,
+      "supported_extra_record_cases": 0,
+      "unsupported_target_changed": 2,
+      "unsupported_extra_record_cases": 2
+    }
+  },
+  "rows": [
+    {
+      "case_id": "N002",
+      "condition": "B",
+      "label": "supported",
+      "target_matches_expected": false,
+      "extra_record": false
+    },
+    {
+      "case_id": "N002",
+      "condition": "C",
+      "label": "supported",
+      "target_matches_expected": true,
+      "extra_record": false
+    },
+    {
+      "case_id": "N002",
+      "condition": "E",
+      "label": "supported",
+      "target_matches_expected": true,
+      "extra_record": false
+    },
+    {
+      "case_id": "N002",
+      "condition": "G",
+      "label": "supported",
+      "target_matches_expected": true,
+      "extra_record": false
+    },
+    {
+      "case_id": "N014",
+      "condition": "B",
+      "label": "unsupported",
+      "target_matches_expected": true,
+      "extra_record": false
+    },
+    {
+      "case_id": "N014",
+      "condition": "C",
+      "label": "unsupported",
+      "target_matches_expected": true,
+      "extra_record": false
+    },
+    {
+      "case_id": "N014",
+      "condition": "E",
+      "label": "unsupported",
+      "target_matches_expected": true,
+      "extra_record": false
+    },
+    {
+      "case_id": "N014",
+      "condition": "G",
+      "label": "unsupported",
+      "target_matches_expected": true,
+      "extra_record": false
+    },
+    {
+      "case_id": "N012",
+      "condition": "B",
+      "label": "unsupported",
+      "target_matches_expected": true,
+      "extra_record": false
+    },
+    {
+      "case_id": "N012",
+      "condition": "C",
+      "label": "unsupported",
+      "target_matches_expected": true,
+      "extra_record": false
+    },
+    {
+      "case_id": "N012",
+      "condition": "E",
+      "label": "unsupported",
+      "target_matches_expected": true,
+      "extra_record": false
+    },
+    {
+      "case_id": "N012",
+      "condition": "G",
+      "label": "unsupported",
+      "target_matches_expected": true,
+      "extra_record": false
+    },
+    {
+      "case_id": "N005",
+      "condition": "B",
+      "label": "supported",
+      "target_matches_expected": true,
+      "extra_record": false
+    },
+    {
+      "case_id": "N005",
+      "condition": "C",
+      "label": "supported",
+      "target_matches_expected": true,
+      "extra_record": false
+    },
+    {
+      "case_id": "N005",
+      "condition": "E",
+      "label": "supported",
+      "target_matches_expected": true,
+      "extra_record": false
+    },
+    {
+      "case_id": "N005",
+      "condition": "G",
+      "label": "supported",
+      "target_matches_expected": true,
+      "extra_record": false
+    },
+    {
+      "case_id": "N011",
+      "condition": "B",
+      "label": "supported",
+      "target_matches_expected": false,
+      "extra_record": false
+    },
+    {
+      "case_id": "N011",
+      "condition": "C",
+      "label": "supported",
+      "target_matches_expected": true,
+      "extra_record": false
+    },
+    {
+      "case_id": "N011",
+      "condition": "E",
+      "label": "supported",
+      "target_matches_expected": true,
+      "extra_record": false
+    },
+    {
+      "case_id": "N011",
+      "condition": "G",
+      "label": "supported",
+      "target_matches_expected": true,
+      "extra_record": false
+    },
+    {
+      "case_id": "N009",
+      "condition": "B",
+      "label": "supported",
+      "target_matches_expected": true,
+      "extra_record": false
+    },
+    {
+      "case_id": "N009",
+      "condition": "C",
+      "label": "supported",
+      "target_matches_expected": true,
+      "extra_record": false
+    },
+    {
+      "case_id": "N009",
+      "condition": "E",
+      "label": "supported",
+      "target_matches_expected": true,
+      "extra_record": false
+    },
+    {
+      "case_id": "N009",
+      "condition": "G",
+      "label": "supported",
+      "target_matches_expected": true,
+      "extra_record": false
+    },
+    {
+      "case_id": "N006",
+      "condition": "B",
+      "label": "unsupported",
+      "target_matches_expected": true,
+      "extra_record": false
+    },
+    {
+      "case_id": "N006",
+      "condition": "C",
+      "label": "unsupported",
+      "target_matches_expected": true,
+      "extra_record": false
+    },
+    {
+      "case_id": "N006",
+      "condition": "E",
+      "label": "unsupported",
+      "target_matches_expected": true,
+      "extra_record": false
+    },
+    {
+      "case_id": "N006",
+      "condition": "G",
+      "label": "unsupported",
+      "target_matches_expected": true,
+      "extra_record": false
+    },
+    {
+      "case_id": "N008",
+      "condition": "B",
+      "label": "supported",
+      "target_matches_expected": true,
+      "extra_record": true
+    },
+    {
+      "case_id": "N008",
+      "condition": "C",
+      "label": "supported",
+      "target_matches_expected": true,
+      "extra_record": true
+    },
+    {
+      "case_id": "N008",
+      "condition": "E",
+      "label": "supported",
+      "target_matches_expected": true,
+      "extra_record": true
+    },
+    {
+      "case_id": "N008",
+      "condition": "G",
+      "label": "supported",
+      "target_matches_expected": true,
+      "extra_record": false
+    },
+    {
+      "case_id": "N024",
+      "condition": "B",
+      "label": "unsupported",
+      "target_matches_expected": true,
+      "extra_record": false
+    },
+    {
+      "case_id": "N024",
+      "condition": "C",
+      "label": "unsupported",
+      "target_matches_expected": true,
+      "extra_record": false
+    },
+    {
+      "case_id": "N024",
+      "condition": "E",
+      "label": "unsupported",
+      "target_matches_expected": true,
+      "extra_record": false
+    },
+    {
+      "case_id": "N024",
+      "condition": "G",
+      "label": "unsupported",
+      "target_matches_expected": true,
+      "extra_record": false
+    },
+    {
+      "case_id": "N020",
+      "condition": "B",
+      "label": "supported",
+      "target_matches_expected": true,
+      "extra_record": false
+    },
+    {
+      "case_id": "N020",
+      "condition": "C",
+      "label": "supported",
+      "target_matches_expected": true,
+      "extra_record": false
+    },
+    {
+      "case_id": "N020",
+      "condition": "E",
+      "label": "supported",
+      "target_matches_expected": true,
+      "extra_record": false
+    },
+    {
+      "case_id": "N020",
+      "condition": "G",
+      "label": "supported",
+      "target_matches_expected": true,
+      "extra_record": false
+    },
+    {
+      "case_id": "N007",
+      "condition": "B",
+      "label": "supported",
+      "target_matches_expected": false,
+      "extra_record": false
+    },
+    {
+      "case_id": "N007",
+      "condition": "C",
+      "label": "supported",
+      "target_matches_expected": true,
+      "extra_record": false
+    },
+    {
+      "case_id": "N007",
+      "condition": "E",
+      "label": "supported",
+      "target_matches_expected": true,
+      "extra_record": false
+    },
+    {
+      "case_id": "N007",
+      "condition": "G",
+      "label": "supported",
+      "target_matches_expected": true,
+      "extra_record": false
+    },
+    {
+      "case_id": "N003",
+      "condition": "B",
+      "label": "unsupported",
+      "target_matches_expected": true,
+      "extra_record": true
+    },
+    {
+      "case_id": "N003",
+      "condition": "C",
+      "label": "unsupported",
+      "target_matches_expected": true,
+      "extra_record": true
+    },
+    {
+      "case_id": "N003",
+      "condition": "E",
+      "label": "unsupported",
+      "target_matches_expected": true,
+      "extra_record": true
+    },
+    {
+      "case_id": "N003",
+      "condition": "G",
+      "label": "unsupported",
+      "target_matches_expected": true,
+      "extra_record": true
+    },
+    {
+      "case_id": "N001",
+      "condition": "B",
+      "label": "supported",
+      "target_matches_expected": true,
+      "extra_record": false
+    },
+    {
+      "case_id": "N001",
+      "condition": "C",
+      "label": "supported",
+      "target_matches_expected": true,
+      "extra_record": false
+    },
+    {
+      "case_id": "N001",
+      "condition": "E",
+      "label": "supported",
+      "target_matches_expected": true,
+      "extra_record": false
+    },
+    {
+      "case_id": "N001",
+      "condition": "G",
+      "label": "supported",
+      "target_matches_expected": true,
+      "extra_record": false
+    },
+    {
+      "case_id": "N016",
+      "condition": "B",
+      "label": "unsupported",
+      "target_matches_expected": true,
+      "extra_record": true
+    },
+    {
+      "case_id": "N016",
+      "condition": "C",
+      "label": "unsupported",
+      "target_matches_expected": true,
+      "extra_record": true
+    },
+    {
+      "case_id": "N016",
+      "condition": "E",
+      "label": "unsupported",
+      "target_matches_expected": true,
+      "extra_record": true
+    },
+    {
+      "case_id": "N016",
+      "condition": "G",
+      "label": "unsupported",
+      "target_matches_expected": true,
+      "extra_record": true
+    },
+    {
+      "case_id": "N017",
+      "condition": "B",
+      "label": "supported",
+      "target_matches_expected": false,
+      "extra_record": false
+    },
+    {
+      "case_id": "N017",
+      "condition": "C",
+      "label": "supported",
+      "target_matches_expected": true,
+      "extra_record": false
+    },
+    {
+      "case_id": "N017",
+      "condition": "E",
+      "label": "supported",
+      "target_matches_expected": true,
+      "extra_record": false
+    },
+    {
+      "case_id": "N017",
+      "condition": "G",
+      "label": "supported",
+      "target_matches_expected": true,
+      "extra_record": false
+    },
+    {
+      "case_id": "N021",
+      "condition": "B",
+      "label": "unsupported",
+      "target_matches_expected": true,
+      "extra_record": false
+    },
+    {
+      "case_id": "N021",
+      "condition": "C",
+      "label": "unsupported",
+      "target_matches_expected": true,
+      "extra_record": false
+    },
+    {
+      "case_id": "N021",
+      "condition": "E",
+      "label": "unsupported",
+      "target_matches_expected": true,
+      "extra_record": false
+    },
+    {
+      "case_id": "N021",
+      "condition": "G",
+      "label": "unsupported",
+      "target_matches_expected": true,
+      "extra_record": false
+    },
+    {
+      "case_id": "N022",
+      "condition": "B",
+      "label": "supported",
+      "target_matches_expected": true,
+      "extra_record": true
+    },
+    {
+      "case_id": "N022",
+      "condition": "C",
+      "label": "supported",
+      "target_matches_expected": true,
+      "extra_record": true
+    },
+    {
+      "case_id": "N022",
+      "condition": "E",
+      "label": "supported",
+      "target_matches_expected": true,
+      "extra_record": true
+    },
+    {
+      "case_id": "N022",
+      "condition": "G",
+      "label": "supported",
+      "target_matches_expected": true,
+      "extra_record": false
+    },
+    {
+      "case_id": "N004",
+      "condition": "B",
+      "label": "unsupported",
+      "target_matches_expected": true,
+      "extra_record": true
+    },
+    {
+      "case_id": "N004",
+      "condition": "C",
+      "label": "unsupported",
+      "target_matches_expected": true,
+      "extra_record": true
+    },
+    {
+      "case_id": "N004",
+      "condition": "E",
+      "label": "unsupported",
+      "target_matches_expected": true,
+      "extra_record": true
+    },
+    {
+      "case_id": "N004",
+      "condition": "G",
+      "label": "unsupported",
+      "target_matches_expected": true,
+      "extra_record": false
+    },
+    {
+      "case_id": "N023",
+      "condition": "B",
+      "label": "unsupported",
+      "target_matches_expected": true,
+      "extra_record": false
+    },
+    {
+      "case_id": "N023",
+      "condition": "C",
+      "label": "unsupported",
+      "target_matches_expected": true,
+      "extra_record": false
+    },
+    {
+      "case_id": "N023",
+      "condition": "E",
+      "label": "unsupported",
+      "target_matches_expected": true,
+      "extra_record": false
+    },
+    {
+      "case_id": "N023",
+      "condition": "G",
+      "label": "unsupported",
+      "target_matches_expected": true,
+      "extra_record": false
+    },
+    {
+      "case_id": "N015",
+      "condition": "B",
+      "label": "unsupported",
+      "target_matches_expected": true,
+      "extra_record": false
+    },
+    {
+      "case_id": "N015",
+      "condition": "C",
+      "label": "unsupported",
+      "target_matches_expected": true,
+      "extra_record": false
+    },
+    {
+      "case_id": "N015",
+      "condition": "E",
+      "label": "unsupported",
+      "target_matches_expected": false,
+      "extra_record": false
+    },
+    {
+      "case_id": "N015",
+      "condition": "G",
+      "label": "unsupported",
+      "target_matches_expected": false,
+      "extra_record": false
+    },
+    {
+      "case_id": "N019",
+      "condition": "B",
+      "label": "unsupported",
+      "target_matches_expected": true,
+      "extra_record": false
+    },
+    {
+      "case_id": "N019",
+      "condition": "C",
+      "label": "unsupported",
+      "target_matches_expected": true,
+      "extra_record": false
+    },
+    {
+      "case_id": "N019",
+      "condition": "E",
+      "label": "unsupported",
+      "target_matches_expected": true,
+      "extra_record": false
+    },
+    {
+      "case_id": "N019",
+      "condition": "G",
+      "label": "unsupported",
+      "target_matches_expected": true,
+      "extra_record": false
+    },
+    {
+      "case_id": "N013",
+      "condition": "B",
+      "label": "supported",
+      "target_matches_expected": false,
+      "extra_record": false
+    },
+    {
+      "case_id": "N013",
+      "condition": "C",
+      "label": "supported",
+      "target_matches_expected": true,
+      "extra_record": false
+    },
+    {
+      "case_id": "N013",
+      "condition": "E",
+      "label": "supported",
+      "target_matches_expected": true,
+      "extra_record": false
+    },
+    {
+      "case_id": "N013",
+      "condition": "G",
+      "label": "supported",
+      "target_matches_expected": true,
+      "extra_record": false
+    },
+    {
+      "case_id": "N010",
+      "condition": "B",
+      "label": "unsupported",
+      "target_matches_expected": true,
+      "extra_record": false
+    },
+    {
+      "case_id": "N010",
+      "condition": "C",
+      "label": "unsupported",
+      "target_matches_expected": true,
+      "extra_record": false
+    },
+    {
+      "case_id": "N010",
+      "condition": "E",
+      "label": "unsupported",
+      "target_matches_expected": true,
+      "extra_record": false
+    },
+    {
+      "case_id": "N010",
+      "condition": "G",
+      "label": "unsupported",
+      "target_matches_expected": false,
+      "extra_record": false
+    },
+    {
+      "case_id": "N018",
+      "condition": "B",
+      "label": "supported",
+      "target_matches_expected": true,
+      "extra_record": false
+    },
+    {
+      "case_id": "N018",
+      "condition": "C",
+      "label": "supported",
+      "target_matches_expected": true,
+      "extra_record": false
+    },
+    {
+      "case_id": "N018",
+      "condition": "E",
+      "label": "supported",
+      "target_matches_expected": true,
+      "extra_record": false
+    },
+    {
+      "case_id": "N018",
+      "condition": "G",
+      "label": "supported",
+      "target_matches_expected": true,
+      "extra_record": false
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "call_id": "5931bc60a4676fd10a98-g_draft",
+  "error_type": null,
+  "finish_reason": "stop",
+  "finished_unix": 1790494572.690994,
+  "latency_seconds": 8.7794,
+  "model_version": "mlx-community/Llama-3.1-8B-Instruct-4bit",
+  "raw_response": {
+    "base_seed": 20260927,
+    "finish_reason": "stop",
+    "generation_calls": 553,
+    "id": "local-8708bc13397494ae3582a82c",
+    "seed": 3846099597,
+    "snapshot": "<LOCAL_PATH>",
+    "text": "{\"action\": {\"kind\": \"CONTINUE\", \"question_slot\": \"event_year\", \"required_slots\": [\"event_year\"], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"2003\", \"2003\"], \"fact\": {\"relation\": \"event_year\", \"source_turns\": [\"t1\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"2003\"}, \"operation\": \"APPEND\", \"slot\": \"event_year\", \"source_turns\": [\"t1\"], \"target_fact_id\": \"f1\"}], \"reply\": \"2003\"}",
+    "usage": {
+      "cached_tokens": null,
+      "input_tokens": 1700,
+      "output_tokens": 130,
+      "reasoning_tokens": null,
+      "total_tokens": 1830
+    }
+  },
+  "request_sha256": "804fa491a92e49d70234dfc31eea982138570db5f3105451e777f1b5aa4d70c8",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790494563.911149,
+  "status": "OK",
+  "text": "{\"action\": {\"kind\": \"CONTINUE\", \"question_slot\": \"event_year\", \"required_slots\": [\"event_year\"], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"2003\", \"2003\"], \"fact\": {\"relation\": \"event_year\", \"source_turns\": [\"t1\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"2003\"}, \"operation\": \"APPEND\", \"slot\": \"event_year\", \"source_turns\": [\"t1\"], \"target_fact_id\": \"f1\"}], \"reply\": \"2003\"}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1700,
+    "output_tokens": 130,
+    "reasoning_tokens": null,
+    "total_tokens": 1830
+  }
+}

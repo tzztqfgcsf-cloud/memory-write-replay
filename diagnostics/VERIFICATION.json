@@ -1,0 +1,89 @@
+{
+  "contrast24": {
+    "cases": 24,
+    "saved_rows_verified": 96,
+    "condition_counts": {
+      "B": {
+        "outputs": 24,
+        "supported_success": 5,
+        "unsupported_preserved": 9
+      },
+      "C": {
+        "outputs": 24,
+        "supported_success": 10,
+        "unsupported_preserved": 9
+      },
+      "E": {
+        "outputs": 24,
+        "supported_success": 10,
+        "unsupported_preserved": 8
+      },
+      "G": {
+        "outputs": 24,
+        "supported_success": 12,
+        "unsupported_preserved": 8
+      }
+    }
+  },
+  "boundary12": {
+    "cases": 12,
+    "saved_rows_verified": 36,
+    "condition_counts": {
+      "B": {
+        "outputs": 12,
+        "supported_success": 4,
+        "unsupported_preserved": 5
+      },
+      "C": {
+        "outputs": 12,
+        "supported_success": 4,
+        "unsupported_preserved": 5
+      },
+      "E": {
+        "outputs": 12,
+        "supported_success": 4,
+        "unsupported_preserved": 5
+      }
+    }
+  },
+  "primary_original": {
+    "cases": 48,
+    "repetitions": 3,
+    "models": 2,
+    "saved_rows_verified": 2016,
+    "invalid_rows": 283,
+    "failure_rows": 10
+  },
+  "public16": {
+    "cases": 16,
+    "scored_cases": 10,
+    "unscored_cases": 6,
+    "saved_rows_verified": 144,
+    "focal_agreement": {
+      "B": 3,
+      "C": 4,
+      "CR": 4,
+      "D": 10,
+      "E": 7,
+      "E_text": 4,
+      "G": 10,
+      "R": 3,
+      "SR1": 5
+    },
+    "human_gold": false
+  },
+  "saved_allow": {
+    "saved_rows_verified": 1152,
+    "models": 8,
+    "cases": 48,
+    "repetitions": 3,
+    "method": "fresh Allow admission + isolated SQLite execution + frozen v2 scoring, compared with archived E scores",
+    "new_model_calls": 0
+  },
+  "status": "PASS",
+  "manifest_files_verified": 3969,
+  "new_model_calls": 0,
+  "original_files_modified": 0,
+  "bootstrap_runs": 0,
+  "timing_artifact_recovered": false
+}

@@ -1,0 +1,57 @@
+{
+  "call_id": "ff436aed9da5b1b9fec3-g_final",
+  "finish_reason": "STOP",
+  "finished_unix": 1790489476.976973,
+  "http_status": 200,
+  "latency_seconds": 1.2317,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.011774888593856602,
+        "content": {
+          "parts": [
+            {
+              "text": "{\"reply\": \"네, 귀농하신 해는 1998년으로 잘 기억하고 있겠습니다.\", \"action\": {\"kind\": \"CONTINUE\", \"question_slot\": null, \"required_slots\": [], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [], \"fact\": {\"relation\": \"event_year\", \"source_turns\": [\"t1\", \"t2\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"1998년\"}, \"operation\": \"CORRECT\", \"slot\": null, \"source_turns\": [\"t2\"], \"target_fact_id\": \"f1\"}]}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T06:11:15.854157Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "g7O4ao2RNLOLx9gPv4OY6A4",
+    "usageMetadata": {
+      "candidatesTokenCount": 146,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 146
+        }
+      ],
+      "promptTokenCount": 1815,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1815
+        }
+      ],
+      "totalTokenCount": 1961,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "eab6a38bd3097989a483b2964d223710b7959d7513b72b212334cea04ddb050c",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790489475.744778,
+  "status": "OK",
+  "text": "{\"reply\": \"네, 귀농하신 해는 1998년으로 잘 기억하고 있겠습니다.\", \"action\": {\"kind\": \"CONTINUE\", \"question_slot\": null, \"required_slots\": [], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [], \"fact\": {\"relation\": \"event_year\", \"source_turns\": [\"t1\", \"t2\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"1998년\"}, \"operation\": \"CORRECT\", \"slot\": null, \"source_turns\": [\"t2\"], \"target_fact_id\": \"f1\"}]}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1815,
+    "output_tokens": 146,
+    "reasoning_tokens": 0,
+    "total_tokens": 1961
+  }
+}

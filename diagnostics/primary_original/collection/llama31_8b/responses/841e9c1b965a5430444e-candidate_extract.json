@@ -1,0 +1,36 @@
+{
+  "call_id": "841e9c1b965a5430444e-candidate_extract",
+  "error_type": null,
+  "finish_reason": "stop",
+  "finished_unix": 1790494074.910741,
+  "latency_seconds": 13.6203,
+  "model_version": "mlx-community/Llama-3.1-8B-Instruct-4bit",
+  "raw_response": {
+    "base_seed": 20260927,
+    "finish_reason": "stop",
+    "generation_calls": 501,
+    "id": "local-4efab51ea4989fcb0fec5980",
+    "seed": 3964437534,
+    "snapshot": "<LOCAL_PATH>",
+    "text": "{\"beliefs\": [{\"candidate_id\": \"c1\", \"facts\": [{\"relation\": \"meeting_place\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"문화마루\"}]}, {\"candidate_id\": \"c2\", \"facts\": [{\"relation\": \"meeting_place\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"문화마루\"}]}], \"correction_witnesses\": [{\"candidate_id\": \"c1\", \"evidence_quote\": \"정기 모임은 문화마루에서 해요. 모임 장소는 문화마루로 저장해요.\", \"new_value\": \"문화마루\", \"polarity\": \"affirmed\", \"relation\": \"meeting_place\", \"source_turn\": \"t2\", \"subject\": \"participant\", \"target_fact_id\": \"f1\", \"time\": \"present\"}, {\"candidate_id\": \"c2\", \"evidence_quote\": \"정기 모임이요, 문화마루에서 해요. 장소를 문화마루로 저장해 둬요.\", \"new_value\": \"문화마루\", \"polarity\": \"affirmed\", \"relation\": \"meeting_place\", \"source_turn\": \"t2\", \"subject\": \"participant\", \"target_fact_id\": \"f1\", \"time\": \"present\"}]}",
+    "usage": {
+      "cached_tokens": null,
+      "input_tokens": 1753,
+      "output_tokens": 294,
+      "reasoning_tokens": null,
+      "total_tokens": 2047
+    }
+  },
+  "request_sha256": "9a5c181d630cbf9d1466d35f0521daaebef6dd0589511786937ec6c8940d3719",
+  "stage_schema_sha256": "bda7326ac6a6cbeedf1ecdbf4a2b08277c078351d6689f667dc0d558c4972dd3",
+  "started_unix": 1790494061.290037,
+  "status": "OK",
+  "text": "{\"beliefs\": [{\"candidate_id\": \"c1\", \"facts\": [{\"relation\": \"meeting_place\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"문화마루\"}]}, {\"candidate_id\": \"c2\", \"facts\": [{\"relation\": \"meeting_place\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"문화마루\"}]}], \"correction_witnesses\": [{\"candidate_id\": \"c1\", \"evidence_quote\": \"정기 모임은 문화마루에서 해요. 모임 장소는 문화마루로 저장해요.\", \"new_value\": \"문화마루\", \"polarity\": \"affirmed\", \"relation\": \"meeting_place\", \"source_turn\": \"t2\", \"subject\": \"participant\", \"target_fact_id\": \"f1\", \"time\": \"present\"}, {\"candidate_id\": \"c2\", \"evidence_quote\": \"정기 모임이요, 문화마루에서 해요. 장소를 문화마루로 저장해 둬요.\", \"new_value\": \"문화마루\", \"polarity\": \"affirmed\", \"relation\": \"meeting_place\", \"source_turn\": \"t2\", \"subject\": \"participant\", \"target_fact_id\": \"f1\", \"time\": \"present\"}]}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1753,
+    "output_tokens": 294,
+    "reasoning_tokens": null,
+    "total_tokens": 2047
+  }
+}

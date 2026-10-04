@@ -1,0 +1,57 @@
+{
+  "call_id": "3af0d1d92bfdefc7cb6a-candidate_extract",
+  "finish_reason": "STOP",
+  "finished_unix": 1790493254.342998,
+  "http_status": 200,
+  "latency_seconds": 1.1592,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.0014343322094144493,
+        "content": {
+          "parts": [
+            {
+              "text": "{\"beliefs\": [{\"candidate_id\": \"c1\", \"facts\": [{\"relation\": \"shop_name\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"장미미용실\"}]}, {\"candidate_id\": \"c2\", \"facts\": [{\"relation\": \"shop_name\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"장미미용실\"}]}], \"correction_witnesses\": []}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T07:14:13.270854Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "RcK4aobEEJiXktwPo4SY4AQ",
+    "usageMetadata": {
+      "candidatesTokenCount": 116,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 116
+        }
+      ],
+      "promptTokenCount": 1651,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1651
+        }
+      ],
+      "totalTokenCount": 1767,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "73bfa4a1cd6184547a7dac3160f0ce797ffb442ab805f62b7eefd14a71a2ece7",
+  "stage_schema_sha256": "bda7326ac6a6cbeedf1ecdbf4a2b08277c078351d6689f667dc0d558c4972dd3",
+  "started_unix": 1790493253.183019,
+  "status": "OK",
+  "text": "{\"beliefs\": [{\"candidate_id\": \"c1\", \"facts\": [{\"relation\": \"shop_name\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"장미미용실\"}]}, {\"candidate_id\": \"c2\", \"facts\": [{\"relation\": \"shop_name\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"장미미용실\"}]}], \"correction_witnesses\": []}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1651,
+    "output_tokens": 116,
+    "reasoning_tokens": 0,
+    "total_tokens": 1767
+  }
+}

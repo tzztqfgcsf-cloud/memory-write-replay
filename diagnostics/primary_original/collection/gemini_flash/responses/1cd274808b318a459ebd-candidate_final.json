@@ -1,0 +1,57 @@
+{
+  "call_id": "1cd274808b318a459ebd-candidate_final",
+  "finish_reason": "STOP",
+  "finished_unix": 1790495569.969856,
+  "http_status": 200,
+  "latency_seconds": 1.2531,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.024691306627713717,
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"reply\": \"대화를 종료할게요.\",\n  \"action\": {\n    \"kind\": \"STOP\",\n    \"question_slot\": null,\n    \"required_slots\": [],\n    \"speaker_id\": \"p1\"\n  },\n  \"memory_decisions\": [\n    {\n      \"alternatives\": [],\n      \"fact\": null,\n      \"operation\": \"NO_WRITE\",\n      \"slot\": null,\n      \"source_turns\": [\"t2\"],\n      \"target_fact_id\": null\n    }\n  ]\n}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T07:52:48.877454Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "UMu4ao7HNfuj0ckPyLyQmAM",
+    "usageMetadata": {
+      "candidatesTokenCount": 130,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 130
+        }
+      ],
+      "promptTokenCount": 1940,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1940
+        }
+      ],
+      "totalTokenCount": 2070,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "be25f4375f52aacfbf5198c64a8b81dbb25e31e3b2d1ddfbd72320729cf6b667",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790495568.7161338,
+  "status": "OK",
+  "text": "{\n  \"reply\": \"대화를 종료할게요.\",\n  \"action\": {\n    \"kind\": \"STOP\",\n    \"question_slot\": null,\n    \"required_slots\": [],\n    \"speaker_id\": \"p1\"\n  },\n  \"memory_decisions\": [\n    {\n      \"alternatives\": [],\n      \"fact\": null,\n      \"operation\": \"NO_WRITE\",\n      \"slot\": null,\n      \"source_turns\": [\"t2\"],\n      \"target_fact_id\": null\n    }\n  ]\n}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1940,
+    "output_tokens": 130,
+    "reasoning_tokens": 0,
+    "total_tokens": 2070
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "call_id": "7bbcec3b6f3e7e61d0ab-candidate_final",
+  "finish_reason": "STOP",
+  "finished_unix": 1790489325.003925,
+  "http_status": 200,
+  "latency_seconds": 1.6154,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.016434380151693104,
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"reply\": \"네, 정기 모임 장소는 계속 시민회관으로 유지됩니다.\",\n  \"action\": {\n    \"kind\": \"CONTINUE\",\n    \"question_slot\": null,\n    \"required_slots\": [],\n    \"speaker_id\": \"p1\"\n  },\n  \"memory_decisions\": [\n    {\n      \"alternatives\": [],\n      \"fact\": {\n        \"relation\": \"meeting_place\",\n        \"source_turns\": [\n          \"t2\"\n        ],\n        \"subject\": \"participant\",\n        \"time\": \"present\",\n        \"value\": \"시민회관\"\n      },\n      \"operation\": \"CORRECT\",\n      \"slot\": null,\n      \"source_turns\": [\n        \"t2\"\n      ],\n      \"target_fact_id\": \"f1\"\n    }\n  ]\n}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T06:08:43.512250Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "67K4avqhH9CNx9gP07myoAQ",
+    "usageMetadata": {
+      "candidatesTokenCount": 206,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 206
+        }
+      ],
+      "promptTokenCount": 1971,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1971
+        }
+      ],
+      "totalTokenCount": 2177,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "5c39b764eb66b9384234933df2e7a54a70d2204da50e6e7e0060923c2e582cfb",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790489323.388194,
+  "status": "OK",
+  "text": "{\n  \"reply\": \"네, 정기 모임 장소는 계속 시민회관으로 유지됩니다.\",\n  \"action\": {\n    \"kind\": \"CONTINUE\",\n    \"question_slot\": null,\n    \"required_slots\": [],\n    \"speaker_id\": \"p1\"\n  },\n  \"memory_decisions\": [\n    {\n      \"alternatives\": [],\n      \"fact\": {\n        \"relation\": \"meeting_place\",\n        \"source_turns\": [\n          \"t2\"\n        ],\n        \"subject\": \"participant\",\n        \"time\": \"present\",\n        \"value\": \"시민회관\"\n      },\n      \"operation\": \"CORRECT\",\n      \"slot\": null,\n      \"source_turns\": [\n        \"t2\"\n      ],\n      \"target_fact_id\": \"f1\"\n    }\n  ]\n}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1971,
+    "output_tokens": 206,
+    "reasoning_tokens": 0,
+    "total_tokens": 2177
+  }
+}

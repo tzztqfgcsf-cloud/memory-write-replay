@@ -1,0 +1,57 @@
+{
+  "call_id": "5e6a2e9d7f497b81fcc7-candidate_final",
+  "finish_reason": "STOP",
+  "finished_unix": 1790490529.968856,
+  "http_status": 200,
+  "latency_seconds": 1.2072,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.04988199586321594,
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"reply\": \"네, 아직 확실하지 않으니 기존 정보는 그대로 두겠습니다.\",\n  \"action\": {\n    \"kind\": \"CONTINUE\",\n    \"question_slot\": null,\n    \"required_slots\": [],\n    \"speaker_id\": \"p1\"\n  },\n  \"memory_decisions\": [\n    {\n      \"alternatives\": [\n        \"다온꽃집\"\n      ],\n      \"fact\": null,\n      \"operation\": \"HOLD\",\n      \"slot\": \"shop_name\",\n      \"source_turns\": [\n        \"t2\"\n      ],\n      \"target_fact_id\": null\n    }\n  ]\n}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T06:28:48.879599Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "oLe4au_XNcOAncoPsbLi2Qc",
+    "usageMetadata": {
+      "candidatesTokenCount": 157,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 157
+        }
+      ],
+      "promptTokenCount": 1956,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1956
+        }
+      ],
+      "totalTokenCount": 2113,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "db0296e7b9cc4786630dc6455fe6e72835959fde4abb4d16902dd28d4b747fd2",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790490528.7611399,
+  "status": "OK",
+  "text": "{\n  \"reply\": \"네, 아직 확실하지 않으니 기존 정보는 그대로 두겠습니다.\",\n  \"action\": {\n    \"kind\": \"CONTINUE\",\n    \"question_slot\": null,\n    \"required_slots\": [],\n    \"speaker_id\": \"p1\"\n  },\n  \"memory_decisions\": [\n    {\n      \"alternatives\": [\n        \"다온꽃집\"\n      ],\n      \"fact\": null,\n      \"operation\": \"HOLD\",\n      \"slot\": \"shop_name\",\n      \"source_turns\": [\n        \"t2\"\n      ],\n      \"target_fact_id\": null\n    }\n  ]\n}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1956,
+    "output_tokens": 157,
+    "reasoning_tokens": 0,
+    "total_tokens": 2113
+  }
+}

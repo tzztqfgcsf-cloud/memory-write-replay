@@ -1,0 +1,57 @@
+{
+  "call_id": "7480618ab8b58b8a6f0e-sr_feedback",
+  "finish_reason": "MAX_TOKENS",
+  "finished_unix": 1790492179.464109,
+  "http_status": 200,
+  "latency_seconds": 3.0622,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.12025608122348785,
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"no_change_needed\": false,\n  \"issues\": [\n    {\n      \"draft_location\": \"memory_decisions[0].operation\",\n      \"evidence_location\": \"db_snapshot.facts[0].fact_id\",\n      \"problem\": \"The user is explicitly correcting an existing fact. The operation should be CORRECT, not HOLD.\",\n      \"specific_revision\": \"Change 'HOLD' to 'CORRECT'.\"\n    },\n    {\n      \"draft_location\": \"memory_decisions[0].fact\",\n      \"evidence_location\": \"candidates[0].text, candidates[1].text\",\n      \"problem\": \"When the operation is CORRECT, the 'fact' field must contain the corrected fact. It is currently null.\",\n      \"specific_revision\": \"Add 'fact': {'subject': 'participant', 'relation': 'shop_name', 'value': '남강문구', 'time': 'present'} (or '남광문구' if clarified).\"\n    },\n    {\n      \"draft_location\": \"memory_decisions[0].target_fact_id\",\n      \"evidence_location\": \"db_snapshot.facts[0].fact_id\",\n      \"problem\": \"When the operation is CORRECT, the 'target_fact_id' must refer to the fact being corrected.\",\n      \"specific_revision\": \"Change 'null' to 'f1'.\"\n    },\n    {\n      \"draft_location\": \"memory_decisions[0].alternatives\",\n      \"evidence_location\": \"candidates[0].text, candidates[1].text\",\n      \"problem\": \"The alternatives list should only contain the differing parts of the candidates, not the full phrases. Also, if the operation is CORRECT, alternatives should be empty.\",\n      \"specific_revision\": \"If the operation is CORRECT, change 'alternatives': ['남강문구', '남광문구'] to 'alternatives': []. If the operation remains HOLD, change to 'alternatives': ['남강문구', '남광문구'] is acceptable for the value slot.\"\n    },\n    {\n      \"draft_location\": \"memory_decisions[0].slot\",\n      \"evidence_location\": \"none available\",\n      \"problem\": \"The 'slot' field is only relevant"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "MAX_TOKENS"
+      }
+    ],
+    "createTime": "2026-09-27T06:56:16.501425Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "EL64arHNHrOKktwPsejJ4QY",
+    "usageMetadata": {
+      "candidatesTokenCount": 512,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 512
+        }
+      ],
+      "promptTokenCount": 1403,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1403
+        }
+      ],
+      "totalTokenCount": 1915,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "592e531231b867e4f23534cec4c5c478eb1259cd3c39d479737c3a4386687618",
+  "stage_schema_sha256": "377e252cf02129ba34bbc867118dd2b9c6b65042b3fcd7b44099d2fc6e0513ed",
+  "started_unix": 1790492176.401608,
+  "status": "OK",
+  "text": "{\n  \"no_change_needed\": false,\n  \"issues\": [\n    {\n      \"draft_location\": \"memory_decisions[0].operation\",\n      \"evidence_location\": \"db_snapshot.facts[0].fact_id\",\n      \"problem\": \"The user is explicitly correcting an existing fact. The operation should be CORRECT, not HOLD.\",\n      \"specific_revision\": \"Change 'HOLD' to 'CORRECT'.\"\n    },\n    {\n      \"draft_location\": \"memory_decisions[0].fact\",\n      \"evidence_location\": \"candidates[0].text, candidates[1].text\",\n      \"problem\": \"When the operation is CORRECT, the 'fact' field must contain the corrected fact. It is currently null.\",\n      \"specific_revision\": \"Add 'fact': {'subject': 'participant', 'relation': 'shop_name', 'value': '남강문구', 'time': 'present'} (or '남광문구' if clarified).\"\n    },\n    {\n      \"draft_location\": \"memory_decisions[0].target_fact_id\",\n      \"evidence_location\": \"db_snapshot.facts[0].fact_id\",\n      \"problem\": \"When the operation is CORRECT, the 'target_fact_id' must refer to the fact being corrected.\",\n      \"specific_revision\": \"Change 'null' to 'f1'.\"\n    },\n    {\n      \"draft_location\": \"memory_decisions[0].alternatives\",\n      \"evidence_location\": \"candidates[0].text, candidates[1].text\",\n      \"problem\": \"The alternatives list should only contain the differing parts of the candidates, not the full phrases. Also, if the operation is CORRECT, alternatives should be empty.\",\n      \"specific_revision\": \"If the operation is CORRECT, change 'alternatives': ['남강문구', '남광문구'] to 'alternatives': []. If the operation remains HOLD, change to 'alternatives': ['남강문구', '남광문구'] is acceptable for the value slot.\"\n    },\n    {\n      \"draft_location\": \"memory_decisions[0].slot\",\n      \"evidence_location\": \"none available\",\n      \"problem\": \"The 'slot' field is only relevant",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1403,
+    "output_tokens": 512,
+    "reasoning_tokens": 0,
+    "total_tokens": 1915
+  }
+}

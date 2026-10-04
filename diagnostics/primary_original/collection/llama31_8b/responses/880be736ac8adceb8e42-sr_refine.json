@@ -1,0 +1,36 @@
+{
+  "call_id": "880be736ac8adceb8e42-sr_refine",
+  "error_type": null,
+  "finish_reason": "stop",
+  "finished_unix": 1790495555.257837,
+  "latency_seconds": 8.8427,
+  "model_version": "mlx-community/Llama-3.1-8B-Instruct-4bit",
+  "raw_response": {
+    "base_seed": 20260927,
+    "finish_reason": "stop",
+    "generation_calls": 648,
+    "id": "local-6dd03265bfa25836f939b9d3",
+    "seed": 2844562772,
+    "snapshot": "<LOCAL_PATH>",
+    "text": "{\"action\": {\"kind\": \"CONTINUE\", \"question_slot\": \"residence\", \"required_slots\": [\"residence\"], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"김제\", \"태어난 데\"], \"fact\": null, \"operation\": \"HOLD\", \"slot\": \"residence\", \"source_turns\": [\"t1\", \"t2\"], \"target_fact_id\": null}], \"reply\": \"어린 시절 이야기부터 해 볼까요?\"}",
+    "usage": {
+      "cached_tokens": null,
+      "input_tokens": 2092,
+      "output_tokens": 108,
+      "reasoning_tokens": null,
+      "total_tokens": 2200
+    }
+  },
+  "request_sha256": "2e55dea1893a9433211cd64740b4bf8ed24343bf33dd6aef74ad760057bcd099",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790495546.4146812,
+  "status": "OK",
+  "text": "{\"action\": {\"kind\": \"CONTINUE\", \"question_slot\": \"residence\", \"required_slots\": [\"residence\"], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"김제\", \"태어난 데\"], \"fact\": null, \"operation\": \"HOLD\", \"slot\": \"residence\", \"source_turns\": [\"t1\", \"t2\"], \"target_fact_id\": null}], \"reply\": \"어린 시절 이야기부터 해 볼까요?\"}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 2092,
+    "output_tokens": 108,
+    "reasoning_tokens": null,
+    "total_tokens": 2200
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "call_id": "4fbe8ba1ea1c3fa00dce-candidate_extract",
+  "error_type": null,
+  "finish_reason": "stop",
+  "finished_unix": 1790494891.6808739,
+  "latency_seconds": 10.3007,
+  "model_version": "mlx-community/Llama-3.1-8B-Instruct-4bit",
+  "raw_response": {
+    "base_seed": 20260927,
+    "finish_reason": "stop",
+    "generation_calls": 579,
+    "id": "local-e14a6f94cac2d161f1475e88",
+    "seed": 2114135950,
+    "snapshot": "<LOCAL_PATH>",
+    "text": "{\"beliefs\": [{\"candidate_id\": \"c1\", \"facts\": [{\"relation\": \"travel_destination\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"제주도\"}]}], \"correction_witnesses\": [{\"candidate_id\": \"c1\", \"evidence_quote\": \"이번에 제주도에 다녀왔어요.\", \"new_value\": \"제주도\", \"polarity\": \"affirmed\", \"relation\": \"travel_destination\", \"source_turn\": \"t2\", \"subject\": \"participant\", \"target_fact_id\": \"f1\", \"time\": \"past\"}]}",
+    "usage": {
+      "cached_tokens": null,
+      "input_tokens": 1757,
+      "output_tokens": 141,
+      "reasoning_tokens": null,
+      "total_tokens": 1898
+    }
+  },
+  "request_sha256": "55a58d3492d601e23ad01ce14dc1970277b50c4cd2b26fd0e7c38b3f1739e689",
+  "stage_schema_sha256": "bda7326ac6a6cbeedf1ecdbf4a2b08277c078351d6689f667dc0d558c4972dd3",
+  "started_unix": 1790494881.437121,
+  "status": "OK",
+  "text": "{\"beliefs\": [{\"candidate_id\": \"c1\", \"facts\": [{\"relation\": \"travel_destination\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"제주도\"}]}], \"correction_witnesses\": [{\"candidate_id\": \"c1\", \"evidence_quote\": \"이번에 제주도에 다녀왔어요.\", \"new_value\": \"제주도\", \"polarity\": \"affirmed\", \"relation\": \"travel_destination\", \"source_turn\": \"t2\", \"subject\": \"participant\", \"target_fact_id\": \"f1\", \"time\": \"past\"}]}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1757,
+    "output_tokens": 141,
+    "reasoning_tokens": null,
+    "total_tokens": 1898
+  }
+}

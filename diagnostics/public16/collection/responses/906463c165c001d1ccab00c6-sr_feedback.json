@@ -1,0 +1,56 @@
+{
+  "call_id": "906463c165c001d1ccab00c6-sr_feedback",
+  "cost_note": "provider_did_not_report_money",
+  "cost_usd_reported": null,
+  "finish_reason": "STOP",
+  "http_status": 200,
+  "latency_seconds": 1.9202,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.12901088508827557,
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"no_change_needed\": false,\n  \"issues\": [\n    {\n      \"draft_location\": \"memory_decisions[0].operation\",\n      \"evidence_location\": \"history[0].text\",\n      \"problem\": \"The operation should be APPEND, not CORRECT. The user's initial request in turn 0 was to go from Cambridge to Peterborough. The current turn 2 is a correction of the previous turn 0, so the previous state should be updated, not corrected.\",\n      \"specific_revision\": \"Change operation to APPEND\"\n    },\n    {\n      \"draft_location\": \"memory_decisions[1].operation\",\n      \"evidence_location\": \"history[0].text\",\n      \"problem\": \"The operation should be APPEND, not CORRECT. The user's initial request in turn 0 was to go from Cambridge to Peterborough. The current turn 2 is a correction of the previous turn 0, so the previous state should be updated, not corrected.\",\n      \"specific_revision\": \"Change operation to APPEND\"\n    }\n  ]\n}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T22:40:18.888894Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "Upu5ar6gNtCNx9gP07myoAQ",
+    "usageMetadata": {
+      "candidatesTokenCount": 241,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 241
+        }
+      ],
+      "promptTokenCount": 1207,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1207
+        }
+      ],
+      "totalTokenCount": 1448,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "bd05e2f539c34631e734ca932df8e6849250c6c4ad5e0dd810ffc7b6e30b1782",
+  "status": "OK",
+  "text": "{\n  \"no_change_needed\": false,\n  \"issues\": [\n    {\n      \"draft_location\": \"memory_decisions[0].operation\",\n      \"evidence_location\": \"history[0].text\",\n      \"problem\": \"The operation should be APPEND, not CORRECT. The user's initial request in turn 0 was to go from Cambridge to Peterborough. The current turn 2 is a correction of the previous turn 0, so the previous state should be updated, not corrected.\",\n      \"specific_revision\": \"Change operation to APPEND\"\n    },\n    {\n      \"draft_location\": \"memory_decisions[1].operation\",\n      \"evidence_location\": \"history[0].text\",\n      \"problem\": \"The operation should be APPEND, not CORRECT. The user's initial request in turn 0 was to go from Cambridge to Peterborough. The current turn 2 is a correction of the previous turn 0, so the previous state should be updated, not corrected.\",\n      \"specific_revision\": \"Change operation to APPEND\"\n    }\n  ]\n}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1207,
+    "output_tokens": 241,
+    "reasoning_tokens": 0,
+    "total_tokens": 1448
+  }
+}

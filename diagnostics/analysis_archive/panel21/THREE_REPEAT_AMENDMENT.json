@@ -1,0 +1,19 @@
+{
+  "created_at": "2026-10-01T06:27:12.891009+00:00",
+  "supersedes": "COHORT_PLAN.json first-repeat selection",
+  "selection": "48 cases in each of three repetitions, each whole path at least95% valid final outputs pooled over144 observations",
+  "invalid_limit_per_path": 7,
+  "posthoc": true,
+  "selection_uses_semantic_scores": false,
+  "retain_residual_invalid_observations": true,
+  "independent_unit": "case; repetitions clustered within case",
+  "new_model_calls": 0,
+  "rescoring": 0,
+  "new_bootstrap": 0,
+  "input_hashes": {
+    "outputs/first_repeat_integrated_20261001/tables/all_saved_scores_with_provenance.csv": "a6454a143bd01abdac84ecccb722fcf3614b66049156fb76cb698b0804b07e9b",
+    "outputs/first_repeat_integrated_20261001/tables/coverage.csv": "091b6bdaa60bca3d8c30702daaec606f26887a1aa77467d9d471380bd9e13cba",
+    "outputs/first_repeat_integrated_20261001/tables/repeat_stability.csv": "9275595b9c92068402ae11d97612cdb7056ddb23ae1cca21a1aa829afdae9a54",
+    "outputs/all_model_evidence_integration_20261001/tables/saved_intervals_by_cohort.csv": "d0a5d0d1a6f5be3a0b679b246e3d05e50e54aa0157cd0d1c7bcf13cbad291e2c"
+  }
+}

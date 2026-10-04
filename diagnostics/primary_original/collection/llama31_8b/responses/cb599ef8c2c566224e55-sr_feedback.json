@@ -1,0 +1,36 @@
+{
+  "call_id": "cb599ef8c2c566224e55-sr_feedback",
+  "error_type": null,
+  "finish_reason": "stop",
+  "finished_unix": 1790490981.336766,
+  "latency_seconds": 6.0592,
+  "model_version": "mlx-community/Llama-3.1-8B-Instruct-4bit",
+  "raw_response": {
+    "base_seed": 20260927,
+    "finish_reason": "stop",
+    "generation_calls": 227,
+    "id": "local-2b58b74a5c4ef505847a71f4",
+    "seed": 3856707297,
+    "snapshot": "<LOCAL_PATH>",
+    "text": "{\"issues\": [{\"draft_location\": \"memory_decisions[0].fact.relation\", \"evidence_location\": \"candidates[0].text\", \"problem\": \"relation should be '취미' instead of 'hobby'\", \"specific_revision\": \"취미\"}], \"no_change_needed\": false}",
+    "usage": {
+      "cached_tokens": null,
+      "input_tokens": 1469,
+      "output_tokens": 64,
+      "reasoning_tokens": null,
+      "total_tokens": 1533
+    }
+  },
+  "request_sha256": "6b64ba1b10970cabfb059d20ea5585e6339b5110da21ce4a1fefd3b5c0f842da",
+  "stage_schema_sha256": "377e252cf02129ba34bbc867118dd2b9c6b65042b3fcd7b44099d2fc6e0513ed",
+  "started_unix": 1790490975.277266,
+  "status": "OK",
+  "text": "{\"issues\": [{\"draft_location\": \"memory_decisions[0].fact.relation\", \"evidence_location\": \"candidates[0].text\", \"problem\": \"relation should be '취미' instead of 'hobby'\", \"specific_revision\": \"취미\"}], \"no_change_needed\": false}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1469,
+    "output_tokens": 64,
+    "reasoning_tokens": null,
+    "total_tokens": 1533
+  }
+}

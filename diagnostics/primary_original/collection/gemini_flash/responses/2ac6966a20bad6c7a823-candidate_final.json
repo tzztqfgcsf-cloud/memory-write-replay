@@ -1,0 +1,57 @@
+{
+  "call_id": "2ac6966a20bad6c7a823-candidate_final",
+  "finish_reason": "STOP",
+  "finished_unix": 1790496567.445598,
+  "http_status": 200,
+  "latency_seconds": 1.6241,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.018201621932600012,
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"reply\": \"네, 개업 연도를 1993년으로 수정할게요.\",\n  \"action\": {\n    \"kind\": \"CONTINUE\",\n    \"question_slot\": null,\n    \"required_slots\": [],\n    \"speaker_id\": \"p1\"\n  },\n  \"memory_decisions\": [\n    {\n      \"alternatives\": [],\n      \"fact\": {\n        \"relation\": \"event_year\",\n        \"source_turns\": [\"t1\", \"t2\"],\n        \"subject\": \"participant\",\n        \"time\": \"past\",\n        \"value\": \"1993년\"\n      },\n      \"operation\": \"CORRECT\",\n      \"slot\": null,\n      \"source_turns\": [\"t2\"],\n      \"target_fact_id\": \"f1\"\n    }\n  ]\n}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T08:09:25.965751Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "Nc-4avf4OvGancoP76ybiQ0",
+    "usageMetadata": {
+      "candidatesTokenCount": 199,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 199
+        }
+      ],
+      "promptTokenCount": 1979,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1979
+        }
+      ],
+      "totalTokenCount": 2178,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "8a35b4798203d1af1635dc3bd15a0cb72f36367998cce51b9bb6a9f97fad7de8",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790496565.8212638,
+  "status": "OK",
+  "text": "{\n  \"reply\": \"네, 개업 연도를 1993년으로 수정할게요.\",\n  \"action\": {\n    \"kind\": \"CONTINUE\",\n    \"question_slot\": null,\n    \"required_slots\": [],\n    \"speaker_id\": \"p1\"\n  },\n  \"memory_decisions\": [\n    {\n      \"alternatives\": [],\n      \"fact\": {\n        \"relation\": \"event_year\",\n        \"source_turns\": [\"t1\", \"t2\"],\n        \"subject\": \"participant\",\n        \"time\": \"past\",\n        \"value\": \"1993년\"\n      },\n      \"operation\": \"CORRECT\",\n      \"slot\": null,\n      \"source_turns\": [\"t2\"],\n      \"target_fact_id\": \"f1\"\n    }\n  ]\n}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1979,
+    "output_tokens": 199,
+    "reasoning_tokens": 0,
+    "total_tokens": 2178
+  }
+}

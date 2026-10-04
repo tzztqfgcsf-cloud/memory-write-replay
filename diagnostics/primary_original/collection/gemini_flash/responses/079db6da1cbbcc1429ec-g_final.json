@@ -1,0 +1,57 @@
+{
+  "call_id": "079db6da1cbbcc1429ec-g_final",
+  "finish_reason": "STOP",
+  "finished_unix": 1790492207.5065,
+  "http_status": 200,
+  "latency_seconds": 1.4915,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.006473164100431453,
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"reply\": \"상호가 남강문구인지 남광문구인지 다시 한번 확인해 주시겠어요?\",\n  \"action\": {\n    \"kind\": \"CLARIFY\",\n    \"question_slot\": \"shop_name\",\n    \"required_slots\": [],\n    \"speaker_id\": \"p1\"\n  },\n  \"memory_decisions\": [\n    {\n      \"alternatives\": [\n        \"남강문구\",\n        \"남광문구\"\n      ],\n      \"fact\": null,\n      \"operation\": \"HOLD\",\n      \"slot\": \"shop_name\",\n      \"source_turns\": [\n        \"t2\"\n      ],\n      \"target_fact_id\": null\n    }\n  ]\n}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T06:56:46.172614Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "Lr64asbECvGancoP76ybiQ0",
+    "usageMetadata": {
+      "candidatesTokenCount": 177,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 177
+        }
+      ],
+      "promptTokenCount": 1859,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1859
+        }
+      ],
+      "totalTokenCount": 2036,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "244edf96034506da9d50a4c7c070e46dc2670c671a6eb84717e73929ed025c7b",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790492206.014549,
+  "status": "OK",
+  "text": "{\n  \"reply\": \"상호가 남강문구인지 남광문구인지 다시 한번 확인해 주시겠어요?\",\n  \"action\": {\n    \"kind\": \"CLARIFY\",\n    \"question_slot\": \"shop_name\",\n    \"required_slots\": [],\n    \"speaker_id\": \"p1\"\n  },\n  \"memory_decisions\": [\n    {\n      \"alternatives\": [\n        \"남강문구\",\n        \"남광문구\"\n      ],\n      \"fact\": null,\n      \"operation\": \"HOLD\",\n      \"slot\": \"shop_name\",\n      \"source_turns\": [\n        \"t2\"\n      ],\n      \"target_fact_id\": null\n    }\n  ]\n}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1859,
+    "output_tokens": 177,
+    "reasoning_tokens": 0,
+    "total_tokens": 2036
+  }
+}

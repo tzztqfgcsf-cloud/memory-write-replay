@@ -1,0 +1,64 @@
+{
+  "call_id": "049f2b719ab9b1f3a773-g_draft",
+  "finish_reason": "STOP",
+  "finished_unix": 1790493063.358861,
+  "http_status": 200,
+  "latency_seconds": 1.9215,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.011360392278554489,
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"reply\": \"기타를 오 선생님께 배우셨군요. 알겠습니다.\",\n  \"action\": {\n    \"kind\": \"CONTINUE\",\n    \"question_slot\": null,\n    \"required_slots\": [],\n    \"speaker_id\": \"p1\"\n  },\n  \"memory_decisions\": [\n    {\n      \"alternatives\": [],\n      \"fact\": {\n        \"relation\": \"learned_from\",\n        \"source_turns\": [\n          \"t2\"\n        ],\n        \"subject\": \"participant\",\n        \"time\": \"past\",\n        \"value\": \"오 선생님\"\n      },\n      \"operation\": \"APPEND\",\n      \"slot\": null,\n      \"source_turns\": [\n        \"t2\"\n      ],\n      \"target_fact_id\": null\n    }\n  ]\n}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T07:11:01.522846Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "hcG4at70H_Gcx9gPiJ6amAM",
+    "usageMetadata": {
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1204
+        }
+      ],
+      "cachedContentTokenCount": 1204,
+      "candidatesTokenCount": 196,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 196
+        }
+      ],
+      "promptTokenCount": 1673,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1673
+        }
+      ],
+      "totalTokenCount": 1869,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "8f3ed58e8b985dbf307c01ad022bdb9dee59034534e7fae20fde5ab4593855de",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790493061.437088,
+  "status": "OK",
+  "text": "{\n  \"reply\": \"기타를 오 선생님께 배우셨군요. 알겠습니다.\",\n  \"action\": {\n    \"kind\": \"CONTINUE\",\n    \"question_slot\": null,\n    \"required_slots\": [],\n    \"speaker_id\": \"p1\"\n  },\n  \"memory_decisions\": [\n    {\n      \"alternatives\": [],\n      \"fact\": {\n        \"relation\": \"learned_from\",\n        \"source_turns\": [\n          \"t2\"\n        ],\n        \"subject\": \"participant\",\n        \"time\": \"past\",\n        \"value\": \"오 선생님\"\n      },\n      \"operation\": \"APPEND\",\n      \"slot\": null,\n      \"source_turns\": [\n        \"t2\"\n      ],\n      \"target_fact_id\": null\n    }\n  ]\n}",
+  "usage": {
+    "cached_tokens": 1204,
+    "input_tokens": 1673,
+    "output_tokens": 196,
+    "reasoning_tokens": 0,
+    "total_tokens": 1869
+  }
+}

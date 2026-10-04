@@ -1,0 +1,64 @@
+{
+  "call_id": "22b3b87c0a455aa4459f-g_final",
+  "finish_reason": "STOP",
+  "finished_unix": 1790488842.9121768,
+  "http_status": 200,
+  "latency_seconds": 1.2413,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.007670430178494798,
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"reply\": \"네, 은하상회를 은하정육점으로 수정해 드릴게요.\",\n  \"action\": {\n    \"kind\": \"CONTINUE\",\n    \"question_slot\": null,\n    \"required_slots\": [],\n    \"speaker_id\": \"p1\"\n  },\n  \"memory_decisions\": [\n    {\n      \"alternatives\": [],\n      \"fact\": {\n        \"relation\": \"shop_name\",\n        \"source_turns\": [\"t2\"],\n        \"subject\": \"participant\",\n        \"time\": \"present\",\n        \"value\": \"은하정육점\"\n      },\n      \"operation\": \"CORRECT\",\n      \"slot\": null,\n      \"source_turns\": [\"t2\"],\n      \"target_fact_id\": \"f1\"\n    }\n  ]\n}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T06:00:41.880847Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "CbG4as_hNfCVktwP37SV-Ag",
+    "usageMetadata": {
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 632
+        }
+      ],
+      "cachedContentTokenCount": 632,
+      "candidatesTokenCount": 194,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 194
+        }
+      ],
+      "promptTokenCount": 1892,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1892
+        }
+      ],
+      "totalTokenCount": 2086,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "daf60b0116d1ae2c5812bd64df26f5666c8912febe790d918ea858af34677705",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790488841.669935,
+  "status": "OK",
+  "text": "{\n  \"reply\": \"네, 은하상회를 은하정육점으로 수정해 드릴게요.\",\n  \"action\": {\n    \"kind\": \"CONTINUE\",\n    \"question_slot\": null,\n    \"required_slots\": [],\n    \"speaker_id\": \"p1\"\n  },\n  \"memory_decisions\": [\n    {\n      \"alternatives\": [],\n      \"fact\": {\n        \"relation\": \"shop_name\",\n        \"source_turns\": [\"t2\"],\n        \"subject\": \"participant\",\n        \"time\": \"present\",\n        \"value\": \"은하정육점\"\n      },\n      \"operation\": \"CORRECT\",\n      \"slot\": null,\n      \"source_turns\": [\"t2\"],\n      \"target_fact_id\": \"f1\"\n    }\n  ]\n}",
+  "usage": {
+    "cached_tokens": 632,
+    "input_tokens": 1892,
+    "output_tokens": 194,
+    "reasoning_tokens": 0,
+    "total_tokens": 2086
+  }
+}

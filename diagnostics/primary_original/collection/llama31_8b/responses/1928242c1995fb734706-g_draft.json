@@ -1,0 +1,36 @@
+{
+  "call_id": "1928242c1995fb734706-g_draft",
+  "error_type": null,
+  "finish_reason": "stop",
+  "finished_unix": 1790495609.8153532,
+  "latency_seconds": 7.7587,
+  "model_version": "mlx-community/Llama-3.1-8B-Instruct-4bit",
+  "raw_response": {
+    "base_seed": 20260927,
+    "finish_reason": "stop",
+    "generation_calls": 655,
+    "id": "local-950587580ac49c8cc76f0e18",
+    "seed": 2613522214,
+    "snapshot": "<LOCAL_PATH>",
+    "text": "{\"action\": {\"kind\": \"SKIP\", \"question_slot\": \"topic_permission\", \"required_slots\": [\"topic_permission\"], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"학교 이야기\"], \"fact\": null, \"operation\": \"NO_WRITE\", \"slot\": null, \"source_turns\": [\"t2\"], \"target_fact_id\": null}], \"reply\": \"그렇다면 다른 주제로 이야기를 이어 가겠습니다.\"}",
+    "usage": {
+      "cached_tokens": null,
+      "input_tokens": 1693,
+      "output_tokens": 98,
+      "reasoning_tokens": null,
+      "total_tokens": 1791
+    }
+  },
+  "request_sha256": "4429d556ce5798ab009e9a164023683f109f4ee8f146bc38626d363d118cbbc5",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790495602.0563788,
+  "status": "OK",
+  "text": "{\"action\": {\"kind\": \"SKIP\", \"question_slot\": \"topic_permission\", \"required_slots\": [\"topic_permission\"], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"학교 이야기\"], \"fact\": null, \"operation\": \"NO_WRITE\", \"slot\": null, \"source_turns\": [\"t2\"], \"target_fact_id\": null}], \"reply\": \"그렇다면 다른 주제로 이야기를 이어 가겠습니다.\"}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1693,
+    "output_tokens": 98,
+    "reasoning_tokens": null,
+    "total_tokens": 1791
+  }
+}

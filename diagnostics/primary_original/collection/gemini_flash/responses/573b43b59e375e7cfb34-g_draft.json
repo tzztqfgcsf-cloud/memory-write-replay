@@ -1,0 +1,57 @@
+{
+  "call_id": "573b43b59e375e7cfb34-g_draft",
+  "finish_reason": "STOP",
+  "finished_unix": 1790494790.4565382,
+  "http_status": 200,
+  "latency_seconds": 1.4657,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.03920098523187904,
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"reply\": \"네, 알겠습니다. 김제에서 태어나셨군요. 그럼 다른 이야기도 해볼까요?\",\n  \"action\": {\n    \"kind\": \"CONTINUE\",\n    \"question_slot\": null,\n    \"required_slots\": [],\n    \"speaker_id\": \"p1\"\n  },\n  \"memory_decisions\": [\n    {\n      \"alternatives\": [\n        \"김제에서 태어나기는 했어요.\",\n        \"태어난 데는 김제예요.\"\n      ],\n      \"fact\": null,\n      \"operation\": \"HOLD\",\n      \"slot\": \"birthplace\",\n      \"source_turns\": [\n        \"t2\"\n      ],\n      \"target_fact_id\": null\n    }\n  ]\n}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T07:39:49.076607Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "Rci4ar_WBPCVktwP37SV-Ag",
+    "usageMetadata": {
+      "candidatesTokenCount": 179,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 179
+        }
+      ],
+      "promptTokenCount": 1650,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1650
+        }
+      ],
+      "totalTokenCount": 1829,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "163299bab06df091fc72807e04cbd50d4fc12d565d9c41072660053446eaf7c4",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790494788.990577,
+  "status": "OK",
+  "text": "{\n  \"reply\": \"네, 알겠습니다. 김제에서 태어나셨군요. 그럼 다른 이야기도 해볼까요?\",\n  \"action\": {\n    \"kind\": \"CONTINUE\",\n    \"question_slot\": null,\n    \"required_slots\": [],\n    \"speaker_id\": \"p1\"\n  },\n  \"memory_decisions\": [\n    {\n      \"alternatives\": [\n        \"김제에서 태어나기는 했어요.\",\n        \"태어난 데는 김제예요.\"\n      ],\n      \"fact\": null,\n      \"operation\": \"HOLD\",\n      \"slot\": \"birthplace\",\n      \"source_turns\": [\n        \"t2\"\n      ],\n      \"target_fact_id\": null\n    }\n  ]\n}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1650,
+    "output_tokens": 179,
+    "reasoning_tokens": 0,
+    "total_tokens": 1829
+  }
+}

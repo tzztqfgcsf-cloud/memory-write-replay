@@ -1,0 +1,20 @@
+{
+  "status": "OK",
+  "http_status": 200,
+  "text": "{\"decisions\": [{\"index\": 0, \"approve\": false, \"reason\": \"전사 대안 간에 새 상호(남강문구와 남광문구)가 일치하지 않아 확정할 수 없습니다.\"}]}",
+  "usage": {
+    "input_tokens": 685,
+    "output_tokens": 51,
+    "reasoning_tokens": 182,
+    "total_tokens": 918,
+    "cached_tokens": null
+  },
+  "finish_reason": "STOP",
+  "model_version": "gemini-3.1-pro-preview",
+  "id": "gemini_flash_CT21_judge",
+  "key": "gemini_flash_CT21",
+  "stage": "judge",
+  "arm": "judge",
+  "requested_model": "gemini-3.1-pro-preview",
+  "latency_seconds": 3.3889968749135733
+}

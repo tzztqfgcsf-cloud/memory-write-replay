@@ -1,0 +1,1151 @@
+{
+  "packets": [
+    {
+      "before_dataset_state": [
+        {
+          "fact_id": "MUL1790.json#state1#train.semi.departure",
+          "is_unfilled_dataset_sentinel": false,
+          "relation": "train.semi.departure",
+          "source_locator": "MULTIWOZ2.4/data.json#/MUL1790.json/log/1/metadata/train/semi/departure",
+          "source_role": "dataset_dialogue_state_annotation_after_previous_system_turn",
+          "subject": "MUL1790.json#train.semi",
+          "value": "cambridge"
+        },
+        {
+          "fact_id": "MUL1790.json#state1#train.semi.destination",
+          "is_unfilled_dataset_sentinel": false,
+          "relation": "train.semi.destination",
+          "source_locator": "MULTIWOZ2.4/data.json#/MUL1790.json/log/1/metadata/train/semi/destination",
+          "source_role": "dataset_dialogue_state_annotation_after_previous_system_turn",
+          "subject": "MUL1790.json#train.semi",
+          "value": "peterborough"
+        }
+      ],
+      "candidate_texts": [
+        {
+          "candidate_id": "c1",
+          "source_turn_id": "MUL1790.json#turn2",
+          "text": "I'm sorry. The train needs to going to Cambridge from Peterborough."
+        }
+      ],
+      "case_id": "MW24-MUL1790-t2",
+      "current_turn_id": "MUL1790.json#turn2",
+      "current_utterance": {
+        "role": "user",
+        "source_locator": "MULTIWOZ2.4/data.json#/MUL1790.json/log/2/text",
+        "source_turn_id": "MUL1790.json#turn2",
+        "text": "I'm sorry. The train needs to going to Cambridge from Peterborough."
+      },
+      "dialogue_id": "MUL1790.json",
+      "history": [
+        {
+          "role": "user",
+          "source_turn_id": "MUL1790.json#turn0",
+          "text": "I need to go from Cambridge to Peterbourgh Saturday. "
+        },
+        {
+          "role": "system",
+          "source_turn_id": "MUL1790.json#turn1",
+          "text": "Tr7310 is leaving from cambridge at 05:06 and arriving at peterborough at 05:56 for 13.20"
+        }
+      ],
+      "source": "MultiWOZ2.4",
+      "source_archive_sha256": "d4c66523614af016c1d2dafa35b4a548c96cb9ffadb71338937b60ac51272fe5",
+      "source_dialogue_member_sha256": "3555f1c34334353f950d1a627f197cabe74f6dc5725254f49e5427a8d9f7f1bd",
+      "task_contract_id": "multiwoz-task-state-transfer-dev-v1"
+    },
+    {
+      "before_dataset_state": [
+        {
+          "fact_id": "PMUL1919.json#state3#train.semi.destination",
+          "is_unfilled_dataset_sentinel": false,
+          "relation": "train.semi.destination",
+          "source_locator": "MULTIWOZ2.4/data.json#/PMUL1919.json/log/3/metadata/train/semi/destination",
+          "source_role": "dataset_dialogue_state_annotation_after_previous_system_turn",
+          "subject": "PMUL1919.json#train.semi",
+          "value": "ely"
+        }
+      ],
+      "candidate_texts": [
+        {
+          "candidate_id": "c1",
+          "source_turn_id": "PMUL1919.json#turn4",
+          "text": "Oh, not Ely, sorry.  I need to leave after 16:00 going to London Liverpool Street."
+        }
+      ],
+      "case_id": "MW24-PMUL1919-t4",
+      "current_turn_id": "PMUL1919.json#turn4",
+      "current_utterance": {
+        "role": "user",
+        "source_locator": "MULTIWOZ2.4/data.json#/PMUL1919.json/log/4/text",
+        "source_turn_id": "PMUL1919.json#turn4",
+        "text": "Oh, not Ely, sorry.  I need to leave after 16:00 going to London Liverpool Street."
+      },
+      "dialogue_id": "PMUL1919.json",
+      "history": [
+        {
+          "role": "user",
+          "source_turn_id": "PMUL1919.json#turn0",
+          "text": "I am trying to find when the train is leaving Sunday Cambridge can you help me?"
+        },
+        {
+          "role": "system",
+          "source_turn_id": "PMUL1919.json#turn1",
+          "text": "Ok, and where are you heading to? "
+        },
+        {
+          "role": "user",
+          "source_turn_id": "PMUL1919.json#turn2",
+          "text": "I am heading to Ely."
+        },
+        {
+          "role": "system",
+          "source_turn_id": "PMUL1919.json#turn3",
+          "text": "What time do you want to arrive by?"
+        }
+      ],
+      "source": "MultiWOZ2.4",
+      "source_archive_sha256": "d4c66523614af016c1d2dafa35b4a548c96cb9ffadb71338937b60ac51272fe5",
+      "source_dialogue_member_sha256": "3555f1c34334353f950d1a627f197cabe74f6dc5725254f49e5427a8d9f7f1bd",
+      "task_contract_id": "multiwoz-task-state-transfer-dev-v1"
+    },
+    {
+      "before_dataset_state": [
+        {
+          "fact_id": "PMUL1033.json#state5#train.semi.day",
+          "is_unfilled_dataset_sentinel": false,
+          "relation": "train.semi.day",
+          "source_locator": "MULTIWOZ2.4/data.json#/PMUL1033.json/log/5/metadata/train/semi/day",
+          "source_role": "dataset_dialogue_state_annotation_after_previous_system_turn",
+          "subject": "PMUL1033.json#train.semi",
+          "value": "monday"
+        }
+      ],
+      "candidate_texts": [
+        {
+          "candidate_id": "c1",
+          "source_turn_id": "PMUL1033.json#turn6",
+          "text": "Sorry, I looked at the calendar. I need a Thursday train, not a Monday.  Can you please find a train on that day instead?"
+        }
+      ],
+      "case_id": "MW24-PMUL1033-t6",
+      "current_turn_id": "PMUL1033.json#turn6",
+      "current_utterance": {
+        "role": "user",
+        "source_locator": "MULTIWOZ2.4/data.json#/PMUL1033.json/log/6/text",
+        "source_turn_id": "PMUL1033.json#turn6",
+        "text": "Sorry, I looked at the calendar. I need a Thursday train, not a Monday.  Can you please find a train on that day instead?"
+      },
+      "dialogue_id": "PMUL1033.json",
+      "history": [
+        {
+          "role": "user",
+          "source_turn_id": "PMUL1033.json#turn0",
+          "text": "I need to book a train to cambridge on Monday."
+        },
+        {
+          "role": "system",
+          "source_turn_id": "PMUL1033.json#turn1",
+          "text": "Where will you be departing from?"
+        },
+        {
+          "role": "user",
+          "source_turn_id": "PMUL1033.json#turn2",
+          "text": "I will be departing out of Stevenage.  "
+        },
+        {
+          "role": "system",
+          "source_turn_id": "PMUL1033.json#turn3",
+          "text": "We have 10 different trains on that day. What time will you be departing or arriving?"
+        },
+        {
+          "role": "user",
+          "source_turn_id": "PMUL1033.json#turn4",
+          "text": "I want to arrive by 16:45."
+        },
+        {
+          "role": "system",
+          "source_turn_id": "PMUL1033.json#turn5",
+          "text": "Okay TR8265 departs at 09:54. Would you like me to book that for you?"
+        }
+      ],
+      "source": "MultiWOZ2.4",
+      "source_archive_sha256": "d4c66523614af016c1d2dafa35b4a548c96cb9ffadb71338937b60ac51272fe5",
+      "source_dialogue_member_sha256": "3555f1c34334353f950d1a627f197cabe74f6dc5725254f49e5427a8d9f7f1bd",
+      "task_contract_id": "multiwoz-task-state-transfer-dev-v1"
+    },
+    {
+      "before_dataset_state": [
+        {
+          "fact_id": "PMUL0945.json#state3#train.semi.departure",
+          "is_unfilled_dataset_sentinel": false,
+          "relation": "train.semi.departure",
+          "source_locator": "MULTIWOZ2.4/data.json#/PMUL0945.json/log/3/metadata/train/semi/departure",
+          "source_role": "dataset_dialogue_state_annotation_after_previous_system_turn",
+          "subject": "PMUL0945.json#train.semi",
+          "value": "cambridge"
+        },
+        {
+          "fact_id": "PMUL0945.json#state3#train.semi.destination",
+          "is_unfilled_dataset_sentinel": false,
+          "relation": "train.semi.destination",
+          "source_locator": "MULTIWOZ2.4/data.json#/PMUL0945.json/log/3/metadata/train/semi/destination",
+          "source_role": "dataset_dialogue_state_annotation_after_previous_system_turn",
+          "subject": "PMUL0945.json#train.semi",
+          "value": "kings lynn"
+        }
+      ],
+      "candidate_texts": [
+        {
+          "candidate_id": "c1",
+          "source_turn_id": "PMUL0945.json#turn4",
+          "text": "No, sorry, I had that backwards. I need a train from Kings Lynn to Cambridge on Monday after 08:00"
+        }
+      ],
+      "case_id": "MW24-PMUL0945-t4",
+      "current_turn_id": "PMUL0945.json#turn4",
+      "current_utterance": {
+        "role": "user",
+        "source_locator": "MULTIWOZ2.4/data.json#/PMUL0945.json/log/4/text",
+        "source_turn_id": "PMUL0945.json#turn4",
+        "text": "No, sorry, I had that backwards. I need a train from Kings Lynn to Cambridge on Monday after 08:00"
+      },
+      "dialogue_id": "PMUL0945.json",
+      "history": [
+        {
+          "role": "user",
+          "source_turn_id": "PMUL0945.json#turn0",
+          "text": "I'm looking for a train headed to Cambridge that leaves after 8:00 AM. Can you help?"
+        },
+        {
+          "role": "system",
+          "source_turn_id": "PMUL0945.json#turn1",
+          "text": "Yes, I can help with that. What day will you be leaving and where are you departing from?"
+        },
+        {
+          "role": "user",
+          "source_turn_id": "PMUL0945.json#turn2",
+          "text": "I will leave from Cambridge to Kings Lynn. "
+        },
+        {
+          "role": "system",
+          "source_turn_id": "PMUL0945.json#turn3",
+          "text": "The earliest train on that route leaves Friday at 08:11 is that okay? "
+        }
+      ],
+      "source": "MultiWOZ2.4",
+      "source_archive_sha256": "d4c66523614af016c1d2dafa35b4a548c96cb9ffadb71338937b60ac51272fe5",
+      "source_dialogue_member_sha256": "3555f1c34334353f950d1a627f197cabe74f6dc5725254f49e5427a8d9f7f1bd",
+      "task_contract_id": "multiwoz-task-state-transfer-dev-v1"
+    },
+    {
+      "before_dataset_state": [
+        {
+          "fact_id": "SNG01176.json#state5#train.semi.leaveAt",
+          "is_unfilled_dataset_sentinel": false,
+          "relation": "train.semi.leaveAt",
+          "source_locator": "MULTIWOZ2.4/data.json#/SNG01176.json/log/5/metadata/train/semi/leaveAt",
+          "source_role": "dataset_dialogue_state_annotation_after_previous_system_turn",
+          "subject": "SNG01176.json#train.semi",
+          "value": "845"
+        }
+      ],
+      "candidate_texts": [
+        {
+          "candidate_id": "c1",
+          "source_turn_id": "SNG01176.json#turn6",
+          "text": "I meant to say I want to leave after 20:45. "
+        }
+      ],
+      "case_id": "MW24-SNG01176-t6",
+      "current_turn_id": "SNG01176.json#turn6",
+      "current_utterance": {
+        "role": "user",
+        "source_locator": "MULTIWOZ2.4/data.json#/SNG01176.json/log/6/text",
+        "source_turn_id": "SNG01176.json#turn6",
+        "text": "I meant to say I want to leave after 20:45. "
+      },
+      "dialogue_id": "SNG01176.json",
+      "history": [
+        {
+          "role": "user",
+          "source_turn_id": "SNG01176.json#turn0",
+          "text": "I am  looking for a train."
+        },
+        {
+          "role": "system",
+          "source_turn_id": "SNG01176.json#turn1",
+          "text": "Alright. Where are you headed?"
+        },
+        {
+          "role": "user",
+          "source_turn_id": "SNG01176.json#turn2",
+          "text": "I'm head to Leicester from Cambridge on Saturday."
+        },
+        {
+          "role": "system",
+          "source_turn_id": "SNG01176.json#turn3",
+          "text": "What time are you planning to leave?"
+        },
+        {
+          "role": "user",
+          "source_turn_id": "SNG01176.json#turn4",
+          "text": "Anytime after 8:45. "
+        },
+        {
+          "role": "system",
+          "source_turn_id": "SNG01176.json#turn5",
+          "text": "TR3371 leaves at 09:21 and arrives at 11:06. It is 30.24 pounds. Would you be interested in that?"
+        }
+      ],
+      "source": "MultiWOZ2.4",
+      "source_archive_sha256": "d4c66523614af016c1d2dafa35b4a548c96cb9ffadb71338937b60ac51272fe5",
+      "source_dialogue_member_sha256": "3555f1c34334353f950d1a627f197cabe74f6dc5725254f49e5427a8d9f7f1bd",
+      "task_contract_id": "multiwoz-task-state-transfer-dev-v1"
+    },
+    {
+      "before_dataset_state": [
+        {
+          "fact_id": "MUL1930.json#state7#train.semi.departure",
+          "is_unfilled_dataset_sentinel": false,
+          "relation": "train.semi.departure",
+          "source_locator": "MULTIWOZ2.4/data.json#/MUL1930.json/log/7/metadata/train/semi/departure",
+          "source_role": "dataset_dialogue_state_annotation_after_previous_system_turn",
+          "subject": "MUL1930.json#train.semi",
+          "value": "cambridge"
+        },
+        {
+          "fact_id": "MUL1930.json#state7#train.semi.destination",
+          "is_unfilled_dataset_sentinel": false,
+          "relation": "train.semi.destination",
+          "source_locator": "MULTIWOZ2.4/data.json#/MUL1930.json/log/7/metadata/train/semi/destination",
+          "source_role": "dataset_dialogue_state_annotation_after_previous_system_turn",
+          "subject": "MUL1930.json#train.semi",
+          "value": "leicester"
+        }
+      ],
+      "candidate_texts": [
+        {
+          "candidate_id": "c1",
+          "source_turn_id": "MUL1930.json#turn8",
+          "text": "I think I said that wrong.  I am actually looking for a train that leaves Leicester after 16:30 going to Cambridge.  "
+        }
+      ],
+      "case_id": "MW24-MUL1930-t8",
+      "current_turn_id": "MUL1930.json#turn8",
+      "current_utterance": {
+        "role": "user",
+        "source_locator": "MULTIWOZ2.4/data.json#/MUL1930.json/log/8/text",
+        "source_turn_id": "MUL1930.json#turn8",
+        "text": "I think I said that wrong.  I am actually looking for a train that leaves Leicester after 16:30 going to Cambridge.  "
+      },
+      "dialogue_id": "MUL1930.json",
+      "history": [
+        {
+          "role": "user",
+          "source_turn_id": "MUL1930.json#turn0",
+          "text": "I am heading to Cambridge and I would like to know about some places to see in the north, do you have any suggestions?"
+        },
+        {
+          "role": "system",
+          "source_turn_id": "MUL1930.json#turn1",
+          "text": "The Milton Country Park is popular among visitors. Would you like the address?"
+        },
+        {
+          "role": "user",
+          "source_turn_id": "MUL1930.json#turn2",
+          "text": "Yes, may I please get the address, postcode, and the entrance fee for the Milton Country Park?"
+        },
+        {
+          "role": "system",
+          "source_turn_id": "MUL1930.json#turn3",
+          "text": "Sure. Their address is Milton Country Park, Milton. Their postcode is cb46az. Their phone number is 01223420060. There is free admission to the park. Anything else I can help with?"
+        },
+        {
+          "role": "user",
+          "source_turn_id": "MUL1930.json#turn4",
+          "text": "I need to get a train that leaves after 16:30. Can you help with that?"
+        },
+        {
+          "role": "system",
+          "source_turn_id": "MUL1930.json#turn5",
+          "text": "What day would you like to leave and where are you departing from?"
+        },
+        {
+          "role": "user",
+          "source_turn_id": "MUL1930.json#turn6",
+          "text": "I need to leave cambridge and arrive in lecester on monday."
+        },
+        {
+          "role": "system",
+          "source_turn_id": "MUL1930.json#turn7",
+          "text": "I'm sorry, I'm not able to find a train leaving Cambridge after 16:30. Is there another time I can search for you?"
+        }
+      ],
+      "source": "MultiWOZ2.4",
+      "source_archive_sha256": "d4c66523614af016c1d2dafa35b4a548c96cb9ffadb71338937b60ac51272fe5",
+      "source_dialogue_member_sha256": "3555f1c34334353f950d1a627f197cabe74f6dc5725254f49e5427a8d9f7f1bd",
+      "task_contract_id": "multiwoz-task-state-transfer-dev-v1"
+    },
+    {
+      "before_dataset_state": [
+        {
+          "fact_id": "PMUL3804.json#state3#hotel.semi.internet",
+          "is_unfilled_dataset_sentinel": false,
+          "relation": "hotel.semi.internet",
+          "source_locator": "MULTIWOZ2.4/data.json#/PMUL3804.json/log/3/metadata/hotel/semi/internet",
+          "source_role": "dataset_dialogue_state_annotation_after_previous_system_turn",
+          "subject": "PMUL3804.json#hotel.semi",
+          "value": "no"
+        }
+      ],
+      "candidate_texts": [
+        {
+          "candidate_id": "c1",
+          "source_turn_id": "PMUL3804.json#turn4",
+          "text": "Sorry, I was just kidding about the hating internet part. I do need a place that has free wifi. "
+        }
+      ],
+      "case_id": "MW24-PMUL3804-t4",
+      "current_turn_id": "PMUL3804.json#turn4",
+      "current_utterance": {
+        "role": "user",
+        "source_locator": "MULTIWOZ2.4/data.json#/PMUL3804.json/log/4/text",
+        "source_turn_id": "PMUL3804.json#turn4",
+        "text": "Sorry, I was just kidding about the hating internet part. I do need a place that has free wifi. "
+      },
+      "dialogue_id": "PMUL3804.json",
+      "history": [
+        {
+          "role": "user",
+          "source_turn_id": "PMUL3804.json#turn0",
+          "text": "i will be in cambridge and need a place to stay in the north. I hate internet. "
+        },
+        {
+          "role": "system",
+          "source_turn_id": "PMUL3804.json#turn1",
+          "text": "Alpha milton guesthouse is a nice laid back place and does not include internet, does that sound like a good fit for you?"
+        },
+        {
+          "role": "user",
+          "source_turn_id": "PMUL3804.json#turn2",
+          "text": "Is that a 4-star place?"
+        },
+        {
+          "role": "system",
+          "source_turn_id": "PMUL3804.json#turn3",
+          "text": "No, it's a 3 star guesthouse. Do you want to look for something different?"
+        }
+      ],
+      "source": "MultiWOZ2.4",
+      "source_archive_sha256": "d4c66523614af016c1d2dafa35b4a548c96cb9ffadb71338937b60ac51272fe5",
+      "source_dialogue_member_sha256": "3555f1c34334353f950d1a627f197cabe74f6dc5725254f49e5427a8d9f7f1bd",
+      "task_contract_id": "multiwoz-task-state-transfer-dev-v1"
+    },
+    {
+      "before_dataset_state": [
+        {
+          "fact_id": "MUL1523.json#state3#restaurant.book.people",
+          "is_unfilled_dataset_sentinel": false,
+          "relation": "restaurant.book.people",
+          "source_locator": "MULTIWOZ2.4/data.json#/MUL1523.json/log/3/metadata/restaurant/book/people",
+          "source_role": "dataset_dialogue_state_annotation_after_previous_system_turn",
+          "subject": "MUL1523.json#restaurant.book",
+          "value": "2"
+        },
+        {
+          "fact_id": "MUL1523.json#state3#restaurant.book.time",
+          "is_unfilled_dataset_sentinel": false,
+          "relation": "restaurant.book.time",
+          "source_locator": "MULTIWOZ2.4/data.json#/MUL1523.json/log/3/metadata/restaurant/book/time",
+          "source_role": "dataset_dialogue_state_annotation_after_previous_system_turn",
+          "subject": "MUL1523.json#restaurant.book",
+          "value": "19:00"
+        }
+      ],
+      "candidate_texts": [
+        {
+          "candidate_id": "c1",
+          "source_turn_id": "MUL1523.json#turn4",
+          "text": "That should have been for 7 people at 18:00 on Wednesday. Sorry bout that. "
+        }
+      ],
+      "case_id": "MW24-MUL1523-t4",
+      "current_turn_id": "MUL1523.json#turn4",
+      "current_utterance": {
+        "role": "user",
+        "source_locator": "MULTIWOZ2.4/data.json#/MUL1523.json/log/4/text",
+        "source_turn_id": "MUL1523.json#turn4",
+        "text": "That should have been for 7 people at 18:00 on Wednesday. Sorry bout that. "
+      },
+      "dialogue_id": "MUL1523.json",
+      "history": [
+        {
+          "role": "user",
+          "source_turn_id": "MUL1523.json#turn0",
+          "text": "I'm looking for a british restaurant in the east. "
+        },
+        {
+          "role": "system",
+          "source_turn_id": "MUL1523.json#turn1",
+          "text": "The Grafton Hotel Restaurant is a British restaurant on the east side of town and it is in the expensive price range. Would you be interested in booking a reservation there?"
+        },
+        {
+          "role": "user",
+          "source_turn_id": "MUL1523.json#turn2",
+          "text": "Yes, please book a table for 2 at 19:00."
+        },
+        {
+          "role": "system",
+          "source_turn_id": "MUL1523.json#turn3",
+          "text": "Ok.  What day and time would you like me to book a table for 2 at the grafton hotel restaurant?"
+        }
+      ],
+      "source": "MultiWOZ2.4",
+      "source_archive_sha256": "d4c66523614af016c1d2dafa35b4a548c96cb9ffadb71338937b60ac51272fe5",
+      "source_dialogue_member_sha256": "3555f1c34334353f950d1a627f197cabe74f6dc5725254f49e5427a8d9f7f1bd",
+      "task_contract_id": "multiwoz-task-state-transfer-dev-v1"
+    },
+    {
+      "before_dataset_state": [
+        {
+          "fact_id": "MUL1664.json#state9#train.book.people",
+          "is_unfilled_dataset_sentinel": false,
+          "relation": "train.book.people",
+          "source_locator": "MULTIWOZ2.4/data.json#/MUL1664.json/log/9/metadata/train/book/people",
+          "source_role": "dataset_dialogue_state_annotation_after_previous_system_turn",
+          "subject": "MUL1664.json#train.book",
+          "value": "1"
+        }
+      ],
+      "candidate_texts": [
+        {
+          "candidate_id": "c1",
+          "source_turn_id": "MUL1664.json#turn10",
+          "text": "I'm sorry, I said I needed a seat for me, but I actually need 7 seats total.  My friends would not be happy if I stranded them.  "
+        }
+      ],
+      "case_id": "MW24-MUL1664-t10",
+      "current_turn_id": "MUL1664.json#turn10",
+      "current_utterance": {
+        "role": "user",
+        "source_locator": "MULTIWOZ2.4/data.json#/MUL1664.json/log/10/text",
+        "source_turn_id": "MUL1664.json#turn10",
+        "text": "I'm sorry, I said I needed a seat for me, but I actually need 7 seats total.  My friends would not be happy if I stranded them.  "
+      },
+      "dialogue_id": "MUL1664.json",
+      "history": [
+        {
+          "role": "user",
+          "source_turn_id": "MUL1664.json#turn0",
+          "text": "I'm looking for a restaurant called the varsity restaurant. "
+        },
+        {
+          "role": "system",
+          "source_turn_id": "MUL1664.json#turn1",
+          "text": "I've located the Varsity restaurant, would you like me to make reservations there for you?"
+        },
+        {
+          "role": "user",
+          "source_turn_id": "MUL1664.json#turn2",
+          "text": "Yes please.  I need a table for 7 people at 11:30 on Wednesday."
+        },
+        {
+          "role": "system",
+          "source_turn_id": "MUL1664.json#turn3",
+          "text": "I have booked you a table. the Reference number is : B19Y67KT."
+        },
+        {
+          "role": "user",
+          "source_turn_id": "MUL1664.json#turn4",
+          "text": "I'm also looking for a train to London Liverpool Street arriving by 20:30. "
+        },
+        {
+          "role": "system",
+          "source_turn_id": "MUL1664.json#turn5",
+          "text": "What day would you like to go and where will you be departing from?"
+        },
+        {
+          "role": "user",
+          "source_turn_id": "MUL1664.json#turn6",
+          "text": "The train should depart from Cambridge and should leave on Thursday."
+        },
+        {
+          "role": "system",
+          "source_turn_id": "MUL1664.json#turn7",
+          "text": "Train TR6332 leaves for London Liverpool street on thursday 17: 59 and arrives at 19:27. can i book it for you?"
+        },
+        {
+          "role": "user",
+          "source_turn_id": "MUL1664.json#turn8",
+          "text": "Yes. Please book a seat on train TR6332 for me."
+        },
+        {
+          "role": "system",
+          "source_turn_id": "MUL1664.json#turn9",
+          "text": "Ok, I have successfully booked a seat on TR6332. The cost will be 16.6 GBP and your reference number is QQ53PXEI."
+        }
+      ],
+      "source": "MultiWOZ2.4",
+      "source_archive_sha256": "d4c66523614af016c1d2dafa35b4a548c96cb9ffadb71338937b60ac51272fe5",
+      "source_dialogue_member_sha256": "3555f1c34334353f950d1a627f197cabe74f6dc5725254f49e5427a8d9f7f1bd",
+      "task_contract_id": "multiwoz-task-state-transfer-dev-v1"
+    },
+    {
+      "before_dataset_state": [
+        {
+          "fact_id": "PMUL4646.json#state15#hotel.book.day",
+          "is_unfilled_dataset_sentinel": false,
+          "relation": "hotel.book.day",
+          "source_locator": "MULTIWOZ2.4/data.json#/PMUL4646.json/log/15/metadata/hotel/book/day",
+          "source_role": "dataset_dialogue_state_annotation_after_previous_system_turn",
+          "subject": "PMUL4646.json#hotel.book",
+          "value": "thursday"
+        }
+      ],
+      "candidate_texts": [
+        {
+          "candidate_id": "c1",
+          "source_turn_id": "PMUL4646.json#turn16",
+          "text": "I'm sorry, I made a mistake!  I need for it to start on Tuesday not Thursday!!!!  Can you fix that for me???"
+        }
+      ],
+      "case_id": "MW24-PMUL4646-t16",
+      "current_turn_id": "PMUL4646.json#turn16",
+      "current_utterance": {
+        "role": "user",
+        "source_locator": "MULTIWOZ2.4/data.json#/PMUL4646.json/log/16/text",
+        "source_turn_id": "PMUL4646.json#turn16",
+        "text": "I'm sorry, I made a mistake!  I need for it to start on Tuesday not Thursday!!!!  Can you fix that for me???"
+      },
+      "dialogue_id": "PMUL4646.json",
+      "history": [
+        {
+          "role": "user",
+          "source_turn_id": "PMUL4646.json#turn0",
+          "text": "does cambridge museum of technology still open?"
+        },
+        {
+          "role": "system",
+          "source_turn_id": "PMUL4646.json#turn1",
+          "text": "Yes, it does."
+        },
+        {
+          "role": "user",
+          "source_turn_id": "PMUL4646.json#turn2",
+          "text": "What's the entrance fee, phone number, and postcode for that museum?"
+        },
+        {
+          "role": "system",
+          "source_turn_id": "PMUL4646.json#turn3",
+          "text": "The entrance fee is 5 pounds. Phone number is 01223368650. And the postcode is cb58ld."
+        },
+        {
+          "role": "user",
+          "source_turn_id": "PMUL4646.json#turn4",
+          "text": "I'm looking for a place to stay in the centre. I also need free wifi there."
+        },
+        {
+          "role": "system",
+          "source_turn_id": "PMUL4646.json#turn5",
+          "text": "We have two guesthouses and three hotels in town centre. Do you have a pricerange in mind?"
+        },
+        {
+          "role": "user",
+          "source_turn_id": "PMUL4646.json#turn6",
+          "text": "I'd like an expensive hotel please."
+        },
+        {
+          "role": "system",
+          "source_turn_id": "PMUL4646.json#turn7",
+          "text": "There are two expensive hotels in the area of Centre.  The Gonville has a 3 star rating and the University Arms has 4.  Do you have a preference?"
+        },
+        {
+          "role": "user",
+          "source_turn_id": "PMUL4646.json#turn8",
+          "text": "Yes the university arms would you be able to book that?"
+        },
+        {
+          "role": "system",
+          "source_turn_id": "PMUL4646.json#turn9",
+          "text": "Yes certainly. How many nights will you be needing and when will you be arriving and how many people will be staying?"
+        },
+        {
+          "role": "user",
+          "source_turn_id": "PMUL4646.json#turn10",
+          "text": "6 people, five nights, starting on Thursday, please."
+        },
+        {
+          "role": "system",
+          "source_turn_id": "PMUL4646.json#turn11",
+          "text": "Would you like me to book the room now?"
+        },
+        {
+          "role": "user",
+          "source_turn_id": "PMUL4646.json#turn12",
+          "text": "Yes please book that. "
+        },
+        {
+          "role": "system",
+          "source_turn_id": "PMUL4646.json#turn13",
+          "text": "OK, you're all set. 6 people for 5 nights at University Arms. Arriving on Thursday. Your Reference number is : TXXXCWJD. Is there anything else I can do today?"
+        },
+        {
+          "role": "user",
+          "source_turn_id": "PMUL4646.json#turn14",
+          "text": "That's perfect. Thank you so much. "
+        },
+        {
+          "role": "system",
+          "source_turn_id": "PMUL4646.json#turn15",
+          "text": "Do you need to arrange transportation to town, or between any venues? If not, it was my pleasure to help you and have a great day!"
+        }
+      ],
+      "source": "MultiWOZ2.4",
+      "source_archive_sha256": "d4c66523614af016c1d2dafa35b4a548c96cb9ffadb71338937b60ac51272fe5",
+      "source_dialogue_member_sha256": "3555f1c34334353f950d1a627f197cabe74f6dc5725254f49e5427a8d9f7f1bd",
+      "task_contract_id": "multiwoz-task-state-transfer-dev-v1"
+    },
+    {
+      "before_dataset_state": [
+        {
+          "fact_id": "PMUL1635.json#state13#hotel.book.day",
+          "is_unfilled_dataset_sentinel": false,
+          "relation": "hotel.book.day",
+          "source_locator": "MULTIWOZ2.4/data.json#/PMUL1635.json/log/13/metadata/hotel/book/day",
+          "source_role": "dataset_dialogue_state_annotation_after_previous_system_turn",
+          "subject": "PMUL1635.json#hotel.book",
+          "value": "friday"
+        },
+        {
+          "fact_id": "PMUL1635.json#state13#hotel.book.people",
+          "is_unfilled_dataset_sentinel": false,
+          "relation": "hotel.book.people",
+          "source_locator": "MULTIWOZ2.4/data.json#/PMUL1635.json/log/13/metadata/hotel/book/people",
+          "source_role": "dataset_dialogue_state_annotation_after_previous_system_turn",
+          "subject": "PMUL1635.json#hotel.book",
+          "value": "1"
+        },
+        {
+          "fact_id": "PMUL1635.json#state13#hotel.book.stay",
+          "is_unfilled_dataset_sentinel": false,
+          "relation": "hotel.book.stay",
+          "source_locator": "MULTIWOZ2.4/data.json#/PMUL1635.json/log/13/metadata/hotel/book/stay",
+          "source_role": "dataset_dialogue_state_annotation_after_previous_system_turn",
+          "subject": "PMUL1635.json#hotel.book",
+          "value": "1"
+        }
+      ],
+      "candidate_texts": [
+        {
+          "candidate_id": "c1",
+          "source_turn_id": "PMUL1635.json#turn14",
+          "text": "Yes. Sorry, but suddenly my plans changed. Can you change the Wartworth booking to Monday for 3 people and 4 nights?"
+        }
+      ],
+      "case_id": "MW24-PMUL1635-t14",
+      "current_turn_id": "PMUL1635.json#turn14",
+      "current_utterance": {
+        "role": "user",
+        "source_locator": "MULTIWOZ2.4/data.json#/PMUL1635.json/log/14/text",
+        "source_turn_id": "PMUL1635.json#turn14",
+        "text": "Yes. Sorry, but suddenly my plans changed. Can you change the Wartworth booking to Monday for 3 people and 4 nights?"
+      },
+      "dialogue_id": "PMUL1635.json",
+      "history": [
+        {
+          "role": "user",
+          "source_turn_id": "PMUL1635.json#turn0",
+          "text": "I need to book a hotel in the east that has 4 stars.  "
+        },
+        {
+          "role": "system",
+          "source_turn_id": "PMUL1635.json#turn1",
+          "text": "I can help you with that. What is your price range?"
+        },
+        {
+          "role": "user",
+          "source_turn_id": "PMUL1635.json#turn2",
+          "text": "That doesn't matter as long as it has free wifi and parking."
+        },
+        {
+          "role": "system",
+          "source_turn_id": "PMUL1635.json#turn3",
+          "text": "If you'd like something cheap, I recommend the Allenbell. For something moderately priced, I would recommend the Warkworth House."
+        },
+        {
+          "role": "user",
+          "source_turn_id": "PMUL1635.json#turn4",
+          "text": "Could you book the Wartworth for one night, 1 person?"
+        },
+        {
+          "role": "system",
+          "source_turn_id": "PMUL1635.json#turn5",
+          "text": "What day will you be staying?"
+        },
+        {
+          "role": "user",
+          "source_turn_id": "PMUL1635.json#turn6",
+          "text": "Friday and Can you book it for me and get a reference number ?"
+        },
+        {
+          "role": "system",
+          "source_turn_id": "PMUL1635.json#turn7",
+          "text": "Booking was successful.\nReference number is : BMUKPTG6.  Can I help you with anything else today?"
+        },
+        {
+          "role": "user",
+          "source_turn_id": "PMUL1635.json#turn8",
+          "text": "I am looking to book a train that is leaving from Cambridge to Bishops Stortford on Friday. "
+        },
+        {
+          "role": "system",
+          "source_turn_id": "PMUL1635.json#turn9",
+          "text": "There are a number of trains leaving throughout the day.  What time would you like to travel?"
+        },
+        {
+          "role": "user",
+          "source_turn_id": "PMUL1635.json#turn10",
+          "text": "I want to get there by 19:45 at the latest. "
+        },
+        {
+          "role": "system",
+          "source_turn_id": "PMUL1635.json#turn11",
+          "text": "Okay! The latest train you can take leaves at 17:29, and arrives by 18:07. Would you like for me to book that for you?"
+        },
+        {
+          "role": "user",
+          "source_turn_id": "PMUL1635.json#turn12",
+          "text": "Yes please. I also need the travel time, departure time, and price."
+        },
+        {
+          "role": "system",
+          "source_turn_id": "PMUL1635.json#turn13",
+          "text": "Reference number is : UIFV8FAS. The price is 10.1 GBP and the trip will take about 38 minutes. May I be of any other assistance?"
+        }
+      ],
+      "source": "MultiWOZ2.4",
+      "source_archive_sha256": "d4c66523614af016c1d2dafa35b4a548c96cb9ffadb71338937b60ac51272fe5",
+      "source_dialogue_member_sha256": "3555f1c34334353f950d1a627f197cabe74f6dc5725254f49e5427a8d9f7f1bd",
+      "task_contract_id": "multiwoz-task-state-transfer-dev-v1"
+    },
+    {
+      "before_dataset_state": [
+        {
+          "fact_id": "SNG1006.json#state5#hotel.book.stay",
+          "is_unfilled_dataset_sentinel": false,
+          "relation": "hotel.book.stay",
+          "source_locator": "MULTIWOZ2.4/data.json#/SNG1006.json/log/5/metadata/hotel/book/stay",
+          "source_role": "dataset_dialogue_state_annotation_after_previous_system_turn",
+          "subject": "SNG1006.json#hotel.book",
+          "value": "4"
+        }
+      ],
+      "candidate_texts": [
+        {
+          "candidate_id": "c1",
+          "source_turn_id": "SNG1006.json#turn6",
+          "text": "Yes, what about 2 nights instead of 4?"
+        }
+      ],
+      "case_id": "MW24-SNG1006-t6",
+      "current_turn_id": "SNG1006.json#turn6",
+      "current_utterance": {
+        "role": "user",
+        "source_locator": "MULTIWOZ2.4/data.json#/SNG1006.json/log/6/text",
+        "source_turn_id": "SNG1006.json#turn6",
+        "text": "Yes, what about 2 nights instead of 4?"
+      },
+      "dialogue_id": "SNG1006.json",
+      "history": [
+        {
+          "role": "user",
+          "source_turn_id": "SNG1006.json#turn0",
+          "text": "I'm looking for a hotel to stay at in the centre, can you look this up for me?"
+        },
+        {
+          "role": "system",
+          "source_turn_id": "SNG1006.json#turn1",
+          "text": "There are three hotels in the center of town. Do you prefer something moderate or expensive? "
+        },
+        {
+          "role": "user",
+          "source_turn_id": "SNG1006.json#turn2",
+          "text": "Not in terms of that, but do they have free parking and have a 3 star rating?"
+        },
+        {
+          "role": "system",
+          "source_turn_id": "SNG1006.json#turn3",
+          "text": "The Gonville hotel has 3 stars and parking, and the University Arms hotel has 4 stars and parking. They are both expensive. Would you like more details? "
+        },
+        {
+          "role": "user",
+          "source_turn_id": "SNG1006.json#turn4",
+          "text": "Okay, I'd like to book a room at the Gonville Hotel for 4 nights. There will be 6 people and we will be arriving on Saturday. "
+        },
+        {
+          "role": "system",
+          "source_turn_id": "SNG1006.json#turn5",
+          "text": "I'm sorry, there are no rooms available for that length of stay.  Could you shorten your stay or book a different day possibly?"
+        }
+      ],
+      "source": "MultiWOZ2.4",
+      "source_archive_sha256": "d4c66523614af016c1d2dafa35b4a548c96cb9ffadb71338937b60ac51272fe5",
+      "source_dialogue_member_sha256": "3555f1c34334353f950d1a627f197cabe74f6dc5725254f49e5427a8d9f7f1bd",
+      "task_contract_id": "multiwoz-task-state-transfer-dev-v1"
+    },
+    {
+      "before_dataset_state": [
+        {
+          "fact_id": "PMUL4852.json#state3#hotel.semi.area",
+          "is_unfilled_dataset_sentinel": false,
+          "relation": "hotel.semi.area",
+          "source_locator": "MULTIWOZ2.4/data.json#/PMUL4852.json/log/3/metadata/hotel/semi/area",
+          "source_role": "dataset_dialogue_state_annotation_after_previous_system_turn",
+          "subject": "PMUL4852.json#hotel.semi",
+          "value": "south"
+        }
+      ],
+      "candidate_texts": [
+        {
+          "candidate_id": "c1",
+          "source_turn_id": "PMUL4852.json#turn4",
+          "text": "I've changed my mind and would prefer to stay in the center of town. I need parking, wifi, and it should have a 0 star rating."
+        }
+      ],
+      "case_id": "MW24-PMUL4852-t4",
+      "current_turn_id": "PMUL4852.json#turn4",
+      "current_utterance": {
+        "role": "user",
+        "source_locator": "MULTIWOZ2.4/data.json#/PMUL4852.json/log/4/text",
+        "source_turn_id": "PMUL4852.json#turn4",
+        "text": "I've changed my mind and would prefer to stay in the center of town. I need parking, wifi, and it should have a 0 star rating."
+      },
+      "dialogue_id": "PMUL4852.json",
+      "history": [
+        {
+          "role": "user",
+          "source_turn_id": "PMUL4852.json#turn0",
+          "text": "Can you help me find a place to stay? "
+        },
+        {
+          "role": "system",
+          "source_turn_id": "PMUL4852.json#turn1",
+          "text": "Yes! What part of town would you like to stay in?"
+        },
+        {
+          "role": "user",
+          "source_turn_id": "PMUL4852.json#turn2",
+          "text": "I would prefer to stay in the South please. "
+        },
+        {
+          "role": "system",
+          "source_turn_id": "PMUL4852.json#turn3",
+          "text": "There are 4 nice places to stay in that area, is there a price range you prefer? "
+        }
+      ],
+      "source": "MultiWOZ2.4",
+      "source_archive_sha256": "d4c66523614af016c1d2dafa35b4a548c96cb9ffadb71338937b60ac51272fe5",
+      "source_dialogue_member_sha256": "3555f1c34334353f950d1a627f197cabe74f6dc5725254f49e5427a8d9f7f1bd",
+      "task_contract_id": "multiwoz-task-state-transfer-dev-v1"
+    },
+    {
+      "before_dataset_state": [
+        {
+          "fact_id": "MUL0329.json#state7#train.semi.destination",
+          "is_unfilled_dataset_sentinel": false,
+          "relation": "train.semi.destination",
+          "source_locator": "MULTIWOZ2.4/data.json#/MUL0329.json/log/7/metadata/train/semi/destination",
+          "source_role": "dataset_dialogue_state_annotation_after_previous_system_turn",
+          "subject": "MUL0329.json#train.semi",
+          "value": "stevenage"
+        }
+      ],
+      "candidate_texts": [
+        {
+          "candidate_id": "c1",
+          "source_turn_id": "MUL0329.json#turn8",
+          "text": "Sorry, I'm looking for a train TO stevenage arriving by 14:00 on Friday."
+        }
+      ],
+      "case_id": "MW24-MUL0329-t8",
+      "current_turn_id": "MUL0329.json#turn8",
+      "current_utterance": {
+        "role": "user",
+        "source_locator": "MULTIWOZ2.4/data.json#/MUL0329.json/log/8/text",
+        "source_turn_id": "MUL0329.json#turn8",
+        "text": "Sorry, I'm looking for a train TO stevenage arriving by 14:00 on Friday."
+      },
+      "dialogue_id": "MUL0329.json",
+      "history": [
+        {
+          "role": "user",
+          "source_turn_id": "MUL0329.json#turn0",
+          "text": "I want to find an expensive Indian restaurant."
+        },
+        {
+          "role": "system",
+          "source_turn_id": "MUL0329.json#turn1",
+          "text": "There are 14 Indian restaurants in the expensive price range. What part of town would you like?"
+        },
+        {
+          "role": "user",
+          "source_turn_id": "MUL0329.json#turn2",
+          "text": "I'd like the restaurant to be in the centre."
+        },
+        {
+          "role": "system",
+          "source_turn_id": "MUL0329.json#turn3",
+          "text": "Curry Garden meets your criteria. The address is 106 Regent Street City Centre. Would you like to make a reservation? "
+        },
+        {
+          "role": "user",
+          "source_turn_id": "MUL0329.json#turn4",
+          "text": "What is the postal code for the Curry Garden?"
+        },
+        {
+          "role": "system",
+          "source_turn_id": "MUL0329.json#turn5",
+          "text": "The postcode for Curry Garden is cb21dp."
+        },
+        {
+          "role": "user",
+          "source_turn_id": "MUL0329.json#turn6",
+          "text": "Ok, great thanks. Can you also help me find a train going to stevenage? "
+        },
+        {
+          "role": "system",
+          "source_turn_id": "MUL0329.json#turn7",
+          "text": "There are 70 trains to Cambridge. What day will you be travelling?"
+        }
+      ],
+      "source": "MultiWOZ2.4",
+      "source_archive_sha256": "d4c66523614af016c1d2dafa35b4a548c96cb9ffadb71338937b60ac51272fe5",
+      "source_dialogue_member_sha256": "3555f1c34334353f950d1a627f197cabe74f6dc5725254f49e5427a8d9f7f1bd",
+      "task_contract_id": "multiwoz-task-state-transfer-dev-v1"
+    },
+    {
+      "before_dataset_state": [
+        {
+          "fact_id": "SNG0984.json#state5#hotel.semi.internet",
+          "is_unfilled_dataset_sentinel": true,
+          "relation": "hotel.semi.internet",
+          "source_locator": "MULTIWOZ2.4/data.json#/SNG0984.json/log/5/metadata/hotel/semi/internet",
+          "source_role": "dataset_dialogue_state_annotation_after_previous_system_turn",
+          "subject": "SNG0984.json#hotel.semi",
+          "value": "not mentioned"
+        }
+      ],
+      "candidate_texts": [
+        {
+          "candidate_id": "c1",
+          "source_turn_id": "SNG0984.json#turn6",
+          "text": "Actually, could you double check whether the Acorn has free wifi? "
+        }
+      ],
+      "case_id": "MW24-SNG0984-t6",
+      "current_turn_id": "SNG0984.json#turn6",
+      "current_utterance": {
+        "role": "user",
+        "source_locator": "MULTIWOZ2.4/data.json#/SNG0984.json/log/6/text",
+        "source_turn_id": "SNG0984.json#turn6",
+        "text": "Actually, could you double check whether the Acorn has free wifi? "
+      },
+      "dialogue_id": "SNG0984.json",
+      "history": [
+        {
+          "role": "user",
+          "source_turn_id": "SNG0984.json#turn0",
+          "text": "Hello, I am looking for a four star hotel on the north side"
+        },
+        {
+          "role": "system",
+          "source_turn_id": "SNG0984.json#turn1",
+          "text": "I have eight results. Do you need free parking? "
+        },
+        {
+          "role": "user",
+          "source_turn_id": "SNG0984.json#turn2",
+          "text": "Not really, and I'm not really concerned with wifi either. Which one do you recommend?"
+        },
+        {
+          "role": "system",
+          "source_turn_id": "SNG0984.json#turn3",
+          "text": "How about Acorn Guest House? It's located at 154 Chesterton Road."
+        },
+        {
+          "role": "user",
+          "source_turn_id": "SNG0984.json#turn4",
+          "text": "What is the hotel's rating?"
+        },
+        {
+          "role": "system",
+          "source_turn_id": "SNG0984.json#turn5",
+          "text": "It is rated 4 stars,"
+        }
+      ],
+      "source": "MultiWOZ2.4",
+      "source_archive_sha256": "d4c66523614af016c1d2dafa35b4a548c96cb9ffadb71338937b60ac51272fe5",
+      "source_dialogue_member_sha256": "3555f1c34334353f950d1a627f197cabe74f6dc5725254f49e5427a8d9f7f1bd",
+      "task_contract_id": "multiwoz-task-state-transfer-dev-v1"
+    },
+    {
+      "before_dataset_state": [
+        {
+          "fact_id": "PMUL1690.json#state3#train.semi.destination",
+          "is_unfilled_dataset_sentinel": false,
+          "relation": "train.semi.destination",
+          "source_locator": "MULTIWOZ2.4/data.json#/PMUL1690.json/log/3/metadata/train/semi/destination",
+          "source_role": "dataset_dialogue_state_annotation_after_previous_system_turn",
+          "subject": "PMUL1690.json#train.semi",
+          "value": "ely"
+        }
+      ],
+      "candidate_texts": [
+        {
+          "candidate_id": "c1",
+          "source_turn_id": "PMUL1690.json#turn4",
+          "text": "I meant Cambridge please. I would like to arrive in Cambridge on Monday after 21:15."
+        }
+      ],
+      "case_id": "MW24-PMUL1690-t4",
+      "current_turn_id": "PMUL1690.json#turn4",
+      "current_utterance": {
+        "role": "user",
+        "source_locator": "MULTIWOZ2.4/data.json#/PMUL1690.json/log/4/text",
+        "source_turn_id": "PMUL1690.json#turn4",
+        "text": "I meant Cambridge please. I would like to arrive in Cambridge on Monday after 21:15."
+      },
+      "dialogue_id": "PMUL1690.json",
+      "history": [
+        {
+          "role": "user",
+          "source_turn_id": "PMUL1690.json#turn0",
+          "text": "I need to take a train from Norwich, leaving after 21:15."
+        },
+        {
+          "role": "system",
+          "source_turn_id": "PMUL1690.json#turn1",
+          "text": "Where would you like to go to?"
+        },
+        {
+          "role": "user",
+          "source_turn_id": "PMUL1690.json#turn2",
+          "text": "I would like to go to Ely please."
+        },
+        {
+          "role": "system",
+          "source_turn_id": "PMUL1690.json#turn3",
+          "text": "I don't have any listings for trains leaving Norwich and arriving in Ely. Would you like to try a different departure station?"
+        }
+      ],
+      "source": "MultiWOZ2.4",
+      "source_archive_sha256": "d4c66523614af016c1d2dafa35b4a548c96cb9ffadb71338937b60ac51272fe5",
+      "source_dialogue_member_sha256": "3555f1c34334353f950d1a627f197cabe74f6dc5725254f49e5427a8d9f7f1bd",
+      "task_contract_id": "multiwoz-task-state-transfer-dev-v1"
+    }
+  ],
+  "public_task_instruction": "This is a sandbox task-state editing exercise. The prior state is a MultiWOZ dialogue-state annotation after the previous system turn, not an observed personal-memory database. Assume permission only to propose edits in this temporary exercise; the source user gave no persistent-memory consent. Read all preceding source turns and the single current English utterance. Do not claim that a real reservation, external service, or personal memory was changed. Use only the native domain.part.slot relation names and cite exact source turn IDs. Preserve prior truth when plans change; distinguish correction, preference change, assistant misunderstanding, question, and uncertainty.",
+  "schema": "multiwoz-transfer-development-public-v1",
+  "task_contract_id": "multiwoz-task-state-transfer-dev-v1"
+}

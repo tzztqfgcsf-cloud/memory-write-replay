@@ -1,0 +1,57 @@
+{
+  "call_id": "1928242c1995fb734706-sr_refine",
+  "finish_reason": "STOP",
+  "finished_unix": 1790495070.6674392,
+  "http_status": 200,
+  "latency_seconds": 1.4186,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.001275462362001527,
+        "content": {
+          "parts": [
+            {
+              "text": "{\"reply\": \"네, 학교 이야기는 건너뛰고 다른 주제로 넘어가겠습니다. 어떤 이야기가 궁금하신가요?\", \"action\": {\"kind\": \"SKIP\", \"question_slot\": null, \"required_slots\": [], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [], \"fact\": null, \"operation\": \"NO_WRITE\", \"slot\": null, \"source_turns\": [\"t2\"], \"target_fact_id\": null}]}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T07:44:29.394960Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "Xcm4atCNGPGancoP76ybiQ0",
+    "usageMetadata": {
+      "candidatesTokenCount": 106,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 106
+        }
+      ],
+      "promptTokenCount": 1912,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1912
+        }
+      ],
+      "totalTokenCount": 2018,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "cc2329a5477df109324ff8aad076f22fc031aea34721f3dadfdd8021f852430d",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790495069.248368,
+  "status": "OK",
+  "text": "{\"reply\": \"네, 학교 이야기는 건너뛰고 다른 주제로 넘어가겠습니다. 어떤 이야기가 궁금하신가요?\", \"action\": {\"kind\": \"SKIP\", \"question_slot\": null, \"required_slots\": [], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [], \"fact\": null, \"operation\": \"NO_WRITE\", \"slot\": null, \"source_turns\": [\"t2\"], \"target_fact_id\": null}]}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1912,
+    "output_tokens": 106,
+    "reasoning_tokens": 0,
+    "total_tokens": 2018
+  }
+}

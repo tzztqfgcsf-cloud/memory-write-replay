@@ -1,0 +1,57 @@
+{
+  "call_id": "34eaed28f9cace8f5f61-sr_refine",
+  "finish_reason": "STOP",
+  "finished_unix": 1790491953.0378182,
+  "http_status": 200,
+  "latency_seconds": 1.5215,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.0008548856845923832,
+        "content": {
+          "parts": [
+            {
+              "text": "{\"reply\": \"네, 어릴 때 우표 수집을 하셨군요. 알겠습니다.\", \"action\": {\"kind\": \"CONTINUE\", \"question_slot\": null, \"required_slots\": [], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [], \"fact\": {\"relation\": \"hobby\", \"source_turns\": [\"t1\", \"t2\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"우표수집\"}, \"operation\": \"APPEND\", \"slot\": null, \"source_turns\": [\"t1\", \"t2\"], \"target_fact_id\": null}]}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T06:52:31.637008Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "L724atDwJq2BktwPi5PxuQg",
+    "usageMetadata": {
+      "candidatesTokenCount": 140,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 140
+        }
+      ],
+      "promptTokenCount": 2188,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 2188
+        }
+      ],
+      "totalTokenCount": 2328,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "e53bbbe56e091861597f4c991ff651e410563176d7c16233f8434e30fc567c44",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790491951.515855,
+  "status": "OK",
+  "text": "{\"reply\": \"네, 어릴 때 우표 수집을 하셨군요. 알겠습니다.\", \"action\": {\"kind\": \"CONTINUE\", \"question_slot\": null, \"required_slots\": [], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [], \"fact\": {\"relation\": \"hobby\", \"source_turns\": [\"t1\", \"t2\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"우표수집\"}, \"operation\": \"APPEND\", \"slot\": null, \"source_turns\": [\"t1\", \"t2\"], \"target_fact_id\": null}]}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 2188,
+    "output_tokens": 140,
+    "reasoning_tokens": 0,
+    "total_tokens": 2328
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "call_id": "0cbe2834fffdf8878d1b-candidate_extract",
+  "finish_reason": "STOP",
+  "finished_unix": 1790491162.3953779,
+  "http_status": 200,
+  "latency_seconds": 1.8206,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.004972609564488036,
+        "content": {
+          "parts": [
+            {
+              "text": "{\"beliefs\": [{\"candidate_id\": \"c1\", \"facts\": [{\"relation\": \"workplace\", \"source_turns\": [\"t2\"], \"subject\": \"도윤\", \"time\": \"present\", \"value\": \"대한우편\"}]}, {\"candidate_id\": \"c2\", \"facts\": [{\"relation\": \"workplace\", \"source_turns\": [\"t2\"], \"subject\": \"도윤\", \"time\": \"present\", \"value\": \"대한우편\"}]}], \"correction_witnesses\": [{\"candidate_id\": \"c1\", \"evidence_quote\": \"\", \"new_value\": \"새봄도서관\", \"polarity\": \"negated\", \"relation\": \"workplace\", \"source_turn\": \"t2\", \"subject\": \"participant\", \"target_fact_id\": \"f1\", \"time\": \"present\"}, {\"candidate_id\": \"c2\", \"evidence_quote\": \"\", \"new_value\": \"새봄도서관\", \"polarity\": \"negated\", \"relation\": \"workplace\", \"source_turn\": \"t2\", \"subject\": \"participant\", \"target_fact_id\": \"f1\", \"time\": \"present\"}]}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T06:39:20.728937Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "GLq4aum-LJ-cx9gPtNDSwA0",
+    "usageMetadata": {
+      "candidatesTokenCount": 257,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 257
+        }
+      ],
+      "promptTokenCount": 1710,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1710
+        }
+      ],
+      "totalTokenCount": 1967,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "a23f677e821192e5ce859fe306c05e407a6b60ebcc9f277a994e58cfcd1b0dd8",
+  "stage_schema_sha256": "bda7326ac6a6cbeedf1ecdbf4a2b08277c078351d6689f667dc0d558c4972dd3",
+  "started_unix": 1790491160.574351,
+  "status": "OK",
+  "text": "{\"beliefs\": [{\"candidate_id\": \"c1\", \"facts\": [{\"relation\": \"workplace\", \"source_turns\": [\"t2\"], \"subject\": \"도윤\", \"time\": \"present\", \"value\": \"대한우편\"}]}, {\"candidate_id\": \"c2\", \"facts\": [{\"relation\": \"workplace\", \"source_turns\": [\"t2\"], \"subject\": \"도윤\", \"time\": \"present\", \"value\": \"대한우편\"}]}], \"correction_witnesses\": [{\"candidate_id\": \"c1\", \"evidence_quote\": \"\", \"new_value\": \"새봄도서관\", \"polarity\": \"negated\", \"relation\": \"workplace\", \"source_turn\": \"t2\", \"subject\": \"participant\", \"target_fact_id\": \"f1\", \"time\": \"present\"}, {\"candidate_id\": \"c2\", \"evidence_quote\": \"\", \"new_value\": \"새봄도서관\", \"polarity\": \"negated\", \"relation\": \"workplace\", \"source_turn\": \"t2\", \"subject\": \"participant\", \"target_fact_id\": \"f1\", \"time\": \"present\"}]}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1710,
+    "output_tokens": 257,
+    "reasoning_tokens": 0,
+    "total_tokens": 1967
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "call_id": "ba030e8c67583bdb7532-g_final",
+  "error_type": null,
+  "finish_reason": "stop",
+  "finished_unix": 1790495898.090723,
+  "latency_seconds": 9.046,
+  "model_version": "mlx-community/Llama-3.1-8B-Instruct-4bit",
+  "raw_response": {
+    "base_seed": 20260927,
+    "finish_reason": "stop",
+    "generation_calls": 680,
+    "id": "local-43c9635f03d6229cc7b68bdf",
+    "seed": 84888549,
+    "snapshot": "<LOCAL_PATH>",
+    "text": "{\"action\": {\"kind\": \"STOP\", \"question_slot\": null, \"required_slots\": [], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"피곤하네요. 오늘 통화는 종료해요. 새로 남길 것도 없어요.\"], \"fact\": null, \"operation\": \"NO_WRITE\", \"slot\": null, \"source_turns\": [\"t2\"], \"target_fact_id\": null}], \"reply\": \"피곤하네요. 오늘 통화는 종료해요. 새로 남길 것도 없어요.\"}",
+    "usage": {
+      "cached_tokens": null,
+      "input_tokens": 1878,
+      "output_tokens": 120,
+      "reasoning_tokens": null,
+      "total_tokens": 1998
+    }
+  },
+  "request_sha256": "63238923fc101e747eb904f914f80cd927a414f49f2079b98af97136bd9d321e",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790495889.0443451,
+  "status": "OK",
+  "text": "{\"action\": {\"kind\": \"STOP\", \"question_slot\": null, \"required_slots\": [], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"피곤하네요. 오늘 통화는 종료해요. 새로 남길 것도 없어요.\"], \"fact\": null, \"operation\": \"NO_WRITE\", \"slot\": null, \"source_turns\": [\"t2\"], \"target_fact_id\": null}], \"reply\": \"피곤하네요. 오늘 통화는 종료해요. 새로 남길 것도 없어요.\"}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1878,
+    "output_tokens": 120,
+    "reasoning_tokens": null,
+    "total_tokens": 1998
+  }
+}

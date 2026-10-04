@@ -1,0 +1,57 @@
+{
+  "call_id": "ba030e8c67583bdb7532-sr_refine",
+  "finish_reason": "STOP",
+  "finished_unix": 1790495300.556664,
+  "http_status": 200,
+  "latency_seconds": 1.5137,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.0008391064574133675,
+        "content": {
+          "parts": [
+            {
+              "text": "{\"reply\": \"네, 알겠습니다. 대화를 종료하고 앞으로는 더 이상 기록하지 않겠습니다. 다음에 다시 뵙겠습니다.\", \"action\": {\"kind\": \"STOP\", \"question_slot\": null, \"required_slots\": [], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [], \"fact\": null, \"operation\": \"NO_WRITE\", \"slot\": null, \"source_turns\": [\"t2\"], \"target_fact_id\": null}]}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T07:48:19.203037Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "Q8q4ap2yDPCVktwP37SV-Ag",
+    "usageMetadata": {
+      "candidatesTokenCount": 106,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 106
+        }
+      ],
+      "promptTokenCount": 2248,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 2248
+        }
+      ],
+      "totalTokenCount": 2354,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "c5772999523ec184654f8a08472c226b3eeed9ab6a3b97c30759f758e477fcc5",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790495299.0420961,
+  "status": "OK",
+  "text": "{\"reply\": \"네, 알겠습니다. 대화를 종료하고 앞으로는 더 이상 기록하지 않겠습니다. 다음에 다시 뵙겠습니다.\", \"action\": {\"kind\": \"STOP\", \"question_slot\": null, \"required_slots\": [], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [], \"fact\": null, \"operation\": \"NO_WRITE\", \"slot\": null, \"source_turns\": [\"t2\"], \"target_fact_id\": null}]}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 2248,
+    "output_tokens": 106,
+    "reasoning_tokens": 0,
+    "total_tokens": 2354
+  }
+}

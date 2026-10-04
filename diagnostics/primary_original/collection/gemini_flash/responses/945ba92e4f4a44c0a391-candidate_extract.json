@@ -1,0 +1,57 @@
+{
+  "call_id": "945ba92e4f4a44c0a391-candidate_extract",
+  "finish_reason": "STOP",
+  "finished_unix": 1790495913.114455,
+  "http_status": 200,
+  "latency_seconds": 2.2702,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.00693980907952344,
+        "content": {
+          "parts": [
+            {
+              "text": "{\"beliefs\": [{\"candidate_id\": \"c1\", \"facts\": [{\"relation\": \"birthplace\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"문경\"}]}, {\"candidate_id\": \"c2\", \"facts\": [{\"relation\": \"birthplace\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"문경\"}]}], \"correction_witnesses\": [{\"candidate_id\": \"c1\", \"evidence_quote\": \"충주 말고 문경이에요.\", \"new_value\": \"문경\", \"polarity\": \"affirmed\", \"relation\": \"birthplace\", \"source_turn\": \"t2\", \"subject\": \"participant\", \"target_fact_id\": \"f1\", \"time\": \"past\"}, {\"candidate_id\": \"c1\", \"evidence_quote\": \"푸른세탁소 다니는 건 맞아요.\", \"new_value\": \"푸른세탁소\", \"polarity\": \"affirmed\", \"relation\": \"workplace\", \"source_turn\": \"t2\", \"subject\": \"participant\", \"target_fact_id\": \"f2\", \"time\": \"present\"}, {\"candidate_id\": \"c2\", \"evidence_quote\": \"태어난 데는 문경이에요.\", \"new_value\": \"문경\", \"polarity\": \"affirmed\", \"relation\": \"birthplace\", \"source_turn\": \"t2\", \"subject\": \"participant\", \"target_fact_id\": \"f1\", \"time\": \"past\"}, {\"candidate_id\": \"c2\", \"evidence_quote\": \"직장 푸른세탁소는 그대로 두세요.\", \"new_value\": \"푸른세탁소\", \"polarity\": \"affirmed\", \"relation\": \"workplace\", \"source_turn\": \"t2\", \"subject\": \"participant\", \"target_fact_id\": \"f2\", \"time\": \"present\"}]}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T07:58:30.987761Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "psy4avGkPK2BktwPi5PxuQg",
+    "usageMetadata": {
+      "candidatesTokenCount": 432,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 432
+        }
+      ],
+      "promptTokenCount": 1760,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1760
+        }
+      ],
+      "totalTokenCount": 2192,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "9bc0ef992dbf0ae33a10a50f6f8867c290dce6bbf92fc0ae704032b1b78a50fc",
+  "stage_schema_sha256": "bda7326ac6a6cbeedf1ecdbf4a2b08277c078351d6689f667dc0d558c4972dd3",
+  "started_unix": 1790495910.8438132,
+  "status": "OK",
+  "text": "{\"beliefs\": [{\"candidate_id\": \"c1\", \"facts\": [{\"relation\": \"birthplace\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"문경\"}]}, {\"candidate_id\": \"c2\", \"facts\": [{\"relation\": \"birthplace\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"문경\"}]}], \"correction_witnesses\": [{\"candidate_id\": \"c1\", \"evidence_quote\": \"충주 말고 문경이에요.\", \"new_value\": \"문경\", \"polarity\": \"affirmed\", \"relation\": \"birthplace\", \"source_turn\": \"t2\", \"subject\": \"participant\", \"target_fact_id\": \"f1\", \"time\": \"past\"}, {\"candidate_id\": \"c1\", \"evidence_quote\": \"푸른세탁소 다니는 건 맞아요.\", \"new_value\": \"푸른세탁소\", \"polarity\": \"affirmed\", \"relation\": \"workplace\", \"source_turn\": \"t2\", \"subject\": \"participant\", \"target_fact_id\": \"f2\", \"time\": \"present\"}, {\"candidate_id\": \"c2\", \"evidence_quote\": \"태어난 데는 문경이에요.\", \"new_value\": \"문경\", \"polarity\": \"affirmed\", \"relation\": \"birthplace\", \"source_turn\": \"t2\", \"subject\": \"participant\", \"target_fact_id\": \"f1\", \"time\": \"past\"}, {\"candidate_id\": \"c2\", \"evidence_quote\": \"직장 푸른세탁소는 그대로 두세요.\", \"new_value\": \"푸른세탁소\", \"polarity\": \"affirmed\", \"relation\": \"workplace\", \"source_turn\": \"t2\", \"subject\": \"participant\", \"target_fact_id\": \"f2\", \"time\": \"present\"}]}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1760,
+    "output_tokens": 432,
+    "reasoning_tokens": 0,
+    "total_tokens": 2192
+  }
+}

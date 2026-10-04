@@ -1,0 +1,20 @@
+{
+  "status": "OK",
+  "http_status": 200,
+  "text": "{\"decisions\": [{\"index\": 0, \"approve\": true, \"reason\": \"사용자가 바느질을 처음 배운 선생님의 이름을 신 선생님으로 명시적으로 수정하도록 요청함.\"}]}",
+  "usage": {
+    "input_tokens": 688,
+    "output_tokens": 43,
+    "reasoning_tokens": 209,
+    "total_tokens": 940,
+    "cached_tokens": null
+  },
+  "finish_reason": "STOP",
+  "model_version": "gemini-3.1-pro-preview",
+  "id": "gemini38_flash_CT46_judge",
+  "key": "gemini38_flash_CT46",
+  "stage": "judge",
+  "arm": "judge",
+  "requested_model": "gemini-3.1-pro-preview",
+  "latency_seconds": 3.692685042042285
+}

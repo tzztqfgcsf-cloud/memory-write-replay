@@ -1,0 +1,20 @@
+{
+  "status": "OK",
+  "http_status": 200,
+  "text": "{\"beliefs\": [{\"candidate_id\": \"c1\", \"facts\": [{\"relation\": \"birthplace\", \"source_turns\": [\"t2\"], \"subject\": \"순자\", \"time\": \"past\", \"value\": \"임실\"}]}, {\"candidate_id\": \"c2\", \"facts\": [{\"relation\": \"birthplace\", \"source_turns\": [\"t2\"], \"subject\": \"순자\", \"time\": \"past\", \"value\": \"임실\"}]}], \"correction_witnesses\": [{\"candidate_id\": \"c1\", \"evidence_quote\": \"\", \"new_value\": \"전주\", \"polarity\": \"absent\", \"relation\": \"birthplace\", \"source_turn\": \"t2\", \"subject\": \"participant\", \"target_fact_id\": \"f1\", \"time\": \"past\"}, {\"candidate_id\": \"c2\", \"evidence_quote\": \"\", \"new_value\": \"전주\", \"polarity\": \"absent\", \"relation\": \"birthplace\", \"source_turn\": \"t2\", \"subject\": \"participant\", \"target_fact_id\": \"f1\", \"time\": \"past\"}]}",
+  "usage": {
+    "input_tokens": 2612,
+    "output_tokens": 249,
+    "reasoning_tokens": 0,
+    "total_tokens": 2861,
+    "cached_tokens": null
+  },
+  "finish_reason": "STOP",
+  "model_version": "gemini-3.8-flash",
+  "id": "gemini38_flash_CT14_corrected",
+  "key": "gemini38_flash_CT14",
+  "stage": "extract",
+  "arm": "corrected",
+  "requested_model": "gemini-3.8-flash",
+  "latency_seconds": 2.7583156251348555
+}
