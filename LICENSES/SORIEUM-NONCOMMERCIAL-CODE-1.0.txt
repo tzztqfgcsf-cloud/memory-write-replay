@@ -1,0 +1,55 @@
+Sorieum Noncommercial Research Code License 1.0
+
+Copyright (c) 2026 the Sorieum artifact contributors, for their respective
+original contributions.
+
+1. Scope
+This license applies only to original software code identified in the
+repository's RIGHTS.md, to the extent the contributors hold the rights
+necessary to grant this license. Third-party material and separately
+licensed components remain governed by their own terms.
+
+2. Permission
+Subject to these conditions, the rights holders grant a worldwide,
+non-exclusive, royalty-free copyright license to use, reproduce, modify,
+and redistribute the covered code and modifications solely for
+noncommercial research, teaching, evaluation, and scientific reproduction.
+
+3. Noncommercial restriction
+Noncommercial means not primarily intended for or directed toward
+commercial advantage or monetary compensation. Commercial product or
+service development, incorporation into a commercial offering, paid
+hosting or consulting using the code, and other commercial exploitation
+require separate prior written permission from the relevant rights
+holders. An organization's legal form, academic affiliation, or absence
+of a fee for a particular copy does not by itself make a use noncommercial.
+
+4. Attribution and redistribution
+Retain this license, applicable copyright and attribution notices, and
+third-party notices in redistributed copies. Identify modifications and
+include a link to the source repository:
+https://github.com/tzztqfgcsf-cloud/sorieum-paper-supplements
+Do not grant recipients commercial rights to the covered original code
+or represent modified versions as endorsed by the original contributors.
+Recipients may exercise the permissions in this license directly from
+the rights holders, subject to the same conditions.
+
+5. Reserved rights
+All rights not expressly granted are reserved. No patent, trademark,
+personal-data, or third-party rights are granted. Statutory exceptions
+and limitations, including applicable fair use, are unaffected.
+Commercial permission may be requested through the repository owner,
+who must obtain approval from any other relevant rights holders.
+
+6. Termination
+Permissions terminate upon breach of these conditions. Use beyond these
+permissions requires separate authorization from the rights holders.
+
+7. Disclaimer
+To the extent permitted by law, the code is provided AS IS, without
+warranties of any kind, express or implied, including merchantability,
+fitness for a particular purpose and noninfringement. The contributors
+are not liable for claims or damages arising from use of the code.
+
+This is a custom source-available license with use restrictions, not an
+OSI-approved open-source license.

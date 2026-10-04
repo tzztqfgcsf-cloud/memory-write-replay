@@ -4,6 +4,14 @@ Reproducibility materials for **Diagnosing Memory-Write Decisions in Conversatio
 
 This repository contains the experimental materials behind the paper: authored Korean cases and evaluation references, saved model outputs, memory-write policies, evaluator, offline replay, and supporting analyses. It is not a product demo or a report-only repository.
 
+## Latest appendix and reuse terms
+
+[Read the v26 online appendix (PDF)](docs/TIST_v26_appendix.pdf). The user-supplied PDF is distributed unchanged; its document version is distinct from the historical experiment directory names.
+
+Original code is available for noncommercial research, teaching and reproduction under the [code license](LICENSES/SORIEUM-NONCOMMERCIAL-CODE-1.0.txt). Original data and documentation use [CC BY-NC 4.0](LICENSES/CC-BY-NC-4.0.txt). Commercial use requires separate permission. Third-party terms are preserved; see [RIGHTS.md](RIGHTS.md).
+
+The ACM supplementary-material description is [readme.txt](readme.txt).
+
 ## Run the main experiment offline
 
 Requires Python 3.10 or newer. No API keys, model downloads, or Python packages are required for the main replay.
@@ -24,7 +32,7 @@ Use a new output directory for each verification. Replay reconstructs memory-wri
 | [diagnostics](diagnostics/) | Supporting v20 experiments, source notices, frozen results and verification instructions. |
 | [supplements](supplements/) | Post-v20 corrected-extractor and learned-verifier experiments, external DSTC2 diagnostic, and CareCall-mem availability record. |
 | [schemas](schemas/) | Frozen six-stage structural-output schema and stage selector. |
-| [docs](docs/) | The Korean supplementary report, provided as a reading aid. |
+| [docs](docs/) | The v26 online appendix and the Korean supplementary report. |
 | [verification](verification/) | Release-level verification results and file-integrity manifest. |
 
 The supplementary experiments were conducted after v20. They are not retroactively presented as v20's main results. See each directory's README for its exact reproducibility scope.

@@ -1,7 +1,28 @@
-# Rights and third-party material
+# Rights and noncommercial reuse
 
-This public release is made by the repository owner for inspection and reproducibility of the accompanying research. No blanket open-source or open-data license is assigned to author-created files in this release. Copyright and permissions beyond public access remain with the relevant rights holders. A future explicit license can be added by the authors.
+The repository owner authorized these terms for the contributors' original materials on October 5, 2026. Copyright remains with the respective rights holders. The grants apply only to rights they hold; they do not claim ownership of third-party content, model providers' rights, or uncopyrightable facts.
 
-Third-party materials retain their original terms. Source notices included under `diagnostics/` apply only to the files and upstream datasets identified there. They do not license the entire repository. DSTC2 original corpus files and transcript-bearing outputs are not redistributed by this release; follow `supplements/` acquisition instructions and the upstream terms. CareCall-mem's full labeled Korean dataset is not included.
+| Material | Terms |
+|---|---|
+| Original software source, including replay, evaluator, adapters and analysis scripts (`.py`, `.sh`, `.js`, `.mjs`, and other executable source) | [Sorieum Noncommercial Research Code License 1.0](LICENSES/SORIEUM-NONCOMMERCIAL-CODE-1.0.txt): noncommercial research, teaching, evaluation and reproduction; commercial use requires separate prior written permission. |
+| Original authored cases, references, prompts, schemas, study metadata, tables, documentation, and the author-contributed text/figures in `docs/TIST_v26_appendix.pdf` | [CC BY-NC 4.0](LICENSES/CC-BY-NC-4.0.txt): attribution and noncommercial use. |
+| Saved model outputs and mixed records | CC BY-NC 4.0 applies only to the contributors' rights in these materials and their selection/arrangement. It does not override third-party rights or applicable provider terms. |
+| Third-party material, including dataset-derived content | Original upstream terms and notices prevail for those components. |
 
-Authored synthetic cases are identified as authored material. Evaluation references are not labeled as independently collected human annotations.
+These assignments include compressed copies of the same material. Code embedded in documents retains the code terms if it reproduces covered software; third-party quotations and figures retain their respective terms. License texts themselves retain their own terms.
+
+## Attribution
+
+Credit “Sorieum artifact contributors,” the paper title, this repository and the release used. Preserve supplied creator and copyright notices and identify modifications. `CITATION.bib` provides a bibliographic entry; no unverified author identity is supplied.
+
+## Third-party exceptions
+
+MultiWOZ-derived material in `diagnostics/public16/` retains the upstream MIT terms. Preserve both notices in `diagnostics/public16/notices/`. Our noncommercial conditions do not restrict rights separately granted by those upstream licenses. The study's original additions are covered only to the extent of the contributors' rights.
+
+DSTC2 original corpus files and transcript-bearing outputs are not redistributed; follow `supplements/dstc2/README.md` and the upstream terms. CareCall-mem's full labeled Korean dataset is not included. No license to unavailable source data, model weights or external services is implied.
+
+## Commercial permissions and version history
+
+Commercial use of the covered original material is not authorized by these terms. Contact the repository owner through GitHub to discuss separate permission from the relevant rights holders. CC BY-NC does not prevent the rights holders from separately licensing their own work commercially.
+
+Release `v20-artifact-v1` is preserved unchanged and did not assign a blanket reuse license. This release adds explicit noncommercial permissions without rewriting the earlier release. This repository is publicly inspectable and source-available; the code license is not an OSI-approved open-source license.
