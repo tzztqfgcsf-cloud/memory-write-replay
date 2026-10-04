@@ -85,9 +85,7 @@ tags are preserved, including old identifiers inside provenance records.
 
 Portable entrypoints above specify their scope. Other historical analysis
 scripts are supplied for inspection and may depend on the original directory
-layout. Missing original confidence intervals are not filled in. The original
-40-78 microsecond timing artifact was not recovered; this release does not verify
-that timing. No unavailable corpus, CareCall full operation-label dataset,
+layout. Missing original confidence intervals are not filled in. No archived benchmark supports the manuscript’s 40–78 microsecond replay-time claim. That number is not a verified result of this artifact; the supported cost statement is that deterministic replay requires no additional model calls. No unavailable corpus, CareCall full operation-label dataset,
 participant contact information, credentials, family audio, model weights or
 unrelated product data is included.
 

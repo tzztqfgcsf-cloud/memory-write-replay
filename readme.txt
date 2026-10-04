@@ -2,19 +2,19 @@ SUPPLEMENTARY MATERIAL
 Diagnosing Memory-Write Decisions in Conversational Assistants
 Through Specification-Based Replay
 
-Release: paper-artifact-v3 (v26 appendix and reproducibility tools)
+Release: paper-artifact-v4 (publication documentation corrections)
 
 Repository: https://github.com/tzztqfgcsf-cloud/memory-write-replay
 
 CONTENTS
-core/ contains the manuscript-v20 main experiment: 48 authored Korean
+core/ contains the main experiment: 48 authored Korean
 cases, 21 model configurations, three repetitions, saved requests and
 responses, evaluation references, memory-write policies, and offline replay.
 The replay checks 42,336 score rows across 14 policy conditions.
 diagnostics/ contains supporting v20 experiments and archived analysis code.
-supplements/ contains separately identified post-v20 corrected-extractor,
+supplements/ contains separately identified additional corrected-extractor,
 learned-verifier, and DSTC2 diagnostics, plus a CareCall-mem availability record.
-docs/TIST_v26_appendix.pdf is the user-supplied v26 online appendix,
+docs/TIST_v26_appendix.pdf is the v26 online appendix,
 distributed unchanged.
 diagnostics/variant_audit_v26/ contains the Table I9 row-level audit.
 statistics/ contains portable saved-statistics checks and dependency details.
@@ -36,7 +36,7 @@ From the extracted repository directory:
 
 Choose new writable output directories for each replay. The expected main
 result is 42,336 matching score rows, with matching states and gate audits.
-The supporting diagnostic check compares 3,444 score rows; the post-v20
+The supporting diagnostic check compares 3,444 score rows; the supplementary
 saved-response replay matches 296 outputs. See REPRODUCING.md and the
 component README files for condition definitions and detailed instructions.
 

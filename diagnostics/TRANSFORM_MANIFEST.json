@@ -68037,11 +68037,16 @@
       "source": "outputs/paper_finish_control_20260921/tist_overnight_finalization_20260928/independent_source/transfer_dev/TASK_CONTRACT.ko.md",
       "destination": "public16/data/TASK_CONTRACT.ko.md",
       "source_sha256": "5d47a48dbb12315c292a81a4fb5e4ee26f14525d15a01304870d12097fef4ff4",
-      "published_sha256": "5d47a48dbb12315c292a81a4fb5e4ee26f14525d15a01304870d12097fef4ff4",
+      "published_sha256": "0d7a6c1c8229fb1e09408c1486a9136dd89413bdda76aa5b2eef957de3381e9a",
       "source_bytes": 2975,
-      "published_bytes": 2975,
-      "transformations": [],
-      "class": "byte_identical"
+      "published_bytes": 2982,
+      "transformations": [
+        {
+          "type": "product_name_removed",
+          "scope": "task description only; source hash retained; no experimental input or result changed"
+        }
+      ],
+      "class": "editorial_anonymization"
     },
     {
       "source": "outputs/paper_finish_control_20260921/tist_overnight_finalization_20260928/independent_source/transfer_dev/COMPATIBILITY.ko.md",

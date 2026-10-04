@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "scope": "post-v20 supplementary public export",
+  "scope": "Additional diagnostic public export",
   "file_count_excluding_this_manifest": 664,
   "sha256": {
     "CODE_PROVENANCE.json": "6ef9ddd3f43663a2fad8ccac762eb75bb0038661ece1119795d890123ea4778c",
     "EXPORT_PROVENANCE.json": "38c9ee4a9e4d8dfab336d051d100c8dc548a15b4c9f6440abab4520c24da7986",
-    "README.md": "e20eafef12f302a97d8f3dcb5b867d391c7f19a4b6ea1ac6974738a0d97652b4",
+    "README.md": "4d14d7bfc250e7453562d913a7fface1ca092cf54048ca55bc483a8c17c5879e",
     "VERIFICATION.json": "3c485c4fe27bd14382210db1e02a201e80e5d1fd7479ecab33eab50559ea8474",
     "authored/baseline_provenance.json": "7e10bf304998ba4c2e1f17753f2c8da61a9066d0b61fc7cf72ef082b0b3c803f",
     "authored/baseline_scores.csv": "de86cd15b3bbe5c6a5ccf9a338fd5253984f73244c402f85f0113253c255c957",

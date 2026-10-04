@@ -1,6 +1,6 @@
-# Post-v20 supplementary reproducibility materials
+# Additional diagnostic experiments
 
-These are **October 4, 2026 post-v20 supplements**, not experiments newly inserted into, or replacements for, the frozen TIST v20 study. The release's `core/` material reproduces the original authored study and deterministic policies. This directory preserves the later corrected-extractor intervention, learned-judge diagnostic, five selected correction cases, and external DSTC2 component diagnostic. Do not pool these experiments or call the supplements independent confirmation.
+These additional diagnostics examine extractor interventions, an LLM admission verifier, five selected correction cases, and real ASR hypotheses from DSTC2. They were collected separately from the main study and are not yet reported in the current manuscript or online appendix. [Additional results](../docs/ADDITIONAL_RESULTS.md) summarizes both benefits and completion losses. Samples and repetition counts differ from the main study; results are reported separately.
 
 Everything below runs offline with Python's standard library. No API client, credentials, provider response headers, original local user paths, model weights, third-party paper copies or CareCall data are distributed here. Saved response text and token/latency metadata are supplied for authored synthetic cases. Original provider envelopes and request IDs are omitted. Archived paths in provenance are relative locators prefixed `source_archive/`; they identify private source files and are not required filesystem paths. `EXPORT_PROVENANCE.json` records original SHA-256 and public sanitized SHA-256 separately.
 
@@ -10,7 +10,7 @@ From the repository root:
 
 ```sh
 python3 supplements/verify_aggregation.py
-python3 supplements/replay_saved.py --output-dir /tmp/sorieum-supplement-replay
+python3 supplements/replay_saved.py --output-dir /tmp/memory-write-supplement-replay
 ```
 
 Use a new output directory for replay. `verify_aggregation.py` recalculates aggregates, the frozen paired bootstrap intervals and token/latency totals from existing score flags; it never calls a model or reruns the scorer. `replay_saved.py` parses each saved authored raw response, applies the unchanged gate and SQLite executor, and compares with the frozen snapshot and gate audit. It never regenerates a model response, scores historical results or changes original records. The expected result is 296 matched saved outputs. A fresh model experiment would be a separate run with its own permissions, cost and provenance; this public package provides the exact saved prompts and settings but does not dispatch model calls.

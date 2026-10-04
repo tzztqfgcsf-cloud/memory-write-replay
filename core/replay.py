@@ -196,7 +196,7 @@ def main():
     snapshot_matches = gate_audit_matches = executed = invalid = 0
     replayed = gzip.open(output / 'replayed_outputs.jsonl.gz', 'wt', encoding='utf-8') if args.write_replayed_outputs else None
     try:
-        with tempfile.TemporaryDirectory(prefix='sorieum-offline-') as td:
+        with tempfile.TemporaryDirectory(prefix='memory_write-offline-') as td:
             db = Path(td) / 'state.sqlite'
             for index, e in enumerate(selected):
                 row = cases['public_rows'][e['public_row_id']]

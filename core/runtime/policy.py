@@ -18,7 +18,7 @@ _OLD = Path(__file__).resolve().parent / "frozen"
 
 
 def _load_frozen(name: str) -> Any:
-    module_name = f"_sorieum_frozen_20260926_{name}"
+    module_name = f"_memory_write_frozen_20260926_{name}"
     if module_name in sys.modules:
         return sys.modules[module_name]
     spec = importlib.util.spec_from_file_location(module_name, _OLD / f"{name}.py")

@@ -38211,9 +38211,10 @@
     "outputs/strong_baselines_20261001/run_offline.py": "1185771fd9a0ccd47fef7d5129ca9cf537831d719a27f26b9b2ac7d541ec2950"
   },
   "portability_changes": {
-    "runtime/policy.py": "Only _OLD source-loader path changed.",
+    "runtime/policy.py": "Source-loader path and internal module registration alias changed; decision functions unchanged.",
     "runtime/policies.py": "Only source-loader constants/import locations changed; policy functions unchanged.",
-    "runtime/allow.py": "Exact apply_exception function extracted; provider/runner code excluded."
+    "runtime/allow.py": "Exact apply_exception function extracted; provider/runner code excluded.",
+    "replay.py": "Temporary-directory prefix changed to neutral terminology; decision wiring unchanged."
   },
   "algorithm_function_ast_equality": true,
   "data_transformations": [

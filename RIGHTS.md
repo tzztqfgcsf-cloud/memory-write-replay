@@ -1,6 +1,6 @@
 # Rights and noncommercial reuse
 
-The repository owner authorized these terms for the contributors' original materials on October 5, 2026. Copyright remains with the respective rights holders. The grants apply only to rights they hold; they do not claim ownership of third-party content, model providers' rights, or uncopyrightable facts.
+Copyright remains with the respective rights holders. The grants apply only to rights they hold; they do not claim ownership of third-party content, model providers' rights, or uncopyrightable facts.
 
 | Material | Terms |
 |---|---|
@@ -27,4 +27,4 @@ Commercial use of the covered original material is not authorized by these terms
 
 Release `v20-artifact-v1` is preserved unchanged and did not assign a blanket reuse license. This release adds explicit noncommercial permissions without rewriting the earlier release. This repository is publicly inspectable and source-available; the code license is not an OSI-approved open-source license.
 
-Release `paper-artifact-v3` removes project branding from public-facing names. The code license name and attribution label are updated to neutral names; the permissions, restrictions and underlying rights holders are unchanged. Historical experimental identifiers and previous immutable releases retain their original names for traceability.
+The current files use neutral research terminology. License permissions and restrictions remain unchanged. Earlier versions retain their historical contents.

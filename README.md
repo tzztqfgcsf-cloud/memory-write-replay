@@ -1,12 +1,12 @@
 # Specification-Based Replay of Memory-Write Decisions
 
-Research artifacts for **Diagnosing Memory-Write Decisions in Conversational Assistants Through Specification-Based Replay**, including the v26 online appendix. Historical experiment directories retain their original v20 identifiers.
+Research artifacts for **Diagnosing Memory-Write Decisions in Conversational Assistants Through Specification-Based Replay**, including the v26 online appendix. The main study and separately collected supplementary diagnostics are organized by experiment.
 
 This repository contains authored Korean cases and evaluation references, saved model outputs, memory-write policies, the evaluator, offline replay, and supporting analyses.
 
 ## Latest appendix and reuse terms
 
-[Read the v26 online appendix (PDF)](docs/TIST_v26_appendix.pdf). The user-supplied PDF is distributed unchanged; its document version is distinct from the historical experiment directory names.
+[Read the v26 online appendix (PDF)](docs/TIST_v26_appendix.pdf). The online appendix is included alongside the executable artifacts.
 
 Original code is available for noncommercial research, teaching and reproduction under the [code license](LICENSES/NONCOMMERCIAL-RESEARCH-CODE-1.0.txt). Original data and documentation use [CC BY-NC 4.0](LICENSES/CC-BY-NC-4.0.txt). Commercial use requires separate permission. Third-party terms are preserved; see [RIGHTS.md](RIGHTS.md).
 
@@ -33,14 +33,14 @@ The [v26 Table I9 audit](diagnostics/variant_audit_v26/) supplies a row-level tr
 | Directory | What it provides |
 |---|---|
 | [core](core/) | Main panel: 48 authored cases × 21 model configurations × 3 repeats = 3,024 episodes; saved responses, proposals, references, policies and evaluator; 7 original and 7 additional policy conditions; archived candidate-path ALLOW diagnostics are supplied separately. |
-| [diagnostics](diagnostics/) | Supporting v20 experiments, source notices, frozen results and verification instructions. |
-| [supplements](supplements/) | Post-v20 corrected-extractor and learned-verifier experiments, external DSTC2 diagnostic, and CareCall-mem availability record. |
+| [diagnostics](diagnostics/) | Supporting experiments, source notices, frozen results and verification instructions. |
+| [supplements](supplements/) | Additional corrected-extractor and learned-verifier experiments, external DSTC2 diagnostic, and CareCall-mem availability record. |
 | [statistics](statistics/) | Portable checks of saved hybrid, Review+Agree/Allow, and main-panel statistics, with missing historical intervals retained as missing. |
 | [schemas](schemas/) | Frozen six-stage structural-output schema and stage selector. |
 | [docs](docs/) | The v26 online appendix and the Korean supplementary report. |
 | [verification](verification/) | Release-level verification results and file-integrity manifest. |
 
-The supplementary experiments were conducted after v20. They are not retroactively presented as v20's main results. See each directory's README for its exact reproducibility scope.
+The additional extractor, LLM-verifier and DSTC2 diagnostics are not included in the current manuscript or online appendix. Their results, including losses in change completion, are disclosed in [Additional results](docs/ADDITIONAL_RESULTS.md). They are separate from the main three-repeat panel.
 
 ## Reading the results
 
@@ -52,4 +52,4 @@ See the [paper-to-artifact coverage table](REPRODUCING.md#paper-to-artifact-map)
 
 ## 한국어 안내
 
-논문 실험을 확인하고 재현하기 위한 공개 자료입니다. 핵심 실험의 사례·평가 기준·저장된 모델 응답·기억 처리 규칙·평가 코드를 포함합니다. 위 명령으로 추가 API 호출 없이 저장된 응답의 처리 결과를 재현할 수 있습니다. 본문 v20 실험과 이후 보완 실험은 폴더를 구분했습니다.
+논문 실험을 확인하고 재현하기 위한 공개 자료입니다. 핵심 실험의 사례·평가 기준·저장된 모델 응답·기억 처리 규칙·평가 코드를 포함합니다. 위 명령으로 추가 API 호출 없이 저장된 응답의 처리 결과를 재현할 수 있습니다. 본 실험과 이후 추가 진단 실험은 폴더를 구분했습니다.

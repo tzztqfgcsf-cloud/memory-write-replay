@@ -8,7 +8,7 @@ SQLite. No model, API key, account, GPU, package download or network is required
 From the repository root, choose a **new** output directory:
 
 ```sh
-python3 core/replay.py --output-dir /tmp/sorieum-replay
+python3 core/replay.py --output-dir /tmp/memory-write-replay
 ```
 
 The directory must not already exist and must be outside `core/`. A complete run
@@ -22,7 +22,7 @@ contains `scores.csv`, `condition_totals.csv`, `differences.json`, and
 For a fast installation check:
 
 ```sh
-python3 core/replay.py --output-dir /tmp/sorieum-smoke --limit 2
+python3 core/replay.py --output-dir /tmp/memory-write-smoke --limit 2
 ```
 
 Add `--write-replayed-outputs` to save fresh receipts and final states as
@@ -62,8 +62,8 @@ repository-relative source files; those paths are provenance identifiers, not
 required paths in this standalone package. `PACKAGE_MANIFEST.json` hashes the
 public package. `VERIFICATION.json` records the release assembly verification.
 
-Only filesystem loader paths were adapted in copied policy sources. All copied
-function and class syntax trees were checked against the frozen originals;
+Filesystem loader paths and internal module aliases were adapted in copied policy sources. Admission, rendering and evaluation decision functions remain unchanged. The initial export checked copied algorithm
+function and class syntax trees against the frozen originals;
 `apply_exception` was extracted unchanged from its original module. The public
 runner recreates the archived runner wiring without its private source paths or
 provider dependencies. Source database paths and private session/provider
@@ -103,3 +103,38 @@ Add `core/runtime` to Python's module search path, then import `policies` and
 `allow.apply_exception` implements the frozen correction-only allow exception.
 `evaluate.score_output(output, public_row, reference)` returns the frozen v2
 score fields. No component reads a reference while choosing a gate decision.
+
+## Condition codes used in the paper
+
+| Code | Paper label | Admission | Reply |
+|---|---|---|---|
+| D | Direct | none; executor guards remain | raw proposal reply |
+| G | Review | none; executor guards remain | raw proposal reply |
+| SR1 | Refine | none; executor guards remain | raw proposal reply |
+| B | Agree | exact shared-fact intersection (APPEND and CORRECT) | raw proposal reply |
+| C | Witness | Agree, then witness exception on eligible held CORRECT | raw proposal reply |
+| R | Agree with receipt rendering | exactly B / Agree | receipt-grounded rendering |
+| CR | Witness-R / controlled primary arm | exactly C / Witness | receipt-grounded rendering |
+| N_AGREE | Normalized Agree | NFC/casefold/whitespace support matching for held APPEND/CORRECT | raw proposal reply |
+| EXACT_LITERAL | Literal on candidate proposals | Agree + exact literal exception on held CORRECT | raw proposal reply |
+| N_LITERAL | Normalized Literal | same literal rule, normalization only for final containment test | raw proposal reply |
+| R_AGREE | Review + Agree | Agree | raw Review reply |
+| R_ALLOW | Review + Allow | Agree + release every eligible held CORRECT (no evidence test) | raw Review reply |
+| R_LITERAL | Review + Literal | Agree + exact literal exception | raw Review reply |
+| R_WITNESS | Review + Witness | Agree + witness exception | raw Review reply |
+
+Bare `R` means receipt-based reply rendering with AGREE; `CR` uses WITNESS with receipt rendering. In contrast, `R_AGREE`, `R_ALLOW`, `R_LITERAL`, and `R_WITNESS` use the saved REVIEW proposal and candidate extraction, with the raw REVIEW reply. They are not receipt-rendering conditions. B/R and C/CR have identical memory states. The hybrid paths represent three archived generation stages; replay itself calls no model. Candidate-path `E` (ALLOW) is available only in the eight-configuration diagnostic.
+
+### Score fields
+
+| Artifact field | Paper endpoint |
+|---|---|
+| `positive_joint` | Positive-change completion |
+| `correction_recovery` | Strict correction completion |
+| `whole_state_compliance` | Whole-state conformity |
+| `harmful_write` | Reference-violating state: an extra tuple, newly forbidden tuple, or protected-fact damage |
+| `invalid_final` | Invalid output |
+| `negative_preservation` | State preservation on negative cases |
+| `unsupported_write_claim` | Unsupported completed-writing claim under the frozen phrase detector |
+
+`harmful_write` is a specification-based flag, not a human judgment of semantic harm. Exact predicates are in `runtime/evaluate.py`; admission and rendering are in `runtime/policy.py`, `runtime/policies.py` and `replay.py`.
