@@ -1,0 +1,56 @@
+{
+  "call_id": "87aa88906dfb21b0ace557db-sr_feedback",
+  "cost_note": "provider_did_not_report_money",
+  "cost_usd_reported": null,
+  "finish_reason": "STOP",
+  "http_status": 200,
+  "latency_seconds": 2.2433,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.11673855080324061,
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"no_change_needed\": false,\n  \"issues\": [\n    {\n      \"draft_location\": \"fallible_initial_draft.action.kind\",\n      \"evidence_location\": \"candidate.text\",\n      \"problem\": \"The user is not asking a question, but rather making a statement and then requesting a change. The action should be a request to change the booking.\",\n      \"specific_revision\": \"The action.kind should be \\\"REQUEST\\\".\"\n    },\n    {\n      \"draft_location\": \"fallible_initial_draft.action.question_slot\",\n      \"evidence_location\": \"candidate.text\",\n      \"problem\": \"The user is not asking a question, so there is no question_slot.\",\n      \"specific_revision\": \"The action.question_slot should be removed.\"\n    },\n    {\n      \"draft_location\": \"fallible_initial_draft.action.required_slots\",\n      \"evidence_location\": \"candidate.text\",\n      \"problem\": \"The user is not asking a question, so there are no required_slots.\",\n      \"specific_revision\": \"The action.required_slots should be removed.\"\n    }\n  ]\n}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T23:12:27.268037Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "26K5aoWuELOKktwPsejJ4QY",
+    "usageMetadata": {
+      "candidatesTokenCount": 272,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 272
+        }
+      ],
+      "promptTokenCount": 2066,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 2066
+        }
+      ],
+      "totalTokenCount": 2338,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "c01dfa093e4b7a7125592afd226e5a89c68614173f5599b49499a03f413258aa",
+  "status": "OK",
+  "text": "{\n  \"no_change_needed\": false,\n  \"issues\": [\n    {\n      \"draft_location\": \"fallible_initial_draft.action.kind\",\n      \"evidence_location\": \"candidate.text\",\n      \"problem\": \"The user is not asking a question, but rather making a statement and then requesting a change. The action should be a request to change the booking.\",\n      \"specific_revision\": \"The action.kind should be \\\"REQUEST\\\".\"\n    },\n    {\n      \"draft_location\": \"fallible_initial_draft.action.question_slot\",\n      \"evidence_location\": \"candidate.text\",\n      \"problem\": \"The user is not asking a question, so there is no question_slot.\",\n      \"specific_revision\": \"The action.question_slot should be removed.\"\n    },\n    {\n      \"draft_location\": \"fallible_initial_draft.action.required_slots\",\n      \"evidence_location\": \"candidate.text\",\n      \"problem\": \"The user is not asking a question, so there are no required_slots.\",\n      \"specific_revision\": \"The action.required_slots should be removed.\"\n    }\n  ]\n}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 2066,
+    "output_tokens": 272,
+    "reasoning_tokens": 0,
+    "total_tokens": 2338
+  }
+}

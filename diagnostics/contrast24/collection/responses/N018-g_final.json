@@ -1,0 +1,55 @@
+{
+  "status": "OK",
+  "http_status": 200,
+  "text": "{\"reply\": \"네, 이번 만남 장소를 학교 앞으로 변경해 드릴게요.\", \"action\": {\"kind\": \"CONTINUE\", \"question_slot\": null, \"required_slots\": [], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [], \"fact\": {\"relation\": \"meeting_place\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"학교 앞\"}, \"operation\": \"CORRECT\", \"slot\": null, \"source_turns\": [\"t2\"], \"target_fact_id\": \"f1\"}]}",
+  "usage": {
+    "input_tokens": 1880,
+    "output_tokens": 133,
+    "reasoning_tokens": 0,
+    "total_tokens": 2013,
+    "cached_tokens": null
+  },
+  "finish_reason": "STOP",
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "content": {
+          "role": "model",
+          "parts": [
+            {
+              "text": "{\"reply\": \"네, 이번 만남 장소를 학교 앞으로 변경해 드릴게요.\", \"action\": {\"kind\": \"CONTINUE\", \"question_slot\": null, \"required_slots\": [], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [], \"fact\": {\"relation\": \"meeting_place\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"학교 앞\"}, \"operation\": \"CORRECT\", \"slot\": null, \"source_turns\": [\"t2\"], \"target_fact_id\": \"f1\"}]}"
+            }
+          ]
+        },
+        "finishReason": "STOP",
+        "avgLogprobs": -0.00989568323121035
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 1880,
+      "candidatesTokenCount": 133,
+      "totalTokenCount": 2013,
+      "trafficType": "ON_DEMAND",
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1880
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 133
+        }
+      ]
+    },
+    "modelVersion": "gemini-2.5-flash",
+    "createTime": "2026-09-27T11:35:50.339959Z",
+    "responseId": "lv-4avffFPGancoP76ybiQ0"
+  },
+  "latency_seconds": 5.4083,
+  "call_id": "N018-g_final",
+  "physical_attempt": true,
+  "completed_unix": 1790508955.633816
+}

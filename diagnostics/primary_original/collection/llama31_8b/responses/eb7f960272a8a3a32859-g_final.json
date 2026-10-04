@@ -1,0 +1,36 @@
+{
+  "call_id": "eb7f960272a8a3a32859-g_final",
+  "error_type": null,
+  "finish_reason": "stop",
+  "finished_unix": 1790493535.9983099,
+  "latency_seconds": 11.7055,
+  "model_version": "mlx-community/Llama-3.1-8B-Instruct-4bit",
+  "raw_response": {
+    "base_seed": 20260927,
+    "finish_reason": "stop",
+    "generation_calls": 452,
+    "id": "local-d6ddcebad25f5c32237c1159",
+    "seed": 3162246649,
+    "snapshot": "<LOCAL_PATH>",
+    "text": "{\"action\": {\"kind\": \"CONTINUE\", \"question_slot\": \"learned_from\", \"required_slots\": [\"learned_from\"], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"기타를, 오 선생님한테 배웠어요.\", \"기타는 오 선생님께 배웠어요.\"], \"fact\": {\"relation\": \"learned_from\", \"source_turns\": [\"t1\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"오 선생님\"}, \"operation\": \"APPEND\", \"slot\": \"learned_from\", \"source_turns\": [\"t1\"], \"target_fact_id\": null}], \"reply\": \"기타를, 오 선생님한테 배웠어요. 오 선생님이라고 기억해 둬요.\"}",
+    "usage": {
+      "cached_tokens": null,
+      "input_tokens": 1923,
+      "output_tokens": 168,
+      "reasoning_tokens": null,
+      "total_tokens": 2091
+    }
+  },
+  "request_sha256": "09af1c97b9e7abb88e312a4e230384ba8a49d8ee6cbd58fe89a3e62a1a2505df",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790493524.292413,
+  "status": "OK",
+  "text": "{\"action\": {\"kind\": \"CONTINUE\", \"question_slot\": \"learned_from\", \"required_slots\": [\"learned_from\"], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"기타를, 오 선생님한테 배웠어요.\", \"기타는 오 선생님께 배웠어요.\"], \"fact\": {\"relation\": \"learned_from\", \"source_turns\": [\"t1\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"오 선생님\"}, \"operation\": \"APPEND\", \"slot\": \"learned_from\", \"source_turns\": [\"t1\"], \"target_fact_id\": null}], \"reply\": \"기타를, 오 선생님한테 배웠어요. 오 선생님이라고 기억해 둬요.\"}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1923,
+    "output_tokens": 168,
+    "reasoning_tokens": null,
+    "total_tokens": 2091
+  }
+}

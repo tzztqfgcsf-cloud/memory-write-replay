@@ -1,0 +1,56 @@
+{
+  "call_id": "a66b494dae43139925f685e7-sr_refine",
+  "cost_note": "provider_did_not_report_money",
+  "cost_usd_reported": null,
+  "finish_reason": "STOP",
+  "http_status": 200,
+  "latency_seconds": 1.4813,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.0005821113384539081,
+        "content": {
+          "parts": [
+            {
+              "text": "{\"reply\": \"Okay, I will look for a train on Thursday instead of Monday.\", \"action\": {\"kind\": \"CONTINUE\", \"question_slot\": null, \"required_slots\": [], \"speaker_id\": \"system\"}, \"memory_decisions\": [{\"alternatives\": [\"thursday\"], \"fact\": {\"relation\": \"train.semi.day\", \"source_turns\": [\"PMUL1033.json#turn6\"], \"subject\": \"PMUL1033.json#train.semi\", \"time\": \"unknown\", \"value\": \"thursday\"}, \"operation\": \"CORRECT\", \"slot\": \"train.semi.day\", \"source_turns\": [\"PMUL1033.json#turn6\"], \"target_fact_id\": \"PMUL1033.json#state5#train.semi.day\"}]}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T22:47:13.031394Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "8Zy5aqL1AemMx9gP69GymAQ",
+    "usageMetadata": {
+      "candidatesTokenCount": 186,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 186
+        }
+      ],
+      "promptTokenCount": 2153,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 2153
+        }
+      ],
+      "totalTokenCount": 2339,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "b18a4b9870b9cfbf0daa304988936089bb28f433474836c5ac9e38bf8ef2463d",
+  "status": "OK",
+  "text": "{\"reply\": \"Okay, I will look for a train on Thursday instead of Monday.\", \"action\": {\"kind\": \"CONTINUE\", \"question_slot\": null, \"required_slots\": [], \"speaker_id\": \"system\"}, \"memory_decisions\": [{\"alternatives\": [\"thursday\"], \"fact\": {\"relation\": \"train.semi.day\", \"source_turns\": [\"PMUL1033.json#turn6\"], \"subject\": \"PMUL1033.json#train.semi\", \"time\": \"unknown\", \"value\": \"thursday\"}, \"operation\": \"CORRECT\", \"slot\": \"train.semi.day\", \"source_turns\": [\"PMUL1033.json#turn6\"], \"target_fact_id\": \"PMUL1033.json#state5#train.semi.day\"}]}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 2153,
+    "output_tokens": 186,
+    "reasoning_tokens": 0,
+    "total_tokens": 2339
+  }
+}

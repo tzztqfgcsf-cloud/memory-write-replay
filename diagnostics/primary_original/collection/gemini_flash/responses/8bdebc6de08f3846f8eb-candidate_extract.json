@@ -1,0 +1,57 @@
+{
+  "call_id": "8bdebc6de08f3846f8eb-candidate_extract",
+  "finish_reason": "STOP",
+  "finished_unix": 1790492451.120808,
+  "http_status": 200,
+  "latency_seconds": 1.5164,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.004939634478494023,
+        "content": {
+          "parts": [
+            {
+              "text": "{\"beliefs\": [{\"candidate_id\": \"c1\", \"facts\": []}, {\"candidate_id\": \"c2\", \"facts\": []}], \"correction_witnesses\": [{\"candidate_id\": \"c1\", \"evidence_quote\": \"\", \"new_value\": \"뜨개질\", \"polarity\": \"absent\", \"relation\": \"hobby\", \"source_turn\": \"t2\", \"subject\": \"participant\", \"target_fact_id\": \"f1\", \"time\": \"present\"}, {\"candidate_id\": \"c2\", \"evidence_quote\": \"\", \"new_value\": \"뜨개질\", \"polarity\": \"absent\", \"relation\": \"hobby\", \"source_turn\": \"t2\", \"subject\": \"participant\", \"target_fact_id\": \"f1\", \"time\": \"present\"}]}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T07:00:49.707511Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "Ib-4areXK5yi0ckPm9nakA0",
+    "usageMetadata": {
+      "candidatesTokenCount": 178,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 178
+        }
+      ],
+      "promptTokenCount": 1712,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1712
+        }
+      ],
+      "totalTokenCount": 1890,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "a41c550ea1f6b48de41059bad2f6dc1ce530757c5fa2cb04f3c335f5a57e420b",
+  "stage_schema_sha256": "bda7326ac6a6cbeedf1ecdbf4a2b08277c078351d6689f667dc0d558c4972dd3",
+  "started_unix": 1790492449.6039832,
+  "status": "OK",
+  "text": "{\"beliefs\": [{\"candidate_id\": \"c1\", \"facts\": []}, {\"candidate_id\": \"c2\", \"facts\": []}], \"correction_witnesses\": [{\"candidate_id\": \"c1\", \"evidence_quote\": \"\", \"new_value\": \"뜨개질\", \"polarity\": \"absent\", \"relation\": \"hobby\", \"source_turn\": \"t2\", \"subject\": \"participant\", \"target_fact_id\": \"f1\", \"time\": \"present\"}, {\"candidate_id\": \"c2\", \"evidence_quote\": \"\", \"new_value\": \"뜨개질\", \"polarity\": \"absent\", \"relation\": \"hobby\", \"source_turn\": \"t2\", \"subject\": \"participant\", \"target_fact_id\": \"f1\", \"time\": \"present\"}]}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1712,
+    "output_tokens": 178,
+    "reasoning_tokens": 0,
+    "total_tokens": 1890
+  }
+}

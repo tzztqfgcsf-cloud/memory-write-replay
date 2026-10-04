@@ -1,0 +1,57 @@
+{
+  "call_id": "c002d5b380ff00644b7b-sr_feedback",
+  "finish_reason": "STOP",
+  "finished_unix": 1790489390.683323,
+  "http_status": 200,
+  "latency_seconds": 1.9619,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.06252503330468485,
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"no_change_needed\": false,\n  \"issues\": [\n    {\n      \"draft_location\": \"memory_decisions[0].operation\",\n      \"evidence_location\": \"db_snapshot.facts.f1\",\n      \"problem\": \"The user is explicitly correcting a previously stated fact. The operation should be CORRECT, not NO_WRITE.\",\n      \"specific_revision\": \"Change operation from NO_WRITE to CORRECT.\"\n    },\n    {\n      \"draft_location\": \"memory_decisions[0].fact\",\n      \"evidence_location\": \"db_snapshot.facts.f1\",\n      \"problem\": \"When correcting a fact, the 'fact' field must contain the corrected fact details.\",\n      \"specific_revision\": \"Add fact: {\\\"subject\\\": \\\"participant\\\", \\\"relation\\\": \\\"meeting_place\\\", \\\"value\\\": \\\"시민회관\\\", \\\"time\\\": \\\"present\\\"}.\"\n    },\n    {\n      \"draft_location\": \"memory_decisions[0].target_fact_id\",\n      \"evidence_location\": \"db_snapshot.facts.f1\",\n      \"problem\": \"When correcting a fact, the 'target_fact_id' must refer to the fact being corrected.\",\n      \"specific_revision\": \"Set target_fact_id to \\\"f1\\\".\"\n    },\n    {\n      \"draft_location\": \"memory_decisions[0].slot\",\n      \"evidence_location\": \"none available\",\n      \"problem\": \"The 'slot' field should be null for CORRECT operations.\",\n      \"specific_revision\": \"Ensure slot is null.\"\n    }\n  ]\n}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T06:09:48.844361Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "LLO4asnEM5-cx9gPtNDSwA0",
+    "usageMetadata": {
+      "candidatesTokenCount": 369,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 369
+        }
+      ],
+      "promptTokenCount": 1372,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1372
+        }
+      ],
+      "totalTokenCount": 1741,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "38a8af84b13de8e90e72be62e92cabae3302e76f58bd415b1044abcff243aef5",
+  "stage_schema_sha256": "377e252cf02129ba34bbc867118dd2b9c6b65042b3fcd7b44099d2fc6e0513ed",
+  "started_unix": 1790489388.721028,
+  "status": "OK",
+  "text": "{\n  \"no_change_needed\": false,\n  \"issues\": [\n    {\n      \"draft_location\": \"memory_decisions[0].operation\",\n      \"evidence_location\": \"db_snapshot.facts.f1\",\n      \"problem\": \"The user is explicitly correcting a previously stated fact. The operation should be CORRECT, not NO_WRITE.\",\n      \"specific_revision\": \"Change operation from NO_WRITE to CORRECT.\"\n    },\n    {\n      \"draft_location\": \"memory_decisions[0].fact\",\n      \"evidence_location\": \"db_snapshot.facts.f1\",\n      \"problem\": \"When correcting a fact, the 'fact' field must contain the corrected fact details.\",\n      \"specific_revision\": \"Add fact: {\\\"subject\\\": \\\"participant\\\", \\\"relation\\\": \\\"meeting_place\\\", \\\"value\\\": \\\"시민회관\\\", \\\"time\\\": \\\"present\\\"}.\"\n    },\n    {\n      \"draft_location\": \"memory_decisions[0].target_fact_id\",\n      \"evidence_location\": \"db_snapshot.facts.f1\",\n      \"problem\": \"When correcting a fact, the 'target_fact_id' must refer to the fact being corrected.\",\n      \"specific_revision\": \"Set target_fact_id to \\\"f1\\\".\"\n    },\n    {\n      \"draft_location\": \"memory_decisions[0].slot\",\n      \"evidence_location\": \"none available\",\n      \"problem\": \"The 'slot' field should be null for CORRECT operations.\",\n      \"specific_revision\": \"Ensure slot is null.\"\n    }\n  ]\n}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1372,
+    "output_tokens": 369,
+    "reasoning_tokens": 0,
+    "total_tokens": 1741
+  }
+}

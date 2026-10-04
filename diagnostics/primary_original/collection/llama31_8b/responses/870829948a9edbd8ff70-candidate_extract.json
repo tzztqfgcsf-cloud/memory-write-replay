@@ -1,0 +1,36 @@
+{
+  "call_id": "870829948a9edbd8ff70-candidate_extract",
+  "error_type": null,
+  "finish_reason": "stop",
+  "finished_unix": 1790491383.920477,
+  "latency_seconds": 14.8115,
+  "model_version": "mlx-community/Llama-3.1-8B-Instruct-4bit",
+  "raw_response": {
+    "base_seed": 20260927,
+    "finish_reason": "stop",
+    "generation_calls": 261,
+    "id": "local-3e661538bbdbab1c8bbafb64",
+    "seed": 2094488039,
+    "snapshot": "<LOCAL_PATH>",
+    "text": "{\"beliefs\": [{\"candidate_id\": \"c1\", \"facts\": [{\"relation\": \"workplace\", \"source_turns\": [\"t1\"], \"subject\": \"도윤\", \"time\": \"present\", \"value\": \"대한우편\"}]}, {\"candidate_id\": \"c2\", \"facts\": [{\"relation\": \"workplace\", \"source_turns\": [\"t2\"], \"subject\": \"도윤\", \"time\": \"present\", \"value\": \"대한우편\"}]}], \"correction_witnesses\": [{\"candidate_id\": \"c1\", \"evidence_quote\": \"아들 도윤은 대한우편에서 일해요. 대한우편은 도윤 직장으로 저장해 주세요, 제 직장 아니고요.\", \"new_value\": \"대한우편\", \"polarity\": \"affirmed\", \"relation\": \"workplace\", \"source_turn\": \"t1\", \"subject\": \"도윤\", \"target_fact_id\": \"f1\", \"time\": \"present\"}, {\"candidate_id\": \"c2\", \"evidence_quote\": \"저 말고 도윤이 대한우편에 다닙니다. 아들 도윤의 직장 정보로 추가해요.\", \"new_value\": \"대한우편\", \"polarity\": \"affirmed\", \"relation\": \"workplace\", \"source_turn\": \"t2\", \"subject\": \"도윤\", \"target_fact_id\": \"f1\", \"time\": \"present\"}]}",
+    "usage": {
+      "cached_tokens": null,
+      "input_tokens": 1762,
+      "output_tokens": 308,
+      "reasoning_tokens": null,
+      "total_tokens": 2070
+    }
+  },
+  "request_sha256": "f44a599ac70df1bea288e05c252c64f7f971ab2b7f42f847c5923d771413ebd0",
+  "stage_schema_sha256": "bda7326ac6a6cbeedf1ecdbf4a2b08277c078351d6689f667dc0d558c4972dd3",
+  "started_unix": 1790491369.108486,
+  "status": "OK",
+  "text": "{\"beliefs\": [{\"candidate_id\": \"c1\", \"facts\": [{\"relation\": \"workplace\", \"source_turns\": [\"t1\"], \"subject\": \"도윤\", \"time\": \"present\", \"value\": \"대한우편\"}]}, {\"candidate_id\": \"c2\", \"facts\": [{\"relation\": \"workplace\", \"source_turns\": [\"t2\"], \"subject\": \"도윤\", \"time\": \"present\", \"value\": \"대한우편\"}]}], \"correction_witnesses\": [{\"candidate_id\": \"c1\", \"evidence_quote\": \"아들 도윤은 대한우편에서 일해요. 대한우편은 도윤 직장으로 저장해 주세요, 제 직장 아니고요.\", \"new_value\": \"대한우편\", \"polarity\": \"affirmed\", \"relation\": \"workplace\", \"source_turn\": \"t1\", \"subject\": \"도윤\", \"target_fact_id\": \"f1\", \"time\": \"present\"}, {\"candidate_id\": \"c2\", \"evidence_quote\": \"저 말고 도윤이 대한우편에 다닙니다. 아들 도윤의 직장 정보로 추가해요.\", \"new_value\": \"대한우편\", \"polarity\": \"affirmed\", \"relation\": \"workplace\", \"source_turn\": \"t2\", \"subject\": \"도윤\", \"target_fact_id\": \"f1\", \"time\": \"present\"}]}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1762,
+    "output_tokens": 308,
+    "reasoning_tokens": null,
+    "total_tokens": 2070
+  }
+}

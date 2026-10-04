@@ -1,0 +1,57 @@
+{
+  "call_id": "8c5d0c5ec288fa4806db-g_final",
+  "finish_reason": "STOP",
+  "finished_unix": 1790490048.76249,
+  "http_status": 200,
+  "latency_seconds": 1.1535,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.012367952583182571,
+        "content": {
+          "parts": [
+            {
+              "text": "{\"reply\": \"네, 알겠습니다. 첫 취업 연도는 1977년으로 유지하고, 사진 이야기는 계속할까요?\", \"action\": {\"kind\": \"CONTINUE\", \"question_slot\": null, \"required_slots\": [], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"1978년\"], \"fact\": null, \"operation\": \"HOLD\", \"slot\": \"event_year\", \"source_turns\": [\"t2\"], \"target_fact_id\": null}]}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T06:20:47.724655Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "v7W4aq-dLPGancoP76ybiQ0",
+    "usageMetadata": {
+      "candidatesTokenCount": 117,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 117
+        }
+      ],
+      "promptTokenCount": 1877,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1877
+        }
+      ],
+      "totalTokenCount": 1994,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "deb5f820b1f8f6bf85ac18e0bc7f66e934a69abfb2f30302a19b71a599151944",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790490047.6081111,
+  "status": "OK",
+  "text": "{\"reply\": \"네, 알겠습니다. 첫 취업 연도는 1977년으로 유지하고, 사진 이야기는 계속할까요?\", \"action\": {\"kind\": \"CONTINUE\", \"question_slot\": null, \"required_slots\": [], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"1978년\"], \"fact\": null, \"operation\": \"HOLD\", \"slot\": \"event_year\", \"source_turns\": [\"t2\"], \"target_fact_id\": null}]}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1877,
+    "output_tokens": 117,
+    "reasoning_tokens": 0,
+    "total_tokens": 1994
+  }
+}

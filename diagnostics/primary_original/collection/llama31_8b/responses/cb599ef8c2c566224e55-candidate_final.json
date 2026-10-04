@@ -1,0 +1,36 @@
+{
+  "call_id": "cb599ef8c2c566224e55-candidate_final",
+  "error_type": null,
+  "finish_reason": "stop",
+  "finished_unix": 1790490975.272442,
+  "latency_seconds": 9.8872,
+  "model_version": "mlx-community/Llama-3.1-8B-Instruct-4bit",
+  "raw_response": {
+    "base_seed": 20260927,
+    "finish_reason": "stop",
+    "generation_calls": 226,
+    "id": "local-2674b581aef9d1b1e4243abc",
+    "seed": 2804145054,
+    "snapshot": "<LOCAL_PATH>",
+    "text": "{\"action\": {\"kind\": \"CONTINUE\", \"question_slot\": \"hobby\", \"required_slots\": [\"hobby\"], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"낚시\"], \"fact\": {\"relation\": \"hobby\", \"source_turns\": [\"t1\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"등산\"}, \"operation\": \"HOLD\", \"slot\": \"hobby\", \"source_turns\": [\"t1\"], \"target_fact_id\": null}], \"reply\": \"준호는 낚시가 취미예요. 나는 여전히 등산이고 준호 취미만 낚시로 추가해 줘요.\"}",
+    "usage": {
+      "cached_tokens": null,
+      "input_tokens": 1840,
+      "output_tokens": 155,
+      "reasoning_tokens": null,
+      "total_tokens": 1995
+    }
+  },
+  "request_sha256": "a68eeb5fa45a6115be05b9121e5fd2fe79e3efb14a32d762ffc83f867a622549",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790490965.3846998,
+  "status": "OK",
+  "text": "{\"action\": {\"kind\": \"CONTINUE\", \"question_slot\": \"hobby\", \"required_slots\": [\"hobby\"], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"낚시\"], \"fact\": {\"relation\": \"hobby\", \"source_turns\": [\"t1\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"등산\"}, \"operation\": \"HOLD\", \"slot\": \"hobby\", \"source_turns\": [\"t1\"], \"target_fact_id\": null}], \"reply\": \"준호는 낚시가 취미예요. 나는 여전히 등산이고 준호 취미만 낚시로 추가해 줘요.\"}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1840,
+    "output_tokens": 155,
+    "reasoning_tokens": null,
+    "total_tokens": 1995
+  }
+}

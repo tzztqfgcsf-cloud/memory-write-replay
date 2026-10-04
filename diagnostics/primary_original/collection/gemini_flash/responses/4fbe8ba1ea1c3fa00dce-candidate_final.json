@@ -1,0 +1,57 @@
+{
+  "call_id": "4fbe8ba1ea1c3fa00dce-candidate_final",
+  "finish_reason": "STOP",
+  "finished_unix": 1790494237.7707021,
+  "http_status": 200,
+  "latency_seconds": 1.3832,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.06281361514574861,
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"reply\": \"네, 제주도에 다녀오셨군요. 기록하지 않고 이야기만 들으면 되는 거죠?\",\n  \"action\": {\n    \"kind\": \"CONTINUE\",\n    \"question_slot\": null,\n    \"required_slots\": [],\n    \"speaker_id\": \"p1\"\n  },\n  \"memory_decisions\": [\n    {\n      \"alternatives\": [],\n      \"fact\": null,\n      \"operation\": \"NO_WRITE\",\n      \"slot\": null,\n      \"source_turns\": [\"t2\"],\n      \"target_fact_id\": null\n    }\n  ]\n}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T07:30:36.487537Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "HMa4avHgHbOKktwPsejJ4QY",
+    "usageMetadata": {
+      "candidatesTokenCount": 146,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 146
+        }
+      ],
+      "promptTokenCount": 2011,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 2011
+        }
+      ],
+      "totalTokenCount": 2157,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "b5157f95e40032532f3af2c2b2240ae62b2b31bd91d8658e0ae749ac780b848b",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790494236.387271,
+  "status": "OK",
+  "text": "{\n  \"reply\": \"네, 제주도에 다녀오셨군요. 기록하지 않고 이야기만 들으면 되는 거죠?\",\n  \"action\": {\n    \"kind\": \"CONTINUE\",\n    \"question_slot\": null,\n    \"required_slots\": [],\n    \"speaker_id\": \"p1\"\n  },\n  \"memory_decisions\": [\n    {\n      \"alternatives\": [],\n      \"fact\": null,\n      \"operation\": \"NO_WRITE\",\n      \"slot\": null,\n      \"source_turns\": [\"t2\"],\n      \"target_fact_id\": null\n    }\n  ]\n}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 2011,
+    "output_tokens": 146,
+    "reasoning_tokens": 0,
+    "total_tokens": 2157
+  }
+}

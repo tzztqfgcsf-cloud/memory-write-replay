@@ -1,0 +1,56 @@
+{
+  "call_id": "8ee7d0583f887fa0ec97e088-candidate_extract",
+  "cost_note": "provider_did_not_report_money",
+  "cost_usd_reported": null,
+  "finish_reason": "STOP",
+  "http_status": 200,
+  "latency_seconds": 2.5063,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.009065409130025133,
+        "content": {
+          "parts": [
+            {
+              "text": "{\"beliefs\": [{\"candidate_id\": \"c1\", \"facts\": [{\"relation\": \"train.semi.leaveAt\", \"source_turns\": [\"MUL1930.json#turn8\"], \"subject\": \"MUL1930.json#train.semi\", \"time\": \"unknown\", \"value\": \"16:30\"}, {\"relation\": \"train.semi.departure\", \"source_turns\": [\"MUL1930.json#turn8\"], \"subject\": \"MUL1930.json#train.semi\", \"time\": \"unknown\", \"value\": \"leicester\"}, {\"relation\": \"train.semi.destination\", \"source_turns\": [\"MUL1930.json#turn8\"], \"subject\": \"MUL1930.json#train.semi\", \"time\": \"unknown\", \"value\": \"cambridge\"}]}], \"correction_witnesses\": [{\"candidate_id\": \"c1\", \"target_fact_id\": \"MUL1930.json#state7#train.semi.departure\", \"subject\": \"MUL1930.json#train.semi\", \"relation\": \"train.semi.departure\", \"time\": \"unknown\", \"new_value\": \"leicester\", \"source_turn\": \"MUL1930.json#turn8\", \"evidence_quote\": \"I am actually looking for a train that leaves Leicester after 16:30\", \"polarity\": \"affirmed\"}, {\"candidate_id\": \"c1\", \"target_fact_id\": \"MUL1930.json#state7#train.semi.destination\", \"subject\": \"MUL1930.json#train.semi\", \"relation\": \"train.semi.destination\", \"time\": \"unknown\", \"new_value\": \"cambridge\", \"source_turn\": \"MUL1930.json#turn8\", \"evidence_quote\": \"going to Cambridge\", \"polarity\": \"affirmed\"}]}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T22:55:24.221645Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "3J65as3DDemMx9gP69GymAQ",
+    "usageMetadata": {
+      "candidatesTokenCount": 428,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 428
+        }
+      ],
+      "promptTokenCount": 1936,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1936
+        }
+      ],
+      "totalTokenCount": 2364,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "a959bf8b3b7a4b970057cedc971c1ebc099321c76016a85b0b676c911cb18c43",
+  "status": "OK",
+  "text": "{\"beliefs\": [{\"candidate_id\": \"c1\", \"facts\": [{\"relation\": \"train.semi.leaveAt\", \"source_turns\": [\"MUL1930.json#turn8\"], \"subject\": \"MUL1930.json#train.semi\", \"time\": \"unknown\", \"value\": \"16:30\"}, {\"relation\": \"train.semi.departure\", \"source_turns\": [\"MUL1930.json#turn8\"], \"subject\": \"MUL1930.json#train.semi\", \"time\": \"unknown\", \"value\": \"leicester\"}, {\"relation\": \"train.semi.destination\", \"source_turns\": [\"MUL1930.json#turn8\"], \"subject\": \"MUL1930.json#train.semi\", \"time\": \"unknown\", \"value\": \"cambridge\"}]}], \"correction_witnesses\": [{\"candidate_id\": \"c1\", \"target_fact_id\": \"MUL1930.json#state7#train.semi.departure\", \"subject\": \"MUL1930.json#train.semi\", \"relation\": \"train.semi.departure\", \"time\": \"unknown\", \"new_value\": \"leicester\", \"source_turn\": \"MUL1930.json#turn8\", \"evidence_quote\": \"I am actually looking for a train that leaves Leicester after 16:30\", \"polarity\": \"affirmed\"}, {\"candidate_id\": \"c1\", \"target_fact_id\": \"MUL1930.json#state7#train.semi.destination\", \"subject\": \"MUL1930.json#train.semi\", \"relation\": \"train.semi.destination\", \"time\": \"unknown\", \"new_value\": \"cambridge\", \"source_turn\": \"MUL1930.json#turn8\", \"evidence_quote\": \"going to Cambridge\", \"polarity\": \"affirmed\"}]}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1936,
+    "output_tokens": 428,
+    "reasoning_tokens": 0,
+    "total_tokens": 2364
+  }
+}

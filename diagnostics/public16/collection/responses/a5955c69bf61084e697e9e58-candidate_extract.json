@@ -1,0 +1,56 @@
+{
+  "call_id": "a5955c69bf61084e697e9e58-candidate_extract",
+  "cost_note": "provider_did_not_report_money",
+  "cost_usd_reported": null,
+  "finish_reason": "STOP",
+  "http_status": 200,
+  "latency_seconds": 2.517,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.0020875910321018726,
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"beliefs\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"facts\": []\n    }\n  ],\n  \"correction_witnesses\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"target_fact_id\": \"PMUL1635.json#state13#hotel.book.day\",\n      \"subject\": \"PMUL1635.json#hotel.book\",\n      \"relation\": \"hotel.book.day\",\n      \"time\": \"unknown\",\n      \"new_value\": \"monday\",\n      \"source_turn\": \"PMUL1635.json#turn14\",\n      \"evidence_quote\": \"Can you change the Wartworth booking to Monday\",\n      \"polarity\": \"affirmed\"\n    },\n    {\n      \"candidate_id\": \"c1\",\n      \"target_fact_id\": \"PMUL1635.json#state13#hotel.book.people\",\n      \"subject\": \"PMUL1635.json#hotel.book\",\n      \"relation\": \"hotel.book.people\",\n      \"time\": \"unknown\",\n      \"new_value\": \"3\",\n      \"source_turn\": \"PMUL1635.json#turn14\",\n      \"evidence_quote\": \"for 3 people\",\n      \"polarity\": \"affirmed\"\n    },\n    {\n      \"candidate_id\": \"c1\",\n      \"target_fact_id\": \"PMUL1635.json#state13#hotel.book.stay\",\n      \"subject\": \"PMUL1635.json#hotel.book\",\n      \"relation\": \"hotel.book.stay\",\n      \"time\": \"unknown\",\n      \"new_value\": \"4\",\n      \"source_turn\": \"PMUL1635.json#turn14\",\n      \"evidence_quote\": \"and 4 nights\",\n      \"polarity\": \"affirmed\"\n    }\n  ]\n}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T23:11:22.231076Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "mqK5aqSNDvObncoPmvuomAI",
+    "usageMetadata": {
+      "candidatesTokenCount": 466,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 466
+        }
+      ],
+      "promptTokenCount": 2428,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 2428
+        }
+      ],
+      "totalTokenCount": 2894,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "adef585ff51ac509aaf599c43d408cfa3a2a1ad3dabf8869ae1f563da4871d9c",
+  "status": "OK",
+  "text": "{\n  \"beliefs\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"facts\": []\n    }\n  ],\n  \"correction_witnesses\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"target_fact_id\": \"PMUL1635.json#state13#hotel.book.day\",\n      \"subject\": \"PMUL1635.json#hotel.book\",\n      \"relation\": \"hotel.book.day\",\n      \"time\": \"unknown\",\n      \"new_value\": \"monday\",\n      \"source_turn\": \"PMUL1635.json#turn14\",\n      \"evidence_quote\": \"Can you change the Wartworth booking to Monday\",\n      \"polarity\": \"affirmed\"\n    },\n    {\n      \"candidate_id\": \"c1\",\n      \"target_fact_id\": \"PMUL1635.json#state13#hotel.book.people\",\n      \"subject\": \"PMUL1635.json#hotel.book\",\n      \"relation\": \"hotel.book.people\",\n      \"time\": \"unknown\",\n      \"new_value\": \"3\",\n      \"source_turn\": \"PMUL1635.json#turn14\",\n      \"evidence_quote\": \"for 3 people\",\n      \"polarity\": \"affirmed\"\n    },\n    {\n      \"candidate_id\": \"c1\",\n      \"target_fact_id\": \"PMUL1635.json#state13#hotel.book.stay\",\n      \"subject\": \"PMUL1635.json#hotel.book\",\n      \"relation\": \"hotel.book.stay\",\n      \"time\": \"unknown\",\n      \"new_value\": \"4\",\n      \"source_turn\": \"PMUL1635.json#turn14\",\n      \"evidence_quote\": \"and 4 nights\",\n      \"polarity\": \"affirmed\"\n    }\n  ]\n}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 2428,
+    "output_tokens": 466,
+    "reasoning_tokens": 0,
+    "total_tokens": 2894
+  }
+}

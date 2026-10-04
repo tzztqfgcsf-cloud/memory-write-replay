@@ -1,0 +1,36 @@
+{
+  "call_id": "1bef19a4e7b621b72133-sr_feedback",
+  "error_type": null,
+  "finish_reason": "stop",
+  "finished_unix": 1790493258.6953259,
+  "latency_seconds": 6.2959,
+  "model_version": "mlx-community/Llama-3.1-8B-Instruct-4bit",
+  "raw_response": {
+    "base_seed": 20260927,
+    "finish_reason": "stop",
+    "generation_calls": 425,
+    "id": "local-c6df7d9893d325bb24333f69",
+    "seed": 1390369202,
+    "snapshot": "<LOCAL_PATH>",
+    "text": "{\"issues\": [{\"draft_location\": \"memory_decisions.0.fact.relation\", \"evidence_location\": \"db_snapshot.facts.0.relation\", \"problem\": \"기존 fact_id가 필요하다.\", \"specific_revision\": \"preferred_contact\"}], \"no_change_needed\": false}",
+    "usage": {
+      "cached_tokens": null,
+      "input_tokens": 1524,
+      "output_tokens": 62,
+      "reasoning_tokens": null,
+      "total_tokens": 1586
+    }
+  },
+  "request_sha256": "2f293dfd5b72ce4a8bb4fa5ccc446713a37e238e7fde0340c724a11cb4825922",
+  "stage_schema_sha256": "377e252cf02129ba34bbc867118dd2b9c6b65042b3fcd7b44099d2fc6e0513ed",
+  "started_unix": 1790493252.399128,
+  "status": "OK",
+  "text": "{\"issues\": [{\"draft_location\": \"memory_decisions.0.fact.relation\", \"evidence_location\": \"db_snapshot.facts.0.relation\", \"problem\": \"기존 fact_id가 필요하다.\", \"specific_revision\": \"preferred_contact\"}], \"no_change_needed\": false}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1524,
+    "output_tokens": 62,
+    "reasoning_tokens": null,
+    "total_tokens": 1586
+  }
+}

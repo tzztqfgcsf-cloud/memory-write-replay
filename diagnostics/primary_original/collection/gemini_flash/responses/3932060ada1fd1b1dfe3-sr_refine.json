@@ -1,0 +1,57 @@
+{
+  "call_id": "3932060ada1fd1b1dfe3-sr_refine",
+  "finish_reason": "STOP",
+  "finished_unix": 1790496060.976893,
+  "http_status": 200,
+  "latency_seconds": 1.6146,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.011859520762956061,
+        "content": {
+          "parts": [
+            {
+              "text": "{\"reply\": \"네, 모임 장소가 누리문화원으로 변경되었고, 취미는 민요로 유지된다고 이해했습니다.\", \"action\": {\"kind\": \"CONTINUE\", \"question_slot\": null, \"required_slots\": [], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [], \"fact\": {\"relation\": \"meeting_place\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"누리문화원\"}, \"operation\": \"CORRECT\", \"slot\": null, \"source_turns\": [\"t2\"], \"target_fact_id\": \"f2\"}]}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T08:00:59.528310Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "O824arafIPObncoPmvuomAI",
+    "usageMetadata": {
+      "candidatesTokenCount": 147,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 147
+        }
+      ],
+      "promptTokenCount": 2307,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 2307
+        }
+      ],
+      "totalTokenCount": 2454,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "1a3143ec8e8575fe4245658929b5e0512c05f571946b10be1810eb0189f48380",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790496059.3619862,
+  "status": "OK",
+  "text": "{\"reply\": \"네, 모임 장소가 누리문화원으로 변경되었고, 취미는 민요로 유지된다고 이해했습니다.\", \"action\": {\"kind\": \"CONTINUE\", \"question_slot\": null, \"required_slots\": [], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [], \"fact\": {\"relation\": \"meeting_place\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"누리문화원\"}, \"operation\": \"CORRECT\", \"slot\": null, \"source_turns\": [\"t2\"], \"target_fact_id\": \"f2\"}]}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 2307,
+    "output_tokens": 147,
+    "reasoning_tokens": 0,
+    "total_tokens": 2454
+  }
+}

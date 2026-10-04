@@ -1,0 +1,43 @@
+{
+  "schema": "bounded-correction-specificity-1",
+  "journal": "UNDECIDED",
+  "source_user_request": "어 해봐 / 일단 저널은 확정하지 말고 보완해봐",
+  "new_source": true,
+  "study_role": "EXPLORATORY_AUTHORED_CHALLENGE",
+  "model": {
+    "alias": "gemini_flash",
+    "provider": "vertex",
+    "model_id": "gemini-2.5-flash",
+    "temperature": 0.2,
+    "minimum_interval_seconds": 8
+  },
+  "maximum_attempts": 96,
+  "expected_cases": 24,
+  "pairs": 12,
+  "repeats": 1,
+  "conditions": [
+    "B",
+    "C",
+    "E",
+    "G"
+  ],
+  "minimum_interval_seconds": 8,
+  "retry": 0,
+  "training": 0,
+  "executable": "/opt/homebrew/opt/python@3.14/bin/python3.14",
+  "order_seed": 2026092720,
+  "output_cap": 2048,
+  "thinking_budget": 0,
+  "stop": "96 attempts, 3 consecutive provider errors, HTTP 401/403, user STOP, freeze drift. No retries or model substitutions.",
+  "primary_question": "Does witness fallback C add specificity beyond simply unblocking CORRECT under E?",
+  "primary_metrics": [
+    "supported correction completion",
+    "unsupported alteration",
+    "valid unsupported preservation"
+  ],
+  "statistical_unit": "case within outcome stratum; 12 positive/negative matched pairs; one repeat",
+  "analysis": "Descriptive paired gains/losses, separate Wilson intervals, exact McNemar descriptive only. No confirmatory multiple-testing claim.",
+  "provenance": "AI authored source/reference, source writer not shown code or prior model outputs. No new human labels.",
+  "old_results": "Immutable; no rerequest or rescoring",
+  "old_running_collection": "Leave controller16931 and all old lane files unchanged."
+}

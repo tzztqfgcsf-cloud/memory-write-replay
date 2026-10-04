@@ -1,0 +1,764 @@
+{
+  "schema": "native-transfer-completed-gemini-only-diagnostics-1",
+  "source_score_sha256": "be59c208c8f43f3bc5f112a2f76f984ff9eab6f65bbe3a99586cf5af5f5a5d32",
+  "source_outputs_sha256": "10b085613efd738f3405afd99f8f47ddde0463f843d029ccc7a21ad534c12ca6",
+  "scope": "one completed model, source-reader provisional development transfer; no human gold",
+  "conditions": [
+    {
+      "condition": "B",
+      "observed_rows": 16,
+      "generation_valid_rows": 15,
+      "provisional_positive_denominator": 10,
+      "provisional_native_focal_agreement_count": 3
+    },
+    {
+      "condition": "C",
+      "observed_rows": 16,
+      "generation_valid_rows": 15,
+      "provisional_positive_denominator": 10,
+      "provisional_native_focal_agreement_count": 4
+    },
+    {
+      "condition": "CR",
+      "observed_rows": 16,
+      "generation_valid_rows": 15,
+      "provisional_positive_denominator": 10,
+      "provisional_native_focal_agreement_count": 4
+    },
+    {
+      "condition": "D",
+      "observed_rows": 16,
+      "generation_valid_rows": 16,
+      "provisional_positive_denominator": 10,
+      "provisional_native_focal_agreement_count": 10
+    },
+    {
+      "condition": "E",
+      "observed_rows": 16,
+      "generation_valid_rows": 15,
+      "provisional_positive_denominator": 10,
+      "provisional_native_focal_agreement_count": 7
+    },
+    {
+      "condition": "E_text",
+      "observed_rows": 16,
+      "generation_valid_rows": 15,
+      "provisional_positive_denominator": 10,
+      "provisional_native_focal_agreement_count": 4
+    },
+    {
+      "condition": "G",
+      "observed_rows": 16,
+      "generation_valid_rows": 16,
+      "provisional_positive_denominator": 10,
+      "provisional_native_focal_agreement_count": 10
+    },
+    {
+      "condition": "R",
+      "observed_rows": 16,
+      "generation_valid_rows": 15,
+      "provisional_positive_denominator": 10,
+      "provisional_native_focal_agreement_count": 3
+    },
+    {
+      "condition": "SR1",
+      "observed_rows": 16,
+      "generation_valid_rows": 16,
+      "provisional_positive_denominator": 10,
+      "provisional_native_focal_agreement_count": 5
+    }
+  ],
+  "all_rows": 144,
+  "all_cases": 16,
+  "invalid_rows": [
+    {
+      "case_id": "MW24-MUL1790-t2",
+      "condition": "B",
+      "parse_errors": [
+        "PROVIDER_HTTP_ERROR"
+      ]
+    },
+    {
+      "case_id": "MW24-MUL1790-t2",
+      "condition": "C",
+      "parse_errors": [
+        "PROVIDER_HTTP_ERROR"
+      ]
+    },
+    {
+      "case_id": "MW24-MUL1790-t2",
+      "condition": "E",
+      "parse_errors": [
+        "PROVIDER_HTTP_ERROR"
+      ]
+    },
+    {
+      "case_id": "MW24-MUL1790-t2",
+      "condition": "E_text",
+      "parse_errors": [
+        "PROVIDER_HTTP_ERROR"
+      ]
+    },
+    {
+      "case_id": "MW24-MUL1790-t2",
+      "condition": "R",
+      "parse_errors": [
+        "PROVIDER_HTTP_ERROR"
+      ]
+    },
+    {
+      "case_id": "MW24-MUL1790-t2",
+      "condition": "CR",
+      "parse_errors": [
+        "PROVIDER_HTTP_ERROR"
+      ]
+    }
+  ],
+  "receipt_status_all_rows": {
+    "APPLIED": 126,
+    "NONE": 6,
+    "REJECTED": 12
+  },
+  "intervention_reasons": {
+    "D": {},
+    "G": {},
+    "B": {
+      "ALL_CANDIDATES_SUPPORT": 17,
+      "NOT_SUPPORTED_BY_ALL_CANDIDATES": 9,
+      "COMMIT_FACT_MISSING_EXECUTOR_WILL_REJECT": 4
+    },
+    "C": {
+      "ALL_CANDIDATES_SUPPORT": 17,
+      "NOT_SUPPORTED_BY_ALL_CANDIDATES": 5,
+      "COMMIT_FACT_MISSING_EXECUTOR_WILL_REJECT": 4,
+      "CORRECTION_WITNESS_RESCUED": 4
+    },
+    "E": {
+      "ALL_CANDIDATES_SUPPORT": 17,
+      "SIMPLE_CORRECTION_EXCEPTION": 8,
+      "COMMIT_FACT_MISSING_EXECUTOR_WILL_REJECT": 4,
+      "NOT_SUPPORTED_BY_ALL_CANDIDATES": 1
+    },
+    "E_text": {
+      "ALL_CANDIDATES_SUPPORT": 17,
+      "NOT_SUPPORTED_BY_ALL_CANDIDATES": 5,
+      "COMMIT_FACT_MISSING_EXECUTOR_WILL_REJECT": 4,
+      "E_TEXT_LITERAL_EXCEPTION": 4
+    },
+    "R": {
+      "ALL_CANDIDATES_SUPPORT": 17,
+      "NOT_SUPPORTED_BY_ALL_CANDIDATES": 9,
+      "COMMIT_FACT_MISSING_EXECUTOR_WILL_REJECT": 4
+    },
+    "CR": {
+      "ALL_CANDIDATES_SUPPORT": 17,
+      "NOT_SUPPORTED_BY_ALL_CANDIDATES": 5,
+      "COMMIT_FACT_MISSING_EXECUTOR_WILL_REJECT": 4,
+      "CORRECTION_WITNESS_RESCUED": 4
+    },
+    "SR1": {}
+  },
+  "paired_state_identical_case_count": {
+    "D__G": 16,
+    "B__R": 16,
+    "C__CR": 16,
+    "C__E_text": 16,
+    "B__C": 13,
+    "B__E": 10,
+    "C__E": 12
+  },
+  "case_rows": [
+    {
+      "case_id": "MW24-MUL0329-t8",
+      "category": "assistant_misunderstanding",
+      "agreement": {
+        "D": null,
+        "G": null,
+        "B": null,
+        "C": null,
+        "E": null,
+        "E_text": null,
+        "R": null,
+        "CR": null,
+        "SR1": null
+      },
+      "valid": {
+        "D": true,
+        "G": true,
+        "B": true,
+        "C": true,
+        "E": true,
+        "E_text": true,
+        "R": true,
+        "CR": true,
+        "SR1": true
+      },
+      "receipt": {
+        "D": "APPLIED",
+        "G": "APPLIED",
+        "B": "APPLIED",
+        "C": "APPLIED",
+        "E": "APPLIED",
+        "E_text": "APPLIED",
+        "R": "APPLIED",
+        "CR": "APPLIED",
+        "SR1": "APPLIED"
+      }
+    },
+    {
+      "case_id": "MW24-MUL1523-t4",
+      "category": "same_task_self_repair",
+      "agreement": {
+        "D": true,
+        "G": true,
+        "B": true,
+        "C": true,
+        "E": true,
+        "E_text": true,
+        "R": true,
+        "CR": true,
+        "SR1": false
+      },
+      "valid": {
+        "D": true,
+        "G": true,
+        "B": true,
+        "C": true,
+        "E": true,
+        "E_text": true,
+        "R": true,
+        "CR": true,
+        "SR1": true
+      },
+      "receipt": {
+        "D": "APPLIED",
+        "G": "APPLIED",
+        "B": "APPLIED",
+        "C": "APPLIED",
+        "E": "APPLIED",
+        "E_text": "APPLIED",
+        "R": "APPLIED",
+        "CR": "APPLIED",
+        "SR1": "APPLIED"
+      }
+    },
+    {
+      "case_id": "MW24-MUL1664-t10",
+      "category": "same_task_self_repair",
+      "agreement": {
+        "D": true,
+        "G": true,
+        "B": false,
+        "C": true,
+        "E": true,
+        "E_text": true,
+        "R": false,
+        "CR": true,
+        "SR1": true
+      },
+      "valid": {
+        "D": true,
+        "G": true,
+        "B": true,
+        "C": true,
+        "E": true,
+        "E_text": true,
+        "R": true,
+        "CR": true,
+        "SR1": true
+      },
+      "receipt": {
+        "D": "APPLIED",
+        "G": "APPLIED",
+        "B": "APPLIED",
+        "C": "APPLIED",
+        "E": "APPLIED",
+        "E_text": "APPLIED",
+        "R": "APPLIED",
+        "CR": "APPLIED",
+        "SR1": "APPLIED"
+      }
+    },
+    {
+      "case_id": "MW24-MUL1790-t2",
+      "category": "same_task_self_repair",
+      "agreement": {
+        "D": true,
+        "G": true,
+        "B": false,
+        "C": false,
+        "E": false,
+        "E_text": false,
+        "R": false,
+        "CR": false,
+        "SR1": false
+      },
+      "valid": {
+        "D": true,
+        "G": true,
+        "B": false,
+        "C": false,
+        "E": false,
+        "E_text": false,
+        "R": false,
+        "CR": false,
+        "SR1": true
+      },
+      "receipt": {
+        "D": "APPLIED",
+        "G": "APPLIED",
+        "B": null,
+        "C": null,
+        "E": null,
+        "E_text": null,
+        "R": null,
+        "CR": null,
+        "SR1": "APPLIED"
+      }
+    },
+    {
+      "case_id": "MW24-MUL1930-t8",
+      "category": "same_task_self_repair",
+      "agreement": {
+        "D": true,
+        "G": true,
+        "B": false,
+        "C": false,
+        "E": false,
+        "E_text": false,
+        "R": false,
+        "CR": false,
+        "SR1": false
+      },
+      "valid": {
+        "D": true,
+        "G": true,
+        "B": true,
+        "C": true,
+        "E": true,
+        "E_text": true,
+        "R": true,
+        "CR": true,
+        "SR1": true
+      },
+      "receipt": {
+        "D": "APPLIED",
+        "G": "APPLIED",
+        "B": "REJECTED",
+        "C": "REJECTED",
+        "E": "REJECTED",
+        "E_text": "REJECTED",
+        "R": "REJECTED",
+        "CR": "REJECTED",
+        "SR1": "APPLIED"
+      }
+    },
+    {
+      "case_id": "MW24-PMUL0945-t4",
+      "category": "same_task_self_repair",
+      "agreement": {
+        "D": true,
+        "G": true,
+        "B": false,
+        "C": false,
+        "E": false,
+        "E_text": false,
+        "R": false,
+        "CR": false,
+        "SR1": true
+      },
+      "valid": {
+        "D": true,
+        "G": true,
+        "B": true,
+        "C": true,
+        "E": true,
+        "E_text": true,
+        "R": true,
+        "CR": true,
+        "SR1": true
+      },
+      "receipt": {
+        "D": "APPLIED",
+        "G": "APPLIED",
+        "B": "REJECTED",
+        "C": "REJECTED",
+        "E": "REJECTED",
+        "E_text": "REJECTED",
+        "R": "REJECTED",
+        "CR": "REJECTED",
+        "SR1": "APPLIED"
+      }
+    },
+    {
+      "case_id": "MW24-PMUL1033-t6",
+      "category": "same_task_self_repair",
+      "agreement": {
+        "D": true,
+        "G": true,
+        "B": false,
+        "C": false,
+        "E": true,
+        "E_text": false,
+        "R": false,
+        "CR": false,
+        "SR1": true
+      },
+      "valid": {
+        "D": true,
+        "G": true,
+        "B": true,
+        "C": true,
+        "E": true,
+        "E_text": true,
+        "R": true,
+        "CR": true,
+        "SR1": true
+      },
+      "receipt": {
+        "D": "APPLIED",
+        "G": "APPLIED",
+        "B": "APPLIED",
+        "C": "APPLIED",
+        "E": "APPLIED",
+        "E_text": "APPLIED",
+        "R": "APPLIED",
+        "CR": "APPLIED",
+        "SR1": "APPLIED"
+      }
+    },
+    {
+      "case_id": "MW24-PMUL1635-t14",
+      "category": "changed_plan",
+      "agreement": {
+        "D": null,
+        "G": null,
+        "B": null,
+        "C": null,
+        "E": null,
+        "E_text": null,
+        "R": null,
+        "CR": null,
+        "SR1": null
+      },
+      "valid": {
+        "D": true,
+        "G": true,
+        "B": true,
+        "C": true,
+        "E": true,
+        "E_text": true,
+        "R": true,
+        "CR": true,
+        "SR1": true
+      },
+      "receipt": {
+        "D": "APPLIED",
+        "G": "APPLIED",
+        "B": "APPLIED",
+        "C": "APPLIED",
+        "E": "APPLIED",
+        "E_text": "APPLIED",
+        "R": "APPLIED",
+        "CR": "APPLIED",
+        "SR1": "APPLIED"
+      }
+    },
+    {
+      "case_id": "MW24-PMUL1690-t4",
+      "category": "source_annotation_conflict",
+      "agreement": {
+        "D": null,
+        "G": null,
+        "B": null,
+        "C": null,
+        "E": null,
+        "E_text": null,
+        "R": null,
+        "CR": null,
+        "SR1": null
+      },
+      "valid": {
+        "D": true,
+        "G": true,
+        "B": true,
+        "C": true,
+        "E": true,
+        "E_text": true,
+        "R": true,
+        "CR": true,
+        "SR1": true
+      },
+      "receipt": {
+        "D": "APPLIED",
+        "G": "APPLIED",
+        "B": "APPLIED",
+        "C": "APPLIED",
+        "E": "APPLIED",
+        "E_text": "APPLIED",
+        "R": "APPLIED",
+        "CR": "APPLIED",
+        "SR1": "APPLIED"
+      }
+    },
+    {
+      "case_id": "MW24-PMUL1919-t4",
+      "category": "same_task_self_repair",
+      "agreement": {
+        "D": true,
+        "G": true,
+        "B": true,
+        "C": true,
+        "E": true,
+        "E_text": true,
+        "R": true,
+        "CR": true,
+        "SR1": false
+      },
+      "valid": {
+        "D": true,
+        "G": true,
+        "B": true,
+        "C": true,
+        "E": true,
+        "E_text": true,
+        "R": true,
+        "CR": true,
+        "SR1": true
+      },
+      "receipt": {
+        "D": "APPLIED",
+        "G": "APPLIED",
+        "B": "APPLIED",
+        "C": "APPLIED",
+        "E": "APPLIED",
+        "E_text": "APPLIED",
+        "R": "APPLIED",
+        "CR": "APPLIED",
+        "SR1": "APPLIED"
+      }
+    },
+    {
+      "case_id": "MW24-PMUL3804-t4",
+      "category": "same_task_self_repair",
+      "agreement": {
+        "D": true,
+        "G": true,
+        "B": false,
+        "C": false,
+        "E": true,
+        "E_text": false,
+        "R": false,
+        "CR": false,
+        "SR1": true
+      },
+      "valid": {
+        "D": true,
+        "G": true,
+        "B": true,
+        "C": true,
+        "E": true,
+        "E_text": true,
+        "R": true,
+        "CR": true,
+        "SR1": true
+      },
+      "receipt": {
+        "D": "APPLIED",
+        "G": "APPLIED",
+        "B": "APPLIED",
+        "C": "APPLIED",
+        "E": "APPLIED",
+        "E_text": "APPLIED",
+        "R": "APPLIED",
+        "CR": "APPLIED",
+        "SR1": "APPLIED"
+      }
+    },
+    {
+      "case_id": "MW24-PMUL4646-t16",
+      "category": "same_task_self_repair",
+      "agreement": {
+        "D": true,
+        "G": true,
+        "B": false,
+        "C": false,
+        "E": true,
+        "E_text": false,
+        "R": false,
+        "CR": false,
+        "SR1": true
+      },
+      "valid": {
+        "D": true,
+        "G": true,
+        "B": true,
+        "C": true,
+        "E": true,
+        "E_text": true,
+        "R": true,
+        "CR": true,
+        "SR1": true
+      },
+      "receipt": {
+        "D": "APPLIED",
+        "G": "APPLIED",
+        "B": "APPLIED",
+        "C": "APPLIED",
+        "E": "APPLIED",
+        "E_text": "APPLIED",
+        "R": "APPLIED",
+        "CR": "APPLIED",
+        "SR1": "APPLIED"
+      }
+    },
+    {
+      "case_id": "MW24-PMUL4852-t4",
+      "category": "changed_preference",
+      "agreement": {
+        "D": null,
+        "G": null,
+        "B": null,
+        "C": null,
+        "E": null,
+        "E_text": null,
+        "R": null,
+        "CR": null,
+        "SR1": null
+      },
+      "valid": {
+        "D": true,
+        "G": true,
+        "B": true,
+        "C": true,
+        "E": true,
+        "E_text": true,
+        "R": true,
+        "CR": true,
+        "SR1": true
+      },
+      "receipt": {
+        "D": "APPLIED",
+        "G": "APPLIED",
+        "B": "APPLIED",
+        "C": "APPLIED",
+        "E": "APPLIED",
+        "E_text": "APPLIED",
+        "R": "APPLIED",
+        "CR": "APPLIED",
+        "SR1": "APPLIED"
+      }
+    },
+    {
+      "case_id": "MW24-SNG01176-t6",
+      "category": "same_task_self_repair",
+      "agreement": {
+        "D": true,
+        "G": true,
+        "B": true,
+        "C": true,
+        "E": true,
+        "E_text": true,
+        "R": true,
+        "CR": true,
+        "SR1": false
+      },
+      "valid": {
+        "D": true,
+        "G": true,
+        "B": true,
+        "C": true,
+        "E": true,
+        "E_text": true,
+        "R": true,
+        "CR": true,
+        "SR1": true
+      },
+      "receipt": {
+        "D": "APPLIED",
+        "G": "APPLIED",
+        "B": "APPLIED",
+        "C": "APPLIED",
+        "E": "APPLIED",
+        "E_text": "APPLIED",
+        "R": "APPLIED",
+        "CR": "APPLIED",
+        "SR1": "APPLIED"
+      }
+    },
+    {
+      "case_id": "MW24-SNG0984-t6",
+      "category": "verification_question",
+      "agreement": {
+        "D": null,
+        "G": null,
+        "B": null,
+        "C": null,
+        "E": null,
+        "E_text": null,
+        "R": null,
+        "CR": null,
+        "SR1": null
+      },
+      "valid": {
+        "D": true,
+        "G": true,
+        "B": true,
+        "C": true,
+        "E": true,
+        "E_text": true,
+        "R": true,
+        "CR": true,
+        "SR1": true
+      },
+      "receipt": {
+        "D": "APPLIED",
+        "G": "APPLIED",
+        "B": "APPLIED",
+        "C": "APPLIED",
+        "E": "APPLIED",
+        "E_text": "APPLIED",
+        "R": "APPLIED",
+        "CR": "APPLIED",
+        "SR1": "APPLIED"
+      }
+    },
+    {
+      "case_id": "MW24-SNG1006-t6",
+      "category": "fallback_after_booking_failure",
+      "agreement": {
+        "D": null,
+        "G": null,
+        "B": null,
+        "C": null,
+        "E": null,
+        "E_text": null,
+        "R": null,
+        "CR": null,
+        "SR1": null
+      },
+      "valid": {
+        "D": true,
+        "G": true,
+        "B": true,
+        "C": true,
+        "E": true,
+        "E_text": true,
+        "R": true,
+        "CR": true,
+        "SR1": true
+      },
+      "receipt": {
+        "D": "APPLIED",
+        "G": "APPLIED",
+        "B": "APPLIED",
+        "C": "APPLIED",
+        "E": "APPLIED",
+        "E_text": "APPLIED",
+        "R": "APPLIED",
+        "CR": "APPLIED",
+        "SR1": "APPLIED"
+      }
+    }
+  ]
+}

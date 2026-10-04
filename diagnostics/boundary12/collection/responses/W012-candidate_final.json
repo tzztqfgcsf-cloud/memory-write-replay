@@ -1,0 +1,55 @@
+{
+  "status": "OK",
+  "http_status": 200,
+  "text": "{\n  \"reply\": \"네, 현재 도서관에서 사서로 일하고 계시는군요. 예전에는 학교 급식실에서 조리사로 일하셨다는 정보도 확인했습니다.\",\n  \"action\": {\n    \"kind\": \"CONTINUE\",\n    \"question_slot\": null,\n    \"required_slots\": [],\n    \"speaker_id\": \"p1\"\n  },\n  \"memory_decisions\": [\n    {\n      \"alternatives\": [],\n      \"fact\": {\n        \"relation\": \"workplace\",\n        \"source_turns\": [\n          \"t2\"\n        ],\n        \"subject\": \"participant\",\n        \"time\": \"past\",\n        \"value\": \"학교 급식실\"\n      },\n      \"operation\": \"APPEND\",\n      \"slot\": null,\n      \"source_turns\": [\n        \"t2\"\n      ],\n      \"target_fact_id\": null\n    },\n    {\n      \"alternatives\": [],\n      \"fact\": {\n        \"relation\": \"workplace\",\n        \"source_turns\": [\n          \"t2\"\n        ],\n        \"subject\": \"participant\",\n        \"time\": \"present\",\n        \"value\": \"도서관\"\n      },\n      \"operation\": \"CORRECT\",\n      \"slot\": null,\n      \"source_turns\": [\n        \"t2\"\n      ],\n      \"target_fact_id\": \"f1\"\n    }\n  ]\n}",
+  "usage": {
+    "input_tokens": 2118,
+    "output_tokens": 341,
+    "reasoning_tokens": 0,
+    "total_tokens": 2459,
+    "cached_tokens": null
+  },
+  "finish_reason": "STOP",
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "content": {
+          "role": "model",
+          "parts": [
+            {
+              "text": "{\n  \"reply\": \"네, 현재 도서관에서 사서로 일하고 계시는군요. 예전에는 학교 급식실에서 조리사로 일하셨다는 정보도 확인했습니다.\",\n  \"action\": {\n    \"kind\": \"CONTINUE\",\n    \"question_slot\": null,\n    \"required_slots\": [],\n    \"speaker_id\": \"p1\"\n  },\n  \"memory_decisions\": [\n    {\n      \"alternatives\": [],\n      \"fact\": {\n        \"relation\": \"workplace\",\n        \"source_turns\": [\n          \"t2\"\n        ],\n        \"subject\": \"participant\",\n        \"time\": \"past\",\n        \"value\": \"학교 급식실\"\n      },\n      \"operation\": \"APPEND\",\n      \"slot\": null,\n      \"source_turns\": [\n        \"t2\"\n      ],\n      \"target_fact_id\": null\n    },\n    {\n      \"alternatives\": [],\n      \"fact\": {\n        \"relation\": \"workplace\",\n        \"source_turns\": [\n          \"t2\"\n        ],\n        \"subject\": \"participant\",\n        \"time\": \"present\",\n        \"value\": \"도서관\"\n      },\n      \"operation\": \"CORRECT\",\n      \"slot\": null,\n      \"source_turns\": [\n        \"t2\"\n      ],\n      \"target_fact_id\": \"f1\"\n    }\n  ]\n}"
+            }
+          ]
+        },
+        "finishReason": "STOP",
+        "avgLogprobs": -0.026327133178710938
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 2118,
+      "candidatesTokenCount": 341,
+      "totalTokenCount": 2459,
+      "trafficType": "ON_DEMAND",
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 2118
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 341
+        }
+      ]
+    },
+    "modelVersion": "gemini-2.5-flash",
+    "createTime": "2026-09-27T14:49:39.448697Z",
+    "responseId": "Ay25armxG7OLx9gPv4OY6A4"
+  },
+  "latency_seconds": 1.9089,
+  "call_id": "W012-candidate_final",
+  "physical_attempt": true,
+  "completed_unix": 1790520581.252814
+}

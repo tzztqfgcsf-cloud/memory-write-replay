@@ -1,0 +1,56 @@
+{
+  "call_id": "c4e62db0d1932723a54610db-g_draft",
+  "cost_note": "provider_did_not_report_money",
+  "cost_usd_reported": null,
+  "finish_reason": "STOP",
+  "http_status": 200,
+  "latency_seconds": 3.0729,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.014404114852332757,
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"reply\": \"Okay, I will update the booking to be for 7 people at 18:00 on Wednesday. Is there anything else I can help you with?\",\n  \"action\": {\n    \"kind\": \"CONTINUE\",\n    \"question_slot\": null,\n    \"required_slots\": [],\n    \"speaker_id\": \"system\"\n  },\n  \"memory_decisions\": [\n    {\n      \"alternatives\": [\n        \"7\"\n      ],\n      \"fact\": {\n        \"relation\": \"restaurant.book.people\",\n        \"source_turns\": [\n          \"MUL1523.json#turn4\"\n        ],\n        \"subject\": \"MUL1523.json#restaurant.book\",\n        \"time\": \"unknown\",\n        \"value\": \"7\"\n      },\n      \"operation\": \"CORRECT\",\n      \"slot\": \"restaurant.book.people\",\n      \"source_turns\": [\n        \"MUL1523.json#turn4\"\n      ],\n      \"target_fact_id\": \"MUL1523.json#state3#restaurant.book.people\"\n    },\n    {\n      \"alternatives\": [\n        \"18:00\"\n      ],\n      \"fact\": {\n        \"relation\": \"restaurant.book.time\",\n        \"source_turns\": [\n          \"MUL1523.json#turn4\"\n        ],\n        \"subject\": \"MUL1523.json#restaurant.book\",\n        \"time\": \"unknown\",\n        \"value\": \"18:00\"\n      },\n      \"operation\": \"CORRECT\",\n      \"slot\": \"restaurant.book.time\",\n      \"source_turns\": [\n        \"MUL1523.json#turn4\"\n      ],\n      \"target_fact_id\": \"MUL1523.json#state3#restaurant.book.time\"\n    },\n    {\n      \"alternatives\": [\n        \"wednesday\"\n      ],\n      \"fact\": {\n        \"relation\": \"hotel.book.day\",\n        \"source_turns\": [\n          \"MUL1523.json#turn4\"\n        ],\n        \"subject\": \"MUL1523.json#restaurant.book\",\n        \"time\": \"unknown\",\n        \"value\": \"wednesday\"\n      },\n      \"operation\": \"APPEND\",\n      \"slot\": \"hotel.book.day\",\n      \"source_turns\": [\n        \"MUL1523.json#turn4\"\n      ],\n      \"target_fact_id\": null\n    }\n  ]\n}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T23:00:42.860322Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "GqC5aqLBNLOLx9gPv4OY6A4",
+    "usageMetadata": {
+      "candidatesTokenCount": 613,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 613
+        }
+      ],
+      "promptTokenCount": 1811,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1811
+        }
+      ],
+      "totalTokenCount": 2424,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "7f6f86eb542e4a37e12c0600ebab1143b403f1fbf085e01e7a6f9898eeca8954",
+  "status": "OK",
+  "text": "{\n  \"reply\": \"Okay, I will update the booking to be for 7 people at 18:00 on Wednesday. Is there anything else I can help you with?\",\n  \"action\": {\n    \"kind\": \"CONTINUE\",\n    \"question_slot\": null,\n    \"required_slots\": [],\n    \"speaker_id\": \"system\"\n  },\n  \"memory_decisions\": [\n    {\n      \"alternatives\": [\n        \"7\"\n      ],\n      \"fact\": {\n        \"relation\": \"restaurant.book.people\",\n        \"source_turns\": [\n          \"MUL1523.json#turn4\"\n        ],\n        \"subject\": \"MUL1523.json#restaurant.book\",\n        \"time\": \"unknown\",\n        \"value\": \"7\"\n      },\n      \"operation\": \"CORRECT\",\n      \"slot\": \"restaurant.book.people\",\n      \"source_turns\": [\n        \"MUL1523.json#turn4\"\n      ],\n      \"target_fact_id\": \"MUL1523.json#state3#restaurant.book.people\"\n    },\n    {\n      \"alternatives\": [\n        \"18:00\"\n      ],\n      \"fact\": {\n        \"relation\": \"restaurant.book.time\",\n        \"source_turns\": [\n          \"MUL1523.json#turn4\"\n        ],\n        \"subject\": \"MUL1523.json#restaurant.book\",\n        \"time\": \"unknown\",\n        \"value\": \"18:00\"\n      },\n      \"operation\": \"CORRECT\",\n      \"slot\": \"restaurant.book.time\",\n      \"source_turns\": [\n        \"MUL1523.json#turn4\"\n      ],\n      \"target_fact_id\": \"MUL1523.json#state3#restaurant.book.time\"\n    },\n    {\n      \"alternatives\": [\n        \"wednesday\"\n      ],\n      \"fact\": {\n        \"relation\": \"hotel.book.day\",\n        \"source_turns\": [\n          \"MUL1523.json#turn4\"\n        ],\n        \"subject\": \"MUL1523.json#restaurant.book\",\n        \"time\": \"unknown\",\n        \"value\": \"wednesday\"\n      },\n      \"operation\": \"APPEND\",\n      \"slot\": \"hotel.book.day\",\n      \"source_turns\": [\n        \"MUL1523.json#turn4\"\n      ],\n      \"target_fact_id\": null\n    }\n  ]\n}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1811,
+    "output_tokens": 613,
+    "reasoning_tokens": 0,
+    "total_tokens": 2424
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "call_id": "ce9bca0aa23f21aef69bc81a-candidate_extract",
+  "cost_note": "provider_did_not_report_money",
+  "cost_usd_reported": null,
+  "finish_reason": "STOP",
+  "http_status": 200,
+  "latency_seconds": 2.1325,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.0017389086159792814,
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"beliefs\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"facts\": [\n        {\n          \"relation\": \"train.semi.leaveAt\",\n          \"source_turns\": [\n            \"PMUL1919.json#turn4\"\n          ],\n          \"subject\": \"PMUL1919.json#train.semi\",\n          \"time\": \"unknown\",\n          \"value\": \"16:00\"\n        },\n        {\n          \"relation\": \"train.semi.destination\",\n          \"source_turns\": [\n            \"PMUL1919.json#turn4\"\n          ],\n          \"subject\": \"PMUL1919.json#train.semi\",\n          \"time\": \"unknown\",\n          \"value\": \"london liverpool street\"\n        }\n      ]\n    }\n  ],\n  \"correction_witnesses\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"target_fact_id\": \"PMUL1919.json#state3#train.semi.destination\",\n      \"subject\": \"PMUL1919.json#train.semi\",\n      \"relation\": \"train.semi.destination\",\n      \"time\": \"unknown\",\n      \"new_value\": \"london liverpool street\",\n      \"source_turn\": \"PMUL1919.json#turn4\",\n      \"evidence_quote\": \"Oh, not Ely, sorry. I need to leave after 16:00 going to London Liverpool Street.\",\n      \"polarity\": \"affirmed\"\n    }\n  ]\n}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T22:42:27.557275Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "05u5atuBIrOLx9gPv4OY6A4",
+    "usageMetadata": {
+      "candidatesTokenCount": 374,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 374
+        }
+      ],
+      "promptTokenCount": 1525,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1525
+        }
+      ],
+      "totalTokenCount": 1899,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "cf4b0b4709b46eaea5e80e7a03fdeb1ecc240625e39414287dc3be1c252eb478",
+  "status": "OK",
+  "text": "{\n  \"beliefs\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"facts\": [\n        {\n          \"relation\": \"train.semi.leaveAt\",\n          \"source_turns\": [\n            \"PMUL1919.json#turn4\"\n          ],\n          \"subject\": \"PMUL1919.json#train.semi\",\n          \"time\": \"unknown\",\n          \"value\": \"16:00\"\n        },\n        {\n          \"relation\": \"train.semi.destination\",\n          \"source_turns\": [\n            \"PMUL1919.json#turn4\"\n          ],\n          \"subject\": \"PMUL1919.json#train.semi\",\n          \"time\": \"unknown\",\n          \"value\": \"london liverpool street\"\n        }\n      ]\n    }\n  ],\n  \"correction_witnesses\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"target_fact_id\": \"PMUL1919.json#state3#train.semi.destination\",\n      \"subject\": \"PMUL1919.json#train.semi\",\n      \"relation\": \"train.semi.destination\",\n      \"time\": \"unknown\",\n      \"new_value\": \"london liverpool street\",\n      \"source_turn\": \"PMUL1919.json#turn4\",\n      \"evidence_quote\": \"Oh, not Ely, sorry. I need to leave after 16:00 going to London Liverpool Street.\",\n      \"polarity\": \"affirmed\"\n    }\n  ]\n}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1525,
+    "output_tokens": 374,
+    "reasoning_tokens": 0,
+    "total_tokens": 1899
+  }
+}

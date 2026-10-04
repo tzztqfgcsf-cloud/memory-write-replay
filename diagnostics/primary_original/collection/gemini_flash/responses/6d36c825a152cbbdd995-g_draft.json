@@ -1,0 +1,14 @@
+{
+  "call_id": "6d36c825a152cbbdd995-g_draft",
+  "error_response": "{\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.\",\n    \"status\": \"RESOURCE_EXHAUSTED\"\n  }\n}\n",
+  "finished_unix": 1790496128.404624,
+  "http_status": 429,
+  "latency_seconds": 0.6034,
+  "request_sha256": "98719b5d63172f493c44dbdf48f76b277f8829c32930105a0208bfaf18feaca7",
+  "retry_after": null,
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790496127.800979,
+  "status": "HTTP_ERROR",
+  "text": "",
+  "usage": {}
+}

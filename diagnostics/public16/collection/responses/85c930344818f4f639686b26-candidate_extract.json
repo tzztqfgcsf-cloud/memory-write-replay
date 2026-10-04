@@ -1,0 +1,56 @@
+{
+  "call_id": "85c930344818f4f639686b26-candidate_extract",
+  "cost_note": "provider_did_not_report_money",
+  "cost_usd_reported": null,
+  "finish_reason": "STOP",
+  "http_status": 200,
+  "latency_seconds": 2.2438,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.004305625249104328,
+        "content": {
+          "parts": [
+            {
+              "text": "{\"beliefs\": [{\"candidate_id\": \"c1\", \"facts\": [{\"relation\": \"restaurant.book.people\", \"source_turns\": [\"MUL1523.json#turn4\"], \"subject\": \"MUL1523.json#restaurant.book\", \"time\": \"unknown\", \"value\": \"7\"}, {\"relation\": \"restaurant.book.time\", \"source_turns\": [\"MUL1523.json#turn4\"], \"subject\": \"MUL1523.json#restaurant.book\", \"time\": \"unknown\", \"value\": \"18:00\"}, {\"relation\": \"hotel.book.day\", \"source_turns\": [\"MUL1523.json#turn4\"], \"subject\": \"MUL1523.json#restaurant.book\", \"time\": \"unknown\", \"value\": \"wednesday\"}]}], \"correction_witnesses\": [{\"candidate_id\": \"c1\", \"target_fact_id\": \"MUL1523.json#state3#restaurant.book.people\", \"subject\": \"MUL1523.json#restaurant.book\", \"relation\": \"restaurant.book.people\", \"time\": \"unknown\", \"new_value\": \"7\", \"source_turn\": \"MUL1523.json#turn4\", \"evidence_quote\": \"7 people\", \"polarity\": \"affirmed\"}, {\"candidate_id\": \"c1\", \"target_fact_id\": \"MUL1523.json#state3#restaurant.book.time\", \"subject\": \"MUL1523.json#restaurant.book\", \"relation\": \"restaurant.book.time\", \"time\": \"unknown\", \"new_value\": \"18:00\", \"source_turn\": \"MUL1523.json#turn4\", \"evidence_quote\": \"18:00\", \"polarity\": \"affirmed\"}]}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T23:01:48.662564Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "XKC5aqS4KLSWvdAPsqqm0Ak",
+    "usageMetadata": {
+      "candidatesTokenCount": 415,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 415
+        }
+      ],
+      "promptTokenCount": 1654,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1654
+        }
+      ],
+      "totalTokenCount": 2069,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "1713adbe3bab5d2f0059df7454125aac6d8aac927496bfd4a25f9e5e8db48383",
+  "status": "OK",
+  "text": "{\"beliefs\": [{\"candidate_id\": \"c1\", \"facts\": [{\"relation\": \"restaurant.book.people\", \"source_turns\": [\"MUL1523.json#turn4\"], \"subject\": \"MUL1523.json#restaurant.book\", \"time\": \"unknown\", \"value\": \"7\"}, {\"relation\": \"restaurant.book.time\", \"source_turns\": [\"MUL1523.json#turn4\"], \"subject\": \"MUL1523.json#restaurant.book\", \"time\": \"unknown\", \"value\": \"18:00\"}, {\"relation\": \"hotel.book.day\", \"source_turns\": [\"MUL1523.json#turn4\"], \"subject\": \"MUL1523.json#restaurant.book\", \"time\": \"unknown\", \"value\": \"wednesday\"}]}], \"correction_witnesses\": [{\"candidate_id\": \"c1\", \"target_fact_id\": \"MUL1523.json#state3#restaurant.book.people\", \"subject\": \"MUL1523.json#restaurant.book\", \"relation\": \"restaurant.book.people\", \"time\": \"unknown\", \"new_value\": \"7\", \"source_turn\": \"MUL1523.json#turn4\", \"evidence_quote\": \"7 people\", \"polarity\": \"affirmed\"}, {\"candidate_id\": \"c1\", \"target_fact_id\": \"MUL1523.json#state3#restaurant.book.time\", \"subject\": \"MUL1523.json#restaurant.book\", \"relation\": \"restaurant.book.time\", \"time\": \"unknown\", \"new_value\": \"18:00\", \"source_turn\": \"MUL1523.json#turn4\", \"evidence_quote\": \"18:00\", \"polarity\": \"affirmed\"}]}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1654,
+    "output_tokens": 415,
+    "reasoning_tokens": 0,
+    "total_tokens": 2069
+  }
+}

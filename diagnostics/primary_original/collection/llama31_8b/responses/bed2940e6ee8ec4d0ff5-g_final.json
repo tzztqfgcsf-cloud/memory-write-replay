@@ -1,0 +1,36 @@
+{
+  "call_id": "bed2940e6ee8ec4d0ff5-g_final",
+  "error_type": null,
+  "finish_reason": "stop",
+  "finished_unix": 1790490273.930698,
+  "latency_seconds": 10.1466,
+  "model_version": "mlx-community/Llama-3.1-8B-Instruct-4bit",
+  "raw_response": {
+    "base_seed": 20260927,
+    "finish_reason": "stop",
+    "generation_calls": 164,
+    "id": "local-11f64bdfc75e5219a6185000",
+    "seed": 1223169894,
+    "snapshot": "<LOCAL_PATH>",
+    "text": "{\"action\": {\"kind\": \"CONTINUE\", \"question_slot\": null, \"required_slots\": [], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"장 선생님\", \"강 선생님이\"], \"fact\": {\"relation\": \"learned_from\", \"source_turns\": [\"t1\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"장 선생님\"}, \"operation\": \"HOLD\", \"slot\": \"learned_from\", \"source_turns\": [\"t1\"], \"target_fact_id\": null}], \"reply\": \"동창은 강 선생님이라고 기억한대요. 누구 기억이 맞는지 모르니 선생님 이름은 보류해요.\"}",
+    "usage": {
+      "cached_tokens": null,
+      "input_tokens": 1920,
+      "output_tokens": 154,
+      "reasoning_tokens": null,
+      "total_tokens": 2074
+    }
+  },
+  "request_sha256": "ae24d4517349bbbfe8cf95fbba864c33f18a4e846d54c0f47bb4a3a27ef35152",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790490263.7836852,
+  "status": "OK",
+  "text": "{\"action\": {\"kind\": \"CONTINUE\", \"question_slot\": null, \"required_slots\": [], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"장 선생님\", \"강 선생님이\"], \"fact\": {\"relation\": \"learned_from\", \"source_turns\": [\"t1\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"장 선생님\"}, \"operation\": \"HOLD\", \"slot\": \"learned_from\", \"source_turns\": [\"t1\"], \"target_fact_id\": null}], \"reply\": \"동창은 강 선생님이라고 기억한대요. 누구 기억이 맞는지 모르니 선생님 이름은 보류해요.\"}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1920,
+    "output_tokens": 154,
+    "reasoning_tokens": null,
+    "total_tokens": 2074
+  }
+}

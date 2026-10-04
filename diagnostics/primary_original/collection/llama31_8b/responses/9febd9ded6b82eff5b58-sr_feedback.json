@@ -1,0 +1,36 @@
+{
+  "call_id": "9febd9ded6b82eff5b58-sr_feedback",
+  "error_type": null,
+  "finish_reason": "length",
+  "finished_unix": 1790493063.634228,
+  "latency_seconds": 19.2417,
+  "model_version": "mlx-community/Llama-3.1-8B-Instruct-4bit",
+  "raw_response": {
+    "base_seed": 20260927,
+    "finish_reason": "length",
+    "generation_calls": 407,
+    "id": "local-a460b445edb916862b5157b1",
+    "seed": 4147392334,
+    "snapshot": "<LOCAL_PATH>",
+    "text": "{\"issues\": [{\"draft_location\": \"memory_decisions.0.fact.relation\", \"evidence_location\": \"candidates.0.text\", \"problem\": \"미확정 사실 HOLD로 저장할 수 없다. relation은 'travel_destination'이지만, fact_id가 없다.\", \"specific_revision\": \"relation을 'travel_destination'에서 'travel_place'으로 바꾸고 fact_id를 추가하라.\"}, {\"draft_location\": \"memory_decisions.0.fact.value\", \"evidence_location\": \"candidates.0.text\", \"problem\": \"미확정 사실 HOLD로 저장할 수 없다. value는 '동해'이지만, fact_id가 없다.\", \"specific_revision\": \"value를 '동해'에서 '동해를 다녀오다'로 바꾸고 fact_id를 추가하라.\"}, {\"draft_location\": \"memory_decisions.1.fact.relation\", \"evidence_location\": \"candidates.1.text\", \"problem\": \"미확정 사실 HOLD로 저장할 수 없다. relation은 'travel_destination'이지만, fact_id가 없다.\", \"specific_revision\": \"relation을 'travel_destination'에서 'travel_place'으로 바꾸고 fact_id를 추가하라.\"}, {\"draft_location\": \"memory_decisions.1.fact.value\", \"evidence_location\": \"candidates.1.text\", \"problem\": \"미확정 사실 HOLD로 저장할 수 없다. value는 '통영'이지만, fact_id가 없다.\", \"specific_revision\": \"value를 '통영을 다녀오다'로 바꾸고 fact_id를 추가하라.\"}, {\"draft_location\": \"memory_decisions.0.fact\", \"evidence_location\": \"db_snapshot.facts.0\", \"problem\": \"기존 사실을 참조하지 않고 새로운 사실을 생성하지 말라.\", \"specific_revision\": \"기존 fact_id를 참조하거나, 기존 사실을 참조하지 않고 새로운 사실을 생성하지 말라.\"}, {\"draft_location\": \"memory_decisions.1.fact\", \"evidence_location\": \"db_snapshot.facts.0\", \"problem\": \"기존 사실을 참조하지 않고 새로운 사실을 생성하지 말라.\", \"specific_revision\": \"기존 fact_id를 참조하거나, 기존 사실을 참조하지 않고 새로운 사실을 생성하지 말라.\"}, {\"draft_location\": \"memory_decisions.0\", \"evidence_location\": \"history",
+    "usage": {
+      "cached_tokens": null,
+      "input_tokens": 1566,
+      "output_tokens": 512,
+      "reasoning_tokens": null,
+      "total_tokens": 2078
+    }
+  },
+  "request_sha256": "2bd739b58fe0d618d0a3ce1d4d34baf4f8f72d442ab3fcda57491f2a1803f24d",
+  "stage_schema_sha256": "377e252cf02129ba34bbc867118dd2b9c6b65042b3fcd7b44099d2fc6e0513ed",
+  "started_unix": 1790493044.392106,
+  "status": "OK",
+  "text": "{\"issues\": [{\"draft_location\": \"memory_decisions.0.fact.relation\", \"evidence_location\": \"candidates.0.text\", \"problem\": \"미확정 사실 HOLD로 저장할 수 없다. relation은 'travel_destination'이지만, fact_id가 없다.\", \"specific_revision\": \"relation을 'travel_destination'에서 'travel_place'으로 바꾸고 fact_id를 추가하라.\"}, {\"draft_location\": \"memory_decisions.0.fact.value\", \"evidence_location\": \"candidates.0.text\", \"problem\": \"미확정 사실 HOLD로 저장할 수 없다. value는 '동해'이지만, fact_id가 없다.\", \"specific_revision\": \"value를 '동해'에서 '동해를 다녀오다'로 바꾸고 fact_id를 추가하라.\"}, {\"draft_location\": \"memory_decisions.1.fact.relation\", \"evidence_location\": \"candidates.1.text\", \"problem\": \"미확정 사실 HOLD로 저장할 수 없다. relation은 'travel_destination'이지만, fact_id가 없다.\", \"specific_revision\": \"relation을 'travel_destination'에서 'travel_place'으로 바꾸고 fact_id를 추가하라.\"}, {\"draft_location\": \"memory_decisions.1.fact.value\", \"evidence_location\": \"candidates.1.text\", \"problem\": \"미확정 사실 HOLD로 저장할 수 없다. value는 '통영'이지만, fact_id가 없다.\", \"specific_revision\": \"value를 '통영을 다녀오다'로 바꾸고 fact_id를 추가하라.\"}, {\"draft_location\": \"memory_decisions.0.fact\", \"evidence_location\": \"db_snapshot.facts.0\", \"problem\": \"기존 사실을 참조하지 않고 새로운 사실을 생성하지 말라.\", \"specific_revision\": \"기존 fact_id를 참조하거나, 기존 사실을 참조하지 않고 새로운 사실을 생성하지 말라.\"}, {\"draft_location\": \"memory_decisions.1.fact\", \"evidence_location\": \"db_snapshot.facts.0\", \"problem\": \"기존 사실을 참조하지 않고 새로운 사실을 생성하지 말라.\", \"specific_revision\": \"기존 fact_id를 참조하거나, 기존 사실을 참조하지 않고 새로운 사실을 생성하지 말라.\"}, {\"draft_location\": \"memory_decisions.0\", \"evidence_location\": \"history",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1566,
+    "output_tokens": 512,
+    "reasoning_tokens": null,
+    "total_tokens": 2078
+  }
+}

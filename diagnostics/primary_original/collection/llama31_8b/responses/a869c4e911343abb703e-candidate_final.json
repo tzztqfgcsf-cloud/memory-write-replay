@@ -1,0 +1,36 @@
+{
+  "call_id": "a869c4e911343abb703e-candidate_final",
+  "error_type": null,
+  "finish_reason": "stop",
+  "finished_unix": 1790491818.990704,
+  "latency_seconds": 17.6245,
+  "model_version": "mlx-community/Llama-3.1-8B-Instruct-4bit",
+  "raw_response": {
+    "base_seed": 20260927,
+    "finish_reason": "stop",
+    "generation_calls": 298,
+    "id": "local-2c517eaff379149279814bad",
+    "seed": 1280663812,
+    "snapshot": "<LOCAL_PATH>",
+    "text": "{\"action\": {\"kind\": \"CLARIFY\", \"question_slot\": \"workplace\", \"required_slots\": [\"workplace\"], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"중앙인쇄소\"], \"fact\": {\"relation\": \"workplace\", \"source_turns\": [\"t1\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"중앙인쇄소\"}, \"operation\": \"APPEND\", \"slot\": \"workplace\", \"source_turns\": [\"t1\"], \"target_fact_id\": null}, {\"alternatives\": [\"중앙인쇄소\"], \"fact\": {\"relation\": \"workplace\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"중앙인쇄소\"}, \"operation\": \"APPEND\", \"slot\": \"workplace\", \"source_turns\": [\"t2\"], \"target_fact_id\": null}, {\"alternatives\": [\"중앙인쇄소\"], \"fact\": {\"relation\": \"workplace\", \"source_turns\": [\"t1\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"중앙인쇄소\"}, \"operation\": \"CORRECT\", \"slot\": \"workplace\", \"source_turns\": [\"t1\"], \"target_fact_id\": \"f1\"}, {\"alternatives\": [\"중앙인쇄소\"], \"fact\": {\"relation\": \"workplace\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"중앙인쇄소\"}, \"operation\": \"CORRECT\", \"slot\": \"workplace\", \"source_turns\": [\"t2\"], \"target_fact_id\": \"f1\"}], \"reply\": \"현재 직장은 호수식당이에요. 첫 직장도 경력에 별도로 적을까요?\"}",
+    "usage": {
+      "cached_tokens": null,
+      "input_tokens": 2108,
+      "output_tokens": 411,
+      "reasoning_tokens": null,
+      "total_tokens": 2519
+    }
+  },
+  "request_sha256": "8e23313d28328df7909e9b44cffa2651e0c72b8125af27df06aca6aff46d59cf",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790491801.36564,
+  "status": "OK",
+  "text": "{\"action\": {\"kind\": \"CLARIFY\", \"question_slot\": \"workplace\", \"required_slots\": [\"workplace\"], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"중앙인쇄소\"], \"fact\": {\"relation\": \"workplace\", \"source_turns\": [\"t1\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"중앙인쇄소\"}, \"operation\": \"APPEND\", \"slot\": \"workplace\", \"source_turns\": [\"t1\"], \"target_fact_id\": null}, {\"alternatives\": [\"중앙인쇄소\"], \"fact\": {\"relation\": \"workplace\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"중앙인쇄소\"}, \"operation\": \"APPEND\", \"slot\": \"workplace\", \"source_turns\": [\"t2\"], \"target_fact_id\": null}, {\"alternatives\": [\"중앙인쇄소\"], \"fact\": {\"relation\": \"workplace\", \"source_turns\": [\"t1\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"중앙인쇄소\"}, \"operation\": \"CORRECT\", \"slot\": \"workplace\", \"source_turns\": [\"t1\"], \"target_fact_id\": \"f1\"}, {\"alternatives\": [\"중앙인쇄소\"], \"fact\": {\"relation\": \"workplace\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"중앙인쇄소\"}, \"operation\": \"CORRECT\", \"slot\": \"workplace\", \"source_turns\": [\"t2\"], \"target_fact_id\": \"f1\"}], \"reply\": \"현재 직장은 호수식당이에요. 첫 직장도 경력에 별도로 적을까요?\"}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 2108,
+    "output_tokens": 411,
+    "reasoning_tokens": null,
+    "total_tokens": 2519
+  }
+}

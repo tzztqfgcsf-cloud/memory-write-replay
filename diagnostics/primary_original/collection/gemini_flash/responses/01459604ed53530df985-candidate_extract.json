@@ -1,0 +1,57 @@
+{
+  "call_id": "01459604ed53530df985-candidate_extract",
+  "finish_reason": "STOP",
+  "finished_unix": 1790495155.739904,
+  "http_status": 200,
+  "latency_seconds": 1.9071,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.0008408738342860273,
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"beliefs\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"facts\": []\n    },\n    {\n      \"candidate_id\": \"c2\",\n      \"facts\": []\n    }\n  ],\n  \"correction_witnesses\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"evidence_quote\": \"\",\n      \"new_value\": \"해뜰상점\",\n      \"polarity\": \"absent\",\n      \"relation\": \"workplace\",\n      \"source_turn\": \"t2\",\n      \"subject\": \"participant\",\n      \"target_fact_id\": \"f1\",\n      \"time\": \"present\"\n    },\n    {\n      \"candidate_id\": \"c2\",\n      \"evidence_quote\": \"\",\n      \"new_value\": \"해뜰상점\",\n      \"polarity\": \"absent\",\n      \"relation\": \"workplace\",\n      \"source_turn\": \"t2\",\n      \"subject\": \"participant\",\n      \"target_fact_id\": \"f1\",\n      \"time\": \"present\"\n    }\n  ]\n}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T07:45:53.971995Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "scm4atupO_CVktwP37SV-Ag",
+    "usageMetadata": {
+      "candidatesTokenCount": 262,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 262
+        }
+      ],
+      "promptTokenCount": 1694,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1694
+        }
+      ],
+      "totalTokenCount": 1956,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "23e0a73baec92cb7599981dc9d6f01d108485fe770850a8902addb4fb8b9f209",
+  "stage_schema_sha256": "bda7326ac6a6cbeedf1ecdbf4a2b08277c078351d6689f667dc0d558c4972dd3",
+  "started_unix": 1790495153.832593,
+  "status": "OK",
+  "text": "{\n  \"beliefs\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"facts\": []\n    },\n    {\n      \"candidate_id\": \"c2\",\n      \"facts\": []\n    }\n  ],\n  \"correction_witnesses\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"evidence_quote\": \"\",\n      \"new_value\": \"해뜰상점\",\n      \"polarity\": \"absent\",\n      \"relation\": \"workplace\",\n      \"source_turn\": \"t2\",\n      \"subject\": \"participant\",\n      \"target_fact_id\": \"f1\",\n      \"time\": \"present\"\n    },\n    {\n      \"candidate_id\": \"c2\",\n      \"evidence_quote\": \"\",\n      \"new_value\": \"해뜰상점\",\n      \"polarity\": \"absent\",\n      \"relation\": \"workplace\",\n      \"source_turn\": \"t2\",\n      \"subject\": \"participant\",\n      \"target_fact_id\": \"f1\",\n      \"time\": \"present\"\n    }\n  ]\n}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1694,
+    "output_tokens": 262,
+    "reasoning_tokens": 0,
+    "total_tokens": 1956
+  }
+}

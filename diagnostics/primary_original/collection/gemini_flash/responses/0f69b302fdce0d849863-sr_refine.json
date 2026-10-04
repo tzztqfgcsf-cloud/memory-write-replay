@@ -1,0 +1,57 @@
+{
+  "call_id": "0f69b302fdce0d849863-sr_refine",
+  "finish_reason": "STOP",
+  "finished_unix": 1790489286.908724,
+  "http_status": 200,
+  "latency_seconds": 1.4148,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.00020738567358681134,
+        "content": {
+          "parts": [
+            {
+              "text": "{\"reply\": \"네, 알겠습니다. 정기 모임 장소는 시민회관으로 유지됩니다.\", \"action\": {\"kind\": \"CONTINUE\", \"question_slot\": null, \"required_slots\": [], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [], \"fact\": {\"relation\": \"meeting_place\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"시민회관\"}, \"operation\": \"CORRECT\", \"slot\": null, \"source_turns\": [\"t2\"], \"target_fact_id\": \"f1\"}]}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T06:08:05.621032Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "xbK4aujzJemMx9gP69GymAQ",
+    "usageMetadata": {
+      "candidatesTokenCount": 140,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 140
+        }
+      ],
+      "promptTokenCount": 1961,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1961
+        }
+      ],
+      "totalTokenCount": 2101,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "3d7c3a1889ddbba87e3904f2477efc3d5ab810350540c71774b63c34f4ed9279",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790489285.4935858,
+  "status": "OK",
+  "text": "{\"reply\": \"네, 알겠습니다. 정기 모임 장소는 시민회관으로 유지됩니다.\", \"action\": {\"kind\": \"CONTINUE\", \"question_slot\": null, \"required_slots\": [], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [], \"fact\": {\"relation\": \"meeting_place\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"시민회관\"}, \"operation\": \"CORRECT\", \"slot\": null, \"source_turns\": [\"t2\"], \"target_fact_id\": \"f1\"}]}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1961,
+    "output_tokens": 140,
+    "reasoning_tokens": 0,
+    "total_tokens": 2101
+  }
+}

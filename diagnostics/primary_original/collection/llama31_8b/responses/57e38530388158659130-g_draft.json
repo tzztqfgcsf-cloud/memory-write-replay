@@ -1,0 +1,36 @@
+{
+  "call_id": "57e38530388158659130-g_draft",
+  "error_type": null,
+  "finish_reason": "stop",
+  "finished_unix": 1790489068.885897,
+  "latency_seconds": 9.0991,
+  "model_version": "mlx-community/Llama-3.1-8B-Instruct-4bit",
+  "raw_response": {
+    "base_seed": 20260927,
+    "finish_reason": "stop",
+    "generation_calls": 49,
+    "id": "local-ad53e85e21adffd63c05ae35",
+    "seed": 2366461603,
+    "snapshot": "<LOCAL_PATH>",
+    "text": "{\"action\": {\"kind\": \"CONTINUE\", \"question_slot\": \"preferred_contact\", \"required_slots\": [\"preferred_contact\"], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"전화\", \"문자\"], \"fact\": {\"relation\": \"preferred_contact\", \"source_turns\": [\"t1\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"전화\"}, \"operation\": \"NO_WRITE\", \"slot\": \"preferred_contact\", \"source_turns\": [\"t1\"], \"target_fact_id\": null}], \"reply\": \"네, 이제는 문자로 받아요. 연락 방법도 문자로 바꿔 저장해요.\"}",
+    "usage": {
+      "cached_tokens": null,
+      "input_tokens": 1695,
+      "output_tokens": 145,
+      "reasoning_tokens": null,
+      "total_tokens": 1840
+    }
+  },
+  "request_sha256": "2d7a1ffdbd75b6033eb25b9ec46647ee3282465c210b03e64ca9e1ee4c5a1374",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790489059.786616,
+  "status": "OK",
+  "text": "{\"action\": {\"kind\": \"CONTINUE\", \"question_slot\": \"preferred_contact\", \"required_slots\": [\"preferred_contact\"], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"전화\", \"문자\"], \"fact\": {\"relation\": \"preferred_contact\", \"source_turns\": [\"t1\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"전화\"}, \"operation\": \"NO_WRITE\", \"slot\": \"preferred_contact\", \"source_turns\": [\"t1\"], \"target_fact_id\": null}], \"reply\": \"네, 이제는 문자로 받아요. 연락 방법도 문자로 바꿔 저장해요.\"}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1695,
+    "output_tokens": 145,
+    "reasoning_tokens": null,
+    "total_tokens": 1840
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "status": "OK",
+  "http_status": 200,
+  "text": "{\n  \"decisions\": [\n    {\n      \"index\": 0,\n      \"approve\": false,\n      \"reason\": \"이미 데이터베이스에 존재하는 정보이므로 추가할 필요가 없습니다.\"\n    }\n  ]\n}",
+  "usage": {
+    "input_tokens": 728,
+    "output_tokens": 54,
+    "reasoning_tokens": 117,
+    "total_tokens": 899,
+    "cached_tokens": null
+  },
+  "finish_reason": "STOP",
+  "model_version": "gemini-3.1-pro-preview",
+  "id": "qwen3_14b_CT08_judge",
+  "key": "qwen3_14b_CT08",
+  "stage": "judge",
+  "arm": "judge",
+  "requested_model": "gemini-3.1-pro-preview",
+  "latency_seconds": 2.9832076670136303
+}

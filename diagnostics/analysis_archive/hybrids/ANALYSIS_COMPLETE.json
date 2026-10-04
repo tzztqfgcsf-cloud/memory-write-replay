@@ -1,0 +1,11 @@
+{
+  "status": "COMPLETE",
+  "new_rows_scored_once": 15120,
+  "old_scores_read_only": true,
+  "bootstrap_draws": 5000,
+  "seed": 20261001,
+  "unit": "case, all repeats and model configurations jointly clustered for ALL21",
+  "model_calls": 0,
+  "conditions_fixed_before_outcomes": true,
+  "inference": "exploratory pointwise intervals; selected fixed configurations, no population-of-models claim"
+}

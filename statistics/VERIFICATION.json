@@ -1,0 +1,138 @@
+{
+  "schema": "portable-frozen-statistics-verification-v1",
+  "status": "PASS",
+  "scope": "Existing frozen-score statistics only; no new scoring or hypothesis evaluation",
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "pandas": "2.2.3",
+  "episodes": 3024,
+  "score_rows": 42336,
+  "conditions": 14,
+  "selected_configurations": 21,
+  "unique_cases": 48,
+  "repeats": [
+    1,
+    2,
+    3
+  ],
+  "checks": [
+    {
+      "archive": "diagnostics/analysis_archive/hybrids/paired_comparisons.csv",
+      "rows": 792,
+      "columns_compared": [
+        "model_alias",
+        "candidate",
+        "baseline",
+        "metric",
+        "cases",
+        "observations",
+        "before",
+        "after",
+        "gains",
+        "losses",
+        "net",
+        "delta_pp",
+        "ci_low_pp",
+        "ci_high_pp"
+      ],
+      "numeric_absolute_tolerance": 1e-12,
+      "mismatch_count": 0,
+      "mismatches": []
+    },
+    {
+      "archive": "diagnostics/analysis_archive/review_bounds/paired_comparisons.csv",
+      "rows": 880,
+      "columns_compared": [
+        "model_alias",
+        "candidate",
+        "baseline",
+        "metric",
+        "cases",
+        "observations",
+        "before",
+        "after",
+        "gains",
+        "losses",
+        "delta_pp",
+        "ci_low_pp",
+        "ci_high_pp"
+      ],
+      "numeric_absolute_tolerance": 1e-12,
+      "mismatch_count": 0,
+      "mismatches": []
+    },
+    {
+      "archive": "diagnostics/analysis_archive/panel21/model_comparisons.csv",
+      "rows": 84,
+      "columns_compared": [
+        "model",
+        "label",
+        "group",
+        "metric",
+        "repeats",
+        "cases",
+        "observations",
+        "before_count",
+        "after_count",
+        "raw_effect",
+        "raw_ci_low",
+        "raw_ci_high",
+        "interval_source",
+        "benefit_effect",
+        "benefit_ci_low",
+        "benefit_ci_high"
+      ],
+      "numeric_absolute_tolerance": 1e-12,
+      "mismatch_count": 0,
+      "mismatches": []
+    }
+  ],
+  "condition_totals_archived_check": {
+    "rows": 5,
+    "mismatches": []
+  },
+  "panel_intervals_recomputed": 44,
+  "panel_intervals_unavailable": 40,
+  "source_hashes": {
+    "core/data/episodes.json.gz": "e83ee8dfd49cc27dc3987c021ec1fd7d549f20dcd796411256e9f1c0dae6f926",
+    "core/data/cohort.json": "fdf2ea1cd458728937a9f9a087b6e8bec72e523093eaad34e07f16463d605a9a",
+    "diagnostics/analysis_archive/hybrids/paired_comparisons.csv": "9ec606aa61595f2f15c69ba88e53fdff2a562b77111c7ea2d3cad2ae1418b121",
+    "diagnostics/analysis_archive/review_bounds/paired_comparisons.csv": "2b054951a7c549e1cce4229e1bce61d4b32eef1bd2b239f2c3d18c8ebae3f873",
+    "diagnostics/analysis_archive/panel21/model_comparisons.csv": "404a1f3f5e152de9ddc9fb19de4ee55177fcc4309f3ed2c2a5c845ea181037e3",
+    "diagnostics/analysis_archive/review_bounds/SUMMARY.json": "b8dd88d292cb1d8cb4ce6c18dcc8f53f7be1000a777241b7a6e04f0fa20fbcfd"
+  },
+  "source_files_unchanged": true,
+  "entrypoint_sha256": "3ed4923b0298fae79425992a4f4984fa776f92c168bf850bec4116b8e13d3f99",
+  "requirements_sha256": "6979eeaed30ec7f45ff725f33240136e49c396fdf8a5ef12964fb2960c8a5d1e",
+  "network_calls": 0,
+  "model_calls": 0,
+  "new_scored_rows": 0,
+  "original_scores_overwritten": 0,
+  "archived_analysis_overwritten": 0,
+  "numeric_equality_note": "Counts exact; all CSV floating fields within absolute 1e-12 (round-off tolerance).",
+  "release_verification": {
+    "execution": "Relocated public-file copy, working directory outside the original project",
+    "public_files_copied": 8,
+    "public_copy_input_hashes_match_release": true,
+    "public_copy_entrypoint_matches_release": true,
+    "python_runtime": "Bundled artifact runtime; no model environment modified",
+    "lint": "PASS",
+    "negative_checks": [
+      {
+        "test": "One changed ci_low_pp in disposable archived-CSV copy",
+        "expected_exit": 1,
+        "actual_exit": 1,
+        "detected_fields": 1,
+        "status": "PASS"
+      },
+      {
+        "test": "Output path inside disposable source repository",
+        "expected_exit": 1,
+        "actual_exit": 1,
+        "status": "PASS"
+      }
+    ],
+    "review_hypotheses_reassessed": false,
+    "missing_panel_intervals_generated": 0
+  }
+}

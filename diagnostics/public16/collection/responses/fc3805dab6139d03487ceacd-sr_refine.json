@@ -1,0 +1,56 @@
+{
+  "call_id": "fc3805dab6139d03487ceacd-sr_refine",
+  "cost_note": "provider_did_not_report_money",
+  "cost_usd_reported": null,
+  "finish_reason": "STOP",
+  "http_status": 200,
+  "latency_seconds": 2.2264,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.0009627971927107792,
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"reply\": \"Okay, I am looking for a train to Stevenage, arriving by 14:00 on Friday. Is that correct?\",\n  \"action\": {\n    \"kind\": \"CLARIFY\",\n    \"question_slot\": \"other\",\n    \"required_slots\": [],\n    \"speaker_id\": \"system\"\n  },\n  \"memory_decisions\": [\n    {\n      \"alternatives\": [],\n      \"fact\": {\n        \"relation\": \"train.semi.destination\",\n        \"source_turns\": [\n          \"MUL0329.json#turn8\"\n        ],\n        \"subject\": \"MUL0329.json#train.semi\",\n        \"time\": \"unknown\",\n        \"value\": \"stevenage\"\n      },\n      \"operation\": \"NO_WRITE\",\n      \"slot\": \"train.semi.destination\",\n      \"source_turns\": [\n        \"MUL0329.json#turn8\"\n      ],\n      \"target_fact_id\": null\n    },\n    {\n      \"alternatives\": [],\n      \"fact\": {\n        \"relation\": \"train.semi.leaveAt\",\n        \"source_turns\": [\n          \"MUL0329.json#turn8\"\n        ],\n        \"subject\": \"MUL0329.json#train.semi\",\n        \"time\": \"unknown\",\n        \"value\": \"14:00\"\n      },\n      \"operation\": \"APPEND\",\n      \"slot\": \"train.semi.leaveAt\",\n      \"source_turns\": [\n        \"MUL0329.json#turn8\"\n      ],\n      \"target_fact_id\": null\n    },\n    {\n      \"alternatives\": [],\n      \"fact\": {\n        \"relation\": \"train.semi.day\",\n        \"source_turns\": [\n          \"MUL0329.json#turn8\"\n        ],\n        \"subject\": \"MUL0329.json#train.semi\",\n        \"time\": \"unknown\",\n        \"value\": \"friday\"\n      },\n      \"operation\": \"APPEND\",\n      \"slot\": \"train.semi.day\",\n      \"source_turns\": [\n        \"MUL0329.json#turn8\"\n      ],\n      \"target_fact_id\": null\n    }\n  ]\n}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T23:22:34.247954Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "OqW5apKRD_GancoP76ybiQ0",
+    "usageMetadata": {
+      "candidatesTokenCount": 549,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 549
+        }
+      ],
+      "promptTokenCount": 2606,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 2606
+        }
+      ],
+      "totalTokenCount": 3155,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "deca861881564eef8023e319ca8190cade9cc43f560c6f32ee3d81b7ed66e3ac",
+  "status": "OK",
+  "text": "{\n  \"reply\": \"Okay, I am looking for a train to Stevenage, arriving by 14:00 on Friday. Is that correct?\",\n  \"action\": {\n    \"kind\": \"CLARIFY\",\n    \"question_slot\": \"other\",\n    \"required_slots\": [],\n    \"speaker_id\": \"system\"\n  },\n  \"memory_decisions\": [\n    {\n      \"alternatives\": [],\n      \"fact\": {\n        \"relation\": \"train.semi.destination\",\n        \"source_turns\": [\n          \"MUL0329.json#turn8\"\n        ],\n        \"subject\": \"MUL0329.json#train.semi\",\n        \"time\": \"unknown\",\n        \"value\": \"stevenage\"\n      },\n      \"operation\": \"NO_WRITE\",\n      \"slot\": \"train.semi.destination\",\n      \"source_turns\": [\n        \"MUL0329.json#turn8\"\n      ],\n      \"target_fact_id\": null\n    },\n    {\n      \"alternatives\": [],\n      \"fact\": {\n        \"relation\": \"train.semi.leaveAt\",\n        \"source_turns\": [\n          \"MUL0329.json#turn8\"\n        ],\n        \"subject\": \"MUL0329.json#train.semi\",\n        \"time\": \"unknown\",\n        \"value\": \"14:00\"\n      },\n      \"operation\": \"APPEND\",\n      \"slot\": \"train.semi.leaveAt\",\n      \"source_turns\": [\n        \"MUL0329.json#turn8\"\n      ],\n      \"target_fact_id\": null\n    },\n    {\n      \"alternatives\": [],\n      \"fact\": {\n        \"relation\": \"train.semi.day\",\n        \"source_turns\": [\n          \"MUL0329.json#turn8\"\n        ],\n        \"subject\": \"MUL0329.json#train.semi\",\n        \"time\": \"unknown\",\n        \"value\": \"friday\"\n      },\n      \"operation\": \"APPEND\",\n      \"slot\": \"train.semi.day\",\n      \"source_turns\": [\n        \"MUL0329.json#turn8\"\n      ],\n      \"target_fact_id\": null\n    }\n  ]\n}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 2606,
+    "output_tokens": 549,
+    "reasoning_tokens": 0,
+    "total_tokens": 3155
+  }
+}

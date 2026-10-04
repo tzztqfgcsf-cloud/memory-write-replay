@@ -1,0 +1,36 @@
+{
+  "call_id": "c002d5b380ff00644b7b-sr_refine",
+  "error_type": null,
+  "finish_reason": "stop",
+  "finished_unix": 1790489515.408098,
+  "latency_seconds": 11.6332,
+  "model_version": "mlx-community/Llama-3.1-8B-Instruct-4bit",
+  "raw_response": {
+    "base_seed": 20260927,
+    "finish_reason": "stop",
+    "generation_calls": 90,
+    "id": "local-29fa0019fbc15ce776570a1f",
+    "seed": 1025933497,
+    "snapshot": "<LOCAL_PATH>",
+    "text": "{\"action\": {\"kind\": \"CONTINUE\", \"question_slot\": \"meeting_place\", \"required_slots\": [\"meeting_place\"], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"복지관\", \"시민회관\"], \"fact\": {\"relation\": \"meeting_place\", \"source_turns\": [\"t1\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"시민회관\"}, \"operation\": \"CORRECT\", \"slot\": \"meeting_place\", \"source_turns\": [\"t1\"], \"target_fact_id\": \"f1\"}, {\"alternatives\": [], \"fact\": null, \"operation\": \"NO_WRITE\", \"slot\": null, \"source_turns\": [], \"target_fact_id\": null}], \"reply\": \"복지관으로 옮겼다는 말은 취소예요. 모임은 계속 시민회관이고 기록도 그대로요.\"}",
+    "usage": {
+      "cached_tokens": null,
+      "input_tokens": 2042,
+      "output_tokens": 195,
+      "reasoning_tokens": null,
+      "total_tokens": 2237
+    }
+  },
+  "request_sha256": "4cbf920e9967446acb40d78e30c430b34fa8028916192c97e3e1d85e6b690302",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790489503.774507,
+  "status": "OK",
+  "text": "{\"action\": {\"kind\": \"CONTINUE\", \"question_slot\": \"meeting_place\", \"required_slots\": [\"meeting_place\"], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"복지관\", \"시민회관\"], \"fact\": {\"relation\": \"meeting_place\", \"source_turns\": [\"t1\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"시민회관\"}, \"operation\": \"CORRECT\", \"slot\": \"meeting_place\", \"source_turns\": [\"t1\"], \"target_fact_id\": \"f1\"}, {\"alternatives\": [], \"fact\": null, \"operation\": \"NO_WRITE\", \"slot\": null, \"source_turns\": [], \"target_fact_id\": null}], \"reply\": \"복지관으로 옮겼다는 말은 취소예요. 모임은 계속 시민회관이고 기록도 그대로요.\"}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 2042,
+    "output_tokens": 195,
+    "reasoning_tokens": null,
+    "total_tokens": 2237
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "call_id": "5dda5b60373c82883ff3-g_final",
+  "finish_reason": "STOP",
+  "finished_unix": 1790491678.268966,
+  "http_status": 200,
+  "latency_seconds": 1.3946,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.005887644470862622,
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"reply\": \"네, 예전에는 편지를 좋아하셨다는 것을 기억해 둘게요. 현재 영상통화를 선호하시는 것은 그대로 유지됩니다.\",\n  \"action\": {\n    \"kind\": \"CONTINUE\",\n    \"question_slot\": null,\n    \"required_slots\": [],\n    \"speaker_id\": \"p1\"\n  },\n  \"memory_decisions\": [\n    {\n      \"alternatives\": [],\n      \"fact\": {\n        \"relation\": \"preferred_contact\",\n        \"source_turns\": [\n          \"t2\"\n        ],\n        \"subject\": \"participant\",\n        \"time\": \"past\",\n        \"value\": \"편지\"\n      },\n      \"operation\": \"APPEND\",\n      \"slot\": null,\n      \"source_turns\": [\n        \"t2\"\n      ],\n      \"target_fact_id\": null\n    }\n  ]\n}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T06:47:56.977611Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "HLy4asvVO5-cx9gPtNDSwA0",
+    "usageMetadata": {
+      "candidatesTokenCount": 212,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 212
+        }
+      ],
+      "promptTokenCount": 1895,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1895
+        }
+      ],
+      "totalTokenCount": 2107,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "51f135e494b986c97daaf572c5757341871bce5a72c0512d8a81fefcfb62a8e9",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790491676.873868,
+  "status": "OK",
+  "text": "{\n  \"reply\": \"네, 예전에는 편지를 좋아하셨다는 것을 기억해 둘게요. 현재 영상통화를 선호하시는 것은 그대로 유지됩니다.\",\n  \"action\": {\n    \"kind\": \"CONTINUE\",\n    \"question_slot\": null,\n    \"required_slots\": [],\n    \"speaker_id\": \"p1\"\n  },\n  \"memory_decisions\": [\n    {\n      \"alternatives\": [],\n      \"fact\": {\n        \"relation\": \"preferred_contact\",\n        \"source_turns\": [\n          \"t2\"\n        ],\n        \"subject\": \"participant\",\n        \"time\": \"past\",\n        \"value\": \"편지\"\n      },\n      \"operation\": \"APPEND\",\n      \"slot\": null,\n      \"source_turns\": [\n        \"t2\"\n      ],\n      \"target_fact_id\": null\n    }\n  ]\n}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1895,
+    "output_tokens": 212,
+    "reasoning_tokens": 0,
+    "total_tokens": 2107
+  }
+}

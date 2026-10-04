@@ -1,0 +1,57 @@
+{
+  "call_id": "947fa8c2c7e0389110c7-sr_feedback",
+  "finish_reason": "MAX_TOKENS",
+  "finished_unix": 1790492003.1134,
+  "http_status": 200,
+  "latency_seconds": 3.2794,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.1764782816171646,
+        "content": {
+          "parts": [
+            {
+              "text": "{\"no_change_needed\": false, \"issues\": [{\"draft_location\": \"memory_decisions[0].fact.time\", \"evidence_location\": \"t2.candidates[0].text\", \"problem\": \"The 'time' value for the '우표수집' hobby is inferred as 'past' based on '어릴 땐', but the user explicitly states '어릴 때 취미로 우표수집을 추가해요.' which implies it's a past hobby. The current draft correctly identifies 'past' but the problem description is slightly off.\", \"specific_revision\": \"The 'time' value 'past' is correct based on the user's explicit statement '어릴 때 취미로 우표수집을 추가해요.'\"}, {\"draft_location\": \"memory_decisions[0].source_turns\", \"evidence_location\": \"t2.candidates[0].text\", \"problem\": \"The 'source_turns' for the new fact should reflect the turn where the information was provided. The draft uses ['t2'], which is correct.\", \"specific_revision\": \"The 'source_turns' ['t2'] is correct as the information is provided in turn t2.\"}, {\"draft_location\": \"memory_decisions[0].fact.value\", \"evidence_location\": \"t2.candidates[0].text\", \"problem\": \"The 'value' for the new hobby fact is '우표수집', which is correctly extracted from the candidate text.\", \"specific_revision\": \"The 'value' '우표수집' is correctly extracted.\"}, {\"draft_location\": \"memory_decisions[0].operation\", \"evidence_location\": \"t2.candidates[0].text\", \"problem\": \"The operation is 'APPEND' for a new fact, which is correct.\", \"specific_revision\": \"The 'APPEND' operation is correct for adding a new fact.\"}, {\"draft_location\": \"memory_decisions[0].fact.relation\", \"evidence_location\": \"t2.candidates[0].text\", \"problem\": \"The 'relation' for the new fact is 'hobby', which is correctly identified.\", \"specific_revision\": \"The 'relation' 'hobby' is correctly identified.\"}, {\"draft_location\": \"memory_decisions[0].fact.subject\", \"evidence_location\": \"t2.speaker_id\", \"problem\": \"The 'subject"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "MAX_TOKENS"
+      }
+    ],
+    "createTime": "2026-09-27T06:53:19.925507Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "X724asO-OPObncoPmvuomAI",
+    "usageMetadata": {
+      "candidatesTokenCount": 512,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 512
+        }
+      ],
+      "promptTokenCount": 1410,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1410
+        }
+      ],
+      "totalTokenCount": 1922,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "a025435bc60ca13ff53815156c0473f47d3a44f473d630c0ab5ba4c971c17af4",
+  "stage_schema_sha256": "377e252cf02129ba34bbc867118dd2b9c6b65042b3fcd7b44099d2fc6e0513ed",
+  "started_unix": 1790491999.8337312,
+  "status": "OK",
+  "text": "{\"no_change_needed\": false, \"issues\": [{\"draft_location\": \"memory_decisions[0].fact.time\", \"evidence_location\": \"t2.candidates[0].text\", \"problem\": \"The 'time' value for the '우표수집' hobby is inferred as 'past' based on '어릴 땐', but the user explicitly states '어릴 때 취미로 우표수집을 추가해요.' which implies it's a past hobby. The current draft correctly identifies 'past' but the problem description is slightly off.\", \"specific_revision\": \"The 'time' value 'past' is correct based on the user's explicit statement '어릴 때 취미로 우표수집을 추가해요.'\"}, {\"draft_location\": \"memory_decisions[0].source_turns\", \"evidence_location\": \"t2.candidates[0].text\", \"problem\": \"The 'source_turns' for the new fact should reflect the turn where the information was provided. The draft uses ['t2'], which is correct.\", \"specific_revision\": \"The 'source_turns' ['t2'] is correct as the information is provided in turn t2.\"}, {\"draft_location\": \"memory_decisions[0].fact.value\", \"evidence_location\": \"t2.candidates[0].text\", \"problem\": \"The 'value' for the new hobby fact is '우표수집', which is correctly extracted from the candidate text.\", \"specific_revision\": \"The 'value' '우표수집' is correctly extracted.\"}, {\"draft_location\": \"memory_decisions[0].operation\", \"evidence_location\": \"t2.candidates[0].text\", \"problem\": \"The operation is 'APPEND' for a new fact, which is correct.\", \"specific_revision\": \"The 'APPEND' operation is correct for adding a new fact.\"}, {\"draft_location\": \"memory_decisions[0].fact.relation\", \"evidence_location\": \"t2.candidates[0].text\", \"problem\": \"The 'relation' for the new fact is 'hobby', which is correctly identified.\", \"specific_revision\": \"The 'relation' 'hobby' is correctly identified.\"}, {\"draft_location\": \"memory_decisions[0].fact.subject\", \"evidence_location\": \"t2.speaker_id\", \"problem\": \"The 'subject",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1410,
+    "output_tokens": 512,
+    "reasoning_tokens": 0,
+    "total_tokens": 1922
+  }
+}

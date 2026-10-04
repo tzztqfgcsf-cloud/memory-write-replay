@@ -1,0 +1,55 @@
+{
+  "status": "OK",
+  "http_status": 200,
+  "text": "{\n  \"reply\": \"네, 광주로 이사하지 않으셨군요. 현재 거주지는 대전으로 유지하겠습니다.\",\n  \"action\": {\n    \"kind\": \"CONTINUE\",\n    \"question_slot\": null,\n    \"required_slots\": [],\n    \"speaker_id\": \"p1\"\n  },\n  \"memory_decisions\": [\n    {\n      \"alternatives\": [],\n      \"fact\": {\n        \"relation\": \"residence\",\n        \"source_turns\": [\n          \"t1\",\n          \"t2\"\n        ],\n        \"subject\": \"participant\",\n        \"time\": \"present\",\n        \"value\": \"대전\"\n      },\n      \"operation\": \"CORRECT\",\n      \"slot\": null,\n      \"source_turns\": [\n        \"t2\"\n      ],\n      \"target_fact_id\": \"f1\"\n    }\n  ]\n}",
+  "usage": {
+    "input_tokens": 1876,
+    "output_tokens": 214,
+    "reasoning_tokens": 0,
+    "total_tokens": 2090,
+    "cached_tokens": null
+  },
+  "finish_reason": "STOP",
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "content": {
+          "role": "model",
+          "parts": [
+            {
+              "text": "{\n  \"reply\": \"네, 광주로 이사하지 않으셨군요. 현재 거주지는 대전으로 유지하겠습니다.\",\n  \"action\": {\n    \"kind\": \"CONTINUE\",\n    \"question_slot\": null,\n    \"required_slots\": [],\n    \"speaker_id\": \"p1\"\n  },\n  \"memory_decisions\": [\n    {\n      \"alternatives\": [],\n      \"fact\": {\n        \"relation\": \"residence\",\n        \"source_turns\": [\n          \"t1\",\n          \"t2\"\n        ],\n        \"subject\": \"participant\",\n        \"time\": \"present\",\n        \"value\": \"대전\"\n      },\n      \"operation\": \"CORRECT\",\n      \"slot\": null,\n      \"source_turns\": [\n        \"t2\"\n      ],\n      \"target_fact_id\": \"f1\"\n    }\n  ]\n}"
+            }
+          ]
+        },
+        "finishReason": "STOP",
+        "avgLogprobs": -0.0016491200043776326
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 1876,
+      "candidatesTokenCount": 214,
+      "totalTokenCount": 2090,
+      "trafficType": "ON_DEMAND",
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1876
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 214
+        }
+      ]
+    },
+    "modelVersion": "gemini-2.5-flash",
+    "createTime": "2026-09-27T11:24:04.809663Z",
+    "responseId": "1Py4ar-1MY-O0ckPoPWH2Ag"
+  },
+  "latency_seconds": 1.4958,
+  "call_id": "N014-g_final",
+  "physical_attempt": true,
+  "completed_unix": 1790508246.148848
+}

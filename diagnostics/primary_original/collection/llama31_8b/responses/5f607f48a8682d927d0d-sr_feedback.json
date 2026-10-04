@@ -1,0 +1,36 @@
+{
+  "call_id": "5f607f48a8682d927d0d-sr_feedback",
+  "error_type": null,
+  "finish_reason": "stop",
+  "finished_unix": 1790495871.341741,
+  "latency_seconds": 6.1141,
+  "model_version": "mlx-community/Llama-3.1-8B-Instruct-4bit",
+  "raw_response": {
+    "base_seed": 20260927,
+    "finish_reason": "stop",
+    "generation_calls": 677,
+    "id": "local-b902a5700023883ebfca6e88",
+    "seed": 529104168,
+    "snapshot": "<LOCAL_PATH>",
+    "text": "{\"issues\": [{\"draft_location\": \"memory_decisions\", \"evidence_location\": \"candidates\", \"problem\": \"unresolved alternative\", \"specific_revision\": \"candidate c2 text: \\\"피곤하네요. 오늘 통화는 종료해요. 새로 남길 것도 없어요.\\\"\"}], \"no_change_needed\": false}",
+    "usage": {
+      "cached_tokens": null,
+      "input_tokens": 1384,
+      "output_tokens": 70,
+      "reasoning_tokens": null,
+      "total_tokens": 1454
+    }
+  },
+  "request_sha256": "c2e35b208f1455ec77aedf64780cb0d2657ce493cd087e7346a1a89210aa7fa3",
+  "stage_schema_sha256": "377e252cf02129ba34bbc867118dd2b9c6b65042b3fcd7b44099d2fc6e0513ed",
+  "started_unix": 1790495865.227477,
+  "status": "OK",
+  "text": "{\"issues\": [{\"draft_location\": \"memory_decisions\", \"evidence_location\": \"candidates\", \"problem\": \"unresolved alternative\", \"specific_revision\": \"candidate c2 text: \\\"피곤하네요. 오늘 통화는 종료해요. 새로 남길 것도 없어요.\\\"\"}], \"no_change_needed\": false}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1384,
+    "output_tokens": 70,
+    "reasoning_tokens": null,
+    "total_tokens": 1454
+  }
+}

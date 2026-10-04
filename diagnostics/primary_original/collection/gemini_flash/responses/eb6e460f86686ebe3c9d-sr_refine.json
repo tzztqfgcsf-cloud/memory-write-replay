@@ -1,0 +1,57 @@
+{
+  "call_id": "eb6e460f86686ebe3c9d-sr_refine",
+  "finish_reason": "STOP",
+  "finished_unix": 1790494897.825653,
+  "http_status": 200,
+  "latency_seconds": 1.2607,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.0007772066486560232,
+        "content": {
+          "parts": [
+            {
+              "text": "{\"reply\": \"네, 알겠습니다. 김제에서 태어나셨군요. 그럼 다른 이야기도 해 볼까요?\", \"action\": {\"kind\": \"CONTINUE\", \"question_slot\": null, \"required_slots\": [], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"김제에서 태어나기는 했어요.\", \"태어난 데는 김제예요.\"], \"fact\": null, \"operation\": \"HOLD\", \"slot\": \"birthplace\", \"source_turns\": [\"t2\"], \"target_fact_id\": null}]}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T07:41:36.714540Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "sMi4aqzOK_CVktwP37SV-Ag",
+    "usageMetadata": {
+      "candidatesTokenCount": 123,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 123
+        }
+      ],
+      "promptTokenCount": 1923,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1923
+        }
+      ],
+      "totalTokenCount": 2046,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "f0c88ab4d619eaf2cd353644dbda3c716971bcfcf0c409a1f3da95598fca7f3a",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790494896.5647302,
+  "status": "OK",
+  "text": "{\"reply\": \"네, 알겠습니다. 김제에서 태어나셨군요. 그럼 다른 이야기도 해 볼까요?\", \"action\": {\"kind\": \"CONTINUE\", \"question_slot\": null, \"required_slots\": [], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"김제에서 태어나기는 했어요.\", \"태어난 데는 김제예요.\"], \"fact\": null, \"operation\": \"HOLD\", \"slot\": \"birthplace\", \"source_turns\": [\"t2\"], \"target_fact_id\": null}]}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1923,
+    "output_tokens": 123,
+    "reasoning_tokens": 0,
+    "total_tokens": 2046
+  }
+}

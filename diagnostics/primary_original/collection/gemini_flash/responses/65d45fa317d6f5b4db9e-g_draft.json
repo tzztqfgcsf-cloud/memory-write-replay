@@ -1,0 +1,64 @@
+{
+  "call_id": "65d45fa317d6f5b4db9e-g_draft",
+  "finish_reason": "STOP",
+  "finished_unix": 1790490616.6718621,
+  "http_status": 200,
+  "latency_seconds": 1.46,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.07755239685969566,
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"reply\": \"네, 알겠습니다. 다솜꽃집이라는 정보는 그대로 유지하고, 혹시 나중에 간판 사진을 보시거나 확실해지면 다시 알려주세요.\",\n  \"action\": {\n    \"kind\": \"CONTINUE\",\n    \"question_slot\": null,\n    \"required_slots\": [],\n    \"speaker_id\": \"p1\"\n  },\n  \"memory_decisions\": [\n    {\n      \"alternatives\": [\n        \"다온꽃집이라 했던 것 같대요\",\n        \"다온꽃집이었을 거라는 말도 들었는데\"\n      ],\n      \"fact\": null,\n      \"operation\": \"HOLD\",\n      \"slot\": \"shop_name\",\n      \"source_turns\": [\n        \"t2\"\n      ],\n      \"target_fact_id\": null\n    }\n  ]\n}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T06:30:15.324400Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "97e4arDmE_ObncoPmvuomAI",
+    "usageMetadata": {
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1212
+        }
+      ],
+      "cachedContentTokenCount": 1212,
+      "candidatesTokenCount": 201,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 201
+        }
+      ],
+      "promptTokenCount": 1701,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1701
+        }
+      ],
+      "totalTokenCount": 1902,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "3dbd2ad1fde2cc3e59424596de02d1b130d62a471890ababdbf67e2e62c74513",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790490615.211375,
+  "status": "OK",
+  "text": "{\n  \"reply\": \"네, 알겠습니다. 다솜꽃집이라는 정보는 그대로 유지하고, 혹시 나중에 간판 사진을 보시거나 확실해지면 다시 알려주세요.\",\n  \"action\": {\n    \"kind\": \"CONTINUE\",\n    \"question_slot\": null,\n    \"required_slots\": [],\n    \"speaker_id\": \"p1\"\n  },\n  \"memory_decisions\": [\n    {\n      \"alternatives\": [\n        \"다온꽃집이라 했던 것 같대요\",\n        \"다온꽃집이었을 거라는 말도 들었는데\"\n      ],\n      \"fact\": null,\n      \"operation\": \"HOLD\",\n      \"slot\": \"shop_name\",\n      \"source_turns\": [\n        \"t2\"\n      ],\n      \"target_fact_id\": null\n    }\n  ]\n}",
+  "usage": {
+    "cached_tokens": 1212,
+    "input_tokens": 1701,
+    "output_tokens": 201,
+    "reasoning_tokens": 0,
+    "total_tokens": 1902
+  }
+}

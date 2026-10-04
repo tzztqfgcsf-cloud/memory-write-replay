@@ -1,0 +1,57 @@
+{
+  "call_id": "fe9d6d6b0c433077df52-sr_refine",
+  "finish_reason": "STOP",
+  "finished_unix": 1790491017.6717079,
+  "http_status": 200,
+  "latency_seconds": 1.2796,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.0003456717330805013,
+        "content": {
+          "parts": [
+            {
+              "text": "{\"reply\": \"네, 어머니 순자님의 출생지를 임실로 기록할게요. 본인 출생지는 전주로 유지됩니다.\", \"action\": {\"kind\": \"CONTINUE\", \"question_slot\": null, \"required_slots\": [], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [], \"fact\": {\"relation\": \"birthplace\", \"source_turns\": [\"t2\"], \"subject\": \"순자\", \"time\": \"past\", \"value\": \"임실\"}, \"operation\": \"APPEND\", \"slot\": null, \"source_turns\": [\"t2\"], \"target_fact_id\": null}]}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T06:36:56.546798Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "iLm4au6vIcup0ckPy9-P8Ak",
+    "usageMetadata": {
+      "candidatesTokenCount": 142,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 142
+        }
+      ],
+      "promptTokenCount": 1975,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1975
+        }
+      ],
+      "totalTokenCount": 2117,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "fcc525f6b431232a7fd376047c6496cff7bc6dda0c8d14f63f8706fd35f9fa2e",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790491016.391537,
+  "status": "OK",
+  "text": "{\"reply\": \"네, 어머니 순자님의 출생지를 임실로 기록할게요. 본인 출생지는 전주로 유지됩니다.\", \"action\": {\"kind\": \"CONTINUE\", \"question_slot\": null, \"required_slots\": [], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [], \"fact\": {\"relation\": \"birthplace\", \"source_turns\": [\"t2\"], \"subject\": \"순자\", \"time\": \"past\", \"value\": \"임실\"}, \"operation\": \"APPEND\", \"slot\": null, \"source_turns\": [\"t2\"], \"target_fact_id\": null}]}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1975,
+    "output_tokens": 142,
+    "reasoning_tokens": 0,
+    "total_tokens": 2117
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "call_id": "30deea3dcd9a78c42ec3-g_final",
+  "error_type": null,
+  "finish_reason": "stop",
+  "finished_unix": 1790492888.9330828,
+  "latency_seconds": 12.0383,
+  "model_version": "mlx-community/Llama-3.1-8B-Instruct-4bit",
+  "raw_response": {
+    "base_seed": 20260927,
+    "finish_reason": "stop",
+    "generation_calls": 392,
+    "id": "local-9703585e9825f75e27b87e07",
+    "seed": 1819508893,
+    "snapshot": "<LOCAL_PATH>",
+    "text": "{\"action\": {\"kind\": \"CONTINUE\", \"question_slot\": \"event_year\", \"required_slots\": [\"event_year\"], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"1984\"], \"fact\": {\"relation\": \"event_year\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"1984\"}, \"operation\": \"APPEND\", \"slot\": \"event_year\", \"source_turns\": [\"t2\"], \"target_fact_id\": null}, {\"alternatives\": [\"1985\"], \"fact\": {\"relation\": \"event_year\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"1985\"}, \"operation\": \"CORRECT\", \"slot\": \"event_year\", \"source_turns\": [\"t2\"], \"target_fact_id\": \"f1\"}], \"reply\": \"그렇군요. 결혼 연도는 1984년으로 고쳐졌어요.\"}",
+    "usage": {
+      "cached_tokens": null,
+      "input_tokens": 1908,
+      "output_tokens": 218,
+      "reasoning_tokens": null,
+      "total_tokens": 2126
+    }
+  },
+  "request_sha256": "7e1292f8f3bde87bab3460ce79e34b1eee4ec303b52777debd83c7f009888fa7",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790492876.894467,
+  "status": "OK",
+  "text": "{\"action\": {\"kind\": \"CONTINUE\", \"question_slot\": \"event_year\", \"required_slots\": [\"event_year\"], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"1984\"], \"fact\": {\"relation\": \"event_year\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"1984\"}, \"operation\": \"APPEND\", \"slot\": \"event_year\", \"source_turns\": [\"t2\"], \"target_fact_id\": null}, {\"alternatives\": [\"1985\"], \"fact\": {\"relation\": \"event_year\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"1985\"}, \"operation\": \"CORRECT\", \"slot\": \"event_year\", \"source_turns\": [\"t2\"], \"target_fact_id\": \"f1\"}], \"reply\": \"그렇군요. 결혼 연도는 1984년으로 고쳐졌어요.\"}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1908,
+    "output_tokens": 218,
+    "reasoning_tokens": null,
+    "total_tokens": 2126
+  }
+}

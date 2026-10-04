@@ -1,0 +1,36 @@
+{
+  "call_id": "c95226615d1b308c37c7-g_final",
+  "error_type": null,
+  "finish_reason": "stop",
+  "finished_unix": 1790489836.057983,
+  "latency_seconds": 10.9208,
+  "model_version": "mlx-community/Llama-3.1-8B-Instruct-4bit",
+  "raw_response": {
+    "base_seed": 20260927,
+    "finish_reason": "stop",
+    "generation_calls": 122,
+    "id": "local-d91bdb24e64d4e84928a6440",
+    "seed": 2136973008,
+    "snapshot": "<LOCAL_PATH>",
+    "text": "{\"action\": {\"kind\": \"CONTINUE\", \"question_slot\": \"stop_intent\", \"required_slots\": [\"stop_intent\"], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"미래제약\", \"미래제과\"], \"fact\": {\"relation\": \"workplace\", \"source_turns\": [\"t1\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"미래제과\"}, \"operation\": \"HOLD\", \"slot\": \"workplace\", \"source_turns\": [\"t1\"], \"target_fact_id\": null}], \"reply\": \"미래제과에 남겨 두었어요.\"}",
+    "usage": {
+      "cached_tokens": null,
+      "input_tokens": 1906,
+      "output_tokens": 142,
+      "reasoning_tokens": null,
+      "total_tokens": 2048
+    }
+  },
+  "request_sha256": "dce1aba810297f4099331b29fa89081fd7a15def20235d6ad8b262530e6b13e9",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790489825.136717,
+  "status": "OK",
+  "text": "{\"action\": {\"kind\": \"CONTINUE\", \"question_slot\": \"stop_intent\", \"required_slots\": [\"stop_intent\"], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"미래제약\", \"미래제과\"], \"fact\": {\"relation\": \"workplace\", \"source_turns\": [\"t1\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"미래제과\"}, \"operation\": \"HOLD\", \"slot\": \"workplace\", \"source_turns\": [\"t1\"], \"target_fact_id\": null}], \"reply\": \"미래제과에 남겨 두었어요.\"}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1906,
+    "output_tokens": 142,
+    "reasoning_tokens": null,
+    "total_tokens": 2048
+  }
+}

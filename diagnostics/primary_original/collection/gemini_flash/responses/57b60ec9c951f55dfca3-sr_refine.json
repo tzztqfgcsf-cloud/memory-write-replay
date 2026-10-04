@@ -1,0 +1,57 @@
+{
+  "call_id": "57b60ec9c951f55dfca3-sr_refine",
+  "finish_reason": "STOP",
+  "finished_unix": 1790496001.483522,
+  "http_status": 200,
+  "latency_seconds": 1.4977,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.0022966151680451274,
+        "content": {
+          "parts": [
+            {
+              "text": "{\"reply\": \"네, 알겠습니다. 출생지를 문경으로 수정하고, 푸른세탁소는 그대로 유지할게요.\", \"action\": {\"kind\": \"CONTINUE\", \"question_slot\": null, \"required_slots\": [], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [], \"fact\": {\"relation\": \"birthplace\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"문경\"}, \"operation\": \"CORRECT\", \"slot\": null, \"source_turns\": [\"t2\"], \"target_fact_id\": \"f1\"}, {\"alternatives\": [], \"fact\": null, \"operation\": \"HOLD\", \"slot\": \"workplace\", \"source_turns\": [\"t2\"], \"target_fact_id\": null}]}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T08:00:00.133540Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "AM24aqSTCJiXktwPo4SY4AQ",
+    "usageMetadata": {
+      "candidatesTokenCount": 183,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 183
+        }
+      ],
+      "promptTokenCount": 2203,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 2203
+        }
+      ],
+      "totalTokenCount": 2386,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "2f1a4b7d28d0204256bded0fade13d420e16af0a4ed89ad54e96c54dac010d5e",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790495999.98492,
+  "status": "OK",
+  "text": "{\"reply\": \"네, 알겠습니다. 출생지를 문경으로 수정하고, 푸른세탁소는 그대로 유지할게요.\", \"action\": {\"kind\": \"CONTINUE\", \"question_slot\": null, \"required_slots\": [], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [], \"fact\": {\"relation\": \"birthplace\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"문경\"}, \"operation\": \"CORRECT\", \"slot\": null, \"source_turns\": [\"t2\"], \"target_fact_id\": \"f1\"}, {\"alternatives\": [], \"fact\": null, \"operation\": \"HOLD\", \"slot\": \"workplace\", \"source_turns\": [\"t2\"], \"target_fact_id\": null}]}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 2203,
+    "output_tokens": 183,
+    "reasoning_tokens": 0,
+    "total_tokens": 2386
+  }
+}

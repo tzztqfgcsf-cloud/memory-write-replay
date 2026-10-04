@@ -1,0 +1,20 @@
+{
+  "status": "OK",
+  "http_status": 200,
+  "text": "{\"decisions\": [{\"index\": 0, \"approve\": true, \"reason\": \"발화자가 아들 도윤의 직장이 대한우편이라고 명시하며 저장을 요청함\"}]}",
+  "usage": {
+    "input_tokens": 699,
+    "output_tokens": 42,
+    "reasoning_tokens": 185,
+    "total_tokens": 926,
+    "cached_tokens": null
+  },
+  "finish_reason": "STOP",
+  "model_version": "gemini-3.1-pro-preview",
+  "id": "gemini_flash_CT15_judge",
+  "key": "gemini_flash_CT15",
+  "stage": "judge",
+  "arm": "judge",
+  "requested_model": "gemini-3.1-pro-preview",
+  "latency_seconds": 3.3890996670816094
+}

@@ -1,0 +1,920 @@
+{
+  "dataset_release": "DSTC2 v1 test",
+  "turn_index_base": 0,
+  "selected_cases": [
+    {
+      "episode_id": "DSTC2_01",
+      "dataset_relative_dialogue_path": "Mar13_S2A0/voip-0abf414c0c-20130327_000042",
+      "turn_index_zero_based": 8,
+      "stratum": "reference_enriched_nbest",
+      "selected_original_asr_ranks": [
+        1,
+        5,
+        10
+      ],
+      "source_log_sha256": "2df0461fb09b86d1d3eb50af9c7d3193e28069d41de3fb8b42b1cb5443fae460",
+      "source_labels_sha256": "f14ba0482acbd3084c30d8600cffb37af34d4939e78ec63e9f29957801f684eb"
+    },
+    {
+      "episode_id": "DSTC2_02",
+      "dataset_relative_dialogue_path": "Mar13_S2A0/voip-14f776f781-20130328_120030",
+      "turn_index_zero_based": 3,
+      "stratum": "reference_enriched_nbest",
+      "selected_original_asr_ranks": [
+        1,
+        2,
+        4,
+        5,
+        7,
+        9,
+        10
+      ],
+      "source_log_sha256": "67055679dac8783e97af97a8559cefa97ee5458fdd4ebca13e1736c81d7f131c",
+      "source_labels_sha256": "c1b0dbf62cc53a8797fe8e046a47d99e621c57209d4634f0c5e067a49e9458a9"
+    },
+    {
+      "episode_id": "DSTC2_03",
+      "dataset_relative_dialogue_path": "Mar13_S2A0/voip-187c1708f2-20130326_155526",
+      "turn_index_zero_based": 2,
+      "stratum": "reference_enriched_nbest",
+      "selected_original_asr_ranks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "source_log_sha256": "7fdd36495421e930c035408df0fb33d51d15f928cd46c1dab7db22d999eb369b",
+      "source_labels_sha256": "e07b71d8f728714bdd9f9c66131b9aca25d7001fdcb16dedcaf86aea76d0a1c0"
+    },
+    {
+      "episode_id": "DSTC2_04",
+      "dataset_relative_dialogue_path": "Mar13_S2A0/voip-30772678da-20130328_193147",
+      "turn_index_zero_based": 1,
+      "stratum": "reference_enriched_nbest",
+      "selected_original_asr_ranks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "source_log_sha256": "ef62b0c3d3a4a3d1bc3ef2bff6ed97fd65b504a8905c857f045cdfe4f493a502",
+      "source_labels_sha256": "ec2bb9057c633117f08f1a0655e1984af57092a445f6b72d51a99f67b4f1fae2"
+    },
+    {
+      "episode_id": "DSTC2_05",
+      "dataset_relative_dialogue_path": "Mar13_S2A0/voip-4a6ecc1f1c-20130329_152622",
+      "turn_index_zero_based": 3,
+      "stratum": "reference_enriched_nbest",
+      "selected_original_asr_ranks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "source_log_sha256": "fb6cd8c2437692589bf483a100b3b9197cad5cb0458260b5687c0bdcfef0677a",
+      "source_labels_sha256": "75865d7f5fc242422faf61c4638834ff21967198f99f9443e8eebf3053885ded"
+    },
+    {
+      "episode_id": "DSTC2_06",
+      "dataset_relative_dialogue_path": "Mar13_S2A0/voip-aaa44b4121-20130326_055751",
+      "turn_index_zero_based": 2,
+      "stratum": "reference_enriched_nbest",
+      "selected_original_asr_ranks": [
+        1,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "source_log_sha256": "9d9e9913bc53d087740241967939793d837a44bdfbc6aee48dc7a3cde6277746",
+      "source_labels_sha256": "8e5baf7d0c5c2d47cb77932dcfd58372b8a24507075726cb3cb2acf9a6058da4"
+    },
+    {
+      "episode_id": "DSTC2_07",
+      "dataset_relative_dialogue_path": "Mar13_S2A0/voip-d7853a398f-20130401_153507",
+      "turn_index_zero_based": 1,
+      "stratum": "reference_enriched_nbest",
+      "selected_original_asr_ranks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "source_log_sha256": "345fa6a378891352750aa506c46d2790e77ffc412cd321f5d5117043725ffd58",
+      "source_labels_sha256": "f340d111ece67c64f6a21391b162d2d286d12ae23e92def91890032d6f4ea14a"
+    },
+    {
+      "episode_id": "DSTC2_08",
+      "dataset_relative_dialogue_path": "Mar13_S2A1/voip-21ec2b7850-20130326_024118",
+      "turn_index_zero_based": 15,
+      "stratum": "reference_enriched_nbest",
+      "selected_original_asr_ranks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7
+      ],
+      "source_log_sha256": "6eee740af77bf348a5f3806ed9b85f4148d09ebb8f0ca108ef13ee343f8d231f",
+      "source_labels_sha256": "755e6258b775f7bd500e462cd1dc5830cd87171ed03d4e709636cebc317e7810"
+    },
+    {
+      "episode_id": "DSTC2_09",
+      "dataset_relative_dialogue_path": "Mar13_S2A1/voip-4a6ecc1f1c-20130329_152337",
+      "turn_index_zero_based": 2,
+      "stratum": "reference_enriched_nbest",
+      "selected_original_asr_ranks": [
+        1,
+        2,
+        5,
+        6,
+        9,
+        10
+      ],
+      "source_log_sha256": "d629dac683a185a4865fa75a350c99060ac95169ed55039e603ef1b2bd29970f",
+      "source_labels_sha256": "1386bb45cbe58506c62c655b29e012c1e7ea4e8298a19435168b86626a2476d4"
+    },
+    {
+      "episode_id": "DSTC2_10",
+      "dataset_relative_dialogue_path": "Mar13_S2A1/voip-4c25da9a27-20130327_135205",
+      "turn_index_zero_based": 3,
+      "stratum": "reference_enriched_nbest",
+      "selected_original_asr_ranks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "source_log_sha256": "f5327076071c1d2355c077ab527efe80279b08aed1c206886c7bb640d0137dd4",
+      "source_labels_sha256": "9d92a992c316d1adf41820baffd0f1e7b610aa24abb8de93ab6f787fed63d334"
+    },
+    {
+      "episode_id": "DSTC2_11",
+      "dataset_relative_dialogue_path": "Mar13_S2A1/voip-6d6587c57d-20130328_142901",
+      "turn_index_zero_based": 3,
+      "stratum": "reference_enriched_nbest",
+      "selected_original_asr_ranks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "source_log_sha256": "5d9a84d8fa07d2cffc86a156a35e6516001883f75fa32d1cbca913d32fa7dbda",
+      "source_labels_sha256": "f78668260eaf867b457d730a3d7fe9875a9115926eb7f56b643b30b6aae29dfc"
+    },
+    {
+      "episode_id": "DSTC2_12",
+      "dataset_relative_dialogue_path": "Mar13_S2A1/voip-8991b7bff6-20130401_170513",
+      "turn_index_zero_based": 1,
+      "stratum": "reference_enriched_nbest",
+      "selected_original_asr_ranks": [
+        1,
+        2,
+        7,
+        8
+      ],
+      "source_log_sha256": "b3e1b021af71f22c039071993ab219d16920bf3afdcc21a6d28ead4b5bad471a",
+      "source_labels_sha256": "674bf455309e1eefab01772c7463b5ce624bde9ad5697194d2ad66cd5e63a3de"
+    },
+    {
+      "episode_id": "DSTC2_13",
+      "dataset_relative_dialogue_path": "Mar13_S2A0/voip-31d9d1a567-20130402_040542",
+      "turn_index_zero_based": 2,
+      "stratum": "goal_revision",
+      "selected_original_asr_ranks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "source_log_sha256": "ace98936dd4f963909c8881cbe59d1611fa9a152bc31764963d272581500e6dc",
+      "source_labels_sha256": "7660cc2e9783edb0b6864bc4d58b686f933be640bf10cdcd5ac43dfc4e043f14"
+    },
+    {
+      "episode_id": "DSTC2_14",
+      "dataset_relative_dialogue_path": "Mar13_S2A0/voip-b6618de447-20130328_155757",
+      "turn_index_zero_based": 1,
+      "stratum": "goal_revision",
+      "selected_original_asr_ranks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "source_log_sha256": "396ae3022965592985b10d211fd422e4efcb7a741cd737358957ee0f761c599c",
+      "source_labels_sha256": "d0c482629ac7f3cb9053b70e24d8d556d18a82014c1674b5e5512f2f1374386e"
+    },
+    {
+      "episode_id": "DSTC2_15",
+      "dataset_relative_dialogue_path": "Mar13_S2A0/voip-9735278861-20130401_161944",
+      "turn_index_zero_based": 2,
+      "stratum": "goal_revision",
+      "selected_original_asr_ranks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "source_log_sha256": "d69d1916d413fa3fadf23dae2d40042f0d3755e6dfa29b69d9fa0cd55cbcbe7e",
+      "source_labels_sha256": "ddb194f2fa839bfa2270611dbfcdd65b93747f5b51aff83ff261d83afed58269"
+    },
+    {
+      "episode_id": "DSTC2_16",
+      "dataset_relative_dialogue_path": "Mar13_S2A1/voip-ccf48b9a6a-20130329_042843",
+      "turn_index_zero_based": 8,
+      "stratum": "goal_revision",
+      "selected_original_asr_ranks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "source_log_sha256": "7de0669b32a85ed29bf934b7bb1fd4f4d821b11a6263c5a01b5d34c2eaca0223",
+      "source_labels_sha256": "e75cc249a722f1bc31fd026a110805f36b91f9e84e508ac9e4926fff4b5448ac"
+    },
+    {
+      "episode_id": "DSTC2_17",
+      "dataset_relative_dialogue_path": "Mar13_S2A0/voip-fe4b6ef58f-20130328_232107",
+      "turn_index_zero_based": 2,
+      "stratum": "goal_revision",
+      "selected_original_asr_ranks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "source_log_sha256": "8b123be08b4c9e6ab9c30e162abc2a141cc87d1d30daa2e96f3c7a50a6f7f68e",
+      "source_labels_sha256": "69f4cd4b65102f51a8747d7a6bf15cf013560861d753630a6913e61678fb53bd"
+    },
+    {
+      "episode_id": "DSTC2_18",
+      "dataset_relative_dialogue_path": "Mar13_S2A1/voip-2f209793f4-20130326_004310",
+      "turn_index_zero_based": 2,
+      "stratum": "goal_revision",
+      "selected_original_asr_ranks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "source_log_sha256": "e15350d6dfa3f696a7dae39c7090d528c6caf02aca9a96e9b56938f0c4bd2a43",
+      "source_labels_sha256": "2ca702b102d04b31c267c3c5123803f3e113ac3797a85a43b6b35c6247a86b8f"
+    },
+    {
+      "episode_id": "DSTC2_19",
+      "dataset_relative_dialogue_path": "Mar13_S2A1/voip-72e50baa85-20130327_063340",
+      "turn_index_zero_based": 2,
+      "stratum": "goal_revision",
+      "selected_original_asr_ranks": [
+        1,
+        2,
+        7,
+        8,
+        9,
+        10
+      ],
+      "source_log_sha256": "3a697626ffc459c95ce9d6547da501557614eb32ddc2200c1c43da255dea1151",
+      "source_labels_sha256": "754d5100308ec9df875792c88b8f68e8e2d232a7bdbb51397a9d43c2e25000bd"
+    },
+    {
+      "episode_id": "DSTC2_20",
+      "dataset_relative_dialogue_path": "Mar13_S2A1/voip-78f497f314-20130323_183923",
+      "turn_index_zero_based": 2,
+      "stratum": "goal_revision",
+      "selected_original_asr_ranks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "source_log_sha256": "21dd4b1f79d83a09d9837ebd8b3f25c76a44648aecc03128c9d6f2977fa85a49",
+      "source_labels_sha256": "8ca403c0ced9d12ab09b5de64e9b9803c01def7b2df871acd0375de90c89aa85"
+    },
+    {
+      "episode_id": "DSTC2_21",
+      "dataset_relative_dialogue_path": "Mar13_S2A1/voip-e0035cc31b-20130323_210142",
+      "turn_index_zero_based": 1,
+      "stratum": "goal_revision",
+      "selected_original_asr_ranks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "source_log_sha256": "5e95e03515ee40d06d57dcd6278f25adb81f167ee01d742db565295a8721878a",
+      "source_labels_sha256": "57840b018d344ee7fc5794967e0f9051ab742dadca04150ab648878ea5ede221"
+    },
+    {
+      "episode_id": "DSTC2_22",
+      "dataset_relative_dialogue_path": "Mar13_S2A0/voip-3b81cbb287-20130326_024351",
+      "turn_index_zero_based": 1,
+      "stratum": "goal_revision",
+      "selected_original_asr_ranks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "source_log_sha256": "b8dc902bf807dce2337edc061cf7630c6e134c04e98f818fca76e2fe3ec6aca6",
+      "source_labels_sha256": "512d1df38c696f5728702dc1f9f9206faa89ccbd90405d78c284d420785c25f3"
+    },
+    {
+      "episode_id": "DSTC2_23",
+      "dataset_relative_dialogue_path": "Mar13_S2A1/voip-e8997b10da-20130401_150651",
+      "turn_index_zero_based": 2,
+      "stratum": "goal_revision",
+      "selected_original_asr_ranks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "source_log_sha256": "c3a3ce801430f8ec728e981fc46119ce498f91b2400104236f356d7a36455a74",
+      "source_labels_sha256": "43fb8792576594198ab4d097663c057f5cb5170c2889e507d680e1ec424c0ac8"
+    },
+    {
+      "episode_id": "DSTC2_24",
+      "dataset_relative_dialogue_path": "Mar13_S2A0/voip-ccf48b9a6a-20130329_052221",
+      "turn_index_zero_based": 4,
+      "stratum": "goal_revision",
+      "selected_original_asr_ranks": [
+        1,
+        2,
+        5,
+        6,
+        7,
+        8,
+        10
+      ],
+      "source_log_sha256": "791505884b27ba9f61001312d2136ee88d9fea9c685a0764d2afc3de012479f5",
+      "source_labels_sha256": "983ac54e68775b11be99ccf693fe9527d29cfa4a901b8bc8f8d1744027b86459"
+    },
+    {
+      "episode_id": "DSTC2_25",
+      "dataset_relative_dialogue_path": "Mar13_S2A1/voip-d0341706f2-20130329_052923",
+      "turn_index_zero_based": 1,
+      "stratum": "goal_revision",
+      "selected_original_asr_ranks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "source_log_sha256": "33ac1a8df679bd8f24257e3e42eaba9dbf0b92d91f498f741beeb296c6e6f815",
+      "source_labels_sha256": "bb85709dcb646e44b4d8decd12c2db08b3a73f2d2c6b207481fafe91b8970ab8"
+    },
+    {
+      "episode_id": "DSTC2_26",
+      "dataset_relative_dialogue_path": "Mar13_S2A0/voip-48c12815b3-20130402_051349",
+      "turn_index_zero_based": 9,
+      "stratum": "goal_revision",
+      "selected_original_asr_ranks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "source_log_sha256": "961ab779a6e7c03b5989e802f3d30eed3ea0201ddc47ed72ca3f46fd7a177113",
+      "source_labels_sha256": "016617105f31dbc2498f049e9c93635cb6c30a8063711c145905177a4f790357"
+    },
+    {
+      "episode_id": "DSTC2_27",
+      "dataset_relative_dialogue_path": "Mar13_S2A1/voip-202b6a3cc4-20130327_184930",
+      "turn_index_zero_based": 2,
+      "stratum": "goal_revision",
+      "selected_original_asr_ranks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "source_log_sha256": "388a6203bf909e7f94bdadcfa45fe816333c7ed68c68f5ade00d9dfff1434f1c",
+      "source_labels_sha256": "e6da2d1e3346db244a1209f6ee4a026b33086e5bd08be07f85dc893d45c27f31"
+    },
+    {
+      "episode_id": "DSTC2_28",
+      "dataset_relative_dialogue_path": "Mar13_S2A1/voip-72e50baa85-20130326_052057",
+      "turn_index_zero_based": 2,
+      "stratum": "goal_revision",
+      "selected_original_asr_ranks": [
+        1,
+        2,
+        5,
+        6,
+        7,
+        9,
+        10
+      ],
+      "source_log_sha256": "514b65039b4c43cda35d498134dee5438815c48857e9544a07b89fba9121eb77",
+      "source_labels_sha256": "ae5e657cc43bdcd6720921e9a861af8b47d862c1853d7e6a6041c736f4dfffd6"
+    },
+    {
+      "episode_id": "DSTC2_29",
+      "dataset_relative_dialogue_path": "Mar13_S2A1/voip-be5b7bf9d9-20130401_151504",
+      "turn_index_zero_based": 2,
+      "stratum": "goal_revision",
+      "selected_original_asr_ranks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "source_log_sha256": "5de7d9a983aaf6cb01601ca20433ce209aebc54af7446727fe45379d8be38093",
+      "source_labels_sha256": "7cc6fb5e46a65159c20efb67caa1bbe8e8eb8c159429ab5720b2423739bb3e2c"
+    },
+    {
+      "episode_id": "DSTC2_30",
+      "dataset_relative_dialogue_path": "Mar13_S2A0/voip-0f41c16f2f-20130401_235202",
+      "turn_index_zero_based": 2,
+      "stratum": "goal_revision",
+      "selected_original_asr_ranks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "source_log_sha256": "d3fdc298075f73ac49f9f9b6ec6c3f62d3f2e1f3d95b87775bbd2ec8794fc40d",
+      "source_labels_sha256": "18543b26bc83ab88c8ba7eda191488ed53e86a1411f6d93e3ee286b74f9ad768"
+    },
+    {
+      "episode_id": "DSTC2_31",
+      "dataset_relative_dialogue_path": "Mar13_S2A0/voip-ccf48b9a6a-20130329_041458",
+      "turn_index_zero_based": 11,
+      "stratum": "goal_revision",
+      "selected_original_asr_ranks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        10
+      ],
+      "source_log_sha256": "8bbaa89c0a8e3e7dc443721ef3c0a63ec1ef136dde3b91f6d7311b37a3ec56a9",
+      "source_labels_sha256": "1bb85c90ed8a42c7065e3cf8b6e4dff29627daaeee1e1e054aca38df3674b460"
+    },
+    {
+      "episode_id": "DSTC2_32",
+      "dataset_relative_dialogue_path": "Mar13_S2A1/voip-03c59ba692-20130402_061946",
+      "turn_index_zero_based": 1,
+      "stratum": "goal_revision",
+      "selected_original_asr_ranks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "source_log_sha256": "a1ee1f91ba7ad7479f095202eed06e099e851e194d9b1228aaccb9496e45504b",
+      "source_labels_sha256": "b1298726dca6d7f8287edc195fa1711591c6b7722fafe04fcedd9034d11411e8"
+    },
+    {
+      "episode_id": "DSTC2_33",
+      "dataset_relative_dialogue_path": "Mar13_S2A1/voip-14f776f781-20130328_121813",
+      "turn_index_zero_based": 5,
+      "stratum": "goal_revision",
+      "selected_original_asr_ranks": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "source_log_sha256": "f6e184268558c538bf879144a37bb68376bdcfa7cefdeac3afa5d685681cf9e6",
+      "source_labels_sha256": "17f73dbb69d932a77ac31d200351e4f3110d12581977122844d269edce0a0b40"
+    },
+    {
+      "episode_id": "DSTC2_34",
+      "dataset_relative_dialogue_path": "Mar13_S2A0/voip-52eb280e7b-20130325_125005",
+      "turn_index_zero_based": 1,
+      "stratum": "goal_revision",
+      "selected_original_asr_ranks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "source_log_sha256": "f7e536384bdb1fe915127e457471e5bfc3f0e5a7009c681eae03e1ce5b0b0289",
+      "source_labels_sha256": "b0e49e0eeb3e650ea8178b6af5e3d5cd381328c8f61f3a89d4e06d12727141e8"
+    },
+    {
+      "episode_id": "DSTC2_35",
+      "dataset_relative_dialogue_path": "Mar13_S2A0/voip-7e07d8f0f5-20130327_180638",
+      "turn_index_zero_based": 3,
+      "stratum": "goal_revision",
+      "selected_original_asr_ranks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "source_log_sha256": "7c2306796e28ad32343f005df73a29e272c651a028653ca4a9bca16d7b7fa67c",
+      "source_labels_sha256": "99e327e7d6c70649b6211ae19e516d29e71baf5d4f10ae4cded825b895f79a28"
+    },
+    {
+      "episode_id": "DSTC2_36",
+      "dataset_relative_dialogue_path": "Mar13_S2A0/voip-e72dba1759-20130326_223001",
+      "turn_index_zero_based": 3,
+      "stratum": "goal_revision",
+      "selected_original_asr_ranks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        10
+      ],
+      "source_log_sha256": "80645907ff74289a64103eeca45efc96d37adbce856c40bc5a372f0237abe906",
+      "source_labels_sha256": "120b78a31ac82c7c0930af974a584871524e2a3c80a49d2b9956248e4f309ced"
+    },
+    {
+      "episode_id": "DSTC2_37",
+      "dataset_relative_dialogue_path": "Mar13_S2A0/voip-ddcaad92a1-20130326_013530",
+      "turn_index_zero_based": 2,
+      "stratum": "denial_without_explicit_replacement",
+      "selected_original_asr_ranks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "source_log_sha256": "0eca3a634230f16165fd45d04b6e315902d626fb6e15f7a3df8a398f012055a8",
+      "source_labels_sha256": "4f80ebaa7a5fc200f894c10aaac797610bd2934f4fab3a8d06d44e23728d9b4c"
+    },
+    {
+      "episode_id": "DSTC2_38",
+      "dataset_relative_dialogue_path": "Mar13_S2A0/voip-597cfafdee-20130328_231125",
+      "turn_index_zero_based": 3,
+      "stratum": "denial_without_explicit_replacement",
+      "selected_original_asr_ranks": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "source_log_sha256": "1e30ff44be37706e06ad1a26e116bc9e934ea6087be83aeea2ef5b6e8ce11515",
+      "source_labels_sha256": "c8f5283d9b55bcb9860dba41828f51451aea55bdf374a64929b674e2eb3fe4ed"
+    },
+    {
+      "episode_id": "DSTC2_39",
+      "dataset_relative_dialogue_path": "Mar13_S2A1/voip-fe4b6ef58f-20130325_234042",
+      "turn_index_zero_based": 2,
+      "stratum": "denial_without_explicit_replacement",
+      "selected_original_asr_ranks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        10
+      ],
+      "source_log_sha256": "bbfbc4169d607fce5f639c066c38b75c1fcefc84271154bf9e82cc9bf6dac795",
+      "source_labels_sha256": "335722995d7f1188ad8246cf68e4ff1e9868c3a10bd1233e5c06fecda4a5a3e8"
+    },
+    {
+      "episode_id": "DSTC2_40",
+      "dataset_relative_dialogue_path": "Mar13_S2A1/voip-d76f6e4f82-20130327_192835",
+      "turn_index_zero_based": 2,
+      "stratum": "denial_without_explicit_replacement",
+      "selected_original_asr_ranks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "source_log_sha256": "4f30a660856cb47f916a7a0c410d6a53b1c765ab4cff6d3d18abafdb4a4db7bc",
+      "source_labels_sha256": "83b03449a5ef093981bd22a911781c1a5d31c225ac769fb2af78fad433bd1c9c"
+    },
+    {
+      "episode_id": "DSTC2_41",
+      "dataset_relative_dialogue_path": "Mar13_S2A0/voip-5a464ca603-20130401_132347",
+      "turn_index_zero_based": 3,
+      "stratum": "denial_without_explicit_replacement",
+      "selected_original_asr_ranks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "source_log_sha256": "05d44bfab2a326240528688d7c91b4f28c96726a9f63322e1647d22b48d6fd09",
+      "source_labels_sha256": "8fea7d770d1c25439ac5bea97d7f37dbefb5c1a40a1525e357ef25ad20341661"
+    },
+    {
+      "episode_id": "DSTC2_42",
+      "dataset_relative_dialogue_path": "Mar13_S2A0/voip-583e7cede5-20130324_061814",
+      "turn_index_zero_based": 1,
+      "stratum": "denial_without_explicit_replacement",
+      "selected_original_asr_ranks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "source_log_sha256": "2ba21b7b51e61ce19e0f963d72c11ede37d13a238f217f20b5c3bf8e68d66315",
+      "source_labels_sha256": "1ad096d7bfd6d4def845c55042a572a0992f33cd27eb3989d9df639bc3b01827"
+    },
+    {
+      "episode_id": "DSTC2_43",
+      "dataset_relative_dialogue_path": "Mar13_S2A1/voip-b58f1f9eb2-20130325_135605",
+      "turn_index_zero_based": 2,
+      "stratum": "denial_without_explicit_replacement",
+      "selected_original_asr_ranks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        9,
+        10
+      ],
+      "source_log_sha256": "b14784278bc33724614d75d268bca0ce016d10bab43b709080e0d937fdd5545b",
+      "source_labels_sha256": "43b30056d5d7a94c3bbeb1f0fc89f88f6390ee150c6d5127860d3f196681c7b7"
+    },
+    {
+      "episode_id": "DSTC2_44",
+      "dataset_relative_dialogue_path": "Mar13_S2A1/voip-d7853a398f-20130401_155744",
+      "turn_index_zero_based": 1,
+      "stratum": "denial_without_explicit_replacement",
+      "selected_original_asr_ranks": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "source_log_sha256": "ed38bfcfec460032e0c2280a7572031414e7af0a0698c196acde1db0b763edda",
+      "source_labels_sha256": "a58247e14ed1435c09c8d8289de0f6c170df03d02ef9a85b289a021aee1190e3"
+    },
+    {
+      "episode_id": "DSTC2_45",
+      "dataset_relative_dialogue_path": "Mar13_S2A0/voip-f091d0e461-20130327_205430",
+      "turn_index_zero_based": 17,
+      "stratum": "denial_without_explicit_replacement",
+      "selected_original_asr_ranks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "source_log_sha256": "49d2febcc165c52833e72f659aae0c2fa93d29632f198848d84b94b644e0ff3c",
+      "source_labels_sha256": "c825cfcf2175db10c6faa5ebe3bad95a7cd1640137f9a15d55cf325ab61cf5e9"
+    },
+    {
+      "episode_id": "DSTC2_46",
+      "dataset_relative_dialogue_path": "Mar13_S2A0/voip-13ff413553-20130328_173542",
+      "turn_index_zero_based": 1,
+      "stratum": "denial_without_explicit_replacement",
+      "selected_original_asr_ranks": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "source_log_sha256": "818d5415f809449a28e8b1a013a5865111a1d6ae667da795efce4a8e99a9538e",
+      "source_labels_sha256": "e20d2e755cdec8b9c7f1e069f2a0ce6a285e497b7802d7acdee6b2eaab76a903"
+    },
+    {
+      "episode_id": "DSTC2_47",
+      "dataset_relative_dialogue_path": "Mar13_S2A0/voip-88b68a9a41-20130324_002532",
+      "turn_index_zero_based": 10,
+      "stratum": "denial_without_explicit_replacement",
+      "selected_original_asr_ranks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "source_log_sha256": "2848b83484bca83f5bee3fdb54e40b0b9dd992a96b003000013e36ec19ea03f6",
+      "source_labels_sha256": "c2dcedb0f611e96a7be9d6dfd43f07334db272e9793ceddadcae89fe6aa6aa08"
+    },
+    {
+      "episode_id": "DSTC2_48",
+      "dataset_relative_dialogue_path": "Mar13_S2A1/voip-3cf7bd870d-20130327_183809",
+      "turn_index_zero_based": 1,
+      "stratum": "denial_without_explicit_replacement",
+      "selected_original_asr_ranks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        9,
+        10
+      ],
+      "source_log_sha256": "6d44fc35d1a75ba10fdb6f5e73cc8c69598e06f896c1d36aaca9b4507e4bbeee",
+      "source_labels_sha256": "54483dc1934da3be5388ecd959cc7b1a35ff2bed935e951c8d9e952d0fff9e3d"
+    }
+  ],
+  "caller_ids_omitted": true
+}

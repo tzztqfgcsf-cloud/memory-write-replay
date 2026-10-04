@@ -1,0 +1,20 @@
+{
+  "status": "OK",
+  "http_status": 200,
+  "text": "{\"beliefs\": [{\"candidate_id\": \"c1\", \"facts\": [{\"relation\": \"meeting_place\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"시민운동장\"}]}, {\"candidate_id\": \"c2\", \"facts\": [{\"relation\": \"meeting_place\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"시민운동장\"}]}], \"correction_witnesses\": [{\"candidate_id\": \"c1\", \"evidence_quote\": \"장소는 시민운동장으로 고쳐요\", \"new_value\": \"시민운동장\", \"polarity\": \"affirmed\", \"relation\": \"meeting_place\", \"source_turn\": \"t2\", \"subject\": \"participant\", \"target_fact_id\": \"f1\", \"time\": \"present\"}, {\"candidate_id\": \"c2\", \"evidence_quote\": \"모임 장소는 시민운동장으로 해요\", \"new_value\": \"시민운동장\", \"polarity\": \"affirmed\", \"relation\": \"meeting_place\", \"source_turn\": \"t2\", \"subject\": \"participant\", \"target_fact_id\": \"f1\", \"time\": \"present\"}]}",
+  "usage": {
+    "input_tokens": 2469,
+    "output_tokens": 281,
+    "reasoning_tokens": 0,
+    "total_tokens": 2750,
+    "cached_tokens": null
+  },
+  "finish_reason": "STOP",
+  "model_version": "gemini-3.8-flash",
+  "id": "gemini38_flash_CT48_original",
+  "key": "gemini38_flash_CT48",
+  "stage": "extract",
+  "arm": "original",
+  "requested_model": "gemini-3.8-flash",
+  "latency_seconds": 3.0117473748978227
+}

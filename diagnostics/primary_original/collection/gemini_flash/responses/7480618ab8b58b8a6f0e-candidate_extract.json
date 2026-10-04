@@ -1,0 +1,57 @@
+{
+  "call_id": "7480618ab8b58b8a6f0e-candidate_extract",
+  "finish_reason": "STOP",
+  "finished_unix": 1790492158.967703,
+  "http_status": 200,
+  "latency_seconds": 1.8905,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.0014591033865765828,
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"beliefs\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"facts\": [\n        {\n          \"relation\": \"shop_name\",\n          \"source_turns\": [\n            \"t2\"\n          ],\n          \"subject\": \"participant\",\n          \"time\": \"present\",\n          \"value\": \"남강문구\"\n        }\n      ]\n    },\n    {\n      \"candidate_id\": \"c2\",\n      \"facts\": [\n        {\n          \"relation\": \"shop_name\",\n          \"source_turns\": [\n            \"t2\"\n          ],\n          \"subject\": \"participant\",\n          \"time\": \"present\",\n          \"value\": \"남광문구\"\n        }\n      ]\n    }\n  ],\n  \"correction_witnesses\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"evidence_quote\": \"남강문구로 고쳐 적어요\",\n      \"new_value\": \"남강문구\",\n      \"polarity\": \"affirmed\",\n      \"relation\": \"shop_name\",\n      \"source_turn\": \"t2\",\n      \"subject\": \"participant\",\n      \"target_fact_id\": \"f1\",\n      \"time\": \"present\"\n    },\n    {\n      \"candidate_id\": \"c2\",\n      \"evidence_quote\": \"남광문구로 고쳐 적어요\",\n      \"new_value\": \"남광문구\",\n      \"polarity\": \"affirmed\",\n      \"relation\": \"shop_name\",\n      \"source_turn\": \"t2\",\n      \"subject\": \"participant\",\n      \"target_fact_id\": \"f1\",\n      \"time\": \"present\"\n    }\n  ]\n}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T06:55:57.156567Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "_b24apfHCfCVktwP37SV-Ag",
+    "usageMetadata": {
+      "candidatesTokenCount": 410,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 410
+        }
+      ],
+      "promptTokenCount": 1691,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1691
+        }
+      ],
+      "totalTokenCount": 2101,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "0b708629884f8fa8564900efea5f881231ac505f5850025bec4ff65a5fff5892",
+  "stage_schema_sha256": "bda7326ac6a6cbeedf1ecdbf4a2b08277c078351d6689f667dc0d558c4972dd3",
+  "started_unix": 1790492157.0764742,
+  "status": "OK",
+  "text": "{\n  \"beliefs\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"facts\": [\n        {\n          \"relation\": \"shop_name\",\n          \"source_turns\": [\n            \"t2\"\n          ],\n          \"subject\": \"participant\",\n          \"time\": \"present\",\n          \"value\": \"남강문구\"\n        }\n      ]\n    },\n    {\n      \"candidate_id\": \"c2\",\n      \"facts\": [\n        {\n          \"relation\": \"shop_name\",\n          \"source_turns\": [\n            \"t2\"\n          ],\n          \"subject\": \"participant\",\n          \"time\": \"present\",\n          \"value\": \"남광문구\"\n        }\n      ]\n    }\n  ],\n  \"correction_witnesses\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"evidence_quote\": \"남강문구로 고쳐 적어요\",\n      \"new_value\": \"남강문구\",\n      \"polarity\": \"affirmed\",\n      \"relation\": \"shop_name\",\n      \"source_turn\": \"t2\",\n      \"subject\": \"participant\",\n      \"target_fact_id\": \"f1\",\n      \"time\": \"present\"\n    },\n    {\n      \"candidate_id\": \"c2\",\n      \"evidence_quote\": \"남광문구로 고쳐 적어요\",\n      \"new_value\": \"남광문구\",\n      \"polarity\": \"affirmed\",\n      \"relation\": \"shop_name\",\n      \"source_turn\": \"t2\",\n      \"subject\": \"participant\",\n      \"target_fact_id\": \"f1\",\n      \"time\": \"present\"\n    }\n  ]\n}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1691,
+    "output_tokens": 410,
+    "reasoning_tokens": 0,
+    "total_tokens": 2101
+  }
+}

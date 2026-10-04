@@ -1,0 +1,56 @@
+{
+  "call_id": "8a6f0708aeb31947929f7d6f-sr_refine",
+  "cost_note": "provider_did_not_report_money",
+  "cost_usd_reported": null,
+  "finish_reason": "STOP",
+  "http_status": 200,
+  "latency_seconds": 1.5891,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.0022751706261788644,
+        "content": {
+          "parts": [
+            {
+              "text": "{\"reply\": \"Okay, so you want to go from Peterborough to Cambridge. Is that correct?\", \"action\": {\"kind\": \"CLARIFY\", \"question_slot\": \"other\", \"required_slots\": [], \"speaker_id\": \"system\"}, \"memory_decisions\": [{\"alternatives\": [\"peterborough\"], \"fact\": {\"relation\": \"train.semi.departure\", \"source_turns\": [\"MUL1790.json#turn2\"], \"subject\": \"MUL1790.json#train.semi\", \"time\": \"unknown\", \"value\": \"peterborough\"}, \"operation\": \"APPEND\", \"slot\": \"train.semi.departure\", \"source_turns\": [\"MUL1790.json#turn2\"], \"target_fact_id\": \"MUL1790.json#state1#train.semi.departure\"}, {\"alternatives\": [\"cambridge\"], \"fact\": {\"relation\": \"train.semi.destination\", \"source_turns\": [\"MUL1790.json#turn2\"], \"subject\": \"MUL1790.json#train.semi\", \"time\": \"unknown\", \"value\": \"cambridge\"}, \"operation\": \"APPEND\", \"slot\": \"train.semi.destination\", \"source_turns\": [\"MUL1790.json#turn2\"], \"target_fact_id\": \"MUL1790.json#state1#train.semi.destination\"}]}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T22:40:50.808610Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "cpu5aqKtMZ-cx9gPtNDSwA0",
+    "usageMetadata": {
+      "candidatesTokenCount": 310,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 310
+        }
+      ],
+      "promptTokenCount": 2188,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 2188
+        }
+      ],
+      "totalTokenCount": 2498,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "6b171f24b795c86ab0349dde78b7f02672c56bafb0c9ee53c2983d7f4d6dbc7e",
+  "status": "OK",
+  "text": "{\"reply\": \"Okay, so you want to go from Peterborough to Cambridge. Is that correct?\", \"action\": {\"kind\": \"CLARIFY\", \"question_slot\": \"other\", \"required_slots\": [], \"speaker_id\": \"system\"}, \"memory_decisions\": [{\"alternatives\": [\"peterborough\"], \"fact\": {\"relation\": \"train.semi.departure\", \"source_turns\": [\"MUL1790.json#turn2\"], \"subject\": \"MUL1790.json#train.semi\", \"time\": \"unknown\", \"value\": \"peterborough\"}, \"operation\": \"APPEND\", \"slot\": \"train.semi.departure\", \"source_turns\": [\"MUL1790.json#turn2\"], \"target_fact_id\": \"MUL1790.json#state1#train.semi.departure\"}, {\"alternatives\": [\"cambridge\"], \"fact\": {\"relation\": \"train.semi.destination\", \"source_turns\": [\"MUL1790.json#turn2\"], \"subject\": \"MUL1790.json#train.semi\", \"time\": \"unknown\", \"value\": \"cambridge\"}, \"operation\": \"APPEND\", \"slot\": \"train.semi.destination\", \"source_turns\": [\"MUL1790.json#turn2\"], \"target_fact_id\": \"MUL1790.json#state1#train.semi.destination\"}]}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 2188,
+    "output_tokens": 310,
+    "reasoning_tokens": 0,
+    "total_tokens": 2498
+  }
+}

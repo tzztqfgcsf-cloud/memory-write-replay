@@ -1,0 +1,57 @@
+{
+  "call_id": "916537b588d1eced8d7c-g_draft",
+  "finish_reason": "STOP",
+  "finished_unix": 1790494557.4932532,
+  "http_status": 200,
+  "latency_seconds": 1.5126,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.053730230620413114,
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"reply\": \"오산에 사시는군요. 해당 정보를 저장해도 될지 여쭤봐도 될까요?\",\n  \"action\": {\n    \"kind\": \"CLARIFY\",\n    \"question_slot\": \"topic_permission\",\n    \"required_slots\": [\n      \"topic_permission\"\n    ],\n    \"speaker_id\": \"p1\"\n  },\n  \"memory_decisions\": [\n    {\n      \"alternatives\": [],\n      \"fact\": null,\n      \"operation\": \"HOLD\",\n      \"slot\": \"residence\",\n      \"source_turns\": [\n        \"t2\"\n      ],\n      \"target_fact_id\": null\n    }\n  ]\n}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T07:35:56.070936Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "XMe4apiqBNCNx9gP07myoAQ",
+    "usageMetadata": {
+      "candidatesTokenCount": 165,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 165
+        }
+      ],
+      "promptTokenCount": 1696,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1696
+        }
+      ],
+      "totalTokenCount": 1861,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "29f46ed7593cd5ce02ef21d46a55c4c2972ddbb3a401ae7d5b17b6dfedd7d12f",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790494555.98017,
+  "status": "OK",
+  "text": "{\n  \"reply\": \"오산에 사시는군요. 해당 정보를 저장해도 될지 여쭤봐도 될까요?\",\n  \"action\": {\n    \"kind\": \"CLARIFY\",\n    \"question_slot\": \"topic_permission\",\n    \"required_slots\": [\n      \"topic_permission\"\n    ],\n    \"speaker_id\": \"p1\"\n  },\n  \"memory_decisions\": [\n    {\n      \"alternatives\": [],\n      \"fact\": null,\n      \"operation\": \"HOLD\",\n      \"slot\": \"residence\",\n      \"source_turns\": [\n        \"t2\"\n      ],\n      \"target_fact_id\": null\n    }\n  ]\n}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1696,
+    "output_tokens": 165,
+    "reasoning_tokens": 0,
+    "total_tokens": 1861
+  }
+}

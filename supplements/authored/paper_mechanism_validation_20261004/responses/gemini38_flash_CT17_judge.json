@@ -1,0 +1,20 @@
+{
+  "status": "OK",
+  "http_status": 200,
+  "text": "{\n  \"decisions\": [\n    {\n      \"index\": 0,\n      \"approve\": true,\n      \"reason\": \"사용자가 과거에 중앙인쇄소에서 일했다고 명시함\"\n    }\n  ]\n}",
+  "usage": {
+    "input_tokens": 688,
+    "output_tokens": 55,
+    "reasoning_tokens": 199,
+    "total_tokens": 942,
+    "cached_tokens": null
+  },
+  "finish_reason": "STOP",
+  "model_version": "gemini-3.1-pro-preview",
+  "id": "gemini38_flash_CT17_judge",
+  "key": "gemini38_flash_CT17",
+  "stage": "judge",
+  "arm": "judge",
+  "requested_model": "gemini-3.1-pro-preview",
+  "latency_seconds": 3.4864059158135206
+}

@@ -1,0 +1,57 @@
+{
+  "call_id": "96e76a54891969842a25-g_draft",
+  "finish_reason": "STOP",
+  "finished_unix": 1790490445.2649071,
+  "http_status": 200,
+  "latency_seconds": 1.4234,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.052655035449612524,
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"reply\": \"네, 알겠습니다. 사진을 보면서 다시 이야기해 주세요.\",\n  \"action\": {\n    \"kind\": \"CONTINUE\",\n    \"question_slot\": null,\n    \"required_slots\": [],\n    \"speaker_id\": \"p1\"\n  },\n  \"memory_decisions\": [\n    {\n      \"alternatives\": [\n        \"삼척\"\n      ],\n      \"fact\": null,\n      \"operation\": \"HOLD\",\n      \"slot\": \"travel_destination\",\n      \"source_turns\": [\n        \"t2\"\n      ],\n      \"target_fact_id\": null\n    }\n  ]\n}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T06:27:24.009546Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "TLe4aspKy6nRyQ_L34_wCQ",
+    "usageMetadata": {
+      "candidatesTokenCount": 155,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 155
+        }
+      ],
+      "promptTokenCount": 1697,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1697
+        }
+      ],
+      "totalTokenCount": 1852,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "cd360ea9b9dfea9dcbac7be5a4a410140e73f8b837888896dfb7826c19d5fe27",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790490443.840961,
+  "status": "OK",
+  "text": "{\n  \"reply\": \"네, 알겠습니다. 사진을 보면서 다시 이야기해 주세요.\",\n  \"action\": {\n    \"kind\": \"CONTINUE\",\n    \"question_slot\": null,\n    \"required_slots\": [],\n    \"speaker_id\": \"p1\"\n  },\n  \"memory_decisions\": [\n    {\n      \"alternatives\": [\n        \"삼척\"\n      ],\n      \"fact\": null,\n      \"operation\": \"HOLD\",\n      \"slot\": \"travel_destination\",\n      \"source_turns\": [\n        \"t2\"\n      ],\n      \"target_fact_id\": null\n    }\n  ]\n}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1697,
+    "output_tokens": 155,
+    "reasoning_tokens": 0,
+    "total_tokens": 1852
+  }
+}

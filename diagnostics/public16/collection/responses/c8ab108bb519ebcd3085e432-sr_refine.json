@@ -1,0 +1,56 @@
+{
+  "call_id": "c8ab108bb519ebcd3085e432-sr_refine",
+  "cost_note": "provider_did_not_report_money",
+  "cost_usd_reported": null,
+  "finish_reason": "STOP",
+  "http_status": 200,
+  "latency_seconds": 1.488,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.00023613751611926338,
+        "content": {
+          "parts": [
+            {
+              "text": "{\"reply\": \"I have updated the booking to 7 people. The cost will be 116.2 GBP and your reference number is QQ53PXEI.\", \"action\": {\"kind\": \"CONTINUE\", \"question_slot\": null, \"required_slots\": [], \"speaker_id\": \"system\"}, \"memory_decisions\": [{\"alternatives\": [], \"fact\": {\"relation\": \"train.book.people\", \"source_turns\": [\"MUL1664.json#turn10\"], \"subject\": \"MUL1664.json#train.book\", \"time\": \"unknown\", \"value\": \"7\"}, \"operation\": \"CORRECT\", \"slot\": \"train.book.people\", \"source_turns\": [\"MUL1664.json#turn10\"], \"target_fact_id\": \"MUL1664.json#state9#train.book.people\"}]}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T23:06:35.931529Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "e6G5asntOPGancoP76ybiQ0",
+    "usageMetadata": {
+      "candidatesTokenCount": 198,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 198
+        }
+      ],
+      "promptTokenCount": 2556,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 2556
+        }
+      ],
+      "totalTokenCount": 2754,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "eadc9004d9158b745183ec9169d12422b907c10f560ee625d6961b4d8c42ec71",
+  "status": "OK",
+  "text": "{\"reply\": \"I have updated the booking to 7 people. The cost will be 116.2 GBP and your reference number is QQ53PXEI.\", \"action\": {\"kind\": \"CONTINUE\", \"question_slot\": null, \"required_slots\": [], \"speaker_id\": \"system\"}, \"memory_decisions\": [{\"alternatives\": [], \"fact\": {\"relation\": \"train.book.people\", \"source_turns\": [\"MUL1664.json#turn10\"], \"subject\": \"MUL1664.json#train.book\", \"time\": \"unknown\", \"value\": \"7\"}, \"operation\": \"CORRECT\", \"slot\": \"train.book.people\", \"source_turns\": [\"MUL1664.json#turn10\"], \"target_fact_id\": \"MUL1664.json#state9#train.book.people\"}]}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 2556,
+    "output_tokens": 198,
+    "reasoning_tokens": 0,
+    "total_tokens": 2754
+  }
+}

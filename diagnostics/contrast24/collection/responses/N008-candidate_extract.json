@@ -1,0 +1,55 @@
+{
+  "status": "OK",
+  "http_status": 200,
+  "text": "{\n  \"beliefs\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"facts\": [\n        {\n          \"relation\": \"residence\",\n          \"source_turns\": [\n            \"t2\"\n          ],\n          \"subject\": \"participant\",\n          \"time\": \"past\",\n          \"value\": \"부산\"\n        },\n        {\n          \"relation\": \"residence\",\n          \"source_turns\": [\n            \"t2\"\n          ],\n          \"subject\": \"participant\",\n          \"time\": \"present\",\n          \"value\": \"인천\"\n        }\n      ]\n    },\n    {\n      \"candidate_id\": \"c2\",\n      \"facts\": [\n        {\n          \"relation\": \"residence\",\n          \"source_turns\": [\n            \"t2\"\n          ],\n          \"subject\": \"participant\",\n          \"time\": \"past\",\n          \"value\": \"부산\"\n        },\n        {\n          \"relation\": \"residence\",\n          \"source_turns\": [\n            \"t2\"\n          ],\n          \"subject\": \"participant\",\n          \"time\": \"present\",\n          \"value\": \"인천\"\n        }\n      ]\n    }\n  ],\n  \"correction_witnesses\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"evidence_quote\": \"지금은 인천에 살아요\",\n      \"new_value\": \"인천\",\n      \"polarity\": \"affirmed\",\n      \"relation\": \"residence\",\n      \"source_turn\": \"t2\",\n      \"subject\": \"participant\",\n      \"target_fact_id\": \"f1\",\n      \"time\": \"present\"\n    },\n    {\n      \"candidate_id\": \"c2\",\n      \"evidence_quote\": \"지금 제 거주지는 인천입니다\",\n      \"new_value\": \"인천\",\n      \"polarity\": \"affirmed\",\n      \"relation\": \"residence\",\n      \"source_turn\": \"t2\",\n      \"subject\": \"participant\",\n      \"target_fact_id\": \"f1\",\n      \"time\": \"present\"\n    }\n  ]\n}",
+  "usage": {
+    "input_tokens": 1702,
+    "output_tokens": 505,
+    "reasoning_tokens": 0,
+    "total_tokens": 2207,
+    "cached_tokens": null
+  },
+  "finish_reason": "STOP",
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "content": {
+          "role": "model",
+          "parts": [
+            {
+              "text": "{\n  \"beliefs\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"facts\": [\n        {\n          \"relation\": \"residence\",\n          \"source_turns\": [\n            \"t2\"\n          ],\n          \"subject\": \"participant\",\n          \"time\": \"past\",\n          \"value\": \"부산\"\n        },\n        {\n          \"relation\": \"residence\",\n          \"source_turns\": [\n            \"t2\"\n          ],\n          \"subject\": \"participant\",\n          \"time\": \"present\",\n          \"value\": \"인천\"\n        }\n      ]\n    },\n    {\n      \"candidate_id\": \"c2\",\n      \"facts\": [\n        {\n          \"relation\": \"residence\",\n          \"source_turns\": [\n            \"t2\"\n          ],\n          \"subject\": \"participant\",\n          \"time\": \"past\",\n          \"value\": \"부산\"\n        },\n        {\n          \"relation\": \"residence\",\n          \"source_turns\": [\n            \"t2\"\n          ],\n          \"subject\": \"participant\",\n          \"time\": \"present\",\n          \"value\": \"인천\"\n        }\n      ]\n    }\n  ],\n  \"correction_witnesses\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"evidence_quote\": \"지금은 인천에 살아요\",\n      \"new_value\": \"인천\",\n      \"polarity\": \"affirmed\",\n      \"relation\": \"residence\",\n      \"source_turn\": \"t2\",\n      \"subject\": \"participant\",\n      \"target_fact_id\": \"f1\",\n      \"time\": \"present\"\n    },\n    {\n      \"candidate_id\": \"c2\",\n      \"evidence_quote\": \"지금 제 거주지는 인천입니다\",\n      \"new_value\": \"인천\",\n      \"polarity\": \"affirmed\",\n      \"relation\": \"residence\",\n      \"source_turn\": \"t2\",\n      \"subject\": \"participant\",\n      \"target_fact_id\": \"f1\",\n      \"time\": \"present\"\n    }\n  ]\n}"
+            }
+          ]
+        },
+        "finishReason": "STOP",
+        "avgLogprobs": -0.002999478755611004
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 1702,
+      "candidatesTokenCount": 505,
+      "totalTokenCount": 2207,
+      "trafficType": "ON_DEMAND",
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1702
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 505
+        }
+      ]
+    },
+    "modelVersion": "gemini-2.5-flash",
+    "createTime": "2026-09-27T11:27:25.610768Z",
+    "responseId": "nf24atCjJcup0ckPy9-P8Ak"
+  },
+  "latency_seconds": 2.505,
+  "call_id": "N008-candidate_extract",
+  "physical_attempt": true,
+  "completed_unix": 1790508448.0089989
+}

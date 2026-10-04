@@ -1,0 +1,36 @@
+{
+  "call_id": "fdcc5558654ce532ade3-g_final",
+  "error_type": null,
+  "finish_reason": "stop",
+  "finished_unix": 1790496438.2198532,
+  "latency_seconds": 10.5151,
+  "model_version": "mlx-community/Llama-3.1-8B-Instruct-4bit",
+  "raw_response": {
+    "base_seed": 20260927,
+    "finish_reason": "stop",
+    "generation_calls": 734,
+    "id": "local-c15386726555e6ae552efc5b",
+    "seed": 3444969303,
+    "snapshot": "<LOCAL_PATH>",
+    "text": "{\"action\": {\"kind\": \"CONTINUE\", \"question_slot\": \"shop_name\", \"required_slots\": [\"shop_name\"], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"달빛김밥\", \"달빛분식\"], \"fact\": {\"relation\": \"shop_name\", \"source_turns\": [\"t1\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"달빛분식\"}, \"operation\": \"APPEND\", \"slot\": \"shop_name\", \"source_turns\": [\"t1\"], \"target_fact_id\": \"f1\"}], \"reply\": \"그렇군요. 달빛김밥이 맞아요. 연락은 전화로 돼요.\"}",
+    "usage": {
+      "cached_tokens": null,
+      "input_tokens": 1969,
+      "output_tokens": 156,
+      "reasoning_tokens": null,
+      "total_tokens": 2125
+    }
+  },
+  "request_sha256": "d251036caad5c7614a3d0f9aab1f6997a1a8055c04bdcb6ba21e5fc20ee1adc2",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790496427.7046049,
+  "status": "OK",
+  "text": "{\"action\": {\"kind\": \"CONTINUE\", \"question_slot\": \"shop_name\", \"required_slots\": [\"shop_name\"], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"달빛김밥\", \"달빛분식\"], \"fact\": {\"relation\": \"shop_name\", \"source_turns\": [\"t1\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"달빛분식\"}, \"operation\": \"APPEND\", \"slot\": \"shop_name\", \"source_turns\": [\"t1\"], \"target_fact_id\": \"f1\"}], \"reply\": \"그렇군요. 달빛김밥이 맞아요. 연락은 전화로 돼요.\"}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1969,
+    "output_tokens": 156,
+    "reasoning_tokens": null,
+    "total_tokens": 2125
+  }
+}

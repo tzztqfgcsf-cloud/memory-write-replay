@@ -1,0 +1,57 @@
+{
+  "call_id": "5f15dcd1aed40f7afc0b-candidate_extract",
+  "finish_reason": "STOP",
+  "finished_unix": 1790491630.111274,
+  "http_status": 200,
+  "latency_seconds": 1.9794,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.004155243933200836,
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"beliefs\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"facts\": [\n        {\n          \"relation\": \"preferred_contact\",\n          \"source_turns\": [\n            \"t2\"\n          ],\n          \"subject\": \"participant\",\n          \"time\": \"past\",\n          \"value\": \"편지\"\n        }\n      ]\n    },\n    {\n      \"candidate_id\": \"c2\",\n      \"facts\": [\n        {\n          \"relation\": \"preferred_contact\",\n          \"source_turns\": [\n            \"t2\"\n          ],\n          \"subject\": \"participant\",\n          \"time\": \"past\",\n          \"value\": \"편지\"\n        }\n      ]\n    }\n  ],\n  \"correction_witnesses\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"evidence_quote\": \"영상통화는 바꾸지 말고요\",\n      \"new_value\": \"영상통화\",\n      \"polarity\": \"affirmed\",\n      \"relation\": \"preferred_contact\",\n      \"source_turn\": \"t2\",\n      \"subject\": \"participant\",\n      \"target_fact_id\": \"f1\",\n      \"time\": \"present\"\n    },\n    {\n      \"candidate_id\": \"c2\",\n      \"evidence_quote\": \"지금 연락 방식은 그대로요\",\n      \"new_value\": \"영상통화\",\n      \"polarity\": \"affirmed\",\n      \"relation\": \"preferred_contact\",\n      \"source_turn\": \"t2\",\n      \"subject\": \"participant\",\n      \"target_fact_id\": \"f1\",\n      \"time\": \"present\"\n    }\n  ]\n}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T06:47:08.228428Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "7Lu4asz4Dfuj0ckPyLyQmAM",
+    "usageMetadata": {
+      "candidatesTokenCount": 400,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 400
+        }
+      ],
+      "promptTokenCount": 1705,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1705
+        }
+      ],
+      "totalTokenCount": 2105,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "973431206f9da857415e4471104524d281b33c2d3f6205f3c2cac8d37f955ed9",
+  "stage_schema_sha256": "bda7326ac6a6cbeedf1ecdbf4a2b08277c078351d6689f667dc0d558c4972dd3",
+  "started_unix": 1790491628.1313999,
+  "status": "OK",
+  "text": "{\n  \"beliefs\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"facts\": [\n        {\n          \"relation\": \"preferred_contact\",\n          \"source_turns\": [\n            \"t2\"\n          ],\n          \"subject\": \"participant\",\n          \"time\": \"past\",\n          \"value\": \"편지\"\n        }\n      ]\n    },\n    {\n      \"candidate_id\": \"c2\",\n      \"facts\": [\n        {\n          \"relation\": \"preferred_contact\",\n          \"source_turns\": [\n            \"t2\"\n          ],\n          \"subject\": \"participant\",\n          \"time\": \"past\",\n          \"value\": \"편지\"\n        }\n      ]\n    }\n  ],\n  \"correction_witnesses\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"evidence_quote\": \"영상통화는 바꾸지 말고요\",\n      \"new_value\": \"영상통화\",\n      \"polarity\": \"affirmed\",\n      \"relation\": \"preferred_contact\",\n      \"source_turn\": \"t2\",\n      \"subject\": \"participant\",\n      \"target_fact_id\": \"f1\",\n      \"time\": \"present\"\n    },\n    {\n      \"candidate_id\": \"c2\",\n      \"evidence_quote\": \"지금 연락 방식은 그대로요\",\n      \"new_value\": \"영상통화\",\n      \"polarity\": \"affirmed\",\n      \"relation\": \"preferred_contact\",\n      \"source_turn\": \"t2\",\n      \"subject\": \"participant\",\n      \"target_fact_id\": \"f1\",\n      \"time\": \"present\"\n    }\n  ]\n}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1705,
+    "output_tokens": 400,
+    "reasoning_tokens": 0,
+    "total_tokens": 2105
+  }
+}

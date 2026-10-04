@@ -1,0 +1,64 @@
+{
+  "call_id": "4ae65938875e0f4a02b8-candidate_extract",
+  "finish_reason": "STOP",
+  "finished_unix": 1790493542.904524,
+  "http_status": 200,
+  "latency_seconds": 2.7422,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.0015378974688549836,
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"beliefs\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"facts\": [\n        {\n          \"relation\": \"preferred_contact\",\n          \"source_turns\": [\n            \"t2\"\n          ],\n          \"subject\": \"participant\",\n          \"time\": \"present\",\n          \"value\": \"이메일\"\n        }\n      ]\n    },\n    {\n      \"candidate_id\": \"c2\",\n      \"facts\": [\n        {\n          \"relation\": \"preferred_contact\",\n          \"source_turns\": [\n            \"t2\"\n          ],\n          \"subject\": \"participant\",\n          \"time\": \"present\",\n          \"value\": \"이메일\"\n        }\n      ]\n    }\n  ],\n  \"correction_witnesses\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"evidence_quote\": \"\",\n      \"new_value\": \"의정부\",\n      \"polarity\": \"absent\",\n      \"relation\": \"residence\",\n      \"source_turn\": \"t2\",\n      \"subject\": \"participant\",\n      \"target_fact_id\": \"f1\",\n      \"time\": \"present\"\n    },\n    {\n      \"candidate_id\": \"c2\",\n      \"evidence_quote\": \"\",\n      \"new_value\": \"의정부\",\n      \"polarity\": \"absent\",\n      \"relation\": \"residence\",\n      \"source_turn\": \"t2\",\n      \"subject\": \"participant\",\n      \"target_fact_id\": \"f1\",\n      \"time\": \"present\"\n    }\n  ]\n}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T07:19:00.260801Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "ZMO4asH1D5iXktwPo4SY4AQ",
+    "usageMetadata": {
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1355
+        }
+      ],
+      "cachedContentTokenCount": 1355,
+      "candidatesTokenCount": 384,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 384
+        }
+      ],
+      "promptTokenCount": 1690,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1690
+        }
+      ],
+      "totalTokenCount": 2074,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "f620f16da81281a6107389e392357c87e6561f59a2112bf6f004e6e4a9b53fbc",
+  "stage_schema_sha256": "bda7326ac6a6cbeedf1ecdbf4a2b08277c078351d6689f667dc0d558c4972dd3",
+  "started_unix": 1790493540.16208,
+  "status": "OK",
+  "text": "{\n  \"beliefs\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"facts\": [\n        {\n          \"relation\": \"preferred_contact\",\n          \"source_turns\": [\n            \"t2\"\n          ],\n          \"subject\": \"participant\",\n          \"time\": \"present\",\n          \"value\": \"이메일\"\n        }\n      ]\n    },\n    {\n      \"candidate_id\": \"c2\",\n      \"facts\": [\n        {\n          \"relation\": \"preferred_contact\",\n          \"source_turns\": [\n            \"t2\"\n          ],\n          \"subject\": \"participant\",\n          \"time\": \"present\",\n          \"value\": \"이메일\"\n        }\n      ]\n    }\n  ],\n  \"correction_witnesses\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"evidence_quote\": \"\",\n      \"new_value\": \"의정부\",\n      \"polarity\": \"absent\",\n      \"relation\": \"residence\",\n      \"source_turn\": \"t2\",\n      \"subject\": \"participant\",\n      \"target_fact_id\": \"f1\",\n      \"time\": \"present\"\n    },\n    {\n      \"candidate_id\": \"c2\",\n      \"evidence_quote\": \"\",\n      \"new_value\": \"의정부\",\n      \"polarity\": \"absent\",\n      \"relation\": \"residence\",\n      \"source_turn\": \"t2\",\n      \"subject\": \"participant\",\n      \"target_fact_id\": \"f1\",\n      \"time\": \"present\"\n    }\n  ]\n}",
+  "usage": {
+    "cached_tokens": 1355,
+    "input_tokens": 1690,
+    "output_tokens": 384,
+    "reasoning_tokens": 0,
+    "total_tokens": 2074
+  }
+}

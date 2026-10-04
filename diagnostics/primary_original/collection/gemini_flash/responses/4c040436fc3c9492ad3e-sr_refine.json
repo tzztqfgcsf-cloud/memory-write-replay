@@ -1,0 +1,57 @@
+{
+  "call_id": "4c040436fc3c9492ad3e-sr_refine",
+  "finish_reason": "STOP",
+  "finished_unix": 1790491310.9787378,
+  "http_status": 200,
+  "latency_seconds": 1.7069,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.0005353755313596684,
+        "content": {
+          "parts": [
+            {
+              "text": "{\"reply\": \"네, 동생 영숙님이 이 사범님께 태권도를 배웠다는 사실을 기록해 드릴게요. 본인 기록은 그대로 유지됩니다.\", \"action\": {\"kind\": \"CONTINUE\", \"question_slot\": null, \"required_slots\": [], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [], \"fact\": {\"relation\": \"learned_from\", \"source_turns\": [\"t2\"], \"subject\": \"영숙\", \"time\": \"past\", \"value\": \"이 사범님\"}, \"operation\": \"APPEND\", \"slot\": null, \"source_turns\": [\"t2\"], \"target_fact_id\": null}, {\"alternatives\": [], \"fact\": {\"relation\": \"learned_from\", \"source_turns\": [\"t1\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"박 사범님\"}, \"operation\": \"HOLD\", \"slot\": \"learned_from\", \"source_turns\": [\"t2\"], \"target_fact_id\": \"f1\"}]}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T06:41:49.353010Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "rbq4avLFFdCNx9gP07myoAQ",
+    "usageMetadata": {
+      "candidatesTokenCount": 231,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 231
+        }
+      ],
+      "promptTokenCount": 2377,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 2377
+        }
+      ],
+      "totalTokenCount": 2608,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "6501e51d96b317da98e0e1e713f3bde5dcccab6a06e47aefa4ac0cb5a36311cf",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790491309.2715662,
+  "status": "OK",
+  "text": "{\"reply\": \"네, 동생 영숙님이 이 사범님께 태권도를 배웠다는 사실을 기록해 드릴게요. 본인 기록은 그대로 유지됩니다.\", \"action\": {\"kind\": \"CONTINUE\", \"question_slot\": null, \"required_slots\": [], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [], \"fact\": {\"relation\": \"learned_from\", \"source_turns\": [\"t2\"], \"subject\": \"영숙\", \"time\": \"past\", \"value\": \"이 사범님\"}, \"operation\": \"APPEND\", \"slot\": null, \"source_turns\": [\"t2\"], \"target_fact_id\": null}, {\"alternatives\": [], \"fact\": {\"relation\": \"learned_from\", \"source_turns\": [\"t1\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"박 사범님\"}, \"operation\": \"HOLD\", \"slot\": \"learned_from\", \"source_turns\": [\"t2\"], \"target_fact_id\": \"f1\"}]}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 2377,
+    "output_tokens": 231,
+    "reasoning_tokens": 0,
+    "total_tokens": 2608
+  }
+}

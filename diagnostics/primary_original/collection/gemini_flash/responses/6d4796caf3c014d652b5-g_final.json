@@ -1,0 +1,57 @@
+{
+  "call_id": "6d4796caf3c014d652b5-g_final",
+  "finish_reason": "STOP",
+  "finished_unix": 1790496080.4327838,
+  "http_status": 200,
+  "latency_seconds": 1.8091,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.005612554658955041,
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"reply\": \"네, 모임 장소가 누리문화원으로 바뀌었고 취미는 민요로 그대로 유지되는군요. 기억해 둘게요.\",\n  \"action\": {\n    \"kind\": \"CONTINUE\",\n    \"question_slot\": null,\n    \"required_slots\": [],\n    \"speaker_id\": \"p1\"\n  },\n  \"memory_decisions\": [\n    {\n      \"alternatives\": [],\n      \"fact\": {\n        \"relation\": \"meeting_place\",\n        \"source_turns\": [\"t2\"],\n        \"subject\": \"participant\",\n        \"time\": \"present\",\n        \"value\": \"누리문화원\"\n      },\n      \"operation\": \"CORRECT\",\n      \"slot\": null,\n      \"source_turns\": [\"t2\"],\n      \"target_fact_id\": \"f2\"\n    },\n    {\n      \"alternatives\": [],\n      \"fact\": null,\n      \"operation\": \"NO_WRITE\",\n      \"slot\": null,\n      \"source_turns\": [\"t2\"],\n      \"target_fact_id\": null\n    }\n  ]\n}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T08:01:18.772639Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "Ts24ap-UL5iXktwPo4SY4AQ",
+    "usageMetadata": {
+      "candidatesTokenCount": 263,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 263
+        }
+      ],
+      "promptTokenCount": 1987,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1987
+        }
+      ],
+      "totalTokenCount": 2250,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "347f784af6718e38b6fcdd0f9aa2bfb2d422c6c3e4b41ee8afd9858875f83cb6",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790496078.622776,
+  "status": "OK",
+  "text": "{\n  \"reply\": \"네, 모임 장소가 누리문화원으로 바뀌었고 취미는 민요로 그대로 유지되는군요. 기억해 둘게요.\",\n  \"action\": {\n    \"kind\": \"CONTINUE\",\n    \"question_slot\": null,\n    \"required_slots\": [],\n    \"speaker_id\": \"p1\"\n  },\n  \"memory_decisions\": [\n    {\n      \"alternatives\": [],\n      \"fact\": {\n        \"relation\": \"meeting_place\",\n        \"source_turns\": [\"t2\"],\n        \"subject\": \"participant\",\n        \"time\": \"present\",\n        \"value\": \"누리문화원\"\n      },\n      \"operation\": \"CORRECT\",\n      \"slot\": null,\n      \"source_turns\": [\"t2\"],\n      \"target_fact_id\": \"f2\"\n    },\n    {\n      \"alternatives\": [],\n      \"fact\": null,\n      \"operation\": \"NO_WRITE\",\n      \"slot\": null,\n      \"source_turns\": [\"t2\"],\n      \"target_fact_id\": null\n    }\n  ]\n}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1987,
+    "output_tokens": 263,
+    "reasoning_tokens": 0,
+    "total_tokens": 2250
+  }
+}

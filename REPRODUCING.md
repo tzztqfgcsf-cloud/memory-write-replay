@@ -1,0 +1,96 @@
+# Reproducing the paper artifacts
+
+Run commands from the repository root. Use new output directories for each run.
+Saved inputs and published results are never overwritten. No model API calls
+are made by the supported checks.
+
+## Main saved-generation execution
+
+```sh
+python3 core/replay.py --output-dir /tmp/memory-write-main-replay
+```
+
+Python 3.10 or newer and the standard library are sufficient. A complete run
+checks 3,024 episodes across 14 policy conditions: 42,336 score rows, plus final
+states and gate audits. `--limit 2` is an optional installation check of 28 rows;
+it is not a full-cohort verification. See [core/README.md](core/README.md).
+
+## Supporting experimental checks
+
+```sh
+python3 diagnostics/verify.py
+python3 supplements/verify_aggregation.py
+python3 supplements/replay_saved.py --output-dir /tmp/memory-write-supplement-replay
+```
+
+These use the Python standard library. The first command compares 3,444 saved
+score rows. The other commands verify the supplementary aggregates and replay
+296 saved authored outputs. External DSTC2 corpus access is documented in
+[supplements/dstc2/README.md](supplements/dstc2/README.md).
+
+## Appendix Table I9 classification
+
+```sh
+python3 diagnostics/variant_audit_v26/reproduce.py --output-dir /tmp/memory-write-v26-audit --verify-archived
+```
+
+This reconstructs 82 observation-level classifications from saved inputs using
+the mechanical rule printed in the v26 appendix. See the diagnostic README for
+the distinction between published counts and additional derived breakdowns.
+
+## Statistical reproduction
+
+Use Python 3.11 or newer and an isolated environment for the additional statistics dependencies:
+
+```sh
+python3 -m venv /tmp/memory-write-statistics-env
+/tmp/memory-write-statistics-env/bin/python -m pip install -r statistics/requirements.txt
+/tmp/memory-write-statistics-env/bin/python statistics/reproduce.py --output /tmp/memory-write-statistics
+```
+
+Installing dependencies requires network access; once installed, the verification
+uses only published local files. The [statistics guide](statistics/README.md)
+identifies the exact comparisons, seeds, resampling scheme and numerical
+tolerances. Existing missing intervals remain missing. The program compares
+reconstructed statistics with archived results; it does not call models,
+rescore responses, select a new cohort or replace historical tables.
+
+## Paper-to-artifact map
+
+| Paper material | Public evidence | Supported check |
+|---|---|---|
+| Appendix A-B: original protocol and original-family profiles | `diagnostics/primary_original/`, `diagnostics/saved_allow/` | `diagnostics/verify.py` for saved scores; original analysis sources and intervals are also archived. |
+| Appendix C: configurations and resource accounting | `core/data/cohort.json`, `core/data/generation_requests.json.gz`, `diagnostics/resources/` | Recorded configuration/call metadata; no new runtime or provider benchmark. |
+| Appendix D-F: contrast, boundary and public-dialogue probes | `diagnostics/contrast24/`, `diagnostics/boundary12/`, `diagnostics/public16/` | `diagnostics/verify.py` checks saved score fields. |
+| Appendix G: selected complete three-repeat panel | `core/`, `diagnostics/analysis_archive/panel21/`, `statistics/` | Full core replay; portable statistical checks cover the counts/effects and available historical panel intervals described in `statistics/README.md`. |
+| Appendix H: translated example cases | `core/data/cases.json.gz`, `core/data/episodes.json.gz` | Trace case identifiers to original Korean inputs and saved outputs. |
+| Appendix I: hybrid admission bounds and comparisons | `core/`, `diagnostics/analysis_archive/hybrids/`, `diagnostics/analysis_archive/review_bounds/`, `statistics/` | Saved states/scores and portable archived-comparison checks. |
+| Appendix I.1 / Table I9: 82 avoided reference violations | `diagnostics/variant_audit_v26/` | Row-level reconstruction of the rule stated in the supplied v26 appendix; see its README for the command and exact scope. |
+| Separately collected corrected-extractor / learned-verifier / DSTC2 supplements | `supplements/` | Aggregate verification and supported saved-response replay; corpus exclusions documented. |
+
+Document version numbers and historical experiment names are distinct. The v26
+appendix is included byte-for-byte as supplied. Its new classification rule is
+implemented as a transparent offline reconstruction, not relabeled as recovered
+historical author code.
+
+## Integrity and prior verification
+
+`verification/SHA256SUMS` covers current files except itself. The release also
+provides a ZIP checksum. `verification/RELEASE_CHECKS.json` retains v1 full-replay
+verification; `verification/RELEASE_UPDATE_v2.json` retains v2 checks. New checks
+are recorded separately for v3. Historical experiment files and earlier release
+tags are preserved, including old identifiers inside provenance records.
+
+## Remaining archival-only material
+
+Portable entrypoints above specify their scope. Other historical analysis
+scripts are supplied for inspection and may depend on the original directory
+layout. Missing original confidence intervals are not filled in. No archived benchmark supports the manuscript’s 40–78 microsecond replay-time claim. That number is not a verified result of this artifact; the supported cost statement is that deterministic replay requires no additional model calls. No unavailable corpus, CareCall full operation-label dataset,
+participant contact information, credentials, family audio, model weights or
+unrelated product data is included.
+
+## Version and archive
+
+Cite the versioned release in `CITATION.bib`. A GitHub release is not a DOI or an
+ACM artifact badge. Permanent archival deposition can be added separately;
+see the [ACM artifact policy](https://www.acm.org/publications/policies/artifact-review-and-badging-current).

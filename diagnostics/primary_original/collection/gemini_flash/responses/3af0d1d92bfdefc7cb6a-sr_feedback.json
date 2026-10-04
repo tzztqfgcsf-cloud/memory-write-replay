@@ -1,0 +1,57 @@
+{
+  "call_id": "3af0d1d92bfdefc7cb6a-sr_feedback",
+  "finish_reason": "STOP",
+  "finished_unix": 1790493274.1890109,
+  "http_status": 200,
+  "latency_seconds": 2.4274,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.16770053439670138,
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"no_change_needed\": false,\n  \"issues\": [\n    {\n      \"draft_location\": \"memory_decisions[0].fact.relation\",\n      \"evidence_location\": \"t2.candidates[0].text\",\n      \"problem\": \"The relation 'shop_name' is too generic. The user explicitly states '옛 가게 이름으로 장미미용실을 남겨 줘요.' which implies a past shop name.\",\n      \"specific_revision\": \"Change 'shop_name' to 'past_shop_name'.\"\n    },\n    {\n      \"draft_location\": \"memory_decisions[0].fact.time\",\n      \"evidence_location\": \"t2.candidates[0].text\",\n      \"problem\": \"The time 'past' is redundant given the suggested relation 'past_shop_name'.\",\n      \"specific_revision\": \"Remove 'time': 'past' or make it null if the relation already implies past.\"\n    },\n    {\n      \"draft_location\": \"reply\",\n      \"evidence_location\": \"t2.candidates[0].text\",\n      \"problem\": \"The reply states '기억해 둘게요' which implies the action has already been completed. The memory write happens after the reply.\",\n      \"specific_revision\": \"Change the reply to something that indicates the intention to remember, such as \\\"네, 알겠습니다. 장미미용실을 운영하셨던 것을 기억해 두겠습니다.\\\" or \\\"네, 장미미용실을 운영하셨던 것을 추억 기록에 남겨둘게요.\\\"\"\n    }\n  ]\n}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T07:14:31.864181Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "V8K4arXfNPObncoPmvuomAI",
+    "usageMetadata": {
+      "candidatesTokenCount": 360,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 360
+        }
+      ],
+      "promptTokenCount": 1361,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1361
+        }
+      ],
+      "totalTokenCount": 1721,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "8ccee210c2a58cb1ca4c71eb47adc3134d86c844cdc7ab3d177c6ab27999ac94",
+  "stage_schema_sha256": "377e252cf02129ba34bbc867118dd2b9c6b65042b3fcd7b44099d2fc6e0513ed",
+  "started_unix": 1790493271.761023,
+  "status": "OK",
+  "text": "{\n  \"no_change_needed\": false,\n  \"issues\": [\n    {\n      \"draft_location\": \"memory_decisions[0].fact.relation\",\n      \"evidence_location\": \"t2.candidates[0].text\",\n      \"problem\": \"The relation 'shop_name' is too generic. The user explicitly states '옛 가게 이름으로 장미미용실을 남겨 줘요.' which implies a past shop name.\",\n      \"specific_revision\": \"Change 'shop_name' to 'past_shop_name'.\"\n    },\n    {\n      \"draft_location\": \"memory_decisions[0].fact.time\",\n      \"evidence_location\": \"t2.candidates[0].text\",\n      \"problem\": \"The time 'past' is redundant given the suggested relation 'past_shop_name'.\",\n      \"specific_revision\": \"Remove 'time': 'past' or make it null if the relation already implies past.\"\n    },\n    {\n      \"draft_location\": \"reply\",\n      \"evidence_location\": \"t2.candidates[0].text\",\n      \"problem\": \"The reply states '기억해 둘게요' which implies the action has already been completed. The memory write happens after the reply.\",\n      \"specific_revision\": \"Change the reply to something that indicates the intention to remember, such as \\\"네, 알겠습니다. 장미미용실을 운영하셨던 것을 기억해 두겠습니다.\\\" or \\\"네, 장미미용실을 운영하셨던 것을 추억 기록에 남겨둘게요.\\\"\"\n    }\n  ]\n}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1361,
+    "output_tokens": 360,
+    "reasoning_tokens": 0,
+    "total_tokens": 1721
+  }
+}

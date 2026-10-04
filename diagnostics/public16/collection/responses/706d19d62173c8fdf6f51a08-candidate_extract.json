@@ -1,0 +1,56 @@
+{
+  "call_id": "706d19d62173c8fdf6f51a08-candidate_extract",
+  "cost_note": "provider_did_not_report_money",
+  "cost_usd_reported": null,
+  "finish_reason": "STOP",
+  "http_status": 200,
+  "latency_seconds": 1.1136,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.005631675745578523,
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"beliefs\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"facts\": []\n    }\n  ],\n  \"correction_witnesses\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"target_fact_id\": \"PMUL3804.json#state3#hotel.semi.internet\",\n      \"subject\": \"PMUL3804.json#hotel.semi\",\n      \"relation\": \"hotel.semi.internet\",\n      \"time\": \"unknown\",\n      \"new_value\": \"yes\",\n      \"source_turn\": \"PMUL3804.json#turn4\",\n      \"evidence_quote\": \"I do need a place that has free wifi.\",\n      \"polarity\": \"affirmed\"\n    }\n  ]\n}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T22:58:37.721590Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "nZ-5araFLPGcx9gPiJ6amAM",
+    "usageMetadata": {
+      "candidatesTokenCount": 188,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 188
+        }
+      ],
+      "promptTokenCount": 1561,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1561
+        }
+      ],
+      "totalTokenCount": 1749,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "3d768341ac4023f416d1ac53d57dfc0ca993b88886ca55987b46c7835f5caa2f",
+  "status": "OK",
+  "text": "{\n  \"beliefs\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"facts\": []\n    }\n  ],\n  \"correction_witnesses\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"target_fact_id\": \"PMUL3804.json#state3#hotel.semi.internet\",\n      \"subject\": \"PMUL3804.json#hotel.semi\",\n      \"relation\": \"hotel.semi.internet\",\n      \"time\": \"unknown\",\n      \"new_value\": \"yes\",\n      \"source_turn\": \"PMUL3804.json#turn4\",\n      \"evidence_quote\": \"I do need a place that has free wifi.\",\n      \"polarity\": \"affirmed\"\n    }\n  ]\n}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1561,
+    "output_tokens": 188,
+    "reasoning_tokens": 0,
+    "total_tokens": 1749
+  }
+}

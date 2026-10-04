@@ -1,0 +1,20 @@
+{
+  "status": "OK",
+  "http_status": 200,
+  "text": "{\"beliefs\": [{\"candidate_id\": \"c1\", \"facts\": [{\"relation\": \"workplace\", \"source_turns\": [\"t2\"], \"subject\": \"도윤\", \"time\": \"present\", \"value\": \"대한우편\"}]}, {\"candidate_id\": \"c2\", \"facts\": [{\"relation\": \"workplace\", \"source_turns\": [\"t2\"], \"subject\": \"도윤\", \"time\": \"present\", \"value\": \"대한우편\"}]}], \"correction_witnesses\": [{\"candidate_id\": \"c1\", \"evidence_quote\": \"제 직장 아니고요\", \"new_value\": \"새봄도서관\", \"polarity\": \"negated\", \"relation\": \"workplace\", \"source_turn\": \"t2\", \"subject\": \"participant\", \"target_fact_id\": \"f1\", \"time\": \"present\"}, {\"candidate_id\": \"c2\", \"evidence_quote\": \"저 말고 도윤이 대한우편에 다닙니다\", \"new_value\": \"새봄도서관\", \"polarity\": \"negated\", \"relation\": \"workplace\", \"source_turn\": \"t2\", \"subject\": \"participant\", \"target_fact_id\": \"f1\", \"time\": \"present\"}]}",
+  "usage": {
+    "input_tokens": 1851,
+    "output_tokens": 276,
+    "reasoning_tokens": 0,
+    "total_tokens": 2127,
+    "cached_tokens": null
+  },
+  "finish_reason": "STOP",
+  "model_version": "gemini-2.5-flash",
+  "id": "gemini_flash_CT15_corrected",
+  "key": "gemini_flash_CT15",
+  "stage": "extract",
+  "arm": "corrected",
+  "requested_model": "gemini-2.5-flash",
+  "latency_seconds": 1.581211415817961
+}

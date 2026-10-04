@@ -1,0 +1,55 @@
+{
+  "status": "OK",
+  "http_status": 200,
+  "text": "{\n  \"reply\": \"네, 알겠습니다. 출생지 정보는 제주로 유지하겠습니다.\",\n  \"action\": {\n    \"kind\": \"CONTINUE\",\n    \"question_slot\": null,\n    \"required_slots\": [],\n    \"speaker_id\": \"p1\"\n  },\n  \"memory_decisions\": [\n    {\n      \"alternatives\": [],\n      \"fact\": null,\n      \"operation\": \"NO_WRITE\",\n      \"slot\": null,\n      \"source_turns\": [\"t2\"],\n      \"target_fact_id\": null\n    }\n  ]\n}",
+  "usage": {
+    "input_tokens": 1936,
+    "output_tokens": 140,
+    "reasoning_tokens": 0,
+    "total_tokens": 2076,
+    "cached_tokens": null
+  },
+  "finish_reason": "STOP",
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "content": {
+          "role": "model",
+          "parts": [
+            {
+              "text": "{\n  \"reply\": \"네, 알겠습니다. 출생지 정보는 제주로 유지하겠습니다.\",\n  \"action\": {\n    \"kind\": \"CONTINUE\",\n    \"question_slot\": null,\n    \"required_slots\": [],\n    \"speaker_id\": \"p1\"\n  },\n  \"memory_decisions\": [\n    {\n      \"alternatives\": [],\n      \"fact\": null,\n      \"operation\": \"NO_WRITE\",\n      \"slot\": null,\n      \"source_turns\": [\"t2\"],\n      \"target_fact_id\": null\n    }\n  ]\n}"
+            }
+          ]
+        },
+        "finishReason": "STOP",
+        "avgLogprobs": -0.048130038806370325
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 1936,
+      "candidatesTokenCount": 140,
+      "totalTokenCount": 2076,
+      "trafficType": "ON_DEMAND",
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1936
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 140
+        }
+      ]
+    },
+    "modelVersion": "gemini-2.5-flash",
+    "createTime": "2026-09-27T11:27:01.601882Z",
+    "responseId": "hf24apreJNOH0ckPuLmDuA8"
+  },
+  "latency_seconds": 1.2693,
+  "call_id": "N006-candidate_final",
+  "physical_attempt": true,
+  "completed_unix": 1790508422.758247
+}

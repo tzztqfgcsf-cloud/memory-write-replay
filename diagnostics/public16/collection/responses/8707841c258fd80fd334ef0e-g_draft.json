@@ -1,0 +1,56 @@
+{
+  "call_id": "8707841c258fd80fd334ef0e-g_draft",
+  "cost_note": "provider_did_not_report_money",
+  "cost_usd_reported": null,
+  "finish_reason": "STOP",
+  "http_status": 200,
+  "latency_seconds": 1.2437,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.025890556592789906,
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"reply\": \"Okay, I will try to book for 2 nights instead of 4.\",\n  \"action\": {\n    \"kind\": \"CONTINUE\",\n    \"question_slot\": null,\n    \"required_slots\": [],\n    \"speaker_id\": \"system\"\n  },\n  \"memory_decisions\": [\n    {\n      \"alternatives\": [],\n      \"fact\": {\n        \"relation\": \"hotel.book.stay\",\n        \"source_turns\": [\n          \"SNG1006.json#turn6\"\n        ],\n        \"subject\": \"SNG1006.json#hotel.book\",\n        \"time\": \"unknown\",\n        \"value\": \"2\"\n      },\n      \"operation\": \"CORRECT\",\n      \"slot\": \"hotel.book.stay\",\n      \"source_turns\": [\n        \"SNG1006.json#turn6\"\n      ],\n      \"target_fact_id\": \"SNG1006.json#state5#hotel.book.stay\"\n    }\n  ]\n}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T23:13:31.630464Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "G6O5asC9JpiXktwPo4SY4AQ",
+    "usageMetadata": {
+      "candidatesTokenCount": 252,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 252
+        }
+      ],
+      "promptTokenCount": 1907,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1907
+        }
+      ],
+      "totalTokenCount": 2159,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "961b3cbbb5d29e96553be333e13f44f1fbcc56e6c560a3f51f9acf971ffac0e2",
+  "status": "OK",
+  "text": "{\n  \"reply\": \"Okay, I will try to book for 2 nights instead of 4.\",\n  \"action\": {\n    \"kind\": \"CONTINUE\",\n    \"question_slot\": null,\n    \"required_slots\": [],\n    \"speaker_id\": \"system\"\n  },\n  \"memory_decisions\": [\n    {\n      \"alternatives\": [],\n      \"fact\": {\n        \"relation\": \"hotel.book.stay\",\n        \"source_turns\": [\n          \"SNG1006.json#turn6\"\n        ],\n        \"subject\": \"SNG1006.json#hotel.book\",\n        \"time\": \"unknown\",\n        \"value\": \"2\"\n      },\n      \"operation\": \"CORRECT\",\n      \"slot\": \"hotel.book.stay\",\n      \"source_turns\": [\n        \"SNG1006.json#turn6\"\n      ],\n      \"target_fact_id\": \"SNG1006.json#state5#hotel.book.stay\"\n    }\n  ]\n}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1907,
+    "output_tokens": 252,
+    "reasoning_tokens": 0,
+    "total_tokens": 2159
+  }
+}

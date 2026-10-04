@@ -1,0 +1,55 @@
+{
+  "status": "OK",
+  "http_status": 200,
+  "text": "{\n  \"beliefs\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"facts\": [\n        {\n          \"relation\": \"residence\",\n          \"source_turns\": [\n            \"t2\"\n          ],\n          \"subject\": \"participant's daughter\",\n          \"time\": \"present\",\n          \"value\": \"대전\"\n        },\n        {\n          \"relation\": \"residence\",\n          \"source_turns\": [\n            \"t2\"\n          ],\n          \"subject\": \"participant\",\n          \"time\": \"present\",\n          \"value\": \"광주\"\n        }\n      ]\n    },\n    {\n      \"candidate_id\": \"c2\",\n      \"facts\": [\n        {\n          \"relation\": \"residence\",\n          \"source_turns\": [\n            \"t2\"\n          ],\n          \"subject\": \"participant's daughter\",\n          \"time\": \"present\",\n          \"value\": \"대전\"\n        },\n        {\n          \"relation\": \"residence\",\n          \"source_turns\": [\n            \"t2\"\n          ],\n          \"subject\": \"participant\",\n          \"time\": \"present\",\n          \"value\": \"광주\"\n        }\n      ]\n    }\n  ],\n  \"correction_witnesses\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"evidence_quote\": \"저는 여전히 광주에 살고요\",\n      \"new_value\": \"광주\",\n      \"polarity\": \"affirmed\",\n      \"relation\": \"residence\",\n      \"source_turn\": \"t2\",\n      \"subject\": \"participant\",\n      \"target_fact_id\": \"f1\",\n      \"time\": \"present\"\n    },\n    {\n      \"candidate_id\": \"c2\",\n      \"evidence_quote\": \"저는 여전히 광주에 살고요\",\n      \"new_value\": \"광주\",\n      \"polarity\": \"affirmed\",\n      \"relation\": \"residence\",\n      \"source_turn\": \"t2\",\n      \"subject\": \"participant\",\n      \"target_fact_id\": \"f1\",\n      \"time\": \"present\"\n    }\n  ]\n}",
+  "usage": {
+    "input_tokens": 1704,
+    "output_tokens": 514,
+    "reasoning_tokens": 0,
+    "total_tokens": 2218,
+    "cached_tokens": null
+  },
+  "finish_reason": "STOP",
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "content": {
+          "role": "model",
+          "parts": [
+            {
+              "text": "{\n  \"beliefs\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"facts\": [\n        {\n          \"relation\": \"residence\",\n          \"source_turns\": [\n            \"t2\"\n          ],\n          \"subject\": \"participant's daughter\",\n          \"time\": \"present\",\n          \"value\": \"대전\"\n        },\n        {\n          \"relation\": \"residence\",\n          \"source_turns\": [\n            \"t2\"\n          ],\n          \"subject\": \"participant\",\n          \"time\": \"present\",\n          \"value\": \"광주\"\n        }\n      ]\n    },\n    {\n      \"candidate_id\": \"c2\",\n      \"facts\": [\n        {\n          \"relation\": \"residence\",\n          \"source_turns\": [\n            \"t2\"\n          ],\n          \"subject\": \"participant's daughter\",\n          \"time\": \"present\",\n          \"value\": \"대전\"\n        },\n        {\n          \"relation\": \"residence\",\n          \"source_turns\": [\n            \"t2\"\n          ],\n          \"subject\": \"participant\",\n          \"time\": \"present\",\n          \"value\": \"광주\"\n        }\n      ]\n    }\n  ],\n  \"correction_witnesses\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"evidence_quote\": \"저는 여전히 광주에 살고요\",\n      \"new_value\": \"광주\",\n      \"polarity\": \"affirmed\",\n      \"relation\": \"residence\",\n      \"source_turn\": \"t2\",\n      \"subject\": \"participant\",\n      \"target_fact_id\": \"f1\",\n      \"time\": \"present\"\n    },\n    {\n      \"candidate_id\": \"c2\",\n      \"evidence_quote\": \"저는 여전히 광주에 살고요\",\n      \"new_value\": \"광주\",\n      \"polarity\": \"affirmed\",\n      \"relation\": \"residence\",\n      \"source_turn\": \"t2\",\n      \"subject\": \"participant\",\n      \"target_fact_id\": \"f1\",\n      \"time\": \"present\"\n    }\n  ]\n}"
+            }
+          ]
+        },
+        "finishReason": "STOP",
+        "avgLogprobs": -0.0022589049450618282
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 1704,
+      "candidatesTokenCount": 514,
+      "totalTokenCount": 2218,
+      "trafficType": "ON_DEMAND",
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1704
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 514
+        }
+      ]
+    },
+    "modelVersion": "gemini-2.5-flash",
+    "createTime": "2026-09-27T14:47:39.334624Z",
+    "responseId": "iyy5aqC2FPGancoP76ybiQ0"
+  },
+  "latency_seconds": 3.1866,
+  "call_id": "W005-candidate_extract",
+  "physical_attempt": true,
+  "completed_unix": 1790520462.376715
+}

@@ -1,0 +1,64 @@
+{
+  "call_id": "54129910d50ca168de7a-candidate_final",
+  "finish_reason": "STOP",
+  "finished_unix": 1790493609.469325,
+  "http_status": 200,
+  "latency_seconds": 1.5274,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.0186912872458017,
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"reply\": \"이메일을 선호하는 연락 방법으로 기억해 드릴게요.\",\n  \"action\": {\n    \"kind\": \"CONTINUE\",\n    \"question_slot\": null,\n    \"required_slots\": [],\n    \"speaker_id\": \"p1\"\n  },\n  \"memory_decisions\": [\n    {\n      \"alternatives\": [],\n      \"fact\": {\n        \"relation\": \"preferred_contact\",\n        \"source_turns\": [\"t2\"],\n        \"subject\": \"participant\",\n        \"time\": \"present\",\n        \"value\": \"이메일\"\n      },\n      \"operation\": \"APPEND\",\n      \"slot\": null,\n      \"source_turns\": [\"t2\"],\n      \"target_fact_id\": null\n    }\n  ]\n}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T07:20:08.138515Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "qMO4apO6CLOKktwPsejJ4QY",
+    "usageMetadata": {
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1940
+        }
+      ],
+      "cachedContentTokenCount": 1940,
+      "candidatesTokenCount": 186,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 186
+        }
+      ],
+      "promptTokenCount": 2009,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 2009
+        }
+      ],
+      "totalTokenCount": 2195,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "0a9656f2c211669dced9a8b3e6e59c4aa732fb533f6b0cafbc5738ff13ecacd1",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790493607.9416242,
+  "status": "OK",
+  "text": "{\n  \"reply\": \"이메일을 선호하는 연락 방법으로 기억해 드릴게요.\",\n  \"action\": {\n    \"kind\": \"CONTINUE\",\n    \"question_slot\": null,\n    \"required_slots\": [],\n    \"speaker_id\": \"p1\"\n  },\n  \"memory_decisions\": [\n    {\n      \"alternatives\": [],\n      \"fact\": {\n        \"relation\": \"preferred_contact\",\n        \"source_turns\": [\"t2\"],\n        \"subject\": \"participant\",\n        \"time\": \"present\",\n        \"value\": \"이메일\"\n      },\n      \"operation\": \"APPEND\",\n      \"slot\": null,\n      \"source_turns\": [\"t2\"],\n      \"target_fact_id\": null\n    }\n  ]\n}",
+  "usage": {
+    "cached_tokens": 1940,
+    "input_tokens": 2009,
+    "output_tokens": 186,
+    "reasoning_tokens": 0,
+    "total_tokens": 2195
+  }
+}

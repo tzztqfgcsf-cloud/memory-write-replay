@@ -1,0 +1,57 @@
+{
+  "call_id": "2ac6966a20bad6c7a823-sr_refine",
+  "finish_reason": "STOP",
+  "finished_unix": 1790496587.312365,
+  "http_status": 200,
+  "latency_seconds": 1.3373,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.007821979112183021,
+        "content": {
+          "parts": [
+            {
+              "text": "{\"reply\": \"네, 첫 가게 개업 연도를 1993년으로 수정하는 것을 확인했습니다.\", \"action\": {\"kind\": \"CONTINUE\", \"question_slot\": null, \"required_slots\": [], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [], \"fact\": {\"relation\": \"event_year\", \"source_turns\": [\"t1\", \"t2\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"1993년\"}, \"operation\": \"CORRECT\", \"slot\": null, \"source_turns\": [\"t1\", \"t2\"], \"target_fact_id\": \"f1\"}]}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T08:09:46.125006Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "Ss-4as7QB_CVktwP37SV-Ag",
+    "usageMetadata": {
+      "candidatesTokenCount": 151,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 151
+        }
+      ],
+      "promptTokenCount": 2269,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 2269
+        }
+      ],
+      "totalTokenCount": 2420,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "40b176a06f83704a0db27116f82fed48ae43f41db42fa3f6919e40c4809d9b7c",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790496585.974721,
+  "status": "OK",
+  "text": "{\"reply\": \"네, 첫 가게 개업 연도를 1993년으로 수정하는 것을 확인했습니다.\", \"action\": {\"kind\": \"CONTINUE\", \"question_slot\": null, \"required_slots\": [], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [], \"fact\": {\"relation\": \"event_year\", \"source_turns\": [\"t1\", \"t2\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"1993년\"}, \"operation\": \"CORRECT\", \"slot\": null, \"source_turns\": [\"t1\", \"t2\"], \"target_fact_id\": \"f1\"}]}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 2269,
+    "output_tokens": 151,
+    "reasoning_tokens": 0,
+    "total_tokens": 2420
+  }
+}

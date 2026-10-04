@@ -1,0 +1,36 @@
+{
+  "call_id": "2bf9a58098805c2d5668-g_final",
+  "error_type": null,
+  "finish_reason": "stop",
+  "finished_unix": 1790497913.5619211,
+  "latency_seconds": 9.7225,
+  "model_version": "mlx-community/Llama-3.1-8B-Instruct-4bit",
+  "raw_response": {
+    "base_seed": 20260927,
+    "finish_reason": "stop",
+    "generation_calls": 860,
+    "id": "local-93e885e9d23974f4c332a00a",
+    "seed": 2659940506,
+    "snapshot": "<LOCAL_PATH>",
+    "text": "{\"action\": {\"kind\": \"CONTINUE\", \"question_slot\": \"meeting_place\", \"required_slots\": [\"meeting_place\"], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"체육관\", \"시민운동장\"], \"fact\": {\"relation\": \"meeting_place\", \"source_turns\": [\"t1\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"체육공원\"}, \"operation\": \"CORRECT\", \"slot\": \"meeting_place\", \"source_turns\": [\"t1\"], \"target_fact_id\": \"f1\"}], \"reply\": \"시민운동장이 맞나요?\"}",
+    "usage": {
+      "cached_tokens": null,
+      "input_tokens": 1916,
+      "output_tokens": 140,
+      "reasoning_tokens": null,
+      "total_tokens": 2056
+    }
+  },
+  "request_sha256": "2022a9e8b959ef57515afed816b6e5fd8241f8c078a78e25e502c9db15d9863d",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790497903.839082,
+  "status": "OK",
+  "text": "{\"action\": {\"kind\": \"CONTINUE\", \"question_slot\": \"meeting_place\", \"required_slots\": [\"meeting_place\"], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"체육관\", \"시민운동장\"], \"fact\": {\"relation\": \"meeting_place\", \"source_turns\": [\"t1\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"체육공원\"}, \"operation\": \"CORRECT\", \"slot\": \"meeting_place\", \"source_turns\": [\"t1\"], \"target_fact_id\": \"f1\"}], \"reply\": \"시민운동장이 맞나요?\"}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1916,
+    "output_tokens": 140,
+    "reasoning_tokens": null,
+    "total_tokens": 2056
+  }
+}

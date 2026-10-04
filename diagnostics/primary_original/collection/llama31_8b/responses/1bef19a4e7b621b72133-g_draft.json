@@ -1,0 +1,36 @@
+{
+  "call_id": "1bef19a4e7b621b72133-g_draft",
+  "error_type": null,
+  "finish_reason": "stop",
+  "finished_unix": 1790493220.7449899,
+  "latency_seconds": 11.567,
+  "model_version": "mlx-community/Llama-3.1-8B-Instruct-4bit",
+  "raw_response": {
+    "base_seed": 20260927,
+    "finish_reason": "stop",
+    "generation_calls": 421,
+    "id": "local-0e976fd25bed8082a13a8607",
+    "seed": 2650967856,
+    "snapshot": "<LOCAL_PATH>",
+    "text": "{\"action\": {\"kind\": \"CONTINUE\", \"question_slot\": \"stop_intent\", \"required_slots\": [\"stop_intent\"], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"family_story\"], \"fact\": {\"relation\": \"meeting_place\", \"source_turns\": [\"t1\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"집\"}, \"operation\": \"HOLD\", \"slot\": \"meeting_place\", \"source_turns\": [\"t1\"], \"target_fact_id\": null}, {\"alternatives\": [\"family_story\"], \"fact\": {\"relation\": \"meeting_place\", \"source_turns\": [\"t1\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"집\"}, \"operation\": \"HOLD\", \"slot\": \"meeting_place\", \"source_turns\": [\"t1\"], \"target_fact_id\": null}], \"reply\": \"손녀를 보니 어떤 기분이셨어요?\"}",
+    "usage": {
+      "cached_tokens": null,
+      "input_tokens": 1722,
+      "output_tokens": 208,
+      "reasoning_tokens": null,
+      "total_tokens": 1930
+    }
+  },
+  "request_sha256": "7d9372ee9b8e15fa89680c56f7a560d2d57b1bb59558b38f5451036d86f0b2d3",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790493209.1776052,
+  "status": "OK",
+  "text": "{\"action\": {\"kind\": \"CONTINUE\", \"question_slot\": \"stop_intent\", \"required_slots\": [\"stop_intent\"], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"family_story\"], \"fact\": {\"relation\": \"meeting_place\", \"source_turns\": [\"t1\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"집\"}, \"operation\": \"HOLD\", \"slot\": \"meeting_place\", \"source_turns\": [\"t1\"], \"target_fact_id\": null}, {\"alternatives\": [\"family_story\"], \"fact\": {\"relation\": \"meeting_place\", \"source_turns\": [\"t1\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"집\"}, \"operation\": \"HOLD\", \"slot\": \"meeting_place\", \"source_turns\": [\"t1\"], \"target_fact_id\": null}], \"reply\": \"손녀를 보니 어떤 기분이셨어요?\"}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1722,
+    "output_tokens": 208,
+    "reasoning_tokens": null,
+    "total_tokens": 1930
+  }
+}

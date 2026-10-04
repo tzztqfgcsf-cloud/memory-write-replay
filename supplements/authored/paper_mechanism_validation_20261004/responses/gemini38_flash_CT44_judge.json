@@ -1,0 +1,20 @@
+{
+  "status": "OK",
+  "http_status": 200,
+  "text": "{\"decisions\": [{\"index\": 0, \"approve\": true, \"reason\": \"사용자가 취미로 자전거를 추가해 달라고 명시적으로 요청함\"}]}",
+  "usage": {
+    "input_tokens": 725,
+    "output_tokens": 38,
+    "reasoning_tokens": 157,
+    "total_tokens": 920,
+    "cached_tokens": null
+  },
+  "finish_reason": "STOP",
+  "model_version": "gemini-3.1-pro-preview",
+  "id": "gemini38_flash_CT44_judge",
+  "key": "gemini38_flash_CT44",
+  "stage": "judge",
+  "arm": "judge",
+  "requested_model": "gemini-3.1-pro-preview",
+  "latency_seconds": 3.173246917081997
+}

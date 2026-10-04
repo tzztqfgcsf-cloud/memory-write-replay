@@ -1,0 +1,57 @@
+{
+  "call_id": "d65ffc61b2f21efc26d3-g_final",
+  "finish_reason": "STOP",
+  "finished_unix": 1790496952.0608902,
+  "http_status": 200,
+  "latency_seconds": 1.1634,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.0018502336370852567,
+        "content": {
+          "parts": [
+            {
+              "text": "{\"reply\": \"네, 앞으로 연락은 문자로 드릴게요.\", \"action\": {\"kind\": \"CONTINUE\", \"question_slot\": null, \"required_slots\": [], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [], \"fact\": {\"relation\": \"preferred_contact\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"문자\"}, \"operation\": \"CORRECT\", \"slot\": null, \"source_turns\": [\"t2\"], \"target_fact_id\": \"f1\"}]}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T08:15:51.050545Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "t9C4avGKA9OH0ckPuLmDuA8",
+    "usageMetadata": {
+      "candidatesTokenCount": 129,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 129
+        }
+      ],
+      "promptTokenCount": 1916,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1916
+        }
+      ],
+      "totalTokenCount": 2045,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "3cc4faf0d501d5a66747f4569bea66bd3acf24c0a2864f10862601c73b494532",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790496950.897059,
+  "status": "OK",
+  "text": "{\"reply\": \"네, 앞으로 연락은 문자로 드릴게요.\", \"action\": {\"kind\": \"CONTINUE\", \"question_slot\": null, \"required_slots\": [], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [], \"fact\": {\"relation\": \"preferred_contact\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"문자\"}, \"operation\": \"CORRECT\", \"slot\": null, \"source_turns\": [\"t2\"], \"target_fact_id\": \"f1\"}]}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1916,
+    "output_tokens": 129,
+    "reasoning_tokens": 0,
+    "total_tokens": 2045
+  }
+}

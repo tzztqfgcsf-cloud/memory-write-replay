@@ -1,0 +1,57 @@
+{
+  "call_id": "0cbe2834fffdf8878d1b-sr_refine",
+  "finish_reason": "STOP",
+  "finished_unix": 1790491191.9827929,
+  "http_status": 200,
+  "latency_seconds": 1.4936,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.0003747680313783149,
+        "content": {
+          "parts": [
+            {
+              "text": "{\"reply\": \"네, 아드님 도윤 님의 직장을 대한우편으로 저장해 드릴게요.\", \"action\": {\"kind\": \"CONTINUE\", \"question_slot\": null, \"required_slots\": [], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [], \"fact\": {\"relation\": \"workplace\", \"source_turns\": [\"t1\", \"t2\"], \"subject\": \"아들 도윤\", \"time\": \"present\", \"value\": \"대한우편\"}, \"operation\": \"APPEND\", \"slot\": null, \"source_turns\": [\"t1\", \"t2\"], \"target_fact_id\": null}]}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T06:39:50.667707Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "Nrq4arvgKNCNx9gP07myoAQ",
+    "usageMetadata": {
+      "candidatesTokenCount": 146,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 146
+        }
+      ],
+      "promptTokenCount": 2235,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 2235
+        }
+      ],
+      "totalTokenCount": 2381,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "642851f4254d3dec5f7ee1ab394263d8143f2a7b9f741424bc538cee59aa57e7",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790491190.4887412,
+  "status": "OK",
+  "text": "{\"reply\": \"네, 아드님 도윤 님의 직장을 대한우편으로 저장해 드릴게요.\", \"action\": {\"kind\": \"CONTINUE\", \"question_slot\": null, \"required_slots\": [], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [], \"fact\": {\"relation\": \"workplace\", \"source_turns\": [\"t1\", \"t2\"], \"subject\": \"아들 도윤\", \"time\": \"present\", \"value\": \"대한우편\"}, \"operation\": \"APPEND\", \"slot\": null, \"source_turns\": [\"t1\", \"t2\"], \"target_fact_id\": null}]}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 2235,
+    "output_tokens": 146,
+    "reasoning_tokens": 0,
+    "total_tokens": 2381
+  }
+}

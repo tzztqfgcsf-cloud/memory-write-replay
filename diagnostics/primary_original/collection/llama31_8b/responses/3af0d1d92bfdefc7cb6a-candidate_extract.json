@@ -1,0 +1,36 @@
+{
+  "call_id": "3af0d1d92bfdefc7cb6a-candidate_extract",
+  "error_type": null,
+  "finish_reason": "stop",
+  "finished_unix": 1790493822.462195,
+  "latency_seconds": 9.3104,
+  "model_version": "mlx-community/Llama-3.1-8B-Instruct-4bit",
+  "raw_response": {
+    "base_seed": 20260927,
+    "finish_reason": "stop",
+    "generation_calls": 477,
+    "id": "local-fbf9c8244916ace1ff923d1b",
+    "seed": 1413807119,
+    "snapshot": "<LOCAL_PATH>",
+    "text": "{\"beliefs\": [{\"candidate_id\": \"c1\", \"facts\": [{\"relation\": \"shop_name\", \"source_turns\": [\"t2\"], \"subject\": \"장미미용실\", \"time\": \"past\", \"value\": \"장미미용실\"}]}, {\"candidate_id\": \"c2\", \"facts\": [{\"relation\": \"shop_name\", \"source_turns\": [\"t2\"], \"subject\": \"장미미용실\", \"time\": \"past\", \"value\": \"장미미용실\"}]}], \"correction_witnesses\": []}",
+    "usage": {
+      "cached_tokens": null,
+      "input_tokens": 1705,
+      "output_tokens": 123,
+      "reasoning_tokens": null,
+      "total_tokens": 1828
+    }
+  },
+  "request_sha256": "dc7e3c2812ed0e07a5f605330aa98161b52ca54b88c385cf91dc4af015c548df",
+  "stage_schema_sha256": "bda7326ac6a6cbeedf1ecdbf4a2b08277c078351d6689f667dc0d558c4972dd3",
+  "started_unix": 1790493813.151531,
+  "status": "OK",
+  "text": "{\"beliefs\": [{\"candidate_id\": \"c1\", \"facts\": [{\"relation\": \"shop_name\", \"source_turns\": [\"t2\"], \"subject\": \"장미미용실\", \"time\": \"past\", \"value\": \"장미미용실\"}]}, {\"candidate_id\": \"c2\", \"facts\": [{\"relation\": \"shop_name\", \"source_turns\": [\"t2\"], \"subject\": \"장미미용실\", \"time\": \"past\", \"value\": \"장미미용실\"}]}], \"correction_witnesses\": []}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1705,
+    "output_tokens": 123,
+    "reasoning_tokens": null,
+    "total_tokens": 1828
+  }
+}

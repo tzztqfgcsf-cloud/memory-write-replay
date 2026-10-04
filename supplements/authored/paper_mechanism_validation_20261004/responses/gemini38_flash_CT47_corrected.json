@@ -1,0 +1,20 @@
+{
+  "status": "OK",
+  "http_status": 200,
+  "text": "{\"beliefs\": [{\"candidate_id\": \"c1\", \"facts\": [{\"relation\": \"preferred_contact\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"문자\"}]}, {\"candidate_id\": \"c2\", \"facts\": [{\"relation\": \"preferred_contact\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"문자\"}]}], \"correction_witnesses\": [{\"candidate_id\": \"c1\", \"evidence_quote\": \"문자로요. 연락 방법만 문자로 바꿔요\", \"new_value\": \"문자\", \"polarity\": \"affirmed\", \"relation\": \"preferred_contact\", \"source_turn\": \"t2\", \"subject\": \"participant\", \"target_fact_id\": \"f1\", \"time\": \"present\"}, {\"candidate_id\": \"c1\", \"evidence_quote\": \"\", \"new_value\": \"구미\", \"polarity\": \"absent\", \"relation\": \"residence\", \"source_turn\": \"t2\", \"subject\": \"participant\", \"target_fact_id\": \"f2\", \"time\": \"present\"}, {\"candidate_id\": \"c2\", \"evidence_quote\": \"문자요, 이메일 말고요. 지금 물으신 연락 방법을 문자로 고쳐 주세요\", \"new_value\": \"문자\", \"polarity\": \"affirmed\", \"relation\": \"preferred_contact\", \"source_turn\": \"t2\", \"subject\": \"participant\", \"target_fact_id\": \"f1\", \"time\": \"present\"}, {\"candidate_id\": \"c2\", \"evidence_quote\": \"\", \"new_value\": \"구미\", \"polarity\": \"absent\", \"relation\": \"residence\", \"source_turn\": \"t2\", \"subject\": \"participant\", \"target_fact_id\": \"f2\", \"time\": \"present\"}]}",
+  "usage": {
+    "input_tokens": 2645,
+    "output_tokens": 425,
+    "reasoning_tokens": 0,
+    "total_tokens": 3070,
+    "cached_tokens": null
+  },
+  "finish_reason": "STOP",
+  "model_version": "gemini-3.8-flash",
+  "id": "gemini38_flash_CT47_corrected",
+  "key": "gemini38_flash_CT47",
+  "stage": "extract",
+  "arm": "corrected",
+  "requested_model": "gemini-3.8-flash",
+  "latency_seconds": 3.3401897090952843
+}

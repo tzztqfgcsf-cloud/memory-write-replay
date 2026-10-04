@@ -1,0 +1,57 @@
+{
+  "call_id": "84a0954baa508594e42f-sr_feedback",
+  "finish_reason": "STOP",
+  "finished_unix": 1790496694.52479,
+  "http_status": 200,
+  "latency_seconds": 1.5154,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.13168040961976263,
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"no_change_needed\": false,\n  \"issues\": [\n    {\n      \"draft_location\": \"memory_decisions[0].source_turns\",\n      \"evidence_location\": \"t2\",\n      \"problem\": \"The source_turns for a corrected fact should include all turns that contributed to the fact, not just the correcting turn. The original fact f1 was established in t1, and the correction is made in t2. Therefore, source_turns should be [\\\"t1\\\", \\\"t2\\\"].\",\n      \"specific_revision\": \"Change memory_decisions[0].source_turns to [\\\"t1\\\", \\\"t2\\\"].\"\n    }\n  ]\n}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T08:11:33.185789Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "tc-4ar2rC_ObncoPmvuomAI",
+    "usageMetadata": {
+      "candidatesTokenCount": 157,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 157
+        }
+      ],
+      "promptTokenCount": 1403,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1403
+        }
+      ],
+      "totalTokenCount": 1560,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "208fe70de5a6c2d0f9961ac99c9932f06ab76c6f69003e94a5df8c39ffbc92f6",
+  "stage_schema_sha256": "377e252cf02129ba34bbc867118dd2b9c6b65042b3fcd7b44099d2fc6e0513ed",
+  "started_unix": 1790496693.008822,
+  "status": "OK",
+  "text": "{\n  \"no_change_needed\": false,\n  \"issues\": [\n    {\n      \"draft_location\": \"memory_decisions[0].source_turns\",\n      \"evidence_location\": \"t2\",\n      \"problem\": \"The source_turns for a corrected fact should include all turns that contributed to the fact, not just the correcting turn. The original fact f1 was established in t1, and the correction is made in t2. Therefore, source_turns should be [\\\"t1\\\", \\\"t2\\\"].\",\n      \"specific_revision\": \"Change memory_decisions[0].source_turns to [\\\"t1\\\", \\\"t2\\\"].\"\n    }\n  ]\n}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1403,
+    "output_tokens": 157,
+    "reasoning_tokens": 0,
+    "total_tokens": 1560
+  }
+}

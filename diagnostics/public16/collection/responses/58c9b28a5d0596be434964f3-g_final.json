@@ -1,0 +1,56 @@
+{
+  "call_id": "58c9b28a5d0596be434964f3-g_final",
+  "cost_note": "provider_did_not_report_money",
+  "cost_usd_reported": null,
+  "finish_reason": "STOP",
+  "http_status": 200,
+  "latency_seconds": 1.864,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.0010098508917368374,
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"reply\": \"Okay, I will look for a train on Thursday instead of Monday.\",\n  \"action\": {\n    \"kind\": \"CONTINUE\",\n    \"question_slot\": null,\n    \"required_slots\": [],\n    \"speaker_id\": \"system\"\n  },\n  \"memory_decisions\": [\n    {\n      \"alternatives\": [\n        \"thursday\"\n      ],\n      \"fact\": {\n        \"relation\": \"train.semi.day\",\n        \"source_turns\": [\n          \"PMUL1033.json#turn6\"\n        ],\n        \"subject\": \"PMUL1033.json#train.semi\",\n        \"time\": \"unknown\",\n        \"value\": \"thursday\"\n      },\n      \"operation\": \"CORRECT\",\n      \"slot\": \"train.semi.day\",\n      \"source_turns\": [\n        \"PMUL1033.json#turn6\"\n      ],\n      \"target_fact_id\": \"PMUL1033.json#state5#train.semi.day\"\n    }\n  ]\n}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T22:45:06.989133Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "cpy5as2vPJ-cx9gPtNDSwA0",
+    "usageMetadata": {
+      "candidatesTokenCount": 260,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 260
+        }
+      ],
+      "promptTokenCount": 2051,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 2051
+        }
+      ],
+      "totalTokenCount": 2311,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "1beae6dd00e321385d38f7f39934c79bedac05bff6064a068ddcec71a1664485",
+  "status": "OK",
+  "text": "{\n  \"reply\": \"Okay, I will look for a train on Thursday instead of Monday.\",\n  \"action\": {\n    \"kind\": \"CONTINUE\",\n    \"question_slot\": null,\n    \"required_slots\": [],\n    \"speaker_id\": \"system\"\n  },\n  \"memory_decisions\": [\n    {\n      \"alternatives\": [\n        \"thursday\"\n      ],\n      \"fact\": {\n        \"relation\": \"train.semi.day\",\n        \"source_turns\": [\n          \"PMUL1033.json#turn6\"\n        ],\n        \"subject\": \"PMUL1033.json#train.semi\",\n        \"time\": \"unknown\",\n        \"value\": \"thursday\"\n      },\n      \"operation\": \"CORRECT\",\n      \"slot\": \"train.semi.day\",\n      \"source_turns\": [\n        \"PMUL1033.json#turn6\"\n      ],\n      \"target_fact_id\": \"PMUL1033.json#state5#train.semi.day\"\n    }\n  ]\n}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 2051,
+    "output_tokens": 260,
+    "reasoning_tokens": 0,
+    "total_tokens": 2311
+  }
+}

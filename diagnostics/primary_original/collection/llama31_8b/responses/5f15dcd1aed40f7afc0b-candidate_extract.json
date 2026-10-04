@@ -1,0 +1,36 @@
+{
+  "call_id": "5f15dcd1aed40f7afc0b-candidate_extract",
+  "error_type": null,
+  "finish_reason": "stop",
+  "finished_unix": 1790492015.336302,
+  "latency_seconds": 13.9853,
+  "model_version": "mlx-community/Llama-3.1-8B-Instruct-4bit",
+  "raw_response": {
+    "base_seed": 20260927,
+    "finish_reason": "stop",
+    "generation_calls": 315,
+    "id": "local-d6f696e16df32d77ceb652e1",
+    "seed": 1599105067,
+    "snapshot": "<LOCAL_PATH>",
+    "text": "{\"beliefs\": [{\"candidate_id\": \"c1\", \"facts\": [{\"relation\": \"preferred_contact\", \"source_turns\": [\"t1\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"편지\"}]}, {\"candidate_id\": \"c2\", \"facts\": [{\"relation\": \"preferred_contact\", \"source_turns\": [\"t1\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"편지\"}]}], \"correction_witnesses\": [{\"candidate_id\": \"c1\", \"evidence_quote\": \"휴대폰 없던 때는 편지가 좋았어요. 옛날 선호로 편지를 남겨요. 지금 영상통화는 바꾸지 말고요.\", \"new_value\": \"편지\", \"polarity\": \"affirmed\", \"relation\": \"preferred_contact\", \"source_turn\": \"t1\", \"subject\": \"participant\", \"target_fact_id\": \"f1\", \"time\": \"past\"}, {\"candidate_id\": \"c2\", \"evidence_quote\": \"예전에는 편지를 좋아했어요. 그건 과거 이야기로 기록하고 지금 연락 방식은 그대로요.\", \"new_value\": \"편지\", \"polarity\": \"affirmed\", \"relation\": \"preferred_contact\", \"source_turn\": \"t1\", \"subject\": \"participant\", \"target_fact_id\": \"f1\", \"time\": \"past\"}]}",
+    "usage": {
+      "cached_tokens": null,
+      "input_tokens": 1766,
+      "output_tokens": 303,
+      "reasoning_tokens": null,
+      "total_tokens": 2069
+    }
+  },
+  "request_sha256": "62a444403e3ae1e086739baec769cf82f887f4cf8e50a21abac6f3e2cba9ffa8",
+  "stage_schema_sha256": "bda7326ac6a6cbeedf1ecdbf4a2b08277c078351d6689f667dc0d558c4972dd3",
+  "started_unix": 1790492001.350601,
+  "status": "OK",
+  "text": "{\"beliefs\": [{\"candidate_id\": \"c1\", \"facts\": [{\"relation\": \"preferred_contact\", \"source_turns\": [\"t1\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"편지\"}]}, {\"candidate_id\": \"c2\", \"facts\": [{\"relation\": \"preferred_contact\", \"source_turns\": [\"t1\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"편지\"}]}], \"correction_witnesses\": [{\"candidate_id\": \"c1\", \"evidence_quote\": \"휴대폰 없던 때는 편지가 좋았어요. 옛날 선호로 편지를 남겨요. 지금 영상통화는 바꾸지 말고요.\", \"new_value\": \"편지\", \"polarity\": \"affirmed\", \"relation\": \"preferred_contact\", \"source_turn\": \"t1\", \"subject\": \"participant\", \"target_fact_id\": \"f1\", \"time\": \"past\"}, {\"candidate_id\": \"c2\", \"evidence_quote\": \"예전에는 편지를 좋아했어요. 그건 과거 이야기로 기록하고 지금 연락 방식은 그대로요.\", \"new_value\": \"편지\", \"polarity\": \"affirmed\", \"relation\": \"preferred_contact\", \"source_turn\": \"t1\", \"subject\": \"participant\", \"target_fact_id\": \"f1\", \"time\": \"past\"}]}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1766,
+    "output_tokens": 303,
+    "reasoning_tokens": null,
+    "total_tokens": 2069
+  }
+}

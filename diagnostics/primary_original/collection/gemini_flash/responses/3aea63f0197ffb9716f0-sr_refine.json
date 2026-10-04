@@ -1,0 +1,57 @@
+{
+  "call_id": "3aea63f0197ffb9716f0-sr_refine",
+  "finish_reason": "STOP",
+  "finished_unix": 1790496817.249441,
+  "http_status": 200,
+  "latency_seconds": 1.6513,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.0004312089916800155,
+        "content": {
+          "parts": [
+            {
+              "text": "{\"reply\": \"네, 알겠습니다. 바느질을 처음 가르쳐 준 분을 신 선생님으로 수정해 드릴게요.\", \"action\": {\"kind\": \"CONTINUE\", \"question_slot\": null, \"required_slots\": [], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [], \"fact\": {\"relation\": \"learned_from\", \"source_turns\": [\"t1\", \"t2\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"신 선생님\"}, \"operation\": \"CORRECT\", \"slot\": null, \"source_turns\": [\"t2\"], \"target_fact_id\": \"f1\"}]}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T08:13:35.797378Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "L9C4asLVMMOAncoPsbLi2Qc",
+    "usageMetadata": {
+      "candidatesTokenCount": 147,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 147
+        }
+      ],
+      "promptTokenCount": 1965,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1965
+        }
+      ],
+      "totalTokenCount": 2112,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "21954673194ee6bd50463b7b38b01d62334146731e2e5c8a3e4bd678a381a545",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790496815.597197,
+  "status": "OK",
+  "text": "{\"reply\": \"네, 알겠습니다. 바느질을 처음 가르쳐 준 분을 신 선생님으로 수정해 드릴게요.\", \"action\": {\"kind\": \"CONTINUE\", \"question_slot\": null, \"required_slots\": [], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [], \"fact\": {\"relation\": \"learned_from\", \"source_turns\": [\"t1\", \"t2\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"신 선생님\"}, \"operation\": \"CORRECT\", \"slot\": null, \"source_turns\": [\"t2\"], \"target_fact_id\": \"f1\"}]}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1965,
+    "output_tokens": 147,
+    "reasoning_tokens": 0,
+    "total_tokens": 2112
+  }
+}

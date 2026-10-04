@@ -1,0 +1,57 @@
+{
+  "call_id": "947fa8c2c7e0389110c7-g_final",
+  "finish_reason": "STOP",
+  "finished_unix": 1790491972.062963,
+  "http_status": 200,
+  "latency_seconds": 1.5345,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.011348636292699558,
+        "content": {
+          "parts": [
+            {
+              "text": "{\"reply\": \"네, 어릴 때 우표 수집을 하셨군요. 기억해 둘게요.\", \"action\": {\"kind\": \"CONTINUE\", \"question_slot\": null, \"required_slots\": [], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [], \"fact\": {\"relation\": \"hobby\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"우표수집\"}, \"operation\": \"APPEND\", \"slot\": null, \"source_turns\": [\"t2\"], \"target_fact_id\": null}]}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T06:52:50.624505Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "Qr24avmOJpiXktwPo4SY4AQ",
+    "usageMetadata": {
+      "candidatesTokenCount": 134,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 134
+        }
+      ],
+      "promptTokenCount": 1885,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1885
+        }
+      ],
+      "totalTokenCount": 2019,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "e5161c3ab159d446891724d309c141a1410fefe95f1a3a23a5d228602a00800d",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790491970.52747,
+  "status": "OK",
+  "text": "{\"reply\": \"네, 어릴 때 우표 수집을 하셨군요. 기억해 둘게요.\", \"action\": {\"kind\": \"CONTINUE\", \"question_slot\": null, \"required_slots\": [], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [], \"fact\": {\"relation\": \"hobby\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"우표수집\"}, \"operation\": \"APPEND\", \"slot\": null, \"source_turns\": [\"t2\"], \"target_fact_id\": null}]}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1885,
+    "output_tokens": 134,
+    "reasoning_tokens": 0,
+    "total_tokens": 2019
+  }
+}

@@ -1,0 +1,7 @@
+model,scope,condition,condition_rows,unique_call_ids,derived_additional_inference_calls,provider_success_calls,provider_failure_calls,provider_failure_statuses,input_tokens_measured_calls,input_tokens_sum_measured,output_tokens_measured_calls,output_tokens_sum_measured,reasoning_tokens_measured_calls,reasoning_tokens_sum_measured,total_tokens_measured_calls,total_tokens_sum_measured,cached_tokens_measured_calls,cached_tokens_sum_measured,latency_seconds_measured_calls,latency_seconds_sum_measured
+gemini_flash,completed_test_only,ALL_PHYSICAL,864,864,,859,5,"{""HTTP_ERROR"": 5}",859,1546070,859,189292,859,0,859,1735362,56,67465,864,1441.5698
+llama31_8b,completed_test_only,ALL_PHYSICAL,864,864,,864,0,{},864,1570636,864,161305,0,,864,1731941,0,,864,9408.9294
+qwen3_14b,completed_test_only,ALL_PHYSICAL,864,864,,864,0,{},864,1635340,864,174147,0,,864,1809487,0,,864,33533.7091
+gemini38_flash,completed_test_only,ALL_PHYSICAL,864,864,,864,0,{},864,2294575,864,115377,864,2271,864,2412223,0,,864,3019.5196
+gemini35_flash_lite,completed_test_only,ALL_PHYSICAL,864,864,,856,8,"{""HTTP_ERROR"": 8}",856,2273983,856,146597,856,0,856,2420580,0,,864,1316.1539
+gemini31_pro_preview,completed_test_only,ALL_PHYSICAL,864,864,,855,9,"{""HTTP_ERROR"": 9}",855,2267984,855,170045,855,27803,855,2465832,0,,864,3302.0906

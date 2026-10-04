@@ -1,0 +1,55 @@
+{
+  "status": "OK",
+  "http_status": 200,
+  "text": "{\n  \"reply\": \"창원에 사시는군요. 알겠습니다.\",\n  \"action\": {\n    \"kind\": \"CONTINUE\",\n    \"question_slot\": null,\n    \"required_slots\": [],\n    \"speaker_id\": \"p1\"\n  },\n  \"memory_decisions\": [\n    {\n      \"alternatives\": [],\n      \"fact\": {\n        \"relation\": \"residence\",\n        \"source_turns\": [\n          \"t2\"\n        ],\n        \"subject\": \"participant\",\n        \"time\": \"present\",\n        \"value\": \"창원\"\n      },\n      \"operation\": \"CORRECT\",\n      \"slot\": null,\n      \"source_turns\": [\n        \"t2\"\n      ],\n      \"target_fact_id\": \"f1\"\n    }\n  ]\n}",
+  "usage": {
+    "input_tokens": 1970,
+    "output_tokens": 195,
+    "reasoning_tokens": 0,
+    "total_tokens": 2165,
+    "cached_tokens": null
+  },
+  "finish_reason": "STOP",
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "content": {
+          "role": "model",
+          "parts": [
+            {
+              "text": "{\n  \"reply\": \"창원에 사시는군요. 알겠습니다.\",\n  \"action\": {\n    \"kind\": \"CONTINUE\",\n    \"question_slot\": null,\n    \"required_slots\": [],\n    \"speaker_id\": \"p1\"\n  },\n  \"memory_decisions\": [\n    {\n      \"alternatives\": [],\n      \"fact\": {\n        \"relation\": \"residence\",\n        \"source_turns\": [\n          \"t2\"\n        ],\n        \"subject\": \"participant\",\n        \"time\": \"present\",\n        \"value\": \"창원\"\n      },\n      \"operation\": \"CORRECT\",\n      \"slot\": null,\n      \"source_turns\": [\n        \"t2\"\n      ],\n      \"target_fact_id\": \"f1\"\n    }\n  ]\n}"
+            }
+          ]
+        },
+        "finishReason": "STOP",
+        "avgLogprobs": -0.010865418116251628
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 1970,
+      "candidatesTokenCount": 195,
+      "totalTokenCount": 2165,
+      "trafficType": "ON_DEMAND",
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1970
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 195
+        }
+      ]
+    },
+    "modelVersion": "gemini-2.5-flash",
+    "createTime": "2026-09-27T11:33:42.272165Z",
+    "responseId": "Fv-4aqXOENOH0ckPuLmDuA8"
+  },
+  "latency_seconds": 1.4761,
+  "call_id": "N015-candidate_final",
+  "physical_attempt": true,
+  "completed_unix": 1790508823.606786
+}

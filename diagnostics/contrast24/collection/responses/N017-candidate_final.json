@@ -1,0 +1,55 @@
+{
+  "status": "OK",
+  "http_status": 200,
+  "text": "{\n  \"reply\": \"만남 장소를 시민공원으로 변경했습니다.\",\n  \"action\": {\n    \"kind\": \"CONTINUE\",\n    \"question_slot\": null,\n    \"required_slots\": [],\n    \"speaker_id\": \"p1\"\n  },\n  \"memory_decisions\": [\n    {\n      \"alternatives\": [],\n      \"fact\": {\n        \"relation\": \"meeting_place\",\n        \"source_turns\": [\n          \"t2\"\n        ],\n        \"subject\": \"participant\",\n        \"time\": \"present\",\n        \"value\": \"시민공원\"\n      },\n      \"operation\": \"CORRECT\",\n      \"slot\": null,\n      \"source_turns\": [\n        \"t2\"\n      ],\n      \"target_fact_id\": \"f1\"\n    }\n  ]\n}",
+  "usage": {
+    "input_tokens": 1968,
+    "output_tokens": 199,
+    "reasoning_tokens": 0,
+    "total_tokens": 2167,
+    "cached_tokens": null
+  },
+  "finish_reason": "STOP",
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "content": {
+          "role": "model",
+          "parts": [
+            {
+              "text": "{\n  \"reply\": \"만남 장소를 시민공원으로 변경했습니다.\",\n  \"action\": {\n    \"kind\": \"CONTINUE\",\n    \"question_slot\": null,\n    \"required_slots\": [],\n    \"speaker_id\": \"p1\"\n  },\n  \"memory_decisions\": [\n    {\n      \"alternatives\": [],\n      \"fact\": {\n        \"relation\": \"meeting_place\",\n        \"source_turns\": [\n          \"t2\"\n        ],\n        \"subject\": \"participant\",\n        \"time\": \"present\",\n        \"value\": \"시민공원\"\n      },\n      \"operation\": \"CORRECT\",\n      \"slot\": null,\n      \"source_turns\": [\n        \"t2\"\n      ],\n      \"target_fact_id\": \"f1\"\n    }\n  ]\n}"
+            }
+          ]
+        },
+        "finishReason": "STOP",
+        "avgLogprobs": -0.009484966196606506
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 1968,
+      "candidatesTokenCount": 199,
+      "totalTokenCount": 2167,
+      "trafficType": "ON_DEMAND",
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1968
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 199
+        }
+      ]
+    },
+    "modelVersion": "gemini-2.5-flash",
+    "createTime": "2026-09-27T11:31:02.109574Z",
+    "responseId": "dv64aobYBtOH0ckPuLmDuA8"
+  },
+  "latency_seconds": 1.4771,
+  "call_id": "N017-candidate_final",
+  "physical_attempt": true,
+  "completed_unix": 1790508663.4341462
+}

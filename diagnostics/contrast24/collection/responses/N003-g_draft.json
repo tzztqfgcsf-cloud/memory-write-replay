@@ -1,0 +1,55 @@
+{
+  "status": "OK",
+  "http_status": 200,
+  "text": "{\n  \"reply\": \"네, 인천에 예전에 사셨군요. 현재 거주지는 부산으로 유지할게요.\",\n  \"action\": {\n    \"kind\": \"CONTINUE\",\n    \"question_slot\": null,\n    \"required_slots\": [],\n    \"speaker_id\": \"p1\"\n  },\n  \"memory_decisions\": [\n    {\n      \"alternatives\": [],\n      \"fact\": {\n        \"relation\": \"residence\",\n        \"source_turns\": [\"t2\"],\n        \"subject\": \"participant\",\n        \"time\": \"past\",\n        \"value\": \"인천\"\n      },\n      \"operation\": \"APPEND\",\n      \"slot\": null,\n      \"source_turns\": [\"t2\"],\n      \"target_fact_id\": null\n    }\n  ]\n}",
+  "usage": {
+    "input_tokens": 1673,
+    "output_tokens": 190,
+    "reasoning_tokens": 0,
+    "total_tokens": 1863,
+    "cached_tokens": null
+  },
+  "finish_reason": "STOP",
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "content": {
+          "role": "model",
+          "parts": [
+            {
+              "text": "{\n  \"reply\": \"네, 인천에 예전에 사셨군요. 현재 거주지는 부산으로 유지할게요.\",\n  \"action\": {\n    \"kind\": \"CONTINUE\",\n    \"question_slot\": null,\n    \"required_slots\": [],\n    \"speaker_id\": \"p1\"\n  },\n  \"memory_decisions\": [\n    {\n      \"alternatives\": [],\n      \"fact\": {\n        \"relation\": \"residence\",\n        \"source_turns\": [\"t2\"],\n        \"subject\": \"participant\",\n        \"time\": \"past\",\n        \"value\": \"인천\"\n      },\n      \"operation\": \"APPEND\",\n      \"slot\": null,\n      \"source_turns\": [\"t2\"],\n      \"target_fact_id\": null\n    }\n  ]\n}"
+            }
+          ]
+        },
+        "finishReason": "STOP",
+        "avgLogprobs": -0.033843575025859635
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 1673,
+      "candidatesTokenCount": 190,
+      "totalTokenCount": 1863,
+      "trafficType": "ON_DEMAND",
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1673
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 190
+        }
+      ]
+    },
+    "modelVersion": "gemini-2.5-flash",
+    "createTime": "2026-09-27T11:29:34.030372Z",
+    "responseId": "Hv64aqTtAcup0ckPy9-P8Ak"
+  },
+  "latency_seconds": 1.8728,
+  "call_id": "N003-g_draft",
+  "physical_attempt": true,
+  "completed_unix": 1790508575.739424
+}

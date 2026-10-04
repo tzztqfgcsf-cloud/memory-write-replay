@@ -1,0 +1,36 @@
+{
+  "call_id": "fe9d6d6b0c433077df52-candidate_extract",
+  "error_type": null,
+  "finish_reason": "stop",
+  "finished_unix": 1790491224.1882088,
+  "latency_seconds": 15.258,
+  "model_version": "mlx-community/Llama-3.1-8B-Instruct-4bit",
+  "raw_response": {
+    "base_seed": 20260927,
+    "finish_reason": "stop",
+    "generation_calls": 249,
+    "id": "local-638678d0a31b32e2c556184f",
+    "seed": 1548405039,
+    "snapshot": "<LOCAL_PATH>",
+    "text": "{\"beliefs\": [{\"candidate_id\": \"c1\", \"facts\": [{\"relation\": \"birthplace\", \"source_turns\": [\"t1\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"임실\"}]}, {\"candidate_id\": \"c2\", \"facts\": [{\"relation\": \"birthplace\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"임실\"}]}], \"correction_witnesses\": [{\"candidate_id\": \"c1\", \"evidence_quote\": \"어머니 순자는 임실에서 태어났대요. 제 출생지는 전주 그대로고 순자 출생지를 임실로 적어요.\", \"new_value\": \"임실\", \"polarity\": \"affirmed\", \"relation\": \"birthplace\", \"source_turn\": \"t1\", \"subject\": \"participant\", \"target_fact_id\": \"f1\", \"time\": \"past\"}, {\"candidate_id\": \"c2\", \"evidence_quote\": \"임실에서 태어난 분은 어머니 순자예요. 순자 정보로 기록하고 제 출생지는 바꾸지 마세요.\", \"new_value\": \"임실\", \"polarity\": \"affirmed\", \"relation\": \"birthplace\", \"source_turn\": \"t2\", \"subject\": \"participant\", \"target_fact_id\": \"f1\", \"time\": \"past\"}]}",
+    "usage": {
+      "cached_tokens": null,
+      "input_tokens": 1763,
+      "output_tokens": 303,
+      "reasoning_tokens": null,
+      "total_tokens": 2066
+    }
+  },
+  "request_sha256": "16422261344a8b1b896e9d56ff76014207d4e6a56be0caabf5bdf15c64221cd7",
+  "stage_schema_sha256": "bda7326ac6a6cbeedf1ecdbf4a2b08277c078351d6689f667dc0d558c4972dd3",
+  "started_unix": 1790491208.929711,
+  "status": "OK",
+  "text": "{\"beliefs\": [{\"candidate_id\": \"c1\", \"facts\": [{\"relation\": \"birthplace\", \"source_turns\": [\"t1\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"임실\"}]}, {\"candidate_id\": \"c2\", \"facts\": [{\"relation\": \"birthplace\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"임실\"}]}], \"correction_witnesses\": [{\"candidate_id\": \"c1\", \"evidence_quote\": \"어머니 순자는 임실에서 태어났대요. 제 출생지는 전주 그대로고 순자 출생지를 임실로 적어요.\", \"new_value\": \"임실\", \"polarity\": \"affirmed\", \"relation\": \"birthplace\", \"source_turn\": \"t1\", \"subject\": \"participant\", \"target_fact_id\": \"f1\", \"time\": \"past\"}, {\"candidate_id\": \"c2\", \"evidence_quote\": \"임실에서 태어난 분은 어머니 순자예요. 순자 정보로 기록하고 제 출생지는 바꾸지 마세요.\", \"new_value\": \"임실\", \"polarity\": \"affirmed\", \"relation\": \"birthplace\", \"source_turn\": \"t2\", \"subject\": \"participant\", \"target_fact_id\": \"f1\", \"time\": \"past\"}]}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1763,
+    "output_tokens": 303,
+    "reasoning_tokens": null,
+    "total_tokens": 2066
+  }
+}

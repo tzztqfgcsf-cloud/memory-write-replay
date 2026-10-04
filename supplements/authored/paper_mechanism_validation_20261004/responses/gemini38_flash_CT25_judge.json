@@ -1,0 +1,20 @@
+{
+  "status": "OK",
+  "http_status": 200,
+  "text": "{\"decisions\": [{\"index\": 0, \"approve\": true, \"reason\": \"사용자가 솔빛양조장에서 일한다고 명시적으로 밝혔으므로 승인함.\"}]}",
+  "usage": {
+    "input_tokens": 683,
+    "output_tokens": 39,
+    "reasoning_tokens": 179,
+    "total_tokens": 901,
+    "cached_tokens": null
+  },
+  "finish_reason": "STOP",
+  "model_version": "gemini-3.1-pro-preview",
+  "id": "gemini38_flash_CT25_judge",
+  "key": "gemini38_flash_CT25",
+  "stage": "judge",
+  "arm": "judge",
+  "requested_model": "gemini-3.1-pro-preview",
+  "latency_seconds": 3.550148250069469
+}

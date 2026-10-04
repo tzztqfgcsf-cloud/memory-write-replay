@@ -1,0 +1,20 @@
+{
+  "status": "OK",
+  "http_status": 200,
+  "text": "{\"beliefs\": [{\"candidate_id\": \"c1\", \"facts\": [{\"relation\": \"hobby\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"수채화\"}]}, {\"candidate_id\": \"c2\", \"facts\": [{\"relation\": \"hobby\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"수채화\"}]}], \"correction_witnesses\": [{\"candidate_id\": \"c1\", \"evidence_quote\": \"수채화라고 했어요\", \"new_value\": \"수채화\", \"polarity\": \"affirmed\", \"relation\": \"hobby\", \"source_turn\": \"t2\", \"subject\": \"participant\", \"target_fact_id\": \"f1\", \"time\": \"present\"}, {\"candidate_id\": \"c2\", \"evidence_quote\": \"수채화가 맞고\", \"new_value\": \"수채화\", \"polarity\": \"affirmed\", \"relation\": \"hobby\", \"source_turn\": \"t2\", \"subject\": \"participant\", \"target_fact_id\": \"f1\", \"time\": \"present\"}]}",
+  "usage": {
+    "input_tokens": 1833,
+    "output_tokens": 261,
+    "reasoning_tokens": 0,
+    "total_tokens": 2094,
+    "cached_tokens": null
+  },
+  "finish_reason": "STOP",
+  "model_version": "gemini-2.5-flash",
+  "id": "gemini_flash_CT08_corrected",
+  "key": "gemini_flash_CT08",
+  "stage": "extract",
+  "arm": "corrected",
+  "requested_model": "gemini-2.5-flash",
+  "latency_seconds": 1.8622854999266565
+}

@@ -1,0 +1,64 @@
+{
+  "call_id": "bd600cff386f40b46157-g_draft",
+  "finish_reason": "STOP",
+  "finished_unix": 1790496596.774794,
+  "http_status": 200,
+  "latency_seconds": 1.4553,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.014862696735226378,
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"reply\": \"네, 첫 가게 개업 연도를 1993년으로 수정했습니다.\",\n  \"action\": {\n    \"kind\": \"CONTINUE\",\n    \"question_slot\": null,\n    \"required_slots\": [],\n    \"speaker_id\": \"p1\"\n  },\n  \"memory_decisions\": [\n    {\n      \"alternatives\": [],\n      \"fact\": {\n        \"relation\": \"event_year\",\n        \"source_turns\": [\"t2\"],\n        \"subject\": \"participant\",\n        \"time\": \"past\",\n        \"value\": \"1993년\"\n      },\n      \"operation\": \"CORRECT\",\n      \"slot\": null,\n      \"source_turns\": [\"t2\"],\n      \"target_fact_id\": \"f1\"\n    }\n  ]\n}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T08:09:55.562571Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "U8-4aourIsOAncoPsbLi2Qc",
+    "usageMetadata": {
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1213
+        }
+      ],
+      "cachedContentTokenCount": 1213,
+      "candidatesTokenCount": 196,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 196
+        }
+      ],
+      "promptTokenCount": 1705,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1705
+        }
+      ],
+      "totalTokenCount": 1901,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "fdf887e0b39fb54623dad9105dc439167315c7ef0333ef29f4dd9c5b51c5fb4d",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790496595.319251,
+  "status": "OK",
+  "text": "{\n  \"reply\": \"네, 첫 가게 개업 연도를 1993년으로 수정했습니다.\",\n  \"action\": {\n    \"kind\": \"CONTINUE\",\n    \"question_slot\": null,\n    \"required_slots\": [],\n    \"speaker_id\": \"p1\"\n  },\n  \"memory_decisions\": [\n    {\n      \"alternatives\": [],\n      \"fact\": {\n        \"relation\": \"event_year\",\n        \"source_turns\": [\"t2\"],\n        \"subject\": \"participant\",\n        \"time\": \"past\",\n        \"value\": \"1993년\"\n      },\n      \"operation\": \"CORRECT\",\n      \"slot\": null,\n      \"source_turns\": [\"t2\"],\n      \"target_fact_id\": \"f1\"\n    }\n  ]\n}",
+  "usage": {
+    "cached_tokens": 1213,
+    "input_tokens": 1705,
+    "output_tokens": 196,
+    "reasoning_tokens": 0,
+    "total_tokens": 1901
+  }
+}

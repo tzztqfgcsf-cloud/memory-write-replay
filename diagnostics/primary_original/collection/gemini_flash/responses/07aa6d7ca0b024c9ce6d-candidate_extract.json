@@ -1,0 +1,57 @@
+{
+  "call_id": "07aa6d7ca0b024c9ce6d-candidate_extract",
+  "finish_reason": "STOP",
+  "finished_unix": 1790488967.851576,
+  "http_status": 200,
+  "latency_seconds": 1.7047,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.003251937302676114,
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"beliefs\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"facts\": [\n        {\n          \"relation\": \"preferred_contact\",\n          \"source_turns\": [\n            \"t2\"\n          ],\n          \"subject\": \"participant\",\n          \"time\": \"present\",\n          \"value\": \"문자\"\n        }\n      ]\n    },\n    {\n      \"candidate_id\": \"c2\",\n      \"facts\": [\n        {\n          \"relation\": \"preferred_contact\",\n          \"source_turns\": [\n            \"t2\"\n          ],\n          \"subject\": \"participant\",\n          \"time\": \"present\",\n          \"value\": \"문자\"\n        }\n      ]\n    }\n  ],\n  \"correction_witnesses\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"evidence_quote\": \"문자로 바꿔 저장해요\",\n      \"new_value\": \"문자\",\n      \"polarity\": \"affirmed\",\n      \"relation\": \"preferred_contact\",\n      \"source_turn\": \"t2\",\n      \"subject\": \"participant\",\n      \"target_fact_id\": \"f1\",\n      \"time\": \"present\"\n    },\n    {\n      \"candidate_id\": \"c2\",\n      \"evidence_quote\": \"연락 방법을 문자로 바꿔 주세요\",\n      \"new_value\": \"문자\",\n      \"polarity\": \"affirmed\",\n      \"relation\": \"preferred_contact\",\n      \"source_turn\": \"t2\",\n      \"subject\": \"participant\",\n      \"target_fact_id\": \"f1\",\n      \"time\": \"present\"\n    }\n  ]\n}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T06:02:46.368403Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "hrG4apO-FrOKktwPsejJ4QY",
+    "usageMetadata": {
+      "candidatesTokenCount": 396,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 396
+        }
+      ],
+      "promptTokenCount": 1682,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1682
+        }
+      ],
+      "totalTokenCount": 2078,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "d60987c45f9417e1f25a237f9720dffc2a5b98181bab6d5dde0ead7112591eae",
+  "stage_schema_sha256": "bda7326ac6a6cbeedf1ecdbf4a2b08277c078351d6689f667dc0d558c4972dd3",
+  "started_unix": 1790488966.146115,
+  "status": "OK",
+  "text": "{\n  \"beliefs\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"facts\": [\n        {\n          \"relation\": \"preferred_contact\",\n          \"source_turns\": [\n            \"t2\"\n          ],\n          \"subject\": \"participant\",\n          \"time\": \"present\",\n          \"value\": \"문자\"\n        }\n      ]\n    },\n    {\n      \"candidate_id\": \"c2\",\n      \"facts\": [\n        {\n          \"relation\": \"preferred_contact\",\n          \"source_turns\": [\n            \"t2\"\n          ],\n          \"subject\": \"participant\",\n          \"time\": \"present\",\n          \"value\": \"문자\"\n        }\n      ]\n    }\n  ],\n  \"correction_witnesses\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"evidence_quote\": \"문자로 바꿔 저장해요\",\n      \"new_value\": \"문자\",\n      \"polarity\": \"affirmed\",\n      \"relation\": \"preferred_contact\",\n      \"source_turn\": \"t2\",\n      \"subject\": \"participant\",\n      \"target_fact_id\": \"f1\",\n      \"time\": \"present\"\n    },\n    {\n      \"candidate_id\": \"c2\",\n      \"evidence_quote\": \"연락 방법을 문자로 바꿔 주세요\",\n      \"new_value\": \"문자\",\n      \"polarity\": \"affirmed\",\n      \"relation\": \"preferred_contact\",\n      \"source_turn\": \"t2\",\n      \"subject\": \"participant\",\n      \"target_fact_id\": \"f1\",\n      \"time\": \"present\"\n    }\n  ]\n}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1682,
+    "output_tokens": 396,
+    "reasoning_tokens": 0,
+    "total_tokens": 2078
+  }
+}

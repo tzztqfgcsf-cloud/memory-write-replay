@@ -1,0 +1,57 @@
+{
+  "call_id": "db3ef6b8b2b25d69c687-candidate_final",
+  "finish_reason": "STOP",
+  "finished_unix": 1790492635.3406458,
+  "http_status": 200,
+  "latency_seconds": 1.1722,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.04641505057767311,
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"reply\": \"어디를 다녀오셨는지 알려주시면 기록해 드릴게요.\",\n  \"action\": {\n    \"kind\": \"CLARIFY\",\n    \"question_slot\": \"travel_destination\",\n    \"required_slots\": [],\n    \"speaker_id\": \"p1\"\n  },\n  \"memory_decisions\": [\n    {\n      \"alternatives\": [\n        \"통영\",\n        \"동해\"\n      ],\n      \"fact\": null,\n      \"operation\": \"HOLD\",\n      \"slot\": \"travel_destination\",\n      \"source_turns\": [\"t2\"],\n      \"target_fact_id\": null\n    }\n  ]\n}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T07:03:54.282195Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "2r-4atOcEY-O0ckPoPWH2Ag",
+    "usageMetadata": {
+      "candidatesTokenCount": 161,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 161
+        }
+      ],
+      "promptTokenCount": 2027,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 2027
+        }
+      ],
+      "totalTokenCount": 2188,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "7370e07750d6d7d5a5edce55227736bce1b60090775389158d446f5746a4c729",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790492634.16814,
+  "status": "OK",
+  "text": "{\n  \"reply\": \"어디를 다녀오셨는지 알려주시면 기록해 드릴게요.\",\n  \"action\": {\n    \"kind\": \"CLARIFY\",\n    \"question_slot\": \"travel_destination\",\n    \"required_slots\": [],\n    \"speaker_id\": \"p1\"\n  },\n  \"memory_decisions\": [\n    {\n      \"alternatives\": [\n        \"통영\",\n        \"동해\"\n      ],\n      \"fact\": null,\n      \"operation\": \"HOLD\",\n      \"slot\": \"travel_destination\",\n      \"source_turns\": [\"t2\"],\n      \"target_fact_id\": null\n    }\n  ]\n}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 2027,
+    "output_tokens": 161,
+    "reasoning_tokens": 0,
+    "total_tokens": 2188
+  }
+}

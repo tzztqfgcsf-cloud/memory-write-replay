@@ -1,0 +1,20 @@
+{
+  "status": "OK",
+  "http_status": 200,
+  "text": "{\"decisions\": [{\"index\": 0, \"approve\": true, \"reason\": \"사용자가 기타를 오 선생님에게 배웠다고 명확히 언급하고 기억해 달라고 요청함.\"}]}",
+  "usage": {
+    "input_tokens": 668,
+    "output_tokens": 41,
+    "reasoning_tokens": 154,
+    "total_tokens": 863,
+    "cached_tokens": null
+  },
+  "finish_reason": "STOP",
+  "model_version": "gemini-3.1-pro-preview",
+  "id": "gemini_flash_CT26_judge",
+  "key": "gemini_flash_CT26",
+  "stage": "judge",
+  "arm": "judge",
+  "requested_model": "gemini-3.1-pro-preview",
+  "latency_seconds": 3.6205250839702785
+}

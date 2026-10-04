@@ -1,0 +1,57 @@
+{
+  "call_id": "806fd5394142efd8fb22-candidate_extract",
+  "finish_reason": "STOP",
+  "finished_unix": 1790488795.704182,
+  "http_status": 200,
+  "latency_seconds": 1.9491,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.00549315055602877,
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"beliefs\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"facts\": [\n        {\n          \"relation\": \"shop_name\",\n          \"source_turns\": [\n            \"t2\"\n          ],\n          \"subject\": \"participant\",\n          \"time\": \"present\",\n          \"value\": \"은하정육점\"\n        }\n      ]\n    },\n    {\n      \"candidate_id\": \"c2\",\n      \"facts\": [\n        {\n          \"relation\": \"shop_name\",\n          \"source_turns\": [\n            \"t2\"\n          ],\n          \"subject\": \"participant\",\n          \"time\": \"present\",\n          \"value\": \"은하정육점\"\n        }\n      ]\n    }\n  ],\n  \"correction_witnesses\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"evidence_quote\": \"은하정육점\",\n      \"new_value\": \"은하정육점\",\n      \"polarity\": \"affirmed\",\n      \"relation\": \"shop_name\",\n      \"source_turn\": \"t2\",\n      \"subject\": \"participant\",\n      \"target_fact_id\": \"f1\",\n      \"time\": \"present\"\n    },\n    {\n      \"candidate_id\": \"c2\",\n      \"evidence_quote\": \"은하정육점\",\n      \"new_value\": \"은하정육점\",\n      \"polarity\": \"affirmed\",\n      \"relation\": \"shop_name\",\n      \"source_turn\": \"t2\",\n      \"subject\": \"participant\",\n      \"target_fact_id\": \"f1\",\n      \"time\": \"present\"\n    }\n  ]\n}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T05:59:53.958092Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "2bC4aoy9OvCVktwP37SV-Ag",
+    "usageMetadata": {
+      "candidatesTokenCount": 406,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 406
+        }
+      ],
+      "promptTokenCount": 1708,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1708
+        }
+      ],
+      "totalTokenCount": 2114,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "b1e344f14910ca3e5c36aaffb83ab99440784cff11e745cb5956ebc1e0ec6bdd",
+  "stage_schema_sha256": "bda7326ac6a6cbeedf1ecdbf4a2b08277c078351d6689f667dc0d558c4972dd3",
+  "started_unix": 1790488793.754862,
+  "status": "OK",
+  "text": "{\n  \"beliefs\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"facts\": [\n        {\n          \"relation\": \"shop_name\",\n          \"source_turns\": [\n            \"t2\"\n          ],\n          \"subject\": \"participant\",\n          \"time\": \"present\",\n          \"value\": \"은하정육점\"\n        }\n      ]\n    },\n    {\n      \"candidate_id\": \"c2\",\n      \"facts\": [\n        {\n          \"relation\": \"shop_name\",\n          \"source_turns\": [\n            \"t2\"\n          ],\n          \"subject\": \"participant\",\n          \"time\": \"present\",\n          \"value\": \"은하정육점\"\n        }\n      ]\n    }\n  ],\n  \"correction_witnesses\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"evidence_quote\": \"은하정육점\",\n      \"new_value\": \"은하정육점\",\n      \"polarity\": \"affirmed\",\n      \"relation\": \"shop_name\",\n      \"source_turn\": \"t2\",\n      \"subject\": \"participant\",\n      \"target_fact_id\": \"f1\",\n      \"time\": \"present\"\n    },\n    {\n      \"candidate_id\": \"c2\",\n      \"evidence_quote\": \"은하정육점\",\n      \"new_value\": \"은하정육점\",\n      \"polarity\": \"affirmed\",\n      \"relation\": \"shop_name\",\n      \"source_turn\": \"t2\",\n      \"subject\": \"participant\",\n      \"target_fact_id\": \"f1\",\n      \"time\": \"present\"\n    }\n  ]\n}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1708,
+    "output_tokens": 406,
+    "reasoning_tokens": 0,
+    "total_tokens": 2114
+  }
+}

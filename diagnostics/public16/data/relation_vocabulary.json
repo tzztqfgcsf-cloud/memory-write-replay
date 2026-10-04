@@ -1,0 +1,24 @@
+{
+  "notation": "domain.part.slot, exact MultiWOZ JSON path components; no remapping to personal-memory relations",
+  "relations": [
+    "hotel.book.day",
+    "hotel.book.people",
+    "hotel.book.stay",
+    "hotel.semi.area",
+    "hotel.semi.internet",
+    "restaurant.book.people",
+    "restaurant.book.time",
+    "train.book.people",
+    "train.semi.day",
+    "train.semi.departure",
+    "train.semi.destination",
+    "train.semi.leaveAt"
+  ],
+  "schema": "multiwoz-native-relations-v1",
+  "sentinels_not_facts": [
+    "",
+    "dontcare",
+    "none",
+    "not mentioned"
+  ]
+}

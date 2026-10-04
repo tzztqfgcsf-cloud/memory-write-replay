@@ -1,0 +1,36 @@
+{
+  "call_id": "4662889733bf6a707e77-g_draft",
+  "error_type": null,
+  "finish_reason": "stop",
+  "finished_unix": 1790497785.061697,
+  "latency_seconds": 9.1759,
+  "model_version": "mlx-community/Llama-3.1-8B-Instruct-4bit",
+  "raw_response": {
+    "base_seed": 20260927,
+    "finish_reason": "stop",
+    "generation_calls": 853,
+    "id": "local-4ebed0c4b0112816162d31ab",
+    "seed": 3254153479,
+    "snapshot": "<LOCAL_PATH>",
+    "text": "{\"action\": {\"kind\": \"CLARIFY\", \"question_slot\": \"meeting_place\", \"required_slots\": [\"meeting_place\"], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"체육관\", \"시민운동장\"], \"fact\": {\"relation\": \"meeting_place\", \"source_turns\": [\"t1\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"체육공원\"}, \"operation\": \"CORRECT\", \"slot\": \"meeting_place\", \"source_turns\": [\"t1\"], \"target_fact_id\": \"f1\"}], \"reply\": \"시민운동장이 맞아요. \"}",
+    "usage": {
+      "cached_tokens": null,
+      "input_tokens": 1719,
+      "output_tokens": 141,
+      "reasoning_tokens": null,
+      "total_tokens": 1860
+    }
+  },
+  "request_sha256": "802c071b025c78b19d1568cbd521775d9604c81cc168817b957593f9138b981a",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790497775.885514,
+  "status": "OK",
+  "text": "{\"action\": {\"kind\": \"CLARIFY\", \"question_slot\": \"meeting_place\", \"required_slots\": [\"meeting_place\"], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"체육관\", \"시민운동장\"], \"fact\": {\"relation\": \"meeting_place\", \"source_turns\": [\"t1\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"체육공원\"}, \"operation\": \"CORRECT\", \"slot\": \"meeting_place\", \"source_turns\": [\"t1\"], \"target_fact_id\": \"f1\"}], \"reply\": \"시민운동장이 맞아요. \"}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1719,
+    "output_tokens": 141,
+    "reasoning_tokens": null,
+    "total_tokens": 1860
+  }
+}

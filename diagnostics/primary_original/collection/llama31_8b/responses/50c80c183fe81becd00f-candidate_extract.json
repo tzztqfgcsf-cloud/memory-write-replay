@@ -1,0 +1,36 @@
+{
+  "call_id": "50c80c183fe81becd00f-candidate_extract",
+  "error_type": null,
+  "finish_reason": "stop",
+  "finished_unix": 1790494432.193596,
+  "latency_seconds": 6.9271,
+  "model_version": "mlx-community/Llama-3.1-8B-Instruct-4bit",
+  "raw_response": {
+    "base_seed": 20260927,
+    "finish_reason": "stop",
+    "generation_calls": 537,
+    "id": "local-8914cb09473002969e21e84a",
+    "seed": 2008700862,
+    "snapshot": "<LOCAL_PATH>",
+    "text": "{\"beliefs\": [{\"candidate_id\": \"c1\", \"facts\": [{\"relation\": \"travel_destination\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"여수\"}]}], \"correction_witnesses\": []}",
+    "usage": {
+      "cached_tokens": null,
+      "input_tokens": 1743,
+      "output_tokens": 62,
+      "reasoning_tokens": null,
+      "total_tokens": 1805
+    }
+  },
+  "request_sha256": "fbc2ac08e674be574f6336180d3f93acad41a68d9c7c6a7ab2bf5d2831af0b16",
+  "stage_schema_sha256": "bda7326ac6a6cbeedf1ecdbf4a2b08277c078351d6689f667dc0d558c4972dd3",
+  "started_unix": 1790494425.266273,
+  "status": "OK",
+  "text": "{\"beliefs\": [{\"candidate_id\": \"c1\", \"facts\": [{\"relation\": \"travel_destination\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"여수\"}]}], \"correction_witnesses\": []}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1743,
+    "output_tokens": 62,
+    "reasoning_tokens": null,
+    "total_tokens": 1805
+  }
+}

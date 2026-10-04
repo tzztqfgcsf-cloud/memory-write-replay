@@ -1,0 +1,56 @@
+{
+  "call_id": "9367e96468e81ece074486cd-g_draft",
+  "cost_note": "provider_did_not_report_money",
+  "cost_usd_reported": null,
+  "finish_reason": "STOP",
+  "http_status": 200,
+  "latency_seconds": 2.7393,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.011886375085827405,
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"reply\": \"Okay, so you want a train that leaves Leicester after 16:30 and goes to Cambridge. Is that correct?\",\n  \"action\": {\n    \"kind\": \"CLARIFY\",\n    \"question_slot\": null,\n    \"required_slots\": [],\n    \"speaker_id\": \"system\"\n  },\n  \"memory_decisions\": [\n    {\n      \"alternatives\": [],\n      \"fact\": {\n        \"relation\": \"train.semi.departure\",\n        \"source_turns\": [\n          \"MUL1930.json#turn8\"\n        ],\n        \"subject\": \"MUL1930.json#train.semi\",\n        \"time\": \"unknown\",\n        \"value\": \"leicester\"\n      },\n      \"operation\": \"CORRECT\",\n      \"slot\": \"train.semi.departure\",\n      \"source_turns\": [\n        \"MUL1930.json#turn8\"\n      ],\n      \"target_fact_id\": \"MUL1930.json#state7#train.semi.departure\"\n    },\n    {\n      \"alternatives\": [],\n      \"fact\": {\n        \"relation\": \"train.semi.destination\",\n        \"source_turns\": [\n          \"MUL1930.json#turn8\"\n        ],\n        \"subject\": \"MUL1930.json#train.semi\",\n        \"time\": \"unknown\",\n        \"value\": \"cambridge\"\n      },\n      \"operation\": \"CORRECT\",\n      \"slot\": \"train.semi.destination\",\n      \"source_turns\": [\n        \"MUL1930.json#turn8\"\n      ],\n      \"target_fact_id\": \"MUL1930.json#state7#train.semi.destination\"\n    },\n    {\n      \"alternatives\": [],\n      \"fact\": {\n        \"relation\": \"train.semi.leaveAt\",\n        \"source_turns\": [\n          \"MUL1930.json#turn8\"\n        ],\n        \"subject\": \"MUL1930.json#train.semi\",\n        \"time\": \"unknown\",\n        \"value\": \"16:30\"\n      },\n      \"operation\": \"APPEND\",\n      \"slot\": \"train.semi.leaveAt\",\n      \"source_turns\": [\n        \"MUL1930.json#turn8\"\n      ],\n      \"target_fact_id\": null\n    }\n  ]\n}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T22:54:18.816296Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "mp65aqjpMZ-cx9gPtNDSwA0",
+    "usageMetadata": {
+      "candidatesTokenCount": 581,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 581
+        }
+      ],
+      "promptTokenCount": 2141,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 2141
+        }
+      ],
+      "totalTokenCount": 2722,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "6fd11ce65a8c929011a7b17d3a9d9a839a780a537af46a1c793cbdf5857a2f8d",
+  "status": "OK",
+  "text": "{\n  \"reply\": \"Okay, so you want a train that leaves Leicester after 16:30 and goes to Cambridge. Is that correct?\",\n  \"action\": {\n    \"kind\": \"CLARIFY\",\n    \"question_slot\": null,\n    \"required_slots\": [],\n    \"speaker_id\": \"system\"\n  },\n  \"memory_decisions\": [\n    {\n      \"alternatives\": [],\n      \"fact\": {\n        \"relation\": \"train.semi.departure\",\n        \"source_turns\": [\n          \"MUL1930.json#turn8\"\n        ],\n        \"subject\": \"MUL1930.json#train.semi\",\n        \"time\": \"unknown\",\n        \"value\": \"leicester\"\n      },\n      \"operation\": \"CORRECT\",\n      \"slot\": \"train.semi.departure\",\n      \"source_turns\": [\n        \"MUL1930.json#turn8\"\n      ],\n      \"target_fact_id\": \"MUL1930.json#state7#train.semi.departure\"\n    },\n    {\n      \"alternatives\": [],\n      \"fact\": {\n        \"relation\": \"train.semi.destination\",\n        \"source_turns\": [\n          \"MUL1930.json#turn8\"\n        ],\n        \"subject\": \"MUL1930.json#train.semi\",\n        \"time\": \"unknown\",\n        \"value\": \"cambridge\"\n      },\n      \"operation\": \"CORRECT\",\n      \"slot\": \"train.semi.destination\",\n      \"source_turns\": [\n        \"MUL1930.json#turn8\"\n      ],\n      \"target_fact_id\": \"MUL1930.json#state7#train.semi.destination\"\n    },\n    {\n      \"alternatives\": [],\n      \"fact\": {\n        \"relation\": \"train.semi.leaveAt\",\n        \"source_turns\": [\n          \"MUL1930.json#turn8\"\n        ],\n        \"subject\": \"MUL1930.json#train.semi\",\n        \"time\": \"unknown\",\n        \"value\": \"16:30\"\n      },\n      \"operation\": \"APPEND\",\n      \"slot\": \"train.semi.leaveAt\",\n      \"source_turns\": [\n        \"MUL1930.json#turn8\"\n      ],\n      \"target_fact_id\": null\n    }\n  ]\n}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 2141,
+    "output_tokens": 581,
+    "reasoning_tokens": 0,
+    "total_tokens": 2722
+  }
+}

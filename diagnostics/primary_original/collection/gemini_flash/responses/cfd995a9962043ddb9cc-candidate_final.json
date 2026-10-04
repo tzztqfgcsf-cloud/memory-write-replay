@@ -1,0 +1,64 @@
+{
+  "call_id": "cfd995a9962043ddb9cc-candidate_final",
+  "finish_reason": "STOP",
+  "finished_unix": 1790495455.486551,
+  "http_status": 200,
+  "latency_seconds": 1.2499,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.03977035496332874,
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"reply\": \"네, 알겠습니다. 송 선생님께 배우면서 즐거웠던 이야기를 들려주시겠어요?\",\n  \"action\": {\n    \"kind\": \"CONTINUE\",\n    \"question_slot\": null,\n    \"required_slots\": [],\n    \"speaker_id\": \"p1\"\n  },\n  \"memory_decisions\": [\n    {\n      \"alternatives\": [],\n      \"fact\": null,\n      \"operation\": \"NO_WRITE\",\n      \"slot\": null,\n      \"source_turns\": [\"t2\"],\n      \"target_fact_id\": null\n    }\n  ]\n}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T07:50:54.386493Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "3sq4ar3LF_CVktwP37SV-Ag",
+    "usageMetadata": {
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1915
+        }
+      ],
+      "cachedContentTokenCount": 1915,
+      "candidatesTokenCount": 146,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 146
+        }
+      ],
+      "promptTokenCount": 1941,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1941
+        }
+      ],
+      "totalTokenCount": 2087,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "1526736ae4548ab1e78fe01096043511f1bc828f84af91ac9810392255d77695",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790495454.235666,
+  "status": "OK",
+  "text": "{\n  \"reply\": \"네, 알겠습니다. 송 선생님께 배우면서 즐거웠던 이야기를 들려주시겠어요?\",\n  \"action\": {\n    \"kind\": \"CONTINUE\",\n    \"question_slot\": null,\n    \"required_slots\": [],\n    \"speaker_id\": \"p1\"\n  },\n  \"memory_decisions\": [\n    {\n      \"alternatives\": [],\n      \"fact\": null,\n      \"operation\": \"NO_WRITE\",\n      \"slot\": null,\n      \"source_turns\": [\"t2\"],\n      \"target_fact_id\": null\n    }\n  ]\n}",
+  "usage": {
+    "cached_tokens": 1915,
+    "input_tokens": 1941,
+    "output_tokens": 146,
+    "reasoning_tokens": 0,
+    "total_tokens": 2087
+  }
+}

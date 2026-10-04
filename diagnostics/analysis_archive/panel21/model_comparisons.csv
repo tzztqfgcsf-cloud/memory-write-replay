@@ -1,0 +1,85 @@
+model,label,group,metric,repeats,cases,observations,before_count,after_count,raw_effect,raw_ci_low,raw_ci_high,interval_source,benefit_effect,benefit_ci_low,benefit_ci_high
+gemini_flash,Gemini 2.5 Flash,Gemini,positive_joint,3,28,84,82,80,-0.023809523809523808,-0.05952380952380952,0.0,outputs/paper_finish_control_20260921/professor_review_20260927/analysis/test/result.json,-0.023809523809523808,-0.05952380952380952,0.0
+gemini_flash,Gemini 2.5 Flash,Gemini,correction_recovery,3,11,33,33,33,0.0,,,,0.0,,
+gemini_flash,Gemini 2.5 Flash,Gemini,harmful_write,3,48,144,5,3,-0.013888888888888888,,,,0.013888888888888888,,
+gemini_flash,Gemini 2.5 Flash,Gemini,invalid_final,3,48,144,1,1,0.0,,,,-0.0,,
+gemini25_pro,Gemini 2.5 Pro,Gemini,positive_joint,3,28,84,71,73,0.023809523809523808,-0.08333333333333334,0.11904761904761904,outputs/paper_finish_control_20260921/gemini_version_sweep_20260927/lanes/gemini25_pro/analysis/main/test/result.json,0.023809523809523808,-0.08333333333333334,0.11904761904761904
+gemini25_pro,Gemini 2.5 Pro,Gemini,correction_recovery,3,11,33,32,31,-0.030303030303030304,,,,-0.030303030303030304,,
+gemini25_pro,Gemini 2.5 Pro,Gemini,harmful_write,3,48,144,8,3,-0.034722222222222224,,,,0.034722222222222224,,
+gemini25_pro,Gemini 2.5 Pro,Gemini,invalid_final,3,48,144,3,3,0.0,,,,-0.0,,
+gemini25_flash_lite,Gemini 2.5 Flash-Lite,Gemini,positive_joint,3,28,84,69,56,-0.15476190476190477,-0.34523809523809523,0.047619047619047616,outputs/paper_finish_control_20260921/gemini_version_sweep_20260927/lanes/gemini25_flash_lite/analysis/main/test/result.json,-0.15476190476190477,-0.34523809523809523,0.047619047619047616
+gemini25_flash_lite,Gemini 2.5 Flash-Lite,Gemini,correction_recovery,3,11,33,33,31,-0.06060606060606061,,,,-0.06060606060606061,,
+gemini25_flash_lite,Gemini 2.5 Flash-Lite,Gemini,harmful_write,3,48,144,14,16,0.013888888888888888,,,,-0.013888888888888888,,
+gemini25_flash_lite,Gemini 2.5 Flash-Lite,Gemini,invalid_final,3,48,144,1,4,0.020833333333333332,,,,-0.020833333333333332,,
+gemini3_flash_preview,Gemini 3 Flash Preview,Gemini,positive_joint,3,28,84,78,71,-0.08333333333333333,-0.19047619047619047,0.0,outputs/paper_finish_control_20260921/gemini_version_sweep_20260927/lanes/gemini3_flash_preview/analysis/main/test/result.json,-0.08333333333333333,-0.19047619047619047,0.0
+gemini3_flash_preview,Gemini 3 Flash Preview,Gemini,correction_recovery,3,11,33,33,33,0.0,,,,0.0,,
+gemini3_flash_preview,Gemini 3 Flash Preview,Gemini,harmful_write,3,48,144,6,12,0.041666666666666664,,,,-0.041666666666666664,,
+gemini3_flash_preview,Gemini 3 Flash Preview,Gemini,invalid_final,3,48,144,1,0,-0.006944444444444444,,,,0.006944444444444444,,
+gemini31_pro_preview,Gemini 3.1 Pro Preview,Gemini,positive_joint,3,28,84,81,81,0.0,-0.03571428571428571,0.03571428571428571,outputs/paper_finish_control_20260921/gemini_version_sweep_20260927/lanes/gemini31_pro_preview/analysis/main/test/result.json,0.0,-0.03571428571428571,0.03571428571428571
+gemini31_pro_preview,Gemini 3.1 Pro Preview,Gemini,correction_recovery,3,11,33,33,33,0.0,,,,0.0,,
+gemini31_pro_preview,Gemini 3.1 Pro Preview,Gemini,harmful_write,3,48,144,3,2,-0.006944444444444444,,,,0.006944444444444444,,
+gemini31_pro_preview,Gemini 3.1 Pro Preview,Gemini,invalid_final,3,48,144,3,2,-0.006944444444444444,,,,0.006944444444444444,,
+gemini35_flash_lite,Gemini 3.5 Flash-Lite,Gemini,positive_joint,3,28,84,84,74,-0.11904761904761904,-0.23809523809523808,-0.023809523809523808,outputs/paper_finish_control_20260921/gemini_version_sweep_20260927/lanes/gemini35_flash_lite/analysis/main/test/result.json,-0.11904761904761904,-0.23809523809523808,-0.023809523809523808
+gemini35_flash_lite,Gemini 3.5 Flash-Lite,Gemini,correction_recovery,3,11,33,33,32,-0.030303030303030304,,,,-0.030303030303030304,,
+gemini35_flash_lite,Gemini 3.5 Flash-Lite,Gemini,harmful_write,3,48,144,0,7,0.04861111111111111,,,,-0.04861111111111111,,
+gemini35_flash_lite,Gemini 3.5 Flash-Lite,Gemini,invalid_final,3,48,144,1,5,0.027777777777777776,,,,-0.027777777777777776,,
+gemini38_flash,Gemini 3.8 Flash,Gemini,positive_joint,3,28,84,84,83,-0.011904761904761904,-0.03571428571428571,0.0,outputs/paper_finish_control_20260921/gemini38_extension_20260927/analysis/main/test/result.json,-0.011904761904761904,-0.03571428571428571,0.0
+gemini38_flash,Gemini 3.8 Flash,Gemini,correction_recovery,3,11,33,33,33,0.0,,,,0.0,,
+gemini38_flash,Gemini 3.8 Flash,Gemini,harmful_write,3,48,144,0,1,0.006944444444444444,,,,-0.006944444444444444,,
+gemini38_flash,Gemini 3.8 Flash,Gemini,invalid_final,3,48,144,0,0,0.0,,,,-0.0,,
+qwen3_14b,Qwen3 14B (native 4-bit),Qwen original,positive_joint,3,28,84,73,66,-0.08333333333333333,-0.2380952380952381,0.05952380952380952,outputs/paper_finish_control_20260921/tist_overnight_finalization_20260928/qwen14_completion_analysis/analysis/test/result.json,-0.08333333333333333,-0.2380952380952381,0.05952380952380952
+qwen3_14b,Qwen3 14B (native 4-bit),Qwen original,correction_recovery,3,11,33,33,33,0.0,,,,0.0,,
+qwen3_14b,Qwen3 14B (native 4-bit),Qwen original,harmful_write,3,48,144,14,20,0.041666666666666664,,,,-0.041666666666666664,,
+qwen3_14b,Qwen3 14B (native 4-bit),Qwen original,invalid_final,3,48,144,0,0,0.0,,,,-0.0,,
+claude-opus-4.5,claude-opus-4.5,Kiro,positive_joint,3,28,84,79,78,-0.011904761904761904,-0.1071428571428571,0.0476190476190476,outputs/kiro_model_comparison_plan_20260930/combined_analysis_preparation_v2/analysis/paired_case_cluster_intervals.csv,-0.011904761904761904,-0.1071428571428571,0.0476190476190476
+claude-opus-4.5,claude-opus-4.5,Kiro,correction_recovery,3,11,33,33,33,0.0,0.0,0.0,outputs/kiro_model_comparison_plan_20260930/combined_analysis_preparation_v2/analysis/paired_case_cluster_intervals.csv,0.0,0.0,0.0
+claude-opus-4.5,claude-opus-4.5,Kiro,harmful_write,3,48,144,5,6,0.006944444444444444,-0.0277777777777777,0.0555555555555555,outputs/kiro_model_comparison_plan_20260930/combined_analysis_preparation_v2/analysis/paired_case_cluster_intervals.csv,-0.006944444444444444,-0.0555555555555555,0.0277777777777777
+claude-opus-4.5,claude-opus-4.5,Kiro,invalid_final,3,48,144,0,0,0.0,,,,-0.0,,
+claude-opus-4.6,claude-opus-4.6,Kiro,positive_joint,3,28,84,76,78,0.023809523809523808,-0.0357142857142857,0.1071428571428571,outputs/kiro_model_comparison_plan_20260930/combined_analysis_preparation_v2/analysis/paired_case_cluster_intervals.csv,0.023809523809523808,-0.0357142857142857,0.1071428571428571
+claude-opus-4.6,claude-opus-4.6,Kiro,correction_recovery,3,11,33,33,33,0.0,0.0,0.0,outputs/kiro_model_comparison_plan_20260930/combined_analysis_preparation_v2/analysis/paired_case_cluster_intervals.csv,0.0,0.0,0.0
+claude-opus-4.6,claude-opus-4.6,Kiro,harmful_write,3,48,144,8,6,-0.013888888888888888,-0.0625,0.0208333333333333,outputs/kiro_model_comparison_plan_20260930/combined_analysis_preparation_v2/analysis/paired_case_cluster_intervals.csv,0.013888888888888888,-0.0208333333333333,0.0625
+claude-opus-4.6,claude-opus-4.6,Kiro,invalid_final,3,48,144,3,0,-0.020833333333333332,,,,0.020833333333333332,,
+claude-opus-4.7,claude-opus-4.7,Kiro,positive_joint,3,28,84,78,80,0.023809523809523808,-0.0357142857142857,0.0952380952380952,outputs/kiro_model_comparison_plan_20260930/combined_analysis_preparation_v2/analysis/paired_case_cluster_intervals.csv,0.023809523809523808,-0.0357142857142857,0.0952380952380952
+claude-opus-4.7,claude-opus-4.7,Kiro,correction_recovery,3,11,33,33,33,0.0,0.0,0.0,outputs/kiro_model_comparison_plan_20260930/combined_analysis_preparation_v2/analysis/paired_case_cluster_intervals.csv,0.0,0.0,0.0
+claude-opus-4.7,claude-opus-4.7,Kiro,harmful_write,3,48,144,6,3,-0.020833333333333332,-0.0557291666666666,0.0069444444444444,outputs/kiro_model_comparison_plan_20260930/combined_analysis_preparation_v2/analysis/paired_case_cluster_intervals.csv,0.020833333333333332,-0.0069444444444444,0.0557291666666666
+claude-opus-4.7,claude-opus-4.7,Kiro,invalid_final,3,48,144,0,0,0.0,,,,-0.0,,
+claude-opus-4.8,claude-opus-4.8,Kiro,positive_joint,3,28,84,81,82,0.011904761904761904,0.0,0.0357142857142857,outputs/kiro_model_comparison_plan_20260930/combined_analysis_preparation_v2/analysis/paired_case_cluster_intervals.csv,0.011904761904761904,0.0,0.0357142857142857
+claude-opus-4.8,claude-opus-4.8,Kiro,correction_recovery,3,11,33,33,33,0.0,0.0,0.0,outputs/kiro_model_comparison_plan_20260930/combined_analysis_preparation_v2/analysis/paired_case_cluster_intervals.csv,0.0,0.0,0.0
+claude-opus-4.8,claude-opus-4.8,Kiro,harmful_write,3,48,144,3,2,-0.006944444444444444,-0.0208333333333333,0.0,outputs/kiro_model_comparison_plan_20260930/combined_analysis_preparation_v2/analysis/paired_case_cluster_intervals.csv,0.006944444444444444,-0.0,0.0208333333333333
+claude-opus-4.8,claude-opus-4.8,Kiro,invalid_final,3,48,144,0,0,0.0,,,,-0.0,,
+claude-opus-5.5,claude-opus-5.5,Kiro,positive_joint,3,28,84,69,72,0.03571428571428571,0.0,0.0952380952380952,outputs/kiro_model_comparison_plan_20260930/combined_analysis_preparation_v2/analysis/paired_case_cluster_intervals.csv,0.03571428571428571,0.0,0.0952380952380952
+claude-opus-5.5,claude-opus-5.5,Kiro,correction_recovery,3,11,33,33,33,0.0,0.0,0.0,outputs/kiro_model_comparison_plan_20260930/combined_analysis_preparation_v2/analysis/paired_case_cluster_intervals.csv,0.0,0.0,0.0
+claude-opus-5.5,claude-opus-5.5,Kiro,harmful_write,3,48,144,15,12,-0.020833333333333332,-0.0555555555555555,0.0,outputs/kiro_model_comparison_plan_20260930/combined_analysis_preparation_v2/analysis/paired_case_cluster_intervals.csv,0.020833333333333332,-0.0,0.0555555555555555
+claude-opus-5.5,claude-opus-5.5,Kiro,invalid_final,3,48,144,0,0,0.0,,,,-0.0,,
+claude-sonnet-4,claude-sonnet-4,Kiro,positive_joint,3,28,84,77,76,-0.011904761904761904,-0.0952380952380952,0.0714285714285714,outputs/kiro_model_comparison_plan_20260930/combined_analysis_preparation_v2/analysis/paired_case_cluster_intervals.csv,-0.011904761904761904,-0.0952380952380952,0.0714285714285714
+claude-sonnet-4,claude-sonnet-4,Kiro,correction_recovery,3,11,33,31,31,0.0,-0.1212121212121212,0.1515151515151515,outputs/kiro_model_comparison_plan_20260930/combined_analysis_preparation_v2/analysis/paired_case_cluster_intervals.csv,0.0,-0.1212121212121212,0.1515151515151515
+claude-sonnet-4,claude-sonnet-4,Kiro,harmful_write,3,48,144,6,6,0.0,-0.0277777777777777,0.0347222222222222,outputs/kiro_model_comparison_plan_20260930/combined_analysis_preparation_v2/analysis/paired_case_cluster_intervals.csv,-0.0,-0.0347222222222222,0.0277777777777777
+claude-sonnet-4,claude-sonnet-4,Kiro,invalid_final,3,48,144,4,4,0.0,,,,-0.0,,
+claude-sonnet-4.5,claude-sonnet-4.5,Kiro,positive_joint,3,28,84,79,81,0.023809523809523808,0.0,0.0595238095238095,outputs/kiro_model_comparison_plan_20260930/combined_analysis_preparation_v2/analysis/paired_case_cluster_intervals.csv,0.023809523809523808,0.0,0.0595238095238095
+claude-sonnet-4.5,claude-sonnet-4.5,Kiro,correction_recovery,3,11,33,33,33,0.0,0.0,0.0,outputs/kiro_model_comparison_plan_20260930/combined_analysis_preparation_v2/analysis/paired_case_cluster_intervals.csv,0.0,0.0,0.0
+claude-sonnet-4.5,claude-sonnet-4.5,Kiro,harmful_write,3,48,144,9,3,-0.041666666666666664,-0.0902777777777777,-0.0069444444444444,outputs/kiro_model_comparison_plan_20260930/combined_analysis_preparation_v2/analysis/paired_case_cluster_intervals.csv,0.041666666666666664,0.0069444444444444,0.0902777777777777
+claude-sonnet-4.5,claude-sonnet-4.5,Kiro,invalid_final,3,48,144,0,1,0.006944444444444444,,,,-0.006944444444444444,,
+claude-sonnet-4.6,claude-sonnet-4.6,Kiro,positive_joint,3,28,84,81,81,0.0,0.0,0.0,outputs/kiro_model_comparison_plan_20260930/combined_analysis_preparation_v2/analysis/paired_case_cluster_intervals.csv,0.0,0.0,0.0
+claude-sonnet-4.6,claude-sonnet-4.6,Kiro,correction_recovery,3,11,33,33,33,0.0,0.0,0.0,outputs/kiro_model_comparison_plan_20260930/combined_analysis_preparation_v2/analysis/paired_case_cluster_intervals.csv,0.0,0.0,0.0
+claude-sonnet-4.6,claude-sonnet-4.6,Kiro,harmful_write,3,48,144,3,3,0.0,0.0,0.0,outputs/kiro_model_comparison_plan_20260930/combined_analysis_preparation_v2/analysis/paired_case_cluster_intervals.csv,-0.0,-0.0,-0.0
+claude-sonnet-4.6,claude-sonnet-4.6,Kiro,invalid_final,3,48,144,2,0,-0.013888888888888888,,,,0.013888888888888888,,
+deepseek-3.2,deepseek-3.2,Kiro,positive_joint,3,28,84,81,76,-0.05952380952380952,-0.1428571428571428,0.0,outputs/kiro_model_comparison_plan_20260930/combined_analysis_preparation_v2/analysis/paired_case_cluster_intervals.csv,-0.05952380952380952,-0.1428571428571428,0.0
+deepseek-3.2,deepseek-3.2,Kiro,correction_recovery,3,11,33,33,33,0.0,0.0,0.0,outputs/kiro_model_comparison_plan_20260930/combined_analysis_preparation_v2/analysis/paired_case_cluster_intervals.csv,0.0,0.0,0.0
+deepseek-3.2,deepseek-3.2,Kiro,harmful_write,3,48,144,5,7,0.013888888888888888,-0.0486111111111111,0.0694444444444444,outputs/kiro_model_comparison_plan_20260930/combined_analysis_preparation_v2/analysis/paired_case_cluster_intervals.csv,-0.013888888888888888,-0.0694444444444444,0.0486111111111111
+deepseek-3.2,deepseek-3.2,Kiro,invalid_final,3,48,144,2,2,0.0,,,,-0.0,,
+glm-5,glm-5,Kiro,positive_joint,3,28,84,81,81,0.0,-0.0357142857142857,0.0357142857142857,outputs/kiro_model_comparison_plan_20260930/combined_analysis_preparation_v2/analysis/paired_case_cluster_intervals.csv,0.0,-0.0357142857142857,0.0357142857142857
+glm-5,glm-5,Kiro,correction_recovery,3,11,33,33,33,0.0,0.0,0.0,outputs/kiro_model_comparison_plan_20260930/combined_analysis_preparation_v2/analysis/paired_case_cluster_intervals.csv,0.0,0.0,0.0
+glm-5,glm-5,Kiro,harmful_write,3,48,144,3,2,-0.006944444444444444,-0.0208333333333333,0.0,outputs/kiro_model_comparison_plan_20260930/combined_analysis_preparation_v2/analysis/paired_case_cluster_intervals.csv,0.006944444444444444,-0.0,0.0208333333333333
+glm-5,glm-5,Kiro,invalid_final,3,48,144,0,0,0.0,,,,-0.0,,
+gpt-5.6-luna,gpt-5.6-luna,Kiro,positive_joint,3,28,84,77,80,0.03571428571428571,,,,0.03571428571428571,,
+gpt-5.6-luna,gpt-5.6-luna,Kiro,correction_recovery,3,11,33,33,33,0.0,,,,0.0,,
+gpt-5.6-luna,gpt-5.6-luna,Kiro,harmful_write,3,48,144,7,4,-0.020833333333333332,,,,0.020833333333333332,,
+gpt-5.6-luna,gpt-5.6-luna,Kiro,invalid_final,3,48,144,0,0,0.0,,,,-0.0,,
+gpt-5.6-sol,gpt-5.6-sol,Kiro,positive_joint,3,28,84,71,75,0.047619047619047616,0.0,0.1071428571428571,outputs/kiro_model_comparison_plan_20260930/combined_analysis_preparation_v2/analysis/paired_case_cluster_intervals.csv,0.047619047619047616,0.0,0.1071428571428571
+gpt-5.6-sol,gpt-5.6-sol,Kiro,correction_recovery,3,11,33,33,33,0.0,0.0,0.0,outputs/kiro_model_comparison_plan_20260930/combined_analysis_preparation_v2/analysis/paired_case_cluster_intervals.csv,0.0,0.0,0.0
+gpt-5.6-sol,gpt-5.6-sol,Kiro,harmful_write,3,48,144,13,8,-0.034722222222222224,-0.0763888888888888,0.0,outputs/kiro_model_comparison_plan_20260930/combined_analysis_preparation_v2/analysis/paired_case_cluster_intervals.csv,0.034722222222222224,-0.0,0.0763888888888888
+gpt-5.6-sol,gpt-5.6-sol,Kiro,invalid_final,3,48,144,0,0,0.0,,,,-0.0,,
+gpt-5.6-terra,gpt-5.6-terra,Kiro,positive_joint,3,28,84,71,76,0.05952380952380952,-0.0119047619047619,0.1547619047619047,outputs/kiro_model_comparison_plan_20260930/combined_analysis_preparation_v2/analysis/paired_case_cluster_intervals.csv,0.05952380952380952,-0.0119047619047619,0.1547619047619047
+gpt-5.6-terra,gpt-5.6-terra,Kiro,correction_recovery,3,11,33,33,32,-0.030303030303030304,-0.0909090909090909,0.0,outputs/kiro_model_comparison_plan_20260930/combined_analysis_preparation_v2/analysis/paired_case_cluster_intervals.csv,-0.030303030303030304,-0.0909090909090909,0.0
+gpt-5.6-terra,gpt-5.6-terra,Kiro,harmful_write,3,48,144,13,5,-0.05555555555555555,-0.1180555555555555,-0.0069444444444444,outputs/kiro_model_comparison_plan_20260930/combined_analysis_preparation_v2/analysis/paired_case_cluster_intervals.csv,0.05555555555555555,0.0069444444444444,0.1180555555555555
+gpt-5.6-terra,gpt-5.6-terra,Kiro,invalid_final,3,48,144,0,1,0.006944444444444444,,,,-0.006944444444444444,,

@@ -1,0 +1,57 @@
+{
+  "call_id": "1e6c40d2cfcf0e3de50b-sr_feedback",
+  "finish_reason": "STOP",
+  "finished_unix": 1790495874.105054,
+  "http_status": 200,
+  "latency_seconds": 1.5186,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.16729261579304716,
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"no_change_needed\": false,\n  \"issues\": [\n    {\n      \"draft_location\": \"memory_decisions[1]\",\n      \"evidence_location\": \"db_snapshot.facts[1]\",\n      \"problem\": \"The draft includes a NO_WRITE operation for the workplace fact, but the user explicitly confirms it is correct and should be kept. This should be an APPEND operation to confirm the existing fact.\",\n      \"specific_revision\": \"Change operation to APPEND for the workplace fact, with fact_id 'f2' and source_turns 't2'.\"\n    }\n  ]\n}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T07:57:52.741136Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "gMy4apCeLcOAncoPsbLi2Qc",
+    "usageMetadata": {
+      "candidatesTokenCount": 137,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 137
+        }
+      ],
+      "promptTokenCount": 1510,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1510
+        }
+      ],
+      "totalTokenCount": 1647,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "de5be09ff78615e82abc6f71036b6cd2899ed891fc6fe9d71a5dacb9cfeb80be",
+  "stage_schema_sha256": "377e252cf02129ba34bbc867118dd2b9c6b65042b3fcd7b44099d2fc6e0513ed",
+  "started_unix": 1790495872.5858471,
+  "status": "OK",
+  "text": "{\n  \"no_change_needed\": false,\n  \"issues\": [\n    {\n      \"draft_location\": \"memory_decisions[1]\",\n      \"evidence_location\": \"db_snapshot.facts[1]\",\n      \"problem\": \"The draft includes a NO_WRITE operation for the workplace fact, but the user explicitly confirms it is correct and should be kept. This should be an APPEND operation to confirm the existing fact.\",\n      \"specific_revision\": \"Change operation to APPEND for the workplace fact, with fact_id 'f2' and source_turns 't2'.\"\n    }\n  ]\n}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1510,
+    "output_tokens": 137,
+    "reasoning_tokens": 0,
+    "total_tokens": 1647
+  }
+}

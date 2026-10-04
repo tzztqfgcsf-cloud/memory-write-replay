@@ -1,0 +1,57 @@
+{
+  "call_id": "119cf931d9d8930aca88-candidate_extract",
+  "finish_reason": "STOP",
+  "finished_unix": 1790489545.416351,
+  "http_status": 200,
+  "latency_seconds": 2.2867,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.0068212963165120875,
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"beliefs\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"facts\": []\n    },\n    {\n      \"candidate_id\": \"c2\",\n      \"facts\": []\n    }\n  ],\n  \"correction_witnesses\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"evidence_quote\": \"1998년이 맞습니다\",\n      \"new_value\": \"1998년\",\n      \"polarity\": \"affirmed\",\n      \"relation\": \"event_year\",\n      \"source_turn\": \"t2\",\n      \"subject\": \"participant\",\n      \"target_fact_id\": \"f1\",\n      \"time\": \"past\"\n    },\n    {\n      \"candidate_id\": \"c2\",\n      \"evidence_quote\": \"1998년이에요\",\n      \"new_value\": \"1998년\",\n      \"polarity\": \"affirmed\",\n      \"relation\": \"event_year\",\n      \"source_turn\": \"t2\",\n      \"subject\": \"participant\",\n      \"target_fact_id\": \"f1\",\n      \"time\": \"past\"\n    }\n  ]\n}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T06:12:23.340700Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "x7O4atzlFJiXktwPo4SY4AQ",
+    "usageMetadata": {
+      "candidatesTokenCount": 282,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 282
+        }
+      ],
+      "promptTokenCount": 1706,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1706
+        }
+      ],
+      "totalTokenCount": 1988,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "b558cae6ae3b37006c0f10adc431c0cc2e74136a3f640cd7d20478830e1d96c2",
+  "stage_schema_sha256": "bda7326ac6a6cbeedf1ecdbf4a2b08277c078351d6689f667dc0d558c4972dd3",
+  "started_unix": 1790489543.129249,
+  "status": "OK",
+  "text": "{\n  \"beliefs\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"facts\": []\n    },\n    {\n      \"candidate_id\": \"c2\",\n      \"facts\": []\n    }\n  ],\n  \"correction_witnesses\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"evidence_quote\": \"1998년이 맞습니다\",\n      \"new_value\": \"1998년\",\n      \"polarity\": \"affirmed\",\n      \"relation\": \"event_year\",\n      \"source_turn\": \"t2\",\n      \"subject\": \"participant\",\n      \"target_fact_id\": \"f1\",\n      \"time\": \"past\"\n    },\n    {\n      \"candidate_id\": \"c2\",\n      \"evidence_quote\": \"1998년이에요\",\n      \"new_value\": \"1998년\",\n      \"polarity\": \"affirmed\",\n      \"relation\": \"event_year\",\n      \"source_turn\": \"t2\",\n      \"subject\": \"participant\",\n      \"target_fact_id\": \"f1\",\n      \"time\": \"past\"\n    }\n  ]\n}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1706,
+    "output_tokens": 282,
+    "reasoning_tokens": 0,
+    "total_tokens": 1988
+  }
+}

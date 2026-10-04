@@ -1,0 +1,20 @@
+{
+  "status": "OK",
+  "http_status": 200,
+  "text": "{\"decisions\": [{\"index\": 0, \"approve\": true, \"reason\": \"사용자가 어릴 때 취미로 우표수집을 했다고 명시함\"}]}",
+  "usage": {
+    "input_tokens": 694,
+    "output_tokens": 39,
+    "reasoning_tokens": 213,
+    "total_tokens": 946,
+    "cached_tokens": null
+  },
+  "finish_reason": "STOP",
+  "model_version": "gemini-3.1-pro-preview",
+  "id": "gemini38_flash_CT20_judge",
+  "key": "gemini38_flash_CT20",
+  "stage": "judge",
+  "arm": "judge",
+  "requested_model": "gemini-3.1-pro-preview",
+  "latency_seconds": 3.8129955830518156
+}

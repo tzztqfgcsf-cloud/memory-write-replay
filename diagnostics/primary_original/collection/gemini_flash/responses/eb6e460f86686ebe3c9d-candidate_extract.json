@@ -1,0 +1,57 @@
+{
+  "call_id": "eb6e460f86686ebe3c9d-candidate_extract",
+  "finish_reason": "STOP",
+  "finished_unix": 1790494867.270871,
+  "http_status": 200,
+  "latency_seconds": 1.2592,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.00395628258034035,
+        "content": {
+          "parts": [
+            {
+              "text": "{\"beliefs\": [{\"candidate_id\": \"c1\", \"facts\": [{\"relation\": \"birthplace\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"김제\"}]}, {\"candidate_id\": \"c2\", \"facts\": [{\"relation\": \"birthplace\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"김제\"}]}], \"correction_witnesses\": []}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T07:41:06.091381Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "ksi4avXJBbOKktwPsejJ4QY",
+    "usageMetadata": {
+      "candidatesTokenCount": 108,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 108
+        }
+      ],
+      "promptTokenCount": 1657,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1657
+        }
+      ],
+      "totalTokenCount": 1765,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "fea6ecc2683de8ea81826444f2b1e7c12a8e679af90e2e74caa80383c9763b65",
+  "stage_schema_sha256": "bda7326ac6a6cbeedf1ecdbf4a2b08277c078351d6689f667dc0d558c4972dd3",
+  "started_unix": 1790494866.0111492,
+  "status": "OK",
+  "text": "{\"beliefs\": [{\"candidate_id\": \"c1\", \"facts\": [{\"relation\": \"birthplace\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"김제\"}]}, {\"candidate_id\": \"c2\", \"facts\": [{\"relation\": \"birthplace\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"김제\"}]}], \"correction_witnesses\": []}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1657,
+    "output_tokens": 108,
+    "reasoning_tokens": 0,
+    "total_tokens": 1765
+  }
+}

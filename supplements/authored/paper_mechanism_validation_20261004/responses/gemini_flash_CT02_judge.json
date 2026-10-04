@@ -1,0 +1,20 @@
+{
+  "status": "OK",
+  "http_status": 200,
+  "text": "{\"decisions\": [{\"index\": 0, \"approve\": true, \"reason\": \"사용자가 상호를 은하정육점으로 명시적으로 정정함\"}]}",
+  "usage": {
+    "input_tokens": 703,
+    "output_tokens": 36,
+    "reasoning_tokens": 236,
+    "total_tokens": 975,
+    "cached_tokens": null
+  },
+  "finish_reason": "STOP",
+  "model_version": "gemini-3.1-pro-preview",
+  "id": "gemini_flash_CT02_judge",
+  "key": "gemini_flash_CT02",
+  "stage": "judge",
+  "arm": "judge",
+  "requested_model": "gemini-3.1-pro-preview",
+  "latency_seconds": 4.168462082976475
+}

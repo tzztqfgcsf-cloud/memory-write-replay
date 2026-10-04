@@ -1,0 +1,36 @@
+{
+  "call_id": "5f607f48a8682d927d0d-candidate_extract",
+  "error_type": null,
+  "finish_reason": "stop",
+  "finished_unix": 1790495856.915264,
+  "latency_seconds": 8.8956,
+  "model_version": "mlx-community/Llama-3.1-8B-Instruct-4bit",
+  "raw_response": {
+    "base_seed": 20260927,
+    "finish_reason": "stop",
+    "generation_calls": 675,
+    "id": "local-e26fd2b2a2c3f7998cd1289d",
+    "seed": 524263861,
+    "snapshot": "<LOCAL_PATH>",
+    "text": "{\"beliefs\": [{\"candidate_id\": \"c1\", \"facts\": [{\"relation\": \"hobby\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"sleep\"}]}], \"correction_witnesses\": [{\"candidate_id\": \"c1\", \"evidence_quote\": \"피곤해서\", \"new_value\": \"sleep\", \"polarity\": \"affirmed\", \"relation\": \"hobby\", \"source_turn\": \"t2\", \"subject\": \"participant\", \"target_fact_id\": \"f1\", \"time\": \"present\"}]}",
+    "usage": {
+      "cached_tokens": null,
+      "input_tokens": 1746,
+      "output_tokens": 129,
+      "reasoning_tokens": null,
+      "total_tokens": 1875
+    }
+  },
+  "request_sha256": "544d0ab27e714f3bdeb7303b0ce1c45f824a7c30272554a8f1d7e119b188d2ac",
+  "stage_schema_sha256": "bda7326ac6a6cbeedf1ecdbf4a2b08277c078351d6689f667dc0d558c4972dd3",
+  "started_unix": 1790495848.019456,
+  "status": "OK",
+  "text": "{\"beliefs\": [{\"candidate_id\": \"c1\", \"facts\": [{\"relation\": \"hobby\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"sleep\"}]}], \"correction_witnesses\": [{\"candidate_id\": \"c1\", \"evidence_quote\": \"피곤해서\", \"new_value\": \"sleep\", \"polarity\": \"affirmed\", \"relation\": \"hobby\", \"source_turn\": \"t2\", \"subject\": \"participant\", \"target_fact_id\": \"f1\", \"time\": \"present\"}]}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1746,
+    "output_tokens": 129,
+    "reasoning_tokens": null,
+    "total_tokens": 1875
+  }
+}

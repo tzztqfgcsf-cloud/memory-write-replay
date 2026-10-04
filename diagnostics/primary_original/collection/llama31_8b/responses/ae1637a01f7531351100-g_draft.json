@@ -1,0 +1,36 @@
+{
+  "call_id": "ae1637a01f7531351100-g_draft",
+  "error_type": null,
+  "finish_reason": "stop",
+  "finished_unix": 1790495051.4973361,
+  "latency_seconds": 9.1071,
+  "model_version": "mlx-community/Llama-3.1-8B-Instruct-4bit",
+  "raw_response": {
+    "base_seed": 20260927,
+    "finish_reason": "stop",
+    "generation_calls": 595,
+    "id": "local-812cd761c76f7d0d32060c8f",
+    "seed": 1015798564,
+    "snapshot": "<LOCAL_PATH>",
+    "text": "{\"action\": {\"kind\": \"CLARIFY\", \"question_slot\": \"topic_permission\", \"required_slots\": [\"topic_permission\"], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"yes\", \"no\"], \"fact\": {\"relation\": \"workplace\", \"source_turns\": [\"t1\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"한빛우체국\"}, \"operation\": \"HOLD\", \"slot\": \"workplace\", \"source_turns\": [\"t1\"], \"target_fact_id\": null}], \"reply\": \"새 정보 저장 허용 여부를 말씀해 주세요.\"}",
+    "usage": {
+      "cached_tokens": null,
+      "input_tokens": 1719,
+      "output_tokens": 140,
+      "reasoning_tokens": null,
+      "total_tokens": 1859
+    }
+  },
+  "request_sha256": "625defcf2ed9bd8eb34f59cff4074b5c340f3f5710bcf32d4846f126ebfe2935",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790495042.390065,
+  "status": "OK",
+  "text": "{\"action\": {\"kind\": \"CLARIFY\", \"question_slot\": \"topic_permission\", \"required_slots\": [\"topic_permission\"], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"yes\", \"no\"], \"fact\": {\"relation\": \"workplace\", \"source_turns\": [\"t1\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"한빛우체국\"}, \"operation\": \"HOLD\", \"slot\": \"workplace\", \"source_turns\": [\"t1\"], \"target_fact_id\": null}], \"reply\": \"새 정보 저장 허용 여부를 말씀해 주세요.\"}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1719,
+    "output_tokens": 140,
+    "reasoning_tokens": null,
+    "total_tokens": 1859
+  }
+}

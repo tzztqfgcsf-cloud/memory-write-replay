@@ -1,0 +1,36 @@
+{
+  "call_id": "880be736ac8adceb8e42-candidate_final",
+  "error_type": null,
+  "finish_reason": "stop",
+  "finished_unix": 1790495536.522243,
+  "latency_seconds": 6.9112,
+  "model_version": "mlx-community/Llama-3.1-8B-Instruct-4bit",
+  "raw_response": {
+    "base_seed": 20260927,
+    "finish_reason": "stop",
+    "generation_calls": 646,
+    "id": "local-7fee9118f47f9f2582c77636",
+    "seed": 1921965699,
+    "snapshot": "<LOCAL_PATH>",
+    "text": "{\"action\": {\"kind\": \"CLARIFY\", \"question_slot\": \"birthplace\", \"required_slots\": [\"birthplace\"], \"speaker_id\": \"p1\"}, \"memory_decisions\": [], \"reply\": \"어린 시절 이야기부터 해 볼까요?\"}",
+    "usage": {
+      "cached_tokens": null,
+      "input_tokens": 1790,
+      "output_tokens": 57,
+      "reasoning_tokens": null,
+      "total_tokens": 1847
+    }
+  },
+  "request_sha256": "e9974410ae679c79ef3203f8e93c5544988770baa898e23d2464549026ab8d04",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790495529.610742,
+  "status": "OK",
+  "text": "{\"action\": {\"kind\": \"CLARIFY\", \"question_slot\": \"birthplace\", \"required_slots\": [\"birthplace\"], \"speaker_id\": \"p1\"}, \"memory_decisions\": [], \"reply\": \"어린 시절 이야기부터 해 볼까요?\"}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1790,
+    "output_tokens": 57,
+    "reasoning_tokens": null,
+    "total_tokens": 1847
+  }
+}

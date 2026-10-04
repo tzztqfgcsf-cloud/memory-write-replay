@@ -1,0 +1,20 @@
+{
+  "status": "OK",
+  "http_status": 200,
+  "text": "{\"beliefs\":[{\"candidate_id\":\"c1\",\"facts\":[{\"relation\":\"workplace\",\"source_turns\":[\"t2\"],\"subject\":\"participant\",\"time\":\"present\",\"value\":\"새결공방\"}]},{\"candidate_id\":\"c2\",\"facts\":[{\"relation\":\"workplace\",\"source_turns\":[\"t2\"],\"subject\":\"participant\",\"time\":\"present\",\"value\":\"새결공방\"}]}],\"correction_witnesses\":[{\"candidate_id\":\"c1\",\"evidence_quote\":\"\",\"new_value\":\"우편\",\"polarity\":\"absent\",\"relation\":\"preferred_contact\",\"source_turn\":\"t2\",\"subject\":\"participant\",\"target_fact_id\":\"f1\",\"time\":\"present\"},{\"candidate_id\":\"c2\",\"evidence_quote\":\"\",\"new_value\":\"우편\",\"polarity\":\"absent\",\"relation\":\"preferred_contact\",\"source_turn\":\"t2\",\"subject\":\"participant\",\"target_fact_id\":\"f1\",\"time\":\"present\"}]}",
+  "usage": {
+    "input_tokens": 2468,
+    "output_tokens": 191,
+    "reasoning_tokens": 0,
+    "total_tokens": 2659,
+    "cached_tokens": null
+  },
+  "finish_reason": "STOP",
+  "model_version": "gemini-3.8-flash",
+  "id": "gemini38_flash_CT35_original",
+  "key": "gemini38_flash_CT35",
+  "stage": "extract",
+  "arm": "original",
+  "requested_model": "gemini-3.8-flash",
+  "latency_seconds": 2.2514405001420528
+}

@@ -1,0 +1,36 @@
+{
+  "call_id": "b145bf95698b58075dd1-sr_refine",
+  "error_type": null,
+  "finish_reason": "stop",
+  "finished_unix": 1790490936.1502562,
+  "latency_seconds": 12.6484,
+  "model_version": "mlx-community/Llama-3.1-8B-Instruct-4bit",
+  "raw_response": {
+    "base_seed": 20260927,
+    "finish_reason": "stop",
+    "generation_calls": 222,
+    "id": "local-4814e38ef409eda1178ce990",
+    "seed": 3363786593,
+    "snapshot": "<LOCAL_PATH>",
+    "text": "{\"action\": {\"kind\": \"CONTINUE\", \"question_slot\": \"hobby\", \"required_slots\": [\"hobby\"], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"낚시\"], \"fact\": {\"relation\": \"hobby\", \"source_turns\": [\"t1\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"등산\"}, \"operation\": \"APPEND\", \"slot\": \"hobby\", \"source_turns\": [\"t1\"], \"target_fact_id\": null}, {\"alternatives\": [], \"fact\": {\"relation\": \"hobby\", \"source_turns\": [\"t1\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"낚시\"}, \"operation\": \"APPEND\", \"slot\": \"hobby\", \"source_turns\": [\"t1\"], \"target_fact_id\": null}], \"reply\": \"준호는 낚시가 취미예요. 나는 여전히 등산이고 준호 취미만 낚시로 추가해 줘요.\"}",
+    "usage": {
+      "cached_tokens": null,
+      "input_tokens": 2044,
+      "output_tokens": 229,
+      "reasoning_tokens": null,
+      "total_tokens": 2273
+    }
+  },
+  "request_sha256": "7cc5479a31b3c1d9afb10c9c24cd40144c1336884ea4d1e8afe69ab472a4440c",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790490923.501153,
+  "status": "OK",
+  "text": "{\"action\": {\"kind\": \"CONTINUE\", \"question_slot\": \"hobby\", \"required_slots\": [\"hobby\"], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"낚시\"], \"fact\": {\"relation\": \"hobby\", \"source_turns\": [\"t1\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"등산\"}, \"operation\": \"APPEND\", \"slot\": \"hobby\", \"source_turns\": [\"t1\"], \"target_fact_id\": null}, {\"alternatives\": [], \"fact\": {\"relation\": \"hobby\", \"source_turns\": [\"t1\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"낚시\"}, \"operation\": \"APPEND\", \"slot\": \"hobby\", \"source_turns\": [\"t1\"], \"target_fact_id\": null}], \"reply\": \"준호는 낚시가 취미예요. 나는 여전히 등산이고 준호 취미만 낚시로 추가해 줘요.\"}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 2044,
+    "output_tokens": 229,
+    "reasoning_tokens": null,
+    "total_tokens": 2273
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "call_id": "46ef6d4fdd48f767c2b3-candidate_final",
+  "finish_reason": "STOP",
+  "finished_unix": 1790493206.021643,
+  "http_status": 200,
+  "latency_seconds": 1.4568,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.024161455678004845,
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"reply\": \"네, 장미미용실을 운영하셨다는 것을 기억해 둘게요.\",\n  \"action\": {\n    \"kind\": \"CONTINUE\",\n    \"question_slot\": null,\n    \"required_slots\": [],\n    \"speaker_id\": \"p1\"\n  },\n  \"memory_decisions\": [\n    {\n      \"alternatives\": [],\n      \"fact\": {\n        \"relation\": \"shop_name\",\n        \"source_turns\": [\n          \"t2\"\n        ],\n        \"subject\": \"participant\",\n        \"time\": \"past\",\n        \"value\": \"장미미용실\"\n      },\n      \"operation\": \"APPEND\",\n      \"slot\": null,\n      \"source_turns\": [\n        \"t2\"\n      ],\n      \"target_fact_id\": null\n    }\n  ]\n}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T07:13:24.692665Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "FMK4armjKsOAncoPsbLi2Qc",
+    "usageMetadata": {
+      "candidatesTokenCount": 204,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 204
+        }
+      ],
+      "promptTokenCount": 1833,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1833
+        }
+      ],
+      "totalTokenCount": 2037,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "bdc15c896e9cec18273e4c3d4b612f165d2f551e1de6dd5bcf541a6b287b6e5a",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790493204.564008,
+  "status": "OK",
+  "text": "{\n  \"reply\": \"네, 장미미용실을 운영하셨다는 것을 기억해 둘게요.\",\n  \"action\": {\n    \"kind\": \"CONTINUE\",\n    \"question_slot\": null,\n    \"required_slots\": [],\n    \"speaker_id\": \"p1\"\n  },\n  \"memory_decisions\": [\n    {\n      \"alternatives\": [],\n      \"fact\": {\n        \"relation\": \"shop_name\",\n        \"source_turns\": [\n          \"t2\"\n        ],\n        \"subject\": \"participant\",\n        \"time\": \"past\",\n        \"value\": \"장미미용실\"\n      },\n      \"operation\": \"APPEND\",\n      \"slot\": null,\n      \"source_turns\": [\n        \"t2\"\n      ],\n      \"target_fact_id\": null\n    }\n  ]\n}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1833,
+    "output_tokens": 204,
+    "reasoning_tokens": 0,
+    "total_tokens": 2037
+  }
+}

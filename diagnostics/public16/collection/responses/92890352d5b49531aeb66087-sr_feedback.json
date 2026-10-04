@@ -1,0 +1,56 @@
+{
+  "call_id": "92890352d5b49531aeb66087-sr_feedback",
+  "cost_note": "provider_did_not_report_money",
+  "cost_usd_reported": null,
+  "finish_reason": "STOP",
+  "http_status": 200,
+  "latency_seconds": 1.4212,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.11892112234364385,
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"no_change_needed\": false,\n  \"issues\": [\n    {\n      \"draft_location\": \"memory_decisions[2].slot\",\n      \"evidence_location\": \"input.allowed_relation_names\",\n      \"problem\": \"The slot 'hotel.book.day' is not allowed for the 'restaurant' domain. The user is talking about a restaurant booking.\",\n      \"specific_revision\": \"Change the slot to 'restaurant.book.day'.\"\n    }\n  ]\n}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T23:02:53.634089Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "naC5aunZJvGancoP76ybiQ0",
+    "usageMetadata": {
+      "candidatesTokenCount": 115,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 115
+        }
+      ],
+      "promptTokenCount": 1442,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1442
+        }
+      ],
+      "totalTokenCount": 1557,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "ca1419b5812e49927158fa64760f4deada74053b20ca8ca208762e6d784c2384",
+  "status": "OK",
+  "text": "{\n  \"no_change_needed\": false,\n  \"issues\": [\n    {\n      \"draft_location\": \"memory_decisions[2].slot\",\n      \"evidence_location\": \"input.allowed_relation_names\",\n      \"problem\": \"The slot 'hotel.book.day' is not allowed for the 'restaurant' domain. The user is talking about a restaurant booking.\",\n      \"specific_revision\": \"Change the slot to 'restaurant.book.day'.\"\n    }\n  ]\n}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1442,
+    "output_tokens": 115,
+    "reasoning_tokens": 0,
+    "total_tokens": 1557
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "schema": "multiwoz-transfer-development-run-1",
+  "status": "DRAFT_PARENT_MUST_FREEZE_BEFORE_COLLECT",
+  "public_packets": "../transfer_dev/public_packets.json",
+  "source_cases": 16,
+  "repeats": 1,
+  "stages": [
+    "g_draft",
+    "g_final",
+    "candidate_extract",
+    "candidate_final",
+    "sr_feedback",
+    "sr_refine"
+  ],
+  "conditions": [
+    "D",
+    "G",
+    "B",
+    "C",
+    "E",
+    "E_text",
+    "R",
+    "CR",
+    "SR1"
+  ],
+  "attempt_cap_total": 192,
+  "attempt_cap_per_model": 96,
+  "retry_count": 0,
+  "base_seed": 20260928,
+  "stop_consecutive_provider_failures": 3,
+  "max_message_bytes": 120000,
+  "output_caps": {
+    "g_draft": 2048,
+    "g_final": 2048,
+    "candidate_extract": 2048,
+    "candidate_final": 2048,
+    "sr_feedback": 512,
+    "sr_refine": 2048
+  },
+  "local_shared_lock": "../../../conditional_method_extension_20260927/amendments/main_execution_v2/collection/.local_device.lock",
+  "models": [
+    {
+      "alias": "gemini25_flash_transfer",
+      "provider": "vertex",
+      "model_id": "gemini-2.5-flash",
+      "temperature": 0.2,
+      "minimum_interval_seconds": 8
+    },
+    {
+      "alias": "qwen3_32b_transfer",
+      "provider": "local",
+      "model_id": "mlx-community/Qwen3-32B-4bit",
+      "snapshot": "<LOCAL_PATH>",
+      "revision": "bcaaf7f538adf166c1080a2befdb4f6019f66639",
+      "config_sha256": "61164e05c52435ed08ee11d4ead8833577f7d329d05797fde522f457b80c25dd",
+      "model_type": "qwen3",
+      "exact_runtime": "source-project/.venv-mlx-vlm/bin/python",
+      "temperature": 0.2,
+      "minimum_interval_seconds": 0
+    }
+  ]
+}

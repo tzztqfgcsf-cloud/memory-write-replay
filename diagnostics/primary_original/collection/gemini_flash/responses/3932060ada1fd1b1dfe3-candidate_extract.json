@@ -1,0 +1,57 @@
+{
+  "call_id": "3932060ada1fd1b1dfe3-candidate_extract",
+  "finish_reason": "STOP",
+  "finished_unix": 1790496030.7718642,
+  "http_status": 200,
+  "latency_seconds": 2.1287,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.009636205496247281,
+        "content": {
+          "parts": [
+            {
+              "text": "{\"beliefs\": [{\"candidate_id\": \"c1\", \"facts\": [{\"relation\": \"meeting_place\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"누리문화원\"}, {\"relation\": \"hobby\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"민요\"}]}, {\"candidate_id\": \"c2\", \"facts\": [{\"relation\": \"meeting_place\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"누리문화원\"}, {\"relation\": \"hobby\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"민요\"}]}], \"correction_witnesses\": [{\"candidate_id\": \"c1\", \"evidence_quote\": \"민요고요\", \"new_value\": \"민요\", \"polarity\": \"affirmed\", \"relation\": \"hobby\", \"source_turn\": \"t2\", \"subject\": \"participant\", \"target_fact_id\": \"f1\", \"time\": \"present\"}, {\"candidate_id\": \"c1\", \"evidence_quote\": \"누리문화원에서\", \"new_value\": \"누리문화원\", \"polarity\": \"affirmed\", \"relation\": \"meeting_place\", \"source_turn\": \"t2\", \"subject\": \"participant\", \"target_fact_id\": \"f2\", \"time\": \"present\"}, {\"candidate_id\": \"c2\", \"evidence_quote\": \"민요는 그대로 하는데\", \"new_value\": \"민요\", \"polarity\": \"affirmed\", \"relation\": \"hobby\", \"source_turn\": \"t2\", \"subject\": \"participant\", \"target_fact_id\": \"f1\", \"time\": \"present\"}, {\"candidate_id\": \"c2\", \"evidence_quote\": \"누리문화원으로\", \"new_value\": \"누리문화원\", \"polarity\": \"affirmed\", \"relation\": \"meeting_place\", \"source_turn\": \"t2\", \"subject\": \"participant\", \"target_fact_id\": \"f2\", \"time\": \"present\"}]}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T08:00:28.813899Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "HM24asvWMbOKktwPsejJ4QY",
+    "usageMetadata": {
+      "candidatesTokenCount": 485,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 485
+        }
+      ],
+      "promptTokenCount": 1752,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1752
+        }
+      ],
+      "totalTokenCount": 2237,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "3da8c37093cb3139afea74607acd952bbc5efeaa9f64da3c0f5db31c1790fa82",
+  "stage_schema_sha256": "bda7326ac6a6cbeedf1ecdbf4a2b08277c078351d6689f667dc0d558c4972dd3",
+  "started_unix": 1790496028.642407,
+  "status": "OK",
+  "text": "{\"beliefs\": [{\"candidate_id\": \"c1\", \"facts\": [{\"relation\": \"meeting_place\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"누리문화원\"}, {\"relation\": \"hobby\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"민요\"}]}, {\"candidate_id\": \"c2\", \"facts\": [{\"relation\": \"meeting_place\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"누리문화원\"}, {\"relation\": \"hobby\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"민요\"}]}], \"correction_witnesses\": [{\"candidate_id\": \"c1\", \"evidence_quote\": \"민요고요\", \"new_value\": \"민요\", \"polarity\": \"affirmed\", \"relation\": \"hobby\", \"source_turn\": \"t2\", \"subject\": \"participant\", \"target_fact_id\": \"f1\", \"time\": \"present\"}, {\"candidate_id\": \"c1\", \"evidence_quote\": \"누리문화원에서\", \"new_value\": \"누리문화원\", \"polarity\": \"affirmed\", \"relation\": \"meeting_place\", \"source_turn\": \"t2\", \"subject\": \"participant\", \"target_fact_id\": \"f2\", \"time\": \"present\"}, {\"candidate_id\": \"c2\", \"evidence_quote\": \"민요는 그대로 하는데\", \"new_value\": \"민요\", \"polarity\": \"affirmed\", \"relation\": \"hobby\", \"source_turn\": \"t2\", \"subject\": \"participant\", \"target_fact_id\": \"f1\", \"time\": \"present\"}, {\"candidate_id\": \"c2\", \"evidence_quote\": \"누리문화원으로\", \"new_value\": \"누리문화원\", \"polarity\": \"affirmed\", \"relation\": \"meeting_place\", \"source_turn\": \"t2\", \"subject\": \"participant\", \"target_fact_id\": \"f2\", \"time\": \"present\"}]}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1752,
+    "output_tokens": 485,
+    "reasoning_tokens": 0,
+    "total_tokens": 2237
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "call_id": "5f607f48a8682d927d0d-sr_refine",
+  "finish_reason": "STOP",
+  "finished_unix": 1790495242.904963,
+  "http_status": 200,
+  "latency_seconds": 1.0401,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.0028937822207808495,
+        "content": {
+          "parts": [
+            {
+              "text": "{\"reply\": \"네, 알겠습니다. 대화를 종료하고 더 이상 기록하지 않겠습니다. 편히 쉬세요.\", \"action\": {\"kind\": \"STOP\", \"question_slot\": null, \"required_slots\": [], \"speaker_id\": \"p1\"}, \"memory_decisions\": []}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T07:47:22.024612Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "Csq4aqTAAfGancoP76ybiQ0",
+    "usageMetadata": {
+      "candidatesTokenCount": 64,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 64
+        }
+      ],
+      "promptTokenCount": 2171,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 2171
+        }
+      ],
+      "totalTokenCount": 2235,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "92571c3dd9303cefe9f790f4d590c213a3368637f93b0bf2c77027531ac8db86",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790495241.864581,
+  "status": "OK",
+  "text": "{\"reply\": \"네, 알겠습니다. 대화를 종료하고 더 이상 기록하지 않겠습니다. 편히 쉬세요.\", \"action\": {\"kind\": \"STOP\", \"question_slot\": null, \"required_slots\": [], \"speaker_id\": \"p1\"}, \"memory_decisions\": []}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 2171,
+    "output_tokens": 64,
+    "reasoning_tokens": 0,
+    "total_tokens": 2235
+  }
+}

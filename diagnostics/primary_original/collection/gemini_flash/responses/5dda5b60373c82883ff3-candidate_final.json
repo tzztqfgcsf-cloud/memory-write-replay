@@ -1,0 +1,57 @@
+{
+  "call_id": "5dda5b60373c82883ff3-candidate_final",
+  "finish_reason": "STOP",
+  "finished_unix": 1790491697.954988,
+  "http_status": 200,
+  "latency_seconds": 1.6434,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.032163011784456214,
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"reply\": \"네, 예전에는 편지를 선호하셨군요. 현재 연락 방식은 영상통화로 유지할게요.\",\n  \"action\": {\n    \"kind\": \"CONTINUE\",\n    \"question_slot\": null,\n    \"required_slots\": [],\n    \"speaker_id\": \"p1\"\n  },\n  \"memory_decisions\": [\n    {\n      \"alternatives\": [],\n      \"fact\": {\n        \"relation\": \"preferred_contact\",\n        \"source_turns\": [\"t2\"],\n        \"subject\": \"participant\",\n        \"time\": \"past\",\n        \"value\": \"편지\"\n      },\n      \"operation\": \"APPEND\",\n      \"slot\": null,\n      \"source_turns\": [\"t2\"],\n      \"target_fact_id\": null\n    }\n  ]\n}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T06:48:16.406918Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "MLy4aobrGOmMx9gP69GymAQ",
+    "usageMetadata": {
+      "candidatesTokenCount": 196,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 196
+        }
+      ],
+      "promptTokenCount": 2041,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 2041
+        }
+      ],
+      "totalTokenCount": 2237,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "7b8bcf67085463aaecdc19cd032aa76195084c3f55867119a7dc527373c6d122",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790491696.311313,
+  "status": "OK",
+  "text": "{\n  \"reply\": \"네, 예전에는 편지를 선호하셨군요. 현재 연락 방식은 영상통화로 유지할게요.\",\n  \"action\": {\n    \"kind\": \"CONTINUE\",\n    \"question_slot\": null,\n    \"required_slots\": [],\n    \"speaker_id\": \"p1\"\n  },\n  \"memory_decisions\": [\n    {\n      \"alternatives\": [],\n      \"fact\": {\n        \"relation\": \"preferred_contact\",\n        \"source_turns\": [\"t2\"],\n        \"subject\": \"participant\",\n        \"time\": \"past\",\n        \"value\": \"편지\"\n      },\n      \"operation\": \"APPEND\",\n      \"slot\": null,\n      \"source_turns\": [\"t2\"],\n      \"target_fact_id\": null\n    }\n  ]\n}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 2041,
+    "output_tokens": 196,
+    "reasoning_tokens": 0,
+    "total_tokens": 2237
+  }
+}

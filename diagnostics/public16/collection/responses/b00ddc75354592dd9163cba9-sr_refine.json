@@ -1,0 +1,56 @@
+{
+  "call_id": "b00ddc75354592dd9163cba9-sr_refine",
+  "cost_note": "provider_did_not_report_money",
+  "cost_usd_reported": null,
+  "finish_reason": "STOP",
+  "http_status": 200,
+  "latency_seconds": 2.7036,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.00200689754236057,
+        "content": {
+          "parts": [
+            {
+              "text": "{\"reply\": \"Okay, I've updated that. You're looking for a hotel in the center of town with parking, wifi, and a 0-star rating. Is there a price range you prefer?\", \"action\": {\"kind\": \"CONTINUE\", \"question_slot\": null, \"required_slots\": [], \"speaker_id\": \"system\"}, \"memory_decisions\": [{\"alternatives\": [\"center\"], \"fact\": {\"relation\": \"hotel.semi.area\", \"source_turns\": [\"PMUL4852.json#turn4\"], \"subject\": \"PMUL4852.json#hotel.semi\", \"time\": \"unknown\", \"value\": \"center\"}, \"operation\": \"CORRECT\", \"slot\": \"hotel.semi.area\", \"source_turns\": [\"PMUL4852.json#turn4\"], \"target_fact_id\": \"PMUL4852.json#state3#hotel.semi.area\"}, {\"alternatives\": [], \"fact\": {\"relation\": \"hotel.semi.internet\", \"source_turns\": [\"PMUL4852.json#turn4\"], \"subject\": \"PMUL4852.json#hotel.semi\", \"time\": \"unknown\", \"value\": \"yes\"}, \"operation\": \"APPEND\", \"slot\": \"hotel.semi.internet\", \"source_turns\": [\"PMUL4852.json#turn4\"], \"target_fact_id\": null}, {\"alternatives\": [], \"fact\": {\"relation\": \"hotel.semi.internet\", \"source_turns\": [\"PMUL4852.json#turn4\"], \"subject\": \"PMUL4852.json#hotel.semi\", \"time\": \"unknown\", \"value\": \"yes\"}, \"operation\": \"APPEND\", \"slot\": \"hotel.semi.internet\", \"source_turns\": [\"PMUL4852.json#turn4\"], \"target_fact_id\": null}, {\"alternatives\": [], \"fact\": {\"relation\": \"hotel.semi.internet\", \"source_turns\": [\"PMUL4852.json#turn4\"], \"subject\": \"PMUL4852.json#hotel.semi\", \"time\": \"unknown\", \"value\": \"yes\"}, \"operation\": \"APPEND\", \"slot\": \"hotel.semi.internet\", \"source_turns\": [\"PMUL4852.json#turn4\"], \"target_fact_id\": null}]}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T23:19:20.167733Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "eKS5arWeCvGancoP76ybiQ0",
+    "usageMetadata": {
+      "candidatesTokenCount": 534,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 534
+        }
+      ],
+      "promptTokenCount": 2301,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 2301
+        }
+      ],
+      "totalTokenCount": 2835,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "733a801d8c6e03b6b51a8d8fc3cdde3f2b0dc420a7beb7e8761e60e9c6aeab92",
+  "status": "OK",
+  "text": "{\"reply\": \"Okay, I've updated that. You're looking for a hotel in the center of town with parking, wifi, and a 0-star rating. Is there a price range you prefer?\", \"action\": {\"kind\": \"CONTINUE\", \"question_slot\": null, \"required_slots\": [], \"speaker_id\": \"system\"}, \"memory_decisions\": [{\"alternatives\": [\"center\"], \"fact\": {\"relation\": \"hotel.semi.area\", \"source_turns\": [\"PMUL4852.json#turn4\"], \"subject\": \"PMUL4852.json#hotel.semi\", \"time\": \"unknown\", \"value\": \"center\"}, \"operation\": \"CORRECT\", \"slot\": \"hotel.semi.area\", \"source_turns\": [\"PMUL4852.json#turn4\"], \"target_fact_id\": \"PMUL4852.json#state3#hotel.semi.area\"}, {\"alternatives\": [], \"fact\": {\"relation\": \"hotel.semi.internet\", \"source_turns\": [\"PMUL4852.json#turn4\"], \"subject\": \"PMUL4852.json#hotel.semi\", \"time\": \"unknown\", \"value\": \"yes\"}, \"operation\": \"APPEND\", \"slot\": \"hotel.semi.internet\", \"source_turns\": [\"PMUL4852.json#turn4\"], \"target_fact_id\": null}, {\"alternatives\": [], \"fact\": {\"relation\": \"hotel.semi.internet\", \"source_turns\": [\"PMUL4852.json#turn4\"], \"subject\": \"PMUL4852.json#hotel.semi\", \"time\": \"unknown\", \"value\": \"yes\"}, \"operation\": \"APPEND\", \"slot\": \"hotel.semi.internet\", \"source_turns\": [\"PMUL4852.json#turn4\"], \"target_fact_id\": null}, {\"alternatives\": [], \"fact\": {\"relation\": \"hotel.semi.internet\", \"source_turns\": [\"PMUL4852.json#turn4\"], \"subject\": \"PMUL4852.json#hotel.semi\", \"time\": \"unknown\", \"value\": \"yes\"}, \"operation\": \"APPEND\", \"slot\": \"hotel.semi.internet\", \"source_turns\": [\"PMUL4852.json#turn4\"], \"target_fact_id\": null}]}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 2301,
+    "output_tokens": 534,
+    "reasoning_tokens": 0,
+    "total_tokens": 2835
+  }
+}

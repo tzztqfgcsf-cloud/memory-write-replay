@@ -1,0 +1,56 @@
+{
+  "call_id": "f1ea32c4473620773b655bbe-sr_refine",
+  "cost_note": "provider_did_not_report_money",
+  "cost_usd_reported": null,
+  "finish_reason": "STOP",
+  "http_status": 200,
+  "latency_seconds": 2.1105,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.0013874948156327338,
+        "content": {
+          "parts": [
+            {
+              "text": "{\"reply\": \"I can change the booking for the Wartworth to Monday for 3 people and 4 nights. Is that correct?\", \"action\": {\"kind\": \"CONTINUE\", \"question_slot\": null, \"required_slots\": [], \"speaker_id\": \"system\"}, \"memory_decisions\": [{\"alternatives\": [], \"fact\": {\"relation\": \"hotel.book.day\", \"source_turns\": [\"PMUL1635.json#turn14\"], \"subject\": \"PMUL1635.json#hotel.book\", \"time\": \"unknown\", \"value\": \"monday\"}, \"operation\": \"CORRECT\", \"slot\": \"hotel.book.day\", \"source_turns\": [\"PMUL1635.json#turn14\"], \"target_fact_id\": \"PMUL1635.json#state13#hotel.book.day\"}, {\"alternatives\": [], \"fact\": {\"relation\": \"hotel.book.people\", \"source_turns\": [\"PMUL1635.json#turn14\"], \"subject\": \"PMUL1635.json#hotel.book\", \"time\": \"unknown\", \"value\": \"3\"}, \"operation\": \"CORRECT\", \"slot\": \"hotel.book.people\", \"source_turns\": [\"PMUL1635.json#turn14\"], \"target_fact_id\": \"PMUL1635.json#state13#hotel.book.people\"}, {\"alternatives\": [], \"fact\": {\"relation\": \"hotel.book.stay\", \"source_turns\": [\"PMUL1635.json#turn14\"], \"subject\": \"PMUL1635.json#hotel.book\", \"time\": \"unknown\", \"value\": \"4\"}, \"operation\": \"CORRECT\", \"slot\": \"hotel.book.stay\", \"source_turns\": [\"PMUL1635.json#turn14\"], \"target_fact_id\": \"PMUL1635.json#state13#hotel.book.stay\"}]}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T23:12:59.511505Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "-6K5apGcH62BktwPi5PxuQg",
+    "usageMetadata": {
+      "candidatesTokenCount": 453,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 453
+        }
+      ],
+      "promptTokenCount": 3416,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 3416
+        }
+      ],
+      "totalTokenCount": 3869,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "3740f349c193809b4dc78bdbc1f21f1e33e97e90609984f33513ac3183fd176a",
+  "status": "OK",
+  "text": "{\"reply\": \"I can change the booking for the Wartworth to Monday for 3 people and 4 nights. Is that correct?\", \"action\": {\"kind\": \"CONTINUE\", \"question_slot\": null, \"required_slots\": [], \"speaker_id\": \"system\"}, \"memory_decisions\": [{\"alternatives\": [], \"fact\": {\"relation\": \"hotel.book.day\", \"source_turns\": [\"PMUL1635.json#turn14\"], \"subject\": \"PMUL1635.json#hotel.book\", \"time\": \"unknown\", \"value\": \"monday\"}, \"operation\": \"CORRECT\", \"slot\": \"hotel.book.day\", \"source_turns\": [\"PMUL1635.json#turn14\"], \"target_fact_id\": \"PMUL1635.json#state13#hotel.book.day\"}, {\"alternatives\": [], \"fact\": {\"relation\": \"hotel.book.people\", \"source_turns\": [\"PMUL1635.json#turn14\"], \"subject\": \"PMUL1635.json#hotel.book\", \"time\": \"unknown\", \"value\": \"3\"}, \"operation\": \"CORRECT\", \"slot\": \"hotel.book.people\", \"source_turns\": [\"PMUL1635.json#turn14\"], \"target_fact_id\": \"PMUL1635.json#state13#hotel.book.people\"}, {\"alternatives\": [], \"fact\": {\"relation\": \"hotel.book.stay\", \"source_turns\": [\"PMUL1635.json#turn14\"], \"subject\": \"PMUL1635.json#hotel.book\", \"time\": \"unknown\", \"value\": \"4\"}, \"operation\": \"CORRECT\", \"slot\": \"hotel.book.stay\", \"source_turns\": [\"PMUL1635.json#turn14\"], \"target_fact_id\": \"PMUL1635.json#state13#hotel.book.stay\"}]}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 3416,
+    "output_tokens": 453,
+    "reasoning_tokens": 0,
+    "total_tokens": 3869
+  }
+}

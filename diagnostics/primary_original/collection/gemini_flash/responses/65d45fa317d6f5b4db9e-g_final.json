@@ -1,0 +1,57 @@
+{
+  "call_id": "65d45fa317d6f5b4db9e-g_final",
+  "finish_reason": "STOP",
+  "finished_unix": 1790490626.202095,
+  "http_status": 200,
+  "latency_seconds": 1.5247,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.004406898175899069,
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"reply\": \"네, 알겠습니다. 다솜꽃집이라는 정보는 그대로 유지하고, 혹시 나중에 간판 사진을 보시거나 확실해지면 다시 알려주세요.\",\n  \"action\": {\n    \"kind\": \"CONTINUE\",\n    \"question_slot\": null,\n    \"required_slots\": [],\n    \"speaker_id\": \"p1\"\n  },\n  \"memory_decisions\": [\n    {\n      \"alternatives\": [\n        \"다온꽃집이라 했던 것 같대요\",\n        \"다온꽃집이었을 거라는 말도 들었는데\"\n      ],\n      \"fact\": null,\n      \"operation\": \"HOLD\",\n      \"slot\": \"shop_name\",\n      \"source_turns\": [\n        \"t2\"\n      ],\n      \"target_fact_id\": null\n    }\n  ]\n}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T06:30:24.779369Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "ALi4aunIL_CVktwP37SV-Ag",
+    "usageMetadata": {
+      "candidatesTokenCount": 201,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 201
+        }
+      ],
+      "promptTokenCount": 1899,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1899
+        }
+      ],
+      "totalTokenCount": 2100,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "9727bd9bda7867b505c0122baeb76247d2081653b9bff6967dbdee73ecd7ab3c",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790490624.677079,
+  "status": "OK",
+  "text": "{\n  \"reply\": \"네, 알겠습니다. 다솜꽃집이라는 정보는 그대로 유지하고, 혹시 나중에 간판 사진을 보시거나 확실해지면 다시 알려주세요.\",\n  \"action\": {\n    \"kind\": \"CONTINUE\",\n    \"question_slot\": null,\n    \"required_slots\": [],\n    \"speaker_id\": \"p1\"\n  },\n  \"memory_decisions\": [\n    {\n      \"alternatives\": [\n        \"다온꽃집이라 했던 것 같대요\",\n        \"다온꽃집이었을 거라는 말도 들었는데\"\n      ],\n      \"fact\": null,\n      \"operation\": \"HOLD\",\n      \"slot\": \"shop_name\",\n      \"source_turns\": [\n        \"t2\"\n      ],\n      \"target_fact_id\": null\n    }\n  ]\n}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1899,
+    "output_tokens": 201,
+    "reasoning_tokens": 0,
+    "total_tokens": 2100
+  }
+}

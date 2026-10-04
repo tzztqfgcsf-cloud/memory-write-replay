@@ -1,0 +1,57 @@
+{
+  "call_id": "ef1c2d890524684c56df-candidate_extract",
+  "finish_reason": "STOP",
+  "finished_unix": 1790494986.496329,
+  "http_status": 200,
+  "latency_seconds": 1.8226,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.001642602715599403,
+        "content": {
+          "parts": [
+            {
+              "text": "{\"beliefs\": [{\"candidate_id\": \"c1\", \"facts\": []}, {\"candidate_id\": \"c2\", \"facts\": []}], \"correction_witnesses\": [{\"candidate_id\": \"c1\", \"evidence_quote\": \"\", \"new_value\": \"해남\", \"polarity\": \"absent\", \"relation\": \"birthplace\", \"source_turn\": \"t2\", \"subject\": \"participant\", \"target_fact_id\": \"f1\", \"time\": \"past\"}, {\"candidate_id\": \"c2\", \"evidence_quote\": \"\", \"new_value\": \"해남\", \"polarity\": \"absent\", \"relation\": \"birthplace\", \"source_turn\": \"t2\", \"subject\": \"participant\", \"target_fact_id\": \"f1\", \"time\": \"past\"}]}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T07:43:04.895137Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "CMm4aqHRNpiXktwPo4SY4AQ",
+    "usageMetadata": {
+      "candidatesTokenCount": 178,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 178
+        }
+      ],
+      "promptTokenCount": 1681,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1681
+        }
+      ],
+      "totalTokenCount": 1859,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "92f2a55486e36896175a7a07c81f9be9026a6d4e0d942c112b10a40974e5b472",
+  "stage_schema_sha256": "bda7326ac6a6cbeedf1ecdbf4a2b08277c078351d6689f667dc0d558c4972dd3",
+  "started_unix": 1790494984.67345,
+  "status": "OK",
+  "text": "{\"beliefs\": [{\"candidate_id\": \"c1\", \"facts\": []}, {\"candidate_id\": \"c2\", \"facts\": []}], \"correction_witnesses\": [{\"candidate_id\": \"c1\", \"evidence_quote\": \"\", \"new_value\": \"해남\", \"polarity\": \"absent\", \"relation\": \"birthplace\", \"source_turn\": \"t2\", \"subject\": \"participant\", \"target_fact_id\": \"f1\", \"time\": \"past\"}, {\"candidate_id\": \"c2\", \"evidence_quote\": \"\", \"new_value\": \"해남\", \"polarity\": \"absent\", \"relation\": \"birthplace\", \"source_turn\": \"t2\", \"subject\": \"participant\", \"target_fact_id\": \"f1\", \"time\": \"past\"}]}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1681,
+    "output_tokens": 178,
+    "reasoning_tokens": 0,
+    "total_tokens": 1859
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "status": "COMPLETE",
+  "evidence_kind": "FRESH_AUTHORED_EXPLORATORY_CHALLENGE_NOT_HUMAN_VALIDATION",
+  "model": "gemini-2.5-flash",
+  "cases": 12,
+  "pairs": 6,
+  "repeats": 1,
+  "physical_attempts": 24,
+  "conditions": {
+    "B": {
+      "valid": 12,
+      "cases": 12,
+      "recovered": 4,
+      "supported_n": 6,
+      "recovery_95_wilson": [
+        0.29999331513839955,
+        0.9032285888942164
+      ],
+      "safe_preservation": 5,
+      "unsupported_n": 6,
+      "preservation_95_wilson": [
+        0.43649717781353975,
+        0.9699466302516921
+      ],
+      "harmful_alteration": 1,
+      "whole_state_correct": 9
+    },
+    "C": {
+      "valid": 12,
+      "cases": 12,
+      "recovered": 4,
+      "supported_n": 6,
+      "recovery_95_wilson": [
+        0.29999331513839955,
+        0.9032285888942164
+      ],
+      "safe_preservation": 5,
+      "unsupported_n": 6,
+      "preservation_95_wilson": [
+        0.43649717781353975,
+        0.9699466302516921
+      ],
+      "harmful_alteration": 1,
+      "whole_state_correct": 9
+    },
+    "E": {
+      "valid": 12,
+      "cases": 12,
+      "recovered": 4,
+      "supported_n": 6,
+      "recovery_95_wilson": [
+        0.29999331513839955,
+        0.9032285888942164
+      ],
+      "safe_preservation": 5,
+      "unsupported_n": 6,
+      "preservation_95_wilson": [
+        0.43649717781353975,
+        0.9699466302516921
+      ],
+      "harmful_alteration": 1,
+      "whole_state_correct": 9
+    }
+  },
+  "paired": {
+    "C_vs_E_supported": {
+      "gains": 0,
+      "losses": 0,
+      "ties": 6,
+      "exact_mcnemar_descriptive_p": 1.0
+    },
+    "C_vs_E_unsupported": {
+      "gains": 0,
+      "losses": 0,
+      "ties": 6,
+      "exact_mcnemar_descriptive_p": 1.0
+    },
+    "C_vs_B_supported": {
+      "gains": 0,
+      "losses": 0,
+      "ties": 6,
+      "exact_mcnemar_descriptive_p": 1.0
+    },
+    "C_vs_B_unsupported": {
+      "gains": 0,
+      "losses": 0,
+      "ties": 6,
+      "exact_mcnemar_descriptive_p": 1.0
+    }
+  },
+  "source_reference": "AI_AUTHORED_NOT_HUMAN_GOLD",
+  "primary_question": "Does C improve unsupported correction restraint over the simple E exception without losing supported recovery?",
+  "inference": "Separate descriptive outcomes and Wilson intervals; no multiplicity-adjusted confirmatory claim."
+}

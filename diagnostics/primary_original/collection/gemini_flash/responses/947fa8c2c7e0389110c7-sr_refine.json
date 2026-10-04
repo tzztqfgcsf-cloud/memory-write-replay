@@ -1,0 +1,57 @@
+{
+  "call_id": "947fa8c2c7e0389110c7-sr_refine",
+  "finish_reason": "STOP",
+  "finished_unix": 1790492012.739033,
+  "http_status": 200,
+  "latency_seconds": 1.6164,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.007283627986907959,
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"reply\": \"네, 어릴 때 우표 수집을 하셨군요. 기억해 둘게요.\",\n  \"action\": {\n    \"kind\": \"CONTINUE\",\n    \"question_slot\": null,\n    \"required_slots\": [],\n    \"speaker_id\": \"p1\"\n  },\n  \"memory_decisions\": [\n    {\n      \"alternatives\": [],\n      \"fact\": {\n        \"relation\": \"hobby\",\n        \"source_turns\": [\"t2\"],\n        \"subject\": \"participant\",\n        \"time\": \"past\",\n        \"value\": \"우표수집\"\n      },\n      \"operation\": \"APPEND\",\n      \"slot\": null,\n      \"source_turns\": [\"t2\"],\n      \"target_fact_id\": null\n    }\n  ]\n}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T06:53:31.200760Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "a724arigDPObncoPmvuomAI",
+    "usageMetadata": {
+      "candidatesTokenCount": 190,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 190
+        }
+      ],
+      "promptTokenCount": 1982,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1982
+        }
+      ],
+      "totalTokenCount": 2172,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "c6377684d48810bc1abdeadd3527c09aa91f2c1b5de236a4910c5d69f91f7bc1",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790492011.1222038,
+  "status": "OK",
+  "text": "{\n  \"reply\": \"네, 어릴 때 우표 수집을 하셨군요. 기억해 둘게요.\",\n  \"action\": {\n    \"kind\": \"CONTINUE\",\n    \"question_slot\": null,\n    \"required_slots\": [],\n    \"speaker_id\": \"p1\"\n  },\n  \"memory_decisions\": [\n    {\n      \"alternatives\": [],\n      \"fact\": {\n        \"relation\": \"hobby\",\n        \"source_turns\": [\"t2\"],\n        \"subject\": \"participant\",\n        \"time\": \"past\",\n        \"value\": \"우표수집\"\n      },\n      \"operation\": \"APPEND\",\n      \"slot\": null,\n      \"source_turns\": [\"t2\"],\n      \"target_fact_id\": null\n    }\n  ]\n}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1982,
+    "output_tokens": 190,
+    "reasoning_tokens": 0,
+    "total_tokens": 2172
+  }
+}

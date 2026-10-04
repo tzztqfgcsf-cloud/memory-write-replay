@@ -1,0 +1,36 @@
+{
+  "call_id": "eb6e460f86686ebe3c9d-candidate_extract",
+  "error_type": null,
+  "finish_reason": "stop",
+  "finished_unix": 1790495480.8392801,
+  "latency_seconds": 5.5894,
+  "model_version": "mlx-community/Llama-3.1-8B-Instruct-4bit",
+  "raw_response": {
+    "base_seed": 20260927,
+    "finish_reason": "stop",
+    "generation_calls": 639,
+    "id": "local-f433e10dc26c8d4989e4112a",
+    "seed": 3249336752,
+    "snapshot": "<LOCAL_PATH>",
+    "text": "{\"beliefs\": [], \"correction_witnesses\": []}",
+    "usage": {
+      "cached_tokens": null,
+      "input_tokens": 1712,
+      "output_tokens": 15,
+      "reasoning_tokens": null,
+      "total_tokens": 1727
+    }
+  },
+  "request_sha256": "670535ba796c4af4d1a684324358fad800263ca40b2e0119632e6e3809513dba",
+  "stage_schema_sha256": "bda7326ac6a6cbeedf1ecdbf4a2b08277c078351d6689f667dc0d558c4972dd3",
+  "started_unix": 1790495475.2496572,
+  "status": "OK",
+  "text": "{\"beliefs\": [], \"correction_witnesses\": []}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1712,
+    "output_tokens": 15,
+    "reasoning_tokens": null,
+    "total_tokens": 1727
+  }
+}

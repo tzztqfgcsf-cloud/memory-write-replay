@@ -1,0 +1,36 @@
+{
+  "call_id": "06a7913265a88cadf7e0-candidate_extract",
+  "error_type": null,
+  "finish_reason": "stop",
+  "finished_unix": 1790490359.508503,
+  "latency_seconds": 9.6951,
+  "model_version": "mlx-community/Llama-3.1-8B-Instruct-4bit",
+  "raw_response": {
+    "base_seed": 20260927,
+    "finish_reason": "stop",
+    "generation_calls": 171,
+    "id": "local-1676aa543f7740c214764c70",
+    "seed": 2473837160,
+    "snapshot": "<LOCAL_PATH>",
+    "text": "{\"beliefs\": [{\"candidate_id\": \"c1\", \"facts\": [{\"relation\": \"learned_from\", \"source_turns\": [\"t1\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"강 선생\"}]}], \"correction_witnesses\": [{\"candidate_id\": \"c1\", \"evidence_quote\": \"동창은 강 선생님이라고 기억한대요. 누구 기억이 맞는지 모르니 선생님 이름은 보류해요.\", \"new_value\": \"강 선생\", \"polarity\": \"uncertain\", \"relation\": \"learned_from\", \"source_turn\": \"t2\", \"subject\": \"participant\", \"target_fact_id\": \"f1\", \"time\": \"past\"}]}",
+    "usage": {
+      "cached_tokens": null,
+      "input_tokens": 1758,
+      "output_tokens": 159,
+      "reasoning_tokens": null,
+      "total_tokens": 1917
+    }
+  },
+  "request_sha256": "9dad5b7ca176f039049e84418c1d406b0014518492b9337d0d318104c21c675d",
+  "stage_schema_sha256": "bda7326ac6a6cbeedf1ecdbf4a2b08277c078351d6689f667dc0d558c4972dd3",
+  "started_unix": 1790490349.8130891,
+  "status": "OK",
+  "text": "{\"beliefs\": [{\"candidate_id\": \"c1\", \"facts\": [{\"relation\": \"learned_from\", \"source_turns\": [\"t1\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"강 선생\"}]}], \"correction_witnesses\": [{\"candidate_id\": \"c1\", \"evidence_quote\": \"동창은 강 선생님이라고 기억한대요. 누구 기억이 맞는지 모르니 선생님 이름은 보류해요.\", \"new_value\": \"강 선생\", \"polarity\": \"uncertain\", \"relation\": \"learned_from\", \"source_turn\": \"t2\", \"subject\": \"participant\", \"target_fact_id\": \"f1\", \"time\": \"past\"}]}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1758,
+    "output_tokens": 159,
+    "reasoning_tokens": null,
+    "total_tokens": 1917
+  }
+}

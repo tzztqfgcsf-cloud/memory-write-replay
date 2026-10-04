@@ -1,0 +1,36 @@
+{
+  "call_id": "820ada422fb95e3a9bab-candidate_extract",
+  "error_type": null,
+  "finish_reason": "stop",
+  "finished_unix": 1790497136.730438,
+  "latency_seconds": 17.0333,
+  "model_version": "mlx-community/Llama-3.1-8B-Instruct-4bit",
+  "raw_response": {
+    "base_seed": 20260927,
+    "finish_reason": "stop",
+    "generation_calls": 789,
+    "id": "local-a6b1af8ff09265a75d376fea",
+    "seed": 173506555,
+    "snapshot": "<LOCAL_PATH>",
+    "text": "{\"beliefs\": [{\"candidate_id\": \"c1\", \"facts\": [{\"relation\": \"workplace\", \"source_turns\": [\"t1\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"봄날약국\"}, {\"relation\": \"preferred_contact\", \"source_turns\": [\"t1\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"문자\"}]}, {\"candidate_id\": \"c2\", \"facts\": [{\"relation\": \"workplace\", \"source_turns\": [\"t1\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"봄날약국\"}, {\"relation\": \"preferred_contact\", \"source_turns\": [\"t1\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"문자\"}, {\"relation\": \"hobby\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"자전거\"}]}], \"correction_witnesses\": [{\"candidate_id\": \"c1\", \"evidence_quote\": \"직장은 맞고 연락도 문자 그대로예요. 취미로 자전거를 새로 추가해 주세요.\", \"new_value\": \"자전거\", \"polarity\": \"affirmed\", \"relation\": \"hobby\", \"source_turn\": \"t2\", \"subject\": \"participant\", \"target_fact_id\": \"f3\", \"time\": \"present\"}, {\"candidate_id\": \"c2\", \"evidence_quote\": \"봄날약국도 문자도 맞아요. 둘 다 두고 제 취미 자전거만 더 적어요.\", \"new_value\": \"자전거\", \"polarity\": \"affirmed\", \"relation\": \"hobby\", \"source_turn\": \"t2\", \"subject\": \"participant\", \"target_fact_id\": \"f3\", \"time\": \"present\"}]}",
+    "usage": {
+      "cached_tokens": null,
+      "input_tokens": 1799,
+      "output_tokens": 406,
+      "reasoning_tokens": null,
+      "total_tokens": 2205
+    }
+  },
+  "request_sha256": "9164579493b10fc6a6170588be14ec7d3421529aa72f7924eb649695d182a3ff",
+  "stage_schema_sha256": "bda7326ac6a6cbeedf1ecdbf4a2b08277c078351d6689f667dc0d558c4972dd3",
+  "started_unix": 1790497119.696865,
+  "status": "OK",
+  "text": "{\"beliefs\": [{\"candidate_id\": \"c1\", \"facts\": [{\"relation\": \"workplace\", \"source_turns\": [\"t1\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"봄날약국\"}, {\"relation\": \"preferred_contact\", \"source_turns\": [\"t1\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"문자\"}]}, {\"candidate_id\": \"c2\", \"facts\": [{\"relation\": \"workplace\", \"source_turns\": [\"t1\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"봄날약국\"}, {\"relation\": \"preferred_contact\", \"source_turns\": [\"t1\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"문자\"}, {\"relation\": \"hobby\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"자전거\"}]}], \"correction_witnesses\": [{\"candidate_id\": \"c1\", \"evidence_quote\": \"직장은 맞고 연락도 문자 그대로예요. 취미로 자전거를 새로 추가해 주세요.\", \"new_value\": \"자전거\", \"polarity\": \"affirmed\", \"relation\": \"hobby\", \"source_turn\": \"t2\", \"subject\": \"participant\", \"target_fact_id\": \"f3\", \"time\": \"present\"}, {\"candidate_id\": \"c2\", \"evidence_quote\": \"봄날약국도 문자도 맞아요. 둘 다 두고 제 취미 자전거만 더 적어요.\", \"new_value\": \"자전거\", \"polarity\": \"affirmed\", \"relation\": \"hobby\", \"source_turn\": \"t2\", \"subject\": \"participant\", \"target_fact_id\": \"f3\", \"time\": \"present\"}]}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1799,
+    "output_tokens": 406,
+    "reasoning_tokens": null,
+    "total_tokens": 2205
+  }
+}

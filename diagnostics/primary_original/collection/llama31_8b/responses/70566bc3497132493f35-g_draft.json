@@ -1,0 +1,36 @@
+{
+  "call_id": "70566bc3497132493f35-g_draft",
+  "error_type": null,
+  "finish_reason": "stop",
+  "finished_unix": 1790491126.4399612,
+  "latency_seconds": 10.1038,
+  "model_version": "mlx-community/Llama-3.1-8B-Instruct-4bit",
+  "raw_response": {
+    "base_seed": 20260927,
+    "finish_reason": "stop",
+    "generation_calls": 241,
+    "id": "local-073f404706ba9e823d6b9019",
+    "seed": 446580424,
+    "snapshot": "<LOCAL_PATH>",
+    "text": "{\"action\": {\"kind\": \"CONTINUE\", \"question_slot\": \"birthplace\", \"required_slots\": [\"birthplace\"], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"임실\", \"전주\"], \"fact\": {\"relation\": \"birthplace\", \"source_turns\": [\"t1\", \"t2\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"전주\"}, \"operation\": \"CORRECT\", \"slot\": \"birthplace\", \"source_turns\": [\"t1\", \"t2\"], \"target_fact_id\": \"f1\"}], \"reply\": \"어머니 순자는 임실에서 태어났대요. 제 출생지는 전주 그대로고 순자 출생지를 임실로 적어요.\"}",
+    "usage": {
+      "cached_tokens": null,
+      "input_tokens": 1719,
+      "output_tokens": 169,
+      "reasoning_tokens": null,
+      "total_tokens": 1888
+    }
+  },
+  "request_sha256": "48216bcdc73ffd5aa74062397ef1872794fcd0ba7b12f14c01d5968ff48e9cb1",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790491116.335605,
+  "status": "OK",
+  "text": "{\"action\": {\"kind\": \"CONTINUE\", \"question_slot\": \"birthplace\", \"required_slots\": [\"birthplace\"], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"임실\", \"전주\"], \"fact\": {\"relation\": \"birthplace\", \"source_turns\": [\"t1\", \"t2\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"전주\"}, \"operation\": \"CORRECT\", \"slot\": \"birthplace\", \"source_turns\": [\"t1\", \"t2\"], \"target_fact_id\": \"f1\"}], \"reply\": \"어머니 순자는 임실에서 태어났대요. 제 출생지는 전주 그대로고 순자 출생지를 임실로 적어요.\"}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1719,
+    "output_tokens": 169,
+    "reasoning_tokens": null,
+    "total_tokens": 1888
+  }
+}

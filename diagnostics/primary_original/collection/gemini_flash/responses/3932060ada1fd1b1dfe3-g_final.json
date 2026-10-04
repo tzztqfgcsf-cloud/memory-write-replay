@@ -1,0 +1,57 @@
+{
+  "call_id": "3932060ada1fd1b1dfe3-g_final",
+  "finish_reason": "STOP",
+  "finished_unix": 1790496020.632399,
+  "http_status": 200,
+  "latency_seconds": 1.4385,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.004750483914425499,
+        "content": {
+          "parts": [
+            {
+              "text": "{\"reply\": \"네, 모임 장소가 누리문화원으로 변경되었고, 취미는 민요로 유지되는군요. 기억해 두겠습니다.\", \"action\": {\"kind\": \"CONTINUE\", \"question_slot\": null, \"required_slots\": [], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [], \"fact\": {\"relation\": \"meeting_place\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"누리문화원\"}, \"operation\": \"CORRECT\", \"slot\": null, \"source_turns\": [\"t2\"], \"target_fact_id\": \"f2\"}, {\"alternatives\": [], \"fact\": null, \"operation\": \"NO_WRITE\", \"slot\": null, \"source_turns\": [\"t2\"], \"target_fact_id\": null}]}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T08:00:19.363865Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "E824atmaFpiXktwPo4SY4AQ",
+    "usageMetadata": {
+      "candidatesTokenCount": 190,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 190
+        }
+      ],
+      "promptTokenCount": 1988,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1988
+        }
+      ],
+      "totalTokenCount": 2178,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "a7dd40784d2e1405f4214fcb1db42d75bd59112ed050fd2ffc6d0eccac76e8c3",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790496019.192936,
+  "status": "OK",
+  "text": "{\"reply\": \"네, 모임 장소가 누리문화원으로 변경되었고, 취미는 민요로 유지되는군요. 기억해 두겠습니다.\", \"action\": {\"kind\": \"CONTINUE\", \"question_slot\": null, \"required_slots\": [], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [], \"fact\": {\"relation\": \"meeting_place\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"누리문화원\"}, \"operation\": \"CORRECT\", \"slot\": null, \"source_turns\": [\"t2\"], \"target_fact_id\": \"f2\"}, {\"alternatives\": [], \"fact\": null, \"operation\": \"NO_WRITE\", \"slot\": null, \"source_turns\": [\"t2\"], \"target_fact_id\": null}]}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1988,
+    "output_tokens": 190,
+    "reasoning_tokens": 0,
+    "total_tokens": 2178
+  }
+}

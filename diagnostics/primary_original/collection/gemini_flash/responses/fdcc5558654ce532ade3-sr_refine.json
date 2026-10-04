@@ -1,0 +1,57 @@
+{
+  "call_id": "fdcc5558654ce532ade3-sr_refine",
+  "finish_reason": "STOP",
+  "finished_unix": 1790495823.716334,
+  "http_status": 200,
+  "latency_seconds": 1.9224,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.005180710999566889,
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"reply\": \"네, 가게 이름이 달빛김밥으로 바뀌었고, 연락 방법은 전화로 유지되는군요. 정보 업데이트 해두겠습니다.\",\n  \"action\": {\n    \"kind\": \"CONTINUE\",\n    \"question_slot\": null,\n    \"required_slots\": [],\n    \"speaker_id\": \"p1\"\n  },\n  \"memory_decisions\": [\n    {\n      \"alternatives\": [],\n      \"fact\": {\n        \"relation\": \"shop_name\",\n        \"source_turns\": [\n          \"t2\"\n        ],\n        \"subject\": \"participant\",\n        \"time\": \"present\",\n        \"value\": \"달빛김밥\"\n      },\n      \"operation\": \"CORRECT\",\n      \"slot\": null,\n      \"source_turns\": [\n        \"t2\"\n      ],\n      \"target_fact_id\": \"f1\"\n    },\n    {\n      \"alternatives\": [],\n      \"fact\": null,\n      \"operation\": \"NO_WRITE\",\n      \"slot\": null,\n      \"source_turns\": [\n        \"t2\"\n      ],\n      \"target_fact_id\": null\n    }\n  ]\n}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T07:57:01.935227Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "Tcy4aruKOfGancoP76ybiQ0",
+    "usageMetadata": {
+      "candidatesTokenCount": 281,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 281
+        }
+      ],
+      "promptTokenCount": 2058,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 2058
+        }
+      ],
+      "totalTokenCount": 2339,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "0c3ea0672f2a5e22804e0a7ca871e9251d2d707d5d13ba69fd5afe3cc3950b2e",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790495821.793646,
+  "status": "OK",
+  "text": "{\n  \"reply\": \"네, 가게 이름이 달빛김밥으로 바뀌었고, 연락 방법은 전화로 유지되는군요. 정보 업데이트 해두겠습니다.\",\n  \"action\": {\n    \"kind\": \"CONTINUE\",\n    \"question_slot\": null,\n    \"required_slots\": [],\n    \"speaker_id\": \"p1\"\n  },\n  \"memory_decisions\": [\n    {\n      \"alternatives\": [],\n      \"fact\": {\n        \"relation\": \"shop_name\",\n        \"source_turns\": [\n          \"t2\"\n        ],\n        \"subject\": \"participant\",\n        \"time\": \"present\",\n        \"value\": \"달빛김밥\"\n      },\n      \"operation\": \"CORRECT\",\n      \"slot\": null,\n      \"source_turns\": [\n        \"t2\"\n      ],\n      \"target_fact_id\": \"f1\"\n    },\n    {\n      \"alternatives\": [],\n      \"fact\": null,\n      \"operation\": \"NO_WRITE\",\n      \"slot\": null,\n      \"source_turns\": [\n        \"t2\"\n      ],\n      \"target_fact_id\": null\n    }\n  ]\n}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 2058,
+    "output_tokens": 281,
+    "reasoning_tokens": 0,
+    "total_tokens": 2339
+  }
+}

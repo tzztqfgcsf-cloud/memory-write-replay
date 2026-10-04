@@ -1,0 +1,20 @@
+{
+  "status": "OK",
+  "http_status": 200,
+  "text": "{\n  \"decisions\": []\n}",
+  "usage": {
+    "input_tokens": 615,
+    "output_tokens": 10,
+    "reasoning_tokens": 41,
+    "total_tokens": 666,
+    "cached_tokens": null
+  },
+  "finish_reason": "STOP",
+  "model_version": "gemini-3.1-pro-preview",
+  "id": "qwen3_14b_CT22_judge",
+  "key": "qwen3_14b_CT22",
+  "stage": "judge",
+  "arm": "judge",
+  "requested_model": "gemini-3.1-pro-preview",
+  "latency_seconds": 2.328734250040725
+}

@@ -1,0 +1,36 @@
+{
+  "call_id": "4662889733bf6a707e77-g_final",
+  "error_type": null,
+  "finish_reason": "stop",
+  "finished_unix": 1790497794.821653,
+  "latency_seconds": 9.7537,
+  "model_version": "mlx-community/Llama-3.1-8B-Instruct-4bit",
+  "raw_response": {
+    "base_seed": 20260927,
+    "finish_reason": "stop",
+    "generation_calls": 854,
+    "id": "local-45cebe47e8265a41fe3aa7a7",
+    "seed": 2440493394,
+    "snapshot": "<LOCAL_PATH>",
+    "text": "{\"action\": {\"kind\": \"CONTINUE\", \"question_slot\": \"meeting_place\", \"required_slots\": [\"meeting_place\"], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"체육관\", \"시민운동장\"], \"fact\": {\"relation\": \"meeting_place\", \"source_turns\": [\"t1\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"체육공원\"}, \"operation\": \"CORRECT\", \"slot\": \"meeting_place\", \"source_turns\": [\"t1\"], \"target_fact_id\": \"f1\"}], \"reply\": \"시민운동장이 맞아요.\"}",
+    "usage": {
+      "cached_tokens": null,
+      "input_tokens": 1917,
+      "output_tokens": 140,
+      "reasoning_tokens": null,
+      "total_tokens": 2057
+    }
+  },
+  "request_sha256": "9e18612a6eddf7478123cb22fa246a255393f57205d0aa8355bdc694c73797f5",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790497785.06749,
+  "status": "OK",
+  "text": "{\"action\": {\"kind\": \"CONTINUE\", \"question_slot\": \"meeting_place\", \"required_slots\": [\"meeting_place\"], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"체육관\", \"시민운동장\"], \"fact\": {\"relation\": \"meeting_place\", \"source_turns\": [\"t1\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"체육공원\"}, \"operation\": \"CORRECT\", \"slot\": \"meeting_place\", \"source_turns\": [\"t1\"], \"target_fact_id\": \"f1\"}], \"reply\": \"시민운동장이 맞아요.\"}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1917,
+    "output_tokens": 140,
+    "reasoning_tokens": null,
+    "total_tokens": 2057
+  }
+}

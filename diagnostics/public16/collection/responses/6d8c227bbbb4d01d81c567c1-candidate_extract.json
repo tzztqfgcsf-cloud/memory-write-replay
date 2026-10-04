@@ -1,0 +1,56 @@
+{
+  "call_id": "6d8c227bbbb4d01d81c567c1-candidate_extract",
+  "cost_note": "provider_did_not_report_money",
+  "cost_usd_reported": null,
+  "finish_reason": "STOP",
+  "http_status": 200,
+  "latency_seconds": 2.776,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.0013908249112651633,
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"beliefs\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"facts\": [\n        {\n          \"relation\": \"train.semi.departure\",\n          \"source_turns\": [\n            \"PMUL0945.json#turn4\"\n          ],\n          \"subject\": \"PMUL0945.json#train.semi\",\n          \"time\": \"unknown\",\n          \"value\": \"kings lynn\"\n        },\n        {\n          \"relation\": \"train.semi.destination\",\n          \"source_turns\": [\n            \"PMUL0945.json#turn4\"\n          ],\n          \"subject\": \"PMUL0945.json#train.semi\",\n          \"time\": \"unknown\",\n          \"value\": \"cambridge\"\n        },\n        {\n          \"relation\": \"train.semi.day\",\n          \"source_turns\": [\n            \"PMUL0945.json#turn4\"\n          ],\n          \"subject\": \"PMUL0945.json#train.semi\",\n          \"time\": \"unknown\",\n          \"value\": \"monday\"\n        },\n        {\n          \"relation\": \"train.semi.leaveAt\",\n          \"source_turns\": [\n            \"PMUL0945.json#turn4\"\n          ],\n          \"subject\": \"PMUL0945.json#train.semi\",\n          \"time\": \"unknown\",\n          \"value\": \"08:00\"\n        }\n      ]\n    }\n  ],\n  \"correction_witnesses\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"target_fact_id\": \"PMUL0945.json#state3#train.semi.departure\",\n      \"subject\": \"PMUL0945.json#train.semi\",\n      \"relation\": \"train.semi.departure\",\n      \"time\": \"unknown\",\n      \"new_value\": \"kings lynn\",\n      \"source_turn\": \"PMUL0945.json#turn4\",\n      \"evidence_quote\": \"I need a train from Kings Lynn to Cambridge\",\n      \"polarity\": \"affirmed\"\n    },\n    {\n      \"candidate_id\": \"c1\",\n      \"target_fact_id\": \"PMUL0945.json#state3#train.semi.destination\",\n      \"subject\": \"PMUL0945.json#train.semi\",\n      \"relation\": \"train.semi.destination\",\n      \"time\": \"unknown\",\n      \"new_value\": \"cambridge\",\n      \"source_turn\": \"PMUL0945.json#turn4\",\n      \"evidence_quote\": \"I need a train from Kings Lynn to Cambridge\",\n      \"polarity\": \"affirmed\"\n    }\n  ]\n}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T22:48:52.136447Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "VJ25av-pCPuj0ckPyLyQmAM",
+    "usageMetadata": {
+      "candidatesTokenCount": 659,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 659
+        }
+      ],
+      "promptTokenCount": 1665,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1665
+        }
+      ],
+      "totalTokenCount": 2324,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "c3e43c778c30e4c44a6a87b1af564b2e2dd177b6d1660c6ebdb7d30145f8b9b0",
+  "status": "OK",
+  "text": "{\n  \"beliefs\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"facts\": [\n        {\n          \"relation\": \"train.semi.departure\",\n          \"source_turns\": [\n            \"PMUL0945.json#turn4\"\n          ],\n          \"subject\": \"PMUL0945.json#train.semi\",\n          \"time\": \"unknown\",\n          \"value\": \"kings lynn\"\n        },\n        {\n          \"relation\": \"train.semi.destination\",\n          \"source_turns\": [\n            \"PMUL0945.json#turn4\"\n          ],\n          \"subject\": \"PMUL0945.json#train.semi\",\n          \"time\": \"unknown\",\n          \"value\": \"cambridge\"\n        },\n        {\n          \"relation\": \"train.semi.day\",\n          \"source_turns\": [\n            \"PMUL0945.json#turn4\"\n          ],\n          \"subject\": \"PMUL0945.json#train.semi\",\n          \"time\": \"unknown\",\n          \"value\": \"monday\"\n        },\n        {\n          \"relation\": \"train.semi.leaveAt\",\n          \"source_turns\": [\n            \"PMUL0945.json#turn4\"\n          ],\n          \"subject\": \"PMUL0945.json#train.semi\",\n          \"time\": \"unknown\",\n          \"value\": \"08:00\"\n        }\n      ]\n    }\n  ],\n  \"correction_witnesses\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"target_fact_id\": \"PMUL0945.json#state3#train.semi.departure\",\n      \"subject\": \"PMUL0945.json#train.semi\",\n      \"relation\": \"train.semi.departure\",\n      \"time\": \"unknown\",\n      \"new_value\": \"kings lynn\",\n      \"source_turn\": \"PMUL0945.json#turn4\",\n      \"evidence_quote\": \"I need a train from Kings Lynn to Cambridge\",\n      \"polarity\": \"affirmed\"\n    },\n    {\n      \"candidate_id\": \"c1\",\n      \"target_fact_id\": \"PMUL0945.json#state3#train.semi.destination\",\n      \"subject\": \"PMUL0945.json#train.semi\",\n      \"relation\": \"train.semi.destination\",\n      \"time\": \"unknown\",\n      \"new_value\": \"cambridge\",\n      \"source_turn\": \"PMUL0945.json#turn4\",\n      \"evidence_quote\": \"I need a train from Kings Lynn to Cambridge\",\n      \"polarity\": \"affirmed\"\n    }\n  ]\n}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1665,
+    "output_tokens": 659,
+    "reasoning_tokens": 0,
+    "total_tokens": 2324
+  }
+}

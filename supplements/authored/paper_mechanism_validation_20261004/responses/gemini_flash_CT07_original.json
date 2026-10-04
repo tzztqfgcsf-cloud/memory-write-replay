@@ -1,0 +1,20 @@
+{
+  "status": "OK",
+  "http_status": 200,
+  "text": "{\n  \"beliefs\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"facts\": []\n    },\n    {\n      \"candidate_id\": \"c2\",\n      \"facts\": []\n    }\n  ],\n  \"correction_witnesses\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"evidence_quote\": \"미래제약으로 바꾸지 않아요. 빵 만드는 미래제과가 맞아요.\",\n      \"new_value\": \"미래제과\",\n      \"polarity\": \"affirmed\",\n      \"relation\": \"workplace\",\n      \"source_turn\": \"t2\",\n      \"subject\": \"participant\",\n      \"target_fact_id\": \"f1\",\n      \"time\": \"present\"\n    },\n    {\n      \"candidate_id\": \"c2\",\n      \"evidence_quote\": \"미래제과 그대로예요.\",\n      \"new_value\": \"미래제과\",\n      \"polarity\": \"affirmed\",\n      \"relation\": \"workplace\",\n      \"source_turn\": \"t2\",\n      \"subject\": \"participant\",\n      \"target_fact_id\": \"f1\",\n      \"time\": \"present\"\n    }\n  ]\n}",
+  "usage": {
+    "input_tokens": 1691,
+    "output_tokens": 289,
+    "reasoning_tokens": 0,
+    "total_tokens": 1980,
+    "cached_tokens": null
+  },
+  "finish_reason": "STOP",
+  "model_version": "gemini-2.5-flash",
+  "id": "gemini_flash_CT07_original",
+  "key": "gemini_flash_CT07",
+  "stage": "extract",
+  "arm": "original",
+  "requested_model": "gemini-2.5-flash",
+  "latency_seconds": 1.8629302920307964
+}

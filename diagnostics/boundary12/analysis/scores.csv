@@ -1,0 +1,37 @@
+case_id,pair_id,family,condition,label,generation_valid,expected_state,recovered,safe_preservation,harmful_alteration,other_or_wrong_state,initial_unchanged
+W006,P05,자기주장 vs 인용,B,supported,True,1,1,0,0,0,0
+W006,P05,자기주장 vs 인용,C,supported,True,1,1,0,0,0,0
+W006,P05,자기주장 vs 인용,E,supported,True,1,1,0,0,0,0
+W009,P04,실제 vs 가정,B,supported,True,1,1,0,0,0,0
+W009,P04,실제 vs 가정,C,supported,True,1,1,0,0,0,0
+W009,P04,실제 vs 가정,E,supported,True,1,1,0,0,0,0
+W005,P01,자기 사실 vs 타인 사실,B,unsupported,True,1,0,1,0,0,1
+W005,P01,자기 사실 vs 타인 사실,C,unsupported,True,1,0,1,0,0,1
+W005,P01,자기 사실 vs 타인 사실,E,unsupported,True,1,0,1,0,0,1
+W001,P04,실제 vs 가정,B,unsupported,True,1,0,1,0,0,1
+W001,P04,실제 vs 가정,C,unsupported,True,1,0,1,0,0,1
+W001,P04,실제 vs 가정,E,unsupported,True,1,0,1,0,0,1
+W011,P02,현재 사실 vs 과거 사실,B,supported,True,1,1,0,0,0,0
+W011,P02,현재 사실 vs 과거 사실,C,supported,True,1,1,0,0,0,0
+W011,P02,현재 사실 vs 과거 사실,E,supported,True,1,1,0,0,0,0
+W004,P03,긍정 vs 부정,B,supported,True,0,0,0,0,1,0
+W004,P03,긍정 vs 부정,C,supported,True,0,0,0,0,1,0
+W004,P03,긍정 vs 부정,E,supported,True,0,0,0,0,1,0
+W003,P06,확정 vs 철회된 확신,B,unsupported,True,1,0,1,0,0,1
+W003,P06,확정 vs 철회된 확신,C,unsupported,True,1,0,1,0,0,1
+W003,P06,확정 vs 철회된 확신,E,unsupported,True,1,0,1,0,0,1
+W008,P06,확정 vs 철회된 확신,B,supported,True,1,1,0,0,0,0
+W008,P06,확정 vs 철회된 확신,C,supported,True,1,1,0,0,0,0
+W008,P06,확정 vs 철회된 확신,E,supported,True,1,1,0,0,0,0
+W002,P01,자기 사실 vs 타인 사실,B,supported,True,0,0,0,0,1,0
+W002,P01,자기 사실 vs 타인 사실,C,supported,True,0,0,0,0,1,0
+W002,P01,자기 사실 vs 타인 사실,E,supported,True,0,0,0,0,1,0
+W012,P02,현재 사실 vs 과거 사실,B,unsupported,True,0,0,0,1,1,0
+W012,P02,현재 사실 vs 과거 사실,C,unsupported,True,0,0,0,1,1,0
+W012,P02,현재 사실 vs 과거 사실,E,unsupported,True,0,0,0,1,1,0
+W007,P03,긍정 vs 부정,B,unsupported,True,1,0,1,0,0,1
+W007,P03,긍정 vs 부정,C,unsupported,True,1,0,1,0,0,1
+W007,P03,긍정 vs 부정,E,unsupported,True,1,0,1,0,0,1
+W010,P05,자기주장 vs 인용,B,unsupported,True,1,0,1,0,0,1
+W010,P05,자기주장 vs 인용,C,unsupported,True,1,0,1,0,0,1
+W010,P05,자기주장 vs 인용,E,unsupported,True,1,0,1,0,0,1

@@ -1,0 +1,175 @@
+{
+  "focal_cases": 5,
+  "complete_pairs": 5,
+  "prior_responses_reused": 4,
+  "new_responses": 6,
+  "original_success": 1,
+  "corrected_success": 5,
+  "original_holds": 4,
+  "corrected_holds": 0,
+  "harm_original": 0,
+  "harm_corrected": 0,
+  "cases": [
+    {
+      "case_id": "CT01",
+      "description": "고향 → 대구",
+      "original": {
+        "model": "gemini_flash",
+        "case_id": "CT01",
+        "selected_repeat": "1",
+        "arm": "original",
+        "valid": "True",
+        "proposed_corrections": "1",
+        "corrected_tuples_shared": "1",
+        "correction_holds": "0",
+        "correction_recovery": "True",
+        "whole_state_compliance": "True",
+        "harmful_write": "False",
+        "collection": "paper_mechanism_validation_20261004"
+      },
+      "corrected": {
+        "model": "gemini_flash",
+        "case_id": "CT01",
+        "selected_repeat": "1",
+        "arm": "corrected",
+        "valid": "True",
+        "proposed_corrections": "1",
+        "corrected_tuples_shared": "1",
+        "correction_holds": "0",
+        "correction_recovery": "True",
+        "whole_state_compliance": "True",
+        "harmful_write": "False",
+        "collection": "paper_mechanism_validation_20261004"
+      }
+    },
+    {
+      "case_id": "CT42",
+      "description": "고향 → 문경",
+      "original": {
+        "model": "gemini_flash",
+        "case_id": "CT42",
+        "selected_repeat": "3",
+        "arm": "original",
+        "valid": "True",
+        "proposed_corrections": "1",
+        "corrected_tuples_shared": "0",
+        "correction_holds": "1",
+        "correction_recovery": "False",
+        "whole_state_compliance": "False",
+        "harmful_write": "False",
+        "collection": "paper_focal5_completion_20261004"
+      },
+      "corrected": {
+        "model": "gemini_flash",
+        "case_id": "CT42",
+        "selected_repeat": "3",
+        "arm": "corrected",
+        "valid": "True",
+        "proposed_corrections": "1",
+        "corrected_tuples_shared": "1",
+        "correction_holds": "0",
+        "correction_recovery": "True",
+        "whole_state_compliance": "True",
+        "harmful_write": "False",
+        "collection": "paper_focal5_completion_20261004"
+      }
+    },
+    {
+      "case_id": "CT45",
+      "description": "연도 → 1993년",
+      "original": {
+        "model": "gemini_flash",
+        "case_id": "CT45",
+        "selected_repeat": "1",
+        "arm": "original",
+        "valid": "True",
+        "proposed_corrections": "1",
+        "corrected_tuples_shared": "0",
+        "correction_holds": "1",
+        "correction_recovery": "False",
+        "whole_state_compliance": "False",
+        "harmful_write": "False",
+        "collection": "paper_mechanism_validation_20261004"
+      },
+      "corrected": {
+        "model": "gemini_flash",
+        "case_id": "CT45",
+        "selected_repeat": "1",
+        "arm": "corrected",
+        "valid": "True",
+        "proposed_corrections": "1",
+        "corrected_tuples_shared": "1",
+        "correction_holds": "0",
+        "correction_recovery": "True",
+        "whole_state_compliance": "True",
+        "harmful_write": "False",
+        "collection": "paper_focal5_quota_completion_20261004"
+      }
+    },
+    {
+      "case_id": "CT46",
+      "description": "배운 사람 → 신 선생님",
+      "original": {
+        "model": "gemini_flash",
+        "case_id": "CT46",
+        "selected_repeat": "1",
+        "arm": "original",
+        "valid": "True",
+        "proposed_corrections": "1",
+        "corrected_tuples_shared": "0",
+        "correction_holds": "1",
+        "correction_recovery": "False",
+        "whole_state_compliance": "False",
+        "harmful_write": "False",
+        "collection": "paper_mechanism_validation_20261004"
+      },
+      "corrected": {
+        "model": "gemini_flash",
+        "case_id": "CT46",
+        "selected_repeat": "1",
+        "arm": "corrected",
+        "valid": "True",
+        "proposed_corrections": "1",
+        "corrected_tuples_shared": "1",
+        "correction_holds": "0",
+        "correction_recovery": "True",
+        "whole_state_compliance": "True",
+        "harmful_write": "False",
+        "collection": "paper_focal5_quota_completion_20261004"
+      }
+    },
+    {
+      "case_id": "CT48",
+      "description": "모임 장소 → 시민운동장",
+      "original": {
+        "model": "gemini_flash",
+        "case_id": "CT48",
+        "selected_repeat": "1",
+        "arm": "original",
+        "valid": "True",
+        "proposed_corrections": "1",
+        "corrected_tuples_shared": "0",
+        "correction_holds": "1",
+        "correction_recovery": "False",
+        "whole_state_compliance": "False",
+        "harmful_write": "False",
+        "collection": "paper_focal5_completion_20261004"
+      },
+      "corrected": {
+        "model": "gemini_flash",
+        "case_id": "CT48",
+        "selected_repeat": "1",
+        "arm": "corrected",
+        "valid": "True",
+        "proposed_corrections": "1",
+        "corrected_tuples_shared": "1",
+        "correction_holds": "0",
+        "correction_recovery": "True",
+        "whole_state_compliance": "True",
+        "harmful_write": "False",
+        "collection": "paper_focal5_quota_completion_20261004"
+      }
+    }
+  ],
+  "inference": "Five selected historical failures; one fresh response per instruction; saved proposal/gate/executor/reference fixed; original successes measure spontaneous recovery; not independent confirmation."
+}

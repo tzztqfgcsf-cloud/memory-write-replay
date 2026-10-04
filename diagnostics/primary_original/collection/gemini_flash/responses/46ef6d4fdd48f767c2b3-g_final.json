@@ -1,0 +1,57 @@
+{
+  "call_id": "46ef6d4fdd48f767c2b3-g_final",
+  "finish_reason": "STOP",
+  "finished_unix": 1790493187.1618,
+  "http_status": 200,
+  "latency_seconds": 1.3071,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.007910632911850424,
+        "content": {
+          "parts": [
+            {
+              "text": "{\"reply\": \"네, 장미미용실을 운영하셨던 것으로 기억해둘게요.\", \"action\": {\"kind\": \"CONTINUE\", \"question_slot\": null, \"required_slots\": [], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [], \"fact\": {\"relation\": \"shop_name\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"장미미용실\"}, \"operation\": \"APPEND\", \"slot\": null, \"source_turns\": [\"t2\"], \"target_fact_id\": null}]}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T07:13:05.946765Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "AcK4as3kOZ-cx9gPtNDSwA0",
+    "usageMetadata": {
+      "candidatesTokenCount": 136,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 136
+        }
+      ],
+      "promptTokenCount": 1833,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1833
+        }
+      ],
+      "totalTokenCount": 1969,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "ff89139943bd5cd3840dbd0048d87eacf29ccd3bafbbdda3df25dc4d2490919e",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790493185.8542452,
+  "status": "OK",
+  "text": "{\"reply\": \"네, 장미미용실을 운영하셨던 것으로 기억해둘게요.\", \"action\": {\"kind\": \"CONTINUE\", \"question_slot\": null, \"required_slots\": [], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [], \"fact\": {\"relation\": \"shop_name\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"장미미용실\"}, \"operation\": \"APPEND\", \"slot\": null, \"source_turns\": [\"t2\"], \"target_fact_id\": null}]}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1833,
+    "output_tokens": 136,
+    "reasoning_tokens": 0,
+    "total_tokens": 1969
+  }
+}

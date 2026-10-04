@@ -1,0 +1,36 @@
+{
+  "call_id": "6d36c825a152cbbdd995-sr_refine",
+  "error_type": null,
+  "finish_reason": "stop",
+  "finished_unix": 1790496975.261077,
+  "latency_seconds": 11.3614,
+  "model_version": "mlx-community/Llama-3.1-8B-Instruct-4bit",
+  "raw_response": {
+    "base_seed": 20260927,
+    "finish_reason": "stop",
+    "generation_calls": 774,
+    "id": "local-199d688efb0b348f0275e8a7",
+    "seed": 2380595720,
+    "snapshot": "<LOCAL_PATH>",
+    "text": "{\"action\": {\"kind\": \"CONTINUE\", \"question_slot\": null, \"required_slots\": [\"meeting_place\"], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"해오름회관\", \"누리문화원\"], \"fact\": {\"relation\": \"meeting_place\", \"source_turns\": [\"t1\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"해오름회관\"}, \"operation\": \"CORRECT\", \"slot\": \"meeting_place\", \"source_turns\": [\"t1\"], \"target_fact_id\": \"f2\"}], \"reply\": \"장소만 바꿔요. 취미는 여전히 민요고요.\"}",
+    "usage": {
+      "cached_tokens": null,
+      "input_tokens": 2069,
+      "output_tokens": 152,
+      "reasoning_tokens": null,
+      "total_tokens": 2221
+    }
+  },
+  "request_sha256": "7ad10817c69b0827db2575d8f41ff9d818746a3e93552b72421b25ece8369e77",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790496963.899422,
+  "status": "OK",
+  "text": "{\"action\": {\"kind\": \"CONTINUE\", \"question_slot\": null, \"required_slots\": [\"meeting_place\"], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"해오름회관\", \"누리문화원\"], \"fact\": {\"relation\": \"meeting_place\", \"source_turns\": [\"t1\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"해오름회관\"}, \"operation\": \"CORRECT\", \"slot\": \"meeting_place\", \"source_turns\": [\"t1\"], \"target_fact_id\": \"f2\"}], \"reply\": \"장소만 바꿔요. 취미는 여전히 민요고요.\"}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 2069,
+    "output_tokens": 152,
+    "reasoning_tokens": null,
+    "total_tokens": 2221
+  }
+}

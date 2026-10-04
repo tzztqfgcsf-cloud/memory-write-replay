@@ -1,0 +1,20 @@
+{
+  "status": "OK",
+  "http_status": 200,
+  "text": "{\"decisions\":[{\"index\":0,\"approve\":true,\"reason\":\"사용자가 출생지를 광주에서 대구로 명시적으로 정정함\"}]}",
+  "usage": {
+    "input_tokens": 688,
+    "output_tokens": 33,
+    "reasoning_tokens": 214,
+    "total_tokens": 935,
+    "cached_tokens": null
+  },
+  "finish_reason": "STOP",
+  "model_version": "gemini-3.1-pro-preview",
+  "id": "gemini_flash_CT01_judge",
+  "key": "gemini_flash_CT01",
+  "stage": "judge",
+  "arm": "judge",
+  "requested_model": "gemini-3.1-pro-preview",
+  "latency_seconds": 3.7554138749837875
+}

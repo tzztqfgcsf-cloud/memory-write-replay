@@ -1,0 +1,57 @@
+{
+  "call_id": "292d3a8ac51c5900af2c-candidate_extract",
+  "finish_reason": "STOP",
+  "finished_unix": 1790495673.230438,
+  "http_status": 200,
+  "latency_seconds": 2.1899,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.006418946724203512,
+        "content": {
+          "parts": [
+            {
+              "text": "{\"beliefs\": [{\"candidate_id\": \"c1\", \"facts\": [{\"relation\": \"shop_name\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"달빛김밥\"}]}, {\"candidate_id\": \"c2\", \"facts\": [{\"relation\": \"shop_name\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"달빛김밥\"}]}], \"correction_witnesses\": [{\"candidate_id\": \"c1\", \"evidence_quote\": \"달빛김밥으로 바뀌었어요\", \"new_value\": \"달빛김밥\", \"polarity\": \"affirmed\", \"relation\": \"shop_name\", \"source_turn\": \"t2\", \"subject\": \"participant\", \"target_fact_id\": \"f1\", \"time\": \"present\"}, {\"candidate_id\": \"c1\", \"evidence_quote\": \"전화 그대로니까\", \"new_value\": \"전화\", \"polarity\": \"negated\", \"relation\": \"preferred_contact\", \"source_turn\": \"t2\", \"subject\": \"participant\", \"target_fact_id\": \"f2\", \"time\": \"present\"}, {\"candidate_id\": \"c2\", \"evidence_quote\": \"달빛김밥이 새 상호예요\", \"new_value\": \"달빛김밥\", \"polarity\": \"affirmed\", \"relation\": \"shop_name\", \"source_turn\": \"t2\", \"subject\": \"participant\", \"target_fact_id\": \"f1\", \"time\": \"present\"}, {\"candidate_id\": \"c2\", \"evidence_quote\": \"전화 연락은 맞고\", \"new_value\": \"전화\", \"polarity\": \"negated\", \"relation\": \"preferred_contact\", \"source_turn\": \"t2\", \"subject\": \"participant\", \"target_fact_id\": \"f2\", \"time\": \"present\"}]}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T07:54:31.244156Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "t8u4arzzDrOKktwPsejJ4QY",
+    "usageMetadata": {
+      "candidatesTokenCount": 431,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 431
+        }
+      ],
+      "promptTokenCount": 1744,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1744
+        }
+      ],
+      "totalTokenCount": 2175,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "48bba3ef1285a59d6ccef9a6afaf69e20d6920280a8b57aee7bc63be24a4d8f9",
+  "stage_schema_sha256": "bda7326ac6a6cbeedf1ecdbf4a2b08277c078351d6689f667dc0d558c4972dd3",
+  "started_unix": 1790495671.039973,
+  "status": "OK",
+  "text": "{\"beliefs\": [{\"candidate_id\": \"c1\", \"facts\": [{\"relation\": \"shop_name\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"달빛김밥\"}]}, {\"candidate_id\": \"c2\", \"facts\": [{\"relation\": \"shop_name\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"달빛김밥\"}]}], \"correction_witnesses\": [{\"candidate_id\": \"c1\", \"evidence_quote\": \"달빛김밥으로 바뀌었어요\", \"new_value\": \"달빛김밥\", \"polarity\": \"affirmed\", \"relation\": \"shop_name\", \"source_turn\": \"t2\", \"subject\": \"participant\", \"target_fact_id\": \"f1\", \"time\": \"present\"}, {\"candidate_id\": \"c1\", \"evidence_quote\": \"전화 그대로니까\", \"new_value\": \"전화\", \"polarity\": \"negated\", \"relation\": \"preferred_contact\", \"source_turn\": \"t2\", \"subject\": \"participant\", \"target_fact_id\": \"f2\", \"time\": \"present\"}, {\"candidate_id\": \"c2\", \"evidence_quote\": \"달빛김밥이 새 상호예요\", \"new_value\": \"달빛김밥\", \"polarity\": \"affirmed\", \"relation\": \"shop_name\", \"source_turn\": \"t2\", \"subject\": \"participant\", \"target_fact_id\": \"f1\", \"time\": \"present\"}, {\"candidate_id\": \"c2\", \"evidence_quote\": \"전화 연락은 맞고\", \"new_value\": \"전화\", \"polarity\": \"negated\", \"relation\": \"preferred_contact\", \"source_turn\": \"t2\", \"subject\": \"participant\", \"target_fact_id\": \"f2\", \"time\": \"present\"}]}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1744,
+    "output_tokens": 431,
+    "reasoning_tokens": 0,
+    "total_tokens": 2175
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "call_id": "0cbe2834fffdf8878d1b-sr_feedback",
+  "error_type": null,
+  "finish_reason": "stop",
+  "finished_unix": 1790491479.807616,
+  "latency_seconds": 6.0956,
+  "model_version": "mlx-community/Llama-3.1-8B-Instruct-4bit",
+  "raw_response": {
+    "base_seed": 20260927,
+    "finish_reason": "stop",
+    "generation_calls": 269,
+    "id": "local-e81d20acf88f7957e582a889",
+    "seed": 839358984,
+    "snapshot": "<LOCAL_PATH>",
+    "text": "{\"issues\": [{\"draft_location\": \"memory_decisions.0.fact.relation\", \"evidence_location\": \"candidates.0.relation\", \"problem\": \"unresolved alternative\", \"specific_revision\": \"change to 'workplace'\"}], \"no_change_needed\": false}",
+    "usage": {
+      "cached_tokens": null,
+      "input_tokens": 1486,
+      "output_tokens": 59,
+      "reasoning_tokens": null,
+      "total_tokens": 1545
+    }
+  },
+  "request_sha256": "e7fe8d4846555b8464a82805db06b3474659979b8bae488cc6cc9bb9437b33b6",
+  "stage_schema_sha256": "377e252cf02129ba34bbc867118dd2b9c6b65042b3fcd7b44099d2fc6e0513ed",
+  "started_unix": 1790491473.711832,
+  "status": "OK",
+  "text": "{\"issues\": [{\"draft_location\": \"memory_decisions.0.fact.relation\", \"evidence_location\": \"candidates.0.relation\", \"problem\": \"unresolved alternative\", \"specific_revision\": \"change to 'workplace'\"}], \"no_change_needed\": false}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1486,
+    "output_tokens": 59,
+    "reasoning_tokens": null,
+    "total_tokens": 1545
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "status": "HTTP_ERROR",
+  "http_status": 429,
+  "error_response": "{\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.\",\n    \"status\": \"RESOURCE_EXHAUSTED\"\n  }\n}\n",
+  "text": "",
+  "usage": {},
+  "id": "gemini_flash_CT33_original",
+  "key": "gemini_flash_CT33",
+  "stage": "extract",
+  "arm": "original",
+  "requested_model": "gemini-2.5-flash",
+  "latency_seconds": 0.6108884999994189
+}

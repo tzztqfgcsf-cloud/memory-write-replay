@@ -1,0 +1,13 @@
+{
+  "attempts": 4,
+  "completed": 4,
+  "conservative_usage_usd": 0.146262,
+  "reserved_usd": 0.0,
+  "stopped_models": [
+    "gemini-2.5-flash"
+  ],
+  "stop_all": false,
+  "status": "STOPPED",
+  "elapsed_seconds": 49.30724670900963,
+  "hash_drift": []
+}

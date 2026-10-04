@@ -1,0 +1,16 @@
+{
+  "authored_new_scored_rows": 296,
+  "authored_attempts": 298,
+  "focal_cases": 5,
+  "original_success": 1,
+  "corrected_success": 5,
+  "original_holds": 4,
+  "corrected_holds": 0,
+  "harm_original": 0,
+  "harm_corrected": 0,
+  "dstc2_valid_pairs": 70,
+  "dstc2_flash_valid_pairs": 22,
+  "dstc2_pro_valid_pairs": 48,
+  "model_calls": 0,
+  "frozen_scores_rescored": 0
+}

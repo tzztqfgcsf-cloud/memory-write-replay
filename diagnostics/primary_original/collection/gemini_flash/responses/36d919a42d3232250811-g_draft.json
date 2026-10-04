@@ -1,0 +1,57 @@
+{
+  "call_id": "36d919a42d3232250811-g_draft",
+  "finish_reason": "STOP",
+  "finished_unix": 1790493752.673373,
+  "http_status": 200,
+  "latency_seconds": 1.6182,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.022890713608380662,
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"reply\": \"네, 지난 휴가에 여수를 다녀오셨군요. 여행지로 여수를 기억해 둘게요.\",\n  \"action\": {\n    \"kind\": \"CONTINUE\",\n    \"question_slot\": null,\n    \"required_slots\": [],\n    \"speaker_id\": \"p1\"\n  },\n  \"memory_decisions\": [\n    {\n      \"alternatives\": [],\n      \"fact\": {\n        \"relation\": \"travel_destination\",\n        \"source_turns\": [\n          \"t2\"\n        ],\n        \"subject\": \"participant\",\n        \"time\": \"past\",\n        \"value\": \"여수\"\n      },\n      \"operation\": \"APPEND\",\n      \"slot\": null,\n      \"source_turns\": [\n        \"t2\"\n      ],\n      \"target_fact_id\": null\n    }\n  ]\n}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T07:22:31.172687Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "N8S4ao_FCsup0ckPy9-P8Ak",
+    "usageMetadata": {
+      "candidatesTokenCount": 206,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 206
+        }
+      ],
+      "promptTokenCount": 1678,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1678
+        }
+      ],
+      "totalTokenCount": 1884,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "e6d3e8006db7930455b25abae1e3b5a2ac9f5360749b9d7cbaf8c7cb6bd40c0a",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790493751.054655,
+  "status": "OK",
+  "text": "{\n  \"reply\": \"네, 지난 휴가에 여수를 다녀오셨군요. 여행지로 여수를 기억해 둘게요.\",\n  \"action\": {\n    \"kind\": \"CONTINUE\",\n    \"question_slot\": null,\n    \"required_slots\": [],\n    \"speaker_id\": \"p1\"\n  },\n  \"memory_decisions\": [\n    {\n      \"alternatives\": [],\n      \"fact\": {\n        \"relation\": \"travel_destination\",\n        \"source_turns\": [\n          \"t2\"\n        ],\n        \"subject\": \"participant\",\n        \"time\": \"past\",\n        \"value\": \"여수\"\n      },\n      \"operation\": \"APPEND\",\n      \"slot\": null,\n      \"source_turns\": [\n        \"t2\"\n      ],\n      \"target_fact_id\": null\n    }\n  ]\n}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1678,
+    "output_tokens": 206,
+    "reasoning_tokens": 0,
+    "total_tokens": 1884
+  }
+}

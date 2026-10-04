@@ -1,0 +1,56 @@
+{
+  "call_id": "58c6338529ecd234d2ff163a-candidate_final",
+  "cost_note": "provider_did_not_report_money",
+  "cost_usd_reported": null,
+  "finish_reason": "STOP",
+  "http_status": 200,
+  "latency_seconds": 2.4065,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.012348709983387213,
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"reply\": \"I understand. What day would you like to travel?\",\n  \"action\": {\n    \"kind\": \"CLARIFY\",\n    \"question_slot\": \"train.semi.day\",\n    \"required_slots\": [\n      \"train.semi.day\"\n    ],\n    \"speaker_id\": \"system\"\n  },\n  \"memory_decisions\": [\n    {\n      \"alternatives\": [],\n      \"fact\": null,\n      \"operation\": \"CORRECT\",\n      \"slot\": \"train.semi.departure\",\n      \"source_turns\": [\n        \"MUL1930.json#turn8\"\n      ],\n      \"target_fact_id\": \"MUL1930.json#state7#train.semi.departure\"\n    },\n    {\n      \"alternatives\": [],\n      \"fact\": null,\n      \"operation\": \"CORRECT\",\n      \"slot\": \"train.semi.destination\",\n      \"source_turns\": [\n        \"MUL1930.json#turn8\"\n      ],\n      \"target_fact_id\": \"MUL1930.json#state7#train.semi.destination\"\n    },\n    {\n      \"alternatives\": [],\n      \"fact\": {\n        \"relation\": \"train.semi.leaveAt\",\n        \"source_turns\": [\n          \"MUL1930.json#turn8\"\n        ],\n        \"subject\": \"MUL1930.json#train.semi\",\n        \"time\": \"unknown\",\n        \"value\": \"16:30\"\n      },\n      \"operation\": \"APPEND\",\n      \"slot\": \"train.semi.leaveAt\",\n      \"source_turns\": [\n        \"MUL1930.json#turn8\"\n      ],\n      \"target_fact_id\": null\n    }\n  ]\n}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T22:55:56.733467Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "_J65apviLJ-cx9gPtNDSwA0",
+    "usageMetadata": {
+      "candidatesTokenCount": 435,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 435
+        }
+      ],
+      "promptTokenCount": 2589,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 2589
+        }
+      ],
+      "totalTokenCount": 3024,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "6e2edaac887ab52aca2f8d4aa7017e299cb24b2630d7b816dc92a796aaf8cc93",
+  "status": "OK",
+  "text": "{\n  \"reply\": \"I understand. What day would you like to travel?\",\n  \"action\": {\n    \"kind\": \"CLARIFY\",\n    \"question_slot\": \"train.semi.day\",\n    \"required_slots\": [\n      \"train.semi.day\"\n    ],\n    \"speaker_id\": \"system\"\n  },\n  \"memory_decisions\": [\n    {\n      \"alternatives\": [],\n      \"fact\": null,\n      \"operation\": \"CORRECT\",\n      \"slot\": \"train.semi.departure\",\n      \"source_turns\": [\n        \"MUL1930.json#turn8\"\n      ],\n      \"target_fact_id\": \"MUL1930.json#state7#train.semi.departure\"\n    },\n    {\n      \"alternatives\": [],\n      \"fact\": null,\n      \"operation\": \"CORRECT\",\n      \"slot\": \"train.semi.destination\",\n      \"source_turns\": [\n        \"MUL1930.json#turn8\"\n      ],\n      \"target_fact_id\": \"MUL1930.json#state7#train.semi.destination\"\n    },\n    {\n      \"alternatives\": [],\n      \"fact\": {\n        \"relation\": \"train.semi.leaveAt\",\n        \"source_turns\": [\n          \"MUL1930.json#turn8\"\n        ],\n        \"subject\": \"MUL1930.json#train.semi\",\n        \"time\": \"unknown\",\n        \"value\": \"16:30\"\n      },\n      \"operation\": \"APPEND\",\n      \"slot\": \"train.semi.leaveAt\",\n      \"source_turns\": [\n        \"MUL1930.json#turn8\"\n      ],\n      \"target_fact_id\": null\n    }\n  ]\n}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 2589,
+    "output_tokens": 435,
+    "reasoning_tokens": 0,
+    "total_tokens": 3024
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "experiment_id": "paper_external_C1_dstc2_20261004",
+  "source": "Official DSTC2 v1 test; 48 distinct dialogs selected before model output; 12 reference-enriched diagnostic,24 goal-revision,12 denial-only. Hash-ranked selection seed C1-20261004. Not population prevalence.",
+  "input": "All unique nonempty original live ASR strings in rank order. Exact duplicates and blank strings omitted without rewriting, original ten retained in references. Prior system+top1 ASR history. Prior official goal seeds DB; current labels hidden.",
+  "comparison": "Same two-call domain-adapted extraction/proposal replayed through unchanged AGREE, correction-release ALLOW, LITERAL, WITNESS and raw proposal diagnostic. English food/area/pricerange enums explicitly replace Korean personal relations; no gate logic modification.",
+  "repeats": 1,
+  "maximum_attempts": 192,
+  "retry": 0,
+  "parallel": 2,
+  "output_token_cap": 8192,
+  "input_bytes_cap": 80000,
+  "budget_guard_usd": 20,
+  "temperature": 0.2,
+  "thinking": {
+    "gemini-3.8-flash": {
+      "thinkingLevel": "LOW"
+    },
+    "gemini-3.1-pro-preview": {
+      "thinkingLevel": "LOW"
+    }
+  },
+  "minimum_interval_seconds": 2,
+  "stop": "First HTTP/transport/model identity failure stops affected model;401/403 stops all. Invalid output retained as system failure, dependent stage skipped. No retries/repair. Stop at192 attempts/20USD conservative bound/60min/hash drift.",
+  "analysis": "One final analysis after terminal. Primary: joint slot-goal conformity, wrong new writes, required goal change completion; stratified counts, fixed paired caller-cluster bootstrap5000 seed20261004; 48 dialogs may share callers. Invalid output is system failure, transport unscored. No pooling with authored Korean study.",
+  "metrics_definition": "Exact lowercase ontology values, no posthoc semantic normalization. New wrong write: newly introduced (slot,value) absent official goal; stale prior value is not a new wrong write but fails joint goal. APPEND that retains contradictory prior also fails joint goal. Scope only food/area/pricerange, not official full DSTC2 tracker score.",
+  "limitations": [
+    "English crowdworker restaurant goal revisions, not senior autobiographical corrections",
+    "Reference-enriched12 selected using label BEFORE output, separate descriptive stratum",
+    "Prior human-derived state supplied: component diagnostic, not end-to-end tracking",
+    "No native clarification/consent gold; do not score action correctness",
+    "One repeat per new external case; retrospective exploratory supplement",
+    "Equal-candidate gates do not use ASR likelihood weights"
+  ],
+  "training": 0,
+  "carecall_model_calls": 0,
+  "invoice_cost": null
+}

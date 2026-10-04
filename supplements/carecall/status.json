@@ -1,0 +1,9 @@
+{
+  "status": "BLOCKED",
+  "data_included": false,
+  "model_calls": 0,
+  "reason": "Full original Korean dataset and human operation-label files were unavailable in this supplement. No CareCall performance evaluation was conducted.",
+  "official_repository": "https://github.com/naver-ai/carecall-memory",
+  "paper": "https://aclanthology.org/2022.findings-emnlp.276/",
+  "license_scope": "Official materials restrict commercial use, modification and third-party redistribution. No CareCall sample, translation, transcript or downloaded paper is included."
+}

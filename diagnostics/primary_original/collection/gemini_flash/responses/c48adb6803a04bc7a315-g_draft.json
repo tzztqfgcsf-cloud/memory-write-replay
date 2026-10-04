@@ -1,0 +1,64 @@
+{
+  "call_id": "c48adb6803a04bc7a315-g_draft",
+  "finish_reason": "STOP",
+  "finished_unix": 1790489182.049094,
+  "http_status": 200,
+  "latency_seconds": 1.4784,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.026749451205415546,
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"reply\": \"네, 처음 판소리를 가르쳐 주신 분이 한 선생님이시군요. 그렇게 수정해 드릴게요.\",\n  \"action\": {\n    \"kind\": \"CONTINUE\",\n    \"question_slot\": null,\n    \"required_slots\": [],\n    \"speaker_id\": \"p1\"\n  },\n  \"memory_decisions\": [\n    {\n      \"alternatives\": [],\n      \"fact\": {\n        \"relation\": \"learned_from\",\n        \"source_turns\": [\n          \"t2\"\n        ],\n        \"subject\": \"participant\",\n        \"time\": \"past\",\n        \"value\": \"한 선생님\"\n      },\n      \"operation\": \"CORRECT\",\n      \"slot\": null,\n      \"source_turns\": [\n        \"t2\"\n      ],\n      \"target_fact_id\": \"f1\"\n    }\n  ]\n}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T06:06:20.680649Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "XLK4asnFKbOLx9gPv4OY6A4",
+    "usageMetadata": {
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1211
+        }
+      ],
+      "cachedContentTokenCount": 1211,
+      "candidatesTokenCount": 212,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 212
+        }
+      ],
+      "promptTokenCount": 1696,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1696
+        }
+      ],
+      "totalTokenCount": 1908,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "fd893d3b330c07281427534e9025ae0bb3ff7650d06d9328c49ae66d6c03b759",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790489180.570239,
+  "status": "OK",
+  "text": "{\n  \"reply\": \"네, 처음 판소리를 가르쳐 주신 분이 한 선생님이시군요. 그렇게 수정해 드릴게요.\",\n  \"action\": {\n    \"kind\": \"CONTINUE\",\n    \"question_slot\": null,\n    \"required_slots\": [],\n    \"speaker_id\": \"p1\"\n  },\n  \"memory_decisions\": [\n    {\n      \"alternatives\": [],\n      \"fact\": {\n        \"relation\": \"learned_from\",\n        \"source_turns\": [\n          \"t2\"\n        ],\n        \"subject\": \"participant\",\n        \"time\": \"past\",\n        \"value\": \"한 선생님\"\n      },\n      \"operation\": \"CORRECT\",\n      \"slot\": null,\n      \"source_turns\": [\n        \"t2\"\n      ],\n      \"target_fact_id\": \"f1\"\n    }\n  ]\n}",
+  "usage": {
+    "cached_tokens": 1211,
+    "input_tokens": 1696,
+    "output_tokens": 212,
+    "reasoning_tokens": 0,
+    "total_tokens": 1908
+  }
+}

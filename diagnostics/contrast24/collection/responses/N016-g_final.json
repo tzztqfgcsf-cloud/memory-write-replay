@@ -1,0 +1,55 @@
+{
+  "status": "OK",
+  "http_status": 200,
+  "text": "{\"reply\": \"네, 현재 직장이 약국이라는 정보는 유지하겠습니다. 이전 직장이 제과점이었다는 정보도 추가로 기록해 드릴까요?\", \"action\": {\"kind\": \"CONTINUE\", \"question_slot\": null, \"required_slots\": [], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [], \"fact\": {\"relation\": \"workplace\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"제과점\"}, \"operation\": \"APPEND\", \"slot\": null, \"source_turns\": [\"t2\"], \"target_fact_id\": null}, {\"alternatives\": [], \"fact\": {\"relation\": \"workplace\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"약국\"}, \"operation\": \"CORRECT\", \"slot\": null, \"source_turns\": [\"t2\"], \"target_fact_id\": \"f1\"}]}",
+  "usage": {
+    "input_tokens": 1892,
+    "output_tokens": 221,
+    "reasoning_tokens": 0,
+    "total_tokens": 2113,
+    "cached_tokens": null
+  },
+  "finish_reason": "STOP",
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "content": {
+          "role": "model",
+          "parts": [
+            {
+              "text": "{\"reply\": \"네, 현재 직장이 약국이라는 정보는 유지하겠습니다. 이전 직장이 제과점이었다는 정보도 추가로 기록해 드릴까요?\", \"action\": {\"kind\": \"CONTINUE\", \"question_slot\": null, \"required_slots\": [], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [], \"fact\": {\"relation\": \"workplace\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"제과점\"}, \"operation\": \"APPEND\", \"slot\": null, \"source_turns\": [\"t2\"], \"target_fact_id\": null}, {\"alternatives\": [], \"fact\": {\"relation\": \"workplace\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"약국\"}, \"operation\": \"CORRECT\", \"slot\": null, \"source_turns\": [\"t2\"], \"target_fact_id\": \"f1\"}]}"
+            }
+          ]
+        },
+        "finishReason": "STOP",
+        "avgLogprobs": -0.0122834266041199
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 1892,
+      "candidatesTokenCount": 221,
+      "totalTokenCount": 2113,
+      "trafficType": "ON_DEMAND",
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1892
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 221
+        }
+      ]
+    },
+    "modelVersion": "gemini-2.5-flash",
+    "createTime": "2026-09-27T11:30:30.083297Z",
+    "responseId": "Vv64auGKBcup0ckPy9-P8Ak"
+  },
+  "latency_seconds": 1.5021,
+  "call_id": "N016-g_final",
+  "physical_attempt": true,
+  "completed_unix": 1790508631.427397
+}

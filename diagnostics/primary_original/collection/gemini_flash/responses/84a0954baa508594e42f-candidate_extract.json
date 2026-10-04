@@ -1,0 +1,57 @@
+{
+  "call_id": "84a0954baa508594e42f-candidate_extract",
+  "finish_reason": "STOP",
+  "finished_unix": 1790496675.162623,
+  "http_status": 200,
+  "latency_seconds": 1.3085,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.004554317409830882,
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"beliefs\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"facts\": []\n    },\n    {\n      \"candidate_id\": \"c2\",\n      \"facts\": []\n    }\n  ],\n  \"correction_witnesses\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"evidence_quote\": \"신 선생님\",\n      \"new_value\": \"신 선생님\",\n      \"polarity\": \"affirmed\",\n      \"relation\": \"learned_from\",\n      \"source_turn\": \"t2\",\n      \"subject\": \"participant\",\n      \"target_fact_id\": \"f1\",\n      \"time\": \"past\"\n    },\n    {\n      \"candidate_id\": \"c2\",\n      \"evidence_quote\": \"신 선생님\",\n      \"new_value\": \"신 선생님\",\n      \"polarity\": \"affirmed\",\n      \"relation\": \"learned_from\",\n      \"source_turn\": \"t2\",\n      \"subject\": \"participant\",\n      \"target_fact_id\": \"f1\",\n      \"time\": \"past\"\n    }\n  ]\n}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T08:11:14.007362Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "os-4asI5s4qS3A-x6MnhBg",
+    "usageMetadata": {
+      "candidatesTokenCount": 266,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 266
+        }
+      ],
+      "promptTokenCount": 1693,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1693
+        }
+      ],
+      "totalTokenCount": 1959,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "fffc793715f7e6e404a796f99c71906be02242c61bd01ed51b1dd1eb3851b4f1",
+  "stage_schema_sha256": "bda7326ac6a6cbeedf1ecdbf4a2b08277c078351d6689f667dc0d558c4972dd3",
+  "started_unix": 1790496673.85389,
+  "status": "OK",
+  "text": "{\n  \"beliefs\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"facts\": []\n    },\n    {\n      \"candidate_id\": \"c2\",\n      \"facts\": []\n    }\n  ],\n  \"correction_witnesses\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"evidence_quote\": \"신 선생님\",\n      \"new_value\": \"신 선생님\",\n      \"polarity\": \"affirmed\",\n      \"relation\": \"learned_from\",\n      \"source_turn\": \"t2\",\n      \"subject\": \"participant\",\n      \"target_fact_id\": \"f1\",\n      \"time\": \"past\"\n    },\n    {\n      \"candidate_id\": \"c2\",\n      \"evidence_quote\": \"신 선생님\",\n      \"new_value\": \"신 선생님\",\n      \"polarity\": \"affirmed\",\n      \"relation\": \"learned_from\",\n      \"source_turn\": \"t2\",\n      \"subject\": \"participant\",\n      \"target_fact_id\": \"f1\",\n      \"time\": \"past\"\n    }\n  ]\n}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1693,
+    "output_tokens": 266,
+    "reasoning_tokens": 0,
+    "total_tokens": 1959
+  }
+}

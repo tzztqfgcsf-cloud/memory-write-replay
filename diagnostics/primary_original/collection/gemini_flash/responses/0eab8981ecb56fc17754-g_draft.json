@@ -1,0 +1,57 @@
+{
+  "call_id": "0eab8981ecb56fc17754-g_draft",
+  "finish_reason": "STOP",
+  "finished_unix": 1790495367.8424802,
+  "http_status": 200,
+  "latency_seconds": 1.6309,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.044036660875592916,
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"reply\": \"네, 알겠습니다. 송 선생님께 배우면서 즐거웠던 일에 대해 이야기해 주시겠어요?\",\n  \"action\": {\n    \"kind\": \"CONTINUE\",\n    \"question_slot\": null,\n    \"required_slots\": [],\n    \"speaker_id\": \"p1\"\n  },\n  \"memory_decisions\": [\n    {\n      \"alternatives\": [],\n      \"fact\": {\n        \"relation\": \"learned_from\",\n        \"source_turns\": [\n          \"t2\"\n        ],\n        \"subject\": \"participant\",\n        \"time\": \"unknown\",\n        \"value\": \"즐거웠던 이야기\"\n      },\n      \"operation\": \"APPEND\",\n      \"slot\": null,\n      \"source_turns\": [\n        \"t2\"\n      ],\n      \"target_fact_id\": null\n    }\n  ]\n}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T07:49:26.371611Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "hsq4apvXFvCVktwP37SV-Ag",
+    "usageMetadata": {
+      "candidatesTokenCount": 210,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 210
+        }
+      ],
+      "promptTokenCount": 1688,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1688
+        }
+      ],
+      "totalTokenCount": 1898,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "a9a7abcf743ca83164cec799d075192603e79749289dc5d3a8eea7393594b79a",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790495366.211082,
+  "status": "OK",
+  "text": "{\n  \"reply\": \"네, 알겠습니다. 송 선생님께 배우면서 즐거웠던 일에 대해 이야기해 주시겠어요?\",\n  \"action\": {\n    \"kind\": \"CONTINUE\",\n    \"question_slot\": null,\n    \"required_slots\": [],\n    \"speaker_id\": \"p1\"\n  },\n  \"memory_decisions\": [\n    {\n      \"alternatives\": [],\n      \"fact\": {\n        \"relation\": \"learned_from\",\n        \"source_turns\": [\n          \"t2\"\n        ],\n        \"subject\": \"participant\",\n        \"time\": \"unknown\",\n        \"value\": \"즐거웠던 이야기\"\n      },\n      \"operation\": \"APPEND\",\n      \"slot\": null,\n      \"source_turns\": [\n        \"t2\"\n      ],\n      \"target_fact_id\": null\n    }\n  ]\n}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1688,
+    "output_tokens": 210,
+    "reasoning_tokens": 0,
+    "total_tokens": 1898
+  }
+}

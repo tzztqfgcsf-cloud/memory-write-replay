@@ -1,0 +1,55 @@
+{
+  "status": "OK",
+  "http_status": 200,
+  "text": "{\n  \"beliefs\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"facts\": []\n    },\n    {\n      \"candidate_id\": \"c2\",\n      \"facts\": []\n    }\n  ],\n  \"correction_witnesses\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"evidence_quote\": \"학교 앞\",\n      \"new_value\": \"학교 앞\",\n      \"polarity\": \"affirmed\",\n      \"relation\": \"meeting_place\",\n      \"source_turn\": \"t2\",\n      \"subject\": \"participant\",\n      \"target_fact_id\": \"f1\",\n      \"time\": \"present\"\n    },\n    {\n      \"candidate_id\": \"c2\",\n      \"evidence_quote\": \"은행 앞\",\n      \"new_value\": \"은행 앞\",\n      \"polarity\": \"affirmed\",\n      \"relation\": \"meeting_place\",\n      \"source_turn\": \"t2\",\n      \"subject\": \"participant\",\n      \"target_fact_id\": \"f1\",\n      \"time\": \"present\"\n    }\n  ]\n}",
+  "usage": {
+    "input_tokens": 1698,
+    "output_tokens": 266,
+    "reasoning_tokens": 0,
+    "total_tokens": 1964,
+    "cached_tokens": null
+  },
+  "finish_reason": "STOP",
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "content": {
+          "role": "model",
+          "parts": [
+            {
+              "text": "{\n  \"beliefs\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"facts\": []\n    },\n    {\n      \"candidate_id\": \"c2\",\n      \"facts\": []\n    }\n  ],\n  \"correction_witnesses\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"evidence_quote\": \"학교 앞\",\n      \"new_value\": \"학교 앞\",\n      \"polarity\": \"affirmed\",\n      \"relation\": \"meeting_place\",\n      \"source_turn\": \"t2\",\n      \"subject\": \"participant\",\n      \"target_fact_id\": \"f1\",\n      \"time\": \"present\"\n    },\n    {\n      \"candidate_id\": \"c2\",\n      \"evidence_quote\": \"은행 앞\",\n      \"new_value\": \"은행 앞\",\n      \"polarity\": \"affirmed\",\n      \"relation\": \"meeting_place\",\n      \"source_turn\": \"t2\",\n      \"subject\": \"participant\",\n      \"target_fact_id\": \"f1\",\n      \"time\": \"present\"\n    }\n  ]\n}"
+            }
+          ]
+        },
+        "finishReason": "STOP",
+        "avgLogprobs": -0.0011861486766571389
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 1698,
+      "candidatesTokenCount": 266,
+      "totalTokenCount": 1964,
+      "trafficType": "ON_DEMAND",
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1698
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 266
+        }
+      ]
+    },
+    "modelVersion": "gemini-2.5-flash",
+    "createTime": "2026-09-27T11:35:26.362461Z",
+    "responseId": "fv-4at2PFsup0ckPy9-P8Ak"
+  },
+  "latency_seconds": 1.6668,
+  "call_id": "N010-candidate_extract",
+  "physical_attempt": true,
+  "completed_unix": 1790508927.875415
+}

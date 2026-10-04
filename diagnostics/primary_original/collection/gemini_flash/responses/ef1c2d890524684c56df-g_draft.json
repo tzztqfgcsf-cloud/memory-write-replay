@@ -1,0 +1,57 @@
+{
+  "call_id": "ef1c2d890524684c56df-g_draft",
+  "finish_reason": "STOP",
+  "finished_unix": 1790494967.1757598,
+  "http_status": 200,
+  "latency_seconds": 1.5105,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.04112546637868197,
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"reply\": \"네, 학교 이야기는 건너뛰고 다른 주제로 넘어가겠습니다. 어떤 이야기에 관심 있으신가요?\",\n  \"action\": {\n    \"kind\": \"SKIP\",\n    \"question_slot\": null,\n    \"required_slots\": [],\n    \"speaker_id\": \"p1\"\n  },\n  \"memory_decisions\": [\n    {\n      \"alternatives\": [],\n      \"fact\": {\n        \"relation\": \"learned_from\",\n        \"source_turns\": [\n          \"t2\"\n        ],\n        \"subject\": \"participant\",\n        \"time\": \"unknown\",\n        \"value\": \"학교 이야기\"\n      },\n      \"operation\": \"NO_WRITE\",\n      \"slot\": null,\n      \"source_turns\": [\n        \"t2\"\n      ],\n      \"target_fact_id\": null\n    }\n  ]\n}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T07:42:45.825389Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "9ci4aq2wMsup0ckPy9-P8Ak",
+    "usageMetadata": {
+      "candidatesTokenCount": 209,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 209
+        }
+      ],
+      "promptTokenCount": 1674,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1674
+        }
+      ],
+      "totalTokenCount": 1883,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "b2a46cf5811b68e3644705f7241fe47ece36af7a039d0b7b106b70a908ce20ba",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790494965.6649148,
+  "status": "OK",
+  "text": "{\n  \"reply\": \"네, 학교 이야기는 건너뛰고 다른 주제로 넘어가겠습니다. 어떤 이야기에 관심 있으신가요?\",\n  \"action\": {\n    \"kind\": \"SKIP\",\n    \"question_slot\": null,\n    \"required_slots\": [],\n    \"speaker_id\": \"p1\"\n  },\n  \"memory_decisions\": [\n    {\n      \"alternatives\": [],\n      \"fact\": {\n        \"relation\": \"learned_from\",\n        \"source_turns\": [\n          \"t2\"\n        ],\n        \"subject\": \"participant\",\n        \"time\": \"unknown\",\n        \"value\": \"학교 이야기\"\n      },\n      \"operation\": \"NO_WRITE\",\n      \"slot\": null,\n      \"source_turns\": [\n        \"t2\"\n      ],\n      \"target_fact_id\": null\n    }\n  ]\n}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1674,
+    "output_tokens": 209,
+    "reasoning_tokens": 0,
+    "total_tokens": 1883
+  }
+}

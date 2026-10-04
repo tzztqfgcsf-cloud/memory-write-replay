@@ -1,0 +1,57 @@
+{
+  "call_id": "0c5174c80d7207524449-sr_refine",
+  "finish_reason": "STOP",
+  "finished_unix": 1790488766.523571,
+  "http_status": 200,
+  "latency_seconds": 1.2748,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.0001799331160543634,
+        "content": {
+          "parts": [
+            {
+              "text": "{\"reply\": \"네, 은하상회 대신 은하정육점으로 수정해 드릴게요.\", \"action\": {\"kind\": \"CONTINUE\", \"question_slot\": null, \"required_slots\": [], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [], \"fact\": {\"relation\": \"shop_name\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"은하정육점\"}, \"operation\": \"CORRECT\", \"slot\": null, \"source_turns\": [\"t2\"], \"target_fact_id\": \"f1\"}]}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T05:59:25.470707Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "vbC4arPdHMOAncoPsbLi2Qc",
+    "usageMetadata": {
+      "candidatesTokenCount": 139,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 139
+        }
+      ],
+      "promptTokenCount": 1972,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1972
+        }
+      ],
+      "totalTokenCount": 2111,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "c97cb077ee3a021e3a50ef0e3c812116e02b324327fbdd70ca6ac3821952a6c4",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790488765.2482848,
+  "status": "OK",
+  "text": "{\"reply\": \"네, 은하상회 대신 은하정육점으로 수정해 드릴게요.\", \"action\": {\"kind\": \"CONTINUE\", \"question_slot\": null, \"required_slots\": [], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [], \"fact\": {\"relation\": \"shop_name\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"은하정육점\"}, \"operation\": \"CORRECT\", \"slot\": null, \"source_turns\": [\"t2\"], \"target_fact_id\": \"f1\"}]}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1972,
+    "output_tokens": 139,
+    "reasoning_tokens": 0,
+    "total_tokens": 2111
+  }
+}

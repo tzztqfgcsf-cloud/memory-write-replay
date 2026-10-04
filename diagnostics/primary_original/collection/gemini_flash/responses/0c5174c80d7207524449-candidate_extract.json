@@ -1,0 +1,57 @@
+{
+  "call_id": "0c5174c80d7207524449-candidate_extract",
+  "finish_reason": "STOP",
+  "finished_unix": 1790488738.8911612,
+  "http_status": 200,
+  "latency_seconds": 2.4536,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.006167545021294976,
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"beliefs\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"facts\": [\n        {\n          \"relation\": \"shop_name\",\n          \"source_turns\": [\n            \"t2\"\n          ],\n          \"subject\": \"participant\",\n          \"time\": \"present\",\n          \"value\": \"은하정육점\"\n        }\n      ]\n    },\n    {\n      \"candidate_id\": \"c2\",\n      \"facts\": [\n        {\n          \"relation\": \"shop_name\",\n          \"source_turns\": [\n            \"t2\"\n          ],\n          \"subject\": \"participant\",\n          \"time\": \"present\",\n          \"value\": \"은하정육점\"\n        }\n      ]\n    }\n  ],\n  \"correction_witnesses\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"evidence_quote\": \"은하상회가 아니고 은하정육점이에요\",\n      \"new_value\": \"은하정육점\",\n      \"polarity\": \"affirmed\",\n      \"relation\": \"shop_name\",\n      \"source_turn\": \"t2\",\n      \"subject\": \"participant\",\n      \"target_fact_id\": \"f1\",\n      \"time\": \"present\"\n    },\n    {\n      \"candidate_id\": \"c2\",\n      \"evidence_quote\": \"은하상회 말고 은하정육점으로\",\n      \"new_value\": \"은하정육점\",\n      \"polarity\": \"affirmed\",\n      \"relation\": \"shop_name\",\n      \"source_turn\": \"t2\",\n      \"subject\": \"participant\",\n      \"target_fact_id\": \"f1\",\n      \"time\": \"present\"\n    }\n  ]\n}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T05:58:56.648691Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "oLC4avPLJ_CVktwP37SV-Ag",
+    "usageMetadata": {
+      "candidatesTokenCount": 417,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 417
+        }
+      ],
+      "promptTokenCount": 1708,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1708
+        }
+      ],
+      "totalTokenCount": 2125,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "70e997c72faf8cc1f61ee07a7734854eecc1c825986ed8b70b5d79066cdcda9e",
+  "stage_schema_sha256": "bda7326ac6a6cbeedf1ecdbf4a2b08277c078351d6689f667dc0d558c4972dd3",
+  "started_unix": 1790488736.436796,
+  "status": "OK",
+  "text": "{\n  \"beliefs\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"facts\": [\n        {\n          \"relation\": \"shop_name\",\n          \"source_turns\": [\n            \"t2\"\n          ],\n          \"subject\": \"participant\",\n          \"time\": \"present\",\n          \"value\": \"은하정육점\"\n        }\n      ]\n    },\n    {\n      \"candidate_id\": \"c2\",\n      \"facts\": [\n        {\n          \"relation\": \"shop_name\",\n          \"source_turns\": [\n            \"t2\"\n          ],\n          \"subject\": \"participant\",\n          \"time\": \"present\",\n          \"value\": \"은하정육점\"\n        }\n      ]\n    }\n  ],\n  \"correction_witnesses\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"evidence_quote\": \"은하상회가 아니고 은하정육점이에요\",\n      \"new_value\": \"은하정육점\",\n      \"polarity\": \"affirmed\",\n      \"relation\": \"shop_name\",\n      \"source_turn\": \"t2\",\n      \"subject\": \"participant\",\n      \"target_fact_id\": \"f1\",\n      \"time\": \"present\"\n    },\n    {\n      \"candidate_id\": \"c2\",\n      \"evidence_quote\": \"은하상회 말고 은하정육점으로\",\n      \"new_value\": \"은하정육점\",\n      \"polarity\": \"affirmed\",\n      \"relation\": \"shop_name\",\n      \"source_turn\": \"t2\",\n      \"subject\": \"participant\",\n      \"target_fact_id\": \"f1\",\n      \"time\": \"present\"\n    }\n  ]\n}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1708,
+    "output_tokens": 417,
+    "reasoning_tokens": 0,
+    "total_tokens": 2125
+  }
+}

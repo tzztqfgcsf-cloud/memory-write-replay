@@ -1,0 +1,57 @@
+{
+  "call_id": "bb7e8be1e05f21ac7e46-candidate_extract",
+  "finish_reason": "STOP",
+  "finished_unix": 1790493427.634628,
+  "http_status": 200,
+  "latency_seconds": 1.661,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.002335456480462867,
+        "content": {
+          "parts": [
+            {
+              "text": "{\"beliefs\": [{\"candidate_id\": \"c1\", \"facts\": [{\"relation\": \"meeting_place\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"문화마루\"}]}, {\"candidate_id\": \"c2\", \"facts\": [{\"relation\": \"meeting_place\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"문화마루\"}]}], \"correction_witnesses\": [{\"candidate_id\": \"c1\", \"evidence_quote\": \"\", \"new_value\": \"합창\", \"polarity\": \"absent\", \"relation\": \"hobby\", \"source_turn\": \"t2\", \"subject\": \"participant\", \"target_fact_id\": \"f1\", \"time\": \"present\"}, {\"candidate_id\": \"c2\", \"evidence_quote\": \"\", \"new_value\": \"합창\", \"polarity\": \"absent\", \"relation\": \"hobby\", \"source_turn\": \"t2\", \"subject\": \"participant\", \"target_fact_id\": \"f1\", \"time\": \"present\"}]}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T07:17:06.092966Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "8sK4aqbWBbOKktwPsejJ4QY",
+    "usageMetadata": {
+      "candidatesTokenCount": 249,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 249
+        }
+      ],
+      "promptTokenCount": 1694,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1694
+        }
+      ],
+      "totalTokenCount": 1943,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "aae8e51ee4c20ecd8b4bd9d58b6a6139770a4e03ac348e67eb2ef384d7d48e09",
+  "stage_schema_sha256": "bda7326ac6a6cbeedf1ecdbf4a2b08277c078351d6689f667dc0d558c4972dd3",
+  "started_unix": 1790493425.9733021,
+  "status": "OK",
+  "text": "{\"beliefs\": [{\"candidate_id\": \"c1\", \"facts\": [{\"relation\": \"meeting_place\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"문화마루\"}]}, {\"candidate_id\": \"c2\", \"facts\": [{\"relation\": \"meeting_place\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"문화마루\"}]}], \"correction_witnesses\": [{\"candidate_id\": \"c1\", \"evidence_quote\": \"\", \"new_value\": \"합창\", \"polarity\": \"absent\", \"relation\": \"hobby\", \"source_turn\": \"t2\", \"subject\": \"participant\", \"target_fact_id\": \"f1\", \"time\": \"present\"}, {\"candidate_id\": \"c2\", \"evidence_quote\": \"\", \"new_value\": \"합창\", \"polarity\": \"absent\", \"relation\": \"hobby\", \"source_turn\": \"t2\", \"subject\": \"participant\", \"target_fact_id\": \"f1\", \"time\": \"present\"}]}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1694,
+    "output_tokens": 249,
+    "reasoning_tokens": 0,
+    "total_tokens": 1943
+  }
+}

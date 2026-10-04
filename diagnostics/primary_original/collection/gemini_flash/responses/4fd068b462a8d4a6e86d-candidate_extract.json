@@ -1,0 +1,57 @@
+{
+  "call_id": "4fd068b462a8d4a6e86d-candidate_extract",
+  "finish_reason": "STOP",
+  "finished_unix": 1790493942.160695,
+  "http_status": 200,
+  "latency_seconds": 1.6559,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.006470971687665004,
+        "content": {
+          "parts": [
+            {
+              "text": "{\"beliefs\": [{\"candidate_id\": \"c1\", \"facts\": [{\"relation\": \"event_year\", \"source_turns\": [\"t2\"], \"subject\": \"participant's farm\", \"time\": \"past\", \"value\": \"2003\"}]}, {\"candidate_id\": \"c2\", \"facts\": [{\"relation\": \"event_year\", \"source_turns\": [\"t2\"], \"subject\": \"participant's farm\", \"time\": \"past\", \"value\": \"2003\"}]}], \"correction_witnesses\": [{\"candidate_id\": \"c1\", \"evidence_quote\": \"\", \"new_value\": \"서안농장\", \"polarity\": \"absent\", \"relation\": \"workplace\", \"source_turn\": \"t2\", \"subject\": \"participant\", \"target_fact_id\": \"f1\", \"time\": \"present\"}, {\"candidate_id\": \"c2\", \"evidence_quote\": \"\", \"new_value\": \"서안농장\", \"polarity\": \"absent\", \"relation\": \"workplace\", \"source_turn\": \"t2\", \"subject\": \"participant\", \"target_fact_id\": \"f1\", \"time\": \"present\"}]}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T07:25:40.606634Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "9MS4aqqDJfGancoP76ybiQ0",
+    "usageMetadata": {
+      "candidatesTokenCount": 263,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 263
+        }
+      ],
+      "promptTokenCount": 1695,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1695
+        }
+      ],
+      "totalTokenCount": 1958,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "54179a7be5fabff2461957737f2cda24a3cc2f22f3ddb053f399500eec3b2a7c",
+  "stage_schema_sha256": "bda7326ac6a6cbeedf1ecdbf4a2b08277c078351d6689f667dc0d558c4972dd3",
+  "started_unix": 1790493940.504342,
+  "status": "OK",
+  "text": "{\"beliefs\": [{\"candidate_id\": \"c1\", \"facts\": [{\"relation\": \"event_year\", \"source_turns\": [\"t2\"], \"subject\": \"participant's farm\", \"time\": \"past\", \"value\": \"2003\"}]}, {\"candidate_id\": \"c2\", \"facts\": [{\"relation\": \"event_year\", \"source_turns\": [\"t2\"], \"subject\": \"participant's farm\", \"time\": \"past\", \"value\": \"2003\"}]}], \"correction_witnesses\": [{\"candidate_id\": \"c1\", \"evidence_quote\": \"\", \"new_value\": \"서안농장\", \"polarity\": \"absent\", \"relation\": \"workplace\", \"source_turn\": \"t2\", \"subject\": \"participant\", \"target_fact_id\": \"f1\", \"time\": \"present\"}, {\"candidate_id\": \"c2\", \"evidence_quote\": \"\", \"new_value\": \"서안농장\", \"polarity\": \"absent\", \"relation\": \"workplace\", \"source_turn\": \"t2\", \"subject\": \"participant\", \"target_fact_id\": \"f1\", \"time\": \"present\"}]}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1695,
+    "output_tokens": 263,
+    "reasoning_tokens": 0,
+    "total_tokens": 1958
+  }
+}

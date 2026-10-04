@@ -1,0 +1,57 @@
+{
+  "call_id": "d7a9eca4d204f9d17add-candidate_extract",
+  "finish_reason": "STOP",
+  "finished_unix": 1790492911.941548,
+  "http_status": 200,
+  "latency_seconds": 1.7101,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.0008911319697896639,
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"beliefs\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"facts\": [\n        {\n          \"relation\": \"workplace\",\n          \"source_turns\": [\n            \"t2\"\n          ],\n          \"subject\": \"participant\",\n          \"time\": \"present\",\n          \"value\": \"솔빛양조장\"\n        }\n      ]\n    },\n    {\n      \"candidate_id\": \"c2\",\n      \"facts\": [\n        {\n          \"relation\": \"workplace\",\n          \"source_turns\": [\n            \"t2\"\n          ],\n          \"subject\": \"participant\",\n          \"time\": \"present\",\n          \"value\": \"솔빛양조장\"\n        }\n      ]\n    }\n  ],\n  \"correction_witnesses\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"evidence_quote\": \"\",\n      \"new_value\": \"진주\",\n      \"polarity\": \"absent\",\n      \"relation\": \"birthplace\",\n      \"source_turn\": \"t2\",\n      \"subject\": \"participant\",\n      \"target_fact_id\": \"f1\",\n      \"time\": \"past\"\n    },\n    {\n      \"candidate_id\": \"c2\",\n      \"evidence_quote\": \"\",\n      \"new_value\": \"진주\",\n      \"polarity\": \"absent\",\n      \"relation\": \"birthplace\",\n      \"source_turn\": \"t2\",\n      \"subject\": \"participant\",\n      \"target_fact_id\": \"f1\",\n      \"time\": \"past\"\n    }\n  ]\n}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T07:08:30.324318Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "7sC4at7lE7OLx9gPv4OY6A4",
+    "usageMetadata": {
+      "candidatesTokenCount": 384,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 384
+        }
+      ],
+      "promptTokenCount": 1693,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1693
+        }
+      ],
+      "totalTokenCount": 2077,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "e56e34aec9ef94a6590581adc6d864e5bda5b57746ba5d243538220ee159046c",
+  "stage_schema_sha256": "bda7326ac6a6cbeedf1ecdbf4a2b08277c078351d6689f667dc0d558c4972dd3",
+  "started_unix": 1790492910.230656,
+  "status": "OK",
+  "text": "{\n  \"beliefs\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"facts\": [\n        {\n          \"relation\": \"workplace\",\n          \"source_turns\": [\n            \"t2\"\n          ],\n          \"subject\": \"participant\",\n          \"time\": \"present\",\n          \"value\": \"솔빛양조장\"\n        }\n      ]\n    },\n    {\n      \"candidate_id\": \"c2\",\n      \"facts\": [\n        {\n          \"relation\": \"workplace\",\n          \"source_turns\": [\n            \"t2\"\n          ],\n          \"subject\": \"participant\",\n          \"time\": \"present\",\n          \"value\": \"솔빛양조장\"\n        }\n      ]\n    }\n  ],\n  \"correction_witnesses\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"evidence_quote\": \"\",\n      \"new_value\": \"진주\",\n      \"polarity\": \"absent\",\n      \"relation\": \"birthplace\",\n      \"source_turn\": \"t2\",\n      \"subject\": \"participant\",\n      \"target_fact_id\": \"f1\",\n      \"time\": \"past\"\n    },\n    {\n      \"candidate_id\": \"c2\",\n      \"evidence_quote\": \"\",\n      \"new_value\": \"진주\",\n      \"polarity\": \"absent\",\n      \"relation\": \"birthplace\",\n      \"source_turn\": \"t2\",\n      \"subject\": \"participant\",\n      \"target_fact_id\": \"f1\",\n      \"time\": \"past\"\n    }\n  ]\n}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1693,
+    "output_tokens": 384,
+    "reasoning_tokens": 0,
+    "total_tokens": 2077
+  }
+}

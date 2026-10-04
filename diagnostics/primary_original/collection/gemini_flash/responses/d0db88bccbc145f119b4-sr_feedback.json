@@ -1,0 +1,57 @@
+{
+  "call_id": "d0db88bccbc145f119b4-sr_feedback",
+  "finish_reason": "STOP",
+  "finished_unix": 1790491824.201974,
+  "http_status": 200,
+  "latency_seconds": 1.7029,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.10489237199135877,
+        "content": {
+          "parts": [
+            {
+              "text": "{\"no_change_needed\": false, \"issues\": [{\"draft_location\": \"memory_decisions[0].source_turns\", \"evidence_location\": \"t2\", \"problem\": \"The source_turns in memory_decisions should reflect all turns that provide evidence for the fact, not just the current turn.\", \"specific_revision\": \"Change memory_decisions[0].source_turns from [\\\"t2\\\"] to [\\\"t1\\\", \\\"t2\\\"] to reflect the full conversational context leading to this memory decision.\"}, {\"draft_location\": \"memory_decisions[0].fact.source_turns\", \"evidence_location\": \"t2\", \"problem\": \"The source_turns in the fact object should reflect all turns that provide evidence for the fact, not just the current turn.\", \"specific_revision\": \"Change memory_decisions[0].fact.source_turns from [\\\"t2\\\"] to [\\\"t1\\\", \\\"t2\\\"] to reflect the full conversational context leading to this memory decision.\"}]}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T06:50:22.611372Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "rry4aqyoJZiXktwPo4SY4AQ",
+    "usageMetadata": {
+      "candidatesTokenCount": 218,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 218
+        }
+      ],
+      "promptTokenCount": 1431,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1431
+        }
+      ],
+      "totalTokenCount": 1649,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "f7b1437abe7611f0865ef53e525066497255b00d402bcb66e4acc5d024092532",
+  "stage_schema_sha256": "377e252cf02129ba34bbc867118dd2b9c6b65042b3fcd7b44099d2fc6e0513ed",
+  "started_unix": 1790491822.49877,
+  "status": "OK",
+  "text": "{\"no_change_needed\": false, \"issues\": [{\"draft_location\": \"memory_decisions[0].source_turns\", \"evidence_location\": \"t2\", \"problem\": \"The source_turns in memory_decisions should reflect all turns that provide evidence for the fact, not just the current turn.\", \"specific_revision\": \"Change memory_decisions[0].source_turns from [\\\"t2\\\"] to [\\\"t1\\\", \\\"t2\\\"] to reflect the full conversational context leading to this memory decision.\"}, {\"draft_location\": \"memory_decisions[0].fact.source_turns\", \"evidence_location\": \"t2\", \"problem\": \"The source_turns in the fact object should reflect all turns that provide evidence for the fact, not just the current turn.\", \"specific_revision\": \"Change memory_decisions[0].fact.source_turns from [\\\"t2\\\"] to [\\\"t1\\\", \\\"t2\\\"] to reflect the full conversational context leading to this memory decision.\"}]}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1431,
+    "output_tokens": 218,
+    "reasoning_tokens": 0,
+    "total_tokens": 1649
+  }
+}

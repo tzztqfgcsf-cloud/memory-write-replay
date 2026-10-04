@@ -1,0 +1,64 @@
+{
+  "call_id": "880be736ac8adceb8e42-candidate_extract",
+  "finish_reason": "STOP",
+  "finished_unix": 1790494927.036128,
+  "http_status": 200,
+  "latency_seconds": 1.2203,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.003967598356582501,
+        "content": {
+          "parts": [
+            {
+              "text": "{\"beliefs\": [{\"candidate_id\": \"c1\", \"facts\": [{\"relation\": \"birthplace\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"김제\"}]}, {\"candidate_id\": \"c2\", \"facts\": [{\"relation\": \"birthplace\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"김제\"}]}], \"correction_witnesses\": []}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T07:42:05.976527Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "zci4ao_NO5iXktwPo4SY4AQ",
+    "usageMetadata": {
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1346
+        }
+      ],
+      "cachedContentTokenCount": 1346,
+      "candidatesTokenCount": 108,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 108
+        }
+      ],
+      "promptTokenCount": 1657,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1657
+        }
+      ],
+      "totalTokenCount": 1765,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "0260bf47a0e164587a60cf84798712714d8cb515f59482be3e92b6ca0ee61e5a",
+  "stage_schema_sha256": "bda7326ac6a6cbeedf1ecdbf4a2b08277c078351d6689f667dc0d558c4972dd3",
+  "started_unix": 1790494925.81549,
+  "status": "OK",
+  "text": "{\"beliefs\": [{\"candidate_id\": \"c1\", \"facts\": [{\"relation\": \"birthplace\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"김제\"}]}, {\"candidate_id\": \"c2\", \"facts\": [{\"relation\": \"birthplace\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"김제\"}]}], \"correction_witnesses\": []}",
+  "usage": {
+    "cached_tokens": 1346,
+    "input_tokens": 1657,
+    "output_tokens": 108,
+    "reasoning_tokens": 0,
+    "total_tokens": 1765
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "call_id": "573b43b59e375e7cfb34-g_final",
+  "finish_reason": "STOP",
+  "finished_unix": 1790494799.876239,
+  "http_status": 200,
+  "latency_seconds": 1.4142,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.10998794806264613,
+        "content": {
+          "parts": [
+            {
+              "text": "{\"reply\": \"네, 김제에서 태어나셨군요. 아직 기록 여부는 결정되지 않았으니, 이 정보는 제가 기억해 두겠습니다. 다른 이야기도 해볼까요?\", \"action\": {\"kind\": \"CONTINUE\", \"question_slot\": null, \"required_slots\": [], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"김제에서 태어나기는 했어요.\", \"태어난 데는 김제예요.\"], \"fact\": null, \"operation\": \"HOLD\", \"slot\": \"birthplace\", \"source_turns\": [\"t2\"], \"target_fact_id\": null}]}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T07:39:58.541958Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "Tsi4aoaKIfGancoP76ybiQ0",
+    "usageMetadata": {
+      "candidatesTokenCount": 137,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 137
+        }
+      ],
+      "promptTokenCount": 1827,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1827
+        }
+      ],
+      "totalTokenCount": 1964,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "ef17867bdabc261bcd72ed50bff726cf9e2e870b19efdf896e6f26603fefaba1",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790494798.4616268,
+  "status": "OK",
+  "text": "{\"reply\": \"네, 김제에서 태어나셨군요. 아직 기록 여부는 결정되지 않았으니, 이 정보는 제가 기억해 두겠습니다. 다른 이야기도 해볼까요?\", \"action\": {\"kind\": \"CONTINUE\", \"question_slot\": null, \"required_slots\": [], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"김제에서 태어나기는 했어요.\", \"태어난 데는 김제예요.\"], \"fact\": null, \"operation\": \"HOLD\", \"slot\": \"birthplace\", \"source_turns\": [\"t2\"], \"target_fact_id\": null}]}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1827,
+    "output_tokens": 137,
+    "reasoning_tokens": 0,
+    "total_tokens": 1964
+  }
+}

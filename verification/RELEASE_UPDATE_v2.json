@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "release": "v20-artifact-v2",
+  "checked_at_utc": "2026-10-04T15:36:09.242789+00:00",
+  "scope": "Noncommercial reuse terms, supplementary readme, unmodified v26 appendix; no experimental changes",
+  "frozen_experimental_files_checked": 4664,
+  "changed_experimental_files": [],
+  "pdf": {
+    "path": "docs/TIST_v26_appendix.pdf",
+    "pages": 20,
+    "bytes": 724318,
+    "sha256": "6c85d21eac41a5064b937d4199a7008a98ae9e8395391c070c5721eaccde52c0",
+    "identical_to_user_supplied_original": true
+  },
+  "new_document_links_checked": true,
+  "new_text_and_pdf_secret_pattern_scan": "PASS",
+  "fresh_efficacy_or_replay_run": false,
+  "prior_replay_evidence": "RELEASE_CHECKS.json (v20-artifact-v1)",
+  "model_calls": 0,
+  "v1_preserved": true
+}

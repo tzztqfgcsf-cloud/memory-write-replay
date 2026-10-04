@@ -1,0 +1,20 @@
+{
+  "status": "OK",
+  "http_status": 200,
+  "text": "{\n  \"decisions\": [\n    {\n      \"index\": 0,\n      \"approve\": true,\n      \"reason\": \"모든 전사에서 남편 준호의 취미가 낚시임이 명확히 언급됨\"\n    },\n    {\n      \"index\": 1,\n      \"approve\": false,\n      \"reason\": \"기존 기억과 동일한 내용이므로 수정(CORRECT)할 필요가 없음\"\n    }\n  ]\n}",
+  "usage": {
+    "input_tokens": 781,
+    "output_tokens": 110,
+    "reasoning_tokens": 284,
+    "total_tokens": 1175,
+    "cached_tokens": null
+  },
+  "finish_reason": "STOP",
+  "model_version": "gemini-3.1-pro-preview",
+  "id": "qwen3_14b_CT13_judge",
+  "key": "qwen3_14b_CT13",
+  "stage": "judge",
+  "arm": "judge",
+  "requested_model": "gemini-3.1-pro-preview",
+  "latency_seconds": 8.823708042036742
+}

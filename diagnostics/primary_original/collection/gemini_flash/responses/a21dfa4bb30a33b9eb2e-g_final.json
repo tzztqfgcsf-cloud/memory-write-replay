@@ -1,0 +1,57 @@
+{
+  "call_id": "a21dfa4bb30a33b9eb2e-g_final",
+  "finish_reason": "STOP",
+  "finished_unix": 1790489594.113981,
+  "http_status": 200,
+  "latency_seconds": 1.4397,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.01025077721751328,
+        "content": {
+          "parts": [
+            {
+              "text": "{\"reply\": \"네, 미래제과가 맞군요. 직장 정보는 미래제과로 유지할게요.\", \"action\": {\"kind\": \"CONTINUE\", \"question_slot\": null, \"required_slots\": [], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [], \"fact\": {\"relation\": \"workplace\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"미래제과\"}, \"operation\": \"CORRECT\", \"slot\": null, \"source_turns\": [\"t2\"], \"target_fact_id\": \"f1\"}]}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T06:13:12.791943Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "-LO4aoerMPCVktwP37SV-Ag",
+    "usageMetadata": {
+      "candidatesTokenCount": 141,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 141
+        }
+      ],
+      "promptTokenCount": 1878,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1878
+        }
+      ],
+      "totalTokenCount": 2019,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "25aaaa2351edc78538bf380f095f4fa5d6998c8c5d02525c7b20f0bd978ba52c",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790489592.673825,
+  "status": "OK",
+  "text": "{\"reply\": \"네, 미래제과가 맞군요. 직장 정보는 미래제과로 유지할게요.\", \"action\": {\"kind\": \"CONTINUE\", \"question_slot\": null, \"required_slots\": [], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [], \"fact\": {\"relation\": \"workplace\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"미래제과\"}, \"operation\": \"CORRECT\", \"slot\": null, \"source_turns\": [\"t2\"], \"target_fact_id\": \"f1\"}]}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1878,
+    "output_tokens": 141,
+    "reasoning_tokens": 0,
+    "total_tokens": 2019
+  }
+}

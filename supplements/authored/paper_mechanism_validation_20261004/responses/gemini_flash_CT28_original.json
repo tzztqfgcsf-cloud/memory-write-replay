@@ -1,0 +1,20 @@
+{
+  "status": "OK",
+  "http_status": 200,
+  "text": "{\"beliefs\": [{\"candidate_id\": \"c1\", \"facts\": [{\"relation\": \"meeting_place\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"문화마루\"}]}, {\"candidate_id\": \"c2\", \"facts\": [{\"relation\": \"meeting_place\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"문화마루\"}]}], \"correction_witnesses\": [{\"candidate_id\": \"c1\", \"evidence_quote\": \"\", \"new_value\": \"합창\", \"polarity\": \"absent\", \"relation\": \"hobby\", \"source_turn\": \"t2\", \"subject\": \"participant\", \"target_fact_id\": \"f1\", \"time\": \"present\"}, {\"candidate_id\": \"c2\", \"evidence_quote\": \"\", \"new_value\": \"합창\", \"polarity\": \"absent\", \"relation\": \"hobby\", \"source_turn\": \"t2\", \"subject\": \"participant\", \"target_fact_id\": \"f1\", \"time\": \"present\"}]}",
+  "usage": {
+    "input_tokens": 1694,
+    "output_tokens": 249,
+    "reasoning_tokens": 0,
+    "total_tokens": 1943,
+    "cached_tokens": null
+  },
+  "finish_reason": "STOP",
+  "model_version": "gemini-2.5-flash",
+  "id": "gemini_flash_CT28_original",
+  "key": "gemini_flash_CT28",
+  "stage": "extract",
+  "arm": "original",
+  "requested_model": "gemini-2.5-flash",
+  "latency_seconds": 1.828435500152409
+}

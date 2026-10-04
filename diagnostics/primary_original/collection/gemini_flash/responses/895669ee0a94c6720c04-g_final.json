@@ -1,0 +1,57 @@
+{
+  "call_id": "895669ee0a94c6720c04-g_final",
+  "finish_reason": "STOP",
+  "finished_unix": 1790488615.322113,
+  "http_status": 200,
+  "latency_seconds": 1.4622,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.022711834082236655,
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"reply\": \"네, 출생지를 대구로 수정해 드릴게요. 또 다른 정보도 수정해 드릴까요?\",\n  \"action\": {\n    \"kind\": \"CONTINUE\",\n    \"question_slot\": null,\n    \"required_slots\": [],\n    \"speaker_id\": \"p1\"\n  },\n  \"memory_decisions\": [\n    {\n      \"alternatives\": [],\n      \"fact\": {\n        \"relation\": \"birthplace\",\n        \"source_turns\": [\n          \"t2\"\n        ],\n        \"subject\": \"participant\",\n        \"time\": \"past\",\n        \"value\": \"대구\"\n      },\n      \"operation\": \"CORRECT\",\n      \"slot\": null,\n      \"source_turns\": [\n        \"t2\"\n      ],\n      \"target_fact_id\": \"f1\"\n    }\n  ]\n}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T05:56:54.078512Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "JrC4arDlBLOKktwPsejJ4QY",
+    "usageMetadata": {
+      "candidatesTokenCount": 208,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 208
+        }
+      ],
+      "promptTokenCount": 1874,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1874
+        }
+      ],
+      "totalTokenCount": 2082,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "db347f28c28e275ca21e5187e1a51836162916879a41db0b5c60e27a8fb6e718",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790488613.8595,
+  "status": "OK",
+  "text": "{\n  \"reply\": \"네, 출생지를 대구로 수정해 드릴게요. 또 다른 정보도 수정해 드릴까요?\",\n  \"action\": {\n    \"kind\": \"CONTINUE\",\n    \"question_slot\": null,\n    \"required_slots\": [],\n    \"speaker_id\": \"p1\"\n  },\n  \"memory_decisions\": [\n    {\n      \"alternatives\": [],\n      \"fact\": {\n        \"relation\": \"birthplace\",\n        \"source_turns\": [\n          \"t2\"\n        ],\n        \"subject\": \"participant\",\n        \"time\": \"past\",\n        \"value\": \"대구\"\n      },\n      \"operation\": \"CORRECT\",\n      \"slot\": null,\n      \"source_turns\": [\n        \"t2\"\n      ],\n      \"target_fact_id\": \"f1\"\n    }\n  ]\n}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1874,
+    "output_tokens": 208,
+    "reasoning_tokens": 0,
+    "total_tokens": 2082
+  }
+}

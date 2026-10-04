@@ -1,0 +1,57 @@
+{
+  "call_id": "46ef6d4fdd48f767c2b3-sr_feedback",
+  "finish_reason": "STOP",
+  "finished_unix": 1790493217.0250828,
+  "http_status": 200,
+  "latency_seconds": 2.9931,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.12506107125748595,
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"no_change_needed\": false,\n  \"issues\": [\n    {\n      \"draft_location\": \"memory_decisions[0].fact.subject\",\n      \"evidence_location\": \"t2\",\n      \"problem\": \"The subject 'participant' is too generic. The user is talking about their own past shop.\",\n      \"specific_revision\": \"Change 'participant' to 'p1' to explicitly link the fact to the speaker.\"\n    },\n    {\n      \"draft_location\": \"memory_decisions[0].fact.relation\",\n      \"evidence_location\": \"t2\",\n      \"problem\": \"The relation 'shop_name' is too generic. The user explicitly states it was a '미용실' (beauty salon).\",\n      \"specific_revision\": \"Change 'shop_name' to 'beauty_salon_name' to be more specific.\"\n    },\n    {\n      \"draft_location\": \"memory_decisions[0].fact.time\",\n      \"evidence_location\": \"t2\",\n      \"problem\": \"The time 'past' is too vague. The user explicitly states '예전에' (in the past) and '옛 가게 이름으로' (as the old shop name).\",\n      \"specific_revision\": \"Change 'time' to 'past_shop_name' to reflect the specific context of an old shop name.\"\n    }\n  ]\n}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T07:13:34.135286Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "HsK4avagCJiXktwPo4SY4AQ",
+    "usageMetadata": {
+      "candidatesTokenCount": 317,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 317
+        }
+      ],
+      "promptTokenCount": 1358,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1358
+        }
+      ],
+      "totalTokenCount": 1675,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "8237c35f36eaadf98d63ff9e8e48a2f2a7efedd64b0e864e518788131fc80813",
+  "stage_schema_sha256": "377e252cf02129ba34bbc867118dd2b9c6b65042b3fcd7b44099d2fc6e0513ed",
+  "started_unix": 1790493214.031745,
+  "status": "OK",
+  "text": "{\n  \"no_change_needed\": false,\n  \"issues\": [\n    {\n      \"draft_location\": \"memory_decisions[0].fact.subject\",\n      \"evidence_location\": \"t2\",\n      \"problem\": \"The subject 'participant' is too generic. The user is talking about their own past shop.\",\n      \"specific_revision\": \"Change 'participant' to 'p1' to explicitly link the fact to the speaker.\"\n    },\n    {\n      \"draft_location\": \"memory_decisions[0].fact.relation\",\n      \"evidence_location\": \"t2\",\n      \"problem\": \"The relation 'shop_name' is too generic. The user explicitly states it was a '미용실' (beauty salon).\",\n      \"specific_revision\": \"Change 'shop_name' to 'beauty_salon_name' to be more specific.\"\n    },\n    {\n      \"draft_location\": \"memory_decisions[0].fact.time\",\n      \"evidence_location\": \"t2\",\n      \"problem\": \"The time 'past' is too vague. The user explicitly states '예전에' (in the past) and '옛 가게 이름으로' (as the old shop name).\",\n      \"specific_revision\": \"Change 'time' to 'past_shop_name' to reflect the specific context of an old shop name.\"\n    }\n  ]\n}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1358,
+    "output_tokens": 317,
+    "reasoning_tokens": 0,
+    "total_tokens": 1675
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "call_id": "573b43b59e375e7cfb34-g_draft",
+  "error_type": null,
+  "finish_reason": "stop",
+  "finished_unix": 1790495397.2264562,
+  "latency_seconds": 10.8576,
+  "model_version": "mlx-community/Llama-3.1-8B-Instruct-4bit",
+  "raw_response": {
+    "base_seed": 20260927,
+    "finish_reason": "stop",
+    "generation_calls": 631,
+    "id": "local-3e0bed4d14f6f0aa731f698a",
+    "seed": 425272202,
+    "snapshot": "<LOCAL_PATH>",
+    "text": "{\"action\": {\"kind\": \"CONTINUE\", \"question_slot\": \"residence\", \"required_slots\": [\"residence\", \"birthplace\"], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"김제\", \"태어난 데\"], \"fact\": {\"relation\": \"birthplace\", \"source_turns\": [\"t1\"], \"subject\": \"p1\", \"time\": \"past\", \"value\": \"김제\"}, \"operation\": \"APPEND\", \"slot\": \"birthplace\", \"source_turns\": [\"t1\"], \"target_fact_id\": null}, {\"alternatives\": [\"기록은 결정 못했으니\"], \"fact\": null, \"operation\": \"HOLD\", \"slot\": null, \"source_turns\": [\"t2\"], \"target_fact_id\": null}], \"reply\": \"그렇다면 김제에서 태어나기는 했어요. 그걸 남길지는 생각해 보고 지금은 이야기만 할래요.\"}",
+    "usage": {
+      "cached_tokens": null,
+      "input_tokens": 1668,
+      "output_tokens": 206,
+      "reasoning_tokens": null,
+      "total_tokens": 1874
+    }
+  },
+  "request_sha256": "66b678cd17c99fbe5ea4d888f46647c3ccedc7319ad8d6909af91312ebfdada6",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790495386.3684611,
+  "status": "OK",
+  "text": "{\"action\": {\"kind\": \"CONTINUE\", \"question_slot\": \"residence\", \"required_slots\": [\"residence\", \"birthplace\"], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"김제\", \"태어난 데\"], \"fact\": {\"relation\": \"birthplace\", \"source_turns\": [\"t1\"], \"subject\": \"p1\", \"time\": \"past\", \"value\": \"김제\"}, \"operation\": \"APPEND\", \"slot\": \"birthplace\", \"source_turns\": [\"t1\"], \"target_fact_id\": null}, {\"alternatives\": [\"기록은 결정 못했으니\"], \"fact\": null, \"operation\": \"HOLD\", \"slot\": null, \"source_turns\": [\"t2\"], \"target_fact_id\": null}], \"reply\": \"그렇다면 김제에서 태어나기는 했어요. 그걸 남길지는 생각해 보고 지금은 이야기만 할래요.\"}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1668,
+    "output_tokens": 206,
+    "reasoning_tokens": null,
+    "total_tokens": 1874
+  }
+}

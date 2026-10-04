@@ -1,0 +1,20 @@
+{
+  "status": "OK",
+  "http_status": 200,
+  "text": "{\n  \"beliefs\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"facts\": [\n        {\n          \"relation\": \"learned_from\",\n          \"source_turns\": [\"t2\"],\n          \"subject\": \"영숙\",\n          \"time\": \"past\",\n          \"value\": \"이 사범님\"\n        }\n      ]\n    },\n    {\n      \"candidate_id\": \"c2\",\n      \"facts\": [\n        {\n          \"relation\": \"learned_from\",\n          \"source_turns\": [\"t2\"],\n          \"subject\": \"영숙\",\n          \"time\": \"past\",\n          \"value\": \"이 사범님\"\n        }\n      ]\n    }\n  ],\n  \"correction_witnesses\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"evidence_quote\": \"\",\n      \"new_value\": \"박 사범님\",\n      \"polarity\": \"absent\",\n      \"relation\": \"learned_from\",\n      \"source_turn\": \"t2\",\n      \"subject\": \"participant\",\n      \"target_fact_id\": \"f1\",\n      \"time\": \"past\"\n    },\n    {\n      \"candidate_id\": \"c2\",\n      \"evidence_quote\": \"\",\n      \"new_value\": \"박 사범님\",\n      \"polarity\": \"absent\",\n      \"relation\": \"learned_from\",\n      \"source_turn\": \"t2\",\n      \"subject\": \"participant\",\n      \"target_fact_id\": \"f1\",\n      \"time\": \"past\"\n    }\n  ]\n}",
+  "usage": {
+    "input_tokens": 1851,
+    "output_tokens": 380,
+    "reasoning_tokens": 0,
+    "total_tokens": 2231,
+    "cached_tokens": null
+  },
+  "finish_reason": "STOP",
+  "model_version": "gemini-2.5-flash",
+  "id": "gemini_flash_CT16_corrected",
+  "key": "gemini_flash_CT16",
+  "stage": "extract",
+  "arm": "corrected",
+  "requested_model": "gemini-2.5-flash",
+  "latency_seconds": 2.3321921250317246
+}

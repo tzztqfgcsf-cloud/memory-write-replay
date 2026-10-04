@@ -1,0 +1,1687 @@
+{
+  "schema": "separate-v2-corrected-authored-reference",
+  "references": [
+    {
+      "case_id": "CT01",
+      "required_facts": [
+        {
+          "subject": "participant",
+          "relation": "birthplace",
+          "value": "대구",
+          "time": "past"
+        }
+      ],
+      "forbidden_facts": [
+        {
+          "subject": "participant",
+          "relation": "birthplace",
+          "value": "광주",
+          "time": "past"
+        }
+      ],
+      "must_preserve_ids": [],
+      "must_remove_ids": [],
+      "allowed_actions": [
+        "CONTINUE"
+      ],
+      "requires_clarification": "unnecessary",
+      "rationale": "출생 장소의 명시적 오기를 바로잡는다.",
+      "verbatim_evidence": [
+        "전라도 광주가 아니라 대구에서 태어났어요. 출생지는 대구로 바꿔요.",
+        "광주라고 된 출생지 말이에요, 대구에서 태어난 게 맞으니 대구로 바꿔 주세요."
+      ],
+      "family": "explicit_valid_correction",
+      "must_retire_versions": [
+        "f1"
+      ]
+    },
+    {
+      "case_id": "CT02",
+      "required_facts": [
+        {
+          "subject": "participant",
+          "relation": "shop_name",
+          "value": "은하정육점",
+          "time": "present"
+        }
+      ],
+      "forbidden_facts": [
+        {
+          "subject": "participant",
+          "relation": "shop_name",
+          "value": "은하상회",
+          "time": "present"
+        }
+      ],
+      "must_preserve_ids": [],
+      "must_remove_ids": [],
+      "allowed_actions": [
+        "CONTINUE"
+      ],
+      "requires_clarification": "unnecessary",
+      "rationale": "명함의 동일한 상호 필드에 대한 분명한 교체 요청이다.",
+      "verbatim_evidence": [
+        "은하상회가 아니고 은하정육점이에요. 상호를 은하정육점으로 고쳐 적어 주세요.",
+        "명함 상호가 잘못됐네. 은하상회 말고 은하정육점으로 정정해 줘요."
+      ],
+      "family": "explicit_valid_correction",
+      "must_retire_versions": [
+        "f1"
+      ]
+    },
+    {
+      "case_id": "CT03",
+      "required_facts": [
+        {
+          "subject": "participant",
+          "relation": "preferred_contact",
+          "value": "문자",
+          "time": "present"
+        }
+      ],
+      "forbidden_facts": [
+        {
+          "subject": "participant",
+          "relation": "preferred_contact",
+          "value": "전화",
+          "time": "present"
+        }
+      ],
+      "must_preserve_ids": [],
+      "must_remove_ids": [],
+      "allowed_actions": [
+        "CONTINUE"
+      ],
+      "requires_clarification": "unnecessary",
+      "rationale": "현재의 연락 선호 변경을 기존 값 교체로 요청한다.",
+      "verbatim_evidence": [
+        "응, 이제 전화 대신 문자로 받아요. 연락 방법도 문자로 바꿔 저장해요.",
+        "이제는 문자가 좋아요. 전화는 빼고 연락 방법을 문자로 바꿔 주세요."
+      ],
+      "family": "explicit_valid_correction",
+      "must_retire_versions": [
+        "f1"
+      ]
+    },
+    {
+      "case_id": "CT04",
+      "required_facts": [
+        {
+          "subject": "participant",
+          "relation": "learned_from",
+          "value": "한 선생님",
+          "time": "past"
+        }
+      ],
+      "forbidden_facts": [
+        {
+          "subject": "participant",
+          "relation": "learned_from",
+          "value": "최 선생님",
+          "time": "past"
+        }
+      ],
+      "must_preserve_ids": [],
+      "must_remove_ids": [],
+      "allowed_actions": [
+        "CONTINUE"
+      ],
+      "requires_clarification": "unnecessary",
+      "rationale": "배운 사람의 오기 정정이며 새로 추가된 다른 스승이 아니다.",
+      "verbatim_evidence": [
+        "그분 성을 내가 잘못 말했어. 처음 배운 분은 한 선생님이야. 한 선생님으로 바로잡아 줘.",
+        "최 선생님이라고 한 건 잘못이야. 판소리 처음 가르쳐 준 분은 한 선생님이니 그렇게 고쳐."
+      ],
+      "family": "explicit_valid_correction",
+      "must_retire_versions": [
+        "f1"
+      ]
+    },
+    {
+      "case_id": "CT05",
+      "required_facts": [
+        {
+          "subject": "participant",
+          "relation": "meeting_place",
+          "value": "시민회관",
+          "time": "present"
+        }
+      ],
+      "forbidden_facts": [
+        {
+          "subject": "participant",
+          "relation": "meeting_place",
+          "value": "복지관",
+          "time": "present"
+        }
+      ],
+      "must_preserve_ids": [
+        "f1"
+      ],
+      "must_remove_ids": [],
+      "allowed_actions": [
+        "CONTINUE"
+      ],
+      "requires_clarification": "unnecessary",
+      "rationale": "직전 변경 발상을 철회하고 기존 장소를 유지한다.",
+      "verbatim_evidence": [
+        "복지관으로 옮겼다는 말은 취소예요. 모임은 계속 시민회관이고 기록도 그대로요.",
+        "복지관으로 바꾸지 말아 주세요. 시민회관에서 계속 모이는 게 맞아요."
+      ],
+      "family": "negated_correction",
+      "must_retire_versions": []
+    },
+    {
+      "case_id": "CT06",
+      "required_facts": [
+        {
+          "subject": "participant",
+          "relation": "event_year",
+          "value": "1998년",
+          "time": "past"
+        }
+      ],
+      "forbidden_facts": [
+        {
+          "subject": "participant",
+          "relation": "event_year",
+          "value": "1988년",
+          "time": "past"
+        }
+      ],
+      "must_preserve_ids": [
+        "f1"
+      ],
+      "must_remove_ids": [],
+      "allowed_actions": [
+        "CONTINUE"
+      ],
+      "requires_clarification": "unnecessary",
+      "rationale": "숫자 수정의 부정 범위가 분명하다.",
+      "verbatim_evidence": [
+        "1988년으로 고치지 마세요. 귀농한 해는 1998년이 맞습니다.",
+        "귀농은 1998년이에요. 1988년으로 고칠 일은 없어요."
+      ],
+      "family": "negated_correction",
+      "must_retire_versions": []
+    },
+    {
+      "case_id": "CT07",
+      "required_facts": [
+        {
+          "subject": "participant",
+          "relation": "workplace",
+          "value": "미래제과",
+          "time": "present"
+        }
+      ],
+      "forbidden_facts": [
+        {
+          "subject": "participant",
+          "relation": "workplace",
+          "value": "미래제약",
+          "time": "present"
+        }
+      ],
+      "must_preserve_ids": [
+        "f1"
+      ],
+      "must_remove_ids": [],
+      "allowed_actions": [
+        "CONTINUE"
+      ],
+      "requires_clarification": "unnecessary",
+      "rationale": "비슷한 이름을 언급해도 부정된 교체는 실행하면 안 된다.",
+      "verbatim_evidence": [
+        "아니요, 미래제약으로 바꾸지 않아요. 빵 만드는 미래제과가 맞아요.",
+        "미래제과 그대로예요. 미래제약으로 고치라는 뜻은 아니었어요."
+      ],
+      "family": "negated_correction",
+      "must_retire_versions": []
+    },
+    {
+      "case_id": "CT08",
+      "required_facts": [
+        {
+          "subject": "participant",
+          "relation": "hobby",
+          "value": "수채화",
+          "time": "present"
+        }
+      ],
+      "forbidden_facts": [
+        {
+          "subject": "participant",
+          "relation": "hobby",
+          "value": "유화",
+          "time": "present"
+        }
+      ],
+      "must_preserve_ids": [
+        "f1"
+      ],
+      "must_remove_ids": [],
+      "allowed_actions": [
+        "CONTINUE"
+      ],
+      "requires_clarification": "unnecessary",
+      "rationale": "음성 확인 질문에 대한 부정이 기존 값의 정당성을 확인한다.",
+      "verbatim_evidence": [
+        "유화가 아니라 수채화라고 했어요. 적힌 취미는 맞으니까 바꿀 필요 없어요.",
+        "수채화가 맞고 유화는 아니에요. 이미 맞게 적었으니 그냥 둬요."
+      ],
+      "family": "negated_correction",
+      "must_retire_versions": []
+    },
+    {
+      "case_id": "CT09",
+      "required_facts": [
+        {
+          "subject": "participant",
+          "relation": "event_year",
+          "value": "1977년",
+          "time": "past"
+        }
+      ],
+      "forbidden_facts": [
+        {
+          "subject": "participant",
+          "relation": "event_year",
+          "value": "1978년",
+          "time": "past"
+        }
+      ],
+      "must_preserve_ids": [
+        "f1"
+      ],
+      "must_remove_ids": [],
+      "allowed_actions": [
+        "CONTINUE"
+      ],
+      "requires_clarification": "unnecessary",
+      "rationale": "사진 판독 추측을 확정된 연도로 쓰지 않고 대화는 이어갈 수 있다.",
+      "verbatim_evidence": [
+        "사진 뒷면에는 1978년 같기도 하네요. 글씨가 흐려서 모르겠으니 취업 연도는 아직 고치지 마요.",
+        "1978년이라고 보이기도 하는데 번져서 확실치 않아요. 첫 취업 연도 수정은 나중에 해요."
+      ],
+      "family": "reported_uncertain_correction",
+      "must_retire_versions": []
+    },
+    {
+      "case_id": "CT10",
+      "required_facts": [
+        {
+          "subject": "participant",
+          "relation": "learned_from",
+          "value": "장 선생님",
+          "time": "past"
+        }
+      ],
+      "forbidden_facts": [
+        {
+          "subject": "participant",
+          "relation": "learned_from",
+          "value": "강 선생님",
+          "time": "past"
+        }
+      ],
+      "must_preserve_ids": [
+        "f1"
+      ],
+      "must_remove_ids": [],
+      "allowed_actions": [
+        "CONTINUE"
+      ],
+      "requires_clarification": "unnecessary",
+      "rationale": "다른 사람의 기억은 현재 저장 사실을 교체할 확정 진술이 아니다.",
+      "verbatim_evidence": [
+        "동창은 강 선생님이라고 기억한대요. 누구 기억이 맞는지 모르니 선생님 이름은 보류해요.",
+        "강 선생님이었다고 동창은 그러네요. 아직 모르겠어요, 배운 분 기록은 건드리지 마요."
+      ],
+      "family": "reported_uncertain_correction",
+      "must_retire_versions": []
+    },
+    {
+      "case_id": "CT11",
+      "required_facts": [
+        {
+          "subject": "participant",
+          "relation": "travel_destination",
+          "value": "속초",
+          "time": "past"
+        }
+      ],
+      "forbidden_facts": [
+        {
+          "subject": "participant",
+          "relation": "travel_destination",
+          "value": "삼척",
+          "time": "past"
+        }
+      ],
+      "must_preserve_ids": [
+        "f1"
+      ],
+      "must_remove_ids": [],
+      "allowed_actions": [
+        "CONTINUE"
+      ],
+      "requires_clarification": "unnecessary",
+      "rationale": "작년 여행에 대한 의문·전언을 교체 사실로 승격하지 않는다.",
+      "verbatim_evidence": [
+        "딸은 그때 간 데가 삼척일 거라는데 저는 가물가물해요. 여행지 고치지는 말고 사진부터 볼게요.",
+        "삼척에 간 거 아니냐고 딸이 묻더라고요. 저는 모르겠으니 속초 기록은 일단 두세요."
+      ],
+      "family": "reported_uncertain_correction",
+      "must_retire_versions": []
+    },
+    {
+      "case_id": "CT12",
+      "required_facts": [
+        {
+          "subject": "participant",
+          "relation": "shop_name",
+          "value": "다솜꽃집",
+          "time": "past"
+        }
+      ],
+      "forbidden_facts": [
+        {
+          "subject": "participant",
+          "relation": "shop_name",
+          "value": "다온꽃집",
+          "time": "past"
+        }
+      ],
+      "must_preserve_ids": [
+        "f1"
+      ],
+      "must_remove_ids": [],
+      "allowed_actions": [
+        "CONTINUE"
+      ],
+      "requires_clarification": "unnecessary",
+      "rationale": "상호의 불확실한 전언과 확인 유예를 구분한다.",
+      "verbatim_evidence": [
+        "동네 사람은 다온꽃집이라 했던 것 같대요. 간판 사진을 보기 전엔 이름을 바꾸지 말아요.",
+        "다온꽃집이었을 거라는 말도 들었는데 아직 확실치 않아요. 옛 가게 이름은 그대로 둬요."
+      ],
+      "family": "reported_uncertain_correction",
+      "must_retire_versions": []
+    },
+    {
+      "case_id": "CT13",
+      "required_facts": [
+        {
+          "subject": "participant",
+          "relation": "hobby",
+          "value": "등산",
+          "time": "present"
+        },
+        {
+          "subject": "준호",
+          "relation": "hobby",
+          "value": "낚시",
+          "time": "present"
+        }
+      ],
+      "forbidden_facts": [
+        {
+          "subject": "participant",
+          "relation": "hobby",
+          "value": "낚시",
+          "time": "present"
+        }
+      ],
+      "must_preserve_ids": [
+        "f1"
+      ],
+      "must_remove_ids": [],
+      "allowed_actions": [
+        "CONTINUE"
+      ],
+      "requires_clarification": "unnecessary",
+      "rationale": "사람별 취미를 별개로 보관해야 하는 추가다.",
+      "verbatim_evidence": [
+        "남편 준호는 낚시가 취미예요. 나는 여전히 등산이고 준호 취미만 낚시로 추가해 줘요.",
+        "준호가 좋아하는 건 낚시고 제 취미는 등산이에요. 남편 준호의 취미를 적어 주세요."
+      ],
+      "family": "wrong_subject",
+      "must_retire_versions": []
+    },
+    {
+      "case_id": "CT14",
+      "required_facts": [
+        {
+          "subject": "participant",
+          "relation": "birthplace",
+          "value": "전주",
+          "time": "past"
+        },
+        {
+          "subject": "순자",
+          "relation": "birthplace",
+          "value": "임실",
+          "time": "past"
+        }
+      ],
+      "forbidden_facts": [
+        {
+          "subject": "participant",
+          "relation": "birthplace",
+          "value": "임실",
+          "time": "past"
+        }
+      ],
+      "must_preserve_ids": [
+        "f1"
+      ],
+      "must_remove_ids": [],
+      "allowed_actions": [
+        "CONTINUE"
+      ],
+      "requires_clarification": "unnecessary",
+      "rationale": "어머니에 대한 단정적 가족 진술은 다른 주체의 출생지 추가다.",
+      "verbatim_evidence": [
+        "어머니 순자는 임실에서 태어났대요. 제 출생지는 전주 그대로고 순자 출생지를 임실로 적어요.",
+        "임실에서 태어난 분은 어머니 순자예요. 순자 정보로 기록하고 제 출생지는 바꾸지 마세요."
+      ],
+      "family": "wrong_subject",
+      "must_retire_versions": []
+    },
+    {
+      "case_id": "CT15",
+      "required_facts": [
+        {
+          "subject": "participant",
+          "relation": "workplace",
+          "value": "새봄도서관",
+          "time": "present"
+        },
+        {
+          "subject": "도윤",
+          "relation": "workplace",
+          "value": "대한우편",
+          "time": "present"
+        }
+      ],
+      "forbidden_facts": [
+        {
+          "subject": "participant",
+          "relation": "workplace",
+          "value": "대한우편",
+          "time": "present"
+        }
+      ],
+      "must_preserve_ids": [
+        "f1"
+      ],
+      "must_remove_ids": [],
+      "allowed_actions": [
+        "CONTINUE"
+      ],
+      "requires_clarification": "unnecessary",
+      "rationale": "직장 이름 자체보다 주체의 분리가 정정 오작동을 막는다.",
+      "verbatim_evidence": [
+        "아들 도윤은 대한우편에서 일해요. 대한우편은 도윤 직장으로 저장해 주세요, 제 직장 아니고요.",
+        "저 말고 도윤이 대한우편에 다닙니다. 아들 도윤의 직장 정보로 추가해요."
+      ],
+      "family": "wrong_subject",
+      "must_retire_versions": []
+    },
+    {
+      "case_id": "CT16",
+      "required_facts": [
+        {
+          "subject": "participant",
+          "relation": "learned_from",
+          "value": "박 사범님",
+          "time": "past"
+        },
+        {
+          "subject": "영숙",
+          "relation": "learned_from",
+          "value": "이 사범님",
+          "time": "past"
+        }
+      ],
+      "forbidden_facts": [
+        {
+          "subject": "participant",
+          "relation": "learned_from",
+          "value": "이 사범님",
+          "time": "past"
+        }
+      ],
+      "must_preserve_ids": [
+        "f1"
+      ],
+      "must_remove_ids": [],
+      "allowed_actions": [
+        "CONTINUE"
+      ],
+      "requires_clarification": "unnecessary",
+      "rationale": "같은 관계라도 사람이 달라 기존 사실의 대체가 아니다.",
+      "verbatim_evidence": [
+        "동생 영숙은 이 사범님께 배웠어요. 영숙이 배운 분으로 남기고 제 기록은 놔두세요.",
+        "이 사범님한테 배운 사람은 영숙이에요. 동생 영숙의 선생님만 추가해 줘요."
+      ],
+      "family": "wrong_subject",
+      "must_retire_versions": []
+    },
+    {
+      "case_id": "CT17",
+      "required_facts": [
+        {
+          "subject": "participant",
+          "relation": "workplace",
+          "value": "호수식당",
+          "time": "present"
+        },
+        {
+          "subject": "participant",
+          "relation": "workplace",
+          "value": "중앙인쇄소",
+          "time": "past"
+        }
+      ],
+      "forbidden_facts": [
+        {
+          "subject": "participant",
+          "relation": "workplace",
+          "value": "중앙인쇄소",
+          "time": "present"
+        }
+      ],
+      "must_preserve_ids": [
+        "f1"
+      ],
+      "must_remove_ids": [],
+      "allowed_actions": [
+        "CONTINUE"
+      ],
+      "requires_clarification": "unnecessary",
+      "rationale": "현재 직장을 보존하면서 과거 경력만 추가한다.",
+      "verbatim_evidence": [
+        "지금 말고 예전에는 중앙인쇄소에서 일했어요. 과거 직장에 중앙인쇄소를 넣어 줘요.",
+        "호수식당 전에 중앙인쇄소를 다녔어요. 옛 직장으로 추가해 주세요."
+      ],
+      "family": "temporal_distinction",
+      "must_retire_versions": []
+    },
+    {
+      "case_id": "CT18",
+      "required_facts": [
+        {
+          "subject": "participant",
+          "relation": "preferred_contact",
+          "value": "영상통화",
+          "time": "present"
+        },
+        {
+          "subject": "participant",
+          "relation": "preferred_contact",
+          "value": "편지",
+          "time": "past"
+        }
+      ],
+      "forbidden_facts": [
+        {
+          "subject": "participant",
+          "relation": "preferred_contact",
+          "value": "편지",
+          "time": "present"
+        }
+      ],
+      "must_preserve_ids": [
+        "f1"
+      ],
+      "must_remove_ids": [],
+      "allowed_actions": [
+        "CONTINUE"
+      ],
+      "requires_clarification": "unnecessary",
+      "rationale": "시대별 선호의 차이는 오기 수정이 아니다.",
+      "verbatim_evidence": [
+        "휴대폰 없던 때는 편지가 좋았어요. 옛날 선호로 편지를 남겨요. 지금 영상통화는 바꾸지 말고요.",
+        "예전에는 편지를 좋아했어요. 그건 과거 이야기로 기록하고 지금 연락 방식은 그대로요."
+      ],
+      "family": "temporal_distinction",
+      "must_retire_versions": []
+    },
+    {
+      "case_id": "CT19",
+      "required_facts": [
+        {
+          "subject": "participant",
+          "relation": "meeting_place",
+          "value": "은행나무공원",
+          "time": "present"
+        },
+        {
+          "subject": "participant",
+          "relation": "meeting_place",
+          "value": "기차역광장",
+          "time": "past"
+        }
+      ],
+      "forbidden_facts": [
+        {
+          "subject": "participant",
+          "relation": "meeting_place",
+          "value": "기차역광장",
+          "time": "present"
+        }
+      ],
+      "must_preserve_ids": [
+        "f1"
+      ],
+      "must_remove_ids": [],
+      "allowed_actions": [
+        "CONTINUE"
+      ],
+      "requires_clarification": "unnecessary",
+      "rationale": "같은 모임의 과거 장소와 현재 장소가 동시에 참일 수 있다.",
+      "verbatim_evidence": [
+        "한참 전에는 기차역광장에서 모였어요. 지금 장소는 그대로 두고 과거 모임 장소에 기차역광장을 적어 줘요.",
+        "예전 모임은 기차역광장에서 했어요. 옛 장소로만 추가하고 현재 모임 기록은 놔둬요."
+      ],
+      "family": "temporal_distinction",
+      "must_retire_versions": []
+    },
+    {
+      "case_id": "CT20",
+      "required_facts": [
+        {
+          "subject": "participant",
+          "relation": "hobby",
+          "value": "탁구",
+          "time": "present"
+        },
+        {
+          "subject": "participant",
+          "relation": "hobby",
+          "value": "우표수집",
+          "time": "past"
+        }
+      ],
+      "forbidden_facts": [
+        {
+          "subject": "participant",
+          "relation": "hobby",
+          "value": "우표수집",
+          "time": "present"
+        }
+      ],
+      "must_preserve_ids": [
+        "f1"
+      ],
+      "must_remove_ids": [],
+      "allowed_actions": [
+        "CONTINUE"
+      ],
+      "requires_clarification": "unnecessary",
+      "rationale": "과거 취미를 현재 취미 교체로 해석하지 않는다.",
+      "verbatim_evidence": [
+        "어릴 땐 우표수집을 했지요. 지금 탁구는 그대로고 어릴 때 취미로 우표수집을 추가해요.",
+        "우표수집은 어린 시절 취미예요. 과거 취미에 적고 요즘 탁구 기록은 유지해요."
+      ],
+      "family": "temporal_distinction",
+      "must_retire_versions": []
+    },
+    {
+      "case_id": "CT21",
+      "required_facts": [
+        {
+          "subject": "participant",
+          "relation": "shop_name",
+          "value": "남산문구",
+          "time": "present"
+        }
+      ],
+      "forbidden_facts": [
+        {
+          "subject": "participant",
+          "relation": "shop_name",
+          "value": "남강문구",
+          "time": "present"
+        },
+        {
+          "subject": "participant",
+          "relation": "shop_name",
+          "value": "남광문구",
+          "time": "present"
+        }
+      ],
+      "must_preserve_ids": [
+        "f1"
+      ],
+      "must_remove_ids": [],
+      "allowed_actions": [
+        "CLARIFY"
+      ],
+      "requires_clarification": "required",
+      "rationale": "새 명함의 핵심 필드가 상충하므로 정확한 상호 확인이 필요하다.",
+      "verbatim_evidence": [
+        "상호를 바꿨어요. 이제 남강문구로 고쳐 적어요.",
+        "상호를 바꿨어요. 이제 남광문구로 고쳐 적어요."
+      ],
+      "family": "conflicting_transcript_alternatives",
+      "must_retire_versions": []
+    },
+    {
+      "case_id": "CT22",
+      "required_facts": [
+        {
+          "subject": "participant",
+          "relation": "event_year",
+          "value": "1982년",
+          "time": "past"
+        }
+      ],
+      "forbidden_facts": [
+        {
+          "subject": "participant",
+          "relation": "event_year",
+          "value": "1984년",
+          "time": "past"
+        },
+        {
+          "subject": "participant",
+          "relation": "event_year",
+          "value": "1985년",
+          "time": "past"
+        }
+      ],
+      "must_preserve_ids": [
+        "f1"
+      ],
+      "must_remove_ids": [],
+      "allowed_actions": [
+        "CLARIFY"
+      ],
+      "requires_clarification": "required",
+      "rationale": "연표 정정 과업에 필요한 연도가 갈려 지금은 어느 것도 확정할 수 없다.",
+      "verbatim_evidence": [
+        "그때 말한 연도 틀렸어요. 결혼은 1984년이니까 고쳐요.",
+        "그때 말한 연도 틀렸어요. 결혼은 1985년이니까 고쳐요."
+      ],
+      "family": "conflicting_transcript_alternatives",
+      "must_retire_versions": []
+    },
+    {
+      "case_id": "CT23",
+      "required_facts": [
+        {
+          "subject": "participant",
+          "relation": "hobby",
+          "value": "뜨개질",
+          "time": "present"
+        }
+      ],
+      "forbidden_facts": [
+        {
+          "subject": "participant",
+          "relation": "travel_destination",
+          "value": "통영",
+          "time": "past"
+        },
+        {
+          "subject": "participant",
+          "relation": "travel_destination",
+          "value": "동해",
+          "time": "past"
+        }
+      ],
+      "must_preserve_ids": [
+        "f1"
+      ],
+      "must_remove_ids": [],
+      "allowed_actions": [
+        "CONTINUE"
+      ],
+      "requires_clarification": "unnecessary",
+      "rationale": "여행지 차이는 느낌을 듣는 현재 대화를 바꾸지 않아 확인 질문을 강제하지 않는다.",
+      "verbatim_evidence": [
+        "통영을 다녀오니 바다를 봐서 속이 시원했어요. 어디 갔는지 기록은 나중에 하고 느낌 얘기만 해요.",
+        "동해를 다녀오니 바다를 봐서 속이 시원했어요. 어디 갔는지 기록은 나중에 하고 느낌 얘기만 해요."
+      ],
+      "family": "conflicting_transcript_alternatives",
+      "must_retire_versions": []
+    },
+    {
+      "case_id": "CT24",
+      "required_facts": [
+        {
+          "subject": "participant",
+          "relation": "preferred_contact",
+          "value": "문자",
+          "time": "present"
+        }
+      ],
+      "forbidden_facts": [],
+      "must_preserve_ids": [
+        "f1"
+      ],
+      "must_remove_ids": [],
+      "allowed_actions": [
+        "CONTINUE"
+      ],
+      "requires_clarification": "unnecessary",
+      "rationale": "우연히 갈리는 이름은 현재의 감정 대화를 바꾸지 않으며 기억 후보도 아니다.",
+      "verbatim_evidence": [
+        "예린이를 만나니 참 반갑더라고요. 이름을 적을 건 아니고 반가웠던 이야기만 할게요.",
+        "혜린이를 만나니 참 반갑더라고요. 이름을 적을 건 아니고 반가웠던 이야기만 할게요."
+      ],
+      "family": "conflicting_transcript_alternatives",
+      "must_retire_versions": []
+    },
+    {
+      "case_id": "CT25",
+      "required_facts": [
+        {
+          "subject": "participant",
+          "relation": "birthplace",
+          "value": "진주",
+          "time": "past"
+        },
+        {
+          "subject": "participant",
+          "relation": "workplace",
+          "value": "솔빛양조장",
+          "time": "present"
+        }
+      ],
+      "forbidden_facts": [],
+      "must_preserve_ids": [
+        "f1"
+      ],
+      "must_remove_ids": [],
+      "allowed_actions": [
+        "CONTINUE"
+      ],
+      "requires_clarification": "unnecessary",
+      "rationale": "종결어미와 머뭇거림 차이는 현재 직장 해석을 바꾸지 않는다.",
+      "verbatim_evidence": [
+        "저는 솔빛양조장에서 일합니다. 직장으로 솔빛양조장을 적어 주세요.",
+        "저는요, 솔빛양조장에서 일해요. 직장으로 솔빛양조장을 적어 줘요."
+      ],
+      "family": "innocuous_equivalent_variants",
+      "must_retire_versions": []
+    },
+    {
+      "case_id": "CT26",
+      "required_facts": [
+        {
+          "subject": "participant",
+          "relation": "residence",
+          "value": "부천",
+          "time": "present"
+        },
+        {
+          "subject": "participant",
+          "relation": "learned_from",
+          "value": "오 선생님",
+          "time": "past"
+        }
+      ],
+      "forbidden_facts": [],
+      "must_preserve_ids": [
+        "f1"
+      ],
+      "must_remove_ids": [],
+      "allowed_actions": [
+        "CONTINUE"
+      ],
+      "requires_clarification": "unnecessary",
+      "rationale": "조사 차이를 넘어서 배운 사람과 시제가 같으므로 불필요한 확인이 없다.",
+      "verbatim_evidence": [
+        "기타는 오 선생님께 배웠어요. 오 선생님이라고 기억해 주세요.",
+        "기타를, 오 선생님한테 배웠어요. 오 선생님이라고 기억해 둬요."
+      ],
+      "family": "innocuous_equivalent_variants",
+      "must_retire_versions": []
+    },
+    {
+      "case_id": "CT27",
+      "required_facts": [
+        {
+          "subject": "participant",
+          "relation": "shop_name",
+          "value": "장미미용실",
+          "time": "past"
+        }
+      ],
+      "forbidden_facts": [],
+      "must_preserve_ids": [],
+      "must_remove_ids": [],
+      "allowed_actions": [
+        "CONTINUE"
+      ],
+      "requires_clarification": "unnecessary",
+      "rationale": "군더더기 유무와 조사 생략은 과거 가게 이름의 의미를 바꾸지 않는다.",
+      "verbatim_evidence": [
+        "예전에 장미미용실을 했어요. 옛 가게 이름으로 장미미용실을 남겨 줘요.",
+        "예전에요, 장미미용실 했어요. 옛날 가게 이름은 장미미용실로 남겨요."
+      ],
+      "family": "innocuous_equivalent_variants",
+      "must_retire_versions": []
+    },
+    {
+      "case_id": "CT28",
+      "required_facts": [
+        {
+          "subject": "participant",
+          "relation": "hobby",
+          "value": "합창",
+          "time": "present"
+        },
+        {
+          "subject": "participant",
+          "relation": "meeting_place",
+          "value": "문화마루",
+          "time": "present"
+        }
+      ],
+      "forbidden_facts": [],
+      "must_preserve_ids": [
+        "f1"
+      ],
+      "must_remove_ids": [],
+      "allowed_actions": [
+        "CONTINUE"
+      ],
+      "requires_clarification": "unnecessary",
+      "rationale": "호흡 경계가 달라도 같은 모임 장소를 안정적으로 기록할 수 있다.",
+      "verbatim_evidence": [
+        "정기 모임은 문화마루에서 해요. 모임 장소는 문화마루로 저장해요.",
+        "정기 모임이요, 문화마루에서 해요. 장소를 문화마루로 저장해 둬요."
+      ],
+      "family": "innocuous_equivalent_variants",
+      "must_retire_versions": []
+    },
+    {
+      "case_id": "CT29",
+      "required_facts": [
+        {
+          "subject": "participant",
+          "relation": "residence",
+          "value": "의정부",
+          "time": "present"
+        },
+        {
+          "subject": "participant",
+          "relation": "preferred_contact",
+          "value": "이메일",
+          "time": "present"
+        }
+      ],
+      "forbidden_facts": [],
+      "must_preserve_ids": [
+        "f1"
+      ],
+      "must_remove_ids": [],
+      "allowed_actions": [
+        "CONTINUE"
+      ],
+      "requires_clarification": "unnecessary",
+      "rationale": "거주지와 독립된 새 연락 선호 추가다.",
+      "verbatim_evidence": [
+        "연락은 이메일이 제일 좋아요. 선호하는 연락 방법으로 이메일을 기억해요.",
+        "저한테는 이메일이 편해요. 연락 선호를 이메일로 저장해 주세요."
+      ],
+      "family": "new_append",
+      "must_retire_versions": []
+    },
+    {
+      "case_id": "CT30",
+      "required_facts": [
+        {
+          "subject": "participant",
+          "relation": "hobby",
+          "value": "산책",
+          "time": "present"
+        },
+        {
+          "subject": "participant",
+          "relation": "travel_destination",
+          "value": "여수",
+          "time": "past"
+        }
+      ],
+      "forbidden_facts": [],
+      "must_preserve_ids": [
+        "f1"
+      ],
+      "must_remove_ids": [],
+      "allowed_actions": [
+        "CONTINUE"
+      ],
+      "requires_clarification": "unnecessary",
+      "rationale": "기존 취미를 보존하고 과거 여행지를 새로 기록한다.",
+      "verbatim_evidence": [
+        "지난 휴가에는 여수를 다녀왔어요. 여행지로 여수를 남겨 줘요.",
+        "휴가 때 여수에 갔지요. 지난 여행지에 여수를 적어 주세요."
+      ],
+      "family": "new_append",
+      "must_retire_versions": []
+    },
+    {
+      "case_id": "CT31",
+      "required_facts": [
+        {
+          "subject": "participant",
+          "relation": "workplace",
+          "value": "서안농장",
+          "time": "present"
+        },
+        {
+          "subject": "participant",
+          "relation": "event_year",
+          "value": "2003년",
+          "time": "past"
+        }
+      ],
+      "forbidden_facts": [],
+      "must_preserve_ids": [
+        "f1"
+      ],
+      "must_remove_ids": [],
+      "allowed_actions": [
+        "CONTINUE"
+      ],
+      "requires_clarification": "unnecessary",
+      "rationale": "직장 이름과 다른 관계인 개업 연도가 추가된다.",
+      "verbatim_evidence": [
+        "제가 농장을 연 건 2003년이에요. 개업 연도에 2003년을 적어요.",
+        "농장을 시작한 해는 2003년이죠. 그 연도를 기록해 주세요."
+      ],
+      "family": "new_append",
+      "must_retire_versions": []
+    },
+    {
+      "case_id": "CT32",
+      "required_facts": [
+        {
+          "subject": "participant",
+          "relation": "birthplace",
+          "value": "거창",
+          "time": "past"
+        },
+        {
+          "subject": "participant",
+          "relation": "shop_name",
+          "value": "푸른방앗간",
+          "time": "present"
+        }
+      ],
+      "forbidden_facts": [],
+      "must_preserve_ids": [
+        "f1"
+      ],
+      "must_remove_ids": [],
+      "allowed_actions": [
+        "CONTINUE"
+      ],
+      "requires_clarification": "unnecessary",
+      "rationale": "현재 가게 상호는 과거 출생 정보와 독립적으로 추가한다.",
+      "verbatim_evidence": [
+        "지금 하는 가게는 푸른방앗간이에요. 제 가게 이름으로 푸른방앗간을 저장해요.",
+        "제 가게 이름이 푸른방앗간입니다. 지금 상호로 적어 주세요."
+      ],
+      "family": "new_append",
+      "must_retire_versions": []
+    },
+    {
+      "case_id": "CT33",
+      "required_facts": [
+        {
+          "subject": "participant",
+          "relation": "hobby",
+          "value": "요가",
+          "time": "present"
+        }
+      ],
+      "forbidden_facts": [
+        {
+          "subject": "participant",
+          "relation": "travel_destination",
+          "value": "제주도",
+          "time": "past"
+        }
+      ],
+      "must_preserve_ids": [
+        "f1"
+      ],
+      "must_remove_ids": [],
+      "allowed_actions": [
+        "CONTINUE"
+      ],
+      "requires_clarification": "unnecessary",
+      "rationale": "여행 사실의 명료함과 별개로 명시적 비저장 요청을 따른다.",
+      "verbatim_evidence": [
+        "이번에 제주도에 다녀왔어요. 여행지 저장하지 말고 그냥 들어 줘요.",
+        "제주도 다녀온 얘기예요. 어디 갔는지는 기록하지 말고 들어만 주세요."
+      ],
+      "family": "withheld_unknown_permission",
+      "must_retire_versions": []
+    },
+    {
+      "case_id": "CT34",
+      "required_facts": [
+        {
+          "subject": "participant",
+          "relation": "workplace",
+          "value": "한빛우체국",
+          "time": "present"
+        }
+      ],
+      "forbidden_facts": [
+        {
+          "subject": "participant",
+          "relation": "residence",
+          "value": "오산",
+          "time": "present"
+        }
+      ],
+      "must_preserve_ids": [
+        "f1"
+      ],
+      "must_remove_ids": [],
+      "allowed_actions": [
+        "CLARIFY"
+      ],
+      "requires_clarification": "required",
+      "rationale": "사용자가 저장 여부를 먼저 질문하라고 명시해 허락 확인이 현재 행동이다.",
+      "verbatim_evidence": [
+        "지금 사는 곳은 오산이에요. 저장할지 말지는 먼저 나한테 물어봐 주세요.",
+        "거주지는 오산인데요. 그걸 기록해도 되는지부터 제게 물어봐요."
+      ],
+      "family": "withheld_unknown_permission",
+      "must_retire_versions": []
+    },
+    {
+      "case_id": "CT35",
+      "required_facts": [
+        {
+          "subject": "participant",
+          "relation": "preferred_contact",
+          "value": "우편",
+          "time": "present"
+        }
+      ],
+      "forbidden_facts": [
+        {
+          "subject": "participant",
+          "relation": "workplace",
+          "value": "새결공방",
+          "time": "present"
+        }
+      ],
+      "must_preserve_ids": [
+        "f1"
+      ],
+      "must_remove_ids": [],
+      "allowed_actions": [
+        "CONTINUE"
+      ],
+      "requires_clarification": "unnecessary",
+      "rationale": "저장 거부가 새 직장 정보에 적용되며 기존 연락 사실의 삭제는 요청하지 않았다.",
+      "verbatim_evidence": [
+        "요즘 일하는 곳은 새결공방이에요. 이건 대화로만 하고 저장은 하지 않겠습니다.",
+        "새결공방에서 일하고 있어요. 직장 정보는 안 남길게요, 얘기만 들어 주세요."
+      ],
+      "family": "withheld_unknown_permission",
+      "must_retire_versions": []
+    },
+    {
+      "case_id": "CT36",
+      "required_facts": [],
+      "forbidden_facts": [
+        {
+          "subject": "participant",
+          "relation": "birthplace",
+          "value": "김제",
+          "time": "past"
+        }
+      ],
+      "must_preserve_ids": [],
+      "must_remove_ids": [],
+      "allowed_actions": [
+        "CONTINUE"
+      ],
+      "requires_clarification": "unnecessary",
+      "rationale": "빈 DB와 미정 권한에서 비저장 대화가 맞으며 사실 추가 성공의 분모에 넣지 않는다.",
+      "verbatim_evidence": [
+        "김제에서 태어나기는 했어요. 그걸 남길지는 생각해 보고 지금은 이야기만 할래요.",
+        "태어난 데는 김제예요. 아직 기록은 결정 못했으니 지금은 말로만 해요."
+      ],
+      "family": "withheld_unknown_permission",
+      "must_retire_versions": []
+    },
+    {
+      "case_id": "CT37",
+      "required_facts": [
+        {
+          "subject": "participant",
+          "relation": "birthplace",
+          "value": "해남",
+          "time": "past"
+        }
+      ],
+      "forbidden_facts": [],
+      "must_preserve_ids": [
+        "f1"
+      ],
+      "must_remove_ids": [],
+      "allowed_actions": [
+        "SKIP"
+      ],
+      "requires_clarification": "unnecessary",
+      "rationale": "현재 화제만 거절하므로 전체 대화 중단과 구별한다.",
+      "verbatim_evidence": [
+        "학교 이야기는 하고 싶지 않아요. 그 주제는 건너뛰고 다른 얘기를 해요.",
+        "학교 얘기는 안 할래요. 그건 넘기고 다른 이야기로 가요."
+      ],
+      "family": "stopping_declining",
+      "must_retire_versions": []
+    },
+    {
+      "case_id": "CT38",
+      "required_facts": [
+        {
+          "subject": "participant",
+          "relation": "workplace",
+          "value": "해뜰상점",
+          "time": "present"
+        }
+      ],
+      "forbidden_facts": [],
+      "must_preserve_ids": [
+        "f1"
+      ],
+      "must_remove_ids": [],
+      "allowed_actions": [
+        "STOP"
+      ],
+      "requires_clarification": "unnecessary",
+      "rationale": "피곤함과 함께 명시적으로 통화 종료를 요청한다.",
+      "verbatim_evidence": [
+        "아니요, 피곤해서 이제 통화를 끝내고 싶어요. 기록도 더 하지 마세요.",
+        "피곤하네요. 오늘 통화는 종료해요. 새로 남길 것도 없어요."
+      ],
+      "family": "stopping_declining",
+      "must_retire_versions": []
+    },
+    {
+      "case_id": "CT39",
+      "required_facts": [
+        {
+          "subject": "participant",
+          "relation": "learned_from",
+          "value": "송 선생님",
+          "time": "past"
+        }
+      ],
+      "forbidden_facts": [],
+      "must_preserve_ids": [
+        "f1"
+      ],
+      "must_remove_ids": [],
+      "allowed_actions": [
+        "SKIP"
+      ],
+      "requires_clarification": "unnecessary",
+      "rationale": "민감한 하위 화제의 거절이며 알려진 스승 사실 철회가 아니다.",
+      "verbatim_evidence": [
+        "다툰 이야기는 빼요. 그 얘기는 싫고 배워서 즐거웠던 얘기로 넘어가요.",
+        "그 다툼은 이야기하지 않을래요. 대신 배우던 즐거운 얘기나 해요."
+      ],
+      "family": "stopping_declining",
+      "must_retire_versions": []
+    },
+    {
+      "case_id": "CT40",
+      "required_facts": [
+        {
+          "subject": "participant",
+          "relation": "meeting_place",
+          "value": "작은도서관",
+          "time": "present"
+        }
+      ],
+      "forbidden_facts": [],
+      "must_preserve_ids": [
+        "f1"
+      ],
+      "must_remove_ids": [],
+      "allowed_actions": [
+        "STOP"
+      ],
+      "requires_clarification": "unnecessary",
+      "rationale": "명시적인 전체 중단을 화제 전환이나 재확인으로 지연하지 않는다.",
+      "verbatim_evidence": [
+        "그만요. 다음 모임 얘기도 말고 오늘 대화를 완전히 끝내 주세요.",
+        "오늘은 완전히 끝낼게요. 모임 얘기도 멈추고 대화 종료해요."
+      ],
+      "family": "stopping_declining",
+      "must_retire_versions": []
+    },
+    {
+      "case_id": "CT41",
+      "required_facts": [
+        {
+          "subject": "participant",
+          "relation": "preferred_contact",
+          "value": "전화",
+          "time": "present"
+        },
+        {
+          "subject": "participant",
+          "relation": "shop_name",
+          "value": "달빛김밥",
+          "time": "present"
+        }
+      ],
+      "forbidden_facts": [
+        {
+          "subject": "participant",
+          "relation": "shop_name",
+          "value": "달빛분식",
+          "time": "present"
+        }
+      ],
+      "must_preserve_ids": [
+        "f2"
+      ],
+      "must_remove_ids": [],
+      "allowed_actions": [
+        "CONTINUE"
+      ],
+      "requires_clarification": "unnecessary",
+      "rationale": "변경된 상호만 대체하고 별개의 연락 선호는 보존한다.",
+      "verbatim_evidence": [
+        "가게 이름만 달빛김밥으로 바뀌었어요. 연락은 전화 그대로니까 상호만 고쳐요.",
+        "달빛김밥이 새 상호예요. 전화 연락은 맞고 가게 이름만 수정해요."
+      ],
+      "family": "multiple_facts_partial_scope",
+      "must_retire_versions": [
+        "f1"
+      ]
+    },
+    {
+      "case_id": "CT42",
+      "required_facts": [
+        {
+          "subject": "participant",
+          "relation": "workplace",
+          "value": "푸른세탁소",
+          "time": "present"
+        },
+        {
+          "subject": "participant",
+          "relation": "birthplace",
+          "value": "문경",
+          "time": "past"
+        }
+      ],
+      "forbidden_facts": [
+        {
+          "subject": "participant",
+          "relation": "birthplace",
+          "value": "충주",
+          "time": "past"
+        }
+      ],
+      "must_preserve_ids": [
+        "f2"
+      ],
+      "must_remove_ids": [],
+      "allowed_actions": [
+        "CONTINUE"
+      ],
+      "requires_clarification": "unnecessary",
+      "rationale": "과거 출생지를 정정하되 현재 직장을 수정하지 않는다.",
+      "verbatim_evidence": [
+        "출생지만 틀렸네요. 충주 말고 문경이에요. 푸른세탁소 다니는 건 맞아요. 문경으로 고쳐 줘요.",
+        "태어난 데는 문경이에요. 출생지를 바로잡고 직장 푸른세탁소는 그대로 두세요."
+      ],
+      "family": "multiple_facts_partial_scope",
+      "must_retire_versions": [
+        "f1"
+      ]
+    },
+    {
+      "case_id": "CT43",
+      "required_facts": [
+        {
+          "subject": "participant",
+          "relation": "hobby",
+          "value": "민요",
+          "time": "present"
+        },
+        {
+          "subject": "participant",
+          "relation": "meeting_place",
+          "value": "누리문화원",
+          "time": "present"
+        }
+      ],
+      "forbidden_facts": [
+        {
+          "subject": "participant",
+          "relation": "meeting_place",
+          "value": "해오름회관",
+          "time": "present"
+        }
+      ],
+      "must_preserve_ids": [
+        "f1"
+      ],
+      "must_remove_ids": [],
+      "allowed_actions": [
+        "CONTINUE"
+      ],
+      "requires_clarification": "unnecessary",
+      "rationale": "모임 장소의 정정이 취미 철회로 번지지 않아야 한다.",
+      "verbatim_evidence": [
+        "모임은 이제 누리문화원에서 해요. 장소만 바꿔요. 취미는 여전히 민요고요.",
+        "민요는 그대로 하는데 장소가 누리문화원으로 바뀌었어요. 모임 장소만 고쳐요."
+      ],
+      "family": "multiple_facts_partial_scope",
+      "must_retire_versions": [
+        "f2"
+      ]
+    },
+    {
+      "case_id": "CT44",
+      "required_facts": [
+        {
+          "subject": "participant",
+          "relation": "workplace",
+          "value": "봄날약국",
+          "time": "present"
+        },
+        {
+          "subject": "participant",
+          "relation": "preferred_contact",
+          "value": "문자",
+          "time": "present"
+        },
+        {
+          "subject": "participant",
+          "relation": "hobby",
+          "value": "자전거",
+          "time": "present"
+        }
+      ],
+      "forbidden_facts": [],
+      "must_preserve_ids": [
+        "f1",
+        "f2"
+      ],
+      "must_remove_ids": [],
+      "allowed_actions": [
+        "CONTINUE"
+      ],
+      "requires_clarification": "unnecessary",
+      "rationale": "여러 기존 사실을 확인하면서 새 취미만 추가하는 좁은 범위다.",
+      "verbatim_evidence": [
+        "직장은 맞고 연락도 문자 그대로예요. 취미로 자전거를 새로 추가해 주세요.",
+        "봄날약국도 문자도 맞아요. 둘 다 두고 제 취미 자전거만 더 적어요."
+      ],
+      "family": "multiple_facts_partial_scope",
+      "must_retire_versions": []
+    },
+    {
+      "case_id": "CT45",
+      "required_facts": [
+        {
+          "subject": "participant",
+          "relation": "event_year",
+          "value": "1993년",
+          "time": "past"
+        }
+      ],
+      "forbidden_facts": [
+        {
+          "subject": "participant",
+          "relation": "event_year",
+          "value": "1991년",
+          "time": "past"
+        }
+      ],
+      "must_preserve_ids": [],
+      "must_remove_ids": [],
+      "allowed_actions": [
+        "CONTINUE"
+      ],
+      "requires_clarification": "unnecessary",
+      "rationale": "축약된 연도 자기 수정을 직전의 개업 연도 항목으로 해석한다.",
+      "verbatim_evidence": [
+        "구십일, 아니 1993년이요. 방금 말한 건 지우고 연도는 1993년으로 고쳐요.",
+        "아니 잠깐, 1993년이에요. 개업 연도를 그걸로 바로잡아요."
+      ],
+      "family": "self_repair_contextual_ellipsis",
+      "must_retire_versions": [
+        "f1"
+      ]
+    },
+    {
+      "case_id": "CT46",
+      "required_facts": [
+        {
+          "subject": "participant",
+          "relation": "learned_from",
+          "value": "신 선생님",
+          "time": "past"
+        }
+      ],
+      "forbidden_facts": [
+        {
+          "subject": "participant",
+          "relation": "learned_from",
+          "value": "윤 선생님",
+          "time": "past"
+        }
+      ],
+      "must_preserve_ids": [],
+      "must_remove_ids": [],
+      "allowed_actions": [
+        "CONTINUE"
+      ],
+      "requires_clarification": "unnecessary",
+      "rationale": "말을 끊고 바로잡은 사람을 직전 질문의 배움 관계에 연결한다.",
+      "verbatim_evidence": [
+        "윤, 아니 신 선생님. 바느질 처음 배운 분은 신 선생님으로 고쳐 줘요.",
+        "아 그분 말고 신 선생님이요. 처음 가르쳐 준 분 이름을 신 선생님으로 고쳐요."
+      ],
+      "family": "self_repair_contextual_ellipsis",
+      "must_retire_versions": [
+        "f1"
+      ]
+    },
+    {
+      "case_id": "CT47",
+      "required_facts": [
+        {
+          "subject": "participant",
+          "relation": "residence",
+          "value": "구미",
+          "time": "present"
+        },
+        {
+          "subject": "participant",
+          "relation": "preferred_contact",
+          "value": "문자",
+          "time": "present"
+        }
+      ],
+      "forbidden_facts": [
+        {
+          "subject": "participant",
+          "relation": "preferred_contact",
+          "value": "이메일",
+          "time": "present"
+        }
+      ],
+      "must_preserve_ids": [
+        "f2"
+      ],
+      "must_remove_ids": [],
+      "allowed_actions": [
+        "CONTINUE"
+      ],
+      "requires_clarification": "unnecessary",
+      "rationale": "생략된 주어를 직전 연락 질문으로 복원하고 거주지는 보존한다.",
+      "verbatim_evidence": [
+        "이메일로, 아니 문자로요. 연락 방법만 문자로 바꿔요.",
+        "아 문자요, 이메일 말고요. 지금 물으신 연락 방법을 문자로 고쳐 주세요."
+      ],
+      "family": "self_repair_contextual_ellipsis",
+      "must_retire_versions": [
+        "f1"
+      ]
+    },
+    {
+      "case_id": "CT48",
+      "required_facts": [
+        {
+          "subject": "participant",
+          "relation": "meeting_place",
+          "value": "시민운동장",
+          "time": "present"
+        }
+      ],
+      "forbidden_facts": [
+        {
+          "subject": "participant",
+          "relation": "meeting_place",
+          "value": "체육공원",
+          "time": "present"
+        },
+        {
+          "subject": "participant",
+          "relation": "meeting_place",
+          "value": "체육관",
+          "time": "present"
+        }
+      ],
+      "must_preserve_ids": [],
+      "must_remove_ids": [],
+      "allowed_actions": [
+        "CONTINUE"
+      ],
+      "requires_clarification": "unnecessary",
+      "rationale": "중간 자기 수정을 폐기하고 명시적 최종 장소만 채택한다.",
+      "verbatim_evidence": [
+        "체육관, 아니 시민운동장이요. 아까 잘못 말했네요. 장소는 시민운동장으로 고쳐요.",
+        "아니, 시민운동장이에요. 체육관이라 한 건 잘못이고 모임 장소는 시민운동장으로 해요."
+      ],
+      "family": "self_repair_contextual_ellipsis",
+      "must_retire_versions": [
+        "f1"
+      ]
+    }
+  ]
+}

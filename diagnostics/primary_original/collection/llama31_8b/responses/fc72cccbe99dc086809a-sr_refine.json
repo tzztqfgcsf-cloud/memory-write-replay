@@ -1,0 +1,36 @@
+{
+  "call_id": "fc72cccbe99dc086809a-sr_refine",
+  "error_type": null,
+  "finish_reason": "stop",
+  "finished_unix": 1790491687.987226,
+  "latency_seconds": 11.6523,
+  "model_version": "mlx-community/Llama-3.1-8B-Instruct-4bit",
+  "raw_response": {
+    "base_seed": 20260927,
+    "finish_reason": "stop",
+    "generation_calls": 288,
+    "id": "local-5b42814cc3fd97fb9649687a",
+    "seed": 258707062,
+    "snapshot": "<LOCAL_PATH>",
+    "text": "{\"action\": {\"kind\": \"CONTINUE\", \"question_slot\": \"learned_from\", \"required_slots\": [\"learned_from\"], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"박 사범님\", \"영숙\"], \"fact\": {\"relation\": \"learned_from\", \"source_turns\": [\"t1\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"박 사범님\"}, \"operation\": \"APPEND\", \"slot\": \"learned_from\", \"source_turns\": [\"t1\"], \"target_fact_id\": null}, {\"alternatives\": [\"영숙\"], \"fact\": null, \"operation\": \"HOLD\", \"slot\": null, \"source_turns\": [\"t2\"], \"target_fact_id\": null}], \"reply\": \"동생 영숙은 이 사범님께 배웠어요. 영숙이 배운 분으로 남기고 제 기록은 놔두세요.\"}",
+    "usage": {
+      "cached_tokens": null,
+      "input_tokens": 2105,
+      "output_tokens": 206,
+      "reasoning_tokens": null,
+      "total_tokens": 2311
+    }
+  },
+  "request_sha256": "e033905ab91d0439d2cad3619ff0ff4a33a6a1886238fd1bad656a7f954a1727",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790491676.33461,
+  "status": "OK",
+  "text": "{\"action\": {\"kind\": \"CONTINUE\", \"question_slot\": \"learned_from\", \"required_slots\": [\"learned_from\"], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"박 사범님\", \"영숙\"], \"fact\": {\"relation\": \"learned_from\", \"source_turns\": [\"t1\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"박 사범님\"}, \"operation\": \"APPEND\", \"slot\": \"learned_from\", \"source_turns\": [\"t1\"], \"target_fact_id\": null}, {\"alternatives\": [\"영숙\"], \"fact\": null, \"operation\": \"HOLD\", \"slot\": null, \"source_turns\": [\"t2\"], \"target_fact_id\": null}], \"reply\": \"동생 영숙은 이 사범님께 배웠어요. 영숙이 배운 분으로 남기고 제 기록은 놔두세요.\"}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 2105,
+    "output_tokens": 206,
+    "reasoning_tokens": null,
+    "total_tokens": 2311
+  }
+}

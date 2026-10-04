@@ -1,0 +1,36 @@
+{
+  "call_id": "c002d5b380ff00644b7b-g_final",
+  "error_type": null,
+  "finish_reason": "stop",
+  "finished_unix": 1790489471.561841,
+  "latency_seconds": 10.3883,
+  "model_version": "mlx-community/Llama-3.1-8B-Instruct-4bit",
+  "raw_response": {
+    "base_seed": 20260927,
+    "finish_reason": "stop",
+    "generation_calls": 86,
+    "id": "local-10b9c576e5a34e28b109f9a2",
+    "seed": 4072142914,
+    "snapshot": "<LOCAL_PATH>",
+    "text": "{\"action\": {\"kind\": \"CONTINUE\", \"question_slot\": \"meeting_place\", \"required_slots\": [\"meeting_place\"], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"복지관\", \"시민회관\"], \"fact\": {\"relation\": \"meeting_place\", \"source_turns\": [\"t1\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"시민회관\"}, \"operation\": \"CORRECT\", \"slot\": \"meeting_place\", \"source_turns\": [\"t1\"], \"target_fact_id\": \"f1\"}], \"reply\": \"복지관으로 옮겼다는 말은 취소예요. 모임은 계속 시민회관이고 기록도 그대로요.\"}",
+    "usage": {
+      "cached_tokens": null,
+      "input_tokens": 1928,
+      "output_tokens": 161,
+      "reasoning_tokens": null,
+      "total_tokens": 2089
+    }
+  },
+  "request_sha256": "65721be7afc975c43949ca4934895a3270e18c50fecbbeabe9eb243ddfcd753d",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790489461.173048,
+  "status": "OK",
+  "text": "{\"action\": {\"kind\": \"CONTINUE\", \"question_slot\": \"meeting_place\", \"required_slots\": [\"meeting_place\"], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"복지관\", \"시민회관\"], \"fact\": {\"relation\": \"meeting_place\", \"source_turns\": [\"t1\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"시민회관\"}, \"operation\": \"CORRECT\", \"slot\": \"meeting_place\", \"source_turns\": [\"t1\"], \"target_fact_id\": \"f1\"}], \"reply\": \"복지관으로 옮겼다는 말은 취소예요. 모임은 계속 시민회관이고 기록도 그대로요.\"}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1928,
+    "output_tokens": 161,
+    "reasoning_tokens": null,
+    "total_tokens": 2089
+  }
+}

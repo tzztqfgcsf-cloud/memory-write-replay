@@ -1,0 +1,422 @@
+{
+  "extraction": {
+    "additionalProperties": false,
+    "properties": {
+      "beliefs": {
+        "items": {
+          "additionalProperties": false,
+          "properties": {
+            "candidate_id": {
+              "type": "string"
+            },
+            "facts": {
+              "items": {
+                "additionalProperties": false,
+                "properties": {
+                  "relation": {
+                    "enum": [
+                      "residence",
+                      "birthplace",
+                      "workplace",
+                      "learned_from",
+                      "hobby",
+                      "meeting_place",
+                      "preferred_contact",
+                      "event_year",
+                      "shop_name",
+                      "travel_destination"
+                    ],
+                    "type": "string"
+                  },
+                  "source_turns": {
+                    "items": {
+                      "enum": [
+                        "t1",
+                        "t2"
+                      ],
+                      "type": "string"
+                    },
+                    "type": "array"
+                  },
+                  "subject": {
+                    "type": "string"
+                  },
+                  "time": {
+                    "enum": [
+                      "past",
+                      "present",
+                      "unknown"
+                    ],
+                    "type": "string"
+                  },
+                  "value": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "relation",
+                  "source_turns",
+                  "subject",
+                  "time",
+                  "value"
+                ],
+                "type": "object"
+              },
+              "type": "array"
+            }
+          },
+          "required": [
+            "candidate_id",
+            "facts"
+          ],
+          "type": "object"
+        },
+        "type": "array"
+      },
+      "correction_witnesses": {
+        "items": {
+          "additionalProperties": false,
+          "properties": {
+            "candidate_id": {
+              "type": "string"
+            },
+            "evidence_quote": {
+              "type": "string"
+            },
+            "new_value": {
+              "type": "string"
+            },
+            "polarity": {
+              "enum": [
+                "absent",
+                "affirmed",
+                "negated",
+                "uncertain"
+              ],
+              "type": "string"
+            },
+            "relation": {
+              "enum": [
+                "residence",
+                "birthplace",
+                "workplace",
+                "learned_from",
+                "hobby",
+                "meeting_place",
+                "preferred_contact",
+                "event_year",
+                "shop_name",
+                "travel_destination"
+              ],
+              "type": "string"
+            },
+            "source_turn": {
+              "enum": [
+                "t1",
+                "t2"
+              ],
+              "type": "string"
+            },
+            "subject": {
+              "type": "string"
+            },
+            "target_fact_id": {
+              "type": "string"
+            },
+            "time": {
+              "enum": [
+                "past",
+                "present",
+                "unknown"
+              ],
+              "type": "string"
+            }
+          },
+          "required": [
+            "candidate_id",
+            "evidence_quote",
+            "new_value",
+            "polarity",
+            "relation",
+            "source_turn",
+            "subject",
+            "target_fact_id",
+            "time"
+          ],
+          "type": "object"
+        },
+        "type": "array"
+      }
+    },
+    "required": [
+      "beliefs",
+      "correction_witnesses"
+    ],
+    "type": "object"
+  },
+  "feedback": {
+    "additionalProperties": false,
+    "properties": {
+      "issues": {
+        "items": {
+          "additionalProperties": false,
+          "properties": {
+            "draft_location": {
+              "type": "string"
+            },
+            "evidence_location": {
+              "type": "string"
+            },
+            "problem": {
+              "type": "string"
+            },
+            "specific_revision": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "draft_location",
+            "evidence_location",
+            "problem",
+            "specific_revision"
+          ],
+          "type": "object"
+        },
+        "type": "array"
+      },
+      "no_change_needed": {
+        "type": "boolean"
+      }
+    },
+    "required": [
+      "no_change_needed",
+      "issues"
+    ],
+    "type": "object"
+  },
+  "final": {
+    "additionalProperties": false,
+    "properties": {
+      "action": {
+        "additionalProperties": false,
+        "properties": {
+          "kind": {
+            "enum": [
+              "CONTINUE",
+              "CLARIFY",
+              "SKIP",
+              "STOP"
+            ],
+            "type": "string"
+          },
+          "question_slot": {
+            "anyOf": [
+              {
+                "enum": [
+                  "residence",
+                  "birthplace",
+                  "workplace",
+                  "learned_from",
+                  "hobby",
+                  "meeting_place",
+                  "preferred_contact",
+                  "event_year",
+                  "shop_name",
+                  "travel_destination",
+                  "topic_permission",
+                  "stop_intent",
+                  "recipient",
+                  "destination",
+                  "message_content",
+                  "application_field",
+                  "meeting_time",
+                  "travel_date",
+                  "other"
+                ],
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "required_slots": {
+            "items": {
+              "enum": [
+                "residence",
+                "birthplace",
+                "workplace",
+                "learned_from",
+                "hobby",
+                "meeting_place",
+                "preferred_contact",
+                "event_year",
+                "shop_name",
+                "travel_destination",
+                "topic_permission",
+                "stop_intent",
+                "recipient",
+                "destination",
+                "message_content",
+                "application_field",
+                "meeting_time",
+                "travel_date",
+                "other"
+              ],
+              "type": "string"
+            },
+            "type": "array"
+          },
+          "speaker_id": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "kind",
+          "question_slot",
+          "required_slots",
+          "speaker_id"
+        ],
+        "type": "object"
+      },
+      "memory_decisions": {
+        "items": {
+          "additionalProperties": false,
+          "properties": {
+            "alternatives": {
+              "items": {
+                "type": "string"
+              },
+              "type": "array"
+            },
+            "fact": {
+              "anyOf": [
+                {
+                  "additionalProperties": false,
+                  "properties": {
+                    "relation": {
+                      "enum": [
+                        "residence",
+                        "birthplace",
+                        "workplace",
+                        "learned_from",
+                        "hobby",
+                        "meeting_place",
+                        "preferred_contact",
+                        "event_year",
+                        "shop_name",
+                        "travel_destination"
+                      ],
+                      "type": "string"
+                    },
+                    "source_turns": {
+                      "items": {
+                        "enum": [
+                          "t1",
+                          "t2"
+                        ],
+                        "type": "string"
+                      },
+                      "type": "array"
+                    },
+                    "subject": {
+                      "type": "string"
+                    },
+                    "time": {
+                      "enum": [
+                        "past",
+                        "present",
+                        "unknown"
+                      ],
+                      "type": "string"
+                    },
+                    "value": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "relation",
+                    "source_turns",
+                    "subject",
+                    "time",
+                    "value"
+                  ],
+                  "type": "object"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "operation": {
+              "enum": [
+                "APPEND",
+                "CORRECT",
+                "HOLD",
+                "NO_WRITE"
+              ],
+              "type": "string"
+            },
+            "slot": {
+              "anyOf": [
+                {
+                  "enum": [
+                    "residence",
+                    "birthplace",
+                    "workplace",
+                    "learned_from",
+                    "hobby",
+                    "meeting_place",
+                    "preferred_contact",
+                    "event_year",
+                    "shop_name",
+                    "travel_destination"
+                  ],
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "source_turns": {
+              "items": {
+                "enum": [
+                  "t1",
+                  "t2"
+                ],
+                "type": "string"
+              },
+              "type": "array"
+            },
+            "target_fact_id": {
+              "type": [
+                "string",
+                "null"
+              ]
+            }
+          },
+          "required": [
+            "alternatives",
+            "fact",
+            "operation",
+            "slot",
+            "source_turns",
+            "target_fact_id"
+          ],
+          "type": "object"
+        },
+        "type": "array"
+      },
+      "reply": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "reply",
+      "action",
+      "memory_decisions"
+    ],
+    "type": "object"
+  }
+}

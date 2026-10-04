@@ -1,0 +1,506 @@
+{
+  "status": "PARTIAL",
+  "models": {
+    "gemini-3.8-flash": {
+      "all": {
+        "completed": 22,
+        "planned": 48,
+        "callers": 21,
+        "policies": {
+          "RAW": {
+            "joint_goal_correct": 9,
+            "turns_with_new_wrong_write": 1,
+            "new_wrong_writes": 1,
+            "required_changes": 21,
+            "correct_changes": 8,
+            "all_required_changes_completed": 8,
+            "turns_requiring_change": 21
+          },
+          "AGREE": {
+            "joint_goal_correct": 3,
+            "turns_with_new_wrong_write": 0,
+            "new_wrong_writes": 0,
+            "required_changes": 21,
+            "correct_changes": 2,
+            "all_required_changes_completed": 2,
+            "turns_requiring_change": 21
+          },
+          "ALLOW": {
+            "joint_goal_correct": 9,
+            "turns_with_new_wrong_write": 1,
+            "new_wrong_writes": 1,
+            "required_changes": 21,
+            "correct_changes": 8,
+            "all_required_changes_completed": 8,
+            "turns_requiring_change": 21
+          },
+          "LITERAL": {
+            "joint_goal_correct": 3,
+            "turns_with_new_wrong_write": 0,
+            "new_wrong_writes": 0,
+            "required_changes": 21,
+            "correct_changes": 2,
+            "all_required_changes_completed": 2,
+            "turns_requiring_change": 21
+          },
+          "WITNESS": {
+            "joint_goal_correct": 3,
+            "turns_with_new_wrong_write": 0,
+            "new_wrong_writes": 0,
+            "required_changes": 21,
+            "correct_changes": 2,
+            "all_required_changes_completed": 2,
+            "turns_requiring_change": 21
+          }
+        },
+        "correct_proposals": 9,
+        "correct_holds": 7,
+        "append_holds": 0
+      },
+      "goal_revision": {
+        "completed": 10,
+        "planned": 24,
+        "callers": 10,
+        "policies": {
+          "RAW": {
+            "joint_goal_correct": 8,
+            "turns_with_new_wrong_write": 1,
+            "new_wrong_writes": 1,
+            "required_changes": 10,
+            "correct_changes": 8,
+            "all_required_changes_completed": 8,
+            "turns_requiring_change": 10
+          },
+          "AGREE": {
+            "joint_goal_correct": 2,
+            "turns_with_new_wrong_write": 0,
+            "new_wrong_writes": 0,
+            "required_changes": 10,
+            "correct_changes": 2,
+            "all_required_changes_completed": 2,
+            "turns_requiring_change": 10
+          },
+          "ALLOW": {
+            "joint_goal_correct": 8,
+            "turns_with_new_wrong_write": 1,
+            "new_wrong_writes": 1,
+            "required_changes": 10,
+            "correct_changes": 8,
+            "all_required_changes_completed": 8,
+            "turns_requiring_change": 10
+          },
+          "LITERAL": {
+            "joint_goal_correct": 2,
+            "turns_with_new_wrong_write": 0,
+            "new_wrong_writes": 0,
+            "required_changes": 10,
+            "correct_changes": 2,
+            "all_required_changes_completed": 2,
+            "turns_requiring_change": 10
+          },
+          "WITNESS": {
+            "joint_goal_correct": 2,
+            "turns_with_new_wrong_write": 0,
+            "new_wrong_writes": 0,
+            "required_changes": 10,
+            "correct_changes": 2,
+            "all_required_changes_completed": 2,
+            "turns_requiring_change": 10
+          }
+        },
+        "correct_proposals": 9,
+        "correct_holds": 7,
+        "append_holds": 0
+      },
+      "denial_without_explicit_replacement": {
+        "completed": 0,
+        "planned": 12,
+        "callers": 0,
+        "policies": {
+          "RAW": {
+            "joint_goal_correct": 0,
+            "turns_with_new_wrong_write": 0,
+            "new_wrong_writes": 0,
+            "required_changes": 0,
+            "correct_changes": 0,
+            "all_required_changes_completed": 0,
+            "turns_requiring_change": 0
+          },
+          "AGREE": {
+            "joint_goal_correct": 0,
+            "turns_with_new_wrong_write": 0,
+            "new_wrong_writes": 0,
+            "required_changes": 0,
+            "correct_changes": 0,
+            "all_required_changes_completed": 0,
+            "turns_requiring_change": 0
+          },
+          "ALLOW": {
+            "joint_goal_correct": 0,
+            "turns_with_new_wrong_write": 0,
+            "new_wrong_writes": 0,
+            "required_changes": 0,
+            "correct_changes": 0,
+            "all_required_changes_completed": 0,
+            "turns_requiring_change": 0
+          },
+          "LITERAL": {
+            "joint_goal_correct": 0,
+            "turns_with_new_wrong_write": 0,
+            "new_wrong_writes": 0,
+            "required_changes": 0,
+            "correct_changes": 0,
+            "all_required_changes_completed": 0,
+            "turns_requiring_change": 0
+          },
+          "WITNESS": {
+            "joint_goal_correct": 0,
+            "turns_with_new_wrong_write": 0,
+            "new_wrong_writes": 0,
+            "required_changes": 0,
+            "correct_changes": 0,
+            "all_required_changes_completed": 0,
+            "turns_requiring_change": 0
+          }
+        },
+        "correct_proposals": 0,
+        "correct_holds": 0,
+        "append_holds": 0
+      },
+      "reference_enriched_nbest": {
+        "completed": 12,
+        "planned": 12,
+        "callers": 11,
+        "policies": {
+          "RAW": {
+            "joint_goal_correct": 1,
+            "turns_with_new_wrong_write": 0,
+            "new_wrong_writes": 0,
+            "required_changes": 11,
+            "correct_changes": 0,
+            "all_required_changes_completed": 0,
+            "turns_requiring_change": 11
+          },
+          "AGREE": {
+            "joint_goal_correct": 1,
+            "turns_with_new_wrong_write": 0,
+            "new_wrong_writes": 0,
+            "required_changes": 11,
+            "correct_changes": 0,
+            "all_required_changes_completed": 0,
+            "turns_requiring_change": 11
+          },
+          "ALLOW": {
+            "joint_goal_correct": 1,
+            "turns_with_new_wrong_write": 0,
+            "new_wrong_writes": 0,
+            "required_changes": 11,
+            "correct_changes": 0,
+            "all_required_changes_completed": 0,
+            "turns_requiring_change": 11
+          },
+          "LITERAL": {
+            "joint_goal_correct": 1,
+            "turns_with_new_wrong_write": 0,
+            "new_wrong_writes": 0,
+            "required_changes": 11,
+            "correct_changes": 0,
+            "all_required_changes_completed": 0,
+            "turns_requiring_change": 11
+          },
+          "WITNESS": {
+            "joint_goal_correct": 1,
+            "turns_with_new_wrong_write": 0,
+            "new_wrong_writes": 0,
+            "required_changes": 11,
+            "correct_changes": 0,
+            "all_required_changes_completed": 0,
+            "turns_requiring_change": 11
+          }
+        },
+        "correct_proposals": 0,
+        "correct_holds": 0,
+        "append_holds": 0
+      }
+    },
+    "gemini-3.1-pro-preview": {
+      "all": {
+        "completed": 48,
+        "planned": 48,
+        "callers": 41,
+        "policies": {
+          "RAW": {
+            "joint_goal_correct": 33,
+            "turns_with_new_wrong_write": 3,
+            "new_wrong_writes": 3,
+            "required_changes": 36,
+            "correct_changes": 23,
+            "all_required_changes_completed": 23,
+            "turns_requiring_change": 36
+          },
+          "AGREE": {
+            "joint_goal_correct": 18,
+            "turns_with_new_wrong_write": 0,
+            "new_wrong_writes": 0,
+            "required_changes": 36,
+            "correct_changes": 6,
+            "all_required_changes_completed": 6,
+            "turns_requiring_change": 36
+          },
+          "ALLOW": {
+            "joint_goal_correct": 33,
+            "turns_with_new_wrong_write": 3,
+            "new_wrong_writes": 3,
+            "required_changes": 36,
+            "correct_changes": 23,
+            "all_required_changes_completed": 23,
+            "turns_requiring_change": 36
+          },
+          "LITERAL": {
+            "joint_goal_correct": 17,
+            "turns_with_new_wrong_write": 1,
+            "new_wrong_writes": 1,
+            "required_changes": 36,
+            "correct_changes": 6,
+            "all_required_changes_completed": 6,
+            "turns_requiring_change": 36
+          },
+          "WITNESS": {
+            "joint_goal_correct": 18,
+            "turns_with_new_wrong_write": 0,
+            "new_wrong_writes": 0,
+            "required_changes": 36,
+            "correct_changes": 6,
+            "all_required_changes_completed": 6,
+            "turns_requiring_change": 36
+          }
+        },
+        "correct_proposals": 28,
+        "correct_holds": 20,
+        "append_holds": 0
+      },
+      "goal_revision": {
+        "completed": 24,
+        "planned": 24,
+        "callers": 21,
+        "policies": {
+          "RAW": {
+            "joint_goal_correct": 20,
+            "turns_with_new_wrong_write": 1,
+            "new_wrong_writes": 1,
+            "required_changes": 24,
+            "correct_changes": 20,
+            "all_required_changes_completed": 20,
+            "turns_requiring_change": 24
+          },
+          "AGREE": {
+            "joint_goal_correct": 5,
+            "turns_with_new_wrong_write": 0,
+            "new_wrong_writes": 0,
+            "required_changes": 24,
+            "correct_changes": 5,
+            "all_required_changes_completed": 5,
+            "turns_requiring_change": 24
+          },
+          "ALLOW": {
+            "joint_goal_correct": 20,
+            "turns_with_new_wrong_write": 1,
+            "new_wrong_writes": 1,
+            "required_changes": 24,
+            "correct_changes": 20,
+            "all_required_changes_completed": 20,
+            "turns_requiring_change": 24
+          },
+          "LITERAL": {
+            "joint_goal_correct": 5,
+            "turns_with_new_wrong_write": 0,
+            "new_wrong_writes": 0,
+            "required_changes": 24,
+            "correct_changes": 5,
+            "all_required_changes_completed": 5,
+            "turns_requiring_change": 24
+          },
+          "WITNESS": {
+            "joint_goal_correct": 5,
+            "turns_with_new_wrong_write": 0,
+            "new_wrong_writes": 0,
+            "required_changes": 24,
+            "correct_changes": 5,
+            "all_required_changes_completed": 5,
+            "turns_requiring_change": 24
+          }
+        },
+        "correct_proposals": 22,
+        "correct_holds": 16,
+        "append_holds": 0
+      },
+      "denial_without_explicit_replacement": {
+        "completed": 12,
+        "planned": 12,
+        "callers": 12,
+        "policies": {
+          "RAW": {
+            "joint_goal_correct": 10,
+            "turns_with_new_wrong_write": 2,
+            "new_wrong_writes": 2,
+            "required_changes": 1,
+            "correct_changes": 1,
+            "all_required_changes_completed": 1,
+            "turns_requiring_change": 1
+          },
+          "AGREE": {
+            "joint_goal_correct": 12,
+            "turns_with_new_wrong_write": 0,
+            "new_wrong_writes": 0,
+            "required_changes": 1,
+            "correct_changes": 1,
+            "all_required_changes_completed": 1,
+            "turns_requiring_change": 1
+          },
+          "ALLOW": {
+            "joint_goal_correct": 10,
+            "turns_with_new_wrong_write": 2,
+            "new_wrong_writes": 2,
+            "required_changes": 1,
+            "correct_changes": 1,
+            "all_required_changes_completed": 1,
+            "turns_requiring_change": 1
+          },
+          "LITERAL": {
+            "joint_goal_correct": 11,
+            "turns_with_new_wrong_write": 1,
+            "new_wrong_writes": 1,
+            "required_changes": 1,
+            "correct_changes": 1,
+            "all_required_changes_completed": 1,
+            "turns_requiring_change": 1
+          },
+          "WITNESS": {
+            "joint_goal_correct": 12,
+            "turns_with_new_wrong_write": 0,
+            "new_wrong_writes": 0,
+            "required_changes": 1,
+            "correct_changes": 1,
+            "all_required_changes_completed": 1,
+            "turns_requiring_change": 1
+          }
+        },
+        "correct_proposals": 4,
+        "correct_holds": 2,
+        "append_holds": 0
+      },
+      "reference_enriched_nbest": {
+        "completed": 12,
+        "planned": 12,
+        "callers": 11,
+        "policies": {
+          "RAW": {
+            "joint_goal_correct": 3,
+            "turns_with_new_wrong_write": 0,
+            "new_wrong_writes": 0,
+            "required_changes": 11,
+            "correct_changes": 2,
+            "all_required_changes_completed": 2,
+            "turns_requiring_change": 11
+          },
+          "AGREE": {
+            "joint_goal_correct": 1,
+            "turns_with_new_wrong_write": 0,
+            "new_wrong_writes": 0,
+            "required_changes": 11,
+            "correct_changes": 0,
+            "all_required_changes_completed": 0,
+            "turns_requiring_change": 11
+          },
+          "ALLOW": {
+            "joint_goal_correct": 3,
+            "turns_with_new_wrong_write": 0,
+            "new_wrong_writes": 0,
+            "required_changes": 11,
+            "correct_changes": 2,
+            "all_required_changes_completed": 2,
+            "turns_requiring_change": 11
+          },
+          "LITERAL": {
+            "joint_goal_correct": 1,
+            "turns_with_new_wrong_write": 0,
+            "new_wrong_writes": 0,
+            "required_changes": 11,
+            "correct_changes": 0,
+            "all_required_changes_completed": 0,
+            "turns_requiring_change": 11
+          },
+          "WITNESS": {
+            "joint_goal_correct": 1,
+            "turns_with_new_wrong_write": 0,
+            "new_wrong_writes": 0,
+            "required_changes": 11,
+            "correct_changes": 0,
+            "all_required_changes_completed": 0,
+            "turns_requiring_change": 11
+          }
+        },
+        "correct_proposals": 2,
+        "correct_holds": 2,
+        "append_holds": 0
+      }
+    }
+  },
+  "collection": {
+    "attempts": 142,
+    "responses": 142,
+    "valid_stages": 141,
+    "completed_pairs": 70,
+    "system_failures": [],
+    "stopped_models": [
+      "gemini-3.8-flash"
+    ],
+    "conservative_usage_usd": 3.114354000000001,
+    "reserved_usd": -1.942890293094024e-16,
+    "stop_all": false,
+    "status": "PARTIAL",
+    "elapsed_seconds": 1492.4836722656619,
+    "hash_drift": [],
+    "owned_processes_alive": 0,
+    "inherited_attempts": 19,
+    "inherited_responses": 19,
+    "initialization_repair": "Initialize backends serially before worker threads; only never-requested stages.",
+    "all_frozen_files": 610,
+    "all_hash_drift": [],
+    "duplicate_requests": 0,
+    "duplicate_pairs": 0,
+    "success_replacements": 0,
+    "total_cap": 192,
+    "maximum_attempts_respected": true,
+    "initialization_failure_repaired": true
+  },
+  "hold_reasons": {
+    "gemini-3.8-flash": {
+      "partial_reading_support_or_omission": 6,
+      "different_extracted_values_across_real_asr": 1
+    },
+    "gemini-3.1-pro-preview": {
+      "different_extracted_values_across_real_asr": 10,
+      "partial_reading_support_or_omission": 10
+    }
+  },
+  "new_training": 0,
+  "old_results_rewritten": 0,
+  "carecall": "BLOCKED_missing_human_operation_labels_and_full_Korean_access",
+  "scoring": "Exact 3-slot component goal; transport missing not zero. Invalid outputs reported as system failures separate from valid paired policy table.",
+  "system_failures": [],
+  "sources": [
+    "https://github.com/matthen/dstc",
+    "https://aclanthology.org/W14-4337/",
+    "https://github.com/naver-ai/carecall-memory",
+    "https://aclanthology.org/2022.findings-emnlp.276/"
+  ],
+  "limitations": [
+    "English crowdworker restaurant goal revisions, not senior autobiographical corrections",
+    "Reference-enriched12 selected using label BEFORE output, separate descriptive stratum",
+    "Prior human-derived state supplied: component diagnostic, not end-to-end tracking",
+    "No native clarification/consent gold; do not score action correctness",
+    "One repeat per new external case; retrospective exploratory supplement",
+    "Equal-candidate gates do not use ASR likelihood weights"
+  ]
+}

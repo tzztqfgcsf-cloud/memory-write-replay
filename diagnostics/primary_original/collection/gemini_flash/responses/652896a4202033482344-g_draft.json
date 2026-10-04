@@ -1,0 +1,57 @@
+{
+  "call_id": "652896a4202033482344-g_draft",
+  "finish_reason": "STOP",
+  "finished_unix": 1790494151.41897,
+  "http_status": 200,
+  "latency_seconds": 1.2544,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.0198242844049655,
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"reply\": \"네, 푸른방앗간으로 기억해 둘게요.\",\n  \"action\": {\n    \"kind\": \"CONTINUE\",\n    \"question_slot\": null,\n    \"required_slots\": [],\n    \"speaker_id\": \"p1\"\n  },\n  \"memory_decisions\": [\n    {\n      \"alternatives\": [],\n      \"fact\": {\n        \"relation\": \"shop_name\",\n        \"source_turns\": [\n          \"t2\"\n        ],\n        \"subject\": \"participant\",\n        \"time\": \"present\",\n        \"value\": \"푸른방앗간\"\n      },\n      \"operation\": \"APPEND\",\n      \"slot\": null,\n      \"source_turns\": [\n        \"t2\"\n      ],\n      \"target_fact_id\": null\n    }\n  ]\n}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T07:29:10.285251Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "xsW4asO0EfGancoP76ybiQ0",
+    "usageMetadata": {
+      "candidatesTokenCount": 199,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 199
+        }
+      ],
+      "promptTokenCount": 1684,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1684
+        }
+      ],
+      "totalTokenCount": 1883,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "2fa95e16e7aa773b6714718c785b68e7f77888ed2b6e2c3641d1579f1abb1ecf",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790494150.164139,
+  "status": "OK",
+  "text": "{\n  \"reply\": \"네, 푸른방앗간으로 기억해 둘게요.\",\n  \"action\": {\n    \"kind\": \"CONTINUE\",\n    \"question_slot\": null,\n    \"required_slots\": [],\n    \"speaker_id\": \"p1\"\n  },\n  \"memory_decisions\": [\n    {\n      \"alternatives\": [],\n      \"fact\": {\n        \"relation\": \"shop_name\",\n        \"source_turns\": [\n          \"t2\"\n        ],\n        \"subject\": \"participant\",\n        \"time\": \"present\",\n        \"value\": \"푸른방앗간\"\n      },\n      \"operation\": \"APPEND\",\n      \"slot\": null,\n      \"source_turns\": [\n        \"t2\"\n      ],\n      \"target_fact_id\": null\n    }\n  ]\n}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1684,
+    "output_tokens": 199,
+    "reasoning_tokens": 0,
+    "total_tokens": 1883
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "call_id": "c19e522ac5ffa7b54c1f-sr_feedback",
+  "finish_reason": "MAX_TOKENS",
+  "finished_unix": 1790490311.949091,
+  "http_status": 200,
+  "latency_seconds": 2.7481,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.13534539937973022,
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"no_change_needed\": false,\n  \"issues\": [\n    {\n      \"draft_location\": \"memory_decisions[0].operation\",\n      \"evidence_location\": \"db_snapshot.facts[0]\",\n      \"problem\": \"The user is explicitly correcting a previously stored fact. The operation should be 'CORRECT' instead of 'HOLD'.\",\n      \"specific_revision\": \"Change 'HOLD' to 'CORRECT'.\"\n    },\n    {\n      \"draft_location\": \"memory_decisions[0].fact\",\n      \"evidence_location\": \"candidates[0].text\",\n      \"problem\": \"When correcting a fact, the 'fact' field should contain the new value. The user states '강 선생님' as the potential new value.\",\n      \"specific_revision\": \"Add 'fact': {'subject': 'participant', 'relation': 'learned_from', 'value': '강 선생님', 'time': 'past'}.\"\n    },\n    {\n      \"draft_location\": \"memory_decisions[0].target_fact_id\",\n      \"evidence_location\": \"db_snapshot.facts[0].fact_id\",\n      \"problem\": \"When correcting a fact, 'target_fact_id' must refer to the fact being corrected. The user is correcting 'f1'.\",\n      \"specific_revision\": \"Set 'target_fact_id' to 'f1'.\"\n    },\n    {\n      \"draft_location\": \"memory_decisions[0].alternatives\",\n      \"evidence_location\": \"candidates\",\n      \"problem\": \"Alternatives should only contain the differing parts of the candidates, not full sentences. Also, '강 선생님' is the value to be corrected to, not an alternative to hold.\",\n      \"specific_revision\": \"Remove 'alternatives' field as it's not needed for CORRECT operation, or if holding, should be more precise.\"\n    },\n    {\n      \"draft_location\": \"memory_decisions[0].slot\",\n      \"evidence_location\": \"none available\",\n      \"problem\": \"The 'slot' field is not applicable for 'CORRECT' operations. It is used for 'HOLD' to indicate the relationship being held.\",\n      \"specific_revision\": \"Remove the 'slot' field.\"\n    },\n"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "MAX_TOKENS"
+      }
+    ],
+    "createTime": "2026-09-27T06:25:09.311747Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "xba4asODE8up0ckPy9-P8Ak",
+    "usageMetadata": {
+      "candidatesTokenCount": 512,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 512
+        }
+      ],
+      "promptTokenCount": 1415,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1415
+        }
+      ],
+      "totalTokenCount": 1927,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "922cf6bf567deaf6066e023aac774774676cf9b8068917c997361e93851ef2ce",
+  "stage_schema_sha256": "377e252cf02129ba34bbc867118dd2b9c6b65042b3fcd7b44099d2fc6e0513ed",
+  "started_unix": 1790490309.200738,
+  "status": "OK",
+  "text": "{\n  \"no_change_needed\": false,\n  \"issues\": [\n    {\n      \"draft_location\": \"memory_decisions[0].operation\",\n      \"evidence_location\": \"db_snapshot.facts[0]\",\n      \"problem\": \"The user is explicitly correcting a previously stored fact. The operation should be 'CORRECT' instead of 'HOLD'.\",\n      \"specific_revision\": \"Change 'HOLD' to 'CORRECT'.\"\n    },\n    {\n      \"draft_location\": \"memory_decisions[0].fact\",\n      \"evidence_location\": \"candidates[0].text\",\n      \"problem\": \"When correcting a fact, the 'fact' field should contain the new value. The user states '강 선생님' as the potential new value.\",\n      \"specific_revision\": \"Add 'fact': {'subject': 'participant', 'relation': 'learned_from', 'value': '강 선생님', 'time': 'past'}.\"\n    },\n    {\n      \"draft_location\": \"memory_decisions[0].target_fact_id\",\n      \"evidence_location\": \"db_snapshot.facts[0].fact_id\",\n      \"problem\": \"When correcting a fact, 'target_fact_id' must refer to the fact being corrected. The user is correcting 'f1'.\",\n      \"specific_revision\": \"Set 'target_fact_id' to 'f1'.\"\n    },\n    {\n      \"draft_location\": \"memory_decisions[0].alternatives\",\n      \"evidence_location\": \"candidates\",\n      \"problem\": \"Alternatives should only contain the differing parts of the candidates, not full sentences. Also, '강 선생님' is the value to be corrected to, not an alternative to hold.\",\n      \"specific_revision\": \"Remove 'alternatives' field as it's not needed for CORRECT operation, or if holding, should be more precise.\"\n    },\n    {\n      \"draft_location\": \"memory_decisions[0].slot\",\n      \"evidence_location\": \"none available\",\n      \"problem\": \"The 'slot' field is not applicable for 'CORRECT' operations. It is used for 'HOLD' to indicate the relationship being held.\",\n      \"specific_revision\": \"Remove the 'slot' field.\"\n    },\n",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1415,
+    "output_tokens": 512,
+    "reasoning_tokens": 0,
+    "total_tokens": 1927
+  }
+}

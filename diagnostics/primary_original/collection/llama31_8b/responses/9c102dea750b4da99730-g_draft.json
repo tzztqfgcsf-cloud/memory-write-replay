@@ -1,0 +1,36 @@
+{
+  "call_id": "9c102dea750b4da99730-g_draft",
+  "error_type": null,
+  "finish_reason": "stop",
+  "finished_unix": 1790493669.658709,
+  "latency_seconds": 11.1643,
+  "model_version": "mlx-community/Llama-3.1-8B-Instruct-4bit",
+  "raw_response": {
+    "base_seed": 20260927,
+    "finish_reason": "stop",
+    "generation_calls": 463,
+    "id": "local-86545bb5636c0c7bac3ef815",
+    "seed": 732723799,
+    "snapshot": "<LOCAL_PATH>",
+    "text": "{\"action\": {\"kind\": \"CONTINUE\", \"question_slot\": \"learned_from\", \"required_slots\": [\"learned_from\"], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"기타를, 오 선생님한테 배웠어요. 오 선생님이라고 기억해 둬요.\", \"기타는 오 선생님께 배웠어요. 오 선생님이라고 기억해 주세요.\"], \"fact\": {\"relation\": \"learned_from\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"오 선생님이\"}, \"operation\": \"APPEND\", \"slot\": \"learned_from\", \"source_turns\": [\"t2\"], \"target_fact_id\": null}], \"reply\": \"기타를, 오 선생님한테 배웠어요. 오 선생님이라고 기억해 둬요.\"}",
+    "usage": {
+      "cached_tokens": null,
+      "input_tokens": 1698,
+      "output_tokens": 190,
+      "reasoning_tokens": null,
+      "total_tokens": 1888
+    }
+  },
+  "request_sha256": "57b2f8dd1762e1d415a55293976d34e4649ce566d837f54be9202ec75bbdeda4",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790493658.493978,
+  "status": "OK",
+  "text": "{\"action\": {\"kind\": \"CONTINUE\", \"question_slot\": \"learned_from\", \"required_slots\": [\"learned_from\"], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"기타를, 오 선생님한테 배웠어요. 오 선생님이라고 기억해 둬요.\", \"기타는 오 선생님께 배웠어요. 오 선생님이라고 기억해 주세요.\"], \"fact\": {\"relation\": \"learned_from\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"오 선생님이\"}, \"operation\": \"APPEND\", \"slot\": \"learned_from\", \"source_turns\": [\"t2\"], \"target_fact_id\": null}], \"reply\": \"기타를, 오 선생님한테 배웠어요. 오 선생님이라고 기억해 둬요.\"}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1698,
+    "output_tokens": 190,
+    "reasoning_tokens": null,
+    "total_tokens": 1888
+  }
+}

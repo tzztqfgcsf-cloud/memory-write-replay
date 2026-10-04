@@ -1,0 +1,37 @@
+# Supporting sources for TIST v20
+
+This directory publishes saved authored/public-source inputs, references, model requests, model responses and failures, executed states, and score artifacts. It complements `../core/`, whose 21-configuration panel uses the same 48 main cases. Repetitions and model configurations do not create independent situations. References are authored/provisional specifications, not independent human gold.
+
+Run the portable saved-state check from the release root:
+
+```
+python3 diagnostics/verify.py
+```
+
+It needs the companion `../core/` directory, Python 3.10 or newer and the standard library, with no API key, model weights, network access, or external package. It checks published file hashes, recomputes per-output scores using the included frozen functions, and compares every reproduced field with saved scores. It does not generate model responses, rerun bootstrap draws, execute collectors, modify original data, or overwrite archived score tables. Output is printed to stdout. `VERIFICATION.json` records the publication-time result.
+
+| Component | Cases and saved output coverage | Reproduction |
+|---|---|---|
+| `primary_original/` | Main 48 cases, 3 repetitions, original Gemini Flash and Llama lanes; 2,016 outputs, 1,728 requests and responses. Llama includes failures and invalid outputs and is outside the selected 21-config panel. | Frozen v2 `score_output` compares all 2,016 saved scores. Its full evaluator contains original case-cluster bootstrap, exact McNemar, five-slot Holm adjustment, and aggregation code; the primary `result.json` retains archived intervals/tests. |
+| `contrast24/` | 12 supported + 12 unsupported authored edit cases; 4 saved B/C/E/G conditions, 96 outputs and 96 physical stage requests/responses. | Frozen contrast scorer compares every score field. Literal behavior on exposed holds is preserved separately in `literal_H_diagnostic/`. |
+| `boundary12/` | 6 supported + 6 unsupported authored cases, 3 saved B/C/E conditions, 36 outputs and 24 requests/responses. No output entered the correction override set. | Frozen boundary scorer compares every score field. The tie therefore is a no-exposure result. |
+| `public16/` | 16 selected MultiWOZ 2.4 cases, one Gemini Flash repetition, 9 conditions, 144 saved outputs; 96 requests/responses, including four historical attempts reused by the final lane. Ten same-task repairs are scored; six other categories remain unscored. | Original focal-state loop and original casefold/whitespace normalization compare 144 saved rows. Agreement counts do not establish semantic correctness or general transfer. |
+| `literal_H_diagnostic/` | 24 previously saved exposed-hold interventions spanning main and contrast sources; `split` and model/case/repeat identify each row. | Saved outputs/scores and source code are archived; these are a subset, not a new full-source experiment. The frozen historical runner is archival only. |
+| `saved_allow/` | Eight selected main-panel configurations × 48 cases × 3 repetitions = 1,152 archived E outputs/scores. Source snapshots also retain Llama E records; the selected comparator excludes Llama. Thirteen other selected configurations have no archived candidate-path E comparator. | Reapplies Allow to the core saved extraction/proposal, executes fresh isolated SQLite states, and compares all 1,152 frozen score rows. |
+| `resources/` | Original generation workload tables and 21-panel summed stage accounting. | Archived measurements, not serving latency or an inference-cost-matched comparison. The source artifact for the paper's 40–78 microsecond replay timing was not recovered and that timing is not independently verified by this release. |
+
+Historical labels: B = agreement, C = target-linked witness, E = release eligible held corrections, E_text = literal evidence, G = general review, D = direct, SR1 = one Self-Refine cycle, CR = witness with receipt-grounded delivery, R = agreement with receipt-grounded delivery. The public probe includes the same nine historical condition labels. Main complete-pipeline comparisons use CR versus G; fixed-proposal comparisons use B/C/E/E_text.
+
+## Analysis archive and source integrity
+
+`analysis_archive/` supplies the original 21-panel selection/interval-selection code and frozen results, the retrospective hybrid case-cluster analysis code, and Review+Agree/Allow case-cluster analysis code. These are source snapshots for inspection, with their historical working-directory and one-shot-output assumptions. They are **not portable entrypoints** and should not be run in the publication checkout. The supported deterministic check is `verify.py`; archived confidence intervals are reused as recorded, rather than replaced by fresh draws. The primary evaluator and contrast/boundary scorer snapshots likewise contain historical CLI methods that assume historical freeze/layout; `verify.py` calls only their pure scoring functions.
+
+`TRANSFORM_MANIFEST.json` links each published file to its original project-relative source, original hash/size, published hash/size, and exact metadata pointer transformations. JSON/JSONL/CSV are serialization-normalized copies. Absolute local filesystem paths become `source-project/…` or `<LOCAL_PATH>`. Authentication fields, provider request IDs, rate-limit headers, and provider wire bodies are excluded; request messages, recorded model text, usage, status, error fields, generated proposals, record/case IDs, witnesses, executed facts, and score values are retained. Original files were not modified. Model-generated polarity remains a model output checked for structure and linkage, not independent entailment ground truth.
+
+Database paths retained in outputs are informational source references. Database files are omitted; the executed `final_snapshot` and receipts are supplied, and the core replay executor reconstructs sandbox states when needed. No credentials, model weights, personal family audio, participant survey answers, beta-user records, or full external benchmark archive is included.
+
+## MultiWOZ attribution
+
+`public16/` derives from 16 selected MultiWOZ 2.4 dialogue turns and task-state subsets. The study maps slot names to its sandbox protocol and adds experimental retention permission; these are study adaptations. The reference and eligibility categories were authored provisionally by the source-reader; they are not original dataset labels or new human judgments.
+
+Keep both full MIT notices in `public16/notices/`: MultiWOZ 2.4 (Copyright 2022 Fanghua Ye) and original MultiWOZ (Copyright 2019 Paweł Budzianowski). Source IDs and selected source rows are included for traceability. Cite Fanghua Ye, Jarana Manotumruksa, and Emine Yilmaz, “MultiWOZ 2.4: A Multi-Domain Task-Oriented Dialogue Dataset with Essential Annotation Corrections to Improve State Tracking Evaluation,” SIGDIAL 2022, DOI https://doi.org/10.18653/v1/2022.sigdial-1.34. The full dataset ZIP and screened LongMemEval payload are omitted. The two third-party licenses cover their upstream material. Original study contributions are addressed in the top-level RIGHTS.md.

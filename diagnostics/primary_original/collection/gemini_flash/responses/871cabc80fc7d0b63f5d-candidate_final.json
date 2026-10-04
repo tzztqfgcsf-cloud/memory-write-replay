@@ -1,0 +1,57 @@
+{
+  "call_id": "871cabc80fc7d0b63f5d-candidate_final",
+  "finish_reason": "STOP",
+  "finished_unix": 1790489895.227988,
+  "http_status": 200,
+  "latency_seconds": 1.2655,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.04253763212284572,
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"reply\": \"네, 수채화로 잘 기록되어 있습니다. 다른 궁금한 점 있으신가요?\",\n  \"action\": {\n    \"kind\": \"CONTINUE\",\n    \"question_slot\": null,\n    \"required_slots\": [],\n    \"speaker_id\": \"p1\"\n  },\n  \"memory_decisions\": [\n    {\n      \"alternatives\": [],\n      \"fact\": null,\n      \"operation\": \"NO_WRITE\",\n      \"slot\": null,\n      \"source_turns\": [],\n      \"target_fact_id\": null\n    }\n  ]\n}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T06:18:14.093269Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "JrW4atXYBfGcx9gPiJ6amAM",
+    "usageMetadata": {
+      "candidatesTokenCount": 142,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 142
+        }
+      ],
+      "promptTokenCount": 1950,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1950
+        }
+      ],
+      "totalTokenCount": 2092,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "e7bc0d1580f04f06e1b1ce71b5a68c24a543a62a63bc2c51fa4f37720876d6a9",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790489893.962142,
+  "status": "OK",
+  "text": "{\n  \"reply\": \"네, 수채화로 잘 기록되어 있습니다. 다른 궁금한 점 있으신가요?\",\n  \"action\": {\n    \"kind\": \"CONTINUE\",\n    \"question_slot\": null,\n    \"required_slots\": [],\n    \"speaker_id\": \"p1\"\n  },\n  \"memory_decisions\": [\n    {\n      \"alternatives\": [],\n      \"fact\": null,\n      \"operation\": \"NO_WRITE\",\n      \"slot\": null,\n      \"source_turns\": [],\n      \"target_fact_id\": null\n    }\n  ]\n}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1950,
+    "output_tokens": 142,
+    "reasoning_tokens": 0,
+    "total_tokens": 2092
+  }
+}

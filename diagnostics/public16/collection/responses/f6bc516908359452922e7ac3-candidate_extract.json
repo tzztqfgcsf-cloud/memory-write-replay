@@ -1,0 +1,56 @@
+{
+  "call_id": "f6bc516908359452922e7ac3-candidate_extract",
+  "cost_note": "provider_did_not_report_money",
+  "cost_usd_reported": null,
+  "finish_reason": "STOP",
+  "http_status": 200,
+  "latency_seconds": 1.1626,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.02929563045501709,
+        "content": {
+          "parts": [
+            {
+              "text": "{\"beliefs\": [{\"candidate_id\": \"c1\", \"facts\": []}], \"correction_witnesses\": []}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T23:24:09.537125Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "maW5aqXkINOH0ckPuLmDuA8",
+    "usageMetadata": {
+      "candidatesTokenCount": 25,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 25
+        }
+      ],
+      "promptTokenCount": 1547,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1547
+        }
+      ],
+      "totalTokenCount": 1572,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "e9fdc872ba652f9c271555633c4902c144d7997ded74144a5603fc6ff7d4cd3b",
+  "status": "OK",
+  "text": "{\"beliefs\": [{\"candidate_id\": \"c1\", \"facts\": []}], \"correction_witnesses\": []}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1547,
+    "output_tokens": 25,
+    "reasoning_tokens": 0,
+    "total_tokens": 1572
+  }
+}

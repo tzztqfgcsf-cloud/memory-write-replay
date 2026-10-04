@@ -1,0 +1,57 @@
+{
+  "call_id": "57b60ec9c951f55dfca3-candidate_extract",
+  "finish_reason": "STOP",
+  "finished_unix": 1790495972.611427,
+  "http_status": 200,
+  "latency_seconds": 3.2001,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.004424147430013438,
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"beliefs\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"facts\": []\n    },\n    {\n      \"candidate_id\": \"c2\",\n      \"facts\": []\n    }\n  ],\n  \"correction_witnesses\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"evidence_quote\": \"문경이에요\",\n      \"new_value\": \"문경\",\n      \"polarity\": \"affirmed\",\n      \"relation\": \"birthplace\",\n      \"source_turn\": \"t2\",\n      \"subject\": \"participant\",\n      \"target_fact_id\": \"f1\",\n      \"time\": \"past\"\n    },\n    {\n      \"candidate_id\": \"c1\",\n      \"evidence_quote\": \"푸른세탁소 다니는 건 맞아요\",\n      \"new_value\": \"푸른세탁소\",\n      \"polarity\": \"affirmed\",\n      \"relation\": \"workplace\",\n      \"source_turn\": \"t2\",\n      \"subject\": \"participant\",\n      \"target_fact_id\": \"f2\",\n      \"time\": \"present\"\n    },\n    {\n      \"candidate_id\": \"c2\",\n      \"evidence_quote\": \"태어난 데는 문경이에요\",\n      \"new_value\": \"문경\",\n      \"polarity\": \"affirmed\",\n      \"relation\": \"birthplace\",\n      \"source_turn\": \"t2\",\n      \"subject\": \"participant\",\n      \"target_fact_id\": \"f1\",\n      \"time\": \"past\"\n    },\n    {\n      \"candidate_id\": \"c2\",\n      \"evidence_quote\": \"직장 푸른세탁소는 그대로 두세요\",\n      \"new_value\": \"푸른세탁소\",\n      \"polarity\": \"affirmed\",\n      \"relation\": \"workplace\",\n      \"source_turn\": \"t2\",\n      \"subject\": \"participant\",\n      \"target_fact_id\": \"f2\",\n      \"time\": \"present\"\n    }\n  ]\n}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T07:59:29.557449Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "4cy4aomDIvCVktwP37SV-Ag",
+    "usageMetadata": {
+      "candidatesTokenCount": 488,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 488
+        }
+      ],
+      "promptTokenCount": 1760,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1760
+        }
+      ],
+      "totalTokenCount": 2248,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "4f6172faeef51e79fdc75d277bc915b179d6a5ee2ea53b66feca11db09700776",
+  "stage_schema_sha256": "bda7326ac6a6cbeedf1ecdbf4a2b08277c078351d6689f667dc0d558c4972dd3",
+  "started_unix": 1790495969.410796,
+  "status": "OK",
+  "text": "{\n  \"beliefs\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"facts\": []\n    },\n    {\n      \"candidate_id\": \"c2\",\n      \"facts\": []\n    }\n  ],\n  \"correction_witnesses\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"evidence_quote\": \"문경이에요\",\n      \"new_value\": \"문경\",\n      \"polarity\": \"affirmed\",\n      \"relation\": \"birthplace\",\n      \"source_turn\": \"t2\",\n      \"subject\": \"participant\",\n      \"target_fact_id\": \"f1\",\n      \"time\": \"past\"\n    },\n    {\n      \"candidate_id\": \"c1\",\n      \"evidence_quote\": \"푸른세탁소 다니는 건 맞아요\",\n      \"new_value\": \"푸른세탁소\",\n      \"polarity\": \"affirmed\",\n      \"relation\": \"workplace\",\n      \"source_turn\": \"t2\",\n      \"subject\": \"participant\",\n      \"target_fact_id\": \"f2\",\n      \"time\": \"present\"\n    },\n    {\n      \"candidate_id\": \"c2\",\n      \"evidence_quote\": \"태어난 데는 문경이에요\",\n      \"new_value\": \"문경\",\n      \"polarity\": \"affirmed\",\n      \"relation\": \"birthplace\",\n      \"source_turn\": \"t2\",\n      \"subject\": \"participant\",\n      \"target_fact_id\": \"f1\",\n      \"time\": \"past\"\n    },\n    {\n      \"candidate_id\": \"c2\",\n      \"evidence_quote\": \"직장 푸른세탁소는 그대로 두세요\",\n      \"new_value\": \"푸른세탁소\",\n      \"polarity\": \"affirmed\",\n      \"relation\": \"workplace\",\n      \"source_turn\": \"t2\",\n      \"subject\": \"participant\",\n      \"target_fact_id\": \"f2\",\n      \"time\": \"present\"\n    }\n  ]\n}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1760,
+    "output_tokens": 488,
+    "reasoning_tokens": 0,
+    "total_tokens": 2248
+  }
+}

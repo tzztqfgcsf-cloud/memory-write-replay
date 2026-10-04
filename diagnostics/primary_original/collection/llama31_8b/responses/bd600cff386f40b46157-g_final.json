@@ -1,0 +1,36 @@
+{
+  "call_id": "bd600cff386f40b46157-g_final",
+  "error_type": null,
+  "finish_reason": "stop",
+  "finished_unix": 1790497306.436913,
+  "latency_seconds": 10.038,
+  "model_version": "mlx-community/Llama-3.1-8B-Instruct-4bit",
+  "raw_response": {
+    "base_seed": 20260927,
+    "finish_reason": "stop",
+    "generation_calls": 806,
+    "id": "local-1870249abb260f1248444340",
+    "seed": 1125426336,
+    "snapshot": "<LOCAL_PATH>",
+    "text": "{\"action\": {\"kind\": \"CONTINUE\", \"question_slot\": \"event_year\", \"required_slots\": [\"event_year\"], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"1993년\"], \"fact\": {\"relation\": \"event_year\", \"source_turns\": [\"t1\", \"t2\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"1993년\"}, \"operation\": \"CORRECT\", \"slot\": \"event_year\", \"source_turns\": [\"t1\", \"t2\"], \"target_fact_id\": \"f1\"}], \"reply\": \"그렇다. 1993년이 맞다. \"}",
+    "usage": {
+      "cached_tokens": null,
+      "input_tokens": 1932,
+      "output_tokens": 146,
+      "reasoning_tokens": null,
+      "total_tokens": 2078
+    }
+  },
+  "request_sha256": "1413cb975e2ce0edf47cc5cf54cee45bbc76c44886f703a53e1f534deb2bd8ab",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790497296.3985548,
+  "status": "OK",
+  "text": "{\"action\": {\"kind\": \"CONTINUE\", \"question_slot\": \"event_year\", \"required_slots\": [\"event_year\"], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"1993년\"], \"fact\": {\"relation\": \"event_year\", \"source_turns\": [\"t1\", \"t2\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"1993년\"}, \"operation\": \"CORRECT\", \"slot\": \"event_year\", \"source_turns\": [\"t1\", \"t2\"], \"target_fact_id\": \"f1\"}], \"reply\": \"그렇다. 1993년이 맞다. \"}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1932,
+    "output_tokens": 146,
+    "reasoning_tokens": null,
+    "total_tokens": 2078
+  }
+}

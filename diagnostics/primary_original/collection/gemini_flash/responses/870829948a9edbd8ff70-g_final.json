@@ -1,0 +1,57 @@
+{
+  "call_id": "870829948a9edbd8ff70-g_final",
+  "finish_reason": "STOP",
+  "finished_unix": 1790491094.486484,
+  "http_status": 200,
+  "latency_seconds": 1.595,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.005936068793137868,
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"reply\": \"네, 아드님 도윤 님의 직장을 대한우편으로 저장해 드릴게요.\",\n  \"action\": {\n    \"kind\": \"CONTINUE\",\n    \"question_slot\": null,\n    \"required_slots\": [],\n    \"speaker_id\": \"p1\"\n  },\n  \"memory_decisions\": [\n    {\n      \"alternatives\": [],\n      \"fact\": {\n        \"relation\": \"workplace\",\n        \"source_turns\": [\"t2\"],\n        \"subject\": \"도윤\",\n        \"time\": \"present\",\n        \"value\": \"대한우편\"\n      },\n      \"operation\": \"APPEND\",\n      \"slot\": null,\n      \"source_turns\": [\"t2\"],\n      \"target_fact_id\": null\n    }\n  ]\n}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T06:38:12.999175Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "1Lm4aof-PLOLx9gPv4OY6A4",
+    "usageMetadata": {
+      "candidatesTokenCount": 192,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 192
+        }
+      ],
+      "promptTokenCount": 1892,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1892
+        }
+      ],
+      "totalTokenCount": 2084,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "2b13120ee8f791306f6607a45bd2e6fd602db87cce435836c6569be8e5eef629",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790491092.891007,
+  "status": "OK",
+  "text": "{\n  \"reply\": \"네, 아드님 도윤 님의 직장을 대한우편으로 저장해 드릴게요.\",\n  \"action\": {\n    \"kind\": \"CONTINUE\",\n    \"question_slot\": null,\n    \"required_slots\": [],\n    \"speaker_id\": \"p1\"\n  },\n  \"memory_decisions\": [\n    {\n      \"alternatives\": [],\n      \"fact\": {\n        \"relation\": \"workplace\",\n        \"source_turns\": [\"t2\"],\n        \"subject\": \"도윤\",\n        \"time\": \"present\",\n        \"value\": \"대한우편\"\n      },\n      \"operation\": \"APPEND\",\n      \"slot\": null,\n      \"source_turns\": [\"t2\"],\n      \"target_fact_id\": null\n    }\n  ]\n}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1892,
+    "output_tokens": 192,
+    "reasoning_tokens": 0,
+    "total_tokens": 2084
+  }
+}

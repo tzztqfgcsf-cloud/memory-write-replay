@@ -1,0 +1,64 @@
+{
+  "call_id": "dbcd9502bd68bd0bb0bf-candidate_final",
+  "finish_reason": "STOP",
+  "finished_unix": 1790494295.06119,
+  "http_status": 200,
+  "latency_seconds": 1.3047,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.04199849490461678,
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"reply\": \"네, 제주도에 다녀오셨군요. 어떤 이야기가 있는지 들려주세요.\",\n  \"action\": {\n    \"kind\": \"CONTINUE\",\n    \"question_slot\": null,\n    \"required_slots\": [],\n    \"speaker_id\": \"p1\"\n  },\n  \"memory_decisions\": [\n    {\n      \"alternatives\": [],\n      \"fact\": null,\n      \"operation\": \"NO_WRITE\",\n      \"slot\": null,\n      \"source_turns\": [\"t2\"],\n      \"target_fact_id\": null\n    }\n  ]\n}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T07:31:33.958181Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "Vca4auW9OpiXktwPo4SY4AQ",
+    "usageMetadata": {
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 646
+        }
+      ],
+      "cachedContentTokenCount": 646,
+      "candidatesTokenCount": 145,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 145
+        }
+      ],
+      "promptTokenCount": 2011,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 2011
+        }
+      ],
+      "totalTokenCount": 2156,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "007d9cba16485a9d7622ff30a0fb3e81ac152c7e587ad40cbb2286237d433fcd",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790494293.756008,
+  "status": "OK",
+  "text": "{\n  \"reply\": \"네, 제주도에 다녀오셨군요. 어떤 이야기가 있는지 들려주세요.\",\n  \"action\": {\n    \"kind\": \"CONTINUE\",\n    \"question_slot\": null,\n    \"required_slots\": [],\n    \"speaker_id\": \"p1\"\n  },\n  \"memory_decisions\": [\n    {\n      \"alternatives\": [],\n      \"fact\": null,\n      \"operation\": \"NO_WRITE\",\n      \"slot\": null,\n      \"source_turns\": [\"t2\"],\n      \"target_fact_id\": null\n    }\n  ]\n}",
+  "usage": {
+    "cached_tokens": 646,
+    "input_tokens": 2011,
+    "output_tokens": 145,
+    "reasoning_tokens": 0,
+    "total_tokens": 2156
+  }
+}

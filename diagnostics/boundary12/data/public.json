@@ -1,0 +1,437 @@
+{
+  "schema": "boundary-probe-public-1",
+  "cases": [
+    {
+      "case_id": "W001",
+      "pair_id": "P04",
+      "family": "실제 vs 가정",
+      "packet": {
+        "turn_id": "t2",
+        "speaker_id": "p1",
+        "memory_permission": "allowed",
+        "history": [
+          {
+            "turn_id": "t1",
+            "role": "assistant",
+            "text": "지난번에 지금 사는 곳은 부산이라고 말씀하셨어요. 이번에는 그 현재 기록 항목만 확인하거나 고치겠습니다. 다른 사람이나 과거의 정보는 별도 기록으로 추가하지 않고, 뜻이 불분명하면 기존 기록을 유지하겠습니다."
+          }
+        ],
+        "alternatives": [
+          "제주로 이사 가면 참 좋겠어요. 아직 부산에 살아요.",
+          "제주로 이사 가면 좋겠어요. 아직 부산 살아요."
+        ],
+        "db_snapshot": {
+          "facts": [
+            {
+              "fact_id": "f1",
+              "subject": "participant",
+              "relation": "residence",
+              "value": "부산",
+              "time": "present",
+              "source_turns": [
+                "t1"
+              ]
+            }
+          ],
+          "pending": []
+        }
+      }
+    },
+    {
+      "case_id": "W002",
+      "pair_id": "P01",
+      "family": "자기 사실 vs 타인 사실",
+      "packet": {
+        "turn_id": "t2",
+        "speaker_id": "p1",
+        "memory_permission": "allowed",
+        "history": [
+          {
+            "turn_id": "t1",
+            "role": "assistant",
+            "text": "지난번에 지금 사는 곳은 광주라고 말씀하셨어요. 이번에는 그 현재 기록 항목만 확인하거나 고치겠습니다. 다른 사람이나 과거의 정보는 별도 기록으로 추가하지 않고, 뜻이 불분명하면 기존 기록을 유지하겠습니다."
+          }
+        ],
+        "alternatives": [
+          "저요, 지금 사는 데는 대전이에요. 광주에서 이사 왔어요.",
+          "저, 지금 사는 데 대전이에요. 광주에서 이사 왔어요."
+        ],
+        "db_snapshot": {
+          "facts": [
+            {
+              "fact_id": "f1",
+              "subject": "participant",
+              "relation": "residence",
+              "value": "광주",
+              "time": "present",
+              "source_turns": [
+                "t1"
+              ]
+            }
+          ],
+          "pending": []
+        }
+      }
+    },
+    {
+      "case_id": "W003",
+      "pair_id": "P06",
+      "family": "확정 vs 철회된 확신",
+      "packet": {
+        "turn_id": "t2",
+        "speaker_id": "p1",
+        "memory_permission": "allowed",
+        "history": [
+          {
+            "turn_id": "t1",
+            "role": "assistant",
+            "text": "지난번에 현재 일하는 곳은 약국이라고 말씀하셨어요. 이번에는 그 현재 기록 항목만 확인하거나 고치겠습니다. 다른 사람이나 과거의 정보는 별도 기록으로 추가하지 않고, 뜻이 불분명하면 기존 기록을 유지하겠습니다."
+          }
+        ],
+        "alternatives": [
+          "꽃집으로 옮긴 줄 알았는데 아니더라고요. 확인해 보니 약국에서 계속 일해요.",
+          "꽃집으로 옮긴 줄 알았는데 아니더라고요. 확인하니 약국에서 계속 일해요."
+        ],
+        "db_snapshot": {
+          "facts": [
+            {
+              "fact_id": "f1",
+              "subject": "participant",
+              "relation": "workplace",
+              "value": "약국",
+              "time": "present",
+              "source_turns": [
+                "t1"
+              ]
+            }
+          ],
+          "pending": []
+        }
+      }
+    },
+    {
+      "case_id": "W004",
+      "pair_id": "P03",
+      "family": "긍정 vs 부정",
+      "packet": {
+        "turn_id": "t2",
+        "speaker_id": "p1",
+        "memory_permission": "allowed",
+        "history": [
+          {
+            "turn_id": "t1",
+            "role": "assistant",
+            "text": "지난번에 현재 취미는 등산이라고 말씀하셨어요. 이번에는 그 현재 기록 항목만 확인하거나 고치겠습니다. 다른 사람이나 과거의 정보는 별도 기록으로 추가하지 않고, 뜻이 불분명하면 기존 기록을 유지하겠습니다."
+          }
+        ],
+        "alternatives": [
+          "지금은 수영이 취미예요. 등산은 그만뒀고요.",
+          "지금 수영이 취미예요. 등산은 그만뒀고요."
+        ],
+        "db_snapshot": {
+          "facts": [
+            {
+              "fact_id": "f1",
+              "subject": "participant",
+              "relation": "hobby",
+              "value": "등산",
+              "time": "present",
+              "source_turns": [
+                "t1"
+              ]
+            }
+          ],
+          "pending": []
+        }
+      }
+    },
+    {
+      "case_id": "W005",
+      "pair_id": "P01",
+      "family": "자기 사실 vs 타인 사실",
+      "packet": {
+        "turn_id": "t2",
+        "speaker_id": "p1",
+        "memory_permission": "allowed",
+        "history": [
+          {
+            "turn_id": "t1",
+            "role": "assistant",
+            "text": "지난번에 지금 사는 곳은 광주라고 말씀하셨어요. 이번에는 그 현재 기록 항목만 확인하거나 고치겠습니다. 다른 사람이나 과거의 정보는 별도 기록으로 추가하지 않고, 뜻이 불분명하면 기존 기록을 유지하겠습니다."
+          }
+        ],
+        "alternatives": [
+          "우리 딸은 지금 대전에 살아요. 저는 여전히 광주에 살고요.",
+          "우리 딸 지금 대전에 살아요. 저는 여전히 광주에 살고요."
+        ],
+        "db_snapshot": {
+          "facts": [
+            {
+              "fact_id": "f1",
+              "subject": "participant",
+              "relation": "residence",
+              "value": "광주",
+              "time": "present",
+              "source_turns": [
+                "t1"
+              ]
+            }
+          ],
+          "pending": []
+        }
+      }
+    },
+    {
+      "case_id": "W006",
+      "pair_id": "P05",
+      "family": "자기주장 vs 인용",
+      "packet": {
+        "turn_id": "t2",
+        "speaker_id": "p1",
+        "memory_permission": "allowed",
+        "history": [
+          {
+            "turn_id": "t1",
+            "role": "assistant",
+            "text": "지난번에 현재 일하는 곳은 복지관이라고 말씀하셨어요. 이번에는 그 현재 기록 항목만 확인하거나 고치겠습니다. 다른 사람이나 과거의 정보는 별도 기록으로 추가하지 않고, 뜻이 불분명하면 기존 기록을 유지하겠습니다."
+          }
+        ],
+        "alternatives": [
+          "제가 지금 일하는 곳은 구청이에요. 복지관 일은 그만뒀어요.",
+          "저 지금 일하는 곳은 구청이에요. 복지관 일은 그만뒀어요."
+        ],
+        "db_snapshot": {
+          "facts": [
+            {
+              "fact_id": "f1",
+              "subject": "participant",
+              "relation": "workplace",
+              "value": "복지관",
+              "time": "present",
+              "source_turns": [
+                "t1"
+              ]
+            }
+          ],
+          "pending": []
+        }
+      }
+    },
+    {
+      "case_id": "W007",
+      "pair_id": "P03",
+      "family": "긍정 vs 부정",
+      "packet": {
+        "turn_id": "t2",
+        "speaker_id": "p1",
+        "memory_permission": "allowed",
+        "history": [
+          {
+            "turn_id": "t1",
+            "role": "assistant",
+            "text": "지난번에 현재 취미는 등산이라고 말씀하셨어요. 이번에는 그 현재 기록 항목만 확인하거나 고치겠습니다. 다른 사람이나 과거의 정보는 별도 기록으로 추가하지 않고, 뜻이 불분명하면 기존 기록을 유지하겠습니다."
+          }
+        ],
+        "alternatives": [
+          "수영은 지금 제 취미가 아니에요. 등산은 계속하고 있어요.",
+          "수영은 지금 제 취미예요. 등산은 계속하고 있어요."
+        ],
+        "db_snapshot": {
+          "facts": [
+            {
+              "fact_id": "f1",
+              "subject": "participant",
+              "relation": "hobby",
+              "value": "등산",
+              "time": "present",
+              "source_turns": [
+                "t1"
+              ]
+            }
+          ],
+          "pending": []
+        }
+      }
+    },
+    {
+      "case_id": "W008",
+      "pair_id": "P06",
+      "family": "확정 vs 철회된 확신",
+      "packet": {
+        "turn_id": "t2",
+        "speaker_id": "p1",
+        "memory_permission": "allowed",
+        "history": [
+          {
+            "turn_id": "t1",
+            "role": "assistant",
+            "text": "지난번에 현재 일하는 곳은 약국이라고 말씀하셨어요. 이번에는 그 현재 기록 항목만 확인하거나 고치겠습니다. 다른 사람이나 과거의 정보는 별도 기록으로 추가하지 않고, 뜻이 불분명하면 기존 기록을 유지하겠습니다."
+          }
+        ],
+        "alternatives": [
+          "꽃집으로 옮긴 거 맞아요. 이번 주부터 꽃집에서 일해요.",
+          "꽃집으로 옮긴 거 맞아요. 이번 주부터 꽃집 일해요."
+        ],
+        "db_snapshot": {
+          "facts": [
+            {
+              "fact_id": "f1",
+              "subject": "participant",
+              "relation": "workplace",
+              "value": "약국",
+              "time": "present",
+              "source_turns": [
+                "t1"
+              ]
+            }
+          ],
+          "pending": []
+        }
+      }
+    },
+    {
+      "case_id": "W009",
+      "pair_id": "P04",
+      "family": "실제 vs 가정",
+      "packet": {
+        "turn_id": "t2",
+        "speaker_id": "p1",
+        "memory_permission": "allowed",
+        "history": [
+          {
+            "turn_id": "t1",
+            "role": "assistant",
+            "text": "지난번에 지금 사는 곳은 부산이라고 말씀하셨어요. 이번에는 그 현재 기록 항목만 확인하거나 고치겠습니다. 다른 사람이나 과거의 정보는 별도 기록으로 추가하지 않고, 뜻이 불분명하면 기존 기록을 유지하겠습니다."
+          }
+        ],
+        "alternatives": [
+          "지난주에 제주로 이사 왔어요. 지금은 제주에 살아요.",
+          "지난주 제주로 이사 왔어요. 지금 제주에 살아요."
+        ],
+        "db_snapshot": {
+          "facts": [
+            {
+              "fact_id": "f1",
+              "subject": "participant",
+              "relation": "residence",
+              "value": "부산",
+              "time": "present",
+              "source_turns": [
+                "t1"
+              ]
+            }
+          ],
+          "pending": []
+        }
+      }
+    },
+    {
+      "case_id": "W010",
+      "pair_id": "P05",
+      "family": "자기주장 vs 인용",
+      "packet": {
+        "turn_id": "t2",
+        "speaker_id": "p1",
+        "memory_permission": "allowed",
+        "history": [
+          {
+            "turn_id": "t1",
+            "role": "assistant",
+            "text": "지난번에 현재 일하는 곳은 복지관이라고 말씀하셨어요. 이번에는 그 현재 기록 항목만 확인하거나 고치겠습니다. 다른 사람이나 과거의 정보는 별도 기록으로 추가하지 않고, 뜻이 불분명하면 기존 기록을 유지하겠습니다."
+          }
+        ],
+        "alternatives": [
+          "민수 씨가 자기 직장이 구청으로 바뀌었다고 하더라고요. 저는 아직 복지관에서 일해요.",
+          "민수 씨, 자기 직장이 구청으로 바뀌었다고 하더라고요. 저는 아직 복지관에서 일해요."
+        ],
+        "db_snapshot": {
+          "facts": [
+            {
+              "fact_id": "f1",
+              "subject": "participant",
+              "relation": "workplace",
+              "value": "복지관",
+              "time": "present",
+              "source_turns": [
+                "t1"
+              ]
+            }
+          ],
+          "pending": []
+        }
+      }
+    },
+    {
+      "case_id": "W011",
+      "pair_id": "P02",
+      "family": "현재 사실 vs 과거 사실",
+      "packet": {
+        "turn_id": "t2",
+        "speaker_id": "p1",
+        "memory_permission": "allowed",
+        "history": [
+          {
+            "turn_id": "t1",
+            "role": "assistant",
+            "text": "지난번에 현재 일하는 곳은 도서관이라고 말씀하셨어요. 이번에는 그 현재 기록 항목만 확인하거나 고치겠습니다. 다른 사람이나 과거의 정보는 별도 기록으로 추가하지 않고, 뜻이 불분명하면 기존 기록을 유지하겠습니다."
+          }
+        ],
+        "alternatives": [
+          "지금은 학교 급식실에서 조리사로 일해요. 도서관 일은 그만뒀어요.",
+          "지금 학교 급식실에서 조리사로 일해요. 도서관 일은 그만뒀어요."
+        ],
+        "db_snapshot": {
+          "facts": [
+            {
+              "fact_id": "f1",
+              "subject": "participant",
+              "relation": "workplace",
+              "value": "도서관",
+              "time": "present",
+              "source_turns": [
+                "t1"
+              ]
+            }
+          ],
+          "pending": []
+        }
+      }
+    },
+    {
+      "case_id": "W012",
+      "pair_id": "P02",
+      "family": "현재 사실 vs 과거 사실",
+      "packet": {
+        "turn_id": "t2",
+        "speaker_id": "p1",
+        "memory_permission": "allowed",
+        "history": [
+          {
+            "turn_id": "t1",
+            "role": "assistant",
+            "text": "지난번에 현재 일하는 곳은 도서관이라고 말씀하셨어요. 이번에는 그 현재 기록 항목만 확인하거나 고치겠습니다. 다른 사람이나 과거의 정보는 별도 기록으로 추가하지 않고, 뜻이 불분명하면 기존 기록을 유지하겠습니다."
+          }
+        ],
+        "alternatives": [
+          "예전에는 학교 급식실에서 조리사로 일했어요. 지금은 도서관 사서예요.",
+          "예전엔 학교 급식실에서 조리사로 일했어요. 지금 도서관 사서예요."
+        ],
+        "db_snapshot": {
+          "facts": [
+            {
+              "fact_id": "f1",
+              "subject": "participant",
+              "relation": "workplace",
+              "value": "도서관",
+              "time": "present",
+              "source_turns": [
+                "t1"
+              ]
+            }
+          ],
+          "pending": []
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "call_id": "54129910d50ca168de7a-candidate_extract",
+  "finish_reason": "STOP",
+  "finished_unix": 1790493599.941185,
+  "http_status": 200,
+  "latency_seconds": 1.9265,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.0015378974688549836,
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"beliefs\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"facts\": [\n        {\n          \"relation\": \"preferred_contact\",\n          \"source_turns\": [\n            \"t2\"\n          ],\n          \"subject\": \"participant\",\n          \"time\": \"present\",\n          \"value\": \"이메일\"\n        }\n      ]\n    },\n    {\n      \"candidate_id\": \"c2\",\n      \"facts\": [\n        {\n          \"relation\": \"preferred_contact\",\n          \"source_turns\": [\n            \"t2\"\n          ],\n          \"subject\": \"participant\",\n          \"time\": \"present\",\n          \"value\": \"이메일\"\n        }\n      ]\n    }\n  ],\n  \"correction_witnesses\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"evidence_quote\": \"\",\n      \"new_value\": \"의정부\",\n      \"polarity\": \"absent\",\n      \"relation\": \"residence\",\n      \"source_turn\": \"t2\",\n      \"subject\": \"participant\",\n      \"target_fact_id\": \"f1\",\n      \"time\": \"present\"\n    },\n    {\n      \"candidate_id\": \"c2\",\n      \"evidence_quote\": \"\",\n      \"new_value\": \"의정부\",\n      \"polarity\": \"absent\",\n      \"relation\": \"residence\",\n      \"source_turn\": \"t2\",\n      \"subject\": \"participant\",\n      \"target_fact_id\": \"f1\",\n      \"time\": \"present\"\n    }\n  ]\n}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T07:19:58.198042Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "nsO4apqLDK2BktwPi5PxuQg",
+    "usageMetadata": {
+      "candidatesTokenCount": 384,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 384
+        }
+      ],
+      "promptTokenCount": 1690,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1690
+        }
+      ],
+      "totalTokenCount": 2074,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "8e86e293503ff7b8e9267565f7d32daa3cf4e92b57e5c8c8f511fc3bc8a213c6",
+  "stage_schema_sha256": "bda7326ac6a6cbeedf1ecdbf4a2b08277c078351d6689f667dc0d558c4972dd3",
+  "started_unix": 1790493598.014323,
+  "status": "OK",
+  "text": "{\n  \"beliefs\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"facts\": [\n        {\n          \"relation\": \"preferred_contact\",\n          \"source_turns\": [\n            \"t2\"\n          ],\n          \"subject\": \"participant\",\n          \"time\": \"present\",\n          \"value\": \"이메일\"\n        }\n      ]\n    },\n    {\n      \"candidate_id\": \"c2\",\n      \"facts\": [\n        {\n          \"relation\": \"preferred_contact\",\n          \"source_turns\": [\n            \"t2\"\n          ],\n          \"subject\": \"participant\",\n          \"time\": \"present\",\n          \"value\": \"이메일\"\n        }\n      ]\n    }\n  ],\n  \"correction_witnesses\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"evidence_quote\": \"\",\n      \"new_value\": \"의정부\",\n      \"polarity\": \"absent\",\n      \"relation\": \"residence\",\n      \"source_turn\": \"t2\",\n      \"subject\": \"participant\",\n      \"target_fact_id\": \"f1\",\n      \"time\": \"present\"\n    },\n    {\n      \"candidate_id\": \"c2\",\n      \"evidence_quote\": \"\",\n      \"new_value\": \"의정부\",\n      \"polarity\": \"absent\",\n      \"relation\": \"residence\",\n      \"source_turn\": \"t2\",\n      \"subject\": \"participant\",\n      \"target_fact_id\": \"f1\",\n      \"time\": \"present\"\n    }\n  ]\n}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1690,
+    "output_tokens": 384,
+    "reasoning_tokens": 0,
+    "total_tokens": 2074
+  }
+}

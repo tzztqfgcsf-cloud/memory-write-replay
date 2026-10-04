@@ -1,0 +1,20 @@
+{
+  "status": "OK",
+  "http_status": 200,
+  "text": "{\"decisions\":[{\"index\":0,\"approve\":true,\"reason\":\"사용자가 농장을 시작한 해가 2003년이라고 명확히 밝혔으므로 승인합니다.\"}]}",
+  "usage": {
+    "input_tokens": 685,
+    "output_tokens": 40,
+    "reasoning_tokens": 248,
+    "total_tokens": 973,
+    "cached_tokens": null
+  },
+  "finish_reason": "STOP",
+  "model_version": "gemini-3.1-pro-preview",
+  "id": "gemini_flash_CT31_judge",
+  "key": "gemini_flash_CT31",
+  "stage": "judge",
+  "arm": "judge",
+  "requested_model": "gemini-3.1-pro-preview",
+  "latency_seconds": 4.188915041973814
+}

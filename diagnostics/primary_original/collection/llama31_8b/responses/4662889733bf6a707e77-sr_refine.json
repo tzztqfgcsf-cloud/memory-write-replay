@@ -1,0 +1,36 @@
+{
+  "call_id": "4662889733bf6a707e77-sr_refine",
+  "error_type": null,
+  "finish_reason": "stop",
+  "finished_unix": 1790497894.632818,
+  "latency_seconds": 12.3575,
+  "model_version": "mlx-community/Llama-3.1-8B-Instruct-4bit",
+  "raw_response": {
+    "base_seed": 20260927,
+    "finish_reason": "stop",
+    "generation_calls": 858,
+    "id": "local-3120aeb36b0f060e02d396b4",
+    "seed": 1645751517,
+    "snapshot": "<LOCAL_PATH>",
+    "text": "{\"action\": {\"kind\": \"CLARIFY\", \"question_slot\": \"meeting_place\", \"required_slots\": [\"meeting_place\"], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"체육관\", \"시민운동장\"], \"fact\": {\"relation\": \"meeting_place\", \"source_turns\": [\"t1\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"체육공원\"}, \"operation\": \"CORRECT\", \"slot\": \"meeting_place\", \"source_turns\": [\"t1\"], \"target_fact_id\": \"f1\"}, {\"alternatives\": [], \"fact\": {\"relation\": \"meeting_place\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"시민운동장\"}, \"operation\": \"APPEND\", \"slot\": \"meeting_place\", \"source_turns\": [\"t2\"], \"target_fact_id\": null}], \"reply\": \"시민운동장이 맞아요. \"}",
+    "usage": {
+      "cached_tokens": null,
+      "input_tokens": 2030,
+      "output_tokens": 215,
+      "reasoning_tokens": null,
+      "total_tokens": 2245
+    }
+  },
+  "request_sha256": "f43f6fa2a2f349fbebe1e59725d92e0e06541b8c92f1f5414c3dc2a47ba14dbd",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790497882.274879,
+  "status": "OK",
+  "text": "{\"action\": {\"kind\": \"CLARIFY\", \"question_slot\": \"meeting_place\", \"required_slots\": [\"meeting_place\"], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"체육관\", \"시민운동장\"], \"fact\": {\"relation\": \"meeting_place\", \"source_turns\": [\"t1\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"체육공원\"}, \"operation\": \"CORRECT\", \"slot\": \"meeting_place\", \"source_turns\": [\"t1\"], \"target_fact_id\": \"f1\"}, {\"alternatives\": [], \"fact\": {\"relation\": \"meeting_place\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"시민운동장\"}, \"operation\": \"APPEND\", \"slot\": \"meeting_place\", \"source_turns\": [\"t2\"], \"target_fact_id\": null}], \"reply\": \"시민운동장이 맞아요. \"}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 2030,
+    "output_tokens": 215,
+    "reasoning_tokens": null,
+    "total_tokens": 2245
+  }
+}

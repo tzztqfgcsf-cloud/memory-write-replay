@@ -1,0 +1,57 @@
+{
+  "call_id": "4fbe8ba1ea1c3fa00dce-sr_refine",
+  "finish_reason": "STOP",
+  "finished_unix": 1790494256.7887518,
+  "http_status": 200,
+  "latency_seconds": 1.5553,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.00218464171185213,
+        "content": {
+          "parts": [
+            {
+              "text": "{\"reply\": \"네, 제주도에 다녀오셨군요. 기록하지 않고 이야기 들어드릴게요. 제주도에서 어떤 일이 있으셨나요?\", \"action\": {\"kind\": \"CONTINUE\", \"question_slot\": null, \"required_slots\": [], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"이번에 제주도에 다녀왔어요. 여행지 저장하지 말고 그냥 들어 줘요.\", \"제주도 다녀온 얘기예요. 어디 갔는지는 기록하지 말고 들어만 주세요.\"], \"fact\": null, \"operation\": \"NO_WRITE\", \"slot\": null, \"source_turns\": [\"t2\"], \"target_fact_id\": null}]}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T07:30:55.373139Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "L8a4apPjFpiXktwPo4SY4AQ",
+    "usageMetadata": {
+      "candidatesTokenCount": 153,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 153
+        }
+      ],
+      "promptTokenCount": 2086,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 2086
+        }
+      ],
+      "totalTokenCount": 2239,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "2db646a653d5c0b20cf39692ada665bcda64ab9fdcc6500d1bf4c0c0a1bb8596",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790494255.233075,
+  "status": "OK",
+  "text": "{\"reply\": \"네, 제주도에 다녀오셨군요. 기록하지 않고 이야기 들어드릴게요. 제주도에서 어떤 일이 있으셨나요?\", \"action\": {\"kind\": \"CONTINUE\", \"question_slot\": null, \"required_slots\": [], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"이번에 제주도에 다녀왔어요. 여행지 저장하지 말고 그냥 들어 줘요.\", \"제주도 다녀온 얘기예요. 어디 갔는지는 기록하지 말고 들어만 주세요.\"], \"fact\": null, \"operation\": \"NO_WRITE\", \"slot\": null, \"source_turns\": [\"t2\"], \"target_fact_id\": null}]}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 2086,
+    "output_tokens": 153,
+    "reasoning_tokens": 0,
+    "total_tokens": 2239
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "status": "OK",
+  "http_status": 200,
+  "text": "{\"beliefs\": [{\"candidate_id\": \"c1\", \"facts\": [{\"relation\": \"birthplace\", \"source_turns\": [\"t2\"], \"subject\": \"순자\", \"time\": \"past\", \"value\": \"임실\"}]}, {\"candidate_id\": \"c2\", \"facts\": [{\"relation\": \"birthplace\", \"source_turns\": [\"t2\"], \"subject\": \"순자\", \"time\": \"past\", \"value\": \"임실\"}]}], \"correction_witnesses\": [{\"candidate_id\": \"c1\", \"evidence_quote\": \"제 출생지는 전주 그대로고\", \"new_value\": \"전주\", \"polarity\": \"affirmed\", \"relation\": \"birthplace\", \"source_turn\": \"t2\", \"subject\": \"participant\", \"target_fact_id\": \"f1\", \"time\": \"past\"}, {\"candidate_id\": \"c2\", \"evidence_quote\": \"제 출생지는 바꾸지 마세요\", \"new_value\": \"전주\", \"polarity\": \"affirmed\", \"relation\": \"birthplace\", \"source_turn\": \"t2\", \"subject\": \"participant\", \"target_fact_id\": \"f1\", \"time\": \"past\"}]}",
+  "usage": {
+    "input_tokens": 1708,
+    "output_tokens": 267,
+    "reasoning_tokens": 0,
+    "total_tokens": 1975,
+    "cached_tokens": null
+  },
+  "finish_reason": "STOP",
+  "model_version": "gemini-2.5-flash",
+  "id": "gemini_flash_CT14_original",
+  "key": "gemini_flash_CT14",
+  "stage": "extract",
+  "arm": "original",
+  "requested_model": "gemini-2.5-flash",
+  "latency_seconds": 1.850422125076875
+}

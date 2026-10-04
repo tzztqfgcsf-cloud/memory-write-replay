@@ -1,0 +1,57 @@
+{
+  "call_id": "8c5d0c5ec288fa4806db-candidate_extract",
+  "finish_reason": "STOP",
+  "finished_unix": 1790490058.402394,
+  "http_status": 200,
+  "latency_seconds": 1.6292,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.0096133334769143,
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"beliefs\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"facts\": []\n    },\n    {\n      \"candidate_id\": \"c2\",\n      \"facts\": []\n    }\n  ],\n  \"correction_witnesses\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"evidence_quote\": \"취업 연도는 아직 고치지 마요.\",\n      \"new_value\": \"1977년\",\n      \"polarity\": \"negated\",\n      \"relation\": \"event_year\",\n      \"source_turn\": \"t2\",\n      \"subject\": \"participant\",\n      \"target_fact_id\": \"f1\",\n      \"time\": \"past\"\n    },\n    {\n      \"candidate_id\": \"c2\",\n      \"evidence_quote\": \"첫 취업 연도 수정은 나중에 해요.\",\n      \"new_value\": \"1977년\",\n      \"polarity\": \"negated\",\n      \"relation\": \"event_year\",\n      \"source_turn\": \"t2\",\n      \"subject\": \"participant\",\n      \"target_fact_id\": \"f1\",\n      \"time\": \"past\"\n    }\n  ]\n}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T06:20:56.876468Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "yLW4arS_NfObncoPmvuomAI",
+    "usageMetadata": {
+      "candidatesTokenCount": 288,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 288
+        }
+      ],
+      "promptTokenCount": 1713,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1713
+        }
+      ],
+      "totalTokenCount": 2001,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "a221d070bb8860f099695c9f8c715d9a803b8dd1113551bb3ea24f6a6a694bff",
+  "stage_schema_sha256": "bda7326ac6a6cbeedf1ecdbf4a2b08277c078351d6689f667dc0d558c4972dd3",
+  "started_unix": 1790490056.772654,
+  "status": "OK",
+  "text": "{\n  \"beliefs\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"facts\": []\n    },\n    {\n      \"candidate_id\": \"c2\",\n      \"facts\": []\n    }\n  ],\n  \"correction_witnesses\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"evidence_quote\": \"취업 연도는 아직 고치지 마요.\",\n      \"new_value\": \"1977년\",\n      \"polarity\": \"negated\",\n      \"relation\": \"event_year\",\n      \"source_turn\": \"t2\",\n      \"subject\": \"participant\",\n      \"target_fact_id\": \"f1\",\n      \"time\": \"past\"\n    },\n    {\n      \"candidate_id\": \"c2\",\n      \"evidence_quote\": \"첫 취업 연도 수정은 나중에 해요.\",\n      \"new_value\": \"1977년\",\n      \"polarity\": \"negated\",\n      \"relation\": \"event_year\",\n      \"source_turn\": \"t2\",\n      \"subject\": \"participant\",\n      \"target_fact_id\": \"f1\",\n      \"time\": \"past\"\n    }\n  ]\n}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1713,
+    "output_tokens": 288,
+    "reasoning_tokens": 0,
+    "total_tokens": 2001
+  }
+}

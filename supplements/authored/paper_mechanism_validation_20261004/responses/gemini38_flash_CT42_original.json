@@ -1,0 +1,20 @@
+{
+  "status": "OK",
+  "http_status": 200,
+  "text": "{\"beliefs\": [{\"candidate_id\": \"c1\", \"facts\": [{\"relation\": \"birthplace\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"문경\"}, {\"relation\": \"workplace\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"푸른세탁소\"}]}, {\"candidate_id\": \"c2\", \"facts\": [{\"relation\": \"birthplace\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"문경\"}, {\"relation\": \"workplace\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"푸른세탁소\"}]}], \"correction_witnesses\": [{\"candidate_id\": \"c1\", \"evidence_quote\": \"문경으로 고쳐 줘요\", \"new_value\": \"문경\", \"polarity\": \"affirmed\", \"relation\": \"birthplace\", \"source_turn\": \"t2\", \"subject\": \"participant\", \"target_fact_id\": \"f1\", \"time\": \"past\"}, {\"candidate_id\": \"c1\", \"evidence_quote\": \"\", \"new_value\": \"푸른세탁소\", \"polarity\": \"absent\", \"relation\": \"workplace\", \"source_turn\": \"t2\", \"subject\": \"participant\", \"target_fact_id\": \"f2\", \"time\": \"present\"}, {\"candidate_id\": \"c2\", \"evidence_quote\": \"태어난 데는 문경이에요\", \"new_value\": \"문경\", \"polarity\": \"affirmed\", \"relation\": \"birthplace\", \"source_turn\": \"t2\", \"subject\": \"participant\", \"target_fact_id\": \"f1\", \"time\": \"past\"}, {\"candidate_id\": \"c2\", \"evidence_quote\": \"\", \"new_value\": \"푸른세탁소\", \"polarity\": \"absent\", \"relation\": \"workplace\", \"source_turn\": \"t2\", \"subject\": \"participant\", \"target_fact_id\": \"f2\", \"time\": \"present\"}]}",
+  "usage": {
+    "input_tokens": 2523,
+    "output_tokens": 487,
+    "reasoning_tokens": 0,
+    "total_tokens": 3010,
+    "cached_tokens": null
+  },
+  "finish_reason": "STOP",
+  "model_version": "gemini-3.8-flash",
+  "id": "gemini38_flash_CT42_original",
+  "key": "gemini38_flash_CT42",
+  "stage": "extract",
+  "arm": "original",
+  "requested_model": "gemini-3.8-flash",
+  "latency_seconds": 3.6832163750659674
+}

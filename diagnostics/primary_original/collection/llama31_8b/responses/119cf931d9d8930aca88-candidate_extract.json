@@ -1,0 +1,36 @@
+{
+  "call_id": "119cf931d9d8930aca88-candidate_extract",
+  "error_type": null,
+  "finish_reason": "stop",
+  "finished_unix": 1790489664.3425899,
+  "latency_seconds": 9.4655,
+  "model_version": "mlx-community/Llama-3.1-8B-Instruct-4bit",
+  "raw_response": {
+    "base_seed": 20260927,
+    "finish_reason": "stop",
+    "generation_calls": 105,
+    "id": "local-071755e07feb5c8ea6047b78",
+    "seed": 296406273,
+    "snapshot": "<LOCAL_PATH>",
+    "text": "{\"beliefs\": [{\"candidate_id\": \"c1\", \"facts\": [{\"relation\": \"event_year\", \"source_turns\": [\"t1\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"1988년\"}]}], \"correction_witnesses\": [{\"candidate_id\": \"c1\", \"evidence_quote\": \"1988년으로 고치지 마세요. 귀농한 해는 1998년이 맞습니다.\", \"new_value\": \"1998년\", \"polarity\": \"negated\", \"relation\": \"event_year\", \"source_turn\": \"t2\", \"subject\": \"participant\", \"target_fact_id\": \"f1\", \"time\": \"past\"}]}",
+    "usage": {
+      "cached_tokens": null,
+      "input_tokens": 1742,
+      "output_tokens": 152,
+      "reasoning_tokens": null,
+      "total_tokens": 1894
+    }
+  },
+  "request_sha256": "8e7b85553863de838303a4a480273c8eb741a3eec83789684c77811224db50bb",
+  "stage_schema_sha256": "bda7326ac6a6cbeedf1ecdbf4a2b08277c078351d6689f667dc0d558c4972dd3",
+  "started_unix": 1790489654.8766878,
+  "status": "OK",
+  "text": "{\"beliefs\": [{\"candidate_id\": \"c1\", \"facts\": [{\"relation\": \"event_year\", \"source_turns\": [\"t1\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"1988년\"}]}], \"correction_witnesses\": [{\"candidate_id\": \"c1\", \"evidence_quote\": \"1988년으로 고치지 마세요. 귀농한 해는 1998년이 맞습니다.\", \"new_value\": \"1998년\", \"polarity\": \"negated\", \"relation\": \"event_year\", \"source_turn\": \"t2\", \"subject\": \"participant\", \"target_fact_id\": \"f1\", \"time\": \"past\"}]}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1742,
+    "output_tokens": 152,
+    "reasoning_tokens": null,
+    "total_tokens": 1894
+  }
+}

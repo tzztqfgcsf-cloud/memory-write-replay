@@ -1,0 +1,36 @@
+{
+  "call_id": "5f607f48a8682d927d0d-g_final",
+  "error_type": null,
+  "finish_reason": "stop",
+  "finished_unix": 1790495848.014188,
+  "latency_seconds": 8.0162,
+  "model_version": "mlx-community/Llama-3.1-8B-Instruct-4bit",
+  "raw_response": {
+    "base_seed": 20260927,
+    "finish_reason": "stop",
+    "generation_calls": 674,
+    "id": "local-4bd028988f50c37d8b9dbf04",
+    "seed": 3456541270,
+    "snapshot": "<LOCAL_PATH>",
+    "text": "{\"action\": {\"kind\": \"STOP\", \"question_slot\": null, \"required_slots\": [], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [], \"fact\": null, \"operation\": \"NO_WRITE\", \"slot\": null, \"source_turns\": [], \"target_fact_id\": null}], \"reply\": \"통화는 종료됩니다. 안녕히 계세요.\"}",
+    "usage": {
+      "cached_tokens": null,
+      "input_tokens": 1845,
+      "output_tokens": 87,
+      "reasoning_tokens": null,
+      "total_tokens": 1932
+    }
+  },
+  "request_sha256": "32b1cbd35264a1cb7cf4a040b033a444fd0d38ec5926d97e3e4d485670781590",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790495839.997698,
+  "status": "OK",
+  "text": "{\"action\": {\"kind\": \"STOP\", \"question_slot\": null, \"required_slots\": [], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [], \"fact\": null, \"operation\": \"NO_WRITE\", \"slot\": null, \"source_turns\": [], \"target_fact_id\": null}], \"reply\": \"통화는 종료됩니다. 안녕히 계세요.\"}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1845,
+    "output_tokens": 87,
+    "reasoning_tokens": null,
+    "total_tokens": 1932
+  }
+}

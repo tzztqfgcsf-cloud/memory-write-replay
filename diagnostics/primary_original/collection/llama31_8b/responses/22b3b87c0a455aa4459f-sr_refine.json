@@ -1,0 +1,36 @@
+{
+  "call_id": "22b3b87c0a455aa4459f-sr_refine",
+  "error_type": null,
+  "finish_reason": "stop",
+  "finished_unix": 1790488951.269834,
+  "latency_seconds": 9.7359,
+  "model_version": "mlx-community/Llama-3.1-8B-Instruct-4bit",
+  "raw_response": {
+    "base_seed": 20260927,
+    "finish_reason": "stop",
+    "generation_calls": 36,
+    "id": "local-e91eda973e719e8719aad2f9",
+    "seed": 1862263253,
+    "snapshot": "<LOCAL_PATH>",
+    "text": "{\"action\": {\"kind\": \"CLARIFY\", \"question_slot\": \"shop_name\", \"required_slots\": [\"shop_name\"], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"은하정육점\"], \"fact\": {\"relation\": \"shop_name\", \"source_turns\": [\"t1\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"은하상회\"}, \"operation\": \"CORRECT\", \"slot\": \"shop_name\", \"source_turns\": [\"t1\"], \"target_fact_id\": \"f1\"}], \"reply\": \"은하상회를 은하정육점으로 고쳐 적어 주세요.\"}",
+    "usage": {
+      "cached_tokens": null,
+      "input_tokens": 2049,
+      "output_tokens": 148,
+      "reasoning_tokens": null,
+      "total_tokens": 2197
+    }
+  },
+  "request_sha256": "f68b377ddd7a2b3375774e1731170882834dfdfe1ec613deb036fb59a69c4479",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790488941.533816,
+  "status": "OK",
+  "text": "{\"action\": {\"kind\": \"CLARIFY\", \"question_slot\": \"shop_name\", \"required_slots\": [\"shop_name\"], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"은하정육점\"], \"fact\": {\"relation\": \"shop_name\", \"source_turns\": [\"t1\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"은하상회\"}, \"operation\": \"CORRECT\", \"slot\": \"shop_name\", \"source_turns\": [\"t1\"], \"target_fact_id\": \"f1\"}], \"reply\": \"은하상회를 은하정육점으로 고쳐 적어 주세요.\"}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 2049,
+    "output_tokens": 148,
+    "reasoning_tokens": null,
+    "total_tokens": 2197
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "call_id": "dc18f1406af1e85e475219f2-sr_feedback",
+  "cost_note": "provider_did_not_report_money",
+  "cost_usd_reported": null,
+  "finish_reason": "STOP",
+  "http_status": 200,
+  "latency_seconds": 2.4641,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.05573788095027842,
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"no_change_needed\": false,\n  \"issues\": [\n    {\n      \"draft_location\": \"fallible_initial_draft.memory_decisions[0].operation\",\n      \"evidence_location\": \"fallible_initial_draft.memory_decisions[0].fact.value\",\n      \"problem\": \"The operation should be 'CORRECT' because the value is changing from 'cambridge' to 'kings lynn'.\",\n      \"specific_revision\": \"Change operation to 'CORRECT'.\"\n    },\n    {\n      \"draft_location\": \"fallible_initial_draft.memory_decisions[0].fact.value\",\n      \"evidence_location\": \"PMUL0945.json#turn4\",\n      \"problem\": \"The value for 'train.semi.departure' should be 'kings lynn' based on the user's correction.\",\n      \"specific_revision\": \"Change value to 'kings lynn'.\"\n    },\n    {\n      \"draft_location\": \"fallible_initial_draft.memory_decisions[1].operation\",\n      \"evidence_location\": \"fallible_initial_draft.memory_decisions[1].fact.value\",\n      \"problem\": \"The operation should be 'CORRECT' because the value is changing from 'kings lynn' to 'cambridge'.\",\n      \"specific_revision\": \"Change operation to 'CORRECT'.\"\n    },\n    {\n      \"draft_location\": \"fallible_initial_draft.memory_decisions[1].fact.value\",\n      \"evidence_location\": \"PMUL0945.json#turn4\",\n      \"problem\": \"The value for 'train.semi.destination' should be 'cambridge' based on the user's correction.\",\n      \"specific_revision\": \"Change value to 'cambridge'.\"\n    }\n  ]\n}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T22:49:57.835011Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "lZ25asP7MtCNx9gP07myoAQ",
+    "usageMetadata": {
+      "candidatesTokenCount": 423,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 423
+        }
+      ],
+      "promptTokenCount": 1567,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1567
+        }
+      ],
+      "totalTokenCount": 1990,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "23c487d6120c0fbe5d8902b8d9dd9e03c127cc06065e375f1d8af2e1c8626f97",
+  "status": "OK",
+  "text": "{\n  \"no_change_needed\": false,\n  \"issues\": [\n    {\n      \"draft_location\": \"fallible_initial_draft.memory_decisions[0].operation\",\n      \"evidence_location\": \"fallible_initial_draft.memory_decisions[0].fact.value\",\n      \"problem\": \"The operation should be 'CORRECT' because the value is changing from 'cambridge' to 'kings lynn'.\",\n      \"specific_revision\": \"Change operation to 'CORRECT'.\"\n    },\n    {\n      \"draft_location\": \"fallible_initial_draft.memory_decisions[0].fact.value\",\n      \"evidence_location\": \"PMUL0945.json#turn4\",\n      \"problem\": \"The value for 'train.semi.departure' should be 'kings lynn' based on the user's correction.\",\n      \"specific_revision\": \"Change value to 'kings lynn'.\"\n    },\n    {\n      \"draft_location\": \"fallible_initial_draft.memory_decisions[1].operation\",\n      \"evidence_location\": \"fallible_initial_draft.memory_decisions[1].fact.value\",\n      \"problem\": \"The operation should be 'CORRECT' because the value is changing from 'kings lynn' to 'cambridge'.\",\n      \"specific_revision\": \"Change operation to 'CORRECT'.\"\n    },\n    {\n      \"draft_location\": \"fallible_initial_draft.memory_decisions[1].fact.value\",\n      \"evidence_location\": \"PMUL0945.json#turn4\",\n      \"problem\": \"The value for 'train.semi.destination' should be 'cambridge' based on the user's correction.\",\n      \"specific_revision\": \"Change value to 'cambridge'.\"\n    }\n  ]\n}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1567,
+    "output_tokens": 423,
+    "reasoning_tokens": 0,
+    "total_tokens": 1990
+  }
+}

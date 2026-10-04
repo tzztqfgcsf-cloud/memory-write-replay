@@ -1,0 +1,55 @@
+{
+  "status": "OK",
+  "http_status": 200,
+  "text": "{\n  \"beliefs\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"facts\": []\n    },\n    {\n      \"candidate_id\": \"c2\",\n      \"facts\": []\n    }\n  ],\n  \"correction_witnesses\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"evidence_quote\": \"사진 찍기예요\",\n      \"new_value\": \"사진 찍기\",\n      \"polarity\": \"affirmed\",\n      \"relation\": \"hobby\",\n      \"source_turn\": \"t2\",\n      \"subject\": \"participant\",\n      \"target_fact_id\": \"f1\",\n      \"time\": \"present\"\n    },\n    {\n      \"candidate_id\": \"c2\",\n      \"evidence_quote\": \"사진 찍기입니다\",\n      \"new_value\": \"사진 찍기\",\n      \"polarity\": \"affirmed\",\n      \"relation\": \"hobby\",\n      \"source_turn\": \"t2\",\n      \"subject\": \"participant\",\n      \"target_fact_id\": \"f1\",\n      \"time\": \"present\"\n    }\n  ]\n}",
+  "usage": {
+    "input_tokens": 1701,
+    "output_tokens": 268,
+    "reasoning_tokens": 0,
+    "total_tokens": 1969,
+    "cached_tokens": null
+  },
+  "finish_reason": "STOP",
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "content": {
+          "role": "model",
+          "parts": [
+            {
+              "text": "{\n  \"beliefs\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"facts\": []\n    },\n    {\n      \"candidate_id\": \"c2\",\n      \"facts\": []\n    }\n  ],\n  \"correction_witnesses\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"evidence_quote\": \"사진 찍기예요\",\n      \"new_value\": \"사진 찍기\",\n      \"polarity\": \"affirmed\",\n      \"relation\": \"hobby\",\n      \"source_turn\": \"t2\",\n      \"subject\": \"participant\",\n      \"target_fact_id\": \"f1\",\n      \"time\": \"present\"\n    },\n    {\n      \"candidate_id\": \"c2\",\n      \"evidence_quote\": \"사진 찍기입니다\",\n      \"new_value\": \"사진 찍기\",\n      \"polarity\": \"affirmed\",\n      \"relation\": \"hobby\",\n      \"source_turn\": \"t2\",\n      \"subject\": \"participant\",\n      \"target_fact_id\": \"f1\",\n      \"time\": \"present\"\n    }\n  ]\n}"
+            }
+          ]
+        },
+        "finishReason": "STOP",
+        "avgLogprobs": -0.006431913642740961
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 1701,
+      "candidatesTokenCount": 268,
+      "totalTokenCount": 1969,
+      "trafficType": "ON_DEMAND",
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1701
+        }
+      ],
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 268
+        }
+      ]
+    },
+    "modelVersion": "gemini-2.5-flash",
+    "createTime": "2026-09-27T11:25:32.857133Z",
+    "responseId": "LP24aq2oNJyi0ckPm9nakA0"
+  },
+  "latency_seconds": 1.6654,
+  "call_id": "N011-candidate_extract",
+  "physical_attempt": true,
+  "completed_unix": 1790508334.414606
+}

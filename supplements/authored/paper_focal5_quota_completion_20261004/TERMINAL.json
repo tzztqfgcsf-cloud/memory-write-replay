@@ -1,0 +1,11 @@
+{
+  "attempts": 3,
+  "completed": 3,
+  "conservative_usage_usd": 0.022984,
+  "reserved_usd": 0.0,
+  "stopped_models": [],
+  "stop_all": false,
+  "status": "COMPLETE",
+  "elapsed_seconds": 186.48838966689073,
+  "hash_drift": []
+}

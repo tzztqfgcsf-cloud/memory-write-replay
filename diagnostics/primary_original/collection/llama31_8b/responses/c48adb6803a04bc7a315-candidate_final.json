@@ -1,0 +1,36 @@
+{
+  "call_id": "c48adb6803a04bc7a315-candidate_final",
+  "error_type": null,
+  "finish_reason": "stop",
+  "finished_unix": 1790489293.506609,
+  "latency_seconds": 10.913,
+  "model_version": "mlx-community/Llama-3.1-8B-Instruct-4bit",
+  "raw_response": {
+    "base_seed": 20260927,
+    "finish_reason": "stop",
+    "generation_calls": 70,
+    "id": "local-5a29ce08f515ffc9e88ae41f",
+    "seed": 1482559364,
+    "snapshot": "<LOCAL_PATH>",
+    "text": "{\"action\": {\"kind\": \"CLARIFY\", \"question_slot\": \"learned_from\", \"required_slots\": [\"learned_from\"], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"최 선생님이\", \"한 선생님이\"], \"fact\": {\"relation\": \"learned_from\", \"source_turns\": [\"t1\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"한 선생님이\"}, \"operation\": \"CORRECT\", \"slot\": \"learned_from\", \"source_turns\": [\"t1\"], \"target_fact_id\": \"f1\"}], \"reply\": \"처음 판소리를 배운 분이 최 선생님이라고 적혀 있어요. 소개 글의 이 부분이 맞나요?\"}",
+    "usage": {
+      "cached_tokens": null,
+      "input_tokens": 2112,
+      "output_tokens": 167,
+      "reasoning_tokens": null,
+      "total_tokens": 2279
+    }
+  },
+  "request_sha256": "bfec27a0175de040211ef1360d7d19a87dad01f14225fcfd9fb1afa3f14b3175",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790489282.5932128,
+  "status": "OK",
+  "text": "{\"action\": {\"kind\": \"CLARIFY\", \"question_slot\": \"learned_from\", \"required_slots\": [\"learned_from\"], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"최 선생님이\", \"한 선생님이\"], \"fact\": {\"relation\": \"learned_from\", \"source_turns\": [\"t1\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"한 선생님이\"}, \"operation\": \"CORRECT\", \"slot\": \"learned_from\", \"source_turns\": [\"t1\"], \"target_fact_id\": \"f1\"}], \"reply\": \"처음 판소리를 배운 분이 최 선생님이라고 적혀 있어요. 소개 글의 이 부분이 맞나요?\"}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 2112,
+    "output_tokens": 167,
+    "reasoning_tokens": null,
+    "total_tokens": 2279
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "call_id": "73da2ea05c30955b3e52-sr_refine",
+  "finish_reason": "STOP",
+  "finished_unix": 1790494369.534522,
+  "http_status": 200,
+  "latency_seconds": 1.0536,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.007083876117779191,
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"reply\": \"네, 제주도에 다녀오셨군요. 기록하지 않고 이야기 들어드릴게요. 제주도에서 어떤 경험을 하셨나요?\",\n  \"action\": {\n    \"kind\": \"CONTINUE\",\n    \"question_slot\": null,\n    \"required_slots\": [],\n    \"speaker_id\": \"p1\"\n  },\n  \"memory_decisions\": [\n    {\n      \"alternatives\": [],\n      \"fact\": null,\n      \"operation\": \"NO_WRITE\",\n      \"slot\": \"travel_destination\",\n      \"source_turns\": [\"t2\"],\n      \"target_fact_id\": null\n    }\n  ]\n}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T07:32:48.596390Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "oMa4aqazJLOLx9gPv4OY6A4",
+    "usageMetadata": {
+      "candidatesTokenCount": 157,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 157
+        }
+      ],
+      "promptTokenCount": 1978,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1978
+        }
+      ],
+      "totalTokenCount": 2135,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "896694a54b40f417bfec5f08e58072e09d52590b6053cc5569dee4a415d29c98",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790494368.48069,
+  "status": "OK",
+  "text": "{\n  \"reply\": \"네, 제주도에 다녀오셨군요. 기록하지 않고 이야기 들어드릴게요. 제주도에서 어떤 경험을 하셨나요?\",\n  \"action\": {\n    \"kind\": \"CONTINUE\",\n    \"question_slot\": null,\n    \"required_slots\": [],\n    \"speaker_id\": \"p1\"\n  },\n  \"memory_decisions\": [\n    {\n      \"alternatives\": [],\n      \"fact\": null,\n      \"operation\": \"NO_WRITE\",\n      \"slot\": \"travel_destination\",\n      \"source_turns\": [\"t2\"],\n      \"target_fact_id\": null\n    }\n  ]\n}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1978,
+    "output_tokens": 157,
+    "reasoning_tokens": 0,
+    "total_tokens": 2135
+  }
+}

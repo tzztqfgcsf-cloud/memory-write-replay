@@ -1,0 +1,64 @@
+{
+  "call_id": "4c040436fc3c9492ad3e-candidate_extract",
+  "finish_reason": "STOP",
+  "finished_unix": 1790491281.389379,
+  "http_status": 200,
+  "latency_seconds": 1.9488,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.0009248366161268585,
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"beliefs\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"facts\": [\n        {\n          \"relation\": \"learned_from\",\n          \"source_turns\": [\n            \"t2\"\n          ],\n          \"subject\": \"영숙\",\n          \"time\": \"past\",\n          \"value\": \"이 사범님\"\n        }\n      ]\n    },\n    {\n      \"candidate_id\": \"c2\",\n      \"facts\": [\n        {\n          \"relation\": \"learned_from\",\n          \"source_turns\": [\n            \"t2\"\n          ],\n          \"subject\": \"영숙\",\n          \"time\": \"past\",\n          \"value\": \"이 사범님\"\n        }\n      ]\n    }\n  ],\n  \"correction_witnesses\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"evidence_quote\": \"\",\n      \"new_value\": \"박 사범님\",\n      \"polarity\": \"absent\",\n      \"relation\": \"learned_from\",\n      \"source_turn\": \"t2\",\n      \"subject\": \"participant\",\n      \"target_fact_id\": \"f1\",\n      \"time\": \"past\"\n    },\n    {\n      \"candidate_id\": \"c2\",\n      \"evidence_quote\": \"\",\n      \"new_value\": \"박 사범님\",\n      \"polarity\": \"absent\",\n      \"relation\": \"learned_from\",\n      \"source_turn\": \"t2\",\n      \"subject\": \"participant\",\n      \"target_fact_id\": \"f1\",\n      \"time\": \"past\"\n    }\n  ]\n}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T06:41:19.532970Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "j7q4aurDILOLx9gPv4OY6A4",
+    "usageMetadata": {
+      "cacheTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1360
+        }
+      ],
+      "cachedContentTokenCount": 1360,
+      "candidatesTokenCount": 392,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 392
+        }
+      ],
+      "promptTokenCount": 1710,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1710
+        }
+      ],
+      "totalTokenCount": 2102,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "67464919764b532b6573c750def563b3ad3552d87e28c3b60a7341495c1a9a59",
+  "stage_schema_sha256": "bda7326ac6a6cbeedf1ecdbf4a2b08277c078351d6689f667dc0d558c4972dd3",
+  "started_unix": 1790491279.440238,
+  "status": "OK",
+  "text": "{\n  \"beliefs\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"facts\": [\n        {\n          \"relation\": \"learned_from\",\n          \"source_turns\": [\n            \"t2\"\n          ],\n          \"subject\": \"영숙\",\n          \"time\": \"past\",\n          \"value\": \"이 사범님\"\n        }\n      ]\n    },\n    {\n      \"candidate_id\": \"c2\",\n      \"facts\": [\n        {\n          \"relation\": \"learned_from\",\n          \"source_turns\": [\n            \"t2\"\n          ],\n          \"subject\": \"영숙\",\n          \"time\": \"past\",\n          \"value\": \"이 사범님\"\n        }\n      ]\n    }\n  ],\n  \"correction_witnesses\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"evidence_quote\": \"\",\n      \"new_value\": \"박 사범님\",\n      \"polarity\": \"absent\",\n      \"relation\": \"learned_from\",\n      \"source_turn\": \"t2\",\n      \"subject\": \"participant\",\n      \"target_fact_id\": \"f1\",\n      \"time\": \"past\"\n    },\n    {\n      \"candidate_id\": \"c2\",\n      \"evidence_quote\": \"\",\n      \"new_value\": \"박 사범님\",\n      \"polarity\": \"absent\",\n      \"relation\": \"learned_from\",\n      \"source_turn\": \"t2\",\n      \"subject\": \"participant\",\n      \"target_fact_id\": \"f1\",\n      \"time\": \"past\"\n    }\n  ]\n}",
+  "usage": {
+    "cached_tokens": 1360,
+    "input_tokens": 1710,
+    "output_tokens": 392,
+    "reasoning_tokens": 0,
+    "total_tokens": 2102
+  }
+}

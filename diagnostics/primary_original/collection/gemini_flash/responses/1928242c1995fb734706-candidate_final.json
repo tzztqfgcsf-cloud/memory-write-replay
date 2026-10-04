@@ -1,0 +1,57 @@
+{
+  "call_id": "1928242c1995fb734706-candidate_final",
+  "finish_reason": "STOP",
+  "finished_unix": 1790495051.994894,
+  "http_status": 200,
+  "latency_seconds": 1.4792,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.04266483011380048,
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"reply\": \"네, 학교 이야기는 건너뛰고 다른 주제로 대화해 볼까요?\",\n  \"action\": {\n    \"kind\": \"SKIP\",\n    \"question_slot\": null,\n    \"required_slots\": [],\n    \"speaker_id\": \"p1\"\n  },\n  \"memory_decisions\": [\n    {\n      \"alternatives\": [],\n      \"fact\": null,\n      \"operation\": \"NO_WRITE\",\n      \"slot\": null,\n      \"source_turns\": [\"t2\"],\n      \"target_fact_id\": null\n    }\n  ]\n}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T07:44:10.665077Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "Ssm4avXLKMOAncoPsbLi2Qc",
+    "usageMetadata": {
+      "candidatesTokenCount": 142,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 142
+        }
+      ],
+      "promptTokenCount": 1925,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1925
+        }
+      ],
+      "totalTokenCount": 2067,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "dbee46f6e610828fea145d05f03dd096eba0d1566be76fca4ff8f2200329784c",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790495050.5153012,
+  "status": "OK",
+  "text": "{\n  \"reply\": \"네, 학교 이야기는 건너뛰고 다른 주제로 대화해 볼까요?\",\n  \"action\": {\n    \"kind\": \"SKIP\",\n    \"question_slot\": null,\n    \"required_slots\": [],\n    \"speaker_id\": \"p1\"\n  },\n  \"memory_decisions\": [\n    {\n      \"alternatives\": [],\n      \"fact\": null,\n      \"operation\": \"NO_WRITE\",\n      \"slot\": null,\n      \"source_turns\": [\"t2\"],\n      \"target_fact_id\": null\n    }\n  ]\n}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1925,
+    "output_tokens": 142,
+    "reasoning_tokens": 0,
+    "total_tokens": 2067
+  }
+}

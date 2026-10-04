@@ -1,0 +1,36 @@
+{
+  "call_id": "820ada422fb95e3a9bab-g_draft",
+  "error_type": null,
+  "finish_reason": "stop",
+  "finished_unix": 1790497109.969963,
+  "latency_seconds": 9.5111,
+  "model_version": "mlx-community/Llama-3.1-8B-Instruct-4bit",
+  "raw_response": {
+    "base_seed": 20260927,
+    "finish_reason": "stop",
+    "generation_calls": 787,
+    "id": "local-49762b7fb1ed2325daa46686",
+    "seed": 4077469176,
+    "snapshot": "<LOCAL_PATH>",
+    "text": "{\"action\": {\"kind\": \"CONTINUE\", \"question_slot\": \"hobby\", \"required_slots\": [\"hobby\"], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"자전거\"], \"fact\": {\"relation\": \"hobby\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"자전거\"}, \"operation\": \"APPEND\", \"slot\": \"hobby\", \"source_turns\": [\"t2\"], \"target_fact_id\": null}], \"reply\": \"자전거를 취미로 추가해 주세요.\"}",
+    "usage": {
+      "cached_tokens": null,
+      "input_tokens": 1755,
+      "output_tokens": 135,
+      "reasoning_tokens": null,
+      "total_tokens": 1890
+    }
+  },
+  "request_sha256": "601e3f8cb628070da43f0f8b77ae7d1dd9eadc02217e9dd0f9cc07610ff7c4c9",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790497100.458493,
+  "status": "OK",
+  "text": "{\"action\": {\"kind\": \"CONTINUE\", \"question_slot\": \"hobby\", \"required_slots\": [\"hobby\"], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"자전거\"], \"fact\": {\"relation\": \"hobby\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"자전거\"}, \"operation\": \"APPEND\", \"slot\": \"hobby\", \"source_turns\": [\"t2\"], \"target_fact_id\": null}], \"reply\": \"자전거를 취미로 추가해 주세요.\"}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1755,
+    "output_tokens": 135,
+    "reasoning_tokens": null,
+    "total_tokens": 1890
+  }
+}

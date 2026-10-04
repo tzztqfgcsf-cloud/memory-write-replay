@@ -1,0 +1,33 @@
+{
+  "status": "PASS",
+  "checked_at_utc": "2026-10-04T15:06:06.852278+00:00",
+  "release": "v20-artifact-v1",
+  "main_clean_copy_replay": {
+    "episodes": 3024,
+    "conditions": 14,
+    "score_rows": 42336,
+    "score_mismatches": 0,
+    "state_mismatches": 0,
+    "gate_audit_mismatches": 0,
+    "environment": "clean environment without API credentials; package copied outside project; network access rejected"
+  },
+  "supporting_diagnostics_parent_run": {
+    "exit_code": 0,
+    "verified_score_rows": 3444
+  },
+  "post_v20_parent_runs": {
+    "aggregation_and_saved_intervals_exit_code": 0,
+    "saved_output_replay_exit_code": 0,
+    "matched_outputs": 296
+  },
+  "new_model_calls": 0,
+  "new_training_calls": 0,
+  "original_experiment_results_modified": false,
+  "limits": [
+    "Core replay reproduces saved-generation decisions, execution and point scores, not fresh generations.",
+    "Some statistics are archived as code and result tables rather than fully portable bootstrap entrypoints.",
+    "Original 40-78 microsecond timing artifact not recovered.",
+    "DSTC2 raw corpus and transcript-bearing model outputs require separate upstream access and are not redistributed.",
+    "No DOI, artifact badge or publication acceptance is asserted."
+  ]
+}

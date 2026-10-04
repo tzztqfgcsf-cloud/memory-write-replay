@@ -1,0 +1,57 @@
+{
+  "call_id": "704cab8be4b37a0a3b38-sr_refine",
+  "finish_reason": "STOP",
+  "finished_unix": 1790488709.724991,
+  "http_status": 200,
+  "latency_seconds": 1.4166,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.0018399713708342408,
+        "content": {
+          "parts": [
+            {
+              "text": "{\"reply\": \"네, 출생지를 대구로 수정해 드릴게요.\", \"action\": {\"kind\": \"CONTINUE\", \"question_slot\": null, \"required_slots\": [], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [], \"fact\": {\"relation\": \"birthplace\", \"source_turns\": [\"t1\", \"t2\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"대구\"}, \"operation\": \"CORRECT\", \"slot\": null, \"source_turns\": [\"t1\", \"t2\"], \"target_fact_id\": \"f1\"}]}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T05:58:28.523795Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "hLC4apP8H62BktwPi5PxuQg",
+    "usageMetadata": {
+      "candidatesTokenCount": 139,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 139
+        }
+      ],
+      "promptTokenCount": 2068,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 2068
+        }
+      ],
+      "totalTokenCount": 2207,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "ea5420166f7590fd1641afd82792593e87647736ac80cd65f0768de6fc3ea64d",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790488708.3078668,
+  "status": "OK",
+  "text": "{\"reply\": \"네, 출생지를 대구로 수정해 드릴게요.\", \"action\": {\"kind\": \"CONTINUE\", \"question_slot\": null, \"required_slots\": [], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [], \"fact\": {\"relation\": \"birthplace\", \"source_turns\": [\"t1\", \"t2\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"대구\"}, \"operation\": \"CORRECT\", \"slot\": null, \"source_turns\": [\"t1\", \"t2\"], \"target_fact_id\": \"f1\"}]}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 2068,
+    "output_tokens": 139,
+    "reasoning_tokens": 0,
+    "total_tokens": 2207
+  }
+}

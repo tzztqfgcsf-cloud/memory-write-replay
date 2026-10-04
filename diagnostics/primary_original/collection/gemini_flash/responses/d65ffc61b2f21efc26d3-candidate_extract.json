@@ -1,0 +1,57 @@
+{
+  "call_id": "d65ffc61b2f21efc26d3-candidate_extract",
+  "finish_reason": "STOP",
+  "finished_unix": 1790496962.433323,
+  "http_status": 200,
+  "latency_seconds": 2.357,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.0029696898976552116,
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"beliefs\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"facts\": [\n        {\n          \"relation\": \"preferred_contact\",\n          \"source_turns\": [\n            \"t2\"\n          ],\n          \"subject\": \"participant\",\n          \"time\": \"present\",\n          \"value\": \"문자\"\n        }\n      ]\n    },\n    {\n      \"candidate_id\": \"c2\",\n      \"facts\": [\n        {\n          \"relation\": \"preferred_contact\",\n          \"source_turns\": [\n            \"t2\"\n          ],\n          \"subject\": \"participant\",\n          \"time\": \"present\",\n          \"value\": \"문자\"\n        }\n      ]\n    }\n  ],\n  \"correction_witnesses\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"evidence_quote\": \"문자로\",\n      \"new_value\": \"문자\",\n      \"polarity\": \"affirmed\",\n      \"relation\": \"preferred_contact\",\n      \"source_turn\": \"t2\",\n      \"subject\": \"participant\",\n      \"target_fact_id\": \"f1\",\n      \"time\": \"present\"\n    },\n    {\n      \"candidate_id\": \"c2\",\n      \"evidence_quote\": \"문자로\",\n      \"new_value\": \"문자\",\n      \"polarity\": \"affirmed\",\n      \"relation\": \"preferred_contact\",\n      \"source_turn\": \"t2\",\n      \"subject\": \"participant\",\n      \"target_fact_id\": \"f1\",\n      \"time\": \"present\"\n    }\n  ]\n}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T08:16:00.229957Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "wNC4asWEDo-O0ckPoPWH2Ag",
+    "usageMetadata": {
+      "candidatesTokenCount": 388,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 388
+        }
+      ],
+      "promptTokenCount": 1741,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1741
+        }
+      ],
+      "totalTokenCount": 2129,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "0bd39ffd1b18a2f988c93972b64922e974128632043466eba8cc1ce10aee2c0a",
+  "stage_schema_sha256": "bda7326ac6a6cbeedf1ecdbf4a2b08277c078351d6689f667dc0d558c4972dd3",
+  "started_unix": 1790496960.0743139,
+  "status": "OK",
+  "text": "{\n  \"beliefs\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"facts\": [\n        {\n          \"relation\": \"preferred_contact\",\n          \"source_turns\": [\n            \"t2\"\n          ],\n          \"subject\": \"participant\",\n          \"time\": \"present\",\n          \"value\": \"문자\"\n        }\n      ]\n    },\n    {\n      \"candidate_id\": \"c2\",\n      \"facts\": [\n        {\n          \"relation\": \"preferred_contact\",\n          \"source_turns\": [\n            \"t2\"\n          ],\n          \"subject\": \"participant\",\n          \"time\": \"present\",\n          \"value\": \"문자\"\n        }\n      ]\n    }\n  ],\n  \"correction_witnesses\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"evidence_quote\": \"문자로\",\n      \"new_value\": \"문자\",\n      \"polarity\": \"affirmed\",\n      \"relation\": \"preferred_contact\",\n      \"source_turn\": \"t2\",\n      \"subject\": \"participant\",\n      \"target_fact_id\": \"f1\",\n      \"time\": \"present\"\n    },\n    {\n      \"candidate_id\": \"c2\",\n      \"evidence_quote\": \"문자로\",\n      \"new_value\": \"문자\",\n      \"polarity\": \"affirmed\",\n      \"relation\": \"preferred_contact\",\n      \"source_turn\": \"t2\",\n      \"subject\": \"participant\",\n      \"target_fact_id\": \"f1\",\n      \"time\": \"present\"\n    }\n  ]\n}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1741,
+    "output_tokens": 388,
+    "reasoning_tokens": 0,
+    "total_tokens": 2129
+  }
+}

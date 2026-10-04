@@ -1,0 +1,57 @@
+{
+  "call_id": "db3ef6b8b2b25d69c687-candidate_extract",
+  "finish_reason": "STOP",
+  "finished_unix": 1790492626.157993,
+  "http_status": 200,
+  "latency_seconds": 1.956,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.0017520535933343987,
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"beliefs\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"facts\": [\n        {\n          \"relation\": \"travel_destination\",\n          \"source_turns\": [\n            \"t2\"\n          ],\n          \"subject\": \"participant\",\n          \"time\": \"past\",\n          \"value\": \"통영\"\n        }\n      ]\n    },\n    {\n      \"candidate_id\": \"c2\",\n      \"facts\": [\n        {\n          \"relation\": \"travel_destination\",\n          \"source_turns\": [\n            \"t2\"\n          ],\n          \"subject\": \"participant\",\n          \"time\": \"past\",\n          \"value\": \"동해\"\n        }\n      ]\n    }\n  ],\n  \"correction_witnesses\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"evidence_quote\": \"\",\n      \"new_value\": \"뜨개질\",\n      \"polarity\": \"absent\",\n      \"relation\": \"hobby\",\n      \"source_turn\": \"t2\",\n      \"subject\": \"participant\",\n      \"target_fact_id\": \"f1\",\n      \"time\": \"present\"\n    },\n    {\n      \"candidate_id\": \"c2\",\n      \"evidence_quote\": \"\",\n      \"new_value\": \"뜨개질\",\n      \"polarity\": \"absent\",\n      \"relation\": \"hobby\",\n      \"source_turn\": \"t2\",\n      \"subject\": \"participant\",\n      \"target_fact_id\": \"f1\",\n      \"time\": \"present\"\n    }\n  ]\n}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T07:03:44.274890Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "0L-4asrjEI-O0ckPoPWH2Ag",
+    "usageMetadata": {
+      "candidatesTokenCount": 380,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 380
+        }
+      ],
+      "promptTokenCount": 1712,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1712
+        }
+      ],
+      "totalTokenCount": 2092,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "e0767716f18b37f3a997e3831e96363942927716dc4c91c31a670932da368ed2",
+  "stage_schema_sha256": "bda7326ac6a6cbeedf1ecdbf4a2b08277c078351d6689f667dc0d558c4972dd3",
+  "started_unix": 1790492624.20149,
+  "status": "OK",
+  "text": "{\n  \"beliefs\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"facts\": [\n        {\n          \"relation\": \"travel_destination\",\n          \"source_turns\": [\n            \"t2\"\n          ],\n          \"subject\": \"participant\",\n          \"time\": \"past\",\n          \"value\": \"통영\"\n        }\n      ]\n    },\n    {\n      \"candidate_id\": \"c2\",\n      \"facts\": [\n        {\n          \"relation\": \"travel_destination\",\n          \"source_turns\": [\n            \"t2\"\n          ],\n          \"subject\": \"participant\",\n          \"time\": \"past\",\n          \"value\": \"동해\"\n        }\n      ]\n    }\n  ],\n  \"correction_witnesses\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"evidence_quote\": \"\",\n      \"new_value\": \"뜨개질\",\n      \"polarity\": \"absent\",\n      \"relation\": \"hobby\",\n      \"source_turn\": \"t2\",\n      \"subject\": \"participant\",\n      \"target_fact_id\": \"f1\",\n      \"time\": \"present\"\n    },\n    {\n      \"candidate_id\": \"c2\",\n      \"evidence_quote\": \"\",\n      \"new_value\": \"뜨개질\",\n      \"polarity\": \"absent\",\n      \"relation\": \"hobby\",\n      \"source_turn\": \"t2\",\n      \"subject\": \"participant\",\n      \"target_fact_id\": \"f1\",\n      \"time\": \"present\"\n    }\n  ]\n}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1712,
+    "output_tokens": 380,
+    "reasoning_tokens": 0,
+    "total_tokens": 2092
+  }
+}

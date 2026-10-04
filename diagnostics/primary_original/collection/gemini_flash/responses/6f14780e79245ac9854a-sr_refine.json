@@ -1,0 +1,57 @@
+{
+  "call_id": "6f14780e79245ac9854a-sr_refine",
+  "finish_reason": "STOP",
+  "finished_unix": 1790495358.207846,
+  "http_status": 200,
+  "latency_seconds": 1.2171,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.015174240651337996,
+        "content": {
+          "parts": [
+            {
+              "text": "{\"reply\": \"네, 다퉜던 이야기는 하지 않고, 송 선생님께 배우면서 즐거웠던 경험에 대해 더 이야기해 주시겠어요?\", \"action\": {\"kind\": \"CONTINUE\", \"question_slot\": null, \"required_slots\": [], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [], \"fact\": null, \"operation\": \"NO_WRITE\", \"slot\": null, \"source_turns\": [\"t2\"], \"target_fact_id\": null}]}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T07:49:17.187030Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "fcq4apa1C5iXktwPo4SY4AQ",
+    "usageMetadata": {
+      "candidatesTokenCount": 115,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 115
+        }
+      ],
+      "promptTokenCount": 1988,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1988
+        }
+      ],
+      "totalTokenCount": 2103,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "18f1dc74dd6cbc149a8497fc1e682bd74115c6d37536d5670b2f9d5341f0882b",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790495356.989852,
+  "status": "OK",
+  "text": "{\"reply\": \"네, 다퉜던 이야기는 하지 않고, 송 선생님께 배우면서 즐거웠던 경험에 대해 더 이야기해 주시겠어요?\", \"action\": {\"kind\": \"CONTINUE\", \"question_slot\": null, \"required_slots\": [], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [], \"fact\": null, \"operation\": \"NO_WRITE\", \"slot\": null, \"source_turns\": [\"t2\"], \"target_fact_id\": null}]}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1988,
+    "output_tokens": 115,
+    "reasoning_tokens": 0,
+    "total_tokens": 2103
+  }
+}

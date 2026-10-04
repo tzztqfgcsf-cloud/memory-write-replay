@@ -1,0 +1,57 @@
+{
+  "call_id": "fe487e6344f7b027d6a9-candidate_extract",
+  "finish_reason": "STOP",
+  "finished_unix": 1790490349.2179909,
+  "http_status": 200,
+  "latency_seconds": 1.4495,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.007611363681394662,
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"beliefs\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"facts\": []\n    },\n    {\n      \"candidate_id\": \"c2\",\n      \"facts\": []\n    }\n  ],\n  \"correction_witnesses\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"evidence_quote\": \"\",\n      \"new_value\": \"속초\",\n      \"polarity\": \"negated\",\n      \"relation\": \"travel_destination\",\n      \"source_turn\": \"t2\",\n      \"subject\": \"participant\",\n      \"target_fact_id\": \"f1\",\n      \"time\": \"past\"\n    },\n    {\n      \"candidate_id\": \"c2\",\n      \"evidence_quote\": \"속초 기록은 일단 두세요\",\n      \"new_value\": \"속초\",\n      \"polarity\": \"affirmed\",\n      \"relation\": \"travel_destination\",\n      \"source_turn\": \"t2\",\n      \"subject\": \"participant\",\n      \"target_fact_id\": \"f1\",\n      \"time\": \"past\"\n    }\n  ]\n}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T06:25:47.885541Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "67a4aqWGNsup0ckPy9-P8Ak",
+    "usageMetadata": {
+      "candidatesTokenCount": 268,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 268
+        }
+      ],
+      "promptTokenCount": 1704,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1704
+        }
+      ],
+      "totalTokenCount": 1972,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "ae5c2e9315b5bc2971a14f561235de710cf47a35dd58746fabaf4df1c5075efd",
+  "stage_schema_sha256": "bda7326ac6a6cbeedf1ecdbf4a2b08277c078351d6689f667dc0d558c4972dd3",
+  "started_unix": 1790490347.768277,
+  "status": "OK",
+  "text": "{\n  \"beliefs\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"facts\": []\n    },\n    {\n      \"candidate_id\": \"c2\",\n      \"facts\": []\n    }\n  ],\n  \"correction_witnesses\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"evidence_quote\": \"\",\n      \"new_value\": \"속초\",\n      \"polarity\": \"negated\",\n      \"relation\": \"travel_destination\",\n      \"source_turn\": \"t2\",\n      \"subject\": \"participant\",\n      \"target_fact_id\": \"f1\",\n      \"time\": \"past\"\n    },\n    {\n      \"candidate_id\": \"c2\",\n      \"evidence_quote\": \"속초 기록은 일단 두세요\",\n      \"new_value\": \"속초\",\n      \"polarity\": \"affirmed\",\n      \"relation\": \"travel_destination\",\n      \"source_turn\": \"t2\",\n      \"subject\": \"participant\",\n      \"target_fact_id\": \"f1\",\n      \"time\": \"past\"\n    }\n  ]\n}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1704,
+    "output_tokens": 268,
+    "reasoning_tokens": 0,
+    "total_tokens": 1972
+  }
+}

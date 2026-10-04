@@ -1,0 +1,36 @@
+{
+  "call_id": "ff436aed9da5b1b9fec3-g_final",
+  "error_type": null,
+  "finish_reason": "stop",
+  "finished_unix": 1790489596.656553,
+  "latency_seconds": 11.8372,
+  "model_version": "mlx-community/Llama-3.1-8B-Instruct-4bit",
+  "raw_response": {
+    "base_seed": 20260927,
+    "finish_reason": "stop",
+    "generation_calls": 98,
+    "id": "local-1037b9ae5527171ba1f07b90",
+    "seed": 2063409961,
+    "snapshot": "<LOCAL_PATH>",
+    "text": "{\"action\": {\"kind\": \"CONTINUE\", \"question_slot\": \"event_year\", \"required_slots\": [\"event_year\"], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"1988년\"], \"fact\": {\"relation\": \"event_year\", \"source_turns\": [\"t1\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"1988년\"}, \"operation\": \"HOLD\", \"slot\": null, \"source_turns\": [\"t1\"], \"target_fact_id\": null}, {\"alternatives\": [\"1998년\"], \"fact\": {\"relation\": \"event_year\", \"source_turns\": [\"t1\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"1998년\"}, \"operation\": \"APPEND\", \"slot\": \"event_year\", \"source_turns\": [\"t1\"], \"target_fact_id\": null}], \"reply\": \"그렇습니다. 귀농한 해가 1988년이라고 생각합니다.\"}",
+    "usage": {
+      "cached_tokens": null,
+      "input_tokens": 1909,
+      "output_tokens": 216,
+      "reasoning_tokens": null,
+      "total_tokens": 2125
+    }
+  },
+  "request_sha256": "342bf83532e38f4e026058bb14b5652cba03583f3c4d290e7f7903c83072aae3",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790489584.818828,
+  "status": "OK",
+  "text": "{\"action\": {\"kind\": \"CONTINUE\", \"question_slot\": \"event_year\", \"required_slots\": [\"event_year\"], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"1988년\"], \"fact\": {\"relation\": \"event_year\", \"source_turns\": [\"t1\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"1988년\"}, \"operation\": \"HOLD\", \"slot\": null, \"source_turns\": [\"t1\"], \"target_fact_id\": null}, {\"alternatives\": [\"1998년\"], \"fact\": {\"relation\": \"event_year\", \"source_turns\": [\"t1\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"1998년\"}, \"operation\": \"APPEND\", \"slot\": \"event_year\", \"source_turns\": [\"t1\"], \"target_fact_id\": null}], \"reply\": \"그렇습니다. 귀농한 해가 1988년이라고 생각합니다.\"}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1909,
+    "output_tokens": 216,
+    "reasoning_tokens": null,
+    "total_tokens": 2125
+  }
+}

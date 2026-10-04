@@ -1,0 +1,9 @@
+저장 응답 resource 관측: 21구성 × 3경로 = 63행
+
+경로: candidate F+Q는2stage, REVIEW draft+Q는2stage, REVIEW draft+Q+candidate F hybrid는3stage. 각 원 사례×반복 episode에서 저장 raw stage 관측치를 합산한 뒤 모델별 평균과 중앙값을 구했다. 원144 episodes를 모두 읽었으며 generation_valid/효능 결과로 필터하지 않았다. 실패·parse불가 raw라도 실제 측정 필드가 있으면 포함했다. 원 stage field가 전부 있어야 그 metric의 episode sum을 계산했고 하나라도 결측이면 0으로 채우거나 관측 부분만 합산하지 않았다. metric별 complete/partial/missing episodes를 표기하며, 관측이 없으면 N/A다.
+
+Tokens는 raw usage의 input_tokens/output_tokens/reasoning_tokens/cached_tokens/total_tokens를 각각 그대로 읽었다. raw total_tokens는 provider별 정의가 다를 수 있어 input+output로 새로 추정하지 않았다. Kiro13구성 raw 응답에는 token usage가 없으므로 N/A다. 다른8구성은 저장된 usage 필드만 보고한다. qwen3_14b의 reasoning/cached_tokens 결측은0으로 바꾸지 않았다.
+
+시간은 raw latency_seconds 또는 Kiro seconds다. 숫자는 저장 각 stage 시간의 합이며 새로 측정한 실제 병렬배포 지연, 사용자 응답 지연, 네트워크만의 지연이 아니다. hybrid3stage 단순합은 F와 REVIEW가 병렬화될 수 있는 실제 serving의 critical-path latency를 측정하지 않는다. 현재 실행은 저장파일 읽기뿐이며 신규 API/모델/추론 calls0이다. 같은 candidate F 응답이 candidate와 hybrid의 비교값에 재사용되지만 실제로 두번 호출했거나 새 비용이 발생했다고 세지 않는다. 3경로 합계를 총 실소비로 더하면 중복계산이 된다. token·시간 관측을 통화 비용이나 청구 절감으로 바꾸지 않는다.
+
+검증: input_manifest SHA256 보존, 읽은 raw response12096개(중복 경로는1회 읽기)의 manifest 원hash 대조 및 종료 재확인. 원파일/원점수/scorer/state 실행 수정0. 이번 쓰기는 resources.csv 및 resources_notes.txt 두 파일뿐이다.

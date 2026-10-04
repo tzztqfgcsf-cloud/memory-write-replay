@@ -1,0 +1,56 @@
+{
+  "call_id": "5be24bf3e7d2f741aa584146-candidate_final",
+  "cost_note": "provider_did_not_report_money",
+  "cost_usd_reported": null,
+  "finish_reason": "STOP",
+  "http_status": 200,
+  "latency_seconds": 1.7087,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.022364678749671348,
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"reply\": \"I have updated the booking to start on Tuesday. Is there anything else I can help you with?\",\n  \"action\": {\n    \"kind\": \"CONTINUE\",\n    \"question_slot\": null,\n    \"required_slots\": [],\n    \"speaker_id\": \"system\"\n  },\n  \"memory_decisions\": [\n    {\n      \"alternatives\": [],\n      \"fact\": {\n        \"relation\": \"hotel.book.day\",\n        \"source_turns\": [\n          \"PMUL4646.json#turn16\"\n        ],\n        \"subject\": \"PMUL4646.json#hotel.book\",\n        \"time\": \"unknown\",\n        \"value\": \"tuesday\"\n      },\n      \"operation\": \"CORRECT\",\n      \"slot\": \"hotel.book.day\",\n      \"source_turns\": [\n        \"PMUL4646.json#turn16\"\n      ],\n      \"target_fact_id\": \"PMUL4646.json#state15#hotel.book.day\"\n    }\n  ]\n}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T23:08:42.082009Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "-qG5atmABcOAncoPsbLi2Qc",
+    "usageMetadata": {
+      "candidatesTokenCount": 260,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 260
+        }
+      ],
+      "promptTokenCount": 2823,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 2823
+        }
+      ],
+      "totalTokenCount": 3083,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "35fbe8ba4eeaf21514560e724f5b36a7f211aca0230e2aa360aa9eaeea163e15",
+  "status": "OK",
+  "text": "{\n  \"reply\": \"I have updated the booking to start on Tuesday. Is there anything else I can help you with?\",\n  \"action\": {\n    \"kind\": \"CONTINUE\",\n    \"question_slot\": null,\n    \"required_slots\": [],\n    \"speaker_id\": \"system\"\n  },\n  \"memory_decisions\": [\n    {\n      \"alternatives\": [],\n      \"fact\": {\n        \"relation\": \"hotel.book.day\",\n        \"source_turns\": [\n          \"PMUL4646.json#turn16\"\n        ],\n        \"subject\": \"PMUL4646.json#hotel.book\",\n        \"time\": \"unknown\",\n        \"value\": \"tuesday\"\n      },\n      \"operation\": \"CORRECT\",\n      \"slot\": \"hotel.book.day\",\n      \"source_turns\": [\n        \"PMUL4646.json#turn16\"\n      ],\n      \"target_fact_id\": \"PMUL4646.json#state15#hotel.book.day\"\n    }\n  ]\n}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 2823,
+    "output_tokens": 260,
+    "reasoning_tokens": 0,
+    "total_tokens": 3083
+  }
+}

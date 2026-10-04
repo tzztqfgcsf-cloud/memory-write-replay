@@ -1,0 +1,36 @@
+{
+  "call_id": "f585db2c2e45dd341ea8-candidate_extract",
+  "error_type": null,
+  "finish_reason": "stop",
+  "finished_unix": 1790490098.5547361,
+  "latency_seconds": 13.9903,
+  "model_version": "mlx-community/Llama-3.1-8B-Instruct-4bit",
+  "raw_response": {
+    "base_seed": 20260927,
+    "finish_reason": "stop",
+    "generation_calls": 147,
+    "id": "local-5f8b64f2838ea7a30a16e8b4",
+    "seed": 3037006707,
+    "snapshot": "<LOCAL_PATH>",
+    "text": "{\"beliefs\": [{\"candidate_id\": \"c1\", \"facts\": [{\"relation\": \"event_year\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"1978\"}]}, {\"candidate_id\": \"c2\", \"facts\": [{\"relation\": \"event_year\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"1978\"}]}], \"correction_witnesses\": [{\"candidate_id\": \"c1\", \"evidence_quote\": \"사진 뒷면에는 1978년 같기도 하네요. 글씨가 흐려서 모르겠으니 취업 연도는 아직 고치지 마요.\", \"new_value\": \"1978\", \"polarity\": \"uncertain\", \"relation\": \"event_year\", \"source_turn\": \"t2\", \"subject\": \"participant\", \"target_fact_id\": \"f1\", \"time\": \"past\"}, {\"candidate_id\": \"c2\", \"evidence_quote\": \"1978년이라고 보이기도 하는데 번져서 확실치 않아요. 첫 취업 연도 수정은 나중에 해요.\", \"new_value\": \"1978\", \"polarity\": \"uncertain\", \"relation\": \"event_year\", \"source_turn\": \"t2\", \"subject\": \"participant\", \"target_fact_id\": \"f1\", \"time\": \"past\"}]}",
+    "usage": {
+      "cached_tokens": null,
+      "input_tokens": 1762,
+      "output_tokens": 304,
+      "reasoning_tokens": null,
+      "total_tokens": 2066
+    }
+  },
+  "request_sha256": "583ce05103daba07e89a22e306a516ac5a9aebc74dc644aaa1cf4c393105aaf9",
+  "stage_schema_sha256": "bda7326ac6a6cbeedf1ecdbf4a2b08277c078351d6689f667dc0d558c4972dd3",
+  "started_unix": 1790490084.563853,
+  "status": "OK",
+  "text": "{\"beliefs\": [{\"candidate_id\": \"c1\", \"facts\": [{\"relation\": \"event_year\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"1978\"}]}, {\"candidate_id\": \"c2\", \"facts\": [{\"relation\": \"event_year\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"1978\"}]}], \"correction_witnesses\": [{\"candidate_id\": \"c1\", \"evidence_quote\": \"사진 뒷면에는 1978년 같기도 하네요. 글씨가 흐려서 모르겠으니 취업 연도는 아직 고치지 마요.\", \"new_value\": \"1978\", \"polarity\": \"uncertain\", \"relation\": \"event_year\", \"source_turn\": \"t2\", \"subject\": \"participant\", \"target_fact_id\": \"f1\", \"time\": \"past\"}, {\"candidate_id\": \"c2\", \"evidence_quote\": \"1978년이라고 보이기도 하는데 번져서 확실치 않아요. 첫 취업 연도 수정은 나중에 해요.\", \"new_value\": \"1978\", \"polarity\": \"uncertain\", \"relation\": \"event_year\", \"source_turn\": \"t2\", \"subject\": \"participant\", \"target_fact_id\": \"f1\", \"time\": \"past\"}]}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1762,
+    "output_tokens": 304,
+    "reasoning_tokens": null,
+    "total_tokens": 2066
+  }
+}

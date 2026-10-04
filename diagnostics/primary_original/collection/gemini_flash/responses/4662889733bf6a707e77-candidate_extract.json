@@ -1,0 +1,57 @@
+{
+  "call_id": "4662889733bf6a707e77-candidate_extract",
+  "finish_reason": "STOP",
+  "finished_unix": 1790497077.247555,
+  "http_status": 200,
+  "latency_seconds": 2.4105,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.0025625807483021807,
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"beliefs\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"facts\": [\n        {\n          \"relation\": \"meeting_place\",\n          \"source_turns\": [\n            \"t2\"\n          ],\n          \"subject\": \"participant\",\n          \"time\": \"present\",\n          \"value\": \"시민운동장\"\n        }\n      ]\n    },\n    {\n      \"candidate_id\": \"c2\",\n      \"facts\": [\n        {\n          \"relation\": \"meeting_place\",\n          \"source_turns\": [\n            \"t2\"\n          ],\n          \"subject\": \"participant\",\n          \"time\": \"present\",\n          \"value\": \"시민운동장\"\n        }\n      ]\n    }\n  ],\n  \"correction_witnesses\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"evidence_quote\": \"시민운동장으로 고쳐요\",\n      \"new_value\": \"시민운동장\",\n      \"polarity\": \"affirmed\",\n      \"relation\": \"meeting_place\",\n      \"source_turn\": \"t2\",\n      \"subject\": \"participant\",\n      \"target_fact_id\": \"f1\",\n      \"time\": \"present\"\n    },\n    {\n      \"candidate_id\": \"c2\",\n      \"evidence_quote\": \"모임 장소는 시민운동장으로 해요\",\n      \"new_value\": \"시민운동장\",\n      \"polarity\": \"affirmed\",\n      \"relation\": \"meeting_place\",\n      \"source_turn\": \"t2\",\n      \"subject\": \"participant\",\n      \"target_fact_id\": \"f1\",\n      \"time\": \"present\"\n    }\n  ]\n}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T08:17:55.004773Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "M9G4aqUlnKLRyQ-b2dqQDQ",
+    "usageMetadata": {
+      "candidatesTokenCount": 410,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 410
+        }
+      ],
+      "promptTokenCount": 1706,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1706
+        }
+      ],
+      "totalTokenCount": 2116,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "6e82a527ee3e5f88bcac6ab871156e9062aa99c15bf3b749c1c5764242428547",
+  "stage_schema_sha256": "bda7326ac6a6cbeedf1ecdbf4a2b08277c078351d6689f667dc0d558c4972dd3",
+  "started_unix": 1790497074.83683,
+  "status": "OK",
+  "text": "{\n  \"beliefs\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"facts\": [\n        {\n          \"relation\": \"meeting_place\",\n          \"source_turns\": [\n            \"t2\"\n          ],\n          \"subject\": \"participant\",\n          \"time\": \"present\",\n          \"value\": \"시민운동장\"\n        }\n      ]\n    },\n    {\n      \"candidate_id\": \"c2\",\n      \"facts\": [\n        {\n          \"relation\": \"meeting_place\",\n          \"source_turns\": [\n            \"t2\"\n          ],\n          \"subject\": \"participant\",\n          \"time\": \"present\",\n          \"value\": \"시민운동장\"\n        }\n      ]\n    }\n  ],\n  \"correction_witnesses\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"evidence_quote\": \"시민운동장으로 고쳐요\",\n      \"new_value\": \"시민운동장\",\n      \"polarity\": \"affirmed\",\n      \"relation\": \"meeting_place\",\n      \"source_turn\": \"t2\",\n      \"subject\": \"participant\",\n      \"target_fact_id\": \"f1\",\n      \"time\": \"present\"\n    },\n    {\n      \"candidate_id\": \"c2\",\n      \"evidence_quote\": \"모임 장소는 시민운동장으로 해요\",\n      \"new_value\": \"시민운동장\",\n      \"polarity\": \"affirmed\",\n      \"relation\": \"meeting_place\",\n      \"source_turn\": \"t2\",\n      \"subject\": \"participant\",\n      \"target_fact_id\": \"f1\",\n      \"time\": \"present\"\n    }\n  ]\n}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1706,
+    "output_tokens": 410,
+    "reasoning_tokens": 0,
+    "total_tokens": 2116
+  }
+}

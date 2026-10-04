@@ -1,0 +1,36 @@
+{
+  "call_id": "5e78c71988e2ee24e6b9-sr_refine",
+  "error_type": null,
+  "finish_reason": "stop",
+  "finished_unix": 1790494509.583023,
+  "latency_seconds": 10.9347,
+  "model_version": "mlx-community/Llama-3.1-8B-Instruct-4bit",
+  "raw_response": {
+    "base_seed": 20260927,
+    "finish_reason": "stop",
+    "generation_calls": 546,
+    "id": "local-6a7dc564a8c4c83af42b91f4",
+    "seed": 3729713764,
+    "snapshot": "<LOCAL_PATH>",
+    "text": "{\"action\": {\"kind\": \"CONTINUE\", \"question_slot\": \"event_year\", \"required_slots\": [\"event_year\"], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"2003\"], \"fact\": {\"relation\": \"event_year\", \"source_turns\": [\"t1\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"2003\"}, \"operation\": \"APPEND\", \"slot\": \"event_year\", \"source_turns\": [\"t1\"], \"target_fact_id\": null}, {\"alternatives\": [], \"fact\": null, \"operation\": \"HOLD\", \"slot\": \"event_year\", \"source_turns\": [\"t2\"], \"target_fact_id\": null}], \"reply\": \"2003년을 기록해도 되나요?\"}",
+    "usage": {
+      "cached_tokens": null,
+      "input_tokens": 2005,
+      "output_tokens": 171,
+      "reasoning_tokens": null,
+      "total_tokens": 2176
+    }
+  },
+  "request_sha256": "2cab43f4402c292b07aeacf9ae4b20327dec2113a6d0e93f1efbd4787a698fe7",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790494498.6480372,
+  "status": "OK",
+  "text": "{\"action\": {\"kind\": \"CONTINUE\", \"question_slot\": \"event_year\", \"required_slots\": [\"event_year\"], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"2003\"], \"fact\": {\"relation\": \"event_year\", \"source_turns\": [\"t1\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"2003\"}, \"operation\": \"APPEND\", \"slot\": \"event_year\", \"source_turns\": [\"t1\"], \"target_fact_id\": null}, {\"alternatives\": [], \"fact\": null, \"operation\": \"HOLD\", \"slot\": \"event_year\", \"source_turns\": [\"t2\"], \"target_fact_id\": null}], \"reply\": \"2003년을 기록해도 되나요?\"}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 2005,
+    "output_tokens": 171,
+    "reasoning_tokens": null,
+    "total_tokens": 2176
+  }
+}

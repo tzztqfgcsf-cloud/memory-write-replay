@@ -1,0 +1,57 @@
+{
+  "call_id": "d939817fdebb91b1a3fe-sr_refine",
+  "finish_reason": "STOP",
+  "finished_unix": 1790494084.561485,
+  "http_status": 200,
+  "latency_seconds": 1.2682,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.0003526297234396898,
+        "content": {
+          "parts": [
+            {
+              "text": "{\"reply\": \"네, 푸른방앗간으로 기억해 둘게요.\", \"action\": {\"kind\": \"CONTINUE\", \"question_slot\": null, \"required_slots\": [], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [], \"fact\": {\"relation\": \"shop_name\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"푸른방앗간\"}, \"operation\": \"APPEND\", \"slot\": null, \"source_turns\": [\"t2\"], \"target_fact_id\": null}]}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T07:28:03.389998Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "g8W4au7mF_GancoP76ybiQ0",
+    "usageMetadata": {
+      "candidatesTokenCount": 131,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 131
+        }
+      ],
+      "promptTokenCount": 1947,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1947
+        }
+      ],
+      "totalTokenCount": 2078,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "2e98de37a8cd63074d6b9f01f45b2fcf7e97059d64de1e3c3771f1f2fcaeedaf",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790494083.2928388,
+  "status": "OK",
+  "text": "{\"reply\": \"네, 푸른방앗간으로 기억해 둘게요.\", \"action\": {\"kind\": \"CONTINUE\", \"question_slot\": null, \"required_slots\": [], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [], \"fact\": {\"relation\": \"shop_name\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"푸른방앗간\"}, \"operation\": \"APPEND\", \"slot\": null, \"source_turns\": [\"t2\"], \"target_fact_id\": null}]}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1947,
+    "output_tokens": 131,
+    "reasoning_tokens": 0,
+    "total_tokens": 2078
+  }
+}

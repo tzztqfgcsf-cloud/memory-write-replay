@@ -1,0 +1,56 @@
+{
+  "gemini31_pro_preview": {
+    "outputs_jsonl": "gemini_version_sweep_20260927/lanes/gemini31_pro_preview/collection/test/gemini31_pro_preview/outputs.jsonl",
+    "outputs_sha256": "e400ea82eec36ad39a2bc993059166bd51b5a870477eacbbbec0339d9a7b19bd",
+    "response_count": 864,
+    "response_hash_manifest_rule": "sha256(concatenated sorted relative path utf8 + file sha256 ascii)",
+    "response_path_hash_manifest_sha256": "f0a5964579785d5130b8165d23960151f91c89c262ef2acd63fb94ce0161d705"
+  },
+  "gemini35_flash_lite": {
+    "outputs_jsonl": "gemini_version_sweep_20260927/lanes/gemini35_flash_lite/collection/test/gemini35_flash_lite/outputs.jsonl",
+    "outputs_sha256": "04d0f2369011d71a884629a8868ec7c6c7d664073a47fef47ae0e461a26cee84",
+    "response_count": 864,
+    "response_hash_manifest_rule": "sha256(concatenated sorted relative path utf8 + file sha256 ascii)",
+    "response_path_hash_manifest_sha256": "2cf52433e27dff50937b6ecc37fe1bb0b707d5633f9e37ab5ccbb69b18bb8ec7"
+  },
+  "gemini38_extension_20260927/analysis/main/test/result.json": "c3c8076281c7c271cbe7e5818ebc7e9dc0d691ca1e43f6ac4b98bb7fcd73413b",
+  "gemini38_flash": {
+    "outputs_jsonl": "gemini38_extension_20260927/collection/test/gemini38_flash/outputs.jsonl",
+    "outputs_sha256": "59325bf0058d2a7658183c18ee09f22a596595de207436492404d86157f60c19",
+    "response_count": 864,
+    "response_hash_manifest_rule": "sha256(concatenated sorted relative path utf8 + file sha256 ascii)",
+    "response_path_hash_manifest_sha256": "0e58bdeca2a8670bfd60a62515d71b9ea36b4510fa2629a6557593126a959b45"
+  },
+  "gemini_flash": {
+    "outputs_jsonl": "conditional_method_extension_20260927/amendments/main_execution_v2/collection/test/gemini_flash/outputs.jsonl",
+    "outputs_sha256": "f41733ae27751b8cc7923879f1ad577ec2adfa6296eeb423c4b7d98628f7dabc",
+    "response_count": 864,
+    "response_hash_manifest_rule": "sha256(concatenated sorted relative path utf8 + file sha256 ascii)",
+    "response_path_hash_manifest_sha256": "771214c040d712a3ff8881bbd04612d118d94a0e3076f7f2ceff705d7f810d15"
+  },
+  "gemini_version_sweep_20260927/lanes/gemini31_pro_preview/analysis/main/test/result.json": "486488a3f2e18e47351baabba186e013360ee119f99fd36a48f72881587aab17",
+  "gemini_version_sweep_20260927/lanes/gemini35_flash_lite/analysis/main/test/result.json": "d9952acee88299ad3785daea5dc73186865c0f618efd7438ec37cd99ae3c7faa",
+  "llama31_8b": {
+    "outputs_jsonl": "conditional_method_extension_20260927/amendments/main_execution_v2/collection/test/llama31_8b/outputs.jsonl",
+    "outputs_sha256": "41bbe1f57fd3614a18618db6fcb88e37f813807fdad4fd988fef9f956b27fff8",
+    "response_count": 864,
+    "response_hash_manifest_rule": "sha256(concatenated sorted relative path utf8 + file sha256 ascii)",
+    "response_path_hash_manifest_sha256": "1d2a58d7662ccae5e474ce5f427ce0833b388199556992767e27e93c991f3299"
+  },
+  "professor_review_20260927/analysis/test/result.json": "feeb9765d19dbd89a2739322fc4309ae4c05a027628c9ec51f7cdf7d2c5bc04c",
+  "qwen3_14b": {
+    "outputs_jsonl": "conditional_method_extension_20260927/amendments/main_execution_v2/collection/test/qwen3_14b/outputs.jsonl",
+    "outputs_sha256": "64b4a55b6b25abdf7101bb7929d169c764c826dc677cf8d7562061aa864c8be5",
+    "response_count": 864,
+    "response_hash_manifest_rule": "sha256(concatenated sorted relative path utf8 + file sha256 ascii)",
+    "response_path_hash_manifest_sha256": "ce152811a91c92d37491306ab820ff38117a69741d4241b6ae240eb1cf961901"
+  },
+  "tist_overnight_finalization_20260928/check_value_audit/result_v2/E_text_H_outputs.jsonl": "a6ae39ecc1442da0b06df3765da23da88a0fc36c91b18f3d933f39c9f06980ce",
+  "tist_overnight_finalization_20260928/check_value_audit/result_v2/outside_H_manifest.json": "1924f0607926d1e0560d312bee81156dc192c86c79242a42e41ed93c979f1dd7",
+  "tist_overnight_finalization_20260928/qwen14_completion_analysis/analysis/test/result.json": "d0c0f8b3c42d649b67027771760bc0f5685707b73061b1ce1a5d68a8862f969e",
+  "tist_overnight_finalization_20260928/remaining_saved_controls/lanes/qwen3_14b/result/E_outputs.jsonl": "8c8244fabde9eca40b8d091505eb0919503dd074334042c3bcf201dbfe264d98",
+  "tist_overnight_finalization_20260928/remaining_saved_controls/lanes/qwen3_14b/result/E_text_H_outputs.jsonl": "ab1945734ba09aaa7eb4d60965844fb4ab92a9cca4c62c8dbfb0029425245df2",
+  "tist_overnight_finalization_20260928/remaining_saved_controls/lanes/qwen3_14b/result/RESULT.json": "365815a6f2d3f40b3415b53daec454e954ebe5ec00a7b3c0fac11c0916385f0a",
+  "tist_overnight_finalization_20260928/saved_output_E_comparison/CONTRACT.json": "a1d965dc6dac51301f6f5695edd35f5d46f74b390b1ca861c4e5ab9fcefb7ce7",
+  "tist_overnight_finalization_20260928/saved_output_E_comparison/result/E_outputs.jsonl": "ae02c8edba665bb0e3e19797e272dc6d31ce0fc0b75b8058dc460ce9044c878a"
+}

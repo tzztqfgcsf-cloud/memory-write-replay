@@ -1,0 +1,56 @@
+{
+  "call_id": "a91ddb7805293543b255c293-g_final",
+  "cost_note": "provider_did_not_report_money",
+  "cost_usd_reported": null,
+  "finish_reason": "STOP",
+  "http_status": 200,
+  "latency_seconds": 1.5121,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.0004148542395104533,
+        "content": {
+          "parts": [
+            {
+              "text": "{\"reply\": \"Okay, I will try to book for 2 nights instead of 4.\", \"action\": {\"kind\": \"CONTINUE\", \"question_slot\": null, \"required_slots\": [], \"speaker_id\": \"system\"}, \"memory_decisions\": [{\"alternatives\": [], \"fact\": {\"relation\": \"hotel.book.stay\", \"source_turns\": [\"SNG1006.json#turn6\"], \"subject\": \"SNG1006.json#hotel.book\", \"time\": \"unknown\", \"value\": \"2\"}, \"operation\": \"CORRECT\", \"slot\": \"hotel.book.stay\", \"source_turns\": [\"SNG1006.json#turn6\"], \"target_fact_id\": \"SNG1006.json#state5#hotel.book.stay\"}]}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T23:14:02.926748Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "OqO5apzIOPGancoP76ybiQ0",
+    "usageMetadata": {
+      "candidatesTokenCount": 184,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 184
+        }
+      ],
+      "promptTokenCount": 2107,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 2107
+        }
+      ],
+      "totalTokenCount": 2291,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "44e4748d7085426c8fd9b91e3ae881db84b273653c113278ce05d2baba0bbe29",
+  "status": "OK",
+  "text": "{\"reply\": \"Okay, I will try to book for 2 nights instead of 4.\", \"action\": {\"kind\": \"CONTINUE\", \"question_slot\": null, \"required_slots\": [], \"speaker_id\": \"system\"}, \"memory_decisions\": [{\"alternatives\": [], \"fact\": {\"relation\": \"hotel.book.stay\", \"source_turns\": [\"SNG1006.json#turn6\"], \"subject\": \"SNG1006.json#hotel.book\", \"time\": \"unknown\", \"value\": \"2\"}, \"operation\": \"CORRECT\", \"slot\": \"hotel.book.stay\", \"source_turns\": [\"SNG1006.json#turn6\"], \"target_fact_id\": \"SNG1006.json#state5#hotel.book.stay\"}]}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 2107,
+    "output_tokens": 184,
+    "reasoning_tokens": 0,
+    "total_tokens": 2291
+  }
+}

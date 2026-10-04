@@ -1,0 +1,57 @@
+{
+  "call_id": "705f5e8034ea446818c9-g_draft",
+  "finish_reason": "STOP",
+  "finished_unix": 1790490792.519526,
+  "http_status": 200,
+  "latency_seconds": 1.2055,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.02656726012552591,
+        "content": {
+          "parts": [
+            {
+              "text": "{\"reply\": \"네, 남편 준호님의 취미는 낚시로 기억해 둘게요.\", \"action\": {\"kind\": \"CONTINUE\", \"question_slot\": null, \"required_slots\": [], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [], \"fact\": {\"relation\": \"hobby\", \"source_turns\": [\"t2\"], \"subject\": \"준호\", \"time\": \"present\", \"value\": \"낚시\"}, \"operation\": \"APPEND\", \"slot\": null, \"source_turns\": [\"t2\"], \"target_fact_id\": null}]}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T06:33:11.417590Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "p7i4ara-GcOAncoPsbLi2Qc",
+    "usageMetadata": {
+      "candidatesTokenCount": 133,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 133
+        }
+      ],
+      "promptTokenCount": 1701,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1701
+        }
+      ],
+      "totalTokenCount": 1834,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "30f2f430d4e711c4301f79ccc8a493c55867dc93b9449205d32a9f9662da8b79",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790490791.31374,
+  "status": "OK",
+  "text": "{\"reply\": \"네, 남편 준호님의 취미는 낚시로 기억해 둘게요.\", \"action\": {\"kind\": \"CONTINUE\", \"question_slot\": null, \"required_slots\": [], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [], \"fact\": {\"relation\": \"hobby\", \"source_turns\": [\"t2\"], \"subject\": \"준호\", \"time\": \"present\", \"value\": \"낚시\"}, \"operation\": \"APPEND\", \"slot\": null, \"source_turns\": [\"t2\"], \"target_fact_id\": null}]}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1701,
+    "output_tokens": 133,
+    "reasoning_tokens": 0,
+    "total_tokens": 1834
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "call_id": "4fd068b462a8d4a6e86d-sr_refine",
+  "finish_reason": "STOP",
+  "finished_unix": 1790493969.574367,
+  "http_status": 200,
+  "latency_seconds": 0.9734,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.0009913515737828087,
+        "content": {
+          "parts": [
+            {
+              "text": "{\"reply\": \"네, 농장을 시작한 연도를 2003년으로 기록할게요.\", \"action\": {\"kind\": \"CONTINUE\", \"question_slot\": null, \"required_slots\": [], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [], \"fact\": {\"relation\": \"event_year\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"2003\"}, \"operation\": \"APPEND\", \"slot\": null, \"source_turns\": [\"t2\"], \"target_fact_id\": null}]}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T07:26:08.700553Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "EMW4aonhKpyi0ckPm9nakA0",
+    "usageMetadata": {
+      "candidatesTokenCount": 136,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 136
+        }
+      ],
+      "promptTokenCount": 1956,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1956
+        }
+      ],
+      "totalTokenCount": 2092,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "ab17f77ad6aed15062289043b94b3d7372f1adb9acd5b8885acdda20905935bc",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790493968.600085,
+  "status": "OK",
+  "text": "{\"reply\": \"네, 농장을 시작한 연도를 2003년으로 기록할게요.\", \"action\": {\"kind\": \"CONTINUE\", \"question_slot\": null, \"required_slots\": [], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [], \"fact\": {\"relation\": \"event_year\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"2003\"}, \"operation\": \"APPEND\", \"slot\": null, \"source_turns\": [\"t2\"], \"target_fact_id\": null}]}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1956,
+    "output_tokens": 136,
+    "reasoning_tokens": 0,
+    "total_tokens": 2092
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "call_id": "7beb3b12e05c02fc94cc-candidate_extract",
+  "finish_reason": "STOP",
+  "finished_unix": 1790492042.037544,
+  "http_status": 200,
+  "latency_seconds": 2.3519,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.001906980049939966,
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"beliefs\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"facts\": [\n        {\n          \"relation\": \"hobby\",\n          \"source_turns\": [\n            \"t2\"\n          ],\n          \"subject\": \"participant\",\n          \"time\": \"past\",\n          \"value\": \"우표수집\"\n        },\n        {\n          \"relation\": \"hobby\",\n          \"source_turns\": [\n            \"t2\"\n          ],\n          \"subject\": \"participant\",\n          \"time\": \"present\",\n          \"value\": \"탁구\"\n        }\n      ]\n    },\n    {\n      \"candidate_id\": \"c2\",\n      \"facts\": [\n        {\n          \"relation\": \"hobby\",\n          \"source_turns\": [\n            \"t2\"\n          ],\n          \"subject\": \"participant\",\n          \"time\": \"past\",\n          \"value\": \"우표수집\"\n        },\n        {\n          \"relation\": \"hobby\",\n          \"source_turns\": [\n            \"t2\"\n          ],\n          \"subject\": \"participant\",\n          \"time\": \"present\",\n          \"value\": \"탁구\"\n        }\n      ]\n    }\n  ],\n  \"correction_witnesses\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"evidence_quote\": \"지금 탁구는 그대로고\",\n      \"new_value\": \"탁구\",\n      \"polarity\": \"affirmed\",\n      \"relation\": \"hobby\",\n      \"source_turn\": \"t2\",\n      \"subject\": \"participant\",\n      \"target_fact_id\": \"f1\",\n      \"time\": \"present\"\n    },\n    {\n      \"candidate_id\": \"c2\",\n      \"evidence_quote\": \"요즘 탁구 기록은 유지해요\",\n      \"new_value\": \"탁구\",\n      \"polarity\": \"affirmed\",\n      \"relation\": \"hobby\",\n      \"source_turn\": \"t2\",\n      \"subject\": \"participant\",\n      \"target_fact_id\": \"f1\",\n      \"time\": \"present\"\n    }\n  ]\n}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T06:53:59.804881Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "h724apGQMcOAncoPsbLi2Qc",
+    "usageMetadata": {
+      "candidatesTokenCount": 506,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 506
+        }
+      ],
+      "promptTokenCount": 1705,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1705
+        }
+      ],
+      "totalTokenCount": 2211,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "d9480525c3725e92a798ec4675ad211ac959d3714fdb43c795164727484724c3",
+  "stage_schema_sha256": "bda7326ac6a6cbeedf1ecdbf4a2b08277c078351d6689f667dc0d558c4972dd3",
+  "started_unix": 1790492039.68476,
+  "status": "OK",
+  "text": "{\n  \"beliefs\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"facts\": [\n        {\n          \"relation\": \"hobby\",\n          \"source_turns\": [\n            \"t2\"\n          ],\n          \"subject\": \"participant\",\n          \"time\": \"past\",\n          \"value\": \"우표수집\"\n        },\n        {\n          \"relation\": \"hobby\",\n          \"source_turns\": [\n            \"t2\"\n          ],\n          \"subject\": \"participant\",\n          \"time\": \"present\",\n          \"value\": \"탁구\"\n        }\n      ]\n    },\n    {\n      \"candidate_id\": \"c2\",\n      \"facts\": [\n        {\n          \"relation\": \"hobby\",\n          \"source_turns\": [\n            \"t2\"\n          ],\n          \"subject\": \"participant\",\n          \"time\": \"past\",\n          \"value\": \"우표수집\"\n        },\n        {\n          \"relation\": \"hobby\",\n          \"source_turns\": [\n            \"t2\"\n          ],\n          \"subject\": \"participant\",\n          \"time\": \"present\",\n          \"value\": \"탁구\"\n        }\n      ]\n    }\n  ],\n  \"correction_witnesses\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"evidence_quote\": \"지금 탁구는 그대로고\",\n      \"new_value\": \"탁구\",\n      \"polarity\": \"affirmed\",\n      \"relation\": \"hobby\",\n      \"source_turn\": \"t2\",\n      \"subject\": \"participant\",\n      \"target_fact_id\": \"f1\",\n      \"time\": \"present\"\n    },\n    {\n      \"candidate_id\": \"c2\",\n      \"evidence_quote\": \"요즘 탁구 기록은 유지해요\",\n      \"new_value\": \"탁구\",\n      \"polarity\": \"affirmed\",\n      \"relation\": \"hobby\",\n      \"source_turn\": \"t2\",\n      \"subject\": \"participant\",\n      \"target_fact_id\": \"f1\",\n      \"time\": \"present\"\n    }\n  ]\n}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1705,
+    "output_tokens": 506,
+    "reasoning_tokens": 0,
+    "total_tokens": 2211
+  }
+}

@@ -1,0 +1,5 @@
+# CareCall: no experiment/data release
+
+See [official CareCall Memory repository](https://github.com/naver-ai/carecall-memory) and [Keep Me Updated!](https://aclanthology.org/2022.findings-emnlp.276/). Official restrictions on original materials include noncommercial use, no modification, and no third-party redistribution; verify the current source terms independently. No sample/translated/full dialogue file or downloaded paper is included here.
+
+This supplement remained BLOCKED: original Korean full dialogue data and the human operation-label pairs/splits/episode links were unavailable. No CareCall model calls, annotation or performance evaluation took place. Required future access includes the original Korean operation-label pair files with example IDs, session linkage and split manifests, annotation documentation, and permission appropriate for extraction, remote evaluation and output publication. Code tests or DSTC2 results cannot establish CareCall accuracy or senior human utility.

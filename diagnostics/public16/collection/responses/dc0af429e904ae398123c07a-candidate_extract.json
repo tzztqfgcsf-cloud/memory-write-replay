@@ -1,0 +1,56 @@
+{
+  "call_id": "dc0af429e904ae398123c07a-candidate_extract",
+  "cost_note": "provider_did_not_report_money",
+  "cost_usd_reported": null,
+  "finish_reason": "STOP",
+  "http_status": 200,
+  "latency_seconds": 1.5472,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.01102843723799053,
+        "content": {
+          "parts": [
+            {
+              "text": "{\"beliefs\": [{\"candidate_id\": \"c1\", \"facts\": []}], \"correction_witnesses\": [{\"candidate_id\": \"c1\", \"target_fact_id\": \"MUL1664.json#state9#train.book.people\", \"subject\": \"MUL1664.json#train.book\", \"relation\": \"train.book.people\", \"time\": \"unknown\", \"new_value\": \"7\", \"source_turn\": \"MUL1664.json#turn10\", \"evidence_quote\": \"I'm sorry, I said I needed a seat for me, but I actually need 7 seats total.\", \"polarity\": \"affirmed\"}]}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T23:05:01.010863Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "HaG5au9U8Zqdyg_vrJuJDQ",
+    "usageMetadata": {
+      "candidatesTokenCount": 152,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 152
+        }
+      ],
+      "promptTokenCount": 1944,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1944
+        }
+      ],
+      "totalTokenCount": 2096,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "4049799ee661a14cc699e5489051567971ba9245c5248f81a02d24be77eeacb8",
+  "status": "OK",
+  "text": "{\"beliefs\": [{\"candidate_id\": \"c1\", \"facts\": []}], \"correction_witnesses\": [{\"candidate_id\": \"c1\", \"target_fact_id\": \"MUL1664.json#state9#train.book.people\", \"subject\": \"MUL1664.json#train.book\", \"relation\": \"train.book.people\", \"time\": \"unknown\", \"new_value\": \"7\", \"source_turn\": \"MUL1664.json#turn10\", \"evidence_quote\": \"I'm sorry, I said I needed a seat for me, but I actually need 7 seats total.\", \"polarity\": \"affirmed\"}]}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1944,
+    "output_tokens": 152,
+    "reasoning_tokens": 0,
+    "total_tokens": 2096
+  }
+}

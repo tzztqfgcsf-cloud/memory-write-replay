@@ -1,0 +1,11 @@
+{
+  "sha256": {
+    "source_archive/outputs/review_agree_allow_20261002/scores.csv": "22170bd003d8a12b4414dbd72574de9b638632433e231dcaa12c68675a39d5a0",
+    "source_archive/outputs/paper_finish_control_20260921/tist_overnight_finalization_20260928/qwen14_completion_analysis/analysis/test/scores.csv": "aa6a8dcaa5df3a9cfc7893e2e60ba2d2d472884a77efc1261c68b0fdebfc490c",
+    "source_archive/outputs/paper_mechanism_validation_20261004/analyze.py": "c60c71270c72648e450e056b90577ea6cbd05ee501fbd08578ea3b76ee3a35d6",
+    "source_archive/outputs/paper_finish_control_20260921/gemini38_extension_20260927/analysis/main/test/scores.csv": "f95c59d06b0632465f8ca3a2596ce2732d57e920dec2943dcb76bdb9cbe4375a",
+    "source_archive/outputs/strong_baselines_20261001/new_scores.csv": "4f2ec31621ad603ade49288b79cff1803bab8957002bdbdd9248a0b9b452944f",
+    "source_archive/outputs/paper_finish_control_20260921/professor_review_20260927/analysis/test/scores.csv": "7ca4d854c6a74239aadb62d503f92e3526b2acfe98e458da391fe663b37b12e1"
+  },
+  "new_scores_read_before_analysis": false
+}

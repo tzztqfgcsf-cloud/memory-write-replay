@@ -1,0 +1,57 @@
+{
+  "call_id": "bed2940e6ee8ec4d0ff5-candidate_final",
+  "finish_reason": "STOP",
+  "finished_unix": 1790490184.253792,
+  "http_status": 200,
+  "latency_seconds": 1.319,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.0708190734127918,
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"reply\": \"선생님 이름이 강 선생님인지 장 선생님인지 확실하지 않군요. 이 정보는 일단 보류할게요.\",\n  \"action\": {\n    \"kind\": \"CONTINUE\",\n    \"question_slot\": null,\n    \"required_slots\": [],\n    \"speaker_id\": \"p1\"\n  },\n  \"memory_decisions\": [\n    {\n      \"alternatives\": [\n        \"강 선생님\"\n      ],\n      \"fact\": null,\n      \"operation\": \"HOLD\",\n      \"slot\": \"learned_from\",\n      \"source_turns\": [\n        \"t2\"\n      ],\n      \"target_fact_id\": null\n    }\n  ]\n}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T06:23:03.035855Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "R7a4ao-YAvCVktwP37SV-Ag",
+    "usageMetadata": {
+      "candidatesTokenCount": 166,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 166
+        }
+      ],
+      "promptTokenCount": 1947,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1947
+        }
+      ],
+      "totalTokenCount": 2113,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "ea34424dffebf5b24cdb035339b52e4e54bb30e158a4b2fa71ca92064bca1054",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790490182.934282,
+  "status": "OK",
+  "text": "{\n  \"reply\": \"선생님 이름이 강 선생님인지 장 선생님인지 확실하지 않군요. 이 정보는 일단 보류할게요.\",\n  \"action\": {\n    \"kind\": \"CONTINUE\",\n    \"question_slot\": null,\n    \"required_slots\": [],\n    \"speaker_id\": \"p1\"\n  },\n  \"memory_decisions\": [\n    {\n      \"alternatives\": [\n        \"강 선생님\"\n      ],\n      \"fact\": null,\n      \"operation\": \"HOLD\",\n      \"slot\": \"learned_from\",\n      \"source_turns\": [\n        \"t2\"\n      ],\n      \"target_fact_id\": null\n    }\n  ]\n}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1947,
+    "output_tokens": 166,
+    "reasoning_tokens": 0,
+    "total_tokens": 2113
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "call_id": "54129910d50ca168de7a-sr_refine",
+  "finish_reason": "STOP",
+  "finished_unix": 1790493627.8081322,
+  "http_status": 200,
+  "latency_seconds": 1.3695,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.0008271070140780824,
+        "content": {
+          "parts": [
+            {
+              "text": "{\"reply\": \"네, 이메일을 선호하는 연락 방법으로 기억해 둘게요.\", \"action\": {\"kind\": \"CONTINUE\", \"question_slot\": null, \"required_slots\": [], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [], \"fact\": {\"relation\": \"preferred_contact\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"이메일\"}, \"operation\": \"APPEND\", \"slot\": null, \"source_turns\": [\"t2\"], \"target_fact_id\": null}]}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T07:20:26.540075Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "usO4aqv7IPObncoPmvuomAI",
+    "usageMetadata": {
+      "candidatesTokenCount": 132,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 132
+        }
+      ],
+      "promptTokenCount": 1947,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1947
+        }
+      ],
+      "totalTokenCount": 2079,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "60a6ad339bbaef245f385c4f1f18b0651ec63330e1b1082b35cdda006490a2b6",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790493626.4381151,
+  "status": "OK",
+  "text": "{\"reply\": \"네, 이메일을 선호하는 연락 방법으로 기억해 둘게요.\", \"action\": {\"kind\": \"CONTINUE\", \"question_slot\": null, \"required_slots\": [], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [], \"fact\": {\"relation\": \"preferred_contact\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"이메일\"}, \"operation\": \"APPEND\", \"slot\": null, \"source_turns\": [\"t2\"], \"target_fact_id\": null}]}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1947,
+    "output_tokens": 132,
+    "reasoning_tokens": 0,
+    "total_tokens": 2079
+  }
+}

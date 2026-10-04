@@ -1,0 +1,36 @@
+{
+  "call_id": "06a7913265a88cadf7e0-sr_feedback",
+  "error_type": null,
+  "finish_reason": "length",
+  "finished_unix": 1790490388.177739,
+  "latency_seconds": 18.836,
+  "model_version": "mlx-community/Llama-3.1-8B-Instruct-4bit",
+  "raw_response": {
+    "base_seed": 20260927,
+    "finish_reason": "length",
+    "generation_calls": 173,
+    "id": "local-7de62a18e9a3d3c049466a6c",
+    "seed": 2348312316,
+    "snapshot": "<LOCAL_PATH>",
+    "text": "{\"issues\": [{\"draft_location\": \"memory_decisions[0].fact.relation\", \"evidence_location\": \"db_snapshot.facts[0].relation\", \"problem\": \"relation should be 'learned_from' but is 'learned_from' (no change needed)\", \"specific_revision\": \"relation should be 'learned_from' (no change needed)\"}, {\"draft_location\": \"memory_decisions[0].fact.value\", \"evidence_location\": \"db_snapshot.facts[0].value\", \"problem\": \"value should be '강 선생님이' but is '장 선생님' (no change needed)\", \"specific_revision\": \"value should be '강 선생님이' (no change needed)\"}, {\"draft_location\": \"memory_decisions[0].operation\", \"evidence_location\": \"none available\", \"problem\": \"operation should be 'APPEND' or 'CORRECT' but is 'HOLD' (no write permission)\", \"specific_revision\": \"operation should be 'APPEND' or 'CORRECT' (no write permission)\"}, {\"draft_location\": \"memory_decisions[0].alternatives\", \"evidence_location\": \"candidates[0].text\", \"problem\": \"alternatives should be empty but is ['장 선생님', '강 선생님이']\", \"specific_revision\": \"alternatives should be empty (no write permission)\"}, {\"draft_location\": \"memory_decisions[0].target_fact_id\", \"evidence_location\": \"none available\", \"problem\": \"target_fact_id should be 'f1' but is null (no write permission)\", \"specific_revision\": \"target_fact_id should be 'f1' (no write permission)\"}, {\"draft_location\": \"memory_decisions[0].slot\", \"evidence_location\": \"candidates[0].text\", \"problem\": \"slot should be 'learned_from' but is 'learned_from' (no change needed)\", \"specific_revision\": \"slot should be 'learned_from' (no change needed)\"}, {\"draft_location\": \"memory_decisions[0].source_turns\", \"evidence_location\": \"db_snapshot.facts[0].source_turns\", \"problem\": \"source_turns should be ['t2'] but is ['t1'] (no change needed)\", \"specific_revision\": \"source_turns should be ['t2'] (no change needed)\"}, {\"draft_location\": \"memory_decisions[0].fact.subject\", \"evidence",
+    "usage": {
+      "cached_tokens": null,
+      "input_tokens": 1454,
+      "output_tokens": 512,
+      "reasoning_tokens": null,
+      "total_tokens": 1966
+    }
+  },
+  "request_sha256": "3f6898be937c8d3fcc8addda69a6ec26de36544d62338b9054928eb06631132b",
+  "stage_schema_sha256": "377e252cf02129ba34bbc867118dd2b9c6b65042b3fcd7b44099d2fc6e0513ed",
+  "started_unix": 1790490369.3411782,
+  "status": "OK",
+  "text": "{\"issues\": [{\"draft_location\": \"memory_decisions[0].fact.relation\", \"evidence_location\": \"db_snapshot.facts[0].relation\", \"problem\": \"relation should be 'learned_from' but is 'learned_from' (no change needed)\", \"specific_revision\": \"relation should be 'learned_from' (no change needed)\"}, {\"draft_location\": \"memory_decisions[0].fact.value\", \"evidence_location\": \"db_snapshot.facts[0].value\", \"problem\": \"value should be '강 선생님이' but is '장 선생님' (no change needed)\", \"specific_revision\": \"value should be '강 선생님이' (no change needed)\"}, {\"draft_location\": \"memory_decisions[0].operation\", \"evidence_location\": \"none available\", \"problem\": \"operation should be 'APPEND' or 'CORRECT' but is 'HOLD' (no write permission)\", \"specific_revision\": \"operation should be 'APPEND' or 'CORRECT' (no write permission)\"}, {\"draft_location\": \"memory_decisions[0].alternatives\", \"evidence_location\": \"candidates[0].text\", \"problem\": \"alternatives should be empty but is ['장 선생님', '강 선생님이']\", \"specific_revision\": \"alternatives should be empty (no write permission)\"}, {\"draft_location\": \"memory_decisions[0].target_fact_id\", \"evidence_location\": \"none available\", \"problem\": \"target_fact_id should be 'f1' but is null (no write permission)\", \"specific_revision\": \"target_fact_id should be 'f1' (no write permission)\"}, {\"draft_location\": \"memory_decisions[0].slot\", \"evidence_location\": \"candidates[0].text\", \"problem\": \"slot should be 'learned_from' but is 'learned_from' (no change needed)\", \"specific_revision\": \"slot should be 'learned_from' (no change needed)\"}, {\"draft_location\": \"memory_decisions[0].source_turns\", \"evidence_location\": \"db_snapshot.facts[0].source_turns\", \"problem\": \"source_turns should be ['t2'] but is ['t1'] (no change needed)\", \"specific_revision\": \"source_turns should be ['t2'] (no change needed)\"}, {\"draft_location\": \"memory_decisions[0].fact.subject\", \"evidence",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1454,
+    "output_tokens": 512,
+    "reasoning_tokens": null,
+    "total_tokens": 1966
+  }
+}

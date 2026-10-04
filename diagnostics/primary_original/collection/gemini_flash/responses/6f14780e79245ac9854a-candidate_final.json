@@ -1,0 +1,57 @@
+{
+  "call_id": "6f14780e79245ac9854a-candidate_final",
+  "finish_reason": "STOP",
+  "finished_unix": 1790495337.879468,
+  "http_status": 200,
+  "latency_seconds": 1.3673,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.040970789243097175,
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"reply\": \"네, 알겠습니다. 송 선생님께 배우면서 즐거웠던 이야기를 들려주시겠어요?\",\n  \"action\": {\n    \"kind\": \"CONTINUE\",\n    \"question_slot\": null,\n    \"required_slots\": [],\n    \"speaker_id\": \"p1\"\n  },\n  \"memory_decisions\": [\n    {\n      \"alternatives\": [],\n      \"fact\": null,\n      \"operation\": \"NO_WRITE\",\n      \"slot\": null,\n      \"source_turns\": [\"t2\"],\n      \"target_fact_id\": null\n    }\n  ]\n}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T07:48:56.730956Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "aMq4aszOLJiXktwPo4SY4AQ",
+    "usageMetadata": {
+      "candidatesTokenCount": 146,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 146
+        }
+      ],
+      "promptTokenCount": 1941,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1941
+        }
+      ],
+      "totalTokenCount": 2087,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "d492951d8753e734d5efcfa025a3464b91ceab650269a5a87a221ffd2b48aad7",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790495336.511371,
+  "status": "OK",
+  "text": "{\n  \"reply\": \"네, 알겠습니다. 송 선생님께 배우면서 즐거웠던 이야기를 들려주시겠어요?\",\n  \"action\": {\n    \"kind\": \"CONTINUE\",\n    \"question_slot\": null,\n    \"required_slots\": [],\n    \"speaker_id\": \"p1\"\n  },\n  \"memory_decisions\": [\n    {\n      \"alternatives\": [],\n      \"fact\": null,\n      \"operation\": \"NO_WRITE\",\n      \"slot\": null,\n      \"source_turns\": [\"t2\"],\n      \"target_fact_id\": null\n    }\n  ]\n}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1941,
+    "output_tokens": 146,
+    "reasoning_tokens": 0,
+    "total_tokens": 2087
+  }
+}

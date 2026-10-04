@@ -1,0 +1,57 @@
+{
+  "call_id": "b8d03ed1fa146267d536-g_final",
+  "finish_reason": "STOP",
+  "finished_unix": 1790490568.241706,
+  "http_status": 200,
+  "latency_seconds": 1.855,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.013605991678853189,
+        "content": {
+          "parts": [
+            {
+              "text": "{\"reply\": \"네, 아직 확실하지 않다고 하셨으니 다솜꽃집으로 유지할게요. 혹시 나중에 정확한 가게 이름이 확인되면 다시 알려주세요.\", \"action\": {\"kind\": \"CONTINUE\", \"question_slot\": null, \"required_slots\": [], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"다온꽃집\"], \"fact\": null, \"operation\": \"HOLD\", \"slot\": \"shop_name\", \"source_turns\": [\"t2\"], \"target_fact_id\": null}]}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T06:29:26.478412Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "xre4asyZHdOH0ckPuLmDuA8",
+    "usageMetadata": {
+      "candidatesTokenCount": 124,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 124
+        }
+      ],
+      "promptTokenCount": 1878,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1878
+        }
+      ],
+      "totalTokenCount": 2002,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "f8326fcc036053aefbdd041c19cb1141dc9120531c3085778d842edd9f8c0837",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790490566.3863082,
+  "status": "OK",
+  "text": "{\"reply\": \"네, 아직 확실하지 않다고 하셨으니 다솜꽃집으로 유지할게요. 혹시 나중에 정확한 가게 이름이 확인되면 다시 알려주세요.\", \"action\": {\"kind\": \"CONTINUE\", \"question_slot\": null, \"required_slots\": [], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"다온꽃집\"], \"fact\": null, \"operation\": \"HOLD\", \"slot\": \"shop_name\", \"source_turns\": [\"t2\"], \"target_fact_id\": null}]}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1878,
+    "output_tokens": 124,
+    "reasoning_tokens": 0,
+    "total_tokens": 2002
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "call_id": "a24524e69c1ad97798d8-sr_refine",
+  "finish_reason": "STOP",
+  "finished_unix": 1790490900.526496,
+  "http_status": 200,
+  "latency_seconds": 1.1618,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.0003548659440270044,
+        "content": {
+          "parts": [
+            {
+              "text": "{\"reply\": \"네, 어머니 순자님의 출생지를 임실로 기록할게요.\", \"action\": {\"kind\": \"CONTINUE\", \"question_slot\": null, \"required_slots\": [], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [], \"fact\": {\"relation\": \"birthplace\", \"source_turns\": [\"t2\"], \"subject\": \"어머니 순자\", \"time\": \"past\", \"value\": \"임실\"}, \"operation\": \"APPEND\", \"slot\": null, \"source_turns\": [\"t2\"], \"target_fact_id\": null}]}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T06:34:59.453042Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "E7m4arLTG_CVktwP37SV-Ag",
+    "usageMetadata": {
+      "candidatesTokenCount": 133,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 133
+        }
+      ],
+      "promptTokenCount": 2236,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 2236
+        }
+      ],
+      "totalTokenCount": 2369,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "8f36357bdb0d54df8e514c0a4a4a5f38bfbc63454caf8451f7438a7b5cefed6d",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790490899.364406,
+  "status": "OK",
+  "text": "{\"reply\": \"네, 어머니 순자님의 출생지를 임실로 기록할게요.\", \"action\": {\"kind\": \"CONTINUE\", \"question_slot\": null, \"required_slots\": [], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [], \"fact\": {\"relation\": \"birthplace\", \"source_turns\": [\"t2\"], \"subject\": \"어머니 순자\", \"time\": \"past\", \"value\": \"임실\"}, \"operation\": \"APPEND\", \"slot\": null, \"source_turns\": [\"t2\"], \"target_fact_id\": null}]}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 2236,
+    "output_tokens": 133,
+    "reasoning_tokens": 0,
+    "total_tokens": 2369
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "call_id": "6d36c825a152cbbdd995-sr_feedback",
+  "error_type": null,
+  "finish_reason": "length",
+  "finished_unix": 1790496963.894391,
+  "latency_seconds": 20.7167,
+  "model_version": "mlx-community/Llama-3.1-8B-Instruct-4bit",
+  "raw_response": {
+    "base_seed": 20260927,
+    "finish_reason": "length",
+    "generation_calls": 773,
+    "id": "local-9a42ad9f5103c1a7dafab7c6",
+    "seed": 2364572148,
+    "snapshot": "<LOCAL_PATH>",
+    "text": "{\"issues\": [{\"draft_location\": \"memory_decisions.0.fact.relation\", \"evidence_location\": \"candidates.0.relation\", \"problem\": \"미확정 사실 HOLD를 APPEND와 섞을 수 있다.\", \"specific_revision\": \"미확정 사실 HOLD를 NO_WRITE로 대체하라.\"}, {\"draft_location\": \"memory_decisions.0.fact.value\", \"evidence_location\": \"candidates.0.value\", \"problem\": \"확정되지 않은 값은 사실로 말하거나 저장하지 말라.\", \"specific_revision\": \"확정된 값인 \\\"해오름회관\\\"을 사용하라.\"}, {\"draft_location\": \"memory_decisions.0.fact.value\", \"evidence_location\": \"candidates.1.value\", \"problem\": \"확정되지 않은 값은 사실로 말하거나 저장하지 말라.\", \"specific_revision\": \"확정된 값인 \\\"누리문화원\\\"을 사용하라.\"}, {\"draft_location\": \"memory_decisions.0.fact.value\", \"evidence_location\": \"candidates.1.value\", \"problem\": \"확정되지 않은 값은 사실로 말하거나 저장하지 말라.\", \"specific_revision\": \"확정된 값인 \\\"민요고\\\"를 사용하라.\"}, {\"draft_location\": \"memory_decisions.0.fact.value\", \"evidence_location\": \"candidates.0.value\", \"problem\": \"확정되지 않은 값은 사실로 말하거나 저장하지 말라.\", \"specific_revision\": \"확정된 값인 \\\"민요고\\\"를 사용하라.\"}, {\"draft_location\": \"memory_decisions.0.fact.value\", \"evidence_location\": \"candidates.1.value\", \"problem\": \"확정되지 않은 값은 사실로 말하거나 저장하지 말라.\", \"specific_revision\": \"확정된 값인 \\\"민요고\\\"를 사용하라.\"}, {\"draft_location\": \"memory_decisions.0.fact.value\", \"evidence_location\": \"candidates.0.value\", \"problem\": \"확정되지 않은 값은 사실로 말하거나 저장하지 말라.\", \"specific_revision\": \"확정된 값인 \\\"민요고\\\"를 사용하라.\"}, {\"draft_location\": \"memory_decisions.0.fact.value\", \"evidence_location\": \"candidates.1.value\", \"problem\": \"확정되지 않은 값은 사실로 말하거나 저장하지 말라",
+    "usage": {
+      "cached_tokens": null,
+      "input_tokens": 1529,
+      "output_tokens": 512,
+      "reasoning_tokens": null,
+      "total_tokens": 2041
+    }
+  },
+  "request_sha256": "a40fd37c667b99b720e5598adfd33a05bf0a04e5d10a3c409f668e299ca0e5ef",
+  "stage_schema_sha256": "377e252cf02129ba34bbc867118dd2b9c6b65042b3fcd7b44099d2fc6e0513ed",
+  "started_unix": 1790496943.1775901,
+  "status": "OK",
+  "text": "{\"issues\": [{\"draft_location\": \"memory_decisions.0.fact.relation\", \"evidence_location\": \"candidates.0.relation\", \"problem\": \"미확정 사실 HOLD를 APPEND와 섞을 수 있다.\", \"specific_revision\": \"미확정 사실 HOLD를 NO_WRITE로 대체하라.\"}, {\"draft_location\": \"memory_decisions.0.fact.value\", \"evidence_location\": \"candidates.0.value\", \"problem\": \"확정되지 않은 값은 사실로 말하거나 저장하지 말라.\", \"specific_revision\": \"확정된 값인 \\\"해오름회관\\\"을 사용하라.\"}, {\"draft_location\": \"memory_decisions.0.fact.value\", \"evidence_location\": \"candidates.1.value\", \"problem\": \"확정되지 않은 값은 사실로 말하거나 저장하지 말라.\", \"specific_revision\": \"확정된 값인 \\\"누리문화원\\\"을 사용하라.\"}, {\"draft_location\": \"memory_decisions.0.fact.value\", \"evidence_location\": \"candidates.1.value\", \"problem\": \"확정되지 않은 값은 사실로 말하거나 저장하지 말라.\", \"specific_revision\": \"확정된 값인 \\\"민요고\\\"를 사용하라.\"}, {\"draft_location\": \"memory_decisions.0.fact.value\", \"evidence_location\": \"candidates.0.value\", \"problem\": \"확정되지 않은 값은 사실로 말하거나 저장하지 말라.\", \"specific_revision\": \"확정된 값인 \\\"민요고\\\"를 사용하라.\"}, {\"draft_location\": \"memory_decisions.0.fact.value\", \"evidence_location\": \"candidates.1.value\", \"problem\": \"확정되지 않은 값은 사실로 말하거나 저장하지 말라.\", \"specific_revision\": \"확정된 값인 \\\"민요고\\\"를 사용하라.\"}, {\"draft_location\": \"memory_decisions.0.fact.value\", \"evidence_location\": \"candidates.0.value\", \"problem\": \"확정되지 않은 값은 사실로 말하거나 저장하지 말라.\", \"specific_revision\": \"확정된 값인 \\\"민요고\\\"를 사용하라.\"}, {\"draft_location\": \"memory_decisions.0.fact.value\", \"evidence_location\": \"candidates.1.value\", \"problem\": \"확정되지 않은 값은 사실로 말하거나 저장하지 말라",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1529,
+    "output_tokens": 512,
+    "reasoning_tokens": null,
+    "total_tokens": 2041
+  }
+}

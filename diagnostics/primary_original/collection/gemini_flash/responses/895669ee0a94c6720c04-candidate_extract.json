@@ -1,0 +1,57 @@
+{
+  "call_id": "895669ee0a94c6720c04-candidate_extract",
+  "finish_reason": "STOP",
+  "finished_unix": 1790488625.330034,
+  "http_status": 200,
+  "latency_seconds": 2.0022,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.004128248807860584,
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"beliefs\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"facts\": [\n        {\n          \"relation\": \"birthplace\",\n          \"source_turns\": [\n            \"t2\"\n          ],\n          \"subject\": \"participant\",\n          \"time\": \"past\",\n          \"value\": \"대구\"\n        }\n      ]\n    },\n    {\n      \"candidate_id\": \"c2\",\n      \"facts\": [\n        {\n          \"relation\": \"birthplace\",\n          \"source_turns\": [\n            \"t2\"\n          ],\n          \"subject\": \"participant\",\n          \"time\": \"past\",\n          \"value\": \"대구\"\n        }\n      ]\n    }\n  ],\n  \"correction_witnesses\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"evidence_quote\": \"대구에서 태어났어요. 출생지는 대구로 바꿔요.\",\n      \"new_value\": \"대구\",\n      \"polarity\": \"affirmed\",\n      \"relation\": \"birthplace\",\n      \"source_turn\": \"t2\",\n      \"subject\": \"participant\",\n      \"target_fact_id\": \"f1\",\n      \"time\": \"past\"\n    },\n    {\n      \"candidate_id\": \"c2\",\n      \"evidence_quote\": \"대구에서 태어난 게 맞으니 대구로 바꿔 주세요.\",\n      \"new_value\": \"대구\",\n      \"polarity\": \"affirmed\",\n      \"relation\": \"birthplace\",\n      \"source_turn\": \"t2\",\n      \"subject\": \"participant\",\n      \"target_fact_id\": \"f1\",\n      \"time\": \"past\"\n    }\n  ]\n}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T05:57:03.514537Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "L7C4aumzH_GancoP76ybiQ0",
+    "usageMetadata": {
+      "candidatesTokenCount": 410,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 410
+        }
+      ],
+      "promptTokenCount": 1697,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1697
+        }
+      ],
+      "totalTokenCount": 2107,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "c8053cc3969907715ddd2e21980d2b37626e194d42d3ba15f507c6a87c4d74d0",
+  "stage_schema_sha256": "bda7326ac6a6cbeedf1ecdbf4a2b08277c078351d6689f667dc0d558c4972dd3",
+  "started_unix": 1790488623.3276649,
+  "status": "OK",
+  "text": "{\n  \"beliefs\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"facts\": [\n        {\n          \"relation\": \"birthplace\",\n          \"source_turns\": [\n            \"t2\"\n          ],\n          \"subject\": \"participant\",\n          \"time\": \"past\",\n          \"value\": \"대구\"\n        }\n      ]\n    },\n    {\n      \"candidate_id\": \"c2\",\n      \"facts\": [\n        {\n          \"relation\": \"birthplace\",\n          \"source_turns\": [\n            \"t2\"\n          ],\n          \"subject\": \"participant\",\n          \"time\": \"past\",\n          \"value\": \"대구\"\n        }\n      ]\n    }\n  ],\n  \"correction_witnesses\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"evidence_quote\": \"대구에서 태어났어요. 출생지는 대구로 바꿔요.\",\n      \"new_value\": \"대구\",\n      \"polarity\": \"affirmed\",\n      \"relation\": \"birthplace\",\n      \"source_turn\": \"t2\",\n      \"subject\": \"participant\",\n      \"target_fact_id\": \"f1\",\n      \"time\": \"past\"\n    },\n    {\n      \"candidate_id\": \"c2\",\n      \"evidence_quote\": \"대구에서 태어난 게 맞으니 대구로 바꿔 주세요.\",\n      \"new_value\": \"대구\",\n      \"polarity\": \"affirmed\",\n      \"relation\": \"birthplace\",\n      \"source_turn\": \"t2\",\n      \"subject\": \"participant\",\n      \"target_fact_id\": \"f1\",\n      \"time\": \"past\"\n    }\n  ]\n}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1697,
+    "output_tokens": 410,
+    "reasoning_tokens": 0,
+    "total_tokens": 2107
+  }
+}

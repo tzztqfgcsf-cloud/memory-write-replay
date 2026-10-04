@@ -1,0 +1,68 @@
+{
+  "schema": "portable-saved-cohort-v1",
+  "comparison_unit": "same model configuration x original case x saved repetition; REVIEW Q and candidate-path F/Q preserve separate generation provenance",
+  "selected_configurations": [
+    "claude-opus-4.5",
+    "claude-opus-4.6",
+    "claude-opus-4.7",
+    "claude-opus-4.8",
+    "claude-opus-5.5",
+    "claude-sonnet-4",
+    "claude-sonnet-4.5",
+    "claude-sonnet-4.6",
+    "deepseek-3.2",
+    "gemini25_flash_lite",
+    "gemini25_pro",
+    "gemini31_pro_preview",
+    "gemini35_flash_lite",
+    "gemini38_flash",
+    "gemini3_flash_preview",
+    "gemini_flash",
+    "glm-5",
+    "gpt-5.6-luna",
+    "gpt-5.6-sol",
+    "gpt-5.6-terra",
+    "qwen3_14b"
+  ],
+  "episodes": 3024,
+  "unique_cases": 48,
+  "repeats": [
+    1,
+    2,
+    3
+  ],
+  "original_conditions": [
+    "D",
+    "G",
+    "SR1",
+    "B",
+    "C",
+    "R",
+    "CR"
+  ],
+  "saved_alternative_conditions": [
+    "N_AGREE",
+    "EXACT_LITERAL",
+    "N_LITERAL",
+    "R_LITERAL",
+    "R_WITNESS",
+    "R_AGREE",
+    "R_ALLOW"
+  ],
+  "raw_response_unique_contents": 13517,
+  "raw_response_source_files": 18144,
+  "source_manifest_sha256": "083f1c89d3a6b474bad77b37434398982efd74be0ac347802192acd652edeb8c",
+  "reference_role": "AUTHORED_REFERENCE_NOT_INDEPENDENT_HUMAN_GOLD",
+  "evaluation_version": "obsolete_fact_version_v2",
+  "limitations": [
+    "Saved F belongs to candidate-path extraction, not REVIEW-generated evidence.",
+    "Missing/unparseable raw fields are preserved as failures; strict parse inventory is not a semantic/scorer result.",
+    "Duplicate lineage represents policy replay with identical physical generated response requests; selected_episode follows historical analysis provenance, not best score.",
+    "Same48 authored cases repeated3 times are not144 independent cases; selected21 are existing validity-filtered complete configurations.",
+    "Generation histories REVIEW2 calls vs candidate F/Q2 calls; REVIEW Q+F hybrid3 generation calls for complete-path accounting, despite new offline calls0.",
+    "All references remain authored; no independent human judgment was introduced.",
+    "Four manifest-selected stages are supplemented by request/response assets reachable through the same selected episode upstream call IDs, including SR1 feedback/refine where saved. Missing assets are listed in generation_asset_coverage.json; final proposals/failures/states/scores remain complete.",
+    "Private session IDs, database paths and provider metadata excluded. Absolute workspace prefixes in provenance converted to repository-relative source paths; model response text unchanged.",
+    "Candidate-path ALLOW/E archived equality is supplied separately for eight selected configurations (1152 rows); it was not archived for all21. Core14 excludes E and does not synthesize original results for absent configurations."
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "schema": "v26-variant-audit-input-hashes-1",
+  "files": {
+    "core/data/episodes.json.gz": "e83ee8dfd49cc27dc3987c021ec1fd7d549f20dcd796411256e9f1c0dae6f926",
+    "core/data/cases.json.gz": "1ec5f6cc6a64d5f2ff597ddd85670a753d15f05abdb3ae7d9814fa9ad7a56a95",
+    "core/data/cohort.json": "fdf2ea1cd458728937a9f9a087b6e8bec72e523093eaad34e07f16463d605a9a",
+    "docs/TIST_v26_appendix.pdf": "6c85d21eac41a5064b937d4199a7008a98ae9e8395391c070c5721eaccde52c0"
+  },
+  "rule_source": "docs/TIST_v26_appendix.pdf Appendix I.1 / Table I9",
+  "original_audit_code_recovered": false,
+  "provenance_note": "This is a new portable transcription of the rule printed in v26 Appendix I.1, applied only to archived states, gate logs and expected scores. It does not alter the frozen executor, evaluator or scores.",
+  "search_scope": [
+    "outputs/review_agree_allow_20261002",
+    "outputs/strong_baselines_20261001",
+    "outputs/r6_reconstruction_20261001",
+    "outputs paper-related files, then outputs Python/Markdown/JSON/TeX text search excluding collection/request/response/store and capstone archive copies"
+  ],
+  "search_result": "No original variant-audit classification program or 82-row classification table was located in these searches. This is not a claim that none exists elsewhere."
+}

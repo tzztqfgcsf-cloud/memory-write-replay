@@ -1,0 +1,36 @@
+{
+  "call_id": "c48adb6803a04bc7a315-g_draft",
+  "error_type": null,
+  "finish_reason": "stop",
+  "finished_unix": 1790489258.8690062,
+  "latency_seconds": 9.8734,
+  "model_version": "mlx-community/Llama-3.1-8B-Instruct-4bit",
+  "raw_response": {
+    "base_seed": 20260927,
+    "finish_reason": "stop",
+    "generation_calls": 67,
+    "id": "local-8556d59b0b4695033f96f6a9",
+    "seed": 3042217916,
+    "snapshot": "<LOCAL_PATH>",
+    "text": "{\"action\": {\"kind\": \"CLARIFY\", \"question_slot\": \"learned_from\", \"required_slots\": [\"learned_from\"], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"최 선생님이\", \"한 선생님이\"], \"fact\": {\"relation\": \"learned_from\", \"source_turns\": [\"t1\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"최 선생님\"}, \"operation\": \"CORRECT\", \"slot\": \"learned_from\", \"source_turns\": [\"t1\"], \"target_fact_id\": \"f1\"}], \"reply\": \"그분 성을 내가 잘못 말했어. 처음 배운 분은 한 선생님이야. 한 선생님으로 바로잡아 줘.\"}",
+    "usage": {
+      "cached_tokens": null,
+      "input_tokens": 1722,
+      "output_tokens": 170,
+      "reasoning_tokens": null,
+      "total_tokens": 1892
+    }
+  },
+  "request_sha256": "9497b950bfe0052385c9406d9bb662eb340415eddfd37e314470b87313cf2001",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790489248.9950871,
+  "status": "OK",
+  "text": "{\"action\": {\"kind\": \"CLARIFY\", \"question_slot\": \"learned_from\", \"required_slots\": [\"learned_from\"], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"최 선생님이\", \"한 선생님이\"], \"fact\": {\"relation\": \"learned_from\", \"source_turns\": [\"t1\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"최 선생님\"}, \"operation\": \"CORRECT\", \"slot\": \"learned_from\", \"source_turns\": [\"t1\"], \"target_fact_id\": \"f1\"}], \"reply\": \"그분 성을 내가 잘못 말했어. 처음 배운 분은 한 선생님이야. 한 선생님으로 바로잡아 줘.\"}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1722,
+    "output_tokens": 170,
+    "reasoning_tokens": null,
+    "total_tokens": 1892
+  }
+}

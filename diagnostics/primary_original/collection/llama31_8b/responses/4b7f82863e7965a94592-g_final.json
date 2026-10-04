@@ -1,0 +1,36 @@
+{
+  "call_id": "4b7f82863e7965a94592-g_final",
+  "error_type": null,
+  "finish_reason": "stop",
+  "finished_unix": 1790490542.931555,
+  "latency_seconds": 14.7457,
+  "model_version": "mlx-community/Llama-3.1-8B-Instruct-4bit",
+  "raw_response": {
+    "base_seed": 20260927,
+    "finish_reason": "stop",
+    "generation_calls": 188,
+    "id": "local-f9e47548f2519cb45dae7562",
+    "seed": 1559410732,
+    "snapshot": "<LOCAL_PATH>",
+    "text": "{\"action\": {\"kind\": \"CONTINUE\", \"question_slot\": \"travel_destination\", \"required_slots\": [\"travel_destination\"], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"속초\", \"삼척\"], \"fact\": {\"relation\": \"travel_destination\", \"source_turns\": [\"t1\", \"t2\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"속초\"}, \"operation\": \"HOLD\", \"slot\": \"travel_destination\", \"source_turns\": [\"t1\", \"t2\"], \"target_fact_id\": null}, {\"alternatives\": [\"속초\", \"삼척\"], \"fact\": {\"relation\": \"travel_destination\", \"source_turns\": [\"t1\", \"t2\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"삼척\"}, \"operation\": \"HOLD\", \"slot\": \"travel_destination\", \"source_turns\": [\"t1\", \"t2\"], \"target_fact_id\": null}], \"reply\": \"딸은 그때 간 데가 삼척일 거라는데 저는 가물가물해요. 여행지 고치지는 말고 사진부터 볼게요.\"}",
+    "usage": {
+      "cached_tokens": null,
+      "input_tokens": 2029,
+      "output_tokens": 256,
+      "reasoning_tokens": null,
+      "total_tokens": 2285
+    }
+  },
+  "request_sha256": "20a801d77caaf0408e59b8feaf31af86f084e30bb5bc06102bcb9c4a50bcaa81",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790490528.18539,
+  "status": "OK",
+  "text": "{\"action\": {\"kind\": \"CONTINUE\", \"question_slot\": \"travel_destination\", \"required_slots\": [\"travel_destination\"], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"속초\", \"삼척\"], \"fact\": {\"relation\": \"travel_destination\", \"source_turns\": [\"t1\", \"t2\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"속초\"}, \"operation\": \"HOLD\", \"slot\": \"travel_destination\", \"source_turns\": [\"t1\", \"t2\"], \"target_fact_id\": null}, {\"alternatives\": [\"속초\", \"삼척\"], \"fact\": {\"relation\": \"travel_destination\", \"source_turns\": [\"t1\", \"t2\"], \"subject\": \"participant\", \"time\": \"past\", \"value\": \"삼척\"}, \"operation\": \"HOLD\", \"slot\": \"travel_destination\", \"source_turns\": [\"t1\", \"t2\"], \"target_fact_id\": null}], \"reply\": \"딸은 그때 간 데가 삼척일 거라는데 저는 가물가물해요. 여행지 고치지는 말고 사진부터 볼게요.\"}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 2029,
+    "output_tokens": 256,
+    "reasoning_tokens": null,
+    "total_tokens": 2285
+  }
+}

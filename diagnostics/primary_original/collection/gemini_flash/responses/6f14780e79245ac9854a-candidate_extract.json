@@ -1,0 +1,57 @@
+{
+  "call_id": "6f14780e79245ac9854a-candidate_extract",
+  "finish_reason": "STOP",
+  "finished_unix": 1790495328.5112262,
+  "http_status": 200,
+  "latency_seconds": 1.4494,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.0018655409415562947,
+        "content": {
+          "parts": [
+            {
+              "text": "{\"beliefs\": [{\"candidate_id\": \"c1\", \"facts\": []}, {\"candidate_id\": \"c2\", \"facts\": []}], \"correction_witnesses\": [{\"candidate_id\": \"c1\", \"evidence_quote\": \"\", \"new_value\": \"송 선생님\", \"polarity\": \"absent\", \"relation\": \"learned_from\", \"source_turn\": \"t2\", \"subject\": \"participant\", \"target_fact_id\": \"f1\", \"time\": \"past\"}, {\"candidate_id\": \"c2\", \"evidence_quote\": \"\", \"new_value\": \"송 선생님\", \"polarity\": \"absent\", \"relation\": \"learned_from\", \"source_turn\": \"t2\", \"subject\": \"participant\", \"target_fact_id\": \"f1\", \"time\": \"past\"}]}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T07:48:47.278947Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "X8q4aqODEfObncoPmvuomAI",
+    "usageMetadata": {
+      "candidatesTokenCount": 180,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 180
+        }
+      ],
+      "promptTokenCount": 1695,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1695
+        }
+      ],
+      "totalTokenCount": 1875,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "aa33bf60c46896ffbcaf0ec83e50b66b004e33fbeba119d4333d0f2a1f787503",
+  "stage_schema_sha256": "bda7326ac6a6cbeedf1ecdbf4a2b08277c078351d6689f667dc0d558c4972dd3",
+  "started_unix": 1790495327.061474,
+  "status": "OK",
+  "text": "{\"beliefs\": [{\"candidate_id\": \"c1\", \"facts\": []}, {\"candidate_id\": \"c2\", \"facts\": []}], \"correction_witnesses\": [{\"candidate_id\": \"c1\", \"evidence_quote\": \"\", \"new_value\": \"송 선생님\", \"polarity\": \"absent\", \"relation\": \"learned_from\", \"source_turn\": \"t2\", \"subject\": \"participant\", \"target_fact_id\": \"f1\", \"time\": \"past\"}, {\"candidate_id\": \"c2\", \"evidence_quote\": \"\", \"new_value\": \"송 선생님\", \"polarity\": \"absent\", \"relation\": \"learned_from\", \"source_turn\": \"t2\", \"subject\": \"participant\", \"target_fact_id\": \"f1\", \"time\": \"past\"}]}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1695,
+    "output_tokens": 180,
+    "reasoning_tokens": 0,
+    "total_tokens": 1875
+  }
+}

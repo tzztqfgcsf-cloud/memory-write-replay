@@ -1,0 +1,36 @@
+{
+  "call_id": "292d3a8ac51c5900af2c-sr_refine",
+  "error_type": null,
+  "finish_reason": "stop",
+  "finished_unix": 1790496351.132659,
+  "latency_seconds": 13.3505,
+  "model_version": "mlx-community/Llama-3.1-8B-Instruct-4bit",
+  "raw_response": {
+    "base_seed": 20260927,
+    "finish_reason": "stop",
+    "generation_calls": 726,
+    "id": "local-4428e93177c2d713dbe7fbfe",
+    "seed": 3799141601,
+    "snapshot": "<LOCAL_PATH>",
+    "text": "{\"action\": {\"kind\": \"CONTINUE\", \"question_slot\": \"shop_name\", \"required_slots\": [\"shop_name\"], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"달빛김밥\", \"달빛분식\"], \"fact\": {\"relation\": \"shop_name\", \"source_turns\": [\"t1\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"달빛분식\"}, \"operation\": \"APPEND\", \"slot\": \"shop_name\", \"source_turns\": [\"t1\"], \"target_fact_id\": null}, {\"alternatives\": [], \"fact\": {\"relation\": \"shop_name\", \"source_turns\": [\"t1\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"달빛김밥\"}, \"operation\": \"CORRECT\", \"slot\": \"shop_name\", \"source_turns\": [\"t1\"], \"target_fact_id\": \"f1\"}], \"reply\": \"가게 이름이 달빛김밥으로 바뀌었어요. 연락은 전화 그대로니까 상호만 고쳐요.\"}",
+    "usage": {
+      "cached_tokens": null,
+      "input_tokens": 2098,
+      "output_tokens": 241,
+      "reasoning_tokens": null,
+      "total_tokens": 2339
+    }
+  },
+  "request_sha256": "21642eae66b38b7cb88ced04f37a9da1a2b52fed770217a6c89e6dd4b8a7a596",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790496337.781705,
+  "status": "OK",
+  "text": "{\"action\": {\"kind\": \"CONTINUE\", \"question_slot\": \"shop_name\", \"required_slots\": [\"shop_name\"], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"달빛김밥\", \"달빛분식\"], \"fact\": {\"relation\": \"shop_name\", \"source_turns\": [\"t1\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"달빛분식\"}, \"operation\": \"APPEND\", \"slot\": \"shop_name\", \"source_turns\": [\"t1\"], \"target_fact_id\": null}, {\"alternatives\": [], \"fact\": {\"relation\": \"shop_name\", \"source_turns\": [\"t1\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"달빛김밥\"}, \"operation\": \"CORRECT\", \"slot\": \"shop_name\", \"source_turns\": [\"t1\"], \"target_fact_id\": \"f1\"}], \"reply\": \"가게 이름이 달빛김밥으로 바뀌었어요. 연락은 전화 그대로니까 상호만 고쳐요.\"}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 2098,
+    "output_tokens": 241,
+    "reasoning_tokens": null,
+    "total_tokens": 2339
+  }
+}

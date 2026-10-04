@@ -1,0 +1,57 @@
+{
+  "call_id": "96e76a54891969842a25-candidate_final",
+  "finish_reason": "STOP",
+  "finished_unix": 1790490473.128441,
+  "http_status": 200,
+  "latency_seconds": 1.3104,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.05996429257922702,
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"reply\": \"네, 속초 기록은 그대로 유지하겠습니다. 사진을 보면서 더 이야기해 주세요.\",\n  \"action\": {\n    \"kind\": \"CONTINUE\",\n    \"question_slot\": null,\n    \"required_slots\": [],\n    \"speaker_id\": \"p1\"\n  },\n  \"memory_decisions\": [\n    {\n      \"alternatives\": [],\n      \"fact\": null,\n      \"operation\": \"NO_WRITE\",\n      \"slot\": null,\n      \"source_turns\": [\"t2\"],\n      \"target_fact_id\": null\n    }\n  ]\n}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T06:27:51.924990Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "Z7e4ar66OJyi0ckPm9nakA0",
+    "usageMetadata": {
+      "candidatesTokenCount": 144,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 144
+        }
+      ],
+      "promptTokenCount": 1965,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1965
+        }
+      ],
+      "totalTokenCount": 2109,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "a98087f45f3aaf4dc200d8202fa69d28a99c04d1efc6f23da83b41d4179ead0c",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790490471.8174138,
+  "status": "OK",
+  "text": "{\n  \"reply\": \"네, 속초 기록은 그대로 유지하겠습니다. 사진을 보면서 더 이야기해 주세요.\",\n  \"action\": {\n    \"kind\": \"CONTINUE\",\n    \"question_slot\": null,\n    \"required_slots\": [],\n    \"speaker_id\": \"p1\"\n  },\n  \"memory_decisions\": [\n    {\n      \"alternatives\": [],\n      \"fact\": null,\n      \"operation\": \"NO_WRITE\",\n      \"slot\": null,\n      \"source_turns\": [\"t2\"],\n      \"target_fact_id\": null\n    }\n  ]\n}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1965,
+    "output_tokens": 144,
+    "reasoning_tokens": 0,
+    "total_tokens": 2109
+  }
+}

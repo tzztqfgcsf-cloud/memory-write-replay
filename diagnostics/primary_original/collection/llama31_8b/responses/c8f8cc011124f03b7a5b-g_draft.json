@@ -1,0 +1,36 @@
+{
+  "call_id": "c8f8cc011124f03b7a5b-g_draft",
+  "error_type": null,
+  "finish_reason": "stop",
+  "finished_unix": 1790492547.43068,
+  "latency_seconds": 10.0356,
+  "model_version": "mlx-community/Llama-3.1-8B-Instruct-4bit",
+  "raw_response": {
+    "base_seed": 20260927,
+    "finish_reason": "stop",
+    "generation_calls": 361,
+    "id": "local-ec772c176dbfe358b9ff959b",
+    "seed": 1199123144,
+    "snapshot": "<LOCAL_PATH>",
+    "text": "{\"action\": {\"kind\": \"CONTINUE\", \"question_slot\": \"shop_name\", \"required_slots\": [\"shop_name\"], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"남강문구\", \"남광문구\"], \"fact\": {\"relation\": \"shop_name\", \"source_turns\": [\"t1\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"남산문구\"}, \"operation\": \"CORRECT\", \"slot\": \"shop_name\", \"source_turns\": [\"t1\"], \"target_fact_id\": \"f1\"}], \"reply\": \"현재 가게 이름은 남강문구로 고쳐 적어요. 명함 재발급을 위해 정확한 새 상호를 확인하고 있어요.\"}",
+    "usage": {
+      "cached_tokens": null,
+      "input_tokens": 1704,
+      "output_tokens": 168,
+      "reasoning_tokens": null,
+      "total_tokens": 1872
+    }
+  },
+  "request_sha256": "f9a0c1be3df38f1c44b71df666413a0b4833ce4d75089789f79c950f7e997b54",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790492537.3947861,
+  "status": "OK",
+  "text": "{\"action\": {\"kind\": \"CONTINUE\", \"question_slot\": \"shop_name\", \"required_slots\": [\"shop_name\"], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"남강문구\", \"남광문구\"], \"fact\": {\"relation\": \"shop_name\", \"source_turns\": [\"t1\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"남산문구\"}, \"operation\": \"CORRECT\", \"slot\": \"shop_name\", \"source_turns\": [\"t1\"], \"target_fact_id\": \"f1\"}], \"reply\": \"현재 가게 이름은 남강문구로 고쳐 적어요. 명함 재발급을 위해 정확한 새 상호를 확인하고 있어요.\"}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1704,
+    "output_tokens": 168,
+    "reasoning_tokens": null,
+    "total_tokens": 1872
+  }
+}

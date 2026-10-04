@@ -1,0 +1,57 @@
+{
+  "call_id": "d2cfc88592ec592a1354-candidate_extract",
+  "finish_reason": "STOP",
+  "finished_unix": 1790492333.676518,
+  "http_status": 200,
+  "latency_seconds": 1.424,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.0040353553758250725,
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"beliefs\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"facts\": []\n    },\n    {\n      \"candidate_id\": \"c2\",\n      \"facts\": []\n    }\n  ],\n  \"correction_witnesses\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"evidence_quote\": \"1984년\",\n      \"new_value\": \"1984년\",\n      \"polarity\": \"affirmed\",\n      \"relation\": \"event_year\",\n      \"source_turn\": \"t2\",\n      \"subject\": \"participant\",\n      \"target_fact_id\": \"f1\",\n      \"time\": \"past\"\n    },\n    {\n      \"candidate_id\": \"c2\",\n      \"evidence_quote\": \"1985년\",\n      \"new_value\": \"1985년\",\n      \"polarity\": \"affirmed\",\n      \"relation\": \"event_year\",\n      \"source_turn\": \"t2\",\n      \"subject\": \"participant\",\n      \"target_fact_id\": \"f1\",\n      \"time\": \"past\"\n    }\n  ]\n}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T06:58:52.328205Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "rL64ao2EFPGancoP76ybiQ0",
+    "usageMetadata": {
+      "candidatesTokenCount": 278,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 278
+        }
+      ],
+      "promptTokenCount": 1704,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1704
+        }
+      ],
+      "totalTokenCount": 1982,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "a656aadb927bf4d4125b657052e14e4a29234514bfe4dfe497d9154a3ec1cb20",
+  "stage_schema_sha256": "bda7326ac6a6cbeedf1ecdbf4a2b08277c078351d6689f667dc0d558c4972dd3",
+  "started_unix": 1790492332.2517781,
+  "status": "OK",
+  "text": "{\n  \"beliefs\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"facts\": []\n    },\n    {\n      \"candidate_id\": \"c2\",\n      \"facts\": []\n    }\n  ],\n  \"correction_witnesses\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"evidence_quote\": \"1984년\",\n      \"new_value\": \"1984년\",\n      \"polarity\": \"affirmed\",\n      \"relation\": \"event_year\",\n      \"source_turn\": \"t2\",\n      \"subject\": \"participant\",\n      \"target_fact_id\": \"f1\",\n      \"time\": \"past\"\n    },\n    {\n      \"candidate_id\": \"c2\",\n      \"evidence_quote\": \"1985년\",\n      \"new_value\": \"1985년\",\n      \"polarity\": \"affirmed\",\n      \"relation\": \"event_year\",\n      \"source_turn\": \"t2\",\n      \"subject\": \"participant\",\n      \"target_fact_id\": \"f1\",\n      \"time\": \"past\"\n    }\n  ]\n}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1704,
+    "output_tokens": 278,
+    "reasoning_tokens": 0,
+    "total_tokens": 1982
+  }
+}

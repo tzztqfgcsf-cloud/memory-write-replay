@@ -1,0 +1,56 @@
+{
+  "call_id": "864dd8dada3389f135d9ef6d-g_draft",
+  "cost_note": "provider_did_not_report_money",
+  "cost_usd_reported": null,
+  "finish_reason": "STOP",
+  "http_status": 200,
+  "latency_seconds": 2.3921,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.017217025927515905,
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"reply\": \"Okay, so you want to leave after 16:00 from Cambridge to London Liverpool Street on Sunday. Is that correct?\",\n  \"action\": {\n    \"kind\": \"CLARIFY\",\n    \"question_slot\": null,\n    \"required_slots\": [],\n    \"speaker_id\": \"system\"\n  },\n  \"memory_decisions\": [\n    {\n      \"alternatives\": [\n        \"london liverpool street\"\n      ],\n      \"fact\": {\n        \"relation\": \"train.semi.destination\",\n        \"source_turns\": [\n          \"PMUL1919.json#turn4\"\n        ],\n        \"subject\": \"PMUL1919.json#train.semi\",\n        \"time\": \"unknown\",\n        \"value\": \"london liverpool street\"\n      },\n      \"operation\": \"CORRECT\",\n      \"slot\": \"train.semi.destination\",\n      \"source_turns\": [\n        \"PMUL1919.json#turn4\"\n      ],\n      \"target_fact_id\": \"PMUL1919.json#state3#train.semi.destination\"\n    },\n    {\n      \"alternatives\": [\n        \"16:00\"\n      ],\n      \"fact\": {\n        \"relation\": \"train.semi.leaveAt\",\n        \"source_turns\": [\n          \"PMUL1919.json#turn4\"\n        ],\n        \"subject\": \"PMUL1919.json#train.semi\",\n        \"time\": \"unknown\",\n        \"value\": \"16:00\"\n      },\n      \"operation\": \"APPEND\",\n      \"slot\": \"train.semi.leaveAt\",\n      \"source_turns\": [\n        \"PMUL1919.json#turn4\"\n      ],\n      \"target_fact_id\": null\n    }\n  ]\n}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T22:41:22.389937Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "kpu5arHmF_Gcx9gPiJ6amAM",
+    "usageMetadata": {
+      "candidatesTokenCount": 447,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 447
+        }
+      ],
+      "promptTokenCount": 1686,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1686
+        }
+      ],
+      "totalTokenCount": 2133,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "aadadd1a9ea5c2f28b27f51d179627c544b2b26db06c1ce90d627331658d357b",
+  "status": "OK",
+  "text": "{\n  \"reply\": \"Okay, so you want to leave after 16:00 from Cambridge to London Liverpool Street on Sunday. Is that correct?\",\n  \"action\": {\n    \"kind\": \"CLARIFY\",\n    \"question_slot\": null,\n    \"required_slots\": [],\n    \"speaker_id\": \"system\"\n  },\n  \"memory_decisions\": [\n    {\n      \"alternatives\": [\n        \"london liverpool street\"\n      ],\n      \"fact\": {\n        \"relation\": \"train.semi.destination\",\n        \"source_turns\": [\n          \"PMUL1919.json#turn4\"\n        ],\n        \"subject\": \"PMUL1919.json#train.semi\",\n        \"time\": \"unknown\",\n        \"value\": \"london liverpool street\"\n      },\n      \"operation\": \"CORRECT\",\n      \"slot\": \"train.semi.destination\",\n      \"source_turns\": [\n        \"PMUL1919.json#turn4\"\n      ],\n      \"target_fact_id\": \"PMUL1919.json#state3#train.semi.destination\"\n    },\n    {\n      \"alternatives\": [\n        \"16:00\"\n      ],\n      \"fact\": {\n        \"relation\": \"train.semi.leaveAt\",\n        \"source_turns\": [\n          \"PMUL1919.json#turn4\"\n        ],\n        \"subject\": \"PMUL1919.json#train.semi\",\n        \"time\": \"unknown\",\n        \"value\": \"16:00\"\n      },\n      \"operation\": \"APPEND\",\n      \"slot\": \"train.semi.leaveAt\",\n      \"source_turns\": [\n        \"PMUL1919.json#turn4\"\n      ],\n      \"target_fact_id\": null\n    }\n  ]\n}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1686,
+    "output_tokens": 447,
+    "reasoning_tokens": 0,
+    "total_tokens": 2133
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "call_id": "32f001ccc777fd9cf44b8119-sr_refine",
+  "cost_note": "provider_did_not_report_money",
+  "cost_usd_reported": null,
+  "finish_reason": "STOP",
+  "http_status": 200,
+  "latency_seconds": 1.6189,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.01179571498524059,
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"reply\": \"Okay, so you want to leave after 20:45.\",\n  \"action\": {\n    \"kind\": \"CONTINUE\",\n    \"question_slot\": null,\n    \"required_slots\": [],\n    \"speaker_id\": \"system\"\n  },\n  \"memory_decisions\": [\n    {\n      \"alternatives\": [\n        \"20:45\"\n      ],\n      \"fact\": {\n        \"relation\": \"train.semi.leaveAt\",\n        \"source_turns\": [\n          \"SNG01176.json#turn6\"\n        ],\n        \"subject\": \"SNG01176.json#train.semi\",\n        \"time\": \"unknown\",\n        \"value\": \"after 20:45\"\n      },\n      \"operation\": \"HOLD\",\n      \"slot\": \"train.semi.leaveAt\",\n      \"source_turns\": [\n        \"SNG01176.json#turn6\"\n      ],\n      \"target_fact_id\": \"SNG01176.json#state5#train.semi.leaveAt\"\n    }\n  ]\n}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T22:53:47.327054Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "e565ao77E_Gcx9gPiJ6amAM",
+    "usageMetadata": {
+      "candidatesTokenCount": 275,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 275
+        }
+      ],
+      "promptTokenCount": 2514,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 2514
+        }
+      ],
+      "totalTokenCount": 2789,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "20e38c013e61693693a116a0cbe768f13b55c7e62e795cf7e6ffedb7d031bcaf",
+  "status": "OK",
+  "text": "{\n  \"reply\": \"Okay, so you want to leave after 20:45.\",\n  \"action\": {\n    \"kind\": \"CONTINUE\",\n    \"question_slot\": null,\n    \"required_slots\": [],\n    \"speaker_id\": \"system\"\n  },\n  \"memory_decisions\": [\n    {\n      \"alternatives\": [\n        \"20:45\"\n      ],\n      \"fact\": {\n        \"relation\": \"train.semi.leaveAt\",\n        \"source_turns\": [\n          \"SNG01176.json#turn6\"\n        ],\n        \"subject\": \"SNG01176.json#train.semi\",\n        \"time\": \"unknown\",\n        \"value\": \"after 20:45\"\n      },\n      \"operation\": \"HOLD\",\n      \"slot\": \"train.semi.leaveAt\",\n      \"source_turns\": [\n        \"SNG01176.json#turn6\"\n      ],\n      \"target_fact_id\": \"SNG01176.json#state5#train.semi.leaveAt\"\n    }\n  ]\n}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 2514,
+    "output_tokens": 275,
+    "reasoning_tokens": 0,
+    "total_tokens": 2789
+  }
+}

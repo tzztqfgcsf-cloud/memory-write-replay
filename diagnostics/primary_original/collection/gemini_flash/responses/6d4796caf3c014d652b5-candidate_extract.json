@@ -1,0 +1,57 @@
+{
+  "call_id": "6d4796caf3c014d652b5-candidate_extract",
+  "finish_reason": "STOP",
+  "finished_unix": 1790496091.146403,
+  "http_status": 200,
+  "latency_seconds": 2.7061,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.003719033068242455,
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"beliefs\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"facts\": [\n        {\n          \"relation\": \"meeting_place\",\n          \"source_turns\": [\n            \"t2\"\n          ],\n          \"subject\": \"participant\",\n          \"time\": \"present\",\n          \"value\": \"누리문화원\"\n        },\n        {\n          \"relation\": \"hobby\",\n          \"source_turns\": [\n            \"t2\"\n          ],\n          \"subject\": \"participant\",\n          \"time\": \"present\",\n          \"value\": \"민요\"\n        }\n      ]\n    },\n    {\n      \"candidate_id\": \"c2\",\n      \"facts\": [\n        {\n          \"relation\": \"hobby\",\n          \"source_turns\": [\n            \"t2\"\n          ],\n          \"subject\": \"participant\",\n          \"time\": \"present\",\n          \"value\": \"민요\"\n        },\n        {\n          \"relation\": \"meeting_place\",\n          \"source_turns\": [\n            \"t2\"\n          ],\n          \"subject\": \"participant\",\n          \"time\": \"present\",\n          \"value\": \"누리문화원\"\n        }\n      ]\n    }\n  ],\n  \"correction_witnesses\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"evidence_quote\": \"민요고요\",\n      \"new_value\": \"민요\",\n      \"polarity\": \"affirmed\",\n      \"relation\": \"hobby\",\n      \"source_turn\": \"t2\",\n      \"subject\": \"participant\",\n      \"target_fact_id\": \"f1\",\n      \"time\": \"present\"\n    },\n    {\n      \"candidate_id\": \"c1\",\n      \"evidence_quote\": \"누리문화원에서 해요\",\n      \"new_value\": \"누리문화원\",\n      \"polarity\": \"affirmed\",\n      \"relation\": \"meeting_place\",\n      \"source_turn\": \"t2\",\n      \"subject\": \"participant\",\n      \"target_fact_id\": \"f2\",\n      \"time\": \"present\"\n    },\n    {\n      \"candidate_id\": \"c2\",\n      \"evidence_quote\": \"민요는 그대로 하는데\",\n      \"new_value\": \"민요\",\n      \"polarity\": \"affirmed\",\n      \"relation\": \"hobby\",\n      \"source_turn\": \"t2\",\n      \"subject\": \"participant\",\n      \"target_fact_id\": \"f1\",\n      \"time\": \"present\"\n    },\n    {\n      \"candidate_id\": \"c2\",\n      \"evidence_quote\": \"누리문화원으로 바뀌었어요\",\n      \"new_value\": \"누리문화원\",\n      \"polarity\": \"affirmed\",\n      \"relation\": \"meeting_place\",\n      \"source_turn\": \"t2\",\n      \"subject\": \"participant\",\n      \"target_fact_id\": \"f2\",\n      \"time\": \"present\"\n    }\n  ]\n}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T08:01:28.593710Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "WM24aq6eJPCVktwP37SV-Ag",
+    "usageMetadata": {
+      "candidatesTokenCount": 711,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 711
+        }
+      ],
+      "promptTokenCount": 1752,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1752
+        }
+      ],
+      "totalTokenCount": 2463,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "532639e5da1c6c18c3cac31f64366d0619298efe2f23c22994ce9f670ace0ef1",
+  "stage_schema_sha256": "bda7326ac6a6cbeedf1ecdbf4a2b08277c078351d6689f667dc0d558c4972dd3",
+  "started_unix": 1790496088.440046,
+  "status": "OK",
+  "text": "{\n  \"beliefs\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"facts\": [\n        {\n          \"relation\": \"meeting_place\",\n          \"source_turns\": [\n            \"t2\"\n          ],\n          \"subject\": \"participant\",\n          \"time\": \"present\",\n          \"value\": \"누리문화원\"\n        },\n        {\n          \"relation\": \"hobby\",\n          \"source_turns\": [\n            \"t2\"\n          ],\n          \"subject\": \"participant\",\n          \"time\": \"present\",\n          \"value\": \"민요\"\n        }\n      ]\n    },\n    {\n      \"candidate_id\": \"c2\",\n      \"facts\": [\n        {\n          \"relation\": \"hobby\",\n          \"source_turns\": [\n            \"t2\"\n          ],\n          \"subject\": \"participant\",\n          \"time\": \"present\",\n          \"value\": \"민요\"\n        },\n        {\n          \"relation\": \"meeting_place\",\n          \"source_turns\": [\n            \"t2\"\n          ],\n          \"subject\": \"participant\",\n          \"time\": \"present\",\n          \"value\": \"누리문화원\"\n        }\n      ]\n    }\n  ],\n  \"correction_witnesses\": [\n    {\n      \"candidate_id\": \"c1\",\n      \"evidence_quote\": \"민요고요\",\n      \"new_value\": \"민요\",\n      \"polarity\": \"affirmed\",\n      \"relation\": \"hobby\",\n      \"source_turn\": \"t2\",\n      \"subject\": \"participant\",\n      \"target_fact_id\": \"f1\",\n      \"time\": \"present\"\n    },\n    {\n      \"candidate_id\": \"c1\",\n      \"evidence_quote\": \"누리문화원에서 해요\",\n      \"new_value\": \"누리문화원\",\n      \"polarity\": \"affirmed\",\n      \"relation\": \"meeting_place\",\n      \"source_turn\": \"t2\",\n      \"subject\": \"participant\",\n      \"target_fact_id\": \"f2\",\n      \"time\": \"present\"\n    },\n    {\n      \"candidate_id\": \"c2\",\n      \"evidence_quote\": \"민요는 그대로 하는데\",\n      \"new_value\": \"민요\",\n      \"polarity\": \"affirmed\",\n      \"relation\": \"hobby\",\n      \"source_turn\": \"t2\",\n      \"subject\": \"participant\",\n      \"target_fact_id\": \"f1\",\n      \"time\": \"present\"\n    },\n    {\n      \"candidate_id\": \"c2\",\n      \"evidence_quote\": \"누리문화원으로 바뀌었어요\",\n      \"new_value\": \"누리문화원\",\n      \"polarity\": \"affirmed\",\n      \"relation\": \"meeting_place\",\n      \"source_turn\": \"t2\",\n      \"subject\": \"participant\",\n      \"target_fact_id\": \"f2\",\n      \"time\": \"present\"\n    }\n  ]\n}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1752,
+    "output_tokens": 711,
+    "reasoning_tokens": 0,
+    "total_tokens": 2463
+  }
+}

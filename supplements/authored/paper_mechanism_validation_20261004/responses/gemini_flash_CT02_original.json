@@ -1,0 +1,20 @@
+{
+  "status": "OK",
+  "http_status": 200,
+  "text": "{\"beliefs\": [{\"candidate_id\": \"c1\", \"facts\": []}, {\"candidate_id\": \"c2\", \"facts\": []}], \"correction_witnesses\": [{\"candidate_id\": \"c1\", \"evidence_quote\": \"은하정육점\", \"new_value\": \"은하정육점\", \"polarity\": \"affirmed\", \"relation\": \"shop_name\", \"source_turn\": \"t2\", \"subject\": \"participant\", \"target_fact_id\": \"f1\", \"time\": \"present\"}, {\"candidate_id\": \"c2\", \"evidence_quote\": \"은하정육점\", \"new_value\": \"은하정육점\", \"polarity\": \"affirmed\", \"relation\": \"shop_name\", \"source_turn\": \"t2\", \"subject\": \"participant\", \"target_fact_id\": \"f1\", \"time\": \"present\"}]}",
+  "usage": {
+    "input_tokens": 1708,
+    "output_tokens": 198,
+    "reasoning_tokens": 0,
+    "total_tokens": 1906,
+    "cached_tokens": 975
+  },
+  "finish_reason": "STOP",
+  "model_version": "gemini-2.5-flash",
+  "id": "gemini_flash_CT02_original",
+  "key": "gemini_flash_CT02",
+  "stage": "extract",
+  "arm": "original",
+  "requested_model": "gemini-2.5-flash",
+  "latency_seconds": 1.4275576658546925
+}

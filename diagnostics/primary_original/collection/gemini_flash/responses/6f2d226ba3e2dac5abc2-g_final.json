@@ -1,0 +1,57 @@
+{
+  "call_id": "6f2d226ba3e2dac5abc2-g_final",
+  "finish_reason": "STOP",
+  "finished_unix": 1790496310.838822,
+  "http_status": 200,
+  "latency_seconds": 1.6782,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.00369500467332743,
+        "content": {
+          "parts": [
+            {
+              "text": "{\"reply\": \"네, 직장과 연락 방법은 그대로 유지하고 취미로 자전거를 추가할게요.\", \"action\": {\"kind\": \"CONTINUE\", \"question_slot\": null, \"required_slots\": [], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [], \"fact\": {\"relation\": \"workplace\", \"source_turns\": [\"t1\", \"t2\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"봄날약국\"}, \"operation\": \"CORRECT\", \"slot\": null, \"source_turns\": [\"t2\"], \"target_fact_id\": \"f1\"}, {\"alternatives\": [], \"fact\": {\"relation\": \"preferred_contact\", \"source_turns\": [\"t1\", \"t2\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"문자\"}, \"operation\": \"CORRECT\", \"slot\": null, \"source_turns\": [\"t2\"], \"target_fact_id\": \"f2\"}, {\"alternatives\": [], \"fact\": {\"relation\": \"hobby\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"자전거\"}, \"operation\": \"APPEND\", \"slot\": null, \"source_turns\": [\"t2\"], \"target_fact_id\": null}]}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T08:05:09.330608Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "Nc64avCWFPGancoP76ybiQ0",
+    "usageMetadata": {
+      "candidatesTokenCount": 295,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 295
+        }
+      ],
+      "promptTokenCount": 2077,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 2077
+        }
+      ],
+      "totalTokenCount": 2372,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "a8f72fa423ac347e66bde3360b359c0190276ab0ffeb346d87709bf7c864c0ca",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790496309.157969,
+  "status": "OK",
+  "text": "{\"reply\": \"네, 직장과 연락 방법은 그대로 유지하고 취미로 자전거를 추가할게요.\", \"action\": {\"kind\": \"CONTINUE\", \"question_slot\": null, \"required_slots\": [], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [], \"fact\": {\"relation\": \"workplace\", \"source_turns\": [\"t1\", \"t2\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"봄날약국\"}, \"operation\": \"CORRECT\", \"slot\": null, \"source_turns\": [\"t2\"], \"target_fact_id\": \"f1\"}, {\"alternatives\": [], \"fact\": {\"relation\": \"preferred_contact\", \"source_turns\": [\"t1\", \"t2\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"문자\"}, \"operation\": \"CORRECT\", \"slot\": null, \"source_turns\": [\"t2\"], \"target_fact_id\": \"f2\"}, {\"alternatives\": [], \"fact\": {\"relation\": \"hobby\", \"source_turns\": [\"t2\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"자전거\"}, \"operation\": \"APPEND\", \"slot\": null, \"source_turns\": [\"t2\"], \"target_fact_id\": null}]}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 2077,
+    "output_tokens": 295,
+    "reasoning_tokens": 0,
+    "total_tokens": 2372
+  }
+}

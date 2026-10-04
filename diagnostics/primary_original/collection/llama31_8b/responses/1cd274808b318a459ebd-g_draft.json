@@ -1,0 +1,36 @@
+{
+  "call_id": "1cd274808b318a459ebd-g_draft",
+  "error_type": null,
+  "finish_reason": "stop",
+  "finished_unix": 1790496194.802592,
+  "latency_seconds": 7.8156,
+  "model_version": "mlx-community/Llama-3.1-8B-Instruct-4bit",
+  "raw_response": {
+    "base_seed": 20260927,
+    "finish_reason": "stop",
+    "generation_calls": 709,
+    "id": "local-942b587c535e8804eb8cf9e9",
+    "seed": 1521451636,
+    "snapshot": "<LOCAL_PATH>",
+    "text": "{\"action\": {\"kind\": \"STOP\", \"question_slot\": null, \"required_slots\": [], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [], \"fact\": null, \"operation\": \"NO_WRITE\", \"slot\": null, \"source_turns\": [], \"target_fact_id\": null}], \"reply\": \"그만요. 다음 모임 얘기도 말고 오늘 대화를 완전히 끝내 주세요.\"}",
+    "usage": {
+      "cached_tokens": null,
+      "input_tokens": 1700,
+      "output_tokens": 95,
+      "reasoning_tokens": null,
+      "total_tokens": 1795
+    }
+  },
+  "request_sha256": "015ba236e562bb5c44b7be8a43ca1813648f29bd4462427995e11b444de3d819",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790496186.986822,
+  "status": "OK",
+  "text": "{\"action\": {\"kind\": \"STOP\", \"question_slot\": null, \"required_slots\": [], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [], \"fact\": null, \"operation\": \"NO_WRITE\", \"slot\": null, \"source_turns\": [], \"target_fact_id\": null}], \"reply\": \"그만요. 다음 모임 얘기도 말고 오늘 대화를 완전히 끝내 주세요.\"}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1700,
+    "output_tokens": 95,
+    "reasoning_tokens": null,
+    "total_tokens": 1795
+  }
+}

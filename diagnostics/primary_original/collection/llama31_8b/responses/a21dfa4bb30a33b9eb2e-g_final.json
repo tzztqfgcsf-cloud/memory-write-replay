@@ -1,0 +1,36 @@
+{
+  "call_id": "a21dfa4bb30a33b9eb2e-g_final",
+  "error_type": null,
+  "finish_reason": "stop",
+  "finished_unix": 1790489714.6497412,
+  "latency_seconds": 11.3361,
+  "model_version": "mlx-community/Llama-3.1-8B-Instruct-4bit",
+  "raw_response": {
+    "base_seed": 20260927,
+    "finish_reason": "stop",
+    "generation_calls": 110,
+    "id": "local-372300cfd431b14d9068f5df",
+    "seed": 813661579,
+    "snapshot": "<LOCAL_PATH>",
+    "text": "{\"action\": {\"kind\": \"CONTINUE\", \"question_slot\": \"stop_intent\", \"required_slots\": [\"stop_intent\"], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"미래제과\", \"미래제약\"], \"fact\": {\"relation\": \"workplace\", \"source_turns\": [\"t1\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"미래제과\"}, \"operation\": \"HOLD\", \"slot\": \"workplace\", \"source_turns\": [\"t1\"], \"target_fact_id\": null}, {\"alternatives\": [\"미래제과\", \"미래제약\"], \"fact\": null, \"operation\": \"NO_WRITE\", \"slot\": null, \"source_turns\": [], \"target_fact_id\": null}], \"reply\": \"네, 미래제과로 남겨 두겠습니다.\"}",
+    "usage": {
+      "cached_tokens": null,
+      "input_tokens": 1953,
+      "output_tokens": 189,
+      "reasoning_tokens": null,
+      "total_tokens": 2142
+    }
+  },
+  "request_sha256": "ed1fca863fd1e631fc905f3d9f500275a91827070fad781bcedb5f859d307655",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790489703.3131032,
+  "status": "OK",
+  "text": "{\"action\": {\"kind\": \"CONTINUE\", \"question_slot\": \"stop_intent\", \"required_slots\": [\"stop_intent\"], \"speaker_id\": \"p1\"}, \"memory_decisions\": [{\"alternatives\": [\"미래제과\", \"미래제약\"], \"fact\": {\"relation\": \"workplace\", \"source_turns\": [\"t1\"], \"subject\": \"participant\", \"time\": \"present\", \"value\": \"미래제과\"}, \"operation\": \"HOLD\", \"slot\": \"workplace\", \"source_turns\": [\"t1\"], \"target_fact_id\": null}, {\"alternatives\": [\"미래제과\", \"미래제약\"], \"fact\": null, \"operation\": \"NO_WRITE\", \"slot\": null, \"source_turns\": [], \"target_fact_id\": null}], \"reply\": \"네, 미래제과로 남겨 두겠습니다.\"}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1953,
+    "output_tokens": 189,
+    "reasoning_tokens": null,
+    "total_tokens": 2142
+  }
+}

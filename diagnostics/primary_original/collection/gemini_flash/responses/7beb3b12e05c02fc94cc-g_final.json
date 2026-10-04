@@ -1,0 +1,57 @@
+{
+  "call_id": "7beb3b12e05c02fc94cc-g_final",
+  "finish_reason": "STOP",
+  "finished_unix": 1790492031.6832829,
+  "http_status": 200,
+  "latency_seconds": 1.5212,
+  "model_version": "gemini-2.5-flash",
+  "raw_response": {
+    "candidates": [
+      {
+        "avgLogprobs": -0.008036157063075474,
+        "content": {
+          "parts": [
+            {
+              "text": "{\n  \"reply\": \"네, 어릴 때 취미로 우표 수집을 추가하고 현재 취미인 탁구는 그대로 유지할게요.\",\n  \"action\": {\n    \"kind\": \"CONTINUE\",\n    \"question_slot\": null,\n    \"required_slots\": [],\n    \"speaker_id\": \"p1\"\n  },\n  \"memory_decisions\": [\n    {\n      \"alternatives\": [],\n      \"fact\": {\n        \"relation\": \"hobby\",\n        \"source_turns\": [\n          \"t2\"\n        ],\n        \"subject\": \"participant\",\n        \"time\": \"past\",\n        \"value\": \"우표수집\"\n      },\n      \"operation\": \"APPEND\",\n      \"slot\": null,\n      \"source_turns\": [\n        \"t2\"\n      ],\n      \"target_fact_id\": null\n    }\n  ]\n}"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP"
+      }
+    ],
+    "createTime": "2026-09-27T06:53:50.244195Z",
+    "modelVersion": "gemini-2.5-flash",
+    "responseId": "fr24auPzDvCVktwP37SV-Ag",
+    "usageMetadata": {
+      "candidatesTokenCount": 210,
+      "candidatesTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 210
+        }
+      ],
+      "promptTokenCount": 1893,
+      "promptTokensDetails": [
+        {
+          "modality": "TEXT",
+          "tokenCount": 1893
+        }
+      ],
+      "totalTokenCount": 2103,
+      "trafficType": "ON_DEMAND"
+    }
+  },
+  "request_sha256": "431a2ae84bd60f984b76de9c24fe08e1d423ed2e39d92f270419546c80f86ba9",
+  "stage_schema_sha256": "1da19ff02a0f7d615d48577e448ca6a722758ffd91108c762df06a6edfe12b53",
+  "started_unix": 1790492030.161165,
+  "status": "OK",
+  "text": "{\n  \"reply\": \"네, 어릴 때 취미로 우표 수집을 추가하고 현재 취미인 탁구는 그대로 유지할게요.\",\n  \"action\": {\n    \"kind\": \"CONTINUE\",\n    \"question_slot\": null,\n    \"required_slots\": [],\n    \"speaker_id\": \"p1\"\n  },\n  \"memory_decisions\": [\n    {\n      \"alternatives\": [],\n      \"fact\": {\n        \"relation\": \"hobby\",\n        \"source_turns\": [\n          \"t2\"\n        ],\n        \"subject\": \"participant\",\n        \"time\": \"past\",\n        \"value\": \"우표수집\"\n      },\n      \"operation\": \"APPEND\",\n      \"slot\": null,\n      \"source_turns\": [\n        \"t2\"\n      ],\n      \"target_fact_id\": null\n    }\n  ]\n}",
+  "usage": {
+    "cached_tokens": null,
+    "input_tokens": 1893,
+    "output_tokens": 210,
+    "reasoning_tokens": 0,
+    "total_tokens": 2103
+  }
+}
