@@ -1,4 +1,4 @@
-# Sorieum: specification-based replay of memory-write decisions
+# Specification-Based Replay of Memory-Write Decisions
 
 Reproducibility materials for **Diagnosing Memory-Write Decisions in Conversational Assistants Through Specification-Based Replay** (manuscript v20).
 
@@ -17,8 +17,8 @@ The ACM supplementary-material description is [readme.txt](readme.txt).
 Requires Python 3.10 or newer. No API keys, model downloads, or Python packages are required for the main replay.
 
 ```sh
-git clone https://github.com/tzztqfgcsf-cloud/sorieum-paper-supplements.git
-cd sorieum-paper-supplements
+git clone https://github.com/tzztqfgcsf-cloud/memory-write-replay.git
+cd memory-write-replay
 python3 core/replay.py --output-dir /tmp/sorieum-replay
 ```
 
