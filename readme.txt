@@ -2,7 +2,7 @@ SUPPLEMENTARY MATERIAL
 Diagnosing Memory-Write Decisions in Conversational Assistants
 Through Specification-Based Replay
 
-Release: paper-artifact-v5 (revised manuscript and synchronized documentation)
+Release: paper-artifact-v6 (matching manuscript, appendix and reproducible sensitivity analysis)
 
 Repository: https://anonymous.4open.science/r/memory-admission-9E37/
 
@@ -14,10 +14,12 @@ The replay checks 42,336 score rows across 14 policy conditions.
 diagnostics/ contains supporting experiments and archived analysis code.
 supplements/ contains separately identified additional corrected-extractor,
 learned-verifier, and DSTC2 diagnostics, plus a CareCall-mem availability record.
-docs/TIST_v27.pdf is the revised 28-page manuscript, including additional
-diagnostics in Section 7.4.
-docs/TIST_v26_appendix.pdf is the online appendix,
-distributed unchanged.
+docs/TIST_v29.pdf is the 22-page manuscript.
+docs/TIST_v29_appendix.pdf is its matching 31-page appendix.
+Sections 6.1, 6.6 and 6.7 / Appendix J report follow-up experiments.
+Sections 6.4-6.5 / Appendix K report variant-tolerant scoring and decomposition.
+paper_source/ contains editable LaTeX, bibliography and figure files.
+analysis_v29/ contains the separate sensitivity analysis and verification.
 diagnostics/variant_audit_v26/ contains the Table I9 row-level audit.
 statistics/ contains portable saved-statistics checks and dependency details.
 schemas/ contains the frozen structural-output schemas.
@@ -30,6 +32,8 @@ for the core and supplementary offline checks. The statistics/ entrypoint
 additionally requires Python 3.11+ and its listed NumPy/pandas dependencies.
 From the extracted repository directory:
 
+  python3 analysis_v29/rescore_variant_tolerant.py --output-dir /tmp/memory-write-v29
+  python3 analysis_v29/verify_results.py --results /tmp/memory-write-v29/results.json --report /tmp/memory-write-v29/verification.json
   python3 core/replay.py --output-dir /tmp/memory-write-main-replay
   python3 diagnostics/verify.py
   python3 diagnostics/variant_audit_v26/reproduce.py --output-dir /tmp/memory-write-v26-audit --verify-archived

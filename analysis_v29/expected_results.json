@@ -1,0 +1,334 @@
+{
+ "archived_rows_compared": 42336,
+ "strict_mismatches": 0,
+ "totals": {
+  "G": {
+   "S": {
+    "generation_valid": 3003,
+    "positive_joint": 1623,
+    "correction_recovery": 690,
+    "whole_state_compliance": 2849,
+    "harmful_write": 146
+   },
+   "L": {
+    "generation_valid": 3003,
+    "positive_joint": 1725,
+    "correction_recovery": 690,
+    "whole_state_compliance": 2951,
+    "harmful_write": 44
+   }
+  },
+  "R_AGREE": {
+   "S": {
+    "generation_valid": 2995,
+    "positive_joint": 1571,
+    "correction_recovery": 676,
+    "whole_state_compliance": 2810,
+    "harmful_write": 64
+   },
+   "L": {
+    "generation_valid": 2995,
+    "positive_joint": 1621,
+    "correction_recovery": 676,
+    "whole_state_compliance": 2860,
+    "harmful_write": 14
+   }
+  },
+  "R_ALLOW": {
+   "S": {
+    "generation_valid": 2995,
+    "positive_joint": 1583,
+    "correction_recovery": 688,
+    "whole_state_compliance": 2811,
+    "harmful_write": 75
+   },
+   "L": {
+    "generation_valid": 2995,
+    "positive_joint": 1633,
+    "correction_recovery": 688,
+    "whole_state_compliance": 2861,
+    "harmful_write": 25
+   }
+  },
+  "R_LITERAL": {
+   "S": {
+    "generation_valid": 2995,
+    "positive_joint": 1583,
+    "correction_recovery": 688,
+    "whole_state_compliance": 2821,
+    "harmful_write": 65
+   },
+   "L": {
+    "generation_valid": 2995,
+    "positive_joint": 1633,
+    "correction_recovery": 688,
+    "whole_state_compliance": 2871,
+    "harmful_write": 15
+   }
+  },
+  "R_WITNESS": {
+   "S": {
+    "generation_valid": 2995,
+    "positive_joint": 1583,
+    "correction_recovery": 688,
+    "whole_state_compliance": 2822,
+    "harmful_write": 64
+   },
+   "L": {
+    "generation_valid": 2995,
+    "positive_joint": 1633,
+    "correction_recovery": 688,
+    "whole_state_compliance": 2872,
+    "harmful_write": 14
+   }
+  },
+  "B": {
+   "S": {
+    "generation_valid": 3001,
+    "positive_joint": 1588,
+    "correction_recovery": 673,
+    "whole_state_compliance": 2827,
+    "harmful_write": 131
+   },
+   "L": {
+    "generation_valid": 3001,
+    "positive_joint": 1665,
+    "correction_recovery": 673,
+    "whole_state_compliance": 2904,
+    "harmful_write": 54
+   }
+  },
+  "EXACT_LITERAL": {
+   "S": {
+    "generation_valid": 3001,
+    "positive_joint": 1599,
+    "correction_recovery": 685,
+    "whole_state_compliance": 2837,
+    "harmful_write": 133
+   },
+   "L": {
+    "generation_valid": 3001,
+    "positive_joint": 1676,
+    "correction_recovery": 685,
+    "whole_state_compliance": 2914,
+    "harmful_write": 56
+   }
+  },
+  "C": {
+   "S": {
+    "generation_valid": 3001,
+    "positive_joint": 1600,
+    "correction_recovery": 685,
+    "whole_state_compliance": 2839,
+    "harmful_write": 131
+   },
+   "L": {
+    "generation_valid": 3001,
+    "positive_joint": 1677,
+    "correction_recovery": 685,
+    "whole_state_compliance": 2916,
+    "harmful_write": 54
+   }
+  },
+  "CR": {
+   "S": {
+    "generation_valid": 3001,
+    "positive_joint": 1600,
+    "correction_recovery": 685,
+    "whole_state_compliance": 2839,
+    "harmful_write": 131
+   },
+   "L": {
+    "generation_valid": 3001,
+    "positive_joint": 1677,
+    "correction_recovery": 685,
+    "whole_state_compliance": 2916,
+    "harmful_write": 54
+   }
+  }
+ },
+ "invariance": {
+  "controlled_rules": {
+   "outputs_where_conditions_differ": 36,
+   "difference_changes_with_reference": 0
+  },
+  "review_rules": {
+   "outputs_where_conditions_differ": 23,
+   "difference_changes_with_reference": 0
+  },
+  "review_vs_review_witness": {
+   "outputs_where_conditions_differ": 127,
+   "difference_changes_with_reference": 52
+  },
+  "controlled_vs_review": {
+   "outputs_where_conditions_differ": 199,
+   "difference_changes_with_reference": 61
+  }
+ },
+ "decomposition": {
+  "S": {
+   "violations": {
+    "complete_pipeline": -15,
+    "proposal": 67,
+    "gate": -82,
+    "gate_split": {
+     "APPEND": -71,
+     "CORRECT": -11
+    }
+   },
+   "positive": {
+    "complete_pipeline": -23,
+    "proposal": 17,
+    "gate": -40,
+    "gate_split": {
+     "APPEND": -36,
+     "invalid_extraction": -4
+    }
+   },
+   "conformity": {
+    "complete_pipeline": -10,
+    "proposal": 17,
+    "gate": -27,
+    "gate_split": {
+     "APPEND": -30,
+     "CORRECT": 11,
+     "invalid_extraction": -8
+    }
+   }
+  },
+  "L": {
+   "violations": {
+    "complete_pipeline": 10,
+    "proposal": 40,
+    "gate": -30,
+    "gate_split": {
+     "CORRECT": -11,
+     "APPEND": -19
+    }
+   },
+   "positive": {
+    "complete_pipeline": -48,
+    "proposal": 44,
+    "gate": -92,
+    "gate_split": {
+     "APPEND": -88,
+     "invalid_extraction": -4
+    }
+   },
+   "conformity": {
+    "complete_pipeline": -35,
+    "proposal": 44,
+    "gate": -79,
+    "gate_split": {
+     "APPEND": -82,
+     "CORRECT": 11,
+     "invalid_extraction": -8
+    }
+   }
+  }
+ },
+ "intervals_pp": {
+  "S:gate": {
+   "violations": [
+    -2.71,
+    -4.33,
+    -1.36
+   ],
+   "positive": [
+    -2.27,
+    -4.08,
+    -0.85
+   ],
+   "conformity": [
+    -0.89,
+    -2.15,
+    0.26
+   ]
+  },
+  "S:complete_pipeline": {
+   "violations": [
+    -0.5,
+    -1.92,
+    0.93
+   ],
+   "positive": [
+    -1.3,
+    -3.4,
+    0.79
+   ],
+   "conformity": [
+    -0.33,
+    -1.88,
+    1.26
+   ]
+  },
+  "S:proposal": {
+   "violations": [
+    2.22,
+    1.03,
+    3.67
+   ],
+   "positive": [
+    0.96,
+    -0.79,
+    2.72
+   ],
+   "conformity": [
+    0.56,
+    -0.63,
+    1.79
+   ]
+  },
+  "L:gate": {
+   "violations": [
+    -0.99,
+    -1.69,
+    -0.4
+   ],
+   "positive": [
+    -5.22,
+    -8.22,
+    -2.49
+   ],
+   "conformity": [
+    -2.61,
+    -4.79,
+    -0.73
+   ]
+  },
+  "L:complete_pipeline": {
+   "violations": [
+    0.33,
+    -0.66,
+    1.32
+   ],
+   "positive": [
+    -2.72,
+    -4.59,
+    -1.02
+   ],
+   "conformity": [
+    -1.16,
+    -2.68,
+    0.4
+   ]
+  },
+  "L:proposal": {
+   "violations": [
+    1.32,
+    0.56,
+    2.22
+   ],
+   "positive": [
+    2.49,
+    -0.11,
+    5.44
+   ],
+   "conformity": [
+    1.46,
+    -0.26,
+    3.37
+   ]
+  }
+ }
+}

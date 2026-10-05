@@ -1,9 +1,9 @@
 # Paper and supporting documents
 
-- [Revised manuscript (PDF)](TIST_v27.pdf): 28 pages, including the supplementary mechanism and external-ASR diagnostics in Section 7.4.
-- [TIST v26 online appendix](TIST_v26_appendix.pdf): the 20-page online appendix.
-- [Korean supplementary report (PDF)](Supplementary_Report_KO.pdf) and [editable DOCX](Supplementary_Report_KO.docx): narrative summaries of the additional diagnostic experiments.
+- [Manuscript (PDF)](TIST_v29.pdf): the current 22-page manuscript.
+- [Online appendix (PDF)](TIST_v29_appendix.pdf): the matching 31-page appendix, including follow-up experiments (J) and variant-tolerant scoring (K).
+- [Editable LaTeX sources](../paper_source/): main manuscript, appendix, bibliography and figures.
+- [Additional diagnostic results](ADDITIONAL_RESULTS.md): corrected extraction, LLM verifier and DSTC2 outcomes, including completion losses.
+- [Korean supplementary report](Supplementary_Report_KO.pdf) and [editable DOCX](Supplementary_Report_KO.docx): additional-experiment summaries.
 
-The historical experimental cohort remains in `../core`, `../diagnostics` and `../supplements`. Document versions do not rename or replace those frozen experiments. Use the root README and reproduction guide for executable checks and their coverage.
-
-- [Additional diagnostic results](ADDITIONAL_RESULTS.md): extractor intervention, LLM verifier and DSTC2 outcomes, including completion losses.
+Earlier manuscript and appendix PDFs remain for provenance. Use v29 for the current submission. Original experimental records are preserved in `core/`, `diagnostics/` and `supplements/`; the new sensitivity analysis is separate in `analysis_v29/`.
