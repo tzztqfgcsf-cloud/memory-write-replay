@@ -1,12 +1,12 @@
 # Specification-Based Replay of Memory-Write Decisions
 
-Research artifacts for **Diagnosing Memory-Write Decisions in Conversational Assistants Through Specification-Based Replay**, including the v26 online appendix. The main study and separately collected supplementary diagnostics are organized by experiment.
+Research artifacts for **Diagnosing Memory-Write Decisions in Conversational Assistants Through Specification-Based Replay**, including the revised manuscript and online appendix. The main study and separately collected supplementary diagnostics are organized by experiment.
 
 This repository contains authored Korean cases and evaluation references, saved model outputs, memory-write policies, the evaluator, offline replay, and supporting analyses.
 
-## Latest appendix and reuse terms
+## Manuscript, appendix and reuse terms
 
-[Read the v26 online appendix (PDF)](docs/TIST_v26_appendix.pdf). The online appendix is included alongside the executable artifacts.
+[Read the revised manuscript (PDF)](docs/TIST_v27.pdf) · [Read the online appendix (PDF)](docs/TIST_v26_appendix.pdf). The manuscript includes the additional diagnostics in Section 7.4; the appendix retains its original experimental tables.
 
 Original code is available for noncommercial research, teaching and reproduction under the [code license](LICENSES/NONCOMMERCIAL-RESEARCH-CODE-1.0.txt). Original data and documentation use [CC BY-NC 4.0](LICENSES/CC-BY-NC-4.0.txt). Commercial use requires separate permission. Third-party terms are preserved; see [RIGHTS.md](RIGHTS.md).
 
@@ -37,10 +37,10 @@ The [v26 Table I9 audit](diagnostics/variant_audit_v26/) supplies a row-level tr
 | [supplements](supplements/) | Additional corrected-extractor and learned-verifier experiments, external DSTC2 diagnostic, and CareCall-mem availability record. |
 | [statistics](statistics/) | Portable checks of saved hybrid, Review+Agree/Allow, and main-panel statistics, with missing historical intervals retained as missing. |
 | [schemas](schemas/) | Frozen six-stage structural-output schema and stage selector. |
-| [docs](docs/) | The v26 online appendix and the Korean supplementary report. |
+| [docs](docs/) | The revised manuscript, online appendix and Korean supplementary report. |
 | [verification](verification/) | Release-level verification results and file-integrity manifest. |
 
-The additional extractor, LLM-verifier and DSTC2 diagnostics are not included in the current manuscript or online appendix. Their results, including losses in change completion, are disclosed in [Additional results](docs/ADDITIONAL_RESULTS.md). They are separate from the main three-repeat panel.
+The additional extractor, LLM-verifier and DSTC2 diagnostics are reported in manuscript Section 7.4 and [Additional results](docs/ADDITIONAL_RESULTS.md), including losses in change completion. They remain separate from the main three-repeat panel and are not added to the original appendix tables.
 
 ## Reading the results
 
