@@ -38,6 +38,15 @@ This reconstructs 82 observation-level classifications from saved inputs using
 the mechanical rule printed in the v26 appendix. See the diagnostic README for
 the distinction between published counts and additional derived breakdowns.
 
+## Variant-tolerant scoring and decomposition
+
+```sh
+python3 analysis_v29/rescore_variant_tolerant.py --output-dir /tmp/memory-write-v29
+python3 analysis_v29/verify_results.py --results /tmp/memory-write-v29/results.json --report /tmp/memory-write-v29/verification.json
+```
+
+Python standard library only. Verifies all 42,336 main-panel exact-reference rows, the 1,152 saved ALLOW rows, and the new analysis against `analysis_v29/expected_results.json`. The tolerant scores are a separate sensitivity analysis, not replacements for the archived scores. It also checks the numbers supporting Tables 7–8 and Appendix K.
+
 ## Statistical reproduction
 
 Use Python 3.11 or newer and an isolated environment for the additional statistics dependencies:
@@ -66,12 +75,10 @@ rescore responses, select a new cohort or replace historical tables.
 | Appendix H: translated example cases | `core/data/cases.json.gz`, `core/data/episodes.json.gz` | Trace case identifiers to original Korean inputs and saved outputs. |
 | Appendix I: hybrid admission bounds and comparisons | `core/`, `diagnostics/analysis_archive/hybrids/`, `diagnostics/analysis_archive/review_bounds/`, `statistics/` | Saved states/scores and portable archived-comparison checks. |
 | Appendix I.1 / Table I9: 82 avoided reference violations | `diagnostics/variant_audit_v26/` | Row-level reconstruction of the rule stated in the supplied v26 appendix; see its README for the command and exact scope. |
-| Manuscript Section 7.4: separately collected corrected-extractor / LLM-verifier / DSTC2 diagnostics | `supplements/` | Aggregate verification and supported saved-response replay; corpus exclusions documented. |
+| Sections 6.1, 6.6–6.7 and Appendix J: corrected-extractor / LLM-verifier / DSTC2 diagnostics | `supplements/` | Aggregate verification and supported saved-response replay; corpus exclusions documented. |
+| Sections 5.2, 6.4–6.5, Tables 7–8 and Appendix K | `analysis_v29/` | Reproduce and verify both references, fixed-proposal invariance, operation-level decomposition and 5,000-draw case-cluster intervals. |
 
-Document version numbers and historical experiment names are distinct. The v26
-appendix is included byte-for-byte as supplied. Its new classification rule is
-implemented as a transparent offline reconstruction, not relabeled as recovered
-historical author code.
+The current main manuscript and appendix are the matching v29 documents. Earlier PDFs and release tags are retained for provenance. The earlier Table I9 audit remains a documented reconstruction; Appendix K adds a separate analysis without overwriting those results.
 
 ## Integrity and prior verification
 

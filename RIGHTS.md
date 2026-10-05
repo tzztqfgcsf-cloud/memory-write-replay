@@ -5,7 +5,7 @@ Copyright remains with the respective rights holders. The grants apply only to r
 | Material | Terms |
 |---|---|
 | Original software source, including replay, evaluator, adapters and analysis scripts (`.py`, `.sh`, `.js`, `.mjs`, and other executable source) | [Noncommercial Research Code License 1.0](LICENSES/NONCOMMERCIAL-RESEARCH-CODE-1.0.txt): noncommercial research, teaching, evaluation and reproduction; commercial use requires separate prior written permission. |
-| Original authored cases, references, prompts, schemas, study metadata, tables, documentation, and the author-contributed text/figures in `docs/TIST_v26_appendix.pdf` | [CC BY-NC 4.0](LICENSES/CC-BY-NC-4.0.txt): attribution and noncommercial use. |
+| Original authored cases, references, prompts, schemas, study metadata, tables, documentation, and the author-contributed text/figures in the manuscript and appendix PDFs and `paper_source/` | [CC BY-NC 4.0](LICENSES/CC-BY-NC-4.0.txt): attribution and noncommercial use. |
 | Saved model outputs and mixed records | CC BY-NC 4.0 applies only to the contributors' rights in these materials and their selection/arrangement. It does not override third-party rights or applicable provider terms. |
 | Third-party material, including dataset-derived content | Original upstream terms and notices prevail for those components. |
 
