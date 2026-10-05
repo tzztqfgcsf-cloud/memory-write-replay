@@ -6,9 +6,11 @@ This repository contains authored Korean cases and evaluation references, saved 
 
 ## Manuscript, appendix and reuse terms
 
-[Read the manuscript (PDF)](docs/TIST_v29.pdf) · [Read the online appendix (PDF)](docs/TIST_v29_appendix.pdf) · [Editable LaTeX sources](paper_source/).
+[Read the online appendix (PDF)](docs/Appendix_v7.pdf) · [Read the anonymous manuscript (PDF)](docs/Manuscript_v7_anonymous.pdf) · [Editable LaTeX sources](paper_source/).
 
-Current artifact version: **paper-artifact-v6**. The manuscript includes corrected extraction (Section 6.1), a learned verifier (6.6), real ASR hypotheses (6.7), and variant-tolerant scoring and pipeline decomposition (6.4–6.5; Appendix K).
+Current artifact version: **paper-artifact-v7**. This snapshot contains the **21-page anonymous manuscript** and **31-page appendix**. These are the matching v7 review documents. Earlier PDFs and releases are historical snapshots, not the current manuscript.
+
+The manuscript includes corrected extraction (Section 6.1), a learned verifier (6.6), real ASR hypotheses (6.7), and variant-tolerant scoring and pipeline decomposition (6.4–6.5; Appendix K).
 
 Original code is available for noncommercial research, teaching and reproduction under the [code license](LICENSES/NONCOMMERCIAL-RESEARCH-CODE-1.0.txt). Original data and documentation use [CC BY-NC 4.0](LICENSES/CC-BY-NC-4.0.txt). Commercial use requires separate permission. Third-party terms are preserved; see [RIGHTS.md](RIGHTS.md).
 
@@ -16,9 +18,7 @@ The ACM supplementary-material description is [readme.txt](readme.txt).
 
 ## Run the main experiment offline
 
-Requires Python 3.10 or newer. No API keys, model downloads, or Python packages are required for the main replay.
-
-Download and extract this anonymous archive, then run from its root:
+Download and extract this anonymous archive, then run from its root. Requires Python 3.10 or newer. No API keys, model downloads, or Python packages are required for the main replay.
 
 ```sh
 python3 core/replay.py --output-dir /tmp/memory-write-replay
@@ -34,6 +34,14 @@ python3 analysis_v29/verify_results.py --results /tmp/memory-write-v29/results.j
 ```
 
 This verifies the exact archived scores and the complete expected results of the separate variant-tolerant analysis. It uses saved states and makes no model calls. See [analysis_v29](analysis_v29/).
+
+## Reproduce exposure sets
+
+```sh
+python3 analysis_v29/exposure_sets.py --output-dir /tmp/memory-write-exposure
+```
+
+This separate diagnostic reads saved gate logs, executed states and score outcomes. It distinguishes state changes from validity-only score differences and identifies missing ALLOW replays; it makes no model calls and does not replace archived scores. See [the analysis guide](analysis_v29/).
 
 ## Reproduce the earlier audit and statistical comparisons
 

@@ -1,0 +1,96 @@
+{
+  "status": "PASS",
+  "artifact_version": "paper-artifact-v7",
+  "manuscript": "docs/Manuscript_v7_anonymous.pdf",
+  "manuscript_pages": 21,
+  "anonymous_manuscript": "docs/Manuscript_v7_anonymous.pdf",
+  "anonymous_manuscript_pages": 21,
+  "appendix": "docs/Appendix_v7.pdf",
+  "appendix_pages": 31,
+  "pdf_sha256": {
+    "Manuscript_v7_anonymous.pdf": "5a0de20e6da2c1e582499392cd13e22a06c12c5424e25a0739288a9517a13713",
+    "Appendix_v7.pdf": "1826a9f4791de42f8b9569d11c5a9d1b9e565a0c517bf5cead14852a45ee7ee2"
+  },
+  "source": "paper_source/",
+  "analysis": "analysis_v29/",
+  "build": "Tectonic 0.17.0 / XeTeX, bundled acmart 1.83; sources also support pdfLaTeX, whose pagination can differ",
+  "ccs": {
+    "primary": "General and reference~Evaluation",
+    "primary_weight": 500,
+    "dialogue_weight": 100
+  },
+  "prior_analysis_verification": {
+    "source": "verification/RELEASE_UPDATE_v6.json",
+    "unchanged_scripts_and_expected_results": true,
+    "strict_rows": 42336,
+    "saved_allow_rows": 1152,
+    "strict_mismatches": 0,
+    "new_execution": false
+  },
+  "exposure_verification": {
+    "controlled_rules": {
+      "E_exposed": 49,
+      "E_cases": 12,
+      "D_states_differ": 36,
+      "D_state_or_validity": 36,
+      "S_scores_differ": 36,
+      "validity_only_score_difference": 0,
+      "check_S_within_D": true,
+      "check_D_within_E": true,
+      "check_S_within_D_state_or_validity": true,
+      "check_D_state_or_validity_within_E": true,
+      "E_with_identical_states": 1,
+      "D_not_in_S": 0,
+      "E_with_rule_not_replayed": 14,
+      "review_scope": 48,
+      "review_scope_cases": 11
+    },
+    "review_rules": {
+      "E_exposed": 23,
+      "E_cases": 8,
+      "D_states_differ": 23,
+      "D_state_or_validity": 23,
+      "S_scores_differ": 23,
+      "validity_only_score_difference": 0,
+      "check_S_within_D": true,
+      "check_D_within_E": true,
+      "check_S_within_D_state_or_validity": true,
+      "check_D_state_or_validity_within_E": true,
+      "E_with_identical_states": 0,
+      "D_not_in_S": 0,
+      "E_with_rule_not_replayed": 0,
+      "review_scope": 23,
+      "review_scope_cases": 8
+    },
+    "review_vs_review_witness": {
+      "E_exposed": 127,
+      "E_cases": 21,
+      "D_states_differ": 123,
+      "D_state_or_validity": 127,
+      "S_scores_differ": 127,
+      "validity_only_score_difference": 4,
+      "check_S_within_D": false,
+      "check_D_within_E": true,
+      "check_S_within_D_state_or_validity": true,
+      "check_D_state_or_validity_within_E": true,
+      "E_with_identical_states": 4,
+      "D_not_in_S": 0,
+      "E_with_rule_not_replayed": 0,
+      "review_scope": 127,
+      "review_scope_cases": 21
+    }
+  },
+  "protected_files_unchanged": 4678,
+  "model_calls": 0,
+  "archived_scores_overwritten": false,
+  "noncommercial_terms": "unchanged",
+  "document_changes": [
+    "Latest supplied manuscript and bibliography",
+    "CCS Evaluation 500 primary; dialogue/pragmatics 100",
+    "Stable anonymous artifact URL, version paper-artifact-v7",
+    "ChatGPT and Codex disclosure",
+    "One Appendix K sentence clarifies exposure validation of state and generation validity"
+  ],
+  "layout_check": "Full contact sheets and first/disclosure pages inspected; revised Appendix K page 29 inspected; no clipped text or undefined references found",
+  "journal_submitted": false
+}

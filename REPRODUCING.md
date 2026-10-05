@@ -78,7 +78,7 @@ rescore responses, select a new cohort or replace historical tables.
 | Sections 6.1, 6.6–6.7 and Appendix J: corrected-extractor / LLM-verifier / DSTC2 diagnostics | `supplements/` | Aggregate verification and supported saved-response replay; corpus exclusions documented. |
 | Sections 5.2, 6.4–6.5, Tables 7–8 and Appendix K | `analysis_v29/` | Reproduce and verify both references, fixed-proposal invariance, operation-level decomposition and 5,000-draw case-cluster intervals. |
 
-The current main manuscript and appendix are the matching v29 documents. Earlier PDFs and release tags are retained for provenance. The earlier Table I9 audit remains a documented reconstruction; Appendix K adds a separate analysis without overwriting those results.
+The current main manuscript and appendix are the paper-artifact-v7 documents. Earlier PDFs and release tags are retained for provenance. The earlier Table I9 audit remains a documented reconstruction; Appendix K adds a separate analysis without overwriting those results.
 
 ## Integrity and prior verification
 
@@ -100,3 +100,11 @@ unrelated product data is included.
 Cite the versioned release in `CITATION.bib`. A GitHub release is not a DOI or an
 ACM artifact badge. Permanent archival deposition can be added separately;
 see the [ACM artifact policy](https://www.acm.org/publications/policies/artifact-review-and-badging-current).
+
+## Final-manuscript exposure audit
+
+Run `python3 analysis_v29/exposure_sets.py --output-dir /tmp/memory-write-exposure` in a fresh directory. This supports Sections 6.2, 6.4, 7.1 and 8 by separating gate-log exposure, differing final states, validity-dependent outcome differences, score differences and missing ALLOW replays. See `analysis_v29/README.md` for definitions and validation.
+
+## Document identity
+
+`docs/Manuscript_v7_anonymous.pdf` is the 21-page anonymous review manuscript. `docs/Appendix_v7.pdf` is the matching 31-page appendix. This snapshot omits identifying author metadata and uses the stable anonymous archive URL. No journal submission is asserted.
