@@ -1,6 +1,6 @@
 # analysis_v29: variant-tolerant re-scoring and decomposition
 
-Supports manuscript v29 (Sections 5.2, 6.4 and 6.5; Online Appendix K). Copy this directory to the
+Supports the paper-artifact-v7 manuscript (Sections 5.2, 6.4 and 6.5; Online Appendix K). The directory name is retained for stable reproduction commands. Copy this directory to the
 repository root and run from the root:
 
 ```sh
@@ -39,3 +39,36 @@ figure scripts and `expected_results.json` retain the manuscript author's origin
 `verify_results.py` was added to make the saved Allow comparison and complete expected-result
 comparison explicit. This is retrospective analysis of saved outputs against authored
 references, not independent human validation of semantic equivalence or a new efficacy run.
+
+## Exposure sets and the human-review scope
+
+`exposure_sets.py` answers a different question from the re-scoring: on which outputs could a
+human judgment of the executed state change a rule comparison? Run from the repository root:
+
+```sh
+python3 analysis_v29/exposure_sets.py --output-dir /tmp/exposure-sets
+```
+
+For the controlled-path rules, the review-proposal rules, and gating versus not gating, it
+reports E, the exposed outputs read from the saved gate log before scoring; D, the outputs
+with different executed fact states; O, the outputs with different states or generation
+validity (`D_state_or_validity`); and S, the outputs whose endpoints differ under at least one
+reference (the 36, 23, and 127 of the re-scoring). Exit status 0 confirms S within O within E
+for every family. The archived endpoints require generation validity in addition to state
+conformity; the proposed action is shared in these fixed-proposal comparisons.
+
+For gating versus not gating, four invalid-extraction outputs have the same stored facts but
+different validity and endpoint scores. Accordingly, S has 127 outputs while D has 123;
+`check_S_within_D` remains false as an explicit diagnostic, and
+`validity_only_score_difference` reports four. O has 127. For the controlled-path and
+review-proposal correction rules, both the state-only and state-or-validity inclusion checks
+pass (E/D/O/S = 49/36/36/36 and 23/23/23/23).
+
+`D_not_in_S` counts different states that both references score alike.
+`E_with_rule_not_replayed` counts exposed outputs on which a compared rule (Allow on four
+configurations, 14 outputs) was not replayed. `review_set.csv` lists every output in E, D, O,
+or S with these flags. Rows with `review = 1` conservatively include state-or-validity
+differences and exposed outputs with a missing rule: 48 controlled-path, 23 review-proposal,
+and 127 gating outputs. The manuscript's proposed starting set of all 49 controlled-path
+exposures is conservative; the one fully replayed state tie is listed with `review = 0`.
+No saved outputs, evaluator definitions, or archived scores are changed by this correction.

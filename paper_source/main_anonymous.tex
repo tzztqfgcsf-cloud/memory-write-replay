@@ -1,6 +1,6 @@
 % !TEX program = pdflatex
 % TIST manuscript in acmsmall review format; author metadata as provided.
-\documentclass[acmsmall,review]{acmart}
+\documentclass[acmsmall,review,anonymous]{acmart}
 \acmJournal{TIST}
 \setcopyright{none}
 \settopmatter{printacmref=false}
@@ -26,46 +26,7 @@
 % Review draft only: publisher assigns volume/issue/DOI/date after acceptance.
 \title[Diagnosing Memory-Write Decisions]{Diagnosing Memory-Write Decisions in Conversational Assistants Through Specification-Based Replay}
 
-% Authors. Lee and Yeom contributed equally (co-first authors).
-% TODO before submission: add \email{...} and \orcid{...} for each author.
-\author{Sangjun Lee}
-\authornote{Both authors contributed equally to this research.}
-\affiliation{%
-  \department{Department of Electrical and Computer Engineering}
-  \institution{Ajou University}
-  \city{Suwon}
-  \country{Republic of Korea}}
-
-\author{Jiwon Yum}
-\authornotemark[\value{footnote}]  % same mark as Lee (works in old and new acmart)
-\affiliation{%
-  \department{Department of Business Administration}
-  \institution{Ajou University}
-  \city{Suwon}
-  \country{Republic of Korea}}
-
-\author{Minjeong Kim}
-\affiliation{%
-  \department{Department of Digital Media}
-  \institution{Ajou University}
-  \city{Suwon}
-  \country{Republic of Korea}}
-
-\author{Taeheon Kim}
-\affiliation{%
-  \department{Department of Business Administration}
-  \institution{Ajou University}
-  \city{Suwon}
-  \country{Republic of Korea}}
-
-\author{Youngcho Shin}
-\affiliation{%
-  \department{Department of Business Administration}
-  \institution{Ajou University}
-  \city{Suwon}
-  \country{Republic of Korea}}
-
-\renewcommand{\shortauthors}{Lee et al.}
+% Anonymous review copy; author metadata removed.
 % Production DOI, copyright and volume/issue metadata come from ACM.
 \begin{document}
 \begin{abstract}
@@ -482,7 +443,7 @@ The next priorities are independent human validation and replication on external
 Replay of saved memory-write proposals identified three mechanisms: extraction omissions created recoverable holds, zero exposure explained many rule ties, and reference conventions changed the apparent benefit of gating. The practical consequence is to inspect the source of held writes, report where rules can differ, and test reference sensitivity before attributing a gain to admission. These findings are supported within the tested pipeline; independent human judgments and evaluation on new cases and writers are needed to establish their broader use.
 
 \section*{Data, Code, and AI Use}
-The archive at \url{https://github.com/tzztqfgcsf-cloud/memory-write-replay/releases/tag/paper-artifact-v7} contains the Korean test cases, references, prompts, raw outputs and failures, executed states, the evaluator, and the analysis code, including the variant-tolerant re-scoring, with provenance hashes; for DSTC2, which is used under its own terms and not redistributed, it contains the selected turn identifiers and the code that reconstructs the inputs. The new experiments involved no human participants. ChatGPT and Codex assisted with language editing, manuscript organization, and analysis code; their use in drafting the test cases is described in Section~5.1. The authors reviewed all AI-assisted content and take full responsibility for it. English examples are translations of the Korean inputs that define the experiments.
+The archive at \url{https://anonymous.4open.science/r/memory-admission-9E37/} (artifact version paper-artifact-v7) contains the Korean test cases, references, prompts, raw outputs and failures, executed states, the evaluator, and the analysis code, including the variant-tolerant re-scoring, with provenance hashes; for DSTC2, which is used under its own terms and not redistributed, it contains the selected turn identifiers and the code that reconstructs the inputs. The new experiments involved no human participants. ChatGPT and Codex assisted with language editing, manuscript organization, and analysis code; their use in drafting the test cases is described in Section~5.1. The authors reviewed all AI-assisted content and take full responsibility for it. English examples are translations of the Korean inputs that define the experiments.
 
 \FloatBarrier
 \bibliographystyle{ACM-Reference-Format}

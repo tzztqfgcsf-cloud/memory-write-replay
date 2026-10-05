@@ -6,9 +6,11 @@ This repository contains authored Korean cases and evaluation references, saved 
 
 ## Manuscript, appendix and reuse terms
 
-[Read the manuscript (PDF)](docs/TIST_v29.pdf) · [Read the online appendix (PDF)](docs/TIST_v29_appendix.pdf) · [Editable LaTeX sources](paper_source/).
+[Read the manuscript (PDF)](docs/Manuscript_v7.pdf) · [Read the online appendix (PDF)](docs/Appendix_v7.pdf) · [Anonymous review copy (PDF)](docs/Manuscript_v7_anonymous.pdf) · [Editable LaTeX sources](paper_source/).
 
-Current artifact version: **paper-artifact-v6**. The manuscript includes corrected extraction (Section 6.1), a learned verifier (6.6), real ASR hypotheses (6.7), and variant-tolerant scoring and pipeline decomposition (6.4–6.5; Appendix K).
+Current artifact version: **paper-artifact-v7**. The author-identified manuscript is **22 pages**; the explicitly labeled anonymous copy is **21 pages**; the appendix is **31 pages**. Release PDFs and the corresponding `docs/` files are byte-identical. Earlier PDFs and releases are historical snapshots, not the current manuscript.
+
+The manuscript includes corrected extraction (Section 6.1), a learned verifier (6.6), real ASR hypotheses (6.7), and variant-tolerant scoring and pipeline decomposition (6.4–6.5; Appendix K).
 
 Original code is available for noncommercial research, teaching and reproduction under the [code license](LICENSES/NONCOMMERCIAL-RESEARCH-CODE-1.0.txt). Original data and documentation use [CC BY-NC 4.0](LICENSES/CC-BY-NC-4.0.txt). Commercial use requires separate permission. Third-party terms are preserved; see [RIGHTS.md](RIGHTS.md).
 
@@ -34,6 +36,14 @@ python3 analysis_v29/verify_results.py --results /tmp/memory-write-v29/results.j
 ```
 
 This verifies the exact archived scores and the complete expected results of the separate variant-tolerant analysis. It uses saved states and makes no model calls. See [analysis_v29](analysis_v29/).
+
+## Reproduce exposure sets
+
+```sh
+python3 analysis_v29/exposure_sets.py --output-dir /tmp/memory-write-exposure
+```
+
+This separate diagnostic reads saved gate logs, executed states and score outcomes. It distinguishes state changes from validity-only score differences and identifies missing ALLOW replays; it makes no model calls and does not replace archived scores. See [the analysis guide](analysis_v29/).
 
 ## Reproduce the earlier audit and statistical comparisons
 

@@ -1,6 +1,6 @@
 # Additional diagnostic results
 
-These exploratory experiments were collected separately from the main three-repeat study. They are reported in Sections 6.1, 6.6 and 6.7 of the [manuscript](TIST_v29.pdf) and Appendix J of the [online appendix](TIST_v29_appendix.pdf). Both improvements and losses are reported here; their samples and endpoints are not pooled with the main panel.
+These exploratory experiments were collected separately from the main three-repeat study. They are reported in Sections 6.1, 6.6 and 6.7 of the [manuscript](Manuscript_v7.pdf) and Appendix J of the [online appendix](Appendix_v7.pdf). Both improvements and losses are reported here; their samples and endpoints are not pooled with the main panel.
 
 ## Extraction intervention
 

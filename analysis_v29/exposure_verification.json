@@ -1,0 +1,335 @@
+{
+ "controlled_rules": {
+  "E_exposed": 49,
+  "E_cases": 12,
+  "D_states_differ": 36,
+  "D_state_or_validity": 36,
+  "S_scores_differ": 36,
+  "validity_only_score_difference": 0,
+  "check_S_within_D": true,
+  "check_D_within_E": true,
+  "check_S_within_D_state_or_validity": true,
+  "check_D_state_or_validity_within_E": true,
+  "E_with_identical_states": 1,
+  "D_not_in_S": 0,
+  "E_with_rule_not_replayed": 14,
+  "review_scope": 48,
+  "review_scope_cases": 11,
+  "by_configuration": {
+   "claude-sonnet-4": {
+    "E_exposed": 3,
+    "D_states_differ": 0,
+    "D_state_or_validity": 0,
+    "S_scores_differ": 0,
+    "validity_only_score_difference": 0,
+    "review": 3,
+    "E_with_rule_not_replayed": 3
+   },
+   "claude-sonnet-4.5": {
+    "E_exposed": 4,
+    "D_states_differ": 0,
+    "D_state_or_validity": 0,
+    "S_scores_differ": 0,
+    "validity_only_score_difference": 0,
+    "review": 4,
+    "E_with_rule_not_replayed": 4
+   },
+   "deepseek-3.2": {
+    "E_exposed": 4,
+    "D_states_differ": 1,
+    "D_state_or_validity": 1,
+    "S_scores_differ": 1,
+    "validity_only_score_difference": 0,
+    "review": 4,
+    "E_with_rule_not_replayed": 4
+   },
+   "gemini25_flash_lite": {
+    "E_exposed": 3,
+    "D_states_differ": 3,
+    "D_state_or_validity": 3,
+    "S_scores_differ": 3,
+    "validity_only_score_difference": 0,
+    "review": 3
+   },
+   "gemini25_pro": {
+    "E_exposed": 6,
+    "D_states_differ": 6,
+    "D_state_or_validity": 6,
+    "S_scores_differ": 6,
+    "validity_only_score_difference": 0,
+    "review": 6
+   },
+   "gemini35_flash_lite": {
+    "E_exposed": 5,
+    "D_states_differ": 5,
+    "D_state_or_validity": 5,
+    "S_scores_differ": 5,
+    "validity_only_score_difference": 0,
+    "review": 5
+   },
+   "gemini_flash": {
+    "E_exposed": 11,
+    "D_states_differ": 11,
+    "D_state_or_validity": 11,
+    "S_scores_differ": 11,
+    "validity_only_score_difference": 0,
+    "review": 11
+   },
+   "glm-5": {
+    "E_exposed": 3,
+    "D_states_differ": 1,
+    "D_state_or_validity": 1,
+    "S_scores_differ": 1,
+    "validity_only_score_difference": 0,
+    "review": 3,
+    "E_with_rule_not_replayed": 3
+   },
+   "qwen3_14b": {
+    "E_exposed": 10,
+    "D_states_differ": 9,
+    "D_state_or_validity": 9,
+    "S_scores_differ": 9,
+    "validity_only_score_difference": 0,
+    "review": 9
+   }
+  }
+ },
+ "review_rules": {
+  "E_exposed": 23,
+  "E_cases": 8,
+  "D_states_differ": 23,
+  "D_state_or_validity": 23,
+  "S_scores_differ": 23,
+  "validity_only_score_difference": 0,
+  "check_S_within_D": true,
+  "check_D_within_E": true,
+  "check_S_within_D_state_or_validity": true,
+  "check_D_state_or_validity_within_E": true,
+  "E_with_identical_states": 0,
+  "D_not_in_S": 0,
+  "E_with_rule_not_replayed": 0,
+  "review_scope": 23,
+  "review_scope_cases": 8,
+  "by_configuration": {
+   "claude-sonnet-4": {
+    "E_exposed": 1,
+    "D_states_differ": 1,
+    "D_state_or_validity": 1,
+    "S_scores_differ": 1,
+    "validity_only_score_difference": 0,
+    "review": 1
+   },
+   "claude-sonnet-4.5": {
+    "E_exposed": 4,
+    "D_states_differ": 4,
+    "D_state_or_validity": 4,
+    "S_scores_differ": 4,
+    "validity_only_score_difference": 0,
+    "review": 4
+   },
+   "deepseek-3.2": {
+    "E_exposed": 5,
+    "D_states_differ": 5,
+    "D_state_or_validity": 5,
+    "S_scores_differ": 5,
+    "validity_only_score_difference": 0,
+    "review": 5
+   },
+   "gemini_flash": {
+    "E_exposed": 12,
+    "D_states_differ": 12,
+    "D_state_or_validity": 12,
+    "S_scores_differ": 12,
+    "validity_only_score_difference": 0,
+    "review": 12
+   },
+   "qwen3_14b": {
+    "E_exposed": 1,
+    "D_states_differ": 1,
+    "D_state_or_validity": 1,
+    "S_scores_differ": 1,
+    "validity_only_score_difference": 0,
+    "review": 1
+   }
+  }
+ },
+ "review_vs_review_witness": {
+  "E_exposed": 127,
+  "E_cases": 21,
+  "D_states_differ": 123,
+  "D_state_or_validity": 127,
+  "S_scores_differ": 127,
+  "validity_only_score_difference": 4,
+  "check_S_within_D": false,
+  "check_D_within_E": true,
+  "check_S_within_D_state_or_validity": true,
+  "check_D_state_or_validity_within_E": true,
+  "E_with_identical_states": 4,
+  "D_not_in_S": 0,
+  "E_with_rule_not_replayed": 0,
+  "review_scope": 127,
+  "review_scope_cases": 21,
+  "by_configuration": {
+   "claude-opus-4.5": {
+    "E_exposed": 7,
+    "D_states_differ": 7,
+    "D_state_or_validity": 7,
+    "S_scores_differ": 7,
+    "validity_only_score_difference": 0,
+    "review": 7
+   },
+   "claude-opus-4.6": {
+    "E_exposed": 7,
+    "D_states_differ": 7,
+    "D_state_or_validity": 7,
+    "S_scores_differ": 7,
+    "validity_only_score_difference": 0,
+    "review": 7
+   },
+   "claude-opus-4.7": {
+    "E_exposed": 5,
+    "D_states_differ": 5,
+    "D_state_or_validity": 5,
+    "S_scores_differ": 5,
+    "validity_only_score_difference": 0,
+    "review": 5
+   },
+   "claude-opus-4.8": {
+    "E_exposed": 3,
+    "D_states_differ": 3,
+    "D_state_or_validity": 3,
+    "S_scores_differ": 3,
+    "validity_only_score_difference": 0,
+    "review": 3
+   },
+   "claude-opus-5.5": {
+    "E_exposed": 4,
+    "D_states_differ": 4,
+    "D_state_or_validity": 4,
+    "S_scores_differ": 4,
+    "validity_only_score_difference": 0,
+    "review": 4
+   },
+   "claude-sonnet-4": {
+    "E_exposed": 4,
+    "D_states_differ": 4,
+    "D_state_or_validity": 4,
+    "S_scores_differ": 4,
+    "validity_only_score_difference": 0,
+    "review": 4
+   },
+   "claude-sonnet-4.5": {
+    "E_exposed": 7,
+    "D_states_differ": 6,
+    "D_state_or_validity": 7,
+    "S_scores_differ": 7,
+    "validity_only_score_difference": 1,
+    "review": 7
+   },
+   "deepseek-3.2": {
+    "E_exposed": 8,
+    "D_states_differ": 8,
+    "D_state_or_validity": 8,
+    "S_scores_differ": 8,
+    "validity_only_score_difference": 0,
+    "review": 8
+   },
+   "gemini25_flash_lite": {
+    "E_exposed": 19,
+    "D_states_differ": 19,
+    "D_state_or_validity": 19,
+    "S_scores_differ": 19,
+    "validity_only_score_difference": 0,
+    "review": 19
+   },
+   "gemini25_pro": {
+    "E_exposed": 6,
+    "D_states_differ": 5,
+    "D_state_or_validity": 6,
+    "S_scores_differ": 6,
+    "validity_only_score_difference": 1,
+    "review": 6
+   },
+   "gemini31_pro_preview": {
+    "E_exposed": 3,
+    "D_states_differ": 3,
+    "D_state_or_validity": 3,
+    "S_scores_differ": 3,
+    "validity_only_score_difference": 0,
+    "review": 3
+   },
+   "gemini35_flash_lite": {
+    "E_exposed": 11,
+    "D_states_differ": 9,
+    "D_state_or_validity": 11,
+    "S_scores_differ": 11,
+    "validity_only_score_difference": 2,
+    "review": 11
+   },
+   "gemini38_flash": {
+    "E_exposed": 1,
+    "D_states_differ": 1,
+    "D_state_or_validity": 1,
+    "S_scores_differ": 1,
+    "validity_only_score_difference": 0,
+    "review": 1
+   },
+   "gemini3_flash_preview": {
+    "E_exposed": 6,
+    "D_states_differ": 6,
+    "D_state_or_validity": 6,
+    "S_scores_differ": 6,
+    "validity_only_score_difference": 0,
+    "review": 6
+   },
+   "gemini_flash": {
+    "E_exposed": 5,
+    "D_states_differ": 5,
+    "D_state_or_validity": 5,
+    "S_scores_differ": 5,
+    "validity_only_score_difference": 0,
+    "review": 5
+   },
+   "glm-5": {
+    "E_exposed": 4,
+    "D_states_differ": 4,
+    "D_state_or_validity": 4,
+    "S_scores_differ": 4,
+    "validity_only_score_difference": 0,
+    "review": 4
+   },
+   "gpt-5.6-luna": {
+    "E_exposed": 3,
+    "D_states_differ": 3,
+    "D_state_or_validity": 3,
+    "S_scores_differ": 3,
+    "validity_only_score_difference": 0,
+    "review": 3
+   },
+   "gpt-5.6-sol": {
+    "E_exposed": 7,
+    "D_states_differ": 7,
+    "D_state_or_validity": 7,
+    "S_scores_differ": 7,
+    "validity_only_score_difference": 0,
+    "review": 7
+   },
+   "gpt-5.6-terra": {
+    "E_exposed": 10,
+    "D_states_differ": 10,
+    "D_state_or_validity": 10,
+    "S_scores_differ": 10,
+    "validity_only_score_difference": 0,
+    "review": 10
+   },
+   "qwen3_14b": {
+    "E_exposed": 7,
+    "D_states_differ": 7,
+    "D_state_or_validity": 7,
+    "S_scores_differ": 7,
+    "validity_only_score_difference": 0,
+    "review": 7
+   }
+  }
+ }
+}
