@@ -66,7 +66,7 @@ rescore responses, select a new cohort or replace historical tables.
 | Appendix H: translated example cases | `core/data/cases.json.gz`, `core/data/episodes.json.gz` | Trace case identifiers to original Korean inputs and saved outputs. |
 | Appendix I: hybrid admission bounds and comparisons | `core/`, `diagnostics/analysis_archive/hybrids/`, `diagnostics/analysis_archive/review_bounds/`, `statistics/` | Saved states/scores and portable archived-comparison checks. |
 | Appendix I.1 / Table I9: 82 avoided reference violations | `diagnostics/variant_audit_v26/` | Row-level reconstruction of the rule stated in the supplied v26 appendix; see its README for the command and exact scope. |
-| Separately collected corrected-extractor / learned-verifier / DSTC2 supplements | `supplements/` | Aggregate verification and supported saved-response replay; corpus exclusions documented. |
+| Manuscript Section 7.4: separately collected corrected-extractor / LLM-verifier / DSTC2 diagnostics | `supplements/` | Aggregate verification and supported saved-response replay; corpus exclusions documented. |
 
 Document version numbers and historical experiment names are distinct. The v26
 appendix is included byte-for-byte as supplied. Its new classification rule is
@@ -77,15 +77,14 @@ historical author code.
 
 `verification/SHA256SUMS` covers current files except itself. The release also
 provides a ZIP checksum. `verification/RELEASE_CHECKS.json` retains v1 full-replay
-verification; `verification/RELEASE_UPDATE_v2.json` retains v2 checks. New checks
-are recorded separately for v3. Historical experiment files and earlier release
+verification; `verification/RELEASE_UPDATE_v2.json` retains v2 checks. Subsequent checks are recorded separately in the versioned release-update files. Historical experiment files and earlier release
 tags are preserved, including old identifiers inside provenance records.
 
 ## Remaining archival-only material
 
 Portable entrypoints above specify their scope. Other historical analysis
 scripts are supplied for inspection and may depend on the original directory
-layout. Missing original confidence intervals are not filled in. No archived benchmark supports the manuscript’s 40–78 microsecond replay-time claim. That number is not a verified result of this artifact; the supported cost statement is that deterministic replay requires no additional model calls. No unavailable corpus, CareCall full operation-label dataset,
+layout. Missing original confidence intervals are not filled in. The revised manuscript omits the previously unverified replay-time number. The supported cost statement is that deterministic replay requires no additional model calls. No unavailable corpus, CareCall full operation-label dataset,
 participant contact information, credentials, family audio, model weights or
 unrelated product data is included.
 
