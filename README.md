@@ -6,9 +6,9 @@ This repository contains authored Korean cases and evaluation references, saved 
 
 ## Manuscript, appendix and reuse terms
 
-[Read the manuscript (PDF)](docs/Manuscript_v7.pdf) · [Read the online appendix (PDF)](docs/Appendix_v7.pdf) · [Anonymous review copy (PDF)](docs/Manuscript_v7_anonymous.pdf) · [Editable LaTeX sources](paper_source/).
+[Read the manuscript (PDF)](docs/Manuscript_v8.pdf) · [Read the online appendix (PDF)](docs/Appendix_v8.pdf) · [Anonymous review copy (PDF)](docs/Manuscript_v8_anonymous.pdf) · [Editable LaTeX sources](paper_source/).
 
-Current artifact version: **paper-artifact-v7**. The author-identified manuscript is **22 pages**; the explicitly labeled anonymous copy is **21 pages**; the appendix is **31 pages**. Release PDFs and the corresponding `docs/` files are byte-identical. Earlier PDFs and releases are historical snapshots, not the current manuscript.
+Current artifact version: **paper-artifact-v8**. The author-identified manuscript is **20 pages**; the explicitly labeled anonymous copy is **20 pages**; the appendix is **31 pages**. Release PDFs and the corresponding `docs/` files are byte-identical. Earlier PDFs and releases are historical snapshots, not the current manuscript.
 
 The manuscript includes corrected extraction (Section 6.1), a learned verifier (6.6), real ASR hypotheses (6.7), and variant-tolerant scoring and pipeline decomposition (6.4–6.5; Appendix K).
 

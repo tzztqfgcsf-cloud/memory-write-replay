@@ -1,6 +1,6 @@
 % !TEX program = pdflatex
-% TIST author instructions require acmsmall; author identity is pending.
-\documentclass[acmsmall,review,anonymous]{acmart}
+% ACM manuscript review submission format; shared anonymous appendix.
+\documentclass[manuscript,review,anonymous]{acmart}
 \acmJournal{TIST}
 \setcopyright{none}
 \acmDOI{}
@@ -67,7 +67,7 @@ This supplement accompanies the manuscript \emph{Diagnosing Memory-Write Decisio
 \subsection{Units and Model Settings}
 The original protocol fixed 48 held-out cases, three repetitions, and seven conditions per model configuration: \direct{}, \review{}, \refine{}, \agree{}, \witness{}, and the reply-rendered variants of \agree{} and \witness{}. Because the conditions share six generation stages, each completed run has 1,008 scored condition rows but 864 physical model calls; condition rows, model calls, and cases are therefore different units. Positive-change completion uses 28 cases (84 observations per condition), strict correction completion 11 cases (33 observations), and negative preservation the remaining 20 cases (60 observations). The 12 development cases are excluded from every score, and each completed run also passed 12 technical probe calls that are reported separately from the held-out calls.
 
-Gemini 2.5 Flash used the Vertex model \texttt{gemini-2.5-flash} with temperature 0.2 and thinking disabled. Llama 3.1 8B used the local four-bit snapshot \nolinkurl{mlx-community/Llama-3.1-8B-Instruct-4bit} (revision \texttt{90215b22ec18e72f623dde2ea7af4097025160e2}) with base seed 20260927. No model parameters were trained.
+Gemini 2.5 Flash used the Vertex model \texttt{gemini-2.5-flash} with temperature 0.2 and thinking disabled. Llama 3.1 8B used the local four-bit snapshot \nolinkurl{mlx-community/Llama-3.1-8B-Instruct-4bit} (revision \nolinkurl{90215b22ec18e72f623dde2ea7af4097025160e2}) with base seed 20260927. No model parameters were trained.
 
 \subsection{Reference and Endpoints}
 A fact is an exact subject--relation--value--time tuple. The authored reference lists the allowed actions, required and forbidden tuples, the record identifiers whose facts must remain unchanged, the identifiers to delete, and the obsolete versions to retire, so a correction may keep its record identifier while replacing an obsolete tuple. This retirement distinction was added to the evaluator during development and fixed, together with the test reference, before held-out collection. The two co-first authors independently checked each of the 48 held-out references against its case; no agreement statistic was computed. Whole-state conformity requires a valid final output, every required fact, no forbidden or obsolete tuple, preserved protected facts, the specified removals, and no unlisted fact. Positive-change completion additionally requires an allowed action on a positive case, and strict correction completion applies the same criterion to the correction-eligible cases. A reference-violating state is a forbidden or extra write or damage to a protected fact; it can coincide with other failures. Invalid outputs remain in the planned denominators.

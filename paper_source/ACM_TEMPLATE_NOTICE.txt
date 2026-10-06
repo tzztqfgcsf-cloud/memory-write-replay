@@ -1,0 +1,4 @@
+ACM acmart 2.20 (2026-08-16) and ACM-Reference-Format.bst are supplied unmodified from the CTAN TeX Live acmart package.
+Source: https://mirrors.ctan.org/systems/texlive/tlnet/archive/acmart.tar.xz
+These template files retain their original LaTeX Project Public License notices, independent of this artifact's noncommercial terms for original research materials.
+CCS.xml was exported using https://dl.acm.org/ccs with weights500/300/300/100.

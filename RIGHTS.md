@@ -28,3 +28,7 @@ Commercial use of the covered original material is not authorized by these terms
 Release `v20-artifact-v1` is preserved unchanged and did not assign a blanket reuse license. This release adds explicit noncommercial permissions without rewriting the earlier release. This repository is publicly inspectable and source-available; the code license is not an OSI-approved open-source license.
 
 The current files use neutral research terminology. License permissions and restrictions remain unchanged. Earlier versions retain their historical contents.
+
+## ACM template files
+
+`paper_source/acmart.cls` and `paper_source/ACM-Reference-Format.bst` are unmodified third-party ACM template files distributed under their original license notices (LPPL). They are not relicensed under this artifact's terms for original code/data. See `paper_source/ACM_TEMPLATE_NOTICE.txt`.
