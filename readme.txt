@@ -2,58 +2,24 @@ SUPPLEMENTARY MATERIAL
 Diagnosing Memory-Write Decisions in Conversational Assistants
 Through Specification-Based Replay
 
-Repository: https://github.com/tzztqfgcsf-cloud/memory-write-replay
+Materials: https://github.com/tzztqfgcsf-cloud/memory-write-replay
 
 CONTENTS
-SCENARIO_GUIDE.md explains the inputs, commands and expected outputs.
-core/ contains the main experiment: 48 authored Korean
-cases, 21 model configurations, three repetitions, saved requests and
-responses, evaluation references, memory-write policies, and offline replay.
-The replay checks 42,336 score rows across 14 policy conditions.
-diagnostics/ contains supporting experiments and archived analysis code.
-supplements/ contains separately identified additional corrected-extractor,
-learned-verifier, and DSTC2 diagnostics, plus a CareCall-mem availability record.
-docs/Manuscript.pdf is the 23-page author-identified manuscript.
-docs/Manuscript_anonymous.pdf is the 23-page anonymous review copy.
-docs/Appendix.pdf is its matching 31-page appendix.
-Sections 6.1, 6.6 and 6.7 / Appendix J report follow-up experiments.
-Sections 6.4-6.5 / Appendix K report variant-tolerant scoring and decomposition.
-paper_source/ contains editable LaTeX, bibliography and figure files.
-analysis_v29/ contains the separate sensitivity analysis and verification.
-diagnostics/variant_audit_v26/ contains the Table I9 row-level audit.
-statistics/ contains portable saved-statistics checks and dependency details.
-schemas/ contains the frozen structural-output schemas.
-verification/ contains verification records and file checksums.
+Input cases and evaluation references, saved model requests and responses,
+memory-write policies and evaluator, replay and analysis code, manuscript
+and online appendix, and editable LaTeX sources.
 
-REQUIREMENTS AND USE
-Python 3.10 or newer, using only the standard library. No API credentials,
-model downloads, additional Python packages, or model calls are required
-for the core and supplementary offline checks. The statistics/ entrypoint
-additionally requires Python 3.11+ and its listed NumPy/pandas dependencies.
-From the extracted repository directory:
+HOW TO USE
+README.md is the starting point. REPRODUCING.md contains the commands,
+requirements and paper-to-artifact map. SCENARIO_GUIDE.md explains the
+inputs, procedures and expected outputs.
 
-  python3 analysis_v29/rescore_variant_tolerant.py --output-dir /tmp/memory-write-variants
-  python3 analysis_v29/verify_results.py --results /tmp/memory-write-variants/results.json --report /tmp/memory-write-variants/verification.json
-  python3 analysis_v29/exposure_sets.py --output-dir /tmp/memory-write-exposure
-  python3 core/replay.py --output-dir /tmp/memory-write-main-replay
-  python3 diagnostics/verify.py
-  python3 diagnostics/variant_audit_v26/reproduce.py --output-dir /tmp/memory-write-v26-audit --verify-archived
-  python3 supplements/verify_aggregation.py
-  python3 supplements/replay_saved.py --output-dir /tmp/memory-write-supplement-replay
+The main replay requires Python 3.10+ and the standard library. Its expected
+result is 3,024 episodes and 42,336 matching score rows. Statistical checks
+use the dependencies listed in statistics/requirements.txt. No new model
+calls are needed for offline reproduction.
 
-Choose new writable output directories for each replay. The expected main
-result is 42,336 matching score rows, with matching states and gate audits.
-The supporting diagnostic check compares 3,444 score rows; the supplementary
-saved-response replay matches 296 outputs. See REPRODUCING.md and the
-component README files for condition definitions and detailed instructions.
-
-SCOPE AND RIGHTS
-Offline replay uses saved generations. Some statistical analyses are
-archived as historical code and tables rather than portable entrypoints.
-DSTC2 source transcripts must be obtained separately from their source;
-identifiers, hashes, reconstruction instructions and non-transcript results
-are included. The full CareCall-mem labeled dataset is not included.
-Authored evaluation references are not independent human gold annotations.
-Original code uses the Noncommercial Research Code License 1.0.
-Original data and documentation use CC BY-NC 4.0. Consult RIGHTS.md and
-the bundled third-party notices for scope and exceptions.
+RIGHTS
+Original code uses the Noncommercial Research Code License 1.0. Original
+data and documentation use CC BY-NC 4.0. Third-party notices and exceptions
+are described in RIGHTS.md.

@@ -37,6 +37,6 @@ The diagnostic selected one turn from each of 48 English restaurant dialogues (4
 
 WITNESS minus ALLOW: complete-goal conformity **−31.25 percentage points** (caller-cluster 95% interval **[−45.83, −16.33]**); required-change completion **−47.22 points [−62.86, −32.26]**; newly wrong writes **−6.25 points [−13.46, 0.00]**. Of 20 held corrections, 17 were reference-correct and three were wrong. Reduced writing violations therefore came with substantial lost correct changes. The missing-fact pattern diagnosed in the five authored cases did not occur here; holds involved differing extracted values or incomplete support across actual ASR alternatives.
 
-Gemini 3.8 Flash completed only 22/48 pairs. On that separate partial sample, ALLOW to WITNESS changed complete-goal conformity from 9/22 to 3/22 and newly wrong writes from one to zero. The two model samples are not pooled. CareCall was not evaluated because the required original data and human operation labels were unavailable.
+Gemini 3.8 Flash completed only 22/48 pairs. On that separate partial sample, ALLOW to WITNESS changed complete-goal conformity from 9/22 to 3/22 and newly wrong writes from one to zero. The two model samples are not pooled.
 
 Sources: [DSTC2 results](../supplements/dstc2/RESULTS.json), [intervals](../supplements/dstc2/PAIRED_INTERVALS.json), [methods and corpus access](../supplements/dstc2/README.md).

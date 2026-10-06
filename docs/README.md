@@ -5,6 +5,5 @@
 - [Online appendix](Appendix.pdf): accompanying experiments, definitions, tables and analyses, 31 pages.
 - [Editable LaTeX sources](../paper_source/): manuscript, appendix, bibliography and figures.
 - [Additional diagnostic results](ADDITIONAL_RESULTS.md): corrected extraction, learned verifier and DSTC2 outcomes.
-- [Korean supplementary report](Supplementary_Report_KO.pdf) and [editable report](Supplementary_Report_KO.docx).
 
 [SCENARIO_GUIDE.md](../SCENARIO_GUIDE.md) connects input files, reproduction commands and expected outputs. Earlier manuscript snapshots remain available through repository history and archived releases.

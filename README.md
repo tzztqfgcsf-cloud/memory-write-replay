@@ -1,24 +1,14 @@
 # Specification-Based Replay of Memory-Write Decisions
 
-Research artifacts for **Diagnosing Memory-Write Decisions in Conversational Assistants Through Specification-Based Replay**, including the manuscript and online appendix. The main study and separately collected supplementary diagnostics are organized by experiment.
+Materials for **Diagnosing Memory-Write Decisions in Conversational Assistants Through Specification-Based Replay**.
 
-This repository contains authored Korean cases and evaluation references, saved model outputs, memory-write policies, the evaluator, offline replay, and supporting analyses.
+[Manuscript](docs/Manuscript.pdf) · [Anonymous review copy](docs/Manuscript_anonymous.pdf) · [Online appendix](docs/Appendix.pdf) · [LaTeX sources](paper_source/)
 
-## Manuscript, appendix and reuse terms
+The main paper has 23 pages and the appendix has 31 pages.
 
-[Read the manuscript (PDF)](docs/Manuscript.pdf) · [Read the online appendix (PDF)](docs/Appendix.pdf) · [Anonymous review copy (PDF)](docs/Manuscript_anonymous.pdf) · [Editable LaTeX sources](paper_source/).
+## Start here
 
-The author-identified manuscript and anonymous review copy each have **23 pages**; the online appendix has **31 pages**. The PDFs in this repository and the downloadable archive are identical.
-
-The manuscript includes corrected extraction (Section 6.1), a learned verifier (6.6), real ASR hypotheses (6.7), and variant-tolerant scoring and pipeline decomposition (6.4–6.5; Appendix K).
-
-Original code is available for noncommercial research, teaching and reproduction under the [code license](LICENSES/NONCOMMERCIAL-RESEARCH-CODE-1.0.txt). Original data and documentation use [CC BY-NC 4.0](LICENSES/CC-BY-NC-4.0.txt). Commercial use requires separate permission. Third-party terms are preserved; see [RIGHTS.md](RIGHTS.md).
-
-The ACM supplementary-material description is [readme.txt](readme.txt).
-
-## Run the main experiment offline
-
-Requires Python 3.10 or newer. No API keys, model downloads, or Python packages are required for the main replay.
+Python 3.10+ and the standard library are sufficient for the main replay. Download and extract the materials, or clone the repository, then run:
 
 ```sh
 git clone https://github.com/tzztqfgcsf-cloud/memory-write-replay.git
@@ -26,53 +16,23 @@ cd memory-write-replay
 python3 core/replay.py --output-dir /tmp/memory-write-replay
 ```
 
-Use a new output directory for each verification. Replay reconstructs memory-write decisions from the saved model responses; it does not call models again.
+Use a fresh output directory. The expected result is **3,024 episodes × 14 conditions = 42,336 matching score rows**, with matching final states and gate audits. Replay uses saved model responses and makes no new model calls.
 
-## Reproduce the surface-variant analysis
+[Full reproduction instructions](REPRODUCING.md) · [Input-to-output examples](SCENARIO_GUIDE.md) · [Condition and score definitions](core/README.md)
 
-```sh
-python3 analysis_v29/rescore_variant_tolerant.py --output-dir /tmp/memory-write-variants
-python3 analysis_v29/verify_results.py --results /tmp/memory-write-variants/results.json --report /tmp/memory-write-variants/verification.json
-```
+## Materials
 
-This verifies the exact archived scores and the complete expected results of the separate variant-tolerant analysis. It uses saved states and makes no model calls. See [analysis_v29](analysis_v29/).
-
-## Reproduce exposure sets
-
-```sh
-python3 analysis_v29/exposure_sets.py --output-dir /tmp/memory-write-exposure
-```
-
-This separate diagnostic reads saved gate logs, executed states and score outcomes. It distinguishes state changes from validity-only score differences and identifies missing ALLOW replays; it makes no model calls and does not replace archived scores. See [the analysis guide](analysis_v29/).
-
-## Reproduce the earlier audit and statistical comparisons
-
-The [operation-level variant audit](diagnostics/variant_audit_v26/) supplies a row-level trace and a portable reconstruction of the archived classification rule. The [statistics guide](statistics/) provides executable comparisons against the archived confidence intervals and counts. Statistical checks use the dependencies in `statistics/requirements.txt`; the core replay above remains standard-library only.
-
-## Contents
-
-| Directory | What it provides |
+| Path | Contents |
 |---|---|
-| [core](core/) | Main panel: 48 authored cases × 21 model configurations × 3 repeats = 3,024 episodes; saved responses, proposals, references, policies and evaluator; 7 original and 7 additional policy conditions; archived candidate-path ALLOW diagnostics are supplied separately. |
-| [diagnostics](diagnostics/) | Supporting experiments, source notices, frozen results and verification instructions. |
-| [supplements](supplements/) | Additional corrected-extractor and learned-verifier experiments, external DSTC2 diagnostic, and CareCall-mem availability record. |
-| [analysis_v29](analysis_v29/) | Variant-tolerant scoring, fixed-proposal invariance, pipeline decomposition and case-cluster intervals (Tables 7–8; Appendix K). |
-| [paper_source](paper_source/) | Main and appendix LaTeX, bibliography and figures. |
-| [statistics](statistics/) | Portable checks of saved hybrid, Review+Agree/Allow, and main-panel statistics, with missing historical intervals retained as missing. |
-| [schemas](schemas/) | Frozen six-stage structural-output schema and stage selector. |
-| [docs](docs/) | The manuscript, online appendix and Korean supplementary report. |
-| [verification](verification/) | Release-level verification results and file-integrity manifest. |
+| `core/` | 48 authored Korean cases, evaluation references, 21 model configurations with three repetitions, saved requests/responses, policies and evaluator. |
+| `analysis_v29/` | Variant-tolerant scoring, pipeline decomposition and exposure-set analysis for Tables 7–8 and Appendix K. |
+| `diagnostics/` | Supporting experiments, saved ALLOW comparisons, operation-level audit and source notices. |
+| `supplements/` | Corrected-extractor, learned-verifier and actual-ASR diagnostics reported in Sections 6.1, 6.6–6.7 and Appendix J. |
+| `statistics/` | Reproduction of case-cluster statistical comparisons. |
+| `schemas/` | Frozen generation schemas and stage selector. |
+| `paper_source/`, `docs/` | Editable manuscript sources, PDFs and a summary of additional results. |
+| `verification/` | Document alignment record and current file checksums. |
 
-The additional extractor, LLM-verifier and DSTC2 diagnostics are reported in manuscript Sections 6.1, 6.6 and 6.7, Appendix J, and [Additional results](docs/ADDITIONAL_RESULTS.md), including losses in change completion. They remain separate from the main three-repeat panel. Appendix K reports the separate surface-variant sensitivity analysis; archived exact-reference scores remain unchanged.
+The [paper-to-artifact map](REPRODUCING.md#paper-to-artifact-map) identifies the files behind each appendix section. Statistical scope and result interpretation are described in [REPRODUCING.md](REPRODUCING.md#scope).
 
-## Reading the results
-
-The unit of the main statistical analysis is the **case**, with repeats clustered within cases. The 21 entries are model configurations; this does not mean 21 independent model families. References for authored cases are author-created evaluation references, not independent human gold labels. Failed and incomplete outputs are retained rather than replaced by successful retries.
-
-The repository distinguishes reconstruction of decisions, checking the evaluator against saved scores, and reproducing analysis summaries. Successful offline verification establishes consistency with the archived experiments; it is not a new efficacy experiment.
-
-See the [scenario guide](SCENARIO_GUIDE.md), the [paper-to-artifact coverage table](REPRODUCING.md#paper-to-artifact-map), [REPRODUCING.md](REPRODUCING.md), [RIGHTS.md](RIGHTS.md), and [CITATION.bib](CITATION.bib).
-
-## 한국어 안내
-
-논문 실험을 확인하고 재현하기 위한 공개 자료입니다. 핵심 실험의 사례·평가 기준·저장된 모델 응답·기억 처리 규칙·평가 코드를 포함합니다. 위 명령으로 추가 API 호출 없이 저장된 응답의 처리 결과를 재현할 수 있습니다. 본 실험과 이후 추가 진단 실험은 폴더를 구분했습니다.
+Original code uses the [noncommercial research license](LICENSES/NONCOMMERCIAL-RESEARCH-CODE-1.0.txt); original data and documentation use [CC BY-NC 4.0](LICENSES/CC-BY-NC-4.0.txt). See [RIGHTS.md](RIGHTS.md) for third-party terms and [CITATION.bib](CITATION.bib) to cite the materials.

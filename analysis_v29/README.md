@@ -1,12 +1,8 @@
 # Variant-tolerant re-scoring and decomposition
 
-Supports manuscript Sections 5.2, 6.4 and 6.5 and Online Appendix K. Run these commands from the repository root:
+Supports manuscript Sections 5.2, 6.4 and 6.5 and Online Appendix K. Commands are in [REPRODUCING.md](../REPRODUCING.md#variant-tolerant-scoring-and-decomposition).
 
-```sh
-python3 analysis_v29/rescore_variant_tolerant.py --output-dir /tmp/memory-write-variants
-```
-
-Standard library only; about 15 seconds. No model call, no policy execution: the script re-scores
+Standard library only. No model call, no policy execution: the script re-scores
 the saved final states of `core/data` (3,024 episodes x 14 conditions) and
 `diagnostics/saved_allow` with the archived evaluator. Exit status 0 means the exact (archived)
 reference reproduced all 42,336 archived score rows (all archived evaluator fields except the
@@ -14,12 +10,7 @@ call-identifier string). The saved Allow outputs are included in the analysis, b
 command does not compare their scores with `diagnostics/saved_allow/scores.csv`.
 
 Run the separate verification command to compare the complete result JSON with
-`expected_results.json` and re-score all 1,152 saved Allow outputs against their archived CSV:
-
-```sh
-python3 analysis_v29/verify_results.py --results /tmp/memory-write-variants/results.json \
-  --report /tmp/memory-write-variants/verification.json
-```
+`expected_results.json` and re-score all 1,152 saved Allow outputs against their archived CSV.
 
 Exit status 0 confirms exact parsed-JSON equality, 42,336 core rows with no strict mismatch,
 and 1,152 Allow rows with no mismatch across all 31 archived evaluator fields, including
@@ -36,17 +27,12 @@ optional and is not part of the standard-library reproduction check.
 `verification.json` records the release-time verification. The supplied re-scoring and
 figure scripts and `expected_results.json` retain the archived analysis scripts and expected results;
 `verify_results.py` was added to make the saved Allow comparison and complete expected-result
-comparison explicit. This is retrospective analysis of saved outputs against authored
-references, not independent human validation of semantic equivalence or a new efficacy run.
+comparison explicit. Matching conventions and interpretation are summarized in [REPRODUCING.md](../REPRODUCING.md#scope).
 
 ## Exposure sets and the human-review scope
 
 `exposure_sets.py` answers a different question from the re-scoring: on which outputs could a
-human judgment of the executed state change a rule comparison? Run from the repository root:
-
-```sh
-python3 analysis_v29/exposure_sets.py --output-dir /tmp/exposure-sets
-```
+human judgment of the executed state change a rule comparison? The command is in [REPRODUCING.md](../REPRODUCING.md#final-manuscript-exposure-audit).
 
 For the controlled-path rules, the review-proposal rules, and gating versus not gating, it
 reports E, the exposed outputs read from the saved gate log before scoring; D, the outputs
