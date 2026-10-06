@@ -2,7 +2,7 @@ SUPPLEMENTARY MATERIAL
 Diagnosing Memory-Write Decisions in Conversational Assistants
 Through Specification-Based Replay
 
-Release: paper-artifact-v7 (matching manuscript, appendix and reproducible sensitivity analysis)
+Release: paper-artifact-v8 (matching manuscript, appendix and reproducible sensitivity analysis)
 
 Repository: https://anonymous.4open.science/r/memory-admission-9E37/
 
@@ -14,8 +14,8 @@ The replay checks 42,336 score rows across 14 policy conditions.
 diagnostics/ contains supporting experiments and archived analysis code.
 supplements/ contains separately identified additional corrected-extractor,
 learned-verifier, and DSTC2 diagnostics, plus a CareCall-mem availability record.
-docs/Manuscript_v7_anonymous.pdf is the 21-page anonymous review copy.
-docs/Appendix_v7.pdf is its matching 31-page appendix.
+docs/Manuscript_v8_anonymous.pdf is the 20-page anonymous review copy.
+docs/Appendix_v8.pdf is its matching 31-page appendix.
 Sections 6.1, 6.6 and 6.7 / Appendix J report follow-up experiments.
 Sections 6.4-6.5 / Appendix K report variant-tolerant scoring and decomposition.
 paper_source/ contains editable LaTeX, bibliography and figure files.

@@ -1,6 +1,6 @@
 % !TEX program = pdflatex
 % TIST manuscript in acmsmall review format; author metadata as provided.
-\documentclass[acmsmall,review,anonymous]{acmart}
+\documentclass[manuscript,review,anonymous]{acmart}
 \acmJournal{TIST}
 \setcopyright{none}
 \settopmatter{printacmref=false}
@@ -33,6 +33,30 @@
 Memory-write evaluations must distinguish completing requested changes from corrupting stored facts. We replay saved extractions and proposals under four admission rules, score the executed states, and count exposure: outputs on which the rules can decide differently before scoring. On 48 Korean cases and 21 model configurations (3,024 episodes), this analysis yields three findings. First, evidence checks recover 11 corrections on Gemini 2.5 Flash, but releasing all eligible held corrections recovers the same 11. The holds originate in empty extracted fact lists; a revised extraction instruction lets the original gate complete five of five selected corrections, against one of five under the original instruction. Second, 12 of 21 configurations have zero exposure, so their ties do not test decisions on which the rules differ. Third, accepting surface variants of required facts reduces the violations avoided by a gate on general-review proposals from 82 to 30 and increases lost completed changes from 40 to 92. Differences among the replayed correction rules remain unchanged under both references. On real speech-recognition hypotheses, the same trace instead locates holds in disagreement between hypotheses. These findings identify failure mechanisms and reference sensitivity in the tested pipeline; Section~8 discusses their scope and further validation.
 
 \end{abstract}
+\begin{CCSXML}
+<ccs2012>
+<concept>
+<concept_id>10002944.10011123.10011130</concept_id>
+<concept_desc>General and reference~Evaluation</concept_desc>
+<concept_significance>500</concept_significance>
+</concept>
+<concept>
+<concept_id>10010147.10010178.10010187.10010189</concept_id>
+<concept_desc>Computing methodologies~Nonmonotonic, default reasoning and belief revision</concept_desc>
+<concept_significance>300</concept_significance>
+</concept>
+<concept>
+<concept_id>10010147.10010178.10010219.10010221</concept_id>
+<concept_desc>Computing methodologies~Intelligent agents</concept_desc>
+<concept_significance>300</concept_significance>
+</concept>
+<concept>
+<concept_id>10010147.10010178.10010179.10010181</concept_id>
+<concept_desc>Computing methodologies~Discourse, dialogue and pragmatics</concept_desc>
+<concept_significance>100</concept_significance>
+</concept>
+</ccs2012>
+\end{CCSXML}
 \ccsdesc[500]{General and reference~Evaluation}
 \ccsdesc[300]{Computing methodologies~Nonmonotonic, default reasoning and belief revision}
 \ccsdesc[300]{Computing methodologies~Intelligent agents}
@@ -443,7 +467,7 @@ The next priorities are independent human validation and replication on external
 Replay of saved memory-write proposals identified three mechanisms: extraction omissions created recoverable holds, zero exposure explained many rule ties, and reference conventions changed the apparent benefit of gating. The practical consequence is to inspect the source of held writes, report where rules can differ, and test reference sensitivity before attributing a gain to admission. These findings are supported within the tested pipeline; independent human judgments and evaluation on new cases and writers are needed to establish their broader use.
 
 \section*{Data, Code, and AI Use}
-The archive at \url{https://anonymous.4open.science/r/memory-admission-9E37/} (artifact version paper-artifact-v7) contains the Korean test cases, references, prompts, raw outputs and failures, executed states, the evaluator, and the analysis code, including the variant-tolerant re-scoring, with provenance hashes; for DSTC2, which is used under its own terms and not redistributed, it contains the selected turn identifiers and the code that reconstructs the inputs. The new experiments involved no human participants. ChatGPT and Codex assisted with language editing, manuscript organization, and analysis code; their use in drafting the test cases is described in Section~5.1. The authors reviewed all AI-assisted content and take full responsibility for it. English examples are translations of the Korean inputs that define the experiments.
+The archive at \url{https://anonymous.4open.science/r/memory-admission-9E37/} (artifact version paper-artifact-v8) contains the Korean test cases, references, prompts, raw outputs and failures, executed states, the evaluator, and the analysis code, including the variant-tolerant re-scoring, with provenance hashes; for DSTC2, which is used under its own terms and not redistributed, it contains the selected turn identifiers and the code that reconstructs the inputs. The new experiments involved no human participants. ChatGPT and Codex assisted with language editing, manuscript organization, and analysis code; their use in drafting the test cases is described in Section~5.1. The authors reviewed all AI-assisted content and take full responsibility for it. English examples are translations of the Korean inputs that define the experiments.
 
 \FloatBarrier
 \bibliographystyle{ACM-Reference-Format}

@@ -1,6 +1,6 @@
 # analysis_v29: variant-tolerant re-scoring and decomposition
 
-Supports the paper-artifact-v7 manuscript (Sections 5.2, 6.4 and 6.5; Online Appendix K). The directory name is retained for stable reproduction commands. Copy this directory to the
+Supports the paper-artifact-v8 manuscript (Sections 5.2, 6.4 and 6.5; Online Appendix K). The directory name is retained for stable reproduction commands. Copy this directory to the
 repository root and run from the root:
 
 ```sh

@@ -78,7 +78,7 @@ rescore responses, select a new cohort or replace historical tables.
 | Sections 6.1, 6.6–6.7 and Appendix J: corrected-extractor / LLM-verifier / DSTC2 diagnostics | `supplements/` | Aggregate verification and supported saved-response replay; corpus exclusions documented. |
 | Sections 5.2, 6.4–6.5, Tables 7–8 and Appendix K | `analysis_v29/` | Reproduce and verify both references, fixed-proposal invariance, operation-level decomposition and 5,000-draw case-cluster intervals. |
 
-The current main manuscript and appendix are the paper-artifact-v7 documents. Earlier PDFs and release tags are retained for provenance. The earlier Table I9 audit remains a documented reconstruction; Appendix K adds a separate analysis without overwriting those results.
+The current main manuscript and appendix are the paper-artifact-v8 documents. Earlier PDFs and release tags are retained for provenance. The earlier Table I9 audit remains a documented reconstruction; Appendix K adds a separate analysis without overwriting those results.
 
 ## Integrity and prior verification
 
@@ -107,4 +107,4 @@ Run `python3 analysis_v29/exposure_sets.py --output-dir /tmp/memory-write-exposu
 
 ## Document identity
 
-`docs/Manuscript_v7_anonymous.pdf` is the 21-page anonymous review manuscript. `docs/Appendix_v7.pdf` is the matching 31-page appendix. This snapshot omits identifying author metadata and uses the stable anonymous archive URL. No journal submission is asserted.
+`docs/Manuscript_v8_anonymous.pdf` is the 20-page anonymous review manuscript. `docs/Appendix_v8.pdf` is the matching 31-page appendix. This snapshot omits identifying author metadata and uses the stable anonymous archive URL. No journal submission is asserted.
