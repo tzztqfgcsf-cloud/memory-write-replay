@@ -80,26 +80,15 @@ rescore responses, select a new cohort or replace historical tables.
 
 The manuscript and appendix are distributed together with the matching editable sources. The earlier Table I9 audit remains a documented reconstruction; Appendix K adds a separate analysis without overwriting those results.
 
-## Integrity and prior verification
+## Integrity
 
-`verification/SHA256SUMS` covers current files except itself. The release also
-provides a ZIP checksum. `verification/RELEASE_CHECKS.json` retains the initial full-replay
-verification; `verification/RELEASE_UPDATE_v2.json` retains subsequent checks. Later checks are recorded separately in the release-update files. Historical experiment files and earlier release
-tags are preserved, including old identifiers inside provenance records.
+`verification/SHA256SUMS` covers every current repository file except itself. Downloadable assets have a separate `SHA256SUMS.txt`. `verification/SUBMISSION_ALIGNMENT.json` records the document hashes and source alignment; component-level verification records accompany the replay and analysis code. Earlier snapshots remain in Git history and historical archives.
 
-## Remaining archival-only material
+## Scope
 
-Portable entrypoints above specify their scope. Other historical analysis
-scripts are supplied for inspection and may depend on the original directory
-layout. Missing original confidence intervals are not filled in. The revised manuscript omits the previously unverified replay-time number. The supported cost statement is that deterministic replay requires no additional model calls. No unavailable corpus, CareCall full operation-label dataset,
-participant contact information, credentials, family audio, model weights or
-unrelated product data is included.
+The main analysis clusters repeated observations within the 48 cases. The 21 entries are model configurations. Authored references are evaluation specifications, not independent human gold annotations; mechanical variant matching is a sensitivity analysis. Saved failures are retained, and unavailable external-model pairs are excluded from the corresponding paired comparison rather than scored as zero. Supporting experiments have separate samples and are not pooled with the main panel.
 
-## Version and archive
-
-Cite the versioned release in `CITATION.bib`. A GitHub release is not a DOI or an
-ACM artifact badge. Permanent archival deposition can be added separately;
-see the [ACM artifact policy](https://www.acm.org/publications/policies/artifact-review-and-badging-current).
+The supported entrypoints reproduce saved outputs and published analyses. Historical analysis scripts are supplied for inspection and can depend on their original directory layout. Available confidence intervals are identified in the statistics guide. DSTC2 source transcripts must be acquired separately as described in its component guide.
 
 ## Final-manuscript exposure audit
 

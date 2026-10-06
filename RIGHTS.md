@@ -19,7 +19,7 @@ Credit “Artifact contributors,” the paper title, this repository and the rel
 
 MultiWOZ-derived material in `diagnostics/public16/` retains the upstream MIT terms. Preserve both notices in `diagnostics/public16/notices/`. Our noncommercial conditions do not restrict rights separately granted by those upstream licenses. The study's original additions are covered only to the extent of the contributors' rights.
 
-DSTC2 original corpus files and transcript-bearing outputs are not redistributed; follow `supplements/dstc2/README.md` and the upstream terms. CareCall-mem's full labeled Korean dataset is not included. No license to unavailable source data, model weights or external services is implied.
+DSTC2 original corpus files and transcript-bearing outputs are not redistributed; follow `supplements/dstc2/README.md` and the upstream terms. No license to unavailable source data, model weights or external services is implied.
 
 ## Commercial permissions and version history
 

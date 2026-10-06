@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
   "scope": "Additional diagnostic public export",
-  "file_count_excluding_this_manifest": 664,
+  "file_count_excluding_this_manifest": 662,
   "sha256": {
     "CODE_PROVENANCE.json": "6ef9ddd3f43663a2fad8ccac762eb75bb0038661ece1119795d890123ea4778c",
     "EXPORT_PROVENANCE.json": "38c9ee4a9e4d8dfab336d051d100c8dc548a15b4c9f6440abab4520c24da7986",
-    "README.md": "4d14d7bfc250e7453562d913a7fface1ca092cf54048ca55bc483a8c17c5879e",
+    "README.md": "b74b41109042376b2a4a05a7714f8a40a2ad7ea0620a36428655987655e8da97",
     "VERIFICATION.json": "3c485c4fe27bd14382210db1e02a201e80e5d1fd7479ecab33eab50559ea8474",
     "authored/baseline_provenance.json": "7e10bf304998ba4c2e1f17753f2c8da61a9066d0b61fc7cf72ef082b0b3c803f",
     "authored/baseline_scores.csv": "de86cd15b3bbe5c6a5ccf9a338fd5253984f73244c402f85f0113253c255c957",
@@ -650,8 +650,6 @@
     "authored/paper_mechanism_validation_20261004/responses/qwen3_14b_CT47_judge.json": "a1fcdcbb8c8470b4aadfeb3bd282171ec2300a690b2c4f2bad30b55118735596",
     "authored/paper_mechanism_validation_20261004/responses/qwen3_14b_CT48_judge.json": "b990526cfcd4ce8087ffba15f2bcff686b951f13eb02d501afb8704300c22684",
     "authored/paper_mechanism_validation_20261004/selected_manifest.json": "c78cc8447ce4df86296212a4d2b3cd19855562c6d20d1e7bce9272ce528a6975",
-    "carecall/README.md": "dd31a17017cde3d00a4931c7d8b931ace3597db178bb7d6deed78769a08e5790",
-    "carecall/status.json": "ae2e6cf6cf67484864c01fb242ab0ed80147f0ca0503dda7c75fb19edaa63dc0",
     "dstc2/CONTRACT.json": "4d96ae536b6e849750f428e7bdd2c15db2347fd6c182d0a965d3bb41a4b4bc28",
     "dstc2/PAIRED_INTERVALS.json": "8ecdd63562105d6f597d8a027fb4fc171e896a415d390edba30292aa95c36629",
     "dstc2/README.md": "348f1d9a31dee46815a60e4b34e78b13b8bf5ab4752c2e600dfc5ed24797d8c0",
@@ -665,7 +663,7 @@
     "expected_metrics.json": "b127a1d39765f9e19d7c40e2fab907601b9ed717b59ec7524ef0658b32b851d2",
     "replay_saved.py": "6d8a60670b51766af637401d7d38afbc11b92074df85991545af5b88e5081fdb",
     "schemas.json": "dffe56d9fcbb866f426e3807445fc98c0d27636bd5aa362dcd459e2770942803",
-    "support.py": "e7707785570e57485f0cc9d0913f4bcdb91ce9f4b3d4dd72b5ded3c6296bbe2f",
+    "support.py": "8e532c3c9f892f09e75cd552b1b0bb445fcb024f29216df8a34f4cf86a6d1d9a",
     "verify_aggregation.py": "cf3f87831fed23d89ba3e843dd04c759a35f8fdc9d789e5f0281b5557c471332"
   },
   "source_scores_modified": false,

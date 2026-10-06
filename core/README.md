@@ -5,11 +5,7 @@ archived model proposals, then checks the resulting scores against the archived
 score rows. It needs Python 3.10 or newer and its standard library, including
 SQLite. No model, API key, account, GPU, package download or network is required.
 
-From the repository root, choose a **new** output directory:
-
-```sh
-python3 core/replay.py --output-dir /tmp/memory-write-replay
-```
+Use the [main replay instructions](../REPRODUCING.md#main-saved-generation-execution), choosing a fresh output directory.
 
 The directory must not already exist and must be outside `core/`. A complete run
 checks 3,024 episodes × 14 conditions = 42,336 score rows, with every one of the
@@ -19,11 +15,7 @@ contains `scores.csv`, `condition_totals.csv`, `differences.json`, and
 `verification.json`. Exit status 0 means all evaluated score rows matched.
 `complete_cohort: true` distinguishes a complete run from a smoke run.
 
-For a fast installation check:
-
-```sh
-python3 core/replay.py --output-dir /tmp/memory-write-smoke --limit 2
-```
+For an installation-only check, add `--limit 2`; this checks two episodes and 28 rows.
 
 Add `--write-replayed-outputs` to save fresh receipts and final states as
 `replayed_outputs.jsonl.gz`. Package SHA-256 hashes are checked before and after
@@ -72,11 +64,7 @@ converted to repository-relative paths. Raw model response text is unchanged.
 
 ## Interpretation and limits
 
-This is deterministic replay of saved generations. It reproduces execution and
-evaluation; it does not generate new model answers, verify current provider
-availability, establish independent semantic validity, or demonstrate senior
-user efficacy. The selected model names are historical configuration aliases.
-Generation failures remain in denominators and cannot become successful rows.
+Statistical units, authored-reference interpretation and treatment of missing outputs are summarized in [REPRODUCING.md](../REPRODUCING.md#scope). The selected model names are archived configuration aliases.
 
 The review-based policy alternatives combine the saved review proposal with
 candidate-path extraction. These preserve distinct generation provenance: the

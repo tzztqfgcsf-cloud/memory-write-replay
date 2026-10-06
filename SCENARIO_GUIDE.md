@@ -1,49 +1,29 @@
-# Input-to-output reproduction guide
+# Input-to-output guide
 
-Run commands from the extracted artifact or repository root. The main checks use Python 3.10+ and the standard library, with no credentials or new model calls. Choose a fresh output directory each time.
+Use [REPRODUCING.md](REPRODUCING.md) for the commands and requirements. This guide explains what each procedure reads and produces.
 
-## 1. Reconstruct saved memory-write decisions
+| Procedure | Input | Code | Expected output |
+|---|---|---|---|
+| Main replay | `core/data/`: authored cases, references, saved extraction/proposals and model responses | `core/replay.py` | 3,024 episodes, 14 conditions, 42,336 matching score rows; final-state and gate-audit comparisons. |
+| Variant sensitivity | Saved final states, exact and mechanical variant-tolerant references | `analysis_v29/rescore_variant_tolerant.py`, `verify_results.py` | Tables 7–8 and Appendix K; exact agreement with `expected_results.json`, plus archived-row checks. |
+| Exposure sets | Saved gate logs, executed states and validity flags | `analysis_v29/exposure_sets.py` | Exposed outputs, differing states or validity, differing scores and missing ALLOW replays. |
+| Supporting studies | Separate contrast, boundary, public-dialogue and saved ALLOW outputs | `diagnostics/verify.py` | 3,444 matching saved score rows. |
+| Additional authored diagnostics | Corrected-extractor and verifier responses with frozen specifications | `supplements/verify_aggregation.py`, `replay_saved.py` | Frozen aggregate results and 296 matched saved authored outputs. |
+| Statistical comparisons | Saved score flags and archived intervals | `statistics/reproduce.py` | Case-cluster comparisons with the archived counts and available intervals. |
 
-**Inputs:** `core/data/` contains the authored cases and evaluation references; the saved generation assets preserve extractions and proposals. `core/replay.py` applies the archived policies and evaluator.
+## Example: correcting an earlier fact
 
-```sh
-python3 core/replay.py --output-dir /tmp/memory-write-main --write-replayed-outputs
-```
+1. An authored case contains a prior memory, a user correction and its evaluation reference.
+2. Saved model outputs contain extracted facts and a proposed memory update.
+3. Replay holds that proposal fixed while AGREE, ALLOW, LITERAL or WITNESS decides whether to execute it.
+4. The executor produces a receipt and final state; the evaluator compares that state with the authored reference.
 
-**Expected output:** 3,024 episodes, 14 evaluated conditions and 42,336 score rows. The verification report compares scores, executed states and gate audits against the saved results. Exact reconstruction should produce zero mismatches. For a quick installation check, add `--limit 2`; the resulting 28 rows check installation only, not the whole study.
+The [condition mapping](core/README.md#condition-codes-used-in-the-paper) connects saved codes to paper labels. Adding `--write-replayed-outputs` to the main replay writes receipts and final states alongside the score comparisons. An installation-only check with `--limit 2` covers two episodes and 28 rows.
 
-**Example scenario:** a user corrects an earlier fact. The saved proposal is held constant while AGREE, ALLOW, LITERAL and WITNESS decide whether to execute it. The replay outputs show what was proposed, held or executed and whether the final state meets the authored reference. The [condition mapping](core/README.md) connects archived codes to manuscript names.
+## Reading the exposure output
 
-## 2. Verify matching-convention sensitivity
+Controlled-path E/D/O/S counts are **49/36/36/36**; review-proposal counts are **23/23/23/23**. Gating versus ungated review gives **127/123/127/127**: four score differences arise from generation validity while stored facts stay identical. Definitions are in [the analysis guide](analysis_v29/README.md#exposure-sets-and-the-human-review-scope).
 
-**Inputs:** saved final states and the strict and mechanical variant-tolerant references; `analysis_v29/expected_results.json` records the expected analysis.
+## Actual ASR diagnostic
 
-```sh
-python3 analysis_v29/rescore_variant_tolerant.py --output-dir /tmp/memory-write-variants
-python3 analysis_v29/verify_results.py --results /tmp/memory-write-variants/results.json --report /tmp/memory-write-variants/verification.json
-```
-
-**Expected output:** reproduced Tables 7–8 and Appendix K, with exact archived rows and analysis results matching the expected values. Candidate variants are mechanical matching rules, not independently validated semantic equivalents.
-
-## 3. Inspect decision opportunity
-
-```sh
-python3 analysis_v29/exposure_sets.py --output-dir /tmp/memory-write-exposure
-```
-
-**Expected output:** exposure sets, differing states, validity-dependent outcome differences and missing ALLOW replays. Controlled-path E/D/O/S counts are 49/36/36/36; review-proposal counts are 23/23/23/23. Gating versus ungated review gives 127/123/127/127: four score differences depend on validity rather than changed facts. The state-only diagnostic retains these differences; the state-or-validity inclusion check passes.
-
-## 4. Check the separately collected diagnostic experiments
-
-```sh
-python3 supplements/verify_aggregation.py
-python3 supplements/replay_saved.py --output-dir /tmp/memory-write-supplements
-```
-
-**Expected output:** frozen aggregate counts and paired intervals, plus 296 matched saved authored responses. The five selected corrected-extractor pairs are linked in `supplements/authored/focal5_provenance.json`. They remain separate from the main three-repetition panel.
-
-DSTC2 acquisition, selected turns and local reconstruction are described in `supplements/dstc2/README.md`. The original corpus must be obtained separately; transcript-bearing corpus files are not redistributed here. CareCall-mem is an availability record, not a completed experiment.
-
-## Reading and reuse
-
-`docs/Manuscript_anonymous.pdf`, `docs/Appendix.pdf` and `paper_source/` provide the manuscript, supplement and editable sources. `REPRODUCING.md` maps paper sections to artifact paths; `RIGHTS.md` explains noncommercial and third-party terms. Reproduction checks consistency with saved experimental results; it does not establish independent human semantic validity or real-user efficacy.
+DSTC2 source acquisition, turn selection and local reconstruction are described in [its guide](supplements/dstc2/README.md). The original corpus is obtained separately. Result summaries are in [Additional results](docs/ADDITIONAL_RESULTS.md).
