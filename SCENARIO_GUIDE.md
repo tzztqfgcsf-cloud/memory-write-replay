@@ -5,8 +5,8 @@ Use [REPRODUCING.md](REPRODUCING.md) for the commands and requirements. This gui
 | Procedure | Input | Code | Expected output |
 |---|---|---|---|
 | Main replay | `core/data/`: authored cases, references, saved extraction/proposals and model responses | `core/replay.py` | 3,024 episodes, 14 conditions, 42,336 matching score rows; final-state and gate-audit comparisons. |
-| Variant sensitivity | Saved final states, exact and mechanical variant-tolerant references | `analysis_v29/rescore_variant_tolerant.py`, `verify_results.py` | Tables 7–8 and Appendix K; exact agreement with `expected_results.json`, plus archived-row checks. |
-| Exposure sets | Saved gate logs, executed states and validity flags | `analysis_v29/exposure_sets.py` | Exposed outputs, differing states or validity, differing scores and missing ALLOW replays. |
+| Variant sensitivity | Saved final states, exact and mechanical variant-tolerant references | `analysis/rescore_variant_tolerant.py`, `verify_results.py` | Tables 7–8 and Appendix K; exact agreement with `expected_results.json`, plus archived-row checks. |
+| Exposure sets | Saved gate logs, executed states and validity flags | `analysis/exposure_sets.py` | Exposed outputs, differing states or validity, differing scores and missing ALLOW replays. |
 | Supporting studies | Separate contrast, boundary, public-dialogue and saved ALLOW outputs | `diagnostics/verify.py` | 3,444 matching saved score rows. |
 | Additional authored diagnostics | Corrected-extractor and verifier responses with frozen specifications | `supplements/verify_aggregation.py`, `replay_saved.py` | Frozen aggregate results and 296 matched saved authored outputs. |
 | Statistical comparisons | Saved score flags and archived intervals | `statistics/reproduce.py` | Case-cluster comparisons with the archived counts and available intervals. |
@@ -22,7 +22,7 @@ The [condition mapping](core/README.md#condition-codes-used-in-the-paper) connec
 
 ## Reading the exposure output
 
-Controlled-path E/D/O/S counts are **49/36/36/36**; review-proposal counts are **23/23/23/23**. Gating versus ungated review gives **127/123/127/127**: four score differences arise from generation validity while stored facts stay identical. Definitions are in [the analysis guide](analysis_v29/README.md#exposure-sets-and-the-human-review-scope).
+Controlled-path E/D/O/S counts are **49/36/36/36**; review-proposal counts are **23/23/23/23**. Gating versus ungated review gives **127/123/127/127**: four score differences arise from generation validity while stored facts stay identical. Definitions are in [the analysis guide](analysis/README.md#exposure-sets-and-the-human-review-scope).
 
 ## Actual ASR diagnostic
 

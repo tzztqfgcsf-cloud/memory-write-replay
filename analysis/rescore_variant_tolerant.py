@@ -2,7 +2,7 @@
 Sections 5.2, 6.4, 6.5; Online Appendix K).
 
 Place this directory at the repository root and run, from the root:
-    python3 analysis_v29/rescore_variant_tolerant.py --output-dir /tmp/v29-rescore
+    python3 analysis/rescore_variant_tolerant.py --output-dir /tmp/variant-rescore
 Standard library only. Reads core/data and diagnostics/saved_allow; makes no model call and
 executes no policy: it re-scores the saved final states with the archived evaluator.
 """

@@ -23,7 +23,7 @@ Use a fresh output directory. The expected result is **3,024 episodes × 14 cond
 | Path | Contents |
 |---|---|
 | `core/` | 48 authored Korean cases, evaluation references, 21 model configurations with three repetitions, saved requests/responses, policies and evaluator. |
-| `analysis_v29/` | Variant-tolerant scoring, pipeline decomposition and exposure-set analysis for Tables 7–8 and Appendix K. |
+| `analysis/` | Variant-tolerant scoring, pipeline decomposition and exposure-set analysis for Tables 7–8 and Appendix K. |
 | `diagnostics/` | Supporting experiments, saved ALLOW comparisons, operation-level audit and source notices. |
 | `supplements/` | Corrected-extractor, learned-verifier and actual-ASR diagnostics reported in Sections 6.1, 6.6–6.7 and Appendix J. |
 | `statistics/` | Reproduction of case-cluster statistical comparisons. |

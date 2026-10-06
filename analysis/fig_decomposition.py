@@ -1,5 +1,5 @@
 """Decomposition of the complete-pipeline difference (controlled path minus Review).
-Counts are the decomposition in analysis_v29/expected_results.json; improvement is plotted to the right."""
+Counts are the decomposition in analysis/expected_results.json; improvement is plotted to the right."""
 from pathlib import Path
 import matplotlib
 matplotlib.use("pdf")
