@@ -1,10 +1,9 @@
-# analysis_v29: variant-tolerant re-scoring and decomposition
+# Variant-tolerant re-scoring and decomposition
 
-Supports the paper-artifact-v8 manuscript (Sections 5.2, 6.4 and 6.5; Online Appendix K). The directory name is retained for stable reproduction commands. Copy this directory to the
-repository root and run from the root:
+Supports manuscript Sections 5.2, 6.4 and 6.5 and Online Appendix K. Run these commands from the repository root:
 
 ```sh
-python3 analysis_v29/rescore_variant_tolerant.py --output-dir /tmp/v29-rescore
+python3 analysis_v29/rescore_variant_tolerant.py --output-dir /tmp/memory-write-variants
 ```
 
 Standard library only; about 15 seconds. No model call, no policy execution: the script re-scores
@@ -18,8 +17,8 @@ Run the separate verification command to compare the complete result JSON with
 `expected_results.json` and re-score all 1,152 saved Allow outputs against their archived CSV:
 
 ```sh
-python3 analysis_v29/verify_results.py --results /tmp/v29-rescore/results.json \
-  --report /tmp/v29-rescore/verification.json
+python3 analysis_v29/verify_results.py --results /tmp/memory-write-variants/results.json \
+  --report /tmp/memory-write-variants/verification.json
 ```
 
 Exit status 0 confirms exact parsed-JSON equality, 42,336 core rows with no strict mismatch,
@@ -35,7 +34,7 @@ script (requires matplotlib and a LaTeX installation with libertine). Figure ren
 optional and is not part of the standard-library reproduction check.
 
 `verification.json` records the release-time verification. The supplied re-scoring and
-figure scripts and `expected_results.json` retain the manuscript author's original contents;
+figure scripts and `expected_results.json` retain the archived analysis scripts and expected results;
 `verify_results.py` was added to make the saved Allow comparison and complete expected-result
 comparison explicit. This is retrospective analysis of saved outputs against authored
 references, not independent human validation of semantic equivalence or a new efficacy run.

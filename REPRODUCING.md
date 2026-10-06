@@ -35,14 +35,14 @@ python3 diagnostics/variant_audit_v26/reproduce.py --output-dir /tmp/memory-writ
 ```
 
 This reconstructs 82 observation-level classifications from saved inputs using
-the mechanical rule printed in the v26 appendix. See the diagnostic README for
+the mechanical rule printed in Appendix I.1. See the diagnostic README for
 the distinction between published counts and additional derived breakdowns.
 
 ## Variant-tolerant scoring and decomposition
 
 ```sh
-python3 analysis_v29/rescore_variant_tolerant.py --output-dir /tmp/memory-write-v29
-python3 analysis_v29/verify_results.py --results /tmp/memory-write-v29/results.json --report /tmp/memory-write-v29/verification.json
+python3 analysis_v29/rescore_variant_tolerant.py --output-dir /tmp/memory-write-variants
+python3 analysis_v29/verify_results.py --results /tmp/memory-write-variants/results.json --report /tmp/memory-write-variants/verification.json
 ```
 
 Python standard library only. Verifies all 42,336 main-panel exact-reference rows, the 1,152 saved ALLOW rows, and the new analysis against `analysis_v29/expected_results.json`. The tolerant scores are a separate sensitivity analysis, not replacements for the archived scores. It also checks the numbers supporting Tables 7–8 and Appendix K.
@@ -74,17 +74,17 @@ rescore responses, select a new cohort or replace historical tables.
 | Appendix G: selected complete three-repeat panel | `core/`, `diagnostics/analysis_archive/panel21/`, `statistics/` | Full core replay; portable statistical checks cover the counts/effects and available historical panel intervals described in `statistics/README.md`. |
 | Appendix H: translated example cases | `core/data/cases.json.gz`, `core/data/episodes.json.gz` | Trace case identifiers to original Korean inputs and saved outputs. |
 | Appendix I: hybrid admission bounds and comparisons | `core/`, `diagnostics/analysis_archive/hybrids/`, `diagnostics/analysis_archive/review_bounds/`, `statistics/` | Saved states/scores and portable archived-comparison checks. |
-| Appendix I.1 / Table I9: 82 avoided reference violations | `diagnostics/variant_audit_v26/` | Row-level reconstruction of the rule stated in the supplied v26 appendix; see its README for the command and exact scope. |
+| Appendix I.1 / Table I9: 82 avoided reference violations | `diagnostics/variant_audit_v26/` | Row-level reconstruction of the rule stated in Appendix I.1; see its README for the command and exact scope. |
 | Sections 6.1, 6.6–6.7 and Appendix J: corrected-extractor / LLM-verifier / DSTC2 diagnostics | `supplements/` | Aggregate verification and supported saved-response replay; corpus exclusions documented. |
 | Sections 5.2, 6.4–6.5, Tables 7–8 and Appendix K | `analysis_v29/` | Reproduce and verify both references, fixed-proposal invariance, operation-level decomposition and 5,000-draw case-cluster intervals. |
 
-The current main manuscript and appendix are the paper-artifact-v8 documents. Earlier PDFs and release tags are retained for provenance. The earlier Table I9 audit remains a documented reconstruction; Appendix K adds a separate analysis without overwriting those results.
+The manuscript and appendix are distributed together with the matching editable sources. The earlier Table I9 audit remains a documented reconstruction; Appendix K adds a separate analysis without overwriting those results.
 
 ## Integrity and prior verification
 
 `verification/SHA256SUMS` covers current files except itself. The release also
-provides a ZIP checksum. `verification/RELEASE_CHECKS.json` retains v1 full-replay
-verification; `verification/RELEASE_UPDATE_v2.json` retains v2 checks. Subsequent checks are recorded separately in the versioned release-update files. Historical experiment files and earlier release
+provides a ZIP checksum. `verification/RELEASE_CHECKS.json` retains the initial full-replay
+verification; `verification/RELEASE_UPDATE_v2.json` retains subsequent checks. Later checks are recorded separately in the release-update files. Historical experiment files and earlier release
 tags are preserved, including old identifiers inside provenance records.
 
 ## Remaining archival-only material
@@ -107,4 +107,4 @@ Run `python3 analysis_v29/exposure_sets.py --output-dir /tmp/memory-write-exposu
 
 ## Document identity
 
-`docs/Manuscript_v8.pdf` is the 20-page author-identified final preparation copy. `docs/Manuscript_v8_anonymous.pdf` is the explicitly labeled 20-page anonymous review copy. `docs/Appendix_v8.pdf` is the common 31-page appendix. Release assets use exactly the corresponding repository PDFs. Author metadata and the archive URL differ between the two main-paper versions; scientific sections, tables and results are shared. No journal submission is asserted.
+`docs/Manuscript.pdf` is the 23-page author-identified manuscript. `docs/Manuscript_anonymous.pdf` is the 23-page anonymous review copy. `docs/Appendix.pdf` is the common 31-page appendix. Downloadable PDF assets are identical to these files. The identified and anonymous main papers share the scientific sections, tables and results; author metadata and the artifact address differ.

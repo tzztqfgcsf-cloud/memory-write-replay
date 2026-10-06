@@ -13,7 +13,7 @@ These assignments include compressed copies of the same material. Code embedded 
 
 ## Attribution
 
-Credit “Artifact contributors,” the paper title, this repository and the release used. Preserve supplied creator and copyright notices and identify modifications. `CITATION.bib` provides a bibliographic entry; no unverified author identity is supplied.
+Credit “Artifact contributors,” the paper title, this repository and the release used. Preserve supplied creator and copyright notices and identify modifications. `CITATION.bib` provides a bibliographic entry.
 
 ## Third-party exceptions
 
@@ -25,9 +25,7 @@ DSTC2 original corpus files and transcript-bearing outputs are not redistributed
 
 Commercial use of the covered original material is not authorized by these terms. Contact the repository owner through GitHub to discuss separate permission from the relevant rights holders. CC BY-NC does not prevent the rights holders from separately licensing their own work commercially.
 
-Release `v20-artifact-v1` is preserved unchanged and did not assign a blanket reuse license. This release adds explicit noncommercial permissions without rewriting the earlier release. This repository is publicly inspectable and source-available; the code license is not an OSI-approved open-source license.
-
-The current files use neutral research terminology. License permissions and restrictions remain unchanged. Earlier versions retain their historical contents.
+Earlier archives are preserved unchanged. Explicit noncommercial permissions apply to the materials covered here; earlier archives and third-party terms are not rewritten. This repository is publicly inspectable and source-available; the code license is not an OSI-approved open-source license.
 
 ## ACM template files
 

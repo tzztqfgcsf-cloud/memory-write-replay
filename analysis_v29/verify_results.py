@@ -1,4 +1,4 @@
-"""Compare v29 results and strictly re-score the 1,152 saved Allow outputs.
+"""Verify the variant-tolerant analysis results and strictly re-score the 1,152 saved Allow outputs.
 
 Standard library only; no model calls or policy execution. Run after
 rescore_variant_tolerant.py and keep --report outside the archival data.

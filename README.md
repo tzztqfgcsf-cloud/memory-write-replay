@@ -1,14 +1,14 @@
 # Specification-Based Replay of Memory-Write Decisions
 
-Research artifacts for **Diagnosing Memory-Write Decisions in Conversational Assistants Through Specification-Based Replay**, including the revised manuscript and online appendix. The main study and separately collected supplementary diagnostics are organized by experiment.
+Research artifacts for **Diagnosing Memory-Write Decisions in Conversational Assistants Through Specification-Based Replay**, including the manuscript and online appendix. The main study and separately collected supplementary diagnostics are organized by experiment.
 
 This repository contains authored Korean cases and evaluation references, saved model outputs, memory-write policies, the evaluator, offline replay, and supporting analyses.
 
 ## Manuscript, appendix and reuse terms
 
-[Read the manuscript (PDF)](docs/Manuscript_v8.pdf) · [Read the online appendix (PDF)](docs/Appendix_v8.pdf) · [Anonymous review copy (PDF)](docs/Manuscript_v8_anonymous.pdf) · [Editable LaTeX sources](paper_source/).
+[Read the manuscript (PDF)](docs/Manuscript.pdf) · [Read the online appendix (PDF)](docs/Appendix.pdf) · [Anonymous review copy (PDF)](docs/Manuscript_anonymous.pdf) · [Editable LaTeX sources](paper_source/).
 
-Current artifact version: **paper-artifact-v8**. The author-identified manuscript is **20 pages**; the explicitly labeled anonymous copy is **20 pages**; the appendix is **31 pages**. Release PDFs and the corresponding `docs/` files are byte-identical. Earlier PDFs and releases are historical snapshots, not the current manuscript.
+The author-identified manuscript and anonymous review copy each have **23 pages**; the online appendix has **31 pages**. The PDFs in this repository and the downloadable archive are identical.
 
 The manuscript includes corrected extraction (Section 6.1), a learned verifier (6.6), real ASR hypotheses (6.7), and variant-tolerant scoring and pipeline decomposition (6.4–6.5; Appendix K).
 
@@ -31,8 +31,8 @@ Use a new output directory for each verification. Replay reconstructs memory-wri
 ## Reproduce the surface-variant analysis
 
 ```sh
-python3 analysis_v29/rescore_variant_tolerant.py --output-dir /tmp/memory-write-v29
-python3 analysis_v29/verify_results.py --results /tmp/memory-write-v29/results.json --report /tmp/memory-write-v29/verification.json
+python3 analysis_v29/rescore_variant_tolerant.py --output-dir /tmp/memory-write-variants
+python3 analysis_v29/verify_results.py --results /tmp/memory-write-variants/results.json --report /tmp/memory-write-variants/verification.json
 ```
 
 This verifies the exact archived scores and the complete expected results of the separate variant-tolerant analysis. It uses saved states and makes no model calls. See [analysis_v29](analysis_v29/).
@@ -47,7 +47,7 @@ This separate diagnostic reads saved gate logs, executed states and score outcom
 
 ## Reproduce the earlier audit and statistical comparisons
 
-The [v26 Table I9 audit](diagnostics/variant_audit_v26/) supplies a row-level trace and a portable reconstruction of the published classification rule. The [statistics guide](statistics/) provides executable comparisons against the archived confidence intervals and counts. Statistical checks use the dependencies in `statistics/requirements.txt`; the core replay above remains standard-library only.
+The [operation-level variant audit](diagnostics/variant_audit_v26/) supplies a row-level trace and a portable reconstruction of the archived classification rule. The [statistics guide](statistics/) provides executable comparisons against the archived confidence intervals and counts. Statistical checks use the dependencies in `statistics/requirements.txt`; the core replay above remains standard-library only.
 
 ## Contents
 
@@ -60,7 +60,7 @@ The [v26 Table I9 audit](diagnostics/variant_audit_v26/) supplies a row-level tr
 | [paper_source](paper_source/) | Main and appendix LaTeX, bibliography and figures. |
 | [statistics](statistics/) | Portable checks of saved hybrid, Review+Agree/Allow, and main-panel statistics, with missing historical intervals retained as missing. |
 | [schemas](schemas/) | Frozen six-stage structural-output schema and stage selector. |
-| [docs](docs/) | The revised manuscript, online appendix and Korean supplementary report. |
+| [docs](docs/) | The manuscript, online appendix and Korean supplementary report. |
 | [verification](verification/) | Release-level verification results and file-integrity manifest. |
 
 The additional extractor, LLM-verifier and DSTC2 diagnostics are reported in manuscript Sections 6.1, 6.6 and 6.7, Appendix J, and [Additional results](docs/ADDITIONAL_RESULTS.md), including losses in change completion. They remain separate from the main three-repeat panel. Appendix K reports the separate surface-variant sensitivity analysis; archived exact-reference scores remain unchanged.
@@ -71,7 +71,7 @@ The unit of the main statistical analysis is the **case**, with repeats clustere
 
 The repository distinguishes reconstruction of decisions, checking the evaluator against saved scores, and reproducing analysis summaries. Successful offline verification establishes consistency with the archived experiments; it is not a new efficacy experiment.
 
-See the [paper-to-artifact coverage table](REPRODUCING.md#paper-to-artifact-map), [REPRODUCING.md](REPRODUCING.md), [RIGHTS.md](RIGHTS.md), and [CITATION.bib](CITATION.bib).
+See the [scenario guide](SCENARIO_GUIDE.md), the [paper-to-artifact coverage table](REPRODUCING.md#paper-to-artifact-map), [REPRODUCING.md](REPRODUCING.md), [RIGHTS.md](RIGHTS.md), and [CITATION.bib](CITATION.bib).
 
 ## 한국어 안내
 
