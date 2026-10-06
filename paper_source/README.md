@@ -1,10 +1,12 @@
-# ACM review-submission sources
+# Manuscript sources
 
-Select `main.tex` or `main_anonymous.tex` for the anonymous review manuscript, or `appendix.tex` for the accompanying appendix. In the anonymous snapshot both main targets are anonymous.
+Compile `main.tex` or `main_anonymous.tex` for the anonymous review manuscript, and `appendix.tex` for the accompanying appendix. The source folder includes the bibliography, vector PDF figures and the official acmart 2.18 template. Both main targets use `acmsmall,review,anonymous`.
 
-The sources use the official `manuscript,review` options and carry the unmodified ACM acmart 2.20 class (2026-08-16) and bibliography style. The local class pins the layout. A valid CCSXML block exported from https://dl.acm.org/ccs is embedded in both main sources: Evaluation500; belief revision300; intelligent agents300; dialogue/pragmatics100. `CCS.xml` is also supplied separately.
+The CCS concepts are Evaluation (500), Nonmonotonic, default reasoning and belief revision (300), and Discourse, dialogue and pragmatics (100). The three concepts are recorded in both main sources and `CCS.xml`. The authors' AI-use disclosure identifies ChatGPT and Codex.
 
-The distributed PDFs were actually compiled with Tectonic 0.17.0 / XeTeX using this local class: main20 pages, anonymous main20 pages, appendix31 pages. pdfLaTeX is selected in the source directive for Overleaf; an actual pdfLaTeX/Overleaf build has not been performed in the release environment. The checked distribution is the included PDF. Rebuilding with another engine can reflow pages; if choosing that PDF for submission, update the corresponding release asset and hashes together.
+Upload this whole folder to Overleaf, select pdfLaTeX and compile the selected target. An existing local TeX installation can run `pdflatex`, `bibtex`, then `pdflatex` twice for the main article; the appendix needs repeated `pdflatex` compilation for cross-references.
+
+The distributed PDFs were compiled with Tectonic 0.17.0 / XeTeX: anonymous manuscript 23 pages and appendix 31 pages. pdfLaTeX/Overleaf compilation has not been independently run in this environment; engine and font versions can change line breaks.
 
 ```sh
 tectonic --untrusted main.tex
@@ -12,4 +14,4 @@ tectonic --untrusted main_anonymous.tex
 tectonic --untrusted appendix.tex
 ```
 
-Paper-artifact-v8 changes only formatting, CCS metadata and artifact version. One unchanged model snapshot identifier in the appendix is allowed to wrap. All scientific text, figures, references, raw outputs and scores are preserved. ChatGPT and Codex remain disclosed. This review snapshot contains no identifying author metadata. Template files retain their original license; see ACM_TEMPLATE_NOTICE.txt. Original research materials keep their noncommercial terms.
+Original research materials retain the repository's noncommercial terms. ACM template files retain their own terms; see `ACM_TEMPLATE_NOTICE.txt`.

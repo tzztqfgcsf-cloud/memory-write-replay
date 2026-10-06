@@ -1,4 +1,4 @@
-"""Portable imports for post-v20 supplements. Standard library only."""
+"""Portable imports for supplementary diagnostics. Standard library only."""
 from pathlib import Path
 import sys,json,hashlib,copy
 sys.path.insert(0,str(Path(__file__).resolve().parent.parent/'core/runtime'))

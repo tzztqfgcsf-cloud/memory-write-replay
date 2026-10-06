@@ -1,22 +1,5 @@
 <ccs2012>
-<concept>
-<concept_id>10002944.10011123.10011130</concept_id>
-<concept_desc>General and reference~Evaluation</concept_desc>
-<concept_significance>500</concept_significance>
-</concept>
-<concept>
-<concept_id>10010147.10010178.10010187.10010189</concept_id>
-<concept_desc>Computing methodologies~Nonmonotonic, default reasoning and belief revision</concept_desc>
-<concept_significance>300</concept_significance>
-</concept>
-<concept>
-<concept_id>10010147.10010178.10010219.10010221</concept_id>
-<concept_desc>Computing methodologies~Intelligent agents</concept_desc>
-<concept_significance>300</concept_significance>
-</concept>
-<concept>
-<concept_id>10010147.10010178.10010179.10010181</concept_id>
-<concept_desc>Computing methodologies~Discourse, dialogue and pragmatics</concept_desc>
-<concept_significance>100</concept_significance>
-</concept>
+<concept><concept_id>10002944.10011123.10011130</concept_id><concept_desc>General and reference~Evaluation</concept_desc><concept_significance>500</concept_significance></concept>
+<concept><concept_id>10010147.10010178.10010187.10010189</concept_id><concept_desc>Computing methodologies~Nonmonotonic, default reasoning and belief revision</concept_desc><concept_significance>300</concept_significance></concept>
+<concept><concept_id>10010147.10010178.10010179.10010181</concept_id><concept_desc>Computing methodologies~Discourse, dialogue and pragmatics</concept_desc><concept_significance>100</concept_significance></concept>
 </ccs2012>

@@ -1,0 +1,39 @@
+{
+  "status": "PASS",
+  "artifact_date": "2026-10-06",
+  "document_sha256": {
+    "Manuscript_anonymous.pdf": "e7183b51de6baebb2d1ba35ec2c7af8cc67c7639c309b285ba5c2e6a49947d6a",
+    "Appendix.pdf": "d831a9f4edb39130afb07d627bec26a3fdc76a34c48152497eaeb5263e999186"
+  },
+  "document_pages": {
+    "Manuscript_anonymous.pdf": 23,
+    "Appendix.pdf": 31
+  },
+  "source_class": "acmsmall,review,anonymous",
+  "template": "ACM acmart 2.18, official upstream tag",
+  "CCS_weights": [
+    500,
+    300,
+    100
+  ],
+  "build_engine": "Tectonic 0.17.0 / XeTeX",
+  "actual_pdfLaTeX_build": false,
+  "layout_review": "Every PDF page inspected in rendered contact sheets; first page and disclosure page inspected at full size; no clipping or overlap found.",
+  "scientific_content_alignment": {
+    "all_44_table_blocks_identical_to_final_source": true,
+    "bibliography_identical": true,
+    "scientific_sections_unchanged_except_artifact_address_and_disclosed_tool_names": true
+  },
+  "saved_experiments_and_evaluators_unchanged": true,
+  "unchanged_tracked_files": 4696,
+  "executable_analysis_AST_unchanged": {
+    "analysis_v29/rescore_variant_tolerant.py": true,
+    "analysis_v29/verify_results.py": true,
+    "supplements/support.py": true
+  },
+  "published_exposure_diagnostic_preserved": true,
+  "prior_full_verification": "analysis_v29/verification.json; core/VERIFICATION.json",
+  "new_model_calls": 0,
+  "data_and_scores_overwritten": false,
+  "reuse_terms": "Original noncommercial and third-party licenses retained."
+}

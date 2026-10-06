@@ -1,4 +1,4 @@
-# Supporting sources for TIST v20
+# Supporting experimental artifacts
 
 This directory publishes saved authored/public-source inputs, references, model requests, model responses and failures, executed states, and score artifacts. It complements `../core/`, whose 21-configuration panel uses the same 48 main cases. Repetitions and model configurations do not create independent situations. References are authored/provisional specifications, not independent human gold.
 
