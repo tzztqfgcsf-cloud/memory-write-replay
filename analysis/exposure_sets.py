@@ -1,7 +1,7 @@
 """Reference-independent exposure sets and the human-review scope (revision of Sections 6.4, 7.1, 8).
 
 Place this directory at the repository root and run, from the root:
-    python3 analysis_v29/exposure_sets.py --output-dir /tmp/exposure-sets
+    python3 analysis/exposure_sets.py --output-dir /tmp/exposure-sets
 
 Standard library only; no model call and no policy execution. For each rule family it compares
 four sets of outputs (model configuration, case, repetition):

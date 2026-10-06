@@ -60,7 +60,7 @@ def verify(results_path):
               and len(saved) == len(expected_allow) == len(seen) == 1152
               and not missing and mismatch_count == 0)
     return {
-        "schema": "v29-offline-analysis-check-v1", "status": "PASS" if passed else "FAIL",
+        "schema": "offline-analysis-check-v1", "status": "PASS" if passed else "FAIL",
         "results_equal_expected": equal,
         "results_sha256": hashlib.sha256(results_path.read_bytes()).hexdigest(),
         "core_rows_compared": actual["archived_rows_compared"],
@@ -70,7 +70,7 @@ def verify(results_path):
         "allow_fields_compared": list(ev.SCORE_FIELDS),
         "allow_missing_output_rows": len(missing), "allow_mismatch_examples": examples,
         "new_model_calls": 0, "policy_executions": 0,
-        "method": "Strict saved-state scoring with archived evaluator; whole JSON equality for v29 analysis.",
+        "method": "Strict saved-state scoring with archived evaluator; whole JSON equality for variant-tolerant analysis.",
         "limitations": "Reproduces authored-reference analysis; no independent human semantic validation.",
     }
 

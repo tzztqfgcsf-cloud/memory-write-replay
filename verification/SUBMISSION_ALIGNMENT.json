@@ -4,7 +4,7 @@
   "document_sha256": {
     "Manuscript.pdf": "eed053314197e7be041141266d7ce03821ae41f668de60528a2e52f10bccd7cc",
     "Manuscript_anonymous.pdf": "e7183b51de6baebb2d1ba35ec2c7af8cc67c7639c309b285ba5c2e6a49947d6a",
-    "Appendix.pdf": "d831a9f4edb39130afb07d627bec26a3fdc76a34c48152497eaeb5263e999186"
+    "Appendix.pdf": "c286ca7097e6021752a42647ecaf6305c14a2d13951e66acc5b23fff265863b0"
   },
   "document_pages": {
     "Manuscript.pdf": 23,
@@ -18,10 +18,11 @@
   "scientific_content_alignment": {
     "all_44_table_blocks_identical_to_final_source": true,
     "bibliography_identical": true,
-    "scientific_sections_unchanged_except_artifact_address_and_disclosed_tool_names": true
+    "scientific_sections_unchanged_except_artifact_address_and_disclosed_tool_names": true,
+    "appendix_path_labels": "analysis/"
   },
   "saved_experiments_and_evaluators_unchanged": true,
   "published_exposure_diagnostic_preserved": true,
-  "prior_full_verification": "analysis_v29/verification.json; core/VERIFICATION.json",
+  "prior_full_verification": "analysis/verification.json; core/VERIFICATION.json",
   "reuse_terms": "Original noncommercial and third-party licenses retained."
 }

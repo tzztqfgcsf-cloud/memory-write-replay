@@ -1,5 +1,5 @@
 {
-  "schema": "v29-offline-analysis-check-v1",
+  "schema": "offline-analysis-check-v1",
   "status": "PASS",
   "results_equal_expected": true,
   "results_sha256": "32ad59b687f4e122aef641fbb2ee0501bdcf3330e21447cfcbd836e9f76225c3",
@@ -76,6 +76,6 @@
   "allow_mismatch_examples": [],
   "new_model_calls": 0,
   "policy_executions": 0,
-  "method": "Strict saved-state scoring with archived evaluator; whole JSON equality for v29 analysis.",
+  "method": "Strict saved-state scoring with archived evaluator; whole JSON equality for variant-tolerant analysis.",
   "limitations": "Reproduces authored-reference analysis; no independent human semantic validation."
 }
