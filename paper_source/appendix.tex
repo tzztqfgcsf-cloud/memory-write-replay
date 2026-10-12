@@ -337,9 +337,9 @@ Llama 3.1 8B & \review{} & 288 & 525,149 & 49,177 & 3030.1 \\
 \renewcommand{\thefigure}{D\arabic{figure}}
 \renewcommand{\thetable}{D\arabic{table}}
 \section{Contrast Set}
-The 24-case contrast set was written after the initial recovery finding by a separate AI source-writing agent that received the schema but neither the rule code nor earlier outputs. It pairs 12 supported and 12 unsupported edits with matched records and task instructions, and its references were written with AI assistance before execution. The set was run once on Gemini 2.5 Flash (Vertex, temperature 0.2, thinking budget 0, at most 2,048 output tokens, no retries). Case labels and expected states were withheld from model messages; branch order was counterbalanced by case identifier, and case order was shuffled with seed 2026092720. Each case used two extraction-and-proposal calls shared by the admission rules and two separate \review{} calls: 96 calls, 95 of which returned; one draft-stage rate-limit error was followed by the scheduled final call.
+The authors specified the 24-case contrast set after the initial recovery finding, and a separate AI agent drafted it from the schema without the rule code or earlier outputs. It pairs 12 supported and 12 unsupported edits with matched records and task instructions, and its references were drafted in the same way and fixed before execution. The set was run once on Gemini 2.5 Flash (Vertex, temperature 0.2, thinking budget 0, at most 2,048 output tokens, no retries). Case labels and expected states were withheld from model messages; branch order was counterbalanced by case identifier, and case order was shuffled with seed 2026092720. Each case used two extraction-and-proposal calls shared by the admission rules and two separate \review{} calls: 96 calls, 95 of which returned; one draft-stage rate-limit error was followed by the scheduled final call.
 
-The separate agent was an AI agent, not an independent human contributor. Its lack of access to the rule code and earlier outputs does not constitute independent human authorship or validation.
+Because the agent worked without the rule code or earlier outputs, the set tests the diagnosis on cases written independently of our rule design; external human validation of the set is planned (main article, Section~9).
 
 The admission rules received identical saved proposals, executed on isolated SQLite states initialized from the same case. All 24 extraction-and-proposal paths were valid, 18 cases contained a proposed CORRECT, and \agree{} held six for lack of shared support although every reading was validly covered. \witness{} restored five, each with affirmed, target-linked witnesses, and kept one hold because a witness was not affirmed; \literal{} and \allow{} restored all six. The scorer compares persistent record identifiers, subjects, relations, values, and time fields.
 
@@ -394,7 +394,7 @@ The kept hold prevents the disputed overwrite, but the unchanged reply still ass
 \renewcommand{\thefigure}{E\arabic{figure}}
 \renewcommand{\thetable}{E\arabic{table}}
 \section{Boundary Probe}
-The 12-case boundary probe was run once with the same Gemini 2.5 Flash configuration and rule implementations, using 24 model calls and producing 36 condition rows rather than 36 cases. Its source and reference were written with AI assistance and fixed before collection. Six pairs share an initial record and vary whether the current utterance licenses updating it. Because no output reached $H$, all four admission rules produce the same state in every case (Table~\ref{tab:E1}).
+The 12-case boundary probe was run once with the same Gemini 2.5 Flash configuration and rule implementations, using 24 model calls and producing 36 condition rows rather than 36 cases. Its source and reference were drafted to the authors' specification with an AI tool and fixed before collection. Six pairs share an initial record and vary whether the current utterance licenses updating it. Because no output reached $H$, all four admission rules produce the same state in every case (Table~\ref{tab:E1}).
 
 \begin{table}[H]
 \centering
@@ -446,7 +446,7 @@ Agreement /10 & 10 & 10 & 5 & 3 & 7 & 4 & 4 \\
 \end{tabular}
 \end{table}
 
-\direct{} and \review{} produce identical final states on every source case, as do \witness{} and \literal{}. \agree{} holds eight corrections and one append; \witness{} and \literal{} restore four of the held corrections, and \allow{} restores all eight. One \witness{} restoration adds an eligible exact agreement, and \allow{} adds three more (Table~\ref{tab:F1}). A source spelling ``Thursday'' against a proposed ``thursday'' shows the cost of literal matching (main article, Section~6.4). In that saved example, the extracted fact list is empty, so normalizing existing facts cannot repair the hold; a lexical diagnostic that applies Unicode NFC, case folding, and whitespace normalization turns the value-to-source and value-to-quotation containment checks from false to true, but that repair was not executed or scored. One candidate-final rate-limit error yields six invalid records across the admission-rule conditions, and two other cases per admission-rule condition contain writes rejected by the executor; no failed request was retried. The source is written task dialogue, not noisy acoustic transcription or personal biography.
+\direct{} and \review{} produce identical final states on every source case, as do \witness{} and \literal{}. \agree{} holds eight corrections and one append; \witness{} and \literal{} restore four of the held corrections, and \allow{} restores all eight. One \witness{} restoration adds an eligible exact agreement, and \allow{} adds three more (Table~\ref{tab:F1}). A source spelling ``Thursday'' against a proposed ``thursday'' shows the cost of literal matching (main article, Section~6.3). In that saved example, the extracted fact list is empty, so normalizing existing facts cannot repair the hold; a lexical diagnostic that applies Unicode NFC, case folding, and whitespace normalization turns the value-to-source and value-to-quotation containment checks from false to true, but that repair was not executed or scored. One candidate-final rate-limit error yields six invalid records across the admission-rule conditions, and two other cases per admission-rule condition contain writes rejected by the executor; no failed request was retried. The source is written task dialogue, not noisy acoustic transcription or personal biography.
 
 \FloatBarrier
 \setcounter{figure}{0}\setcounter{table}{0}
@@ -457,6 +457,10 @@ The main panel is selected from 28 configurations with 48 complete case triplets
 
 The case-majority McNemar result for Gemini 2.5 Flash \agree{} versus \witness{} is $p=.125$, with four discordant cases, and is descriptive. The McNemar test concerns the binarized case-level outcome, whereas the effect size and case-cluster interval in Section~6.1 describe the mean difference. For the original whole-path primary comparison, the case-majority result is $p=1.00$. The expanded panel is exploratory, and its pointwise intervals do not supply a simultaneous model ranking. Missing pooled intervals remain marked rather than being constructed by combining intervals from different collection phases. Per repetition, the direction of the positive-completion difference changes on 11 of the 21 configurations, counting a tie as a direction (Table~\ref{tab:J4}), and strict correction completion under the controlled path matches \review{} on 17 configurations and is lower on 4.
 
+\subsection{Exposure of Controlled-Path Proposals on All 21 Configurations}
+Table~\ref{tab:J5} extends the exposure count of Section~6.2 from the seven Gemini configurations to the whole panel. For every configuration, \agree{} and \witness{} are the saved conditions on the controlled-path proposals, and \literal{} is the exact replay executed with the frozen executor as the comparator for normalized \literal{} (Section~6.3); all three use the same extraction and proposal in each configuration, case, and repetition. An output is exposed when \agree{} holds at least one proposed CORRECT for lack of shared extracted support while every reading is validly covered. The counts come from the saved gate logs; no output was regenerated or rescored. \allow{} was replayed only for the Gemini configurations (Table~6) and Qwen3 14B (Section~6.2), so its column is omitted.
+
+The unexposed configurations are Claude Opus 4.5, 4.6, 4.7, 4.8, and 5.5, Claude Sonnet 4.6, Gemini 3 Flash Preview, 3.1 Pro Preview, and 3.8 Flash, and GPT 5.6 Luna, Sol, and Terra; on each, the three rules produce identical states. The 35 kept holds are 29 in the transcript-conflict cases CT21, CT22, and CT24 and six in the stop-or-decline cases CT39 and CT40. The two \literal{}-only releases are the Gemini 2.5 Pro workplace overwrite of Section~6.4 (CT15, repetition 2) and a GLM 5 destination overwrite (CT11, repetition 1) that replaces the stored value although the participant asked not to change it; the same case produces the witness-only hold on saved Qwen3 14B \review{} proposals (Section~6.4).
 \begin{table}[H]
 \centering
 \caption{All 21 complete configurations, \review{} \ensuremath{\rightarrow} controlled path. Every result combines three repetitions. Positive differences use 28 case clusters. A dash denotes an unavailable matching pooled interval; a partial-collection interval is never substituted.}\label{tab:J1}
@@ -490,12 +494,6 @@ Qwen3 14B (4-bit) & 73 \ensuremath{\rightarrow} 66 & 14 \ensuremath{\rightarrow}
 \bottomrule
 \end{tabular}
 \end{table}
-\begin{figure}[H]
-\centering
-\includegraphics[width=\linewidth,height=.62\textheight,keepaspectratio]{media/figure_06.pdf}
-\caption{Effects of the complete pipelines on the same 48 cases over three repetitions, oriented so that improvement is to the right (more positive completions and fewer reference-violating states). Positive completion uses 84 observations from 28 cases, and the reference-violation endpoint uses 144 observations from 48 cases. Blue marks improvement, orange decline, and gray no change; values at the right are point estimates in percentage points. Lines show the matching archived pointwise 95\% case-cluster intervals, and open points mark configurations without a complete pooled interval.}\label{fig:G1}
-\Description{Effects of the complete pipelines on the same 48 cases over three repetitions, oriented so that improvement is to the right: more positive completions and fewer reference-violating states. Lines are pointwise 95 percent case-cluster intervals; open points mark configurations without a complete pooled interval.}
-\end{figure}
 \begin{table}[H]
 \centering
 \caption{Configuration selection record. All thresholds are technical and use the same rule for both paths.}\label{tab:J2}
@@ -553,9 +551,12 @@ No validity filter & 28 & 10 / 15 / 3 & 16 / 10 / 2 \\
 \end{tabular}
 \end{table}
 
-\subsection{Exposure of Controlled-Path Proposals on All 21 Configurations}
-Table~\ref{tab:J5} extends the exposure count of Section~6.2 from the seven Gemini configurations to the whole panel. For every configuration, \agree{} and \witness{} are the saved conditions on the controlled-path proposals, and \literal{} is the exact replay executed with the frozen executor as the comparator for normalized \literal{} (Section~6.4); all three use the same extraction and proposal in each configuration, case, and repetition. An output is exposed when \agree{} holds at least one proposed CORRECT for lack of shared extracted support while every reading is validly covered. The counts come from the saved gate logs; no output was regenerated or rescored. \allow{} was replayed only for the Gemini configurations (Table~6) and Qwen3 14B (Section~6.2), so its column is omitted.
-
+\begin{figure}[H]
+\centering
+\includegraphics[width=\linewidth,height=.62\textheight,keepaspectratio]{media/figure_06.pdf}
+\caption{Effects of the complete pipelines on the same 48 cases over three repetitions, oriented so that improvement is to the right (more positive completions and fewer reference-violating states). Positive completion uses 84 observations from 28 cases, and the reference-violation endpoint uses 144 observations from 48 cases. Blue marks improvement, orange decline, and gray no change; values at the right are point estimates in percentage points. Lines show the matching archived pointwise 95\% case-cluster intervals, and open points mark configurations without a complete pooled interval.}\label{fig:G1}
+\Description{Effects of the complete pipelines on the same 48 cases over three repetitions, oriented so that improvement is to the right: more positive completions and fewer reference-violating states. Lines are pointwise 95 percent case-cluster intervals; open points mark configurations without a complete pooled interval.}
+\end{figure}
 \begin{table}[H]
 \centering
 \caption{Controlled-path exposure on the 21 panel configurations. ``Released'' counts exposed outputs whose held correction both evidence checks restore; every such release completes a required correction. ``\literal{} only'' counts releases by \literal{} that \witness{} holds; both produce a reference-violating state. ``Kept'' counts holds that all three rules keep; all 35 lie in cases that require no change, and the held state conforms to the reference in each. The last two columns are in the order \agree{} / \literal{} / \witness{} and combine three repetitions; the panel totals use 693 correction and 3,024 all-case observations.}\label{tab:J5}
@@ -582,7 +583,6 @@ All 21 & 49 (12 cases) & 12 & 2 & 35 & 673/685/685 & 131/133/131 \\
 \end{tabular}
 \end{table}
 
-The unexposed configurations are Claude Opus 4.5, 4.6, 4.7, 4.8, and 5.5, Claude Sonnet 4.6, Gemini 3 Flash Preview, 3.1 Pro Preview, and 3.8 Flash, and GPT 5.6 Luna, Sol, and Terra; on each, the three rules produce identical states. The 35 kept holds are 29 in the transcript-conflict cases CT21, CT22, and CT24 and six in the stop-or-decline cases CT39 and CT40. The two \literal{}-only releases are the Gemini 2.5 Pro workplace overwrite of Section~6.3 (CT15, repetition 2) and a GLM 5 destination overwrite (CT11, repetition 1) that replaces the stored value although the participant asked not to change it; the same case produces the witness-only hold on saved Qwen3 14B \review{} proposals (Section~6.4).
 \FloatBarrier
 \setcounter{figure}{0}\setcounter{table}{0}
 \renewcommand{\thefigure}{H\arabic{figure}}
@@ -605,7 +605,7 @@ The unexposed configurations are Claude Opus 4.5, 4.6, 4.7, 4.8, and 5.5, Claude
 \renewcommand{\thefigure}{I\arabic{figure}}
 \renewcommand{\thetable}{I\arabic{table}}
 \section{Admission Bounds, Operation Split, and Variant Audit on Saved Review Proposals}
-This appendix completes the \review{}+gate replay of Section~6.4 with its two bounds, \review{}+\agree{} and \review{}+\allow{}, and separates the gate's APPEND and CORRECT decisions. All five conditions use the same saved \review{} proposals and the extractions from the same configuration, case and repetition (21 configurations $\times$ 48 cases $\times$ 3 repetitions). The two bounds were added after the \literal{} and \witness{} hybrids had been inspected. They apply the original rule definitions with the frozen executor and were scored once with the archived evaluator and reference: 6,048 new condition outputs, no model or provider call, no recomputation of the saved \review{}, \review{}+\literal{} or \review{}+\witness{} scores, and no change in the hashes of the frozen source files. The comparison is retrospective and reuses the authored cases; it adds no independent situations and no human judgment of the outputs.
+This appendix completes the \review{}+gate replay of Section~6.3 with its two bounds, \review{}+\agree{} and \review{}+\allow{}, and separates the gate's APPEND and CORRECT decisions. All five conditions use the same saved \review{} proposals and the extractions from the same configuration, case and repetition (21 configurations $\times$ 48 cases $\times$ 3 repetitions). The two bounds were added after the \literal{} and \witness{} hybrids had been inspected. They apply the original rule definitions with the frozen executor and were scored once with the archived evaluator and reference: 6,048 new condition outputs, no model or provider call, no recomputation of the saved \review{}, \review{}+\literal{} or \review{}+\witness{} scores, and no change in the hashes of the frozen source files. The comparison is retrospective and reuses the authored cases; it adds no independent situations and no human judgment of the outputs.
 
 Figure~\ref{fig:I0} summarizes the five conditions, and Table~\ref{tab:L1} restates how each condition treats the two operations. Tables~\ref{tab:L2}--\ref{tab:L4} give the endpoint totals, the decision counts by operation, and the attribution of paired changes; Table~\ref{tab:L5} splits the totals by the reference-defined case strata, Table~\ref{tab:L6} gives pooled paired intervals, and Table~\ref{tab:L7} lists the only five configurations on which the four rules differ. Table~\ref{tab:L8} and Figure~\ref{fig:L1} keep the per-configuration \review{}$\rightarrow$\review{}+\witness{} results. Table~\ref{tab:L9} audits which of the 82 avoided reference violations meet the mechanical candidate-variant criteria.
 
@@ -633,6 +633,10 @@ Figure~\ref{fig:I0} summarizes the five conditions, and Table~\ref{tab:L1} resta
 \bottomrule
 \end{tabular}
 \end{table}
+
+Between the rules, every paired difference involves CORRECT only. \review{}+\allow{}, +\literal{} and +\witness{} each complete 12 more corrections and positive changes than \review{}+\agree{}; \review{}+\allow{} has 11 more reference-violating states than \review{}+\agree{} and \review{}+\witness{}, and 10 more than \review{}+\literal{}. Of the 23 corrections that \agree{} holds, \allow{} releases 23 (11 executed with a reference violation), \literal{} 13 (one) and \witness{} 12 (none); the 12 releases shared by all three rules are the ones that complete a required correction. In every observation, the four rules make the same APPEND decisions.
+
+No condition produces a reference-violating state on the correction-eligible cases. On the new-information cases, the four rules coincide, and every reduction relative to \review{} (125 to 61) comes from APPEND holds. On the cases that require no change, APPEND holds reduce reference-violating states from 21 to 14 under every rule; the rules then diverge only through CORRECT, leaving 14 under \allow{}, 4 under \literal{}, and 3 under \agree{} and \witness{}.
 
 \begin{table}[H]
 \centering
@@ -700,8 +704,6 @@ Figure~\ref{fig:I0} summarizes the five conditions, and Table~\ref{tab:L1} resta
 \end{tabular}
 \end{table}
 
-Between the rules, every paired difference involves CORRECT only. \review{}+\allow{}, +\literal{} and +\witness{} each complete 12 more corrections and positive changes than \review{}+\agree{}; \review{}+\allow{} has 11 more reference-violating states than \review{}+\agree{} and \review{}+\witness{}, and 10 more than \review{}+\literal{}. Of the 23 corrections that \agree{} holds, \allow{} releases 23 (11 executed with a reference violation), \literal{} 13 (one) and \witness{} 12 (none); the 12 releases shared by all three rules are the ones that complete a required correction. In every observation, the four rules make the same APPEND decisions.
-
 \begin{table}[H]
 \centering
 \caption{Outcomes by case stratum (cases; observations). The strata come from the frozen reference and were not inferred from model outputs: the 11 correction-eligible cases of the strict-correction endpoint, the other 17 positive cases, which require new information, and the 20 cases that require no positive change.}\label{tab:L5}
@@ -726,11 +728,9 @@ No change required (20; 1,260) & Viol. & 21 & 3 & 14 & 4 & 3 \\
 \end{tabular}
 \end{table}
 
-No condition produces a reference-violating state on the correction-eligible cases. On the new-information cases, the four rules coincide, and every reduction relative to \review{} (125 to 61) comes from APPEND holds. On the cases that require no change, APPEND holds reduce reference-violating states from 21 to 14 under every rule; the rules then diverge only through CORRECT, leaving 14 under \allow{}, 4 under \literal{}, and 3 under \agree{} and \witness{}.
-
 \begin{table}[H]
 \centering
-\caption{Pooled paired differences in percentage points with 95\% case-cluster percentile intervals (5,000 draws over 48, 28 and 11 case clusters, keeping each case's three repetitions and 21 configurations together). The first two rows compare a hybrid with \review{}; the others compare rules on the same \review{} proposals. A zero marks identical paired outcomes. The intervals are exploratory and pointwise. They use a new fixed seed, so a paired difference identical to one in Section~6.4 can have interval endpoints that differ slightly from the archived ones.}\label{tab:L6}
+\caption{Pooled paired differences in percentage points with 95\% case-cluster percentile intervals (5,000 draws over 48, 28 and 11 case clusters, keeping each case's three repetitions and 21 configurations together). The first two rows compare a hybrid with \review{}; the others compare rules on the same \review{} proposals. A zero marks identical paired outcomes. The intervals are exploratory and pointwise. They use a new fixed seed, so a paired difference identical to one in Section~6.3 can have interval endpoints that differ slightly from the archived ones.}\label{tab:L6}
 \footnotesize
 \setlength{\tabcolsep}{3pt}
 \begin{tabular}{@{}lllll@{}}
@@ -802,18 +802,19 @@ Qwen3 14B (4-bit) & 14 \ensuremath{\rightarrow} 8 & 73 \ensuremath{\rightarrow} 
 \bottomrule
 \end{tabular}
 \end{table}
+
+\subsection{Variant Audit of the 82 Avoided Reference Violations}
+Section~6.3 asks which of the 82 reference-violating states that \review{}+\witness{} avoids relative to \review{} involve explicitly forbidden tuples and which meet mechanical criteria for candidate representational variants. The audit uses only archived artifacts. For each of the 82 paired observations, we took the reference components that the \review{} state failed from the saved scores and the held operation from the saved gate log of the hybrid. For each case, we collected the facts that are new relative to the initial state in every replayed output whose executed state conforms to the reference; in each affected positive case, all conforming states contain the same single new fact, the required fact. A held append counts as a \emph{candidate variant} of that fact when it has the same relation and time and one of the following holds after Unicode NFC, case folding, and whitespace removal: subject and value are equal although the raw strings differ (spacing); the values are equal and one subject string contains the other or both denote the participant (``participant'' or ``p1''; subject label); or one value contains the other and the subjects match in the same sense (value form).
+
 \begin{figure}[H]
 \centering
 \includegraphics[width=\linewidth,height=.58\textheight,keepaspectratio]{media/figure_09.pdf}
 \caption{\review{} + \witness{} minus \review{}, oriented so that improvement is to the right. Blue marks improvement, orange decline and gray no change; values at the right are point estimates in percentage points. Intervals cluster the three repetitions within each original case and are exploratory pointwise intervals. Both favorable restraint and unfavorable completion effects are shown.}\label{fig:L1}
 \Description{\review{} + \witness{} minus \review{}, oriented so that improvement is to the right. Intervals cluster the three repetitions within each original case and are exploratory pointwise intervals. Both favorable restraint and unfavorable completion effects are shown.}
 \end{figure}
-
-\subsection{Variant Audit of the 82 Avoided Reference Violations}
-Section~6.4 asks which of the 82 reference-violating states that \review{}+\witness{} avoids relative to \review{} involve explicitly forbidden tuples and which meet mechanical criteria for candidate representational variants. The audit uses only archived artifacts. For each of the 82 paired observations, we took the reference components that the \review{} state failed from the saved scores and the held operation from the saved gate log of the hybrid. For each case, we collected the facts that are new relative to the initial state in every replayed output whose executed state conforms to the reference; in each affected positive case, all conforming states contain the same single new fact, the required fact. A held append counts as a \emph{candidate variant} of that fact when it has the same relation and time and one of the following holds after Unicode NFC, case folding, and whitespace removal: subject and value are equal although the raw strings differ (spacing); the values are equal and one subject string contains the other or both denote the participant (``participant'' or ``p1''; subject label); or one value contains the other and the subjects match in the same sense (value form).
-
 The rule was written after the avoided observations had been listed and is applied mechanically; it is not a semantic judgment, and no person rated the outputs. It does not identify potential variants requiring translation or restructuring, such as ``email'' for ``이메일'' or a subject that names the farm rather than the participant. Table~\ref{tab:L9} gives the result. Each of the 71 append observations contains exactly one held append, and in all 52 candidate-variant observations the exact required tuple is absent under both \review{} and the hybrid, so positive-change completion fails either way.
 
+The audit changes the reading of Table~\ref{tab:L4}, not its counts. Of the 71 violations avoided by APPEND holds, 52 come from withholding a required fact written in another form, and 19 from withholding a fact that no conforming state contains; the 11 avoided by CORRECT holds all involve a forbidden value.
 \begin{table}[H]
 \centering
 \caption{Composition of the 82 reference-violating states avoided by \review{}+\witness{} relative to \review{} (observations; 21 configurations, three repetitions). ``Forbidden'' means that the \review{} state contains a tuple the reference forbids; all other append holds failed only because of an unlisted fact. Variant categories are mechanical candidate matches, not validated semantic equivalences. English glosses are translations.}\label{tab:L9}
@@ -844,7 +845,6 @@ Forbidden (CT11, CT21, CT22) & -- & overwrite of a protected record with a forbi
 \end{tabular}
 \end{table}
 
-The audit changes the reading of Table~\ref{tab:L4}, not its counts. Of the 71 violations avoided by APPEND holds, 52 come from withholding a required fact written in another form, and 19 from withholding a fact that no conforming state contains; the 11 avoided by CORRECT holds all involve a forbidden value.
 \FloatBarrier
 \setcounter{figure}{0}\setcounter{table}{0}
 \renewcommand{\thefigure}{J\arabic{figure}}
@@ -985,7 +985,7 @@ CT44 & participant $\cdot$ hobby $\cdot$ 자전거 & 자전거 타기 (10) \\
 \end{table}
 
 \subsection{Rule Comparisons and Configurations}
-Table~\ref{tab:K2} repeats main-article Table~6 with Qwen3 14B and adds the violation counts under the variant-tolerant reference. For the completed replays reported in that table, strict correction counts are identical under both references, and every observed difference between two rules is the same; only the level of the violation counts falls. Across the full panel, controlled-path strict corrections are 673, 685, and 685 under \agree{}, \literal{}, and \witness{} under both references, and violations fall from 131, 133, and 131 to 54, 56, and 54. On the 36 controlled-path outputs and the 23 review-proposal outputs on which at least two of the four rules produce different endpoints, every available pairwise output-level difference is the same under both references. These two counts come from scores, not from the gate logs. The 23 review-proposal outputs are the exposed set. The 36 controlled-path outputs lie within the 49 exposed outputs of Table~\ref{tab:J5}: \allow{} was not replayed on Claude Sonnet 4 and 4.5, DeepSeek 3.2, and GLM 5, whose 12 kept holds the other three rules all keep, and on one further exposed output \allow{}'s release changes no endpoint under either reference. Fourteen exposed controlled-path outputs lack an \allow{} replay. The available comparisons therefore do not establish invariance for every rule pair on every panel output. Human validation has to use the exposed outputs, after completing the missing replays (Section~8 of the main article). The script \texttt{analysis/exposure\_sets.py} recomputes the exposed set from the gate logs, the outputs on which the replayed rules leave different executed states, and the score-based set, checks that each contains the next, and lists the review scope. By contrast, \review{} and \review{}+\witness{} produce different endpoints on 127 outputs, and their difference changes with the reference on 52; the controlled path and \review{} differ on 199 outputs, and on 61 the difference changes.
+Table~\ref{tab:K2} repeats main-article Table~6 with Qwen3 14B and adds the violation counts under the variant-tolerant reference. For the completed replays reported in that table, strict correction counts are identical under both references, and every observed difference between two rules is the same; only the level of the violation counts falls. Across the full panel, controlled-path strict corrections are 673, 685, and 685 under \agree{}, \literal{}, and \witness{} under both references, and violations fall from 131, 133, and 131 to 54, 56, and 54. On the 36 controlled-path outputs and the 23 review-proposal outputs on which at least two of the four rules produce different endpoints, every available pairwise output-level difference is the same under both references. These two counts come from scores, not from the gate logs. The 23 review-proposal outputs are the exposed set. The 36 controlled-path outputs lie within the 49 exposed outputs of Table~\ref{tab:J5}: \allow{} was not replayed on Claude Sonnet 4 and 4.5, DeepSeek 3.2, and GLM 5, whose 12 kept holds the other three rules all keep, and on one further exposed output \allow{}'s release changes no endpoint under either reference. Fourteen exposed controlled-path outputs lack an \allow{} replay. The available comparisons therefore do not establish invariance for every rule pair on every panel output. Human validation has to use the exposed outputs, after completing the missing replays (Section~9 of the main article). The script \texttt{analysis/exposure\_sets.py} recomputes the exposed set from the gate logs, the outputs on which the replayed rules leave different executed states, and the score-based set, checks that each contains the next, and lists the review scope. By contrast, \review{} and \review{}+\witness{} produce different endpoints on 127 outputs, and their difference changes with the reference on 52; the controlled path and \review{} differ on 199 outputs, and on 61 the difference changes.
 
 \begin{table}[H]
 \centering

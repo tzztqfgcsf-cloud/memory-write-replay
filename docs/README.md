@@ -1,7 +1,7 @@
 # Manuscript and supporting documents
 
-- [Anonymous review copy](Manuscript_anonymous.pdf): the same study with author details removed, 23 pages.
-- [Online appendix](Appendix.pdf): accompanying experiments, definitions, tables and analyses, 31 pages.
+- [Anonymous review copy](Manuscript_anonymous.pdf): the same study with author details removed, 24 pages.
+- [Online appendix](Appendix.pdf): accompanying experiments, definitions, tables and analyses, 27 pages.
 - [Editable LaTeX sources](../paper_source/): manuscript, appendix, bibliography and figures.
 - [Additional diagnostic results](ADDITIONAL_RESULTS.md): corrected extraction, learned verifier and DSTC2 outcomes.
 

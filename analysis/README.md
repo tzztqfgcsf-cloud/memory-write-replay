@@ -1,6 +1,6 @@
 # Variant-tolerant re-scoring and decomposition
 
-Supports manuscript Sections 5.2, 6.4 and 6.5 and Online Appendix K. Commands are in [REPRODUCING.md](../REPRODUCING.md#variant-tolerant-scoring-and-decomposition).
+Supports manuscript Sections 5.2–5.3, 6.3 and 6.5 and Online Appendix K. Commands are in [REPRODUCING.md](../REPRODUCING.md#variant-tolerant-scoring-and-decomposition).
 
 Standard library only. No model call, no policy execution: the script re-scores
 the saved final states of `core/data` (3,024 episodes x 14 conditions) and

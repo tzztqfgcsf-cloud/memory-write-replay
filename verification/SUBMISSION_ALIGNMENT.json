@@ -1,26 +1,26 @@
 {
   "status": "PASS",
-  "artifact_date": "2026-10-06",
+  "artifact_date": "2026-10-12",
   "document_sha256": {
-    "Manuscript_anonymous.pdf": "e7183b51de6baebb2d1ba35ec2c7af8cc67c7639c309b285ba5c2e6a49947d6a",
-    "Appendix.pdf": "c286ca7097e6021752a42647ecaf6305c14a2d13951e66acc5b23fff265863b0"
+    "Manuscript_anonymous.pdf": "3ea3f0e1ee6e31146c1fea260c18290fc8be2354769a9628c01d243512cac03f",
+    "Appendix.pdf": "409c58dcf0ec32344f6ccde284574b9205f917a9f9f11bb7cb1f088daf157fe3"
   },
   "document_pages": {
-    "Manuscript_anonymous.pdf": 23,
-    "Appendix.pdf": 31
+    "Manuscript_anonymous.pdf": 24,
+    "Appendix.pdf": 27
   },
-  "source_class": "acmsmall,review,anonymous",
-  "template": "ACM acmart 2.18, official upstream tag",
-  "build_engine": "Tectonic 0.17.0 / XeTeX",
-  "actual_pdfLaTeX_build": false,
-  "scientific_content_alignment": {
-    "all_44_table_blocks_identical_to_final_source": true,
-    "bibliography_identical": true,
-    "scientific_sections_unchanged_except_artifact_address_and_disclosed_tool_names": true,
-    "appendix_path_labels": "analysis/"
+  "editable_source": "Reconstructed from manuscript PDFs; table data, equations, references and current prose checked.",
+  "source_compile_engine": "Tectonic 0.17.0 / XeTeX",
+  "source_compile_pages": {
+    "main_content_check": 25,
+    "appendix": 30,
+    "anonymous_main": 24
   },
+  "distributed_PDF_engine": "PDFTeX / TeX Live 2026",
+  "appendix_edits": "Two obsolete reproduction paths changed to analysis/.",
+  "scientific_tables_unchanged": 44,
+  "bibliography_entries_unchanged": 58,
   "saved_experiments_and_evaluators_unchanged": true,
-  "published_exposure_diagnostic_preserved": true,
   "prior_full_verification": "analysis/verification.json; core/VERIFICATION.json",
-  "reuse_terms": "Original noncommercial and third-party licenses retained."
+  "reuse_terms": "Original noncommercial and third-party terms retained."
 }

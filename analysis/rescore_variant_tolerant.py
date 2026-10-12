@@ -1,5 +1,5 @@
 """Variant-tolerant re-scoring, exposure invariance check and decomposition (manuscript
-Sections 5.2, 6.4, 6.5; Online Appendix K).
+Sections 5.2–5.3, 6.3, 6.5; Online Appendix K).
 
 Place this directory at the repository root and run, from the root:
     python3 analysis/rescore_variant_tolerant.py --output-dir /tmp/variant-rescore

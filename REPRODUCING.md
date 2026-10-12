@@ -76,7 +76,7 @@ rescore responses, select a new cohort or replace historical tables.
 | Appendix I: hybrid admission bounds and comparisons | `core/`, `diagnostics/analysis_archive/hybrids/`, `diagnostics/analysis_archive/review_bounds/`, `statistics/` | Saved states/scores and portable archived-comparison checks. |
 | Appendix I.1 / Table I9: 82 avoided reference violations | `diagnostics/variant_audit_v26/` | Row-level reconstruction of the rule stated in Appendix I.1; see its README for the command and exact scope. |
 | Sections 6.1, 6.6–6.7 and Appendix J: corrected-extractor / LLM-verifier / DSTC2 diagnostics | `supplements/` | Aggregate verification and supported saved-response replay; corpus exclusions documented. |
-| Sections 5.2, 6.4–6.5, Tables 7–8 and Appendix K | `analysis/` | Reproduce and verify both references, fixed-proposal invariance, operation-level decomposition and 5,000-draw case-cluster intervals. |
+| Sections 5.2–5.3, 6.3 and 6.5, Tables 7–8 and Appendix K | `analysis/` | Reproduce and verify both references, fixed-proposal invariance, operation-level decomposition and 5,000-draw case-cluster intervals. |
 
 The manuscript and appendix are distributed together with the matching editable sources. The earlier Table I9 audit remains a documented reconstruction; Appendix K adds a separate analysis without overwriting those results.
 
@@ -92,8 +92,8 @@ The supported entrypoints reproduce saved outputs and published analyses. Histor
 
 ## Final-manuscript exposure audit
 
-Run `python3 analysis/exposure_sets.py --output-dir /tmp/memory-write-exposure` in a fresh directory. This supports Sections 6.2, 6.4, 7.1 and 8 by separating gate-log exposure, differing final states, validity-dependent outcome differences, score differences and missing ALLOW replays. See `analysis/README.md` for definitions and validation.
+Run `python3 analysis/exposure_sets.py --output-dir /tmp/memory-write-exposure` in a fresh directory. This supports Sections 4.2, 6.2–6.3, 7.1 and 9 by separating gate-log exposure, differing final states, validity-dependent outcome differences, score differences and missing ALLOW replays. See `analysis/README.md` for definitions and validation.
 
 ## Document identity
 
-`docs/Manuscript_anonymous.pdf` is the 23-page anonymous review manuscript. `docs/Appendix.pdf` is the matching 31-page appendix. Editable anonymous sources are in `paper_source/`. Downloadable PDF assets are identical to these files.
+`docs/Manuscript_anonymous.pdf` is the 24-page anonymous review manuscript. `docs/Appendix.pdf` is the matching 27-page appendix. Editable anonymous sources are in `paper_source/`. Downloadable PDF assets are identical to these files.
