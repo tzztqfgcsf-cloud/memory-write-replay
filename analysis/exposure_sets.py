@@ -1,4 +1,4 @@
-"""Reference-independent exposure sets and the human-review scope (revision of Sections 6.4, 7.1, 8).
+"""Reference-independent exposure sets and the human-review scope (Sections 4.2, 6.2–6.3, 7.1, 9).
 
 Place this directory at the repository root and run, from the root:
     python3 analysis/exposure_sets.py --output-dir /tmp/exposure-sets

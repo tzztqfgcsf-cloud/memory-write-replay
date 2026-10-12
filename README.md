@@ -4,7 +4,7 @@ Materials for **Diagnosing Memory-Write Decisions in Conversational Assistants T
 
 [Manuscript](docs/Manuscript.pdf) · [Anonymous review copy](docs/Manuscript_anonymous.pdf) · [Online appendix](docs/Appendix.pdf) · [LaTeX sources](paper_source/)
 
-The main paper has 23 pages and the appendix has 31 pages.
+The main paper has 24 pages and the appendix has 27 pages.
 
 ## Start here
 
